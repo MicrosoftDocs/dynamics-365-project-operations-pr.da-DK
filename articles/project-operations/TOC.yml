@@ -1,0 +1,954 @@
+- name: Dynamics 365 Project Operations
+  href: project-operations-home-page.md
+- name: Project Operations for ressource/ikke-lagerbaserede scenarier
+  items:
+    - name: Salgsproces
+      items:
+        - name: Salgsoversigt
+          href: sales/sales-overview.md
+        - name: Vigtige forskelle
+          href: sales/key-differences.md
+        - name: Installation
+          items:
+            - name: Produkter
+              href: sales/sales-products.md
+            - name: Undermoduler og enhedsgrupper
+              href: sales/sales-units-unit-groups.md
+            - name: Valuta
+              href: sales/sales-currency.md
+        - name: Administrer kundeemner
+          href: sales/managing-leads.md
+        - name: Administrer salgsmuligheder
+          items:
+            - name: Overskrift til salgsmulighed
+              href: sales/opportunity-header.md
+            - name: Produktbaserede linjer
+              href: sales/product-based-lines.md
+            - name: Projektbaserede linjer
+              href: sales/project-based-lines.md
+            - name: Sammenkæd tilbud og salgsmuligheder
+              href: sales/link-quotes-opportunities.md
+            - name: Luk en salgsmulighed
+              href: sales/close-opportunity.md
+        - name: Administrer tilbud
+          items:
+            - name: Nøglekoncepter
+              href: sales/quotes-key-concepts.md
+            - name: 'Administrer tilbudsværdier, kundebudgetter og grænser, som ikke må overskrides'
+              href: sales/quote-values-budgets-limits.md
+            - name: Administrer flere kunder i et tilbud
+              href: sales/manage-multiple-customers-quote.md
+            - name: Produktbaserede tilbudslinjer
+              item:
+                - name: Produktbaserede tilbudslinjer for omkostningsfastsættelse
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Administrer komplekse undermoduler til produktbaserede tilbudslinjer
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektbaserede tilbudslinjer
+              items:
+                - name: Administrer projektprislister
+                  href: sales/managing-project-price-lists.md
+                - name: Administrer flere kunder i en tilbudslinje
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: Tilknyt projekter og opgaver til en tilbudslinje
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Opret estimater på en tilbudslinje
+                  href: sales/create-estimate-quote-line.md
+                - name: Importer estimater fra et projekt til en tilbudslinje
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Administrer tilbudsværdier, kundebudgetter og grænser, som ikke må overskrides'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Fakturaplanlægninger på en tilbudslinje
+                  href: sales/invoice-schedule-quote-line
+            - name: Vind et tilbud
+              href: sales/win-quote.md
+            - name: Tab et tilbud
+              href: sales/lose-quote.md
+        - name: Administrer kontrakter
+          items:
+            - name: Nøglekoncepter
+              href: sales/contacts-key-concepts.md
+            - name: 'Administrer kontraktværdier, kundebudgetter og grænser, som ikke må overskrides'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Administrer flere kunder i en kontrakt
+              href: sales/manage-multiple-customers-contract.md
+            - name: Produktbaserede kontraktlinjer
+              items:
+                - name: Produktbaserede kontraktlinjer for omkostningsfastsættelse
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Administrer komplekse undermoduler til produktbaserede kontraktlinjer
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Projektbaserede kontraktlinjer
+              items:
+                - name: Administrer projektprislister
+                  href: sales/manage-project-price-lists.md
+                - name: Administrer flere kunder i en kontraktlinje
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Tilknyt projekter og opgaver til en kontraktlinje
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Opret estimater for et projekt i en kontraktlinje
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Importer estimater fra et projekt til en kontraktlinje
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Administrer kontraktværdier, kundebudgetter og grænser, som ikke må overskrides, i en tilbudslinje'
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: Fakturaplanlægninger på en tilbudslinje
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Bekræft en kontrakt
+              href: sales/confirm-contract.md
+            - name: Luk en kontrakt som arbejde afsluttet
+              href: sales/close-contract-work-completed.md
+            - name: Luk en kontrakt som annulleret
+              href: sales/close-contract-canceled.md
+    - name: Prisfastsættelse og omkostningsfastsættelse
+      items:
+        - name: Produktprislister
+          href: pricing-costing/product-price-list.md
+        - name: Projektprislister
+          items:
+            - name: Prisliste for omkostninger
+              items:
+                - name: Konfigurer kostprislister
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Standardprislister
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Tilsidesæt standardindstillinger
+                  href: pricing-costing/cost-override-default.md
+            - name: Konfiguration af prisliste til salg
+              items:
+                - name: Konfigurer salgsprisliste
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Standardsalgsprislister
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Tilsidesæt standardindstillinger
+                  href: pricing-costing/sales-override-default.md
+        - name: Dimensioner for prisfastsættelse
+          items:
+            - name: Oversigt over dimensioner for prisfastsættelse
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Anvend et eksisterende felt i projekthandlinger som en prisdimension
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Brugerdefinerede felter som prisfastsættelsesdimensioner
+              items:
+                - name: Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Slå en prisdimension fra
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Projektstyring
+      items:
+        - name: Oversigt over projektstyring
+          href: project-management/project-management-overview.md
+        - name: Projektfaser
+          href: project-management/project-stages.md
+        - name: Navigation i brugergrænsefladen
+          href: project-management/navigate-ui.md
+        - name: Forståelse for projektstatus
+          href: project-management/understand-project-status.md
+        - name: Definer projektkalendere
+          href: project-management/define-project-calendars.md
+        - name: Opret et projekt
+          items:
+            - name: Oprettelse af indledende estimater
+              href: project-management/create-initial-estimates.md
+            - name: Angiv projektkalenderen
+              href: project-management/set-project-calendar.md
+            - name: Angiv valutaen for projektet
+              href: project-management/set-project-currency.md
+            - name: Definer en kunde
+              href: project-management/set-customer.md
+            - name: Tilføj en gruppe
+              href: project-management/add-group.md
+        - name: Opdater et projekt
+          href: project-management/update-project.md
+        - name: Kopiér et projekt
+          href: project-management/copy-project.md
+        - name: Planlægning af arbejdsopgavehierarki
+          items:
+            - name: Opret et arbejdsopgavehierarki
+              items:
+                - name: Opret opgaver
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Klip, kopier og indsæt opgaver'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Fortryd og udfør opgaver igen
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Arbejdsopgavehierarki
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Masseopgaveopdateringer
+                  href: project-management/bulk-task-updates.md
+                - name: Rediger opgavedetaljer
+                  href: project-management/edit-task-details.md
+            - name: Opret tildelinger
+              items:
+                - name: Tilføj eksisterende ressourcer
+                  href: project-management/add-existing-resources.md
+                - name: Tilføj generiske ressourcer
+                  href: project-management/add-generic-resources.md
+                - name: 'Forstå tildelingens indvirkning på opgaveindsats, varighed og slutdato'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Få vist tildelingsprofiler
+                  href: project-management/view-assignment-contours.md
+            - name: Naviger i oplevelsen med opgavestyring
+              items:
+                - name: Kolonneadministration
+                  href: project-management/column-management.md
+                - name: Visninger
+                  href: project-management/task-management-views.md
+                - name: Buckets
+                  href: project-management/task management-buckets.md
+        - name: Estimer projekter
+          items:
+            - name: Oversigt over estimerede projekter
+              href: project-management/estimating-projects-overview.md
+            - name: Ressourceestimater
+              items:
+                - name: Opdater projektestimater for at afspejle ændringer i projektplanen
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Opdater priser og omkostningssatser for projektestimater
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Standarder for ressourcens kostpris og omkostningsvaluta
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Standardindstillinger for ressourcens faktureringshyppighed og salgsvaluta
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Opret udgiftsestimater
+              items:
+                - name: Standarder for udgiftens kostpris og omkostningsvaluta
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Standardindstillinger for udgiftens faktureringshyppighed og salgsvaluta
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Opbygning af tilbud og kontrakter
+          items:
+            - name: Importer arbejdsopgavehierarki til tilbud
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Importer arbejdsopgavehierarki til kontrakter
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Projektsporing
+          items:
+            - name: Startside for projektsporing
+              href: project-management/project-tracking-overview.md
+            - name: Kolonnedefinitioner
+              items:
+                - name: Indsats
+                  href: project-management/effort.md
+                - name: Omkostning
+                  href: project-management/cost.md
+                - name: Salg
+                  href: project-management/sales.md
+            - name: Opdater estimat ved fuldførelse
+              href: project-management/update-completed-estimate.md
+        - name: Projektteamets medlemmer
+          items:
+            - name: Oversigt over projektteamets medlemmer
+              href: project-management/project-team-members-overview.md
+            - name: Bevar projektteamets medlemmer
+              items:
+                - name: Tilføj teammedlemmer
+                  href: project-management/add-team-members.md
+                - name: Opdater projektteamets medlemmer
+                  href: project-management/update-project-team-members.md
+                - name: Slet teammedlemmer
+                  href: project-management/delete-team-members.md
+                - name: Bevar reservationer
+                  href: project-management/maintain-bookings.md
+                - name: Projektgodkendere
+                  href: project-management/project-approvers.md
+        - name: Salg
+          items:
+            - name: Oversigt over salgsfane
+              href: project-management/sales-tab-overview.md
+        - name: Samarbejde
+          items:
+            - name: Grupper
+              href: project-management/groups.md
+        - name: Ofte stillede spørgsmål vedrørende projektplanlægning
+          href: project-management/project-planning-faq.md
+    - name: Ressourcestyring
+      items:
+        - name: Oversigt over ressourcestyring
+          href: resource-management/resource-management-overview.md
+        - name: Nøglekoncepter
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reserveringer i forhold til tildelinger
+          href: resource-management/booking-vs-assignment.md
+        - name: Tilstande for ressourcestyring
+          items:
+            - name: Oversigt over tilstande for ressourcestyring
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hybrid
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Central
+              href: resource-management/resource-management-mode-central.md
+        - name: Centraliseret reservation
+          items:
+            - name: Oversigt over centraliseret reservation
+              href: resource-management/centralized-booking-overview.md
+            - name: Tilføj generiske teammedlemmer til opgaver
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definer ressourcekrav
+              href: resource-management/define-resource-requirements.md
+            - name: Definer profiler for krav
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Opdater ressourcekrav
+              href: resource-management/update-resource-requirements.md
+            - name: Indsend ressourcekrav
+              href: resource-management/submit-resource-requirements.md
+            - name: Ressourceanmodninger
+              items:
+                - name: Oversigt over ressourceanmodninger
+                  href: resource-management/resource-requests-overview.md
+                - name: Gennemse felter og handlinger
+                  href: resource-management/review-fields-actions.md
+                - name: Find ressourcer
+                  href: resource-management/find-resources.md
+                - name: Gennemse foreslåede ressourcer
+                  href: resource-management/review-proposed-resources.md
+        - name: Decentraliseret ressourcereservation
+          items:
+            - name: Oversigt over decentraliseret ressourcereservation
+              href: resource-management/centralized-booking-overview.md
+            - name: Indstillinger for at reservere direkte
+              href: resource-management/options-book-directly.md
+            - name: Opfyld generiske ressourcekrav
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administration af ressourcer
+          items:
+            - name: Opret ressourcer
+              href: resource-management/create-resources.md
+            - name: Definer færdigheder og kvalifikationer
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definer roller
+              href: resource-management/define-roles.md
+            - name: Definere ressourcekalendere
+              href: resource-management/define-resource-calendars.md
+            - name: Tilknyt ressourcer til organisationsenheder
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Tilknyt ressourcer til virksomheder
+              href: resource-management/associate-resources-companies.md
+        - name: Reservationsallokeringsmetoder
+          href: resource-management/booking-allocation-methods.md
+        - name: Reservationsstatus
+          href: resource-management/booking-status.md
+        - name: Færdigheds- og kompetencemodeller
+          href: resource-management/skills-proficiency-models.md
+        - name: Ressourceafstemning
+          items:
+            - name: Oversigt over ressourceafstemning
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Nøglekoncepter
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigering
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Udvid reservationer
+              href: resource-management/extend-bookings.md
+            - name: Administrer flere tidszoner
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Tidsforbrug for ressource
+          items:
+            - name: Oversigt over tidsforbrug for ressource
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Søgning, indstillinger og navigation'
+              href: resource-management/search-settings-navigation.md
+        - name: Planlægningsområde
+          items:
+            - name: Navigation og vigtige indstillinger
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Tilpasning
+              href: resource-management/personalization-urs.md
+            - name: Søgning
+              href: resource-management/search-urs.md
+            - name: Handlinger for reservationer
+              href: resource-management/booking-actions-urs.md
+            - name: Reservation
+              items:
+                - name: Reserver til et projekt
+                  href: resource-management/book-project.md
+                - name: Reserver åbne krav
+                  href: resource-management/book-open-requirements.md
+                - name: Erstat ressourcer
+                  href: resource-management/substitute-resources.md
+                - name: Rediger eksisterende reservationer
+                  href: resource-management/edit-existing-bookings.md
+        - name: Ofte stillede spørgsmål i forbindelse med ressourcestyring
+          href: resource-management/resource-management-faq.md
+    - name: Tidspunkt
+      items:
+        - name: Oversigt over tidsregistrering
+          href: time/time-entry-overview.md
+        - name: Opret tidsregistreringer
+          items:
+            - name: 'Importer reservationer, tildelinger og kalenderposter'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Funktionsmåde for brugergrænseflade
+              href: time/ui-behavior.md
+        - name: Indsend tidsregistreringer
+          href: time/submit-time-entries.md
+        - name: Tilbagekald tidsregistreringer
+          items:
+            - name: Inden godkendelse
+              href: time/recall-time-entries-before-approval.md
+            - name: Efter godkendelse
+              href: time/recall-time-entries-after-approval.md
+        - name: Godkend tidsregistreringer
+          href: time/approvals.md
+        - name: Bemærkninger til udvikler
+          items:
+            - name: Forlæng tidsregistreringer
+              href: time/extending-time-entries.md
+            - name: Brugertilpas gitteret for de ugentlige tidsregistreringer
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Overvejelser om sikkerhed
+              href: time/security-considerations.md
+    - name: Udgift
+      items:
+        - name: Startsiden for udgift
+          href: expense/expense-overview.md
+        - name: Lille udgiftspost
+          href: expense/expense-lite-entry.md
+        - name: Indsendelse og tilbagekaldelse af udgiftsposter
+          href: expense/submit-recall-expense-entries.md
+        - name: Godkendelse af små udgiftsposter
+          href: expense/approvals.md
+        - name: Erfaring med udgiftsstyring for projekter
+          items:
+            - name: Konfiguration og installation
+              items:
+                - name: Konfigurer politikker
+                  href: expense/set-up-policies.md
+                - name: Konfigurer arbejdsproces
+                  href: expense/set-up-workflows.md
+                - name: Administrer delegering
+                  href: expense/manage-delegation.md
+                - name: Konfigurer parametre for udgiftsstyring
+                  href: expense/configure-expense-management-parameters.md
+                - name: Konfigurer integration af kreditkort
+                  href: expense/set-up-credit-card-integration.md
+                - name: Konfigurer udgiftskategorier
+                  href: expense/set-up-expense-categories.md
+            - name: Opret udgiftsrapporter
+              items:
+                - name: Fordelinger i en udgiftsrapport
+                  href: expense/distributions-expense-report.md
+            - name: Godkend udgiftsrapporter
+              items:
+                - name: Udgiftsrapporter og flere godkendere
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Bogføring i udgiftsrapporter
+              href: expense/posting-expense-reports.md
+            - name: Rejserekvisition
+              href: expense/travel-requisition.md
+            - name: Kontantforskud
+              href: expense/cash-advance.md
+            - name: Pr. dag
+              href: expense/per-diems.md
+            - name: Økonomistyring
+              items:
+                - name: Momsinddrivelse
+                  href: expense/vat-recovery.md
+            - name: Ny udgiftserfaring
+              items:
+                - name: Nye udgiftsrapporter
+                  href: expense/expense-reports-reimagined.md
+                - name: Afstem kvittering med udgifter ved hjælp af optisk tegngenkendelse
+                  href: expense/match-receipt-expense-ocr.md
+        - name: Udgiftsfastsættelse ved brug mobil
+          href: expense/expense-using-mobile.md
+    - name: Godkendelser
+      items:
+        - name: Oversigt
+          href: approvals/approvals-overview.md
+        - name: Godkend tidsregistreringer
+          href: approvals/approving-time-entries.md
+        - name: Godkend udgiftsposter
+          items:
+            - name: Lille udgift
+              href: approvals/approve-lite-expense.md
+            - name: Fuld udgift
+              href: approvals/approve-full-expense.md
+        - name: Annuller godkendte tidsregistreringer
+          href: approvals/cancelling-approved-time-entries.md
+        - name: Annuller godkendte udgiftsregistreringer
+          items:
+            - name: Lille udgift
+              href: approvals/cancel-lite-expense.md
+            - name: Fuld udgift
+              href: approvals/cancel-full-expense.md
+    - name: Faktiske
+      items:
+        - name: Oversigt
+          href: actuals/actuals-overview.md
+        - name: Opret faktiske for et internt projekt
+          href: actuals/create-actuals-internal-project.md
+        - name: Opret faktiske for en fakturerbar projektkomponent
+          items:
+            - name: Tid og materiale
+              href: actuals/time-material.md
+            - name: Fast pris
+              href: actuals/fixed-price.md
+        - name: 'Administrer status, som ikke må¨overskrides, og valideringer'
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: Projektkladder
+          items:
+            - name: Opret projektkladder for at registrere gebyrer på projekter
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: Opret projektkladder til tid og udgift
+              href: actuals/create-project-journals-time-expense.md
+            - name: Opret og bekræft rettelseskladder
+              href: actuals/create-confirm-correction-journals-md
+        - name: Administrer faktureringsefterslæb
+          href: actuals/manage-billing-backlog.md
+    - name: Proformafakturering
+      items:
+        - name: Opret faktureringsplaner
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Opret en manuel proformafaktura
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Administrer en proformafaktura
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Bekræft en proformafaktura
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Rettede fakturaer
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Konfigurer en automatisk oprettelse af fakturaer
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: Lille udrulning - aftale til håndtering af proformafakturering
+  items:
+    - name: Relevante scenarier
+      href: applicable-scenarios.md
+    - name: Nyheder
+      href: whats-new-mode-2-project-operations.md
+    - name: Konfigurer dit miljø
+      href: set-up-environment-mode-2.md
+    - name: Eksempeldata
+      href: sample-data-mode-2.md
+    - name: Salgsproces
+      items:
+        - name: Oversigt over salgsproces
+          href: sales/sales-overview.md
+        - name: Vigtige forskelle
+          href: sales/key-differences.md
+        - name: Installation
+          items:
+            - name: Produkter
+              href: sales/sales-products.md
+            - name: Undermoduler og enhedsgrupper
+              href: sales/sales-units-unit-groups.md
+            - name: Valuta
+              href: sales/sales-currency.md
+        - name: Administrer kundeemner
+          href: sales/managing-leads.md
+        - name: Administrer salgsmuligheder
+          items:
+            - name: Overskrift til salgsmulighed
+              href: sales/opportunity-header.md
+            - name: Produktbaserede linjer
+              href: sales/product-based-lines.md
+            - name: Projektbaserede linjer
+              href: sales/project-based-lines.md
+            - name: Sammenkæd tilbud og salgsmuligheder
+              href: sales/link-quotes-opportunities.md
+            - name: Luk en salgsmulighed
+              href: sales/close-opportunity.md
+        - name: Administrer tilbud
+          items:
+            - name: Nøglekoncepter
+              href: sales/quotes-key-concepts.md
+            - name: 'Administrer tilbudsværdier, kundebudgetter og grænser, som ikke må overskrides'
+              href: sales/quote-values-budget-limits.md
+            - name: Administrer flere kunder i et tilbud
+              href: sales/manage-multiple-customers-quote.md
+            - name: Produktbaserede tilbudslinjer
+              items:
+                - name: Produktbaserede tilbudslinjer for omkostningsfastsættelse
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Administrer komplekse undermoduler til produktbaserede tilbudslinjer
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektbaserede tilbudslinjer
+              items:
+                - name: Administrer projektprislister
+                  href: sales/manage-project-price-lists.md
+                - name: Administrer flere kunder i en tilbudslinje
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Tilknyt projekter og opgaver til en tilbudslinje
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Opret estimater på en tilbudslinje
+                  href: sales/create-estimate-quote-line.md
+                - name: Importer estimater fra et projekt til en tilbudslinje
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Administrer tilbudsværdier, kundebudgetter og grænser, som ikke må overskrides'
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Fakturaplanlægninger på en tilbudslinje
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Vind et tilbud
+              href: sales/win-quote.md
+            - name: Tab et tilbud
+              href: sales/lose-quote.md
+        - name: Administrer kontrakter
+          items:
+            - name: Nøglekoncepter
+              href: sales/contracts-key-concepts.md
+            - name: 'Administrer kontraktværdier, kundebudgetter og grænser, som ikke må overskrides'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Administrer flere kunder i en kontrakt
+              href: sales/manage-multiple-customers-contract.md
+            - name: Produktbaserede kontraktlinjer
+              items:
+                - name: Produktbaserede kontraktlinjer for omkostningsfastsættelse
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Administrer komplekse undermoduler til produktbaserede kontraktlinjer
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Projektbaserede kontraktlinjer
+              items:
+                - name: Administrer projektprislister
+                  href: sales/manage-project-price-lists.md
+                - name: Administrer flere kunder i en kontraktlinje
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Tilknyt projekter og opgaver til en kontraktlinje
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Opret estimater fra et projekt til en kontraktlinje
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Importer estimater fra et projekt til en kontraktlinje
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Administrer kontraktværdier, kundebudgetter og grænser, som ikke må overskrides, i en kontraktlinje'
+                  href: sales/manage-contract-values-project-based.md
+                - name: Fakturaplanlægninger på en tilbudslinje
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Bekræft en kontrakt
+              href: sales/confirm-contract.md
+            - name: Luk en kontrakt som arbejde afsluttet
+              href: sales/close-contract-work-completed.md
+            - name: Luk en kontrakt som annulleret
+              href: sales/close-contract-canceled.md
+    - name: Prisfastsættelse og omkostningsfastsættelse
+      items:
+        - name: Produktprislister
+          href: pricing-costing/product-price-lists.md
+        - name: Projektprislister
+          items:
+            - name: Prisliste for omkostninger
+              items:
+                - name: Konfigurer kostprislister
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Standardprislister
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Tilsidesæt standardindstillinger
+                  href: pricing-costing/cost-override-default.md
+            - name: Konfiguration af prisliste til salg
+              items:
+                - name: Konfigurer salgsprisliste
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Standardsalgsprislister
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Tilsidesæt standardindstillinger
+                  href: pricing-costing/sales-override-default.md
+        - name: Dimensioner for prisfastsættelse
+          items:
+            - name: Oversigt over dimensioner for prisfastsættelse
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: Anvend et eksisterende felt i projekthandlinger som en prisdimension
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Brugerdefinerede felter som prisfastsættelsesdimension
+              items:
+                - name: Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Slå en prisdimension fra
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Projektstyring
+      items:
+        - name: Oversigt over projektstyring
+          href: project-management/project-management-overview.md
+        - name: Projektfaser
+          href: project-management/project-stages.md
+        - name: Navigation i brugergrænsefladen
+          href: project-management/navigate-ui.md
+        - name: Forståelse for projektstatus
+          href: project-management/understand-project-status.md
+        - name: Definer projektkalendere
+          href: project-management/define-project-calendars.md
+        - name: Opret et projekt
+          items:
+            - name: Opret indledende estimater
+              href: project-management/create-initial-estimates.md
+            - name: Angiv projektkalenderen
+              href: project-management/set-project-calendar.md
+            - name: Angiv valutaen for projektet
+              href: project-management/set-project-currency.md
+            - name: Definer en kunde
+              href: project-management/set-customer.md
+            - name: Tilføj en gruppe
+              href: project-management/add-group.md
+        - name: Opdater et projekt
+          href: project-management/update-project.md
+        - name: Kopiér et projekt
+          href: project-management/copy-project.md
+        - name: Planlægning af arbejdsopgavehierarki
+          items:
+            - name: Opret et arbejdsopgavehierarki
+              items:
+                - name: Opret opgaver
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Klip, kopier og indsæt opgaver'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Fortryd og udfør opgaver igen
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Arbejdsopgavehierarki
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Masseopgaveopdateringer
+                  href: project-management/bulk-task-updates.md
+                - name: Rediger opgavedetaljer
+                  href: project-management/edit-task-details.md
+            - name: Opret tildelinger
+              items:
+                - name: Tilføj eksisterende ressourcer
+                  href: project-management/add-existing-resources.md
+                - name: Tilføj generiske ressourcer
+                  href: project-management/add-generic-resources.md
+                - name: 'Forstå tildelingens indvirkning på opgaveindsats, varighed og slutdato'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Få vist tildelingsprofiler
+                  href: project-management/view-assignment-contours.md
+            - name: Naviger i oplevelsen med opgavestyring
+              items:
+                - name: Kolonneadministration
+                  href: project-management/column-management.md
+                - name: Visninger
+                  href: project-management/task-management-views.md
+                - name: Buckets
+                  href: project-management/task management-buckets.md
+        - name: Estimer projekter
+          items:
+            - name: Oversigt over estimerede projekter
+              href: project-management/estimate-projects-overview.md
+            - name: Ressourceestimater
+              items:
+                - name: Opdater projektestimater for at afspejle ændringer i projektplanen
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Opdater priser og omkostningssatser for projektestimater
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Standarder for ressourcens kostpris og omkostningsvaluta
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Standardindstillinger for ressourcens faktureringshyppighed og salgsvaluta
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Opret udgiftsestimater
+              items:
+                - name: Standarder for udgiftens kostpris og omkostningsvaluta
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Standardindstillinger for udgiftens faktureringshyppighed og salgsvaluta
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Opbygning af tilbud og kontrakter
+          items:
+            - name: Importer arbejdsopgavehierarki til tilbud
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Importer arbejdsopgavehierarki til kontrakter
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Projektsporing
+          items:
+            - name: Startside for projektsporing
+              href: project-management/cost-vs-effort-overview.md
+            - name: Kolonnedefinitioner
+              items:
+                - name: Indsats
+                  href: project-management/effort.md
+                - name: Omkostning
+                  href: project-management/cost.md
+                - name: Salg
+                  href: project-management/sales.md
+            - name: Opdater estimat ved fuldførelse
+              href: project-management/update-completed-estimate.md
+        - name: Projektteamets medlemmer
+          items:
+            - name: Oversigt over projektteamets medlemmer
+              href: project-management/project-team-members-overview.md
+            - name: Bevar projektteamets medlemmer
+              items:
+                - name: Tilføj teammedlemmer
+                  href: project-management/add-team-members.md
+                - name: Opdater projektteamets medlemmer
+                  href: project-management/update-project-team-members.md
+                - name: Slet teammedlemmer
+                  href: project-management/delete-team-members.md
+                - name: Bevar reservationer
+                  href: project-management/maintain-bookings.md
+                - name: Projektgodkendere
+                  href: project-management/project-approvers.md
+        - name: Salg
+          items:
+            - name: Oversigt over salgsfane
+              href: project-management/sales-tab-overview.md
+        - name: Samarbejde
+          items:
+            - name: Grupper
+              href: project-management/groups.md
+        - name: Ofte stillede spørgsmål vedrørende projektplanlægning
+          href: project-management/project-planning-faq.md
+    - name: Ressourcestyring
+      items:
+        - name: Oversigt over ressourcestyring
+          href: resource-management/resource-management-overview.md
+        - name: Nøglekoncepter
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reserveringer i forhold til tildelinger
+          href: resource-management/booking-vs-assignment.md
+        - name: Tilstande for ressourcestyring
+          items:
+            - name: Oversigt over tilstande for ressourcestyring
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hybrid
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Central
+              href: resource-management/resource-management-mode-central.md
+        - name: Centraliseret reservation
+          items:
+            - name: Oversigt over centraliseret reservation
+              href: resource-management/centralized-booking-overview.md
+            - name: Tilføj generiske teammedlemmer til opgaver
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definer ressourcekrav
+              href: resource-management/define-resource-requirements.md
+            - name: Definer profiler for krav
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Opdater ressourcekrav
+              href: resource-management/update-resource-requirements.md
+            - name: Indsend ressourcekrav
+              href: resource-management/submit-resource-requirements.md
+            - name: Ressourceanmodninger
+              items:
+                - name: Oversigt over ressourceanmodninger
+                  href: resource-management/resource-requests-overview.md
+                - name: Gennemse felter og handlinger
+                  href: resource-management/review-fields-actions.md
+                - name: Find ressourcer
+                  href: resource-management/find-resources.md
+                - name: Gennemse foreslåede ressourcer
+                  href: resource-management/review-proposed-resources.md
+        - name: Decentraliseret ressourcereservation
+          items:
+            - name: Oversigt over decentraliseret ressourcereservation
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: Indstillinger for at reservere direkte
+              href: resource-management/options-book-directly.md
+            - name: Opfyld generiske ressourcekrav
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administration af ressourcer
+          items:
+            - name: Opret ressourcer
+              href: resource-management/create-resources.md
+            - name: Definer færdigheder og kvalifikationer
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definer roller
+              href: resource-management/define-roles.md
+            - name: Definere ressourcekalendere
+              href: resource-management/define-resource-calendars.md
+            - name: Tilknyt ressourcer til organisationsenheder
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Tilknyt ressourcer til virksomheder
+              href: resource-management/associate-resources-companies.md
+        - name: Reservationsallokeringsmetoder
+          href: resource-management/booking-allocation-methods.md
+        - name: Reservationsstatusser
+          href: resource-management/booking-status.md
+        - name: Færdigheds- og kompetencemodeller
+          href: resource-management/skills-proficiency-models.md
+        - name: Ressourceafstemning
+          items:
+            - name: Oversigt over ressourceafstemning
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Nøglekoncepter
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigering
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Udvid reservationer
+              href: resource-management/extend-bookings.md
+            - name: Administrer flere tidszoner
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Tidsforbrug for ressource
+          items:
+            - name: Oversigt over tidsforbrug for ressource
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Søgning, indstillinger og navigation'
+              href: resource-management/search-settings-navigation.md
+        - name: Planlægningsområde
+          items:
+            - name: Navigation og vigtige indstillinger
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Tilpasning
+              href: resource-management/personalization-urs.md
+            - name: Søgning
+              href: resource-management/search-urs.md
+            - name: Handlinger for reservationer
+              href: resource-management/booking-actions-urs.md
+            - name: Reservation
+              items:
+                - name: Reserver til et projekt
+                  href: resource-management/book-project.md
+                - name: Reserver åbne krav
+                  href: resource-management/book-open-requirements.md
+                - name: Erstat ressourcer
+                  href: resource-management/substitute-resources.md
+                - name: Rediger eksisterende reservationer
+                  href: resource-management/edit-existing-bookings.md
+        - name: Ofte stillede spørgsmål i forbindelse med ressourcestyring
+          href: resource-management/resource-management-faq.md
+    - name: Tidspunkt
+      items:
+        - name: Oversigt over tidsregistrering
+          href: time/time-entry-overview.md
+        - name: Opret tidsregistreringer
+          items:
+            - name: 'Importer reservationer, tildelinger og kalenderposter'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Funktionsmåde for brugergrænseflade
+              href: time/ui-behavior.md
+        - name: Indsend tidsregistreringer
+          href: time/submit-time-entries.md
+        - name: Tilbagekald tidsregistreringer
+          items:
+            - name: Inden godkendelse
+              href: time/recall-time-entries-before-approval.md
+            - name: Efter godkendelse
+              href: time/recall-time-entries-after-approval.md
+        - name: Godkend tidsregistreringer
+          href: time/approvals.md
+        - name: Bemærkninger til udvikler
+          items:
+            - name: Forlæng tidsregistreringer
+              href: time/extending-time-entries.md
+            - name: Brugertilpas gitteret for de ugentlige tidsregistreringer
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Overvejelser om sikkerhed
+              href: time/security-considerations.md
+    - name: Udgift
+      items:
+        - name: Startsiden for udgift
+          href: expense/expense-overview.md
+        - name: Udgiftspost
+          href: expense-entry.md
+    - name: Godkendelser
+      items:
+        - name: Oversigt
+          href: approvals/approvals-overview.md
+        - name: Godkend tidsregistreringer
+          href: approvals/approving-time-entries.md
+        - name: Godkend udgiftsposter
+          href: approve-expense-entries.md
+    - name: Proformafakturering
+      items:
+        - name: Opret faktureringsplaner
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Opret en manuel proformafaktura
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Administrer en proformafaktura
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Bekræft en proformafaktura
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Rettede fakturaer
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Konfigurer en automatisk oprettelse af fakturaer
+          href: proforma-invoicing/configure-automated-invoice-creation.md

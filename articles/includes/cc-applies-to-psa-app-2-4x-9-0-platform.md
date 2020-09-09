@@ -1,0 +1,1 @@
+<span data-ttu-id="cfcf4-101">Gælder for Project Service-appen version 2.4.4.30 eller ældre på Dynamics 365 (online) version 9.x</span><span class="sxs-lookup"><span data-stu-id="cfcf4-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>
