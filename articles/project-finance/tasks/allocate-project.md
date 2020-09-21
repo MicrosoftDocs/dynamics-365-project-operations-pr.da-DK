@@ -1,0 +1,47 @@
+---
+title: Fordel et projektbudget eller en budgetrevision på tværs af perioder
+description: I denne procedure vises det, hvordan du kan allokere projektbudgetbeløb på tværs af perioder.
+author: KimANelson
+manager: AnnBe
+ms.date: 11/03/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Operations
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.assetid: 9f48641e-84d5-4d02-99bb-e1b244237d3c
+ms.author: knelson
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a895d3f48c09bb90a743bde4c58d79af7967ba5
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3750483"
+---
+# <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Fordel et projektbudget eller en budgetrevision på tværs af perioder
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+Når du har angivet et projektbudget eller en projektbudgetrevision, og før du sender det til godkendelse, kan du allokere beløbene på tværs af perioder. Hvis budgettet eller budgetrevisionen afvises, kan du også allokere beløbene, før du sender dem igen. 
+
+Når et budget eller en budgetrevision er blevet fordelt, kan du gennemse allokeringsbeløbene og foretage ændringer heri, før du sender budgettet eller budgetrevisionen til arbejdsgangen for godkendelse. 
+
+1. Klik på Projektstyring og regnskab > Almindelig > Projekter > Alle projekter. 
+2. Vælg eller åbn det projekt, som du vil tildele budgettet eller budgetrevisionen til. 
+3. Klik på Projektbudget i budgetgruppen under fanen Plan i handlingsruden. 
+4. I projektbudgetformularen i handlingsruden skal du klikke på Tildel budget på fanen Budget. 
+5. I formularen Fordel budget skal du i felterne Alloker fra og Alloker til angive den første og sidste dato, som du vil medtage i budgetfordelingen. Disse er som regel enten de første og sidste datoer for hele projektet eller de første og sidste datoer for indeværende år.  
+   > [BEMÆRK!] Når der er blevet tildelt en transaktionstype, og beløbene er blevet godkendte, kan allokeringsperioden ikke ændres i fremtidige budgetrevisioner. 
+6. Vælg, om du vil fordele projektbudgettet efter år, kvartal eller firmaets regnskabsperiode i året, i feltet Efter tidsinterval.
+7. Vælg de transaktionstyper, der skal allokeres, og klik på Alloker. 
+8. I formularen for projektbudgetfordeling eller fordeling af projektbudgetrevision skal du gennemse eller opdater de beløb, der er blevet allokeret. 
+9. Luk siden.
+10. Når allokeringen er foretaget på den ønskede måde, skal du klikke på Indsend på siden Projektbudget for at sende budgettet eller budgetrevisionerne til godkendelsesarbejdsgangen.  
+
+

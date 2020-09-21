@@ -1,0 +1,1 @@
+# <a name="welcome-to-dynamics-365-project-operations"></a>Velkommen til Dynamics 365 Project Operations!
