@@ -1,0 +1,45 @@
+---
+title: Lukke et tilbud
+description: Dette emne indeholder oplysninger om, hvordan du lukker tilbud i Project Operations.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 3c429fa14b4b95420c67a91a6a59af7db2660f68
+ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3898884"
+---
+# <a name="close-a-quote"></a><span data-ttu-id="4eb85-103">Lukke et tilbud</span><span class="sxs-lookup"><span data-stu-id="4eb85-103">Close a quote</span></span>
+
+<span data-ttu-id="4eb85-104">_**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_</span><span class="sxs-lookup"><span data-stu-id="4eb85-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="4eb85-105">Et projekttilbud kan lukkes som vundet eller tabt.</span><span class="sxs-lookup"><span data-stu-id="4eb85-105">A project quote can be closed as Won or Lost.</span></span> <span data-ttu-id="4eb85-106">Da funktionerne Aktivér og Revider ikke understøttes i tilbud i Microsoft Dynamics 365 Project Operations, kan du lukke et tilbud i kladdeform.</span><span class="sxs-lookup"><span data-stu-id="4eb85-106">Because the functions Activate and Revise are not supported on quotes in Microsoft Dynamics 365 Project Operations, you can close a draft quote.</span></span>
+
+## <a name="close-a-quote-as-won"></a><span data-ttu-id="4eb85-107">Luk et tilbud som vundet</span><span class="sxs-lookup"><span data-stu-id="4eb85-107">Close a quote as Won</span></span>
+
+<span data-ttu-id="4eb85-108">Hvis du lukker et projekttilbud som vundet, angives tilbuddets status til **Lukket**, og statusårsag til **Vundet**.</span><span class="sxs-lookup"><span data-stu-id="4eb85-108">Closing a project quote as Won will set the status of the quote to **Closed** and status reason to **Won**.</span></span> <span data-ttu-id="4eb85-109">Når du lukker tilbud, skrivebeskyttes de, og der oprettes en kladde med et udkast til projektkontrakt med alle tilbudsoplysninger.</span><span class="sxs-lookup"><span data-stu-id="4eb85-109">Closing the quotes makes it read-only and creates a draft project contract with all the quote information.</span></span> <span data-ttu-id="4eb85-110">Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.</span><span class="sxs-lookup"><span data-stu-id="4eb85-110">Because a closed quote can't be reopened, before you close a quote, a confirmation dialog will confirm your changes.</span></span>
+
+<span data-ttu-id="4eb85-111">Den projektkontrakt, der er oprettet ud fra et projekttilbud, gøres også tilgængelig i modulet Projektstyring og regnskab i Project Operations.</span><span class="sxs-lookup"><span data-stu-id="4eb85-111">The project contract created from a project quote is also made available in the Project management and accounting module of Project Operations.</span></span> <span data-ttu-id="4eb85-112">Hvis en projektkontrakt ikke er knyttet til et projekt på nogen af sine linjer, gøres denne projektkontrakt tilgængelig som en inaktiv projektkontrakt, og den bliver aktiv, så snart der er knyttet et projekt til mindst en af kontraktlinjerne.</span><span class="sxs-lookup"><span data-stu-id="4eb85-112">If a project contract is not mapped to a project on any of its lines, this project contract is made available as an inactive project contract and becomes active as soon as a project is mapped to at least one of its contract lines.</span></span>
+
+<span data-ttu-id="4eb85-113">Hvis tilbuddet er knyttet til en salgsmulighed, lukkes eventuelle andre projekttilbud på salgsmuligheden automatisk som tabt.</span><span class="sxs-lookup"><span data-stu-id="4eb85-113">If the quote is attached to an opportunity, any other project quotes on the opportunity are automatically closed as Lost.</span></span>
+
+### <a name="financial-impact-of-closing-a-quote-as-won"></a><span data-ttu-id="4eb85-114">Økonomiske konsekvenser af at lukke et tilbud som vundet</span><span class="sxs-lookup"><span data-stu-id="4eb85-114">Financial impact of closing a quote as Won</span></span>
+
+<span data-ttu-id="4eb85-115">Hvis der har været faktiske oplysninger for den tid, der er registreret på et projekt, mens det stadig er knyttet til et kladdetilbud, registreres kun omkostningerne for tiden eller udgiften.</span><span class="sxs-lookup"><span data-stu-id="4eb85-115">If there have been any actuals for time recorded on a project while it is still attached to a draft quote, only the cost of the time or expense is recorded.</span></span> <span data-ttu-id="4eb85-116">Når et tilbud er lukket som vundet, vil programmet omstrukturere omkostningerne ved at tilbageføre de gamle faktiske omkostninger og oprette nye faktiske omkostninger.</span><span class="sxs-lookup"><span data-stu-id="4eb85-116">After a quote is closed as Won, the application will refactor the costs by reversing the older cost actuals and re-creating new cost actuals.</span></span> <span data-ttu-id="4eb85-117">Programmet behandler de faktiske omkostninger baseret på faktureringsmetoden for den tilknyttede projektkontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="4eb85-117">The application will process these cost actuals based on the Billing method of the associated project contract line.</span></span> <span data-ttu-id="4eb85-118">Hvis de faktiske omkostninger refererer til en tids- og materialekontraktlinje, oprettes der automatisk tilsvarende faktiske ikke-fakturerede salg for tidspunktet, hvor tilbuddet blev lukket, og projektkontrakten oprettes i systemet.</span><span class="sxs-lookup"><span data-stu-id="4eb85-118">If the cost actuals reference a time and material contract line, the system will automatically create corresponding unbilled sales actuals for when the quote is closed and the project contract is created.</span></span> <span data-ttu-id="4eb85-119">Hvis der henvises til omkostningerne i forbindelse med en fastpriskontraktlinje, stopper programmet med at genbehandle de faktiske omkostninger på baggrund af reglerne for opdeling af fakturering for projektkontraktkunderne.</span><span class="sxs-lookup"><span data-stu-id="4eb85-119">If the cost actuals reference a fixed price contract line, the application will stop reprocessing the cost actuals based on the split billing rules for the project contract customers.</span></span>
+
+<span data-ttu-id="4eb85-120">Alle genindhentede faktiske oplysninger er tilgængelige i modulet Projektstyring og regnskab, så projektbogholderen kan gennemgå, opdatere og bogføre dem i finanskladden.</span><span class="sxs-lookup"><span data-stu-id="4eb85-120">All reprocessed actuals are available in the Project management and accounting module for the Project accountant to review, update, and post to the General ledger.</span></span> 
+
+## <a name="close-a-quote-as-lost"></a><span data-ttu-id="4eb85-121">Luk et tilbud som tabt</span><span class="sxs-lookup"><span data-stu-id="4eb85-121">Close a quote as Lost</span></span>
+
+<span data-ttu-id="4eb85-122">Hvis du lukker et projekttilbud som tabt, angives status til **Lukket**, og statusårsag til **Tabt**.</span><span class="sxs-lookup"><span data-stu-id="4eb85-122">Closing a project quote as Lost will set the status to **Closed** and status reason to **Lost**.</span></span> <span data-ttu-id="4eb85-123">Når tilbuddet lukkes, er det skrivebeskyttet.</span><span class="sxs-lookup"><span data-stu-id="4eb85-123">Closing the quote makes it read-only.</span></span> <span data-ttu-id="4eb85-124">Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.</span><span class="sxs-lookup"><span data-stu-id="4eb85-124">Because a closed quote can't be reopened and, before you close a quote, a confirmation dialog will confirm your changes.</span></span>
+
+<span data-ttu-id="4eb85-125">Hvis det projekttilbud, der er lukket som tabt, er et projekt, der refereres til på nogen af sine linjer, er det projekt også markeret som lukket, og eventuelle ressourcereservationer fra den pågældende dag annulleres.</span><span class="sxs-lookup"><span data-stu-id="4eb85-125">If the project quote that is closed as Lost has a project referenced on any of its lines, that project is also marked as Closed and any resource bookings from that day forward are canceled.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4eb85-126">Hvis du lukker et tilbud som vundet eller tabt i Project Operations, påvirkes statussen for salgsmuligheden ikke, og den vil være åben, indtil den lukkes manuelt.</span><span class="sxs-lookup"><span data-stu-id="4eb85-126">In Project Operations, closing a quote as Won or Lost will not impact that status of the Opportunity, which will remain open until it is manually closed.</span></span>
