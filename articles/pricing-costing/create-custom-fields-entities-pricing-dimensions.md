@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898254"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074210"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
 
@@ -36,8 +35,8 @@ Benyt følgende fremgangsmåde, når du vil oprette en brugerdefineret grupperet
 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Oprette en brugerdefineret løsning til prisdimensioner
-1. Gå til **Indstillinger** > **Løsninger**, og vælg derefter **Ny** for at oprette en ny løsning. 
-2. Navngiv løsningen **\<your organization name> prisfastsættelsesdimensioner**, angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.
+1. Gå til **Indstillinger** > **Løsninger** , og vælg derefter **Ny** for at oprette en ny løsning. 
+2. Navngiv løsningen **\<your organization name> prisfastsættelsesdimensioner** , angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Oprette brugerdefinerede felter og grupperet indstilling i prisdimensionsløsningen
 
@@ -63,8 +62,8 @@ Du kan oprette to dimensioner, der er baseret på grupperet indstilling. Brug **
 
 Du kan oprette data til objektbaserede dimensioner manuelt eller ved hjælp af Microsoft Excel-import eller -serviceopkald. Følg trinnene i denne fremgangsmåde for at oprette to standard titler, **Systemtekniker** og **Seniorsystemtekniker** fra den objektbaserede dimension, **Standardtitel**. Hvis de data, du vil oprette, er små, som i følgende eksempel, kan du bruge en standardformular.
 
-1. Vælg **Avanceret søgning**, Vælg objektets **Standardtitel**, og vælg derefter **Resultater**. Alle rækkerne i objektet **Standardtitel** vises.
-2. Vælg **Ny**, angiv "Systemtekniker" i feltet **Navn**, og vælg derefter **Gem**.
+1. Vælg **Avanceret søgning** , Vælg objektets **Standardtitel** , og vælg derefter **Resultater**. Alle rækkerne i objektet **Standardtitel** vises.
+2. Vælg **Ny** , angiv "Systemtekniker" i feltet **Navn** , og vælg derefter **Gem**.
 3. Luk formularen. 
 4. Gentag trin 1-3 for at oprette endnu en standardtitel til "Seniorsystemtekniker".
 
@@ -73,7 +72,7 @@ Du skal føje følgende objekter til din prisfastsættelsesløsning. Følg trinn
 
 1. Vælg **Indstillinger** > **Løsninger** og dobbeltklik på **\<your organization name> prisfastsættelsesdimensioner**. 
 2. Vælg **Tilføj eksisterende** > **Objekter** i venstre navigationsrude i løsningsoversigten.
-3. Vælg følgende objekter i dialogboksen **Løsningskomponenter**:
+3. Vælg følgende objekter i dialogboksen **Løsningskomponenter** :
 
   - Faktisk
   - Reserverbar ressource
@@ -91,5 +90,5 @@ Du skal føje følgende objekter til din prisfastsættelsesløsning. Følg trinn
 > [!NOTE]
 > Sørg for at inkludere alle formularer og visninger for hvert af de valgte objekter.
 
-4. Vælg **Nej**, når du bliver bedt om at inkludere afhængige objekter for de objekter, der er valgt ovenfor.
+4. Vælg **Nej** , når du bliver bedt om at inkludere afhængige objekter for de objekter, der er valgt ovenfor.
 

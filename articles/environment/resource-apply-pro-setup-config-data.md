@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948810"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074045"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurer og anvend konfigurationsdata i Common Data Service for Project Operations
 
@@ -27,7 +27,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 ![Konfigurationsoverførsel](./media/1ConfigurationMigration.png)
 
-4. På side 2 i CMT-guiden skal du vælge **Office 365** som **Udrulningstypen**.
+4. På side 2 i CMT-guiden skal du vælge **Microsoft 365** som **Udrulningstypen**.
 5. Marker afkrydsningsfelterne **Vis en liste over tilgængelige organisationer** og **Vis avancerede**.
 6. Vælg lejerens område, angiv dine legitimationsoplysninger, og vælg **Logon**.
 
@@ -75,7 +75,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 ![Åbn miljø](./media/7OpenEnvironment.png)
 
-2. Gå til **Projekter** > **Ressourcer**, og vælg derefter **Ny** for at oprette en reserverbar ressource til brugeren.
+2. Gå til **Projekter** > **Ressourcer** , og vælg derefter **Ny** for at oprette en reserverbar ressource til brugeren.
 
 ![Reserverbare ressourcer](./media/8BookableResources.png)
 
@@ -100,7 +100,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 ![Opdater kalender](./media/13UpdateCalendar.png)
 
-9. Gå til **Indstillinger** > **Kalenderskabeloner**, og vælg **Ny**.
+9. Gå til **Indstillinger** > **Kalenderskabeloner** , og vælg **Ny**.
  
  ![Kalenderskabeloner](./media/14CalendarTemplates.png)
  
@@ -108,16 +108,16 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
  
  ![Gem kalenderskabelon](./media/15SaveCalendarTemplate.png)
  
- 11. Gå til **Parametre**, og dobbeltklik på posten. 
+ 11. Gå til **Parametre** , og dobbeltklik på posten. 
  
  ![Projektparametre](./media/16ProjectParameters.png)
  
 12. Opdater følgende felter:
 
- - **Standardvirksomhed**: USPM
- - **Standardafdeling**: Contoso Robotics Global
- - **Fakturafrekvens**: Hver syvende og sidste dag
- - **Arbejdstidsskabelon**: Skift til den skabelon, du har oprettet.
+ - **Standardvirksomhed** : USPM
+ - **Standardafdeling** : Contoso Robotics Global
+ - **Fakturafrekvens** : Hver syvende og sidste dag
+ - **Arbejdstidsskabelon** : Skift til den skabelon, du har oprettet.
 
 13. Vælg **Gem**. 
 

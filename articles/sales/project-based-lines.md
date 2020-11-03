@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898389"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074033"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektbaserede salgsmulighedslinjer
 
@@ -28,7 +28,7 @@ Nedenfor vises felterne på en projektbaseret salgsmulighedslinje:
 
 | **Felt** | **Placering** | **Relevans, formål og vejledning** | **Downstream-virkning** |
 | --- | --- | --- | --- |
-| Produkttype | Fanen Generelt (skjult) | Dette er et felt med grupperet indstilling. Hvis der er installeret Dynamics 365 Operations, er en af de tilgængelige indstillinger **Projektbaseret service**.  | Værdien i dette felt er angivet til **Projektbaseret service**, når du opretter den projektbaserede salgsmulighedslinje fra gitteret for projektbaserede linjer i salgsmuligheden. <br> Hvis du ændrer eller tilsidesætter denne værdi, aktiveres projektfunktionen ikke i dine projektbaserede linjeelementer. |
+| Produkttype | Fanen Generelt (skjult) | Dette er et felt med grupperet indstilling. Hvis der er installeret Dynamics 365 Operations, er en af de tilgængelige indstillinger **Projektbaseret service**.  | Værdien i dette felt er angivet til **Projektbaseret service** , når du opretter den projektbaserede salgsmulighedslinje fra gitteret for projektbaserede linjer i salgsmuligheden. <br> Hvis du ændrer eller tilsidesætter denne værdi, aktiveres projektfunktionen ikke i dine projektbaserede linjeelementer. |
 | Salgsmulighed | Fanen Generelt | Dette felt er skrivebeskyttet og refererer til den overordnede salgsmulighedspost, som linjeelementet tilhører. | Dette felt har ingen downstream-virkning. |
 | Navn | Fanen Generelt | Dette er et redigerbart tekstfelt, der kan bruges til at give en kort identitet til dette linjeelement | Denne værdi overføres til tilbudslinjen, når du opretter et tilbud fra denne salgsmulighed |
 | Kundebudget | Fanen Generelt | Dette redigerbare valutafelt kan bruges til at spore det beløb, som kunden er villig til at bruge på dette linjeelement. | Denne værdi overføres til det tilsvarende felt på tilbudslinjen, når du opretter et tilbud fra denne salgsmulighed |

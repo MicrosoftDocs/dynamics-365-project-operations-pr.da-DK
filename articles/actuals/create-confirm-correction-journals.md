@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074169"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Opret og bekræft rettelseskladder
 
@@ -54,7 +53,7 @@ Benyt følgende fremgangsmåde for at rette enkelte eller flere tidsangivelser f
 
 7. Hvis rettelserne vises som forventet, skal du vælge **Bekræft**. Vælg **OK** i dialogboksen.
 
-8. Gå tilbage til området **Salg**, og vælg **Projekter**, og åbn derefter det projekt, som du lige har opdateret tidsposterne for. 
+8. Gå tilbage til området **Salg** , og vælg **Projekter** , og åbn derefter det projekt, som du lige har opdateret tidsposterne for. 
 
 9. På siden **Projekter** kan du under fanen **Faktiske værdier** få vist de ændringer, du har foretaget. 
 
@@ -74,7 +73,7 @@ Benyt følgende fremgangsmåde for at rette en eller flere udgiftsposter.
 
 2. På listen **Godkendte udgifter** skal du vælge det projekt, som du ønsker at rette, og dernæst vælge **Ret poster**. Der oprettes automatisk en ny rettelseskladde med den tildelte type **Udgiftsrettelse**. 
 
-3. På siden **Ny kladde** skal du angive en **Beskrivelse** for rettelsen, og på fanen **Udgiftsrettelse** i sektionen **Nye værdier for udgifter** skal du vælge de datafelter, som du ønsker at rette for de valgte udgiftslinjer. Du kan f.eks. tildele udgiften til et andet **Projekt** eller rette **Udgiftskategorien**, **Udgiftsdatoen** eller den **Reserverbare ressource**.
+3. På siden **Ny kladde** skal du angive en **Beskrivelse** for rettelsen, og på fanen **Udgiftsrettelse** i sektionen **Nye værdier for udgifter** skal du vælge de datafelter, som du ønsker at rette for de valgte udgiftslinjer. Du kan f.eks. tildele udgiften til et andet **Projekt** eller rette **Udgiftskategorien** , **Udgiftsdatoen** eller den **Reserverbare ressource**.
 
 4. Vælg **Forhåndsvisning**. Vælg **OK** i dialogboksen. 
 

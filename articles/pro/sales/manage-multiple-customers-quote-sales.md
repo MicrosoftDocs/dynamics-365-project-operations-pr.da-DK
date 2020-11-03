@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966758"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074072"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Administration af flere kunder i projekttilbud (Sales)
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Projekttilbud understøtter det scenario, hvor forslaget omfatter flere kunder, som skal finansiere handlen. Fanen **Oversigt** for tilbuddet indeholder feltet **Potentiel kunde**, der identificerer den primære kunde for handlen. Du kan oprette andre kunder i forbindelse med handlen under fanen **Kunder** i projekttilbuddet.
+Projekttilbud understøtter det scenario, hvor forslaget omfatter flere kunder, som skal finansiere handlen. Fanen **Oversigt** for tilbuddet indeholder feltet **Potentiel kunde** , der identificerer den primære kunde for handlen. Du kan oprette andre kunder i forbindelse med handlen under fanen **Kunder** i projekttilbuddet.
 
 Alle tilbudskunder på fanen **Kunder** i projekttilbuddet er som standard tilbudslinjekunder på alle **nye** projektbaserede tilbudslinjer, der er oprettet for tilbuddet. Eventuelle eksisterende projektbaserede tilbudslinjer arver ikke nye tilbudskundeposter, der er oprettet efter dem.
 
@@ -31,7 +31,7 @@ Tilbudskunder og tilbudslinjekunder kan tilføjes, opdateres eller slettes når 
 
 Den kunde, der er angivet under oversigtsfanen i projekttilbuddet som den potentielle kunde, er den primære kunde for tilbuddet. Når du forsøger at slette den primære kunde på kundelisten i tilbuddet, får du vist du en fejlmeddelelse om, at en primær kundepost i et tilbud ikke kan slettes.
 
-Den primære kunde skal ikke opdateres fra kundelisten på tilbuddet. Du kan dog få indflydelse på den primære kunde ved at ændre den potentielle kunde under fanen **Oversigt** i tilbuddet. Når dette felt opdateres i **Tilbudsoversigten**, tilføjes den netop valgte potentielle kunde som en ny tilbudskunde med angivelse af flaget **Primær**. Den gamle potentielle kunde vil stadig være kunde i tilbuddet.
+Den primære kunde skal ikke opdateres fra kundelisten på tilbuddet. Du kan dog få indflydelse på den primære kunde ved at ændre den potentielle kunde under fanen **Oversigt** i tilbuddet. Når dette felt opdateres i **Tilbudsoversigten** , tilføjes den netop valgte potentielle kunde som en ny tilbudskunde med angivelse af flaget **Primær**. Den gamle potentielle kunde vil stadig være kunde i tilbuddet.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Opret, opdater eller slet en tilbudskundepost
 

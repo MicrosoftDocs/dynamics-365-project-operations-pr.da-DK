@@ -3,17 +3,17 @@ title: Klargør et nyt miljø
 description: Dette emne indeholder oplysninger om, hvordan du klargør et nyt Project Operations-miljø.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074059"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
@@ -26,14 +26,14 @@ Dette emne indeholder oplysninger om, hvordan du klargør et nyt Dynamics 365 Pr
 Benyt følgende fremgangsmåde for at aktivere den automatiserede klargøring af Project Operations for dit LCS-projekt.
 
 1. Gå til [LCS](https://lcs.dynamics.com/v2), og vælg feltet **Administration af prøveversionsfunktion**.
-2. I listen **Prøveversionsfunktion** skal du vælge **Project Operations** og dernæst vælge **Aktiver prøveversionsfunktion** for at aktivere Project Operations.
+2. I listen **Prøveversionsfunktion** skal du vælge **Funktionen Project Operations** og dernæst vælge **Aktiver prøveversionsfunktion** for at aktivere Project Operations.
 
 > [!NOTE]
 > Dette trin udføres kun én gang pr. LCS-projekt.
 
 ## <a name="provision-a-project-operations-environment"></a>Klargør et Project Operations-miljø
 
-1. Åbn en udrulning af et Dynamics 365 Finance[-demonstrationsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandkasse-/produktionsmiljø](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Åbn en udrulning af et [demonstrationsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandkasse-/produktionsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) i Dynamics 365 Finance. 
 2. Gennemgå guiden **Miljøklargøring**. 
 
 > [!IMPORTANT]
@@ -120,7 +120,7 @@ Det vil tage et stykke tid at vedligeholde miljøet. Når installationen er fuld
 
 ![Anvend løsninger](./media/13ApplySolutions.png)
 
-5. Vælg begge løsninger, **Dynamics 365 Finance and Operations dobbelt skrivningsobjekttilknytninger** og **Dynamics 365 Project Operations dobbelt skrivningsobjekttilknytninger**, og vælg derefter **Anvend**.
+5. Vælg begge løsninger, **Dynamics 365 Finance and Operations dobbelt skrivningsobjekttilknytninger** og **Dynamics 365 Project Operations dobbelt skrivningsobjekttilknytninger** , og vælg derefter **Anvend**.
 
 ![Bekræft løsninger](./media/14ConfirmSolutions.png)
 
@@ -165,18 +165,19 @@ Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført
 | **Integrationsobjekt for projekttransaktionsrelationer (msdyn\_transaktionsforbindelser)** | Nr. | Nr. | I\R | Nr. | I\R |
 | **Integration af kontraktlinjemilepæle i Project Operations (msdyn\_kontraktlinjeplanmedværdier)** | Nr. | Nr. | I\R | Nr. | I\R |
 | **Integrationsobjekt for udgiftsestimater i Project Operations (msdyn\_estimeredelinjer)** | Nr. | Nr. | I\R | Nr. | I\R |
-| **Integrationsobjekt for timeestimater i Project Operations (msdyn\_ressourcetildelinger)** | Nr. | Nr. | I\R | Nr. | I\R |
+| **Integrationsobjekt for eksport af projektudgiftskategorier i Project Operations (msdyn\_udgiftskategorier)** | Nr. | Nr. | I\R | Nr. | I\R |
 | **Integrationsobjekt for eksport af projektudgifter i Project Operations (msdyn\_udgifter)** | Ja | Nr. | I\R | Nr. | I\R |
 | **Integrationsobjekt for timeestimater i Project Operations (msdyn\_ressourcetildelinger)** | Ja | Nr. | I\R | Nr. | I\R |
 
+
 4. Hvis du vil opdatere objektet, skal du vælge tilknytningens navn og derefter vælge **Opdater objekter**. 
-5. Fortsæt med at køre tilknytningen, når opdateringen er fuldført.
+
 
 ![Opdater tilknytning](./media/20RefreshMapping.png)
 
-Før du aktiverer næste tilknytning, skal du kontrollere, at tilknytningen i tabellen er i tilstanden **Kører**. Det kan tage et stykke tid at køre tilknytningerne med et større antal forudsætninger.
+5. Kør tilknytningen, når opdateringen er fuldført. Før du aktiverer næste tilknytning, skal du kontrollere, at tilknytningen i tabellen er i tilstanden **Kører**. Det kan tage et stykke tid at køre tilknytningerne med et større antal forudsætninger.
 
-Hvis du vil køre en tilknytning med forudsætninger, skal du aktivere funktionen **Vis relaterede objekttilknytninger**. Hvis tabellen indikerer, at **Indledende synkronisering af forudsætning** er **Nej**, skal du kontrollere, at flaget for den **Indledende synkronisering** er **Slået fra** i alle de påkrævede tilknytninger, før du kører programmet.
+Hvis du vil køre en tilknytning med forudsætninger, skal du aktivere funktionen **Vis relaterede objekttilknytninger**. Hvis tabellen indikerer, at **Indledende synkronisering af forudsætning** er **Nej** , skal du kontrollere, at flaget for den **Indledende synkronisering** er **Slået fra** i alle de påkrævede tilknytninger, før du kører programmet.
 
 ![Kør tilknytning](./media/21RunMap.png)
 

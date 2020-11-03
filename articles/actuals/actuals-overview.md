@@ -1,5 +1,5 @@
 ---
-title: Startsiden for faktiske oplysninger
+title: Faktiske
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med faktiske oplysninger i Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907311"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074162"
 ---
-# <a name="actuals"></a>Faktiske
+# <a name="actuals"></a>Faktiske 
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
@@ -46,7 +45,7 @@ Når en indsendt tidsregistrering er forbundet med et projekt, der er knyttet ti
 
 Logikken for oprettelse af standardpriser findes på kladdelinjen. Feltværdierne fra tidsregistreringen kopieres til kladdelinjen. Disse værdier inkluderer datoen for transaktionen, den kontraktlinje, som projektet er knyttet til, og valutaresultatet i den rette prisliste.
 
-De felter, der påvirker standardprisfastsættelser som f.eks **Rolle** og **Organisationsenhed**, anvendes til at fastsætte en passende pris på kladdelinjen. Du kan tilføje et brugerdefineret felt på tidsregistreringen. Hvis du ønsker, at feltværdien skal overføres til faktiske værdier, skal du oprette feltet på objektet Faktiske og bruge felttilknytninger til at kopiere feltet fra tidsregistreringen til den faktiske værdi.
+De felter, der påvirker standardprisfastsættelser som f.eks **Rolle** og **Organisationsenhed** , anvendes til at fastsætte en passende pris på kladdelinjen. Du kan tilføje et brugerdefineret felt på tidsregistreringen. Hvis du ønsker, at feltværdien skal overføres til faktiske værdier, skal du oprette feltet på objektet Faktiske og bruge felttilknytninger til at kopiere feltet fra tidsregistreringen til den faktiske værdi.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Kladdelinjer og indsendelse af grundlæggende udgifter
 

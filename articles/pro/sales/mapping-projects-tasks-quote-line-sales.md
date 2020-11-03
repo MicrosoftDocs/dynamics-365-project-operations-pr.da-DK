@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964900"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074064"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Tilknyt projekter og opgaver til en projektbaseret tilbudslinje
 
@@ -57,7 +57,7 @@ På siden **Projekt** får du den optimale oplevelse, når du knytter opgaver ti
 Du kan knytte projektopgaver til tilbudslinjer fra fanen **Fakturerbare opgaver** på siden **Tilbudslinje**.
 
 >[!NOTE]
->Det optimale sted at knytte projektopgaver til tilbudslinjer findes under fanen **Opgavefakturering** på **Projekt**-siden. Hvis du knytter opgaver til fanen **Fakturerbare opgaver** på siden med **Tilbudslinje**, skal du tilknytte hvert enkelt projekt manuelt.
+>Det optimale sted at knytte projektopgaver til tilbudslinjer findes under fanen **Opgavefakturering** på **Projekt** -siden. Hvis du knytter opgaver til fanen **Fakturerbare opgaver** på siden med **Tilbudslinje** , skal du tilknytte hvert enkelt projekt manuelt.
 
 1. På en projektbaseret tilbudslinjes fane **Generelt** kan du verificere, at der er valgt et projekt i feltet **Projekt**.
 2. I feltet **Medtag opgaver** skal du vælge **Kun valgte opgaver**.

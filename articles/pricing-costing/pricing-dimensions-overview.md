@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fe2ab3a1b12c00e346e27709d66b5a0cb81a3b56
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898209"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074279"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversigt over dimensioner for prisfastsættelse
 
@@ -36,8 +35,8 @@ De dimensioner, der bruges i de menneskelige ressourcer til at konfigurere prise
 
 Derfor findes der to typer værdier for prisfastsættelsesdimensioner:
 
-- **Grupperede indstillinger**: Dimensioner, der er fasttekster for et værdisæt.
-- **Objektbaserede værdier**: Dimensioner, der kan være et varieret sæt værdier.
+- **Grupperede indstillinger** : Dimensioner, der er fasttekster for et værdisæt.
+- **Objektbaserede værdier** : Dimensioner, der kan være et varieret sæt værdier.
 
 ## <a name="pricing-dimensions"></a>Dimensioner for prisfastsættelse
 
@@ -48,7 +47,7 @@ Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer
 ## <a name="pricing-human-resource-time"></a>Prisfastsættelse af HR-tid
 Hvordan en organisation prisfastsætter HR-tid er ofte en vigtig strategisk overvejelse, der direkte påvirker organisationens rentabilitet. Arbejd sammen med økonomiteamene og praksischeferne, når organisationen er klar til at identificere, hvordan man vil konfigurere fakturerings- og omkostningssatser for HR-tid.
 
-Andre overvejelser i forbindelse med prisfastsættelse omfatter, om du vil genbruge felter eller objekter, der ikke i øjeblikket er prisdimensioner, men gælder som en prisdimension for organisationen. Felter som **Transaktionskategori** (**msdyn_transactioncategory**) og **Reserverbar ressource** (**bookableresource**) er eksempler på kandidatdimensioner. 
+Andre overvejelser i forbindelse med prisfastsættelse omfatter, om du vil genbruge felter eller objekter, der ikke i øjeblikket er prisdimensioner, men gælder som en prisdimension for organisationen. Felter som **Transaktionskategori** ( **msdyn_transactioncategory** ) og **Reserverbar ressource** ( **bookableresource** ) er eksempler på kandidatdimensioner. 
 
 Overvej, om din prisfastsættelsesdimension skal være en tabel eller en grupperet indstilling. Hvis du forventer ændringer af værdierne i en dimension, som vil overstige 10 eller 12, og du har brug for flere attributter til disse værdier, kan du oprette et objekt i stedet for en grupperet indstilling. Hvis du vedligeholder en grupperet indstilling, f.eks. tilføjelse eller fjernelse af værdier, kræves en administrator eller udvikler, og det er derfor muligt for de fleste brugere at tilføje nye rækker i en tabel.
 

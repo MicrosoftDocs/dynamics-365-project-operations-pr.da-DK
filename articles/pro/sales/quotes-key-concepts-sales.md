@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074096"
 ---
 # <a name="project-quote-key-concepts"></a>Nøglekoncepter for projekttilbud
 
@@ -78,7 +78,7 @@ Aftaler med flere kunder finder sted, når der er mere end én kunde, som skal f
 
 ## <a name="invoice-schedules"></a>Fakturaplaner
 
-Fakturaplaner er specifikke for hver tilbudslinje og er også valgfrie. Fakturaplaner oprettes på baggrund af bestemte start- og slutdatoer og fakturafrekvenser. Fakturaplaner bruges i kontraktfasen, når processen for automatisk oprettelse af fakturaer er konfigureret. I tilbudsfasen er planerne valgfrie. Når der oprettes fakturaplaner i fasen **Tilbud**, kopieres de til den projektkontrakt, der oprettes, når et projekttilbud er vundet.
+Fakturaplaner er specifikke for hver tilbudslinje og er også valgfrie. Fakturaplaner oprettes på baggrund af bestemte start- og slutdatoer og fakturafrekvenser. Fakturaplaner bruges i kontraktfasen, når processen for automatisk oprettelse af fakturaer er konfigureret. I tilbudsfasen er planerne valgfrie. Når der oprettes fakturaplaner i fasen **Tilbud** , kopieres de til den projektkontrakt, der oprettes, når et projekttilbud er vundet.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Ændringer fra tilbud i Dynamics 365 Sales:
 

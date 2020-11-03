@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966759"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074076"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimering af en projektbaseret tilbudslinje
 
@@ -30,7 +30,7 @@ Hvis du vil estimere en projektbaseret tilbudslinje på den projektbaserede tilb
 
 Hvis du vil oprette et estimat på en projektbaseret tilbudslinje, skal du vælge fanen **Tilbudslinjedetaljer**. Det linjeelement, du opretter under denne fane, opsummerer den citerede værdi for tilbudslinjen. 
 
-Hvis du vil oprette detaljer om tilbudslinjer, skal du vælge **+ Ny tilbudslinjedetalje** i undergitteret **Tilbudslinjedetaljer**. En hurtig oprettelsesskyder åbnes. Følgende felter i formularen **Tilbudslinje**:
+Hvis du vil oprette detaljer om tilbudslinjer, skal du vælge **+ Ny tilbudslinjedetalje** i undergitteret **Tilbudslinjedetaljer**. En hurtig oprettelsesskyder åbnes. Følgende felter i formularen **Tilbudslinje** :
 
 | **Felt** | **Placering** | **Relevans, formål og vejledning** | **Downstream-virkning** |
 | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Hvis du vil oprette detaljer om tilbudslinjer, skal du vælge **+ Ny tilbudslinj
 
 ## <a name="update-prices-on-quote-line-details"></a>Opdater priser på tilbudslinjedetaljer
 
-Hvis du har ændret priserne på den projektprisliste, der er knyttet til tilbuddet, eller på omkostningsprislisten for ordren, kan du vælge **Genberegn** på siden **Tilbud** for at opdatere priserne på de enkelte tilbudslinjedetaljer, så de afspejler denne ændring. Når du vælger **Genberegn**, vises der en advarsel, der oplyser om, at priser på tilbudslinjedetaljer for alle tilbudslinjer i tilbuddet bliver nulstillet. Vælg **Ja**, hvis du vil opdatere priser for både salgs- og omkostningstilbudslinjedetaljer.
+Hvis du har ændret priserne på den projektprisliste, der er knyttet til tilbuddet, eller på omkostningsprislisten for ordren, kan du vælge **Genberegn** på siden **Tilbud** for at opdatere priserne på de enkelte tilbudslinjedetaljer, så de afspejler denne ændring. Når du vælger **Genberegn** , vises der en advarsel, der oplyser om, at priser på tilbudslinjedetaljer for alle tilbudslinjer i tilbuddet bliver nulstillet. Vælg **Ja** , hvis du vil opdatere priser for både salgs- og omkostningstilbudslinjedetaljer.
 
 ## <a name="access-quote-line-details-for-cost"></a>Få adgang til tilbudslinjedetaljer for omkostninger
 

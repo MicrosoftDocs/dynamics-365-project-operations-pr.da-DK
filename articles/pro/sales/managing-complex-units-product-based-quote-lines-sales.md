@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074104"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Administration af komplekse undermoduler såsom pr. bruger pr. måned i forbindelse med produktbaserede tilbudslinjer
 
@@ -29,8 +29,8 @@ Project Operations validerer, at kun numeriske egenskaber eller produktegenskabe
 
 Dynamics 365 Sales kan f.eks. have følgende egenskaber:
 
-- **Antal brugere**: Antallet af brugere
-- **Antal måneder**: Antallet af abonnementsmåneder
+- **Antal brugere** : Antallet af brugere
+- **Antal måneder** : Antallet af abonnementsmåneder
 - **Produkt-SKU**
 
 Du kan markere egenskaberne **Antal brugere** og **Antal måneder** som mængdefaktorer ved at redigere egenskaberne for produktlinjen.

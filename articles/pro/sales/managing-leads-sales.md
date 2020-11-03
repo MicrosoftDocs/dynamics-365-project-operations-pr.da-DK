@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896319"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074101"
 ---
 # <a name="manage-leads-pro"></a>Administrer kundeemner (Pro)
 
@@ -34,7 +34,7 @@ Når der kvalificeres et projektbaseret kundeemne, oprettes der en salgsmulighed
 - Faktureringsmetoder for tids- og materiale samt fast pris
 - Adskillige prislister gældende pr. dato for personale, udgifter og materiale anvendt på projekter.
 
-Hvis et kvalificeret kundeemne automatisk skal oprette en salgsmulighed, skal du angive attributten **Type** til **Arbejdsbaseret**, når du opretter kundeemnet. Hvis du vælger en anden type, oprettes der ikke en projektbaseret salgsmulighed i kundeemnet, når den kvalificeres. Hvis den projektbaserede salgsmulighed ikke oprettes, vil de projektspecifikke funktioner ikke være tilgængelige i de efterfølgende salgsprocesser.
+Hvis et kvalificeret kundeemne automatisk skal oprette en salgsmulighed, skal du angive attributten **Type** til **Arbejdsbaseret** , når du opretter kundeemnet. Hvis du vælger en anden type, oprettes der ikke en projektbaseret salgsmulighed i kundeemnet, når den kvalificeres. Hvis den projektbaserede salgsmulighed ikke oprettes, vil de projektspecifikke funktioner ikke være tilgængelige i de efterfølgende salgsprocesser.
 
 Følgende tabel indeholder vigtige feltoplysninger for et kundeemne og de downstream-konsekvenser for disse felter.
 
@@ -49,7 +49,7 @@ Følgende tabel indeholder vigtige feltoplysninger for et kundeemne og de downst
 
 ## <a name="qualify-a-new-project-based-lead"></a>Kvalificer et nyt projektbaseret kundeemne
 
-De kundeemner, der har værdien **Type** angivet til **Arbejdsbaseret**, kaldes projektbaserede kundeemner. Når et projektbaseret kundeemne er kvalificeret, oprettes følgende:
+De kundeemner, der har værdien **Type** angivet til **Arbejdsbaseret** , kaldes projektbaserede kundeemner. Når et projektbaseret kundeemne er kvalificeret, oprettes følgende:
 
 - Et firma, der bruger kundeemnets felt **Virksomhed**.
 - En kontaktpersonpost, der er knyttet til firmaet, baseret på værdierne i felterne **Fornavn** og **Efternavn** for kundeemnet.

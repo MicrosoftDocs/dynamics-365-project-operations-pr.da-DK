@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074052"
 ---
 # <a name="expense-home-page"></a>Startsiden for udgift
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations understøtter muligheden for at behandle udgifte
 
 I Project Operations findes der to understøttede udrulningsmodeller for udgifter: 
 
-- **Fuld**: Fuld udrulning er tilgængelig for **Project Operations for ressource-/ikke-lagerbaserede scenarier** eller **Project Operations for produktionsordrebaserede scenarier**.
-- **Grundlæggende**: Grundlæggende udrulning er tilgængelig for **Project Operations for ressource-/ikke-lagerbaserede scenarier** og **Let udrulning – aftale om proformafakturering**.
+- **Fuld** : Fuld udrulning er tilgængelig for **Project Operations for ressource-/ikke-lagerbaserede scenarier** eller **Project Operations for produktionsordrebaserede scenarier**.
+- **Grundlæggende** : Grundlæggende udrulning er tilgængelig for **Project Operations for ressource-/ikke-lagerbaserede scenarier** og **Let udrulning – aftale om proformafakturering**.
 
 ## <a name="full"></a>Komplet 
 Fuld udgiftsudrulning giver en komplet politikhåndhævelse, der omfatter muligheden for at oprette politikker, såsom:

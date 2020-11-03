@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908005"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074047"
 ---
 # <a name="opportunity-headersummary"></a>Overskrift for/oversigt over salgsmulighed
 
@@ -28,7 +28,7 @@ I følgende tabel medtages felterne i en projektbaseret salgsmulighed, der enten
 
 | **Felt** | **Placering** | **Relevans, formål og vejledning** | **Downstream-virkning** |
 | --- | --- | --- | --- |
-| Skriv | Fanen Generelt (skjult) | Feltet med grupperet indstilling har følgende indstillinger:</br>- Arbejdsbaseret (kun tilgængelig sammen med Project Operations)</br>- Enhedsbaseret (kun tilgængelig, når Project Operations og Sales er installeret)</br>- Servicevedligeholdelsesbaseret (tilgængelig, når Field Service er installeret) | Når du bruger Project Operations, angives værdien i dette felt automatisk til **Arbejdsbaseret**, hvilket klassificerer salgsmuligheden som projektbaseret. En salgsmulighed bør være projektbaseret for at aktivere alle projektspecifikke udvidelser og funktioner i den efterfølgende salgsproces for denne aftale. |
+| Skriv | Fanen Generelt (skjult) | Feltet med grupperet indstilling har følgende indstillinger:</br>- Arbejdsbaseret (kun tilgængelig sammen med Project Operations)</br>- Enhedsbaseret (kun tilgængelig, når Project Operations og Sales er installeret)</br>- Servicevedligeholdelsesbaseret (tilgængelig, når Field Service er installeret) | Når du bruger Project Operations, angives værdien i dette felt automatisk til **Arbejdsbaseret** , hvilket klassificerer salgsmuligheden som projektbaseret. En salgsmulighed bør være projektbaseret for at aktivere alle projektspecifikke udvidelser og funktioner i den efterfølgende salgsproces for denne aftale. |
 | Ejende virksomhed | Fanen Generelt | Det er det firma eller den juridiske enhed, der leverer projektet til kunden. | Oplysningerne i feltet kopieres til det tilsvarende felt i det projekttilbud, der er oprettet ud fra denne salgsmulighed. |
 | Kontaktperson | Fanen Generelt | Reference til kundens primære kontaktperson for denne handel. | |
 | Konto | Fanen Generelt | Reference til kundens firma eller firmapost. | |

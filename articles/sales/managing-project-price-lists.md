@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898659"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074398"
 ---
 # <a name="project-price-lists"></a>Projektprislister
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations udvider objektet Prisliste i Dynamics 365 Sales.
 
 En prisliste indeholder oplysninger, der leveres af fire forskellige objekter:
 
-- **Prisliste**: Dette objekt indeholder oplysninger om kontekst, valuta, datointerval og tidsenhed for prissætningstiden. Konteksten viser, om prislisten giver udtryk for omkostningssatser eller salgssatser. 
-- **Valuta**: Dette objekt lagrer valutaen for priser på prislisten. 
-- **Dato**: Dette objekt bruges, når systemet forsøger at angive en standardpris for en transaktion. En prisliste, der indeholder datointervallet, som inkluderer datoen for transaktionen, vælges. Hvis der findes mere end én prisliste, der er gældende for transaktionsdatoen, og som er knyttet til det relaterede tilbud, kontrakten eller organisationsenheden, er der ingen standardpris. 
-- **Tid**: Dette objekt lagrer den tidsenhed, som priser udtrykkes for, f.eks. daglige eller timebaserede satser. 
+- **Prisliste** : Dette objekt indeholder oplysninger om kontekst, valuta, datointerval og tidsenhed for prissætningstiden. Konteksten viser, om prislisten giver udtryk for omkostningssatser eller salgssatser. 
+- **Valuta** : Dette objekt lagrer valutaen for priser på prislisten. 
+- **Dato** : Dette objekt bruges, når systemet forsøger at angive en standardpris for en transaktion. En prisliste, der indeholder datointervallet, som inkluderer datoen for transaktionen, vælges. Hvis der findes mere end én prisliste, der er gældende for transaktionsdatoen, og som er knyttet til det relaterede tilbud, kontrakten eller organisationsenheden, er der ingen standardpris. 
+- **Tid** : Dette objekt lagrer den tidsenhed, som priser udtrykkes for, f.eks. daglige eller timebaserede satser. 
 
 Objektet Prisliste indeholder tre relaterede tabeller, der gemmer priser:
 
-  - **Rollepris**: I denne tabel gemmes en sats for en kombination af værdier for rolle og organisationsenhed, og den bruges til at konfigurere rollebaserede priser for arbejdskraft.
-  - **Transaktionskategoripris**: Denne tabel indeholder priser efter transaktionskategori og bruges til at konfigurere priser for udgiftskategorier.
-  - **Prislisteelementer**: Denne tabel indeholder priser på katalogprodukter.
+  - **Rollepris** : I denne tabel gemmes en sats for en kombination af værdier for rolle og organisationsenhed, og den bruges til at konfigurere rollebaserede priser for arbejdskraft.
+  - **Transaktionskategoripris** : Denne tabel indeholder priser efter transaktionskategori og bruges til at konfigurere priser for udgiftskategorier.
+  - **Prislisteelementer** : Denne tabel indeholder priser på katalogprodukter.
  
 Prislisten er en satstabel. En satstabel er en kombination af objektet Prisliste og relaterede rækker i tabellerne Rollepris, Transaktionskategoripris og Prislisteelementer.
 
@@ -54,15 +53,15 @@ Udtrykket *ressourcerolle* refererer til et sæt færdigheder, kompetencer og ce
 
 HR-tid er baseret på den rolle, som en ressource udfylder på et bestemt projekt. I forbindelse med HR-tid, er omkostninger og fakturering baseret på ressourcerolle. Tid kan prissættes i en hvilken som helst enhed i enhedsgruppen **Tid**.
 
-Enhedsgruppen **Tid** oprettes, når du installerer Project Operations. Den har standardenheden **Time**. Du kan ikke slette, omdøbe eller redigere attributterne for enhedsgruppen **Tid** eller enheden **Time**. Men du kan føje andre enheder til enhedsgruppen **Tid**. Hvis du prøver at slette enhedsgruppen **Tid** eller enheden **Time**, kan der opstå fejl i forretningslogikken.
+Enhedsgruppen **Tid** oprettes, når du installerer Project Operations. Den har standardenheden **Time**. Du kan ikke slette, omdøbe eller redigere attributterne for enhedsgruppen **Tid** eller enheden **Time**. Men du kan føje andre enheder til enhedsgruppen **Tid**. Hvis du prøver at slette enhedsgruppen **Tid** eller enheden **Time** , kan der opstå fejl i forretningslogikken.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transaktionskategorier og udgiftskategorier
 
 Rejser og andre udgifter, som projektkonsulenter påfører, faktureres til kunden. Prisfastsættelse af udgiftskategorier gennemføres ved hjælp af prislister. Flybillet, hotel og billeje er eksempler på udgiftskategorier. De enkelte prislistelinjer for udgifter angiver prissætningen for en bestemt udgiftskategori. Følgende tre metoder bruges til at prisfastsætte udgiftskategorier:
 
-- **Til kostpris**: Udgiftsomkostningerne faktureres til kunden, og der anvendes ingen avance.
-- **Avance som procentdel**: Procentdelen over de faktiske omkostninger faktureres til kunden. 
-- **Pris pr. enhed**: Der angives en faktureringspris for hver enhed af udgiftskategorien. Det beløb, som kunden faktureres på baggrund af det antal udgiftsenheder, som konsulenten rapporterer. Kørsel bruger prissætningsmetoden pris pr. enhed. Udgiftskategorien for kørsel kan f.eks. konfigureres til 30 amerikanske dollar (USD) pr. dag eller 2 USD pr. mile. Når en konsulent rapporterer kørsel på et projekt, beregnes det beløb, der skal faktureres, på basis af den afstand, som konsulenten har rapporteret.
+- **Til kostpris** : Udgiftsomkostningerne faktureres til kunden, og der anvendes ingen avance.
+- **Avance som procentdel** : Procentdelen over de faktiske omkostninger faktureres til kunden. 
+- **Pris pr. enhed** : Der angives en faktureringspris for hver enhed af udgiftskategorien. Det beløb, som kunden faktureres på baggrund af det antal udgiftsenheder, som konsulenten rapporterer. Kørsel bruger prissætningsmetoden pris pr. enhed. Udgiftskategorien for kørsel kan f.eks. konfigureres til 30 amerikanske dollar (USD) pr. dag eller 2 USD pr. mile. Når en konsulent rapporterer kørsel på et projekt, beregnes det beløb, der skal faktureres, på basis af den afstand, som konsulenten har rapporteret.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prissætning og tilsidesættelse af projektsalg
 

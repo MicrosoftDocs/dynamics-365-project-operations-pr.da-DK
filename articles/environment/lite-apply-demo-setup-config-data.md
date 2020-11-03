@@ -8,24 +8,24 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074037"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Anvend demonstrationskonfiguration og konfigurationsdata for lille udrulning af Project Operations - aftale til proformafakturering
 
 _**Lille udrulning - aftale til proformafakturering_
 
 1. Hent [Masterdatapakken](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Naviger til mappen *ProjOpsDemoDataSetupAndMaster - Integreret CMT*, og kør den eksekverbare fil *DataMigrationUtility*.
+2. Naviger til mappen *ProjOpsDemoDataSetupAndMaster - Integreret CMT* , og kør den eksekverbare fil *DataMigrationUtility*.
 3. På side 1 af konfigurationsguiden til migration af Common Data Service (CMT) skal du vælge **Importer data** og derefter vælge **Fortsæt**.
 
 ![Konfigurationsoverførsel](./media/1ConfigurationMigration.png)
 
-4. På side 2 i CMT-guiden skal du vælge **Office 365** som **Udrulningstypen**.
+4. På side 2 i CMT-guiden skal du vælge **Microsoft 365** som **Udrulningstypen**.
 5. Marker afkrydsningsfelterne **Vis en liste over tilgængelige organisationer** og **Vis avancerede**.
 6. Vælg lejerens område, angiv dine legitimationsoplysninger, og vælg derefter **Logon**.
 

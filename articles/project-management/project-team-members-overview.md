@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074063"
 ---
 # <a name="project-team-members"></a>Projektteamets medlemmer
 
@@ -47,16 +47,16 @@ I følgende tabel vises nøgleattributterne for et projektteammedlem.
 
 Fra teammedlemsgitteret kan følgende handlinger udføres:
 
-- **Reserver**: For organisationer, der anvender metoden til hybrid-reservering, kan reservationshandlingen gøre det muligt for brugere at reservere en navngivet ressource på baggrund af de krav, der er opstået som følge af det generiske teammedlem
-- **Generer krav**: Denne handling genererer kravet.
-- **Angiv mønster**: Giver projektledere mulighed for at tilpasse ressourcekravsprofilerne på et detaljeret niveau. Projektledere kan justere i forhold til projektets specifikke behov i de tilfælde, hvor standardfordelingen ikke passer.
-- **Indsend anmodning**: For organisationer, der bruger den centrale reservationsmetode.
-- **Rediger**: Attributter for teammedlemmer kan redigeres, herunder afdeling, rolle og stillingsbetegnelse.
-- **Fasthold reservationer**: Når ressourcereservationer skal opdateres, kan projektleder fastholde reservationer for at kunne justere:
+- **Reserver** : For organisationer, der anvender metoden til hybrid-reservering, kan reservationshandlingen gøre det muligt for brugere at reservere en navngivet ressource på baggrund af de krav, der er opstået som følge af det generiske teammedlem
+- **Generer krav** : Denne handling genererer kravet.
+- **Angiv mønster** : Giver projektledere mulighed for at tilpasse ressourcekravsprofilerne på et detaljeret niveau. Projektledere kan justere i forhold til projektets specifikke behov i de tilfælde, hvor standardfordelingen ikke passer.
+- **Indsend anmodning** : For organisationer, der bruger den centrale reservationsmetode.
+- **Rediger** : Attributter for teammedlemmer kan redigeres, herunder afdeling, rolle og stillingsbetegnelse.
+- **Fasthold reservationer** : Når ressourcereservationer skal opdateres, kan projektleder fastholde reservationer for at kunne justere:
 
     - Start
     - Afslut
     - Fordeling af den samlede indsats
 
-- **Nyt**: Ud over at tilføje ressourcer direkte fra tidsplanen kan projektledere tilføje nye navngivne eller generiske teammedlemmer fra teammedlemsgitteret.
-- **Slet**: Ved at vælge en eller flere teammedlemmer kan projektlederen slette ressourcer, der ikke længere skal deltage i projektet. Hvis du sletter et teammedlem, slettes alle tilknyttede ressourcetildelinger også, og alle eksisterende reservationer annulleres.
+- **Nyt** : Ud over at tilføje ressourcer direkte fra tidsplanen kan projektledere tilføje nye navngivne eller generiske teammedlemmer fra teammedlemsgitteret.
+- **Slet** : Ved at vælge en eller flere teammedlemmer kan projektlederen slette ressourcer, der ikke længere skal deltage i projektet. Hvis du sletter et teammedlem, slettes alle tilknyttede ressourcetildelinger også, og alle eksisterende reservationer annulleres.

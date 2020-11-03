@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074110"
 ---
 # <a name="manage-time-zones"></a>Administrer tidszoner
 
@@ -30,7 +30,7 @@ Når en opgave er oprettet, styres starttidspunktet, sluttidspunktet og tider/da
 
 ## <a name="manage-resources-with-time-zones"></a>Administrer ressourcer med tidszoner
 
-Hvis du vil have præcise og forudsigelige resultater, når du bruger **Forlæng reservation**, er der to nøgleforudsætninger, der skal overholdes:  
+Hvis du vil have præcise og forudsigelige resultater, når du bruger **Forlæng reservation** , er der to nøgleforudsætninger, der skal overholdes:  
 
 - Brugeren skal konfigurere enhedens tidszone, så den stemmer overens med den tidszone, der er angivet i systemets **Indstillinger for personlig tilpasning**.
  
@@ -57,7 +57,7 @@ Følgende tabel viser:
 |Ressource C  |  ![Kalender for ressource C](media/reconcile-assignments-08.png) |
 |Ressource D  | ![Kalender for ressource D](media/reconcile-assignments-09.png)  |
  
-Når du navigerer til visningen **Afstemning**, vises ressourcetildelingerne og de manglende tilknyttede reservationer.
+Når du navigerer til visningen **Afstemning** , vises ressourcetildelingerne og de manglende tilknyttede reservationer.
 
 ![Afstemningsvisning før udvidelse](media/reconcile-assignments-10.png)
 

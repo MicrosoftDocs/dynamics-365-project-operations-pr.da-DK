@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906117"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074085"
 ---
 # <a name="create-resource-assignments"></a>Opret ressourcetildelinger
 
@@ -29,7 +29,7 @@ Når du opretter et generisk teammedlem via opgavetildeling, kan du oprette en p
 
 1. Vælg ressource-ikonet i cellen **Ressource** i planlægningsgitteret for en opgave.
 2. Skriv et navn, der skal fungere som pladsholderressourcens navn. F.eks. programadministrator.
-3. Vælg **Opret**, og angiv rollen for den generiske ressource i feltet **Hurtig oprettelse af projektteammedlem**.
+3. Vælg **Opret** , og angiv rollen for den generiske ressource i feltet **Hurtig oprettelse af projektteammedlem**.
 4. Tildel opgaver efter behov til denne pladsholderressource ved at vælge ressourcen i **Resourcevælgeren** for opgaven. De angivne ressourcer under **Teammedlemmer**.
 5. Når du er færdig med at tildele den generiske ressource, skal du under fanen **Team** vælge den generiske ressource og derefter vælge **Generer krav** for at oprette et ressourcekrav for den generiske ressource.
 6. Vælg **Reservér** for den generiske ressource, og brug derefter planlægningsområdet til at finde og reservere en faktisk ressource. Du kan også sende kravet til en ressourceansvarlig til indfrielse.
@@ -37,7 +37,7 @@ Når du opretter et generisk teammedlem via opgavetildeling, kan du oprette en p
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Tildele en navngivet ressource fra listen over alle reserverbare ressourcer
 
-Du kan bruge søgefeltet i **Ressourcevælger** til at søge i alle de aktive reserverbare ressourcer og tildele dem til en hvilken som helst bladnodeopgave. Ressourcer, der er tildelt på denne måde, føjes til teamet uden reservationer. Dette svarer til at tilføje et teammedlem og vælge **Ingen** som fordelingsmetode. Ressourcen vises på fanerne **Team**, **Ressourcetildeling** og **Afstemning** som ressourcer, der kun har tildelinger og et reservationsunderskud. Reservér dem, hvis du vil bruge deres tilgængelighed.
+Du kan bruge søgefeltet i **Ressourcevælger** til at søge i alle de aktive reserverbare ressourcer og tildele dem til en hvilken som helst bladnodeopgave. Ressourcer, der er tildelt på denne måde, føjes til teamet uden reservationer. Dette svarer til at tilføje et teammedlem og vælge **Ingen** som fordelingsmetode. Ressourcen vises på fanerne **Team** , **Ressourcetildeling** og **Afstemning** som ressourcer, der kun har tildelinger og et reservationsunderskud. Reservér dem, hvis du vil bruge deres tilgængelighed.
 
 1. Fra opgavegitteret, området eller tidslinjen skal du navigere til cellen **Tildelt til**.
 2. Begynd at skrive et navn i søgefeltet. Søgeresultaterne for navnet vises i **Resourcevælgeren** under **Andre ressourcer**.
