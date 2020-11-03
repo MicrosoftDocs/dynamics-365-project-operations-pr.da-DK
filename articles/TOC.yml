@@ -1,0 +1,1117 @@
+- name: Dynamics 365 Project Operations
+  href: index.md
+- name: Start her
+  items:
+    - name: Vælg din udrulningstype
+      href: environment/determine-deployment-type.md
+- name: Project Operations for ressource-/ikke-lagerbaserede scenarier
+  items:
+    - name: Start her
+      items:
+        - name: Tilmelding til et prøveversionsabonnement (ressource-/ikke-lagerbaseret)
+          href: environment/resource-sign-up-preview-subscription.md
+        - name: Konfigurer forudsætninger
+          items:
+            - name: Start et nyt LCS-projekt
+              href: environment/create-lcs-project.md
+            - name: Tilføj et Azure-abonnement til LCS-projekt
+              href: environment/resource-add-azure-subscription-lcs-project.md
+        - name: Anvend demonstrationsdata
+          items:
+            - name: Anvend demonstrationsdata for Project Operations på et skybaseret Finance-miljø
+              href: environment/resource-apply-finance-demo-data.md
+            - name: Anvend konfigurationsdata i Common Data Service for Project Operations
+              href: environment/resource-apply-pro-setup-config-data.md
+        - name: Udrul miljøer
+          items:
+            - name: Klargør et nyt miljø
+              href: environment/resource-provision-new-environment.md
+            - name: Sikkerhedsmodel
+              href: environment/security-model.md
+            - name: Konfigurer integration af Project Operations for de enkelte juridiske enheder
+              href: environment/resource-configure-integration-per-legal-entity.md
+    - name: Salgsproces
+      items:
+        - name: Salgsoversigt
+          href: sales/sales-overview.md
+        - name: Konfigurer
+          items:
+            - name: Produkter
+              href: sales/sales-products.md
+            - name: Undermoduler og enhedsgrupper
+              href: sales/sales-units-unit-groups.md
+            - name: Valuta
+              href: sales/sales-currency.md
+        - name: Administrer kundeemner
+          href: sales/manage-leads.md
+        - name: Administrer salgsmuligheder
+          items:
+            - name: Administrer projektbaserede salgsmuligheder
+              href: sales/manage-project-based-opportunities.md
+            - name: Overskrift til salgsmulighed
+              href: sales/opportunity-header.md
+            - name: Projektbaserede linjer
+              href: sales/project-based-lines.md
+            - name: Kopier projektbaserede salgsmuligheder
+              href: sales/copy-project-based-opportunity.md
+            - name: Opret projekttilbud ud fra salgsmuligheder
+              href: sales/link-quotes-opportunities.md
+            - name: Luk en salgsmulighed
+              href: sales/close-opportunity.md
+        - name: Administrer tilbud
+          items:
+            - name: Nøglekoncepter
+              href: sales/quotes-key-concepts.md
+            - name: Opsummerende oplysninger i et projekttilbud
+              href: sales/quote-values-budget-limits-contract.md
+            - name: Administrer flere kunder i et tilbud
+              href: sales/manage-multiple-customers-quote.md
+            - name: Produktbaserede tilbudslinjer
+              item:
+                - name: Produktbaserede tilbudslinjer for omkostningsfastsættelse
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Administrer komplekse undermoduler til produktbaserede tilbudslinjer
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektbaserede tilbudslinjer
+              items:
+                - name: Administrer projektprislister
+                  href: sales/managing-project-price-lists.md
+                - name: Administrer flere kunder i projektbaserede tilbudslinjer
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Opret estimater på en tilbudslinje
+                  href: sales/create-estimate-quote-line.md
+                - name: Importér estimater for et projekt til en projektbaseret tilbudslinje
+                  href: sales/import-estimate-quote-line.md
+                - name: 'Administrer tilbudsværdier, kundebudgetter og grænser, som ikke må overskrides'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Fakturaplaner for projektbaserede tilbudslinjer
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Kopier projektbaserede tilbud
+              href: sales/lose-quote.md
+            - name: Luk et tilbud
+              href: sales/win-quote.md
+        - name: Administrer kontrakter
+          items:
+            - name: Nøglekoncepter - projektkontrakter
+              href: sales/contracts-key-concepts.md
+            - name: Indstillinger for projektkontrakt
+              href: sales/project-contract-settings.md
+            - name: Projektbaserede kontraktlinjer
+              items:
+                - name: Konfigurer fakturerbare komponenter i en projektbaseret kontraktlinje
+                  href: sales/configure-chargeable-contract-line.md
+                - name: Importer et estimat til en projektbaseret kontraktlinje
+                  href: sales/import-estimate-project-contract-line.md
+                - name: Opret en fakturaplan på en projektbaseret kontraktlinje
+                  href: sales/invoice-schedules-contract-line.md
+            - name: Bekræft en projektkontrakt
+              href: pro/sales/confirm-contract-sales.md
+    - name: Prisfastsættelse og omkostningsfastsættelse
+      items:
+        - name: Konfigurer prislister
+          href: pricing-costing/price-list-setup.md
+        - name: Produktprislister
+          href: pricing-costing/product-price-list.md
+        - name: Projektprislister
+          items:
+            - name: Konfiguration af prisliste til salg
+              items:
+                - name: Konfigurer salgsprisliste
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Konfigurer hyppigheden for fakturering af arbejdstid
+                  href: pricing-costing/set-up-labor-bill-rate.md
+                - name: Konfigurer satser for arbejdskraftomkostninger
+                  href: pricing-costing/set-up-labor-cost-rate.md
+                - name: Konfigurer udgiftssatser for omkostninger og salg
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Standardprislister
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Fastsættelse af kostpriser for estimater og faktiske tal
+                  href: pricing-costing/cost-price-resolution.md
+        - name: Standarder og tilsidesættelser
+          items:
+            - name: Fastsæt salgspriser for estimater og faktiske tal
+              href: pricing-costing/sales-price-resolution.md
+            - name: Kopier prislister
+              href: pricing-costing/copy-price-lists.md
+        - name: Dimensioner for prisfastsættelse
+          items:
+            - name: Oversigt over dimensioner for prisfastsættelse
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Brug et eksisterende felt som en prisfastsættelsesdimension
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Brugerdefinerede felter som prisfastsættelsesdimensioner
+              items:
+                - name: Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Slå en prisfastsættelsesdimension fra
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Projektstyring
+      items:
+        - name: Oversigt over projektstyring
+          href: project-management/project-management-overview.md
+        - name: Projektfaser
+          href: project-management/project-stages.md
+        - name: Navigation i brugergrænsefladen
+          href: project-management/navigate-ui.md
+        - name: Få en forståelse for projektstatus
+          href: project-management/understand-project-status.md
+        - name: Definer projektkalendere
+          href: project-management/define-project-calendars.md
+        - name: Opdater et projekt
+          href: project-management/update-project.md
+        - name: Kopiér et projekt
+          href: project-management/copy-project.md
+        - name: Planlægning af arbejdsopgavehierarki
+          items:
+            - name: Opret tildelinger
+              href: project-management/create-assignments.md
+        - name: Estimer projekter
+          items:
+            - name: Oversigt over estimerede projekter
+              href: project-management/estimating-projects-overview.md
+            - name: Ressourceestimater
+              href: project-management/resource-estimates.md
+            - name: Opret udgiftsestimater
+              href: project-management/create-expense-estimates.md
+        - name: Projektsporing
+          items:
+            - name: Oversigt over projektsporing
+              href: project-management/project-tracking-overview.md
+            - name: Opdater estimat ved fuldførelse
+              href: project-management/update-completed-estimate.md
+        - name: Projektteamets medlemmer
+          items:
+            - name: Oversigt over projektteamets medlemmer
+              href: project-management/project-team-members-overview.md
+            - name: Bevar projektteamets medlemmer
+              href: project-management/maintain-team-members.md
+        - name: Samarbejde
+          items:
+            - name: Samarbejde med Office Grupper
+              href: project-management/collaboration-groups.md
+        - name: Bemærkninger til udvikler
+          items:
+            - name: Udarbejd projektskabeloner med Kopier projekt
+              href: project-management/dev-copy-project.md
+    - name: Ressourcestyring
+      items:
+        - name: Nøglekoncepter
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reserveringer i forhold til tildelinger
+          href: resource-management/booking-vs-assignment.md
+        - name: Oversigt over tilstande for ressourcestyring
+          href: resource-management/resource-management-mode-overview.md
+        - name: Oversigt over planlægningsassistent
+          href: resource-management/schedule-assistant-overview.md
+        - name: Centraliseret ressourcereservation
+          items:
+            - name: Definer ressourcekrav
+              href: resource-management/define-resource-requirements.md
+            - name: Opdater ressourcekrav
+              href: resource-management/update-resource-requirements.md
+            - name: Send en ressourceanmodning
+              href: resource-management/submit-resource-requirements.md
+            - name: Reserver til et projekt
+              href: resource-management/book-project.md
+            - name: Gennemse foreslåede ressourcer
+              href: resource-management/review-proposed-resources.md
+        - name: Decentraliseret ressourcereservation (hybrid)
+          items:
+            - name: Tilføj teammedlemmer fra teammedlemsgitteret
+              href: resource-management/add-team-members-grid.md
+            - name: Opfyldelse af generiske ressourcekrav
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administration af ressourcer
+          items:
+            - name: Definer færdigheder og kvalifikationer
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definer ressourcekalendere
+              href: resource-management/define-resource-calendars.md
+        - name: Reservationsallokeringsmetoder
+          href: resource-management/booking-allocation-methods.md
+        - name: Færdigheds- og kompetencemodeller
+          href: resource-management/skills-proficiency-models.md
+        - name: Ressourceafstemning
+          items:
+            - name: Oversigt over ressourceafstemning
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Administrer tidszoner
+              href: resource-management/manage-multiple-time-zones.md
+    - name: Tid
+      items:
+        - name: Tidsoversigt
+          href: time/time-entry-overview.md
+        - name: Opret tidsregistreringer
+          items:
+            - name: Funktionsmåde for brugergrænsefladen til tidsregistrering
+              href: time/ui-behavior-time.md
+        - name: Bemærkninger til udvikler
+          items:
+            - name: Brugertilpas gitteret for de ugentlige tidsregistreringer
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Udgift
+      items:
+        - name: Udgiftsoversigt
+          href: expense/expense-overview.md
+        - name: Erfaring med udgiftsstyring for projekter
+          items:
+            - name: Konfiguration og installation
+              items:
+                - name: Konfigurer politikker
+                  href: expense/set-up-policies.md
+                - name: Konfigurer arbejdsproces
+                  href: expense/set-up-workflows.md
+                - name: Administrer delegering
+                  href: expense/manage-delegation.md
+                - name: Konfigurer parametre for udgiftsstyring
+                  href: expense/configure-expense-management-parameters.md
+                - name: Konfigurer integration af kreditkort
+                  href: expense/set-up-credit-card-integration.md
+                - name: Opsætning af udgiftskategorier
+                  href: expense/set-up-expense-categories.md
+            - name: Opret udgiftsrapporter
+              items:
+                - name: Fordelinger i en udgiftsrapport
+                  href: expense/distributions-expense-report.md
+            - name: Godkend udgiftsrapporter
+              items:
+                - name: Udgiftsrapporter og flere godkendere
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Bogfør udgiftsrapporter
+              href: expense/posting-expense-reports.md
+            - name: Rejserekvisition
+              href: expense/travel-requisition.md
+            - name: Kontantforskud
+              href: expense/cash-advance.md
+            - name: Pr. dag
+              href: expense/per-diems.md
+            - name: Økonomistyring
+              items:
+                - name: Momsinddrivelse
+                  href: expense/vat-recovery.md
+            - name: Ny udgiftserfaring
+              items:
+                - name: Nye udgiftsrapporter
+                  href: expense/expense-reports-reimagined.md
+                - name: Afstem kvittering med udgifter ved hjælp af optisk tegngenkendelse
+                  href: expense/match-receipt-expense-ocr.md
+            - name: Mobil udgiftsstyring
+              href: expense/expense-using-mobile.md
+    - name: Godkendelser
+      items:
+        - name: Godkendelsesoversigt
+          href: approvals/approvals-overview.md
+    - name: Faktiske
+      items:
+        - name: Oversigt over faktiske
+          href: actuals/actuals-overview.md
+        - name: Rettelseskladder
+          items:
+            - name: Opret og bekræft rettelseskladder
+              href: actuals/create-confirm-correction-journals.md
+    - name: Proformafakturering
+      items:
+        - name: Administrer faktureringsefterslæbet
+          href: proforma-invoicing/manage-billing-backlog.md
+        - name: Opret en manuel proformafaktura
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Bekræft en proformafaktura
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Rettede fakturaer
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Konfigurer automatisk fakturaoprettelse
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Projektregnskab
+      items:
+        - name: Konfigurer projektkategorier
+          href: project-accounting/configure-project-categories.md
+        - name: Konfigurer regnskab for interne projekter
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Konfigurer regnskab for fakturerbare projekter
+          href: project-accounting/configure-accounting-billable-projects.md
+- name: Lille udrulning - aftale til proformafakturering
+  items:
+    - name: Start her
+      items:
+        - name: Tilmelding til et prøveversionsabonnement (lille)
+          href: environment/lite-preview-subscription-sign-up.md
+        - name: Udrul Project Operations Lite – aftale til proformafakturering
+          href: environment/lite-deployment.md
+        - name: Anvend demonstrationskonfiguration og konfigurationsdata
+          href: environment/lite-apply-demo-setup-config-data.md
+        - name: Sikkerhedsmodel
+          href: environment/security-model.md
+    - name: Salgsproces
+      items:
+        - name: Konfigurer
+          items:
+            - name: Produkter
+              href: sales/sales-products.md
+            - name: Undermoduler og enhedsgrupper
+              href: sales/sales-units-unit-groups.md
+            - name: Valuta
+              href: sales/sales-currency.md
+        - name: Administrer kundeemner
+          href: pro/sales/managing-leads-sales.md
+        - name: Administrer salgsmuligheder
+          items:
+            - name: Administrer projektbaserede salgsmuligheder
+              href: sales/manage-project-based-opportunities.md
+            - name: Overskrift til salgsmulighed
+              href: pro/sales/opportunity-header-sales.md
+            - name: Projektbaserede linjer
+              href: pro/sales/project-based-lines-sales.md
+            - name: Kopier projektbaserede salgsmuligheder
+              href: sales/copy-project-based-opportunity.md
+            - name: Opret projekttilbud ud fra salgsmuligheder
+              href: sales/link-quotes-opportunities.md
+            - name: Produktbaserede salgsmulighedslinjer
+              href: pro/sales/product-based-lines-sales.md
+            - name: Luk en salgsmulighed
+              href: sales/close-opportunity.md
+        - name: Administrer tilbud
+          items:
+            - name: Nøglekoncepter for projekttilbud
+              href: pro/sales/quotes-key-concepts-sales.md
+            - name: Opsummerende oplysninger i et projekttilbud (salg)
+              href: pro/sales/quote-values-budget-limits-contract-sales.md
+            - name: Administration af flere kunder i projekttilbud
+              href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Produktbaserede tilbudslinjer
+              items:
+                - name: Produktbaserede tilbudslinjer for omkostningsfastsættelse
+                  href: pro/sales/costing-product-based-quote-lines-sales.md
+                - name: Administration af komplekse undermoduler såsom pr. bruger pr. måned i forbindelse med produktbaserede tilbudslinjer
+                  href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
+            - name: Projektbaserede tilbudslinjer
+              items:
+                - name: Administrer projektprislister i projekttilbud
+                  href: pro/sales/manage-project-price-lists-sales.md
+                - name: Administration af flere kunder i projektbaserede tilbudslinjer
+                  href: pro/sales/manage-multiple-customers-quote-line-sales.md
+                - name: Tilknyt projekter og opgaver til en projektbaseret tilbudslinje
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Estimer en projektbaseret tilbudslinje
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Projektbaserede tilbudslinjer (salg)
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Importér estimater for et projekt til en projektbaseret tilbudslinje
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Fakturaplaner for projektbaserede tilbudslinjer
+                  href: sales/invoice-schedule-quote-line.md
+                - name: Konfigurer de fakturerbare komponenter i en tilbudslinje
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+        - name: Kopier projektbaserede tilbud
+          href: sales/lose-quote.md
+        - name: Luk et tilbud
+          href: pro/sales/win-quote-sales.md
+    - name: Administrer kontrakter
+      items:
+        - name: Nøglekoncepter i projektkontrakter
+          href: pro/sales/contracts-key-concepts-sales.md
+        - name: Projektkontraktfelter og -oplysninger
+          href: pro/sales/project-contract-settings-sales.md
+        - name: Produktbaserede kontraktlinjer
+          items:
+            - name: Oversigt over produktbaserede kontraktlinjer
+              href: pro/sales/product-based-contract-lines-overview-sales.md
+            - name: Produktbaserede kontraktlinjer for omkostningsfastsættelse
+              href: pro/sales/cost-product-based-contract-lines-sales.md
+        - name: Projektbaserede kontraktlinjer
+          items:
+            - name: Konfiguration af fakturerbare komponenter i en projektbaseret kontraktlinje
+              href: pro/sales/configure-chargeable-components-contract-line.md
+            - name: Import af et estimat til en projektbaseret kontraktlinje
+              href: pro/sales/import-estimate-project-contract-line-sales.md
+            - name: Oprettelse af fakturaplaner på en projektbaseret kontraktlinje
+              href: pro/sales/invoice-schedules-contract-line-sales.md
+        - name: Kopiering af projektkontrakter
+          href: pro/sales/copy-project-contracts-sales.md
+        - name: Bekræft en projektkontrakt
+          href: pro/sales/confirm-contract-sales.md
+        - name: Forskudskontrakter og kontrakter baseret på forskudshonorar
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+    - name: Prisfastsættelse og omkostningsfastsættelse
+      items:
+        - name: Konfigurer prislister
+          href: pricing-costing/price-list-setup.md
+        - name: Projektprislister
+          items:
+            - name: Konfiguration af prisliste til salg
+              items:
+                - name: Konfigurer salgsprisliste
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Konfiguration af hyppigheden for fakturering af arbejdstid
+                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+                - name: Konfiguration af satser for arbejdskraftomkostninger
+                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+                - name: Konfigurer satser for omkostninger og salg af katalogprodukter
+                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+                - name: Konfigurer udgiftssatser for omkostninger og salg
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Standardprislister
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Fastsættelse af kostpriser i estimater og faktiske tal
+                  href: pro/pricing-costing/cost-price-resolution-sales.md
+        - name: Standarder og tilsidesættelser
+          items:
+            - name: Fastsættelse af salgspriser for estimater og faktiske tal
+              href: pro/pricing-costing/sales-price-resolution-sales.md
+            - name: Kopier prislister
+              href: pricing-costing/copy-price-lists.md
+        - name: Dimensioner for prisfastsættelse
+          items:
+            - name: Brug et eksisterende felt som en prisfastsættelsesdimension
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Brugerdefinerede felter som prisfastsættelsesdimension
+              items:
+                - name: Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Slå en prisfastsættelsesdimension fra
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Projektstyring
+      items:
+        - name: Oversigt over projektstyring
+          href: project-management/project-management-overview.md
+        - name: Projektfaser
+          href: project-management/project-stages.md
+        - name: Navigation i brugergrænsefladen
+          href: project-management/navigate-ui.md
+        - name: Få en forståelse for projektstatus
+          href: project-management/understand-project-status.md
+        - name: Definer projektkalendere
+          href: project-management/define-project-calendars.md
+        - name: Opdater et projekt
+          href: project-management/update-project.md
+        - name: Kopiér et projekt
+          href: project-management/copy-project.md
+        - name: Planlægning af arbejdsopgavehierarki
+          items:
+            - name: Opret tildelinger
+              href: project-management/create-assignments.md
+        - name: Estimer projekter
+          items:
+            - name: Oversigt over estimerede projekter
+              href: project-management/estimating-projects-overview.md
+            - name: Ressourceestimater
+              href: project-management/resource-estimates.md
+            - name: Opret udgiftsestimater
+              href: project-management/create-expense-estimates.md
+        - name: Projektsporing
+          items:
+            - name: Oversigt over projektsporing
+              href: project-management/project-tracking-overview.md
+            - name: Opdater estimat ved fuldførelse
+              href: project-management/update-completed-estimate.md
+        - name: Projektteamets medlemmer
+          items:
+            - name: Oversigt over projektteamets medlemmer
+              href: project-management/project-team-members-overview.md
+            - name: Bevar projektteamets medlemmer
+              href: project-management/maintain-team-members.md
+        - name: Samarbejde
+          items:
+            - name: Samarbejde med Office Grupper
+              href: project-management/collaboration-groups.md
+    - name: Ressourcestyring
+      items:
+        - name: Nøglekoncepter
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reserveringer i forhold til tildelinger
+          href: resource-management/booking-vs-assignment.md
+        - name: Oversigt over tilstande for ressourcestyring
+          href: resource-management/resource-management-mode-overview.md
+        - name: Oversigt over planlægningsassistent
+          href: resource-management/schedule-assistant-overview.md
+        - name: Centraliseret ressourcereservation
+          items:
+            - name: Definer ressourcekrav
+              href: resource-management/define-resource-requirements.md
+            - name: Opdater ressourcekrav
+              href: resource-management/update-resource-requirements.md
+            - name: Send en ressourceanmodning
+              href: resource-management/submit-resource-requirements.md
+            - name: Reserver til et projekt
+              href: resource-management/book-project.md
+            - name: Gennemse foreslåede ressourcer
+              href: resource-management/review-proposed-resources.md
+        - name: Decentraliseret ressourcereservation (hybrid)
+          items:
+            - name: Tilføj teammedlemmer fra teammedlemsgitteret
+              href: resource-management/add-team-members-grid.md
+            - name: Opfyldelse af generiske ressourcekrav
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administration af ressourcer
+          items:
+            - name: Definer færdigheder og kvalifikationer
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definer ressourcekalendere
+              href: resource-management/define-resource-calendars.md
+        - name: Reservationsallokeringsmetoder
+          href: resource-management/booking-allocation-methods.md
+        - name: Færdigheds- og kompetencemodeller
+          href: resource-management/skills-proficiency-models.md
+        - name: Ressourceafstemning
+          items:
+            - name: Oversigt over ressourceafstemning
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Administrer tidszoner
+              href: resource-management/manage-multiple-time-zones.md
+    - name: Tid
+      items:
+        - name: Tidsoversigt
+          href: time/time-entry-overview.md
+        - name: Opret tidsregistreringer
+          items:
+            - name: Funktionsmåde for brugergrænsefladen til tidsregistrering
+              href: time/ui-behavior-time.md
+        - name: Bemærkninger til udvikler
+          items:
+            - name: Brugertilpas gitteret for de ugentlige tidsregistreringer
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Udgift
+      items:
+        - name: Udgiftsoversigt
+          href: expense/expense-overview.md
+        - name: Udgiftspost (lille)
+          href: expense/basic-expense.md
+    - name: Godkendelser
+      items:
+        - name: Godkendelsesoversigt
+          href: approvals/approvals-overview.md
+    - name: Faktiske
+      items:
+        - name: Oversigt over faktiske
+          href: actuals/actuals-overview.md
+        - name: Rettelseskladder
+          items:
+            - name: Opret og bekræft rettelseskladder
+              href: actuals/create-confirm-correction-journals.md
+        - name: Proformafakturering
+          items:
+            - name: Administrer faktureringsefterslæbet
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Oprettelse af en manuel proformafaktura
+              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+            - name: Fakturer et forskudshonorar eller et forskud
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Rettede fakturaer
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Konfigurer automatisk fakturaoprettelse
+              href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: Project Operations til lagerbaserede/produktionsbaserede scenarier
+  items:
+    - name: Oversigt over projektstyring og regnskab
+      href: prod-pma/overview-project-management-accounting.md
+    - name: Intern fakturering
+      href: prod-pma/intercompany-invoicing.md
+    - name: Konfigurer intern projektfakturering
+      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Konfigurer standardomkostninger for arbejdskraft og udgifter
+      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Opret og anvend betingelser for tilbageholdelse af leverandørbetaling
+      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Konfigurer og anvend samtidighedsbetaling af leverandører ("pay-when-paid")
+      href: prod-pma/setup-manage-vendor-payments.md
+    - name: Periodisering af projektomkostninger på indkøbskvitteringer
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+    - name: Projektfakturering
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Projektkontrakter
+      href: prod-pma/project-contracts.md
+    - name: 'Opret avancerede kontrakter for fakturering, der er baseret på status'
+      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+    - name: Projektprognoser og budgetter
+      href: prod-pma/project-forecasts-budgets.md
+    - name: Opret prognosemodeller for projektbudgetter
+      href: prod-pma/create-forecast-models-project-budgets.md
+    - name: Overfør projektbudgetter ved afslutning af regnskabsåret
+      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Projektsalgsordrer
+      href: prod-pma/project-sales-orders.md
+    - name: Indkøbsordrer for et projekt
+      href: prod-pma/project-purchase-orders.md
+    - name: Projekttilbud
+      href: prod-pma/project-quotations.md
+    - name: 'Bekræft, opdater og fremsend et projekttilbud'
+      href: prod-pma/confirm-update-send-project-quotation.md
+    - name: Overfør et tilbud til et projekt
+      href: prod-pma/transfer-quote-new-existing-project.md
+    - name: Projektressourcer
+      items:
+        - name: Oversigt over projektressourcer
+          href: prod-pma/project-resourcing.md
+        - name: Konfigurer projektressourcer
+          href: prod-pma/set-up-project-resources.md
+        - name: Administrer ressourcekompetencer
+          href: prod-pma/manage-resource-competencies.md
+        - name: Opret et nyt projekt
+          href: prod-pma/create-new-project.md
+        - name: Konfigurer rollebaseret prisfastsættelse
+          href: prod-pma/set-up-role-based-pricing.md
+        - name: Opret et projektteam
+          href: prod-pma/create-project-team.md
+        - name: Synkroniser ressourcekapacitet
+          href: prod-pma/synchronize-resource-capacity.md
+        - name: Ydeevne for et projekts ressourceplanlægning
+          href: prod-pma/project-scheduling-performance.md
+        - name: Konfigurer roller for skabeloner til arbejdsopgavehierarki
+          href: prod-pma/set-up-roles-wbs-template.md
+        - name: Ressourceopfyldelse for planlagte ressourcer
+          href: prod-pma/resource-fulfillment-planned-resources.md
+    - name: Modtag varer på indkøbsordre fra varebehov
+      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+    - name: Arbejdsopgavehierarkier
+      items:
+        - name: Oversigt over arbejdsopgavehierarkier
+          href: prod-pma/work-breakdown-structures.md
+        - name: Integration af Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Oversigt over mobilapplikationer til Project
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Mobilt arbejdsområde for tidsregistrering på projekter
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Mobilapp til projekttimesedler
+          href: prod-pma/project-timesheet.md
+        - name: Projekttimesedler på en mobilenhed
+          href: prod-pma/mobile-timesheets.md
+        - name: Implementer brugerdefinerede felter for mobilappen til projekttimesedler
+          href: prod-pma/custom-fields-mobile.md
+    - name: Projekttilskud
+      href: prod-pma/project-grants.md
+    - name: Eliminer et projektestimat
+      href: prod-pma/eliminate-project-estimate.md
+- name: Udgiftsstyring
+  items:
+    - name: Oversigt over udgiftsstyring
+      href: prod-exp/expense-management.md
+    - name: Nye udgiftsrapporter
+      href: prod-exp/ExpenseWorkspaceNew.md
+    - name: Planlæg udgiftsstyring
+      href: prod-exp/plan-expense-management.md
+    - name: Parametre for udgiftsstyring
+      href: prod-exp/Expense-Management-Parameters.md
+    - name: Mobilt arbejdsområde til udgiftsstyring
+      href: prod-exp/expense-management-mobile-workspace.md
+    - name: Konfigurer arbejdsprocesser for udgiftsstyring
+      href: prod-exp/expense-workflows.md
+    - name: Arbejdsproces for udgiftsstyring
+      href: prod-exp/expense-workflow.md
+    - name: Administrer udgiftsdelegering
+      href: prod-exp/manage-expense-delegation.md
+    - name: Behandling af udgiftskvittering
+      href: prod-exp/expense-receipt-processing.md
+    - name: Importer og vedligehold kreditkorttransaktioner
+      href: prod-exp/import-credit-card.md
+    - name: Fordelinger i en udgiftsrapport
+      href: prod-exp/expense-report-distributions.md
+    - name: Interne udgifter
+      href: prod-exp/intercompany-expense.md
+    - name: Definer udgiftspolitikker
+      href: prod-exp/travel-expense-policies.md
+    - name: Se en udgiftsrapport
+      href: prod-exp/view-expense-report.md
+    - name: Bogfør en udgiftsrapport
+      href: prod-exp/post-expense.md
+    - name: Udgiftsrapporter og flere godkendere
+      href: prod-exp/expense-report-multiple-approvers.md
+    - name: Momsopkrævning i udgiftsstyring
+      href: prod-exp/VAT-expense-report.md
+    - name: Pr. dag-regler
+      href: prod-exp/per-diem.md
+    - name: Rejserekvisitioner
+      href: prod-exp/travel-req.md
+    - name: Personlige udgifter i en udgiftsrapport
+      href: prod-exp/personal-expenses.md
+- name: Dynamics 365 Project Service Automation
+  items:
+    - name: Oversigt over Project Service Automation
+      href: psa/overview.md
+    - name: Nyheder
+      items:
+        - name: Plan for udgivelse af opdatering til Project Service 3.x
+          href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 24. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-24.md
+        - name: 'Nyheder eller ændringer i den 23. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-23.md
+        - name: 'Nyheder eller ændringer i den 22. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-21.md
+        - name: 'Nyheder eller ændringer i den 20. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-20.md
+        - name: 'Nyheder eller ændringer i den 19. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-19.md
+        - name: 'Nyheder eller ændringer i den 18. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-18.md
+        - name: 'Nyheder eller ændringer i opdateringsudgivelse 17.5, hotfix v3'
+          href: psa/whats-new-ur-17-5.md
+        - name: 'Nyheder eller ændringer i den 17. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-17.md
+        - name: 'Nyheder eller ændringer i den 16. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-16.md
+        - name: 'Nyheder eller ændringer i den 15. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-15.md
+        - name: 'Nyheder eller ændringer i den 14. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-14.md
+        - name: 'Nyheder eller ændringer i den 13. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-13.md
+        - name: 'Nyheder eller ændringer i den 12. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-12.md
+        - name: Nyheder eller ændringer i Project Service Automation v3.x bølge 1 2020
+          href: psa/whats-new-v3-2020-wave1.md
+        - name: Nyheder eller ændringer i Project Service Automation v3
+          href: psa/whats-new-changed-v3.md
+    - name: Implementer Project Service Automation 3.x
+      items:
+        - name: Oversigt over implementering
+          href: psa/install-sample-data-3-x.md
+    - name: Opgrader
+      items:
+        - name: Opgrader Project Service Automation (3.x)
+          href: psa/upgrade-psa-home-page.md
+        - name: Overvejelser vedrørende opgradering - version 2.x eller 1.x til version 3
+          href: psa/upgrade-v3.md
+        - name: Udvikling (3.x)
+          href: psa/developer-guides/overview-dev-notes-v3.x.md
+        - name: Objektændringer
+          href: psa/developer-guides/entity-changes-v3.x.md
+        - name: Tid og udgift
+          href: psa/developer-guides/time-expense-changes-v3.x.md
+        - name: Ressourcestyring
+          href: psa/developer-guides/resource-management-changes-v3.x.md
+        - name: Udfasede webressourcer i Project Service Automation v3.x
+          href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Projektplanlægning
+      items:
+        - name: Oversigt over projektplanlægning
+          href: psa/project-planning.md
+        - name: Projektplaner
+          href: psa/project-creating.md
+        - name: Projektomkostninger og -omsætning
+          href: psa/project-estimating.md
+        - name: Salgsestimater og projekter
+          href: psa/project-leveraging.md
+        - name: Projektstatus og -omkostningsforbrug
+          href: psa/project-tracking.md
+        - name: Projektskabeloner
+          href: psa/project-templates.md
+        - name: Projektfaser
+          href: psa/project-stages.md
+        - name: Projektindstillinger
+          href: psa/project-settings.md
+    - name: Dimensioner for prisfastsættelse og omkostninger
+      items:
+        - name: Oversigt over dimensioner for prisfastsættelse og omkostninger
+          href: psa/pricing-costing-dimensions.md
+        - name: Opret en løsning til brugerdefinerede prisfastsættelsesdimensioner
+          href: psa/custompricingdimensionssolution.md
+        - name: Opret brugerdefinerede felter og objekter
+          href: psa/create-custom-fields-entities.md
+        - name: Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter
+          href: psa/field-references.md
+        - name: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
+          href: psa/set-up-pricing-dimensions.md
+        - name: 'Opdater plug-in-attributter, så de indeholder nye prisfastsættelsesdimensioner'
+          href: psa/update-plug-in-attributes.md
+        - name: Genbrug elementer som prisfastsættelsesdimensioner
+          items:
+            - name: Anvend et eksisterende felt i Project Service som en prisfastsættelsesdimension
+              href: psa/use-existing-field.md
+            - name: Anvend en reserverbar ressource som en prisfastsættelsesdimension
+              href: psa/bookable-resource-pricing-dimension.md
+            - name: Anvend en transaktionskategori som en prisfastsættelsesdimension
+              href: psa/transaction-category-pricing-dimension.md
+        - name: Reserverbar ressource med flere roller på et projekt
+          href: psa/bookable-resource-multiple-roles.md
+        - name: Slå en prisfastsættelsesdimension fra
+          href: psa/turn-off-pricing-dimension.md
+    - name: 'Tilbudsgivning, prisfastsættelse og fakturering'
+      items:
+        - name: 'Oversigt over tilbudsgivning, prisfastsættelse og fakturering'
+          href: psa/quote-bill-price.md
+        - name: Tilbudsgivning
+          items:
+            - name: Salgsprocesser
+              href: psa/basic-sales-process.md
+            - name: Enhedsgrupper og enheder
+              href: psa/advanced-units.md
+            - name: Afdelinger
+              href: psa/advanced-organizational.md
+            - name: Tilbud og tilbudslinjer
+              href: psa/basic-quote-lines.md
+            - name: Produktbaserede tilbudslinjer
+              href: psa/product-based-quote-lines.md
+            - name: Analyse af projekttilbud
+              href: psa/basic-analyzing-quotes.md
+        - name: Prisfastsættelse
+          items:
+            - name: Projektprisfastsættelse
+              href: psa/basic-pricing.md
+            - name: Prisfastsættelse i produktkatalog
+              hreF: psa/product-catalog-pricing.md
+            - name: Forretningstransaktioner
+              href: psa/basic-business-transactions.md
+            - name: Estimater
+              href: psa/estimates.md
+        - name: Fakturering
+          items:
+            - name: Analyse af projekttilbud
+              href: psa/basic-analyzing-quotes.md
+            - name: Tilbagekald tidligere godkendte tidsregistreringer eller udgiftsposter
+              href: psa/recall-approved.md
+            - name: Annuller godkendelsen af tidligere godkendte tidsregistreringer eller udgiftsposter
+              href: psa/cancel-approval.md
+            - name: Faktiske
+              href: psa/actuals.md
+            - name: 'Massekorrektioner af de faktiske værdier, der er oprettet af godkendte tidsregistreringer og udgiftsposter'
+              href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+            - name: Gennemgå efterslæbet af projektfakturering
+              href: psa/review-invoicing-backlog.md
+            - name: Fakturering
+              href: psa/invoicing.md
+            - name: Scenarier med flere valutaer
+              href: psa/advanced-currency.md
+    - name: Ressourceprojekter
+      items:
+        - name: Oversigt over projektressourcer
+          href: psa/resource-management.md
+        - name: Tildel generiske reserverbare ressourcer til en opgave og generer ressourcekrav
+          href: psa/assign-generic-bookable-resource.md
+        - name: Reserver navngivne reserverbare ressourcer til et projektteam og tildel opgave
+          href: psa/assign-named-bookable-resource.md
+        - name: Tildel en ressource til en opgave
+          href: psa/FAQ-assign-resources-to-tasks.md
+        - name: Reserver navngivne ressourcer fra ressourcekrav
+          href: psa/book-named-resource.md
+        - name: 'Ressourcereservationer, og hvordan de relaterer til opgavetildelinger'
+          href: psa/FAQ-bookings-and-assignments.md
+        - name: Send en ressourceanmodning
+          href: psa/submit-resource-request.md
+        - name: Accepter eller afvis en foreslået ressource
+          href: psa/accept-reject-proposed-resource.md
+        - name: Se det fakturerbare tidsforbrug for ressourcer
+          href: psa/FAQ-utilization-view.md
+        - name: Afstem reservationer og tildelinger
+          href: psa/reconcile-booking-assignment.md
+    - name: Ressourcestyring
+      items:
+        - name: Startside for ressourcestyring
+          href: psa/resource-management-home-page.md
+        - name: Administrer ressourcer
+          href: psa/manage-resources.md
+        - name: Nøglekoncepter
+          href: psa/reports-key-concepts.md
+        - name: Opfyldelse af ressourcekrav
+          href: psa/resource-management-fulfill-requests.md
+        - name: Foreslåede ressourcer
+          href: psa/resource-management-propose-resources.md
+        - name: Reservation af ressourcer
+          href: psa/resource-management-book-resources-scheduleboard.md
+        - name: Reservationsallokeringsmetoder
+          href: psa/FAQ-allocation-methods.md
+        - name: Krav til foreløbige reservationer
+          href: psa/resource-management-softbook-requirements.md
+        - name: Reserver en ressource foreløbig
+          href: psa/FAQ-soft-book.md
+        - name: Opret en projektreservation fra planlægningsområdet
+          href: psa/FAQ-project-booking-schedule-board.md
+        - name: Færdigheds- og kompetencemodeller
+          href: psa/resource-management-skills-proficiency.md
+        - name: Ofte stillede spørgsmål i forbindelse med ressourcestyring
+          href: psa/resource-management-faq.md
+    - name: Rapportering
+      items:
+        - name: Rapporteringsoversigt
+          href: psa/reports-reporting-dynamics-365-project-service.md
+        - name: Dashboards
+          href: psa/reports-dashboards.md
+        - name: Arbejd med datamodellen i Project Service Automation
+          href: psa/reports-working-project-service-data-model.md
+    - name: Tidsregistrering
+      items:
+        - name: Opret tidsregistreringer
+          href: psa/time-entries.md
+        - name: Kalender for tidsregistreringer
+          href: psa/time-entry-calendar.md
+        - name: Brugertilpasning af ugentlige tidsregistreringer
+          href: psa/time-entry-extensibility-v3.md
+    - name: Ofte stillede spørgsmål og fejlfinding
+      items:
+        - name: Hvorfor er standardprisen for faktiske omkostningsudgifter nul?
+          href: psa/FAQ-zero-price-expense-cost-actuals.md
+        - name: Hvorfor anvendes en standardpris på nul for faktiske salgsudgifter?
+          href: psa/FAQ-zero-price-expense-sales-actuals.md
+        - name: Hvorfor anvendes en standardpris på nul for faktiske tidsrelaterede omkostninger?
+          href: psa/FAQ-zero-price-time-cost-actuals.md
+        - name: Hvorfor er standardprisen for faktiske tidsrelaterede salg nul?
+          href: psa/FAQ-zero-price-time-sales-actuals.md
+        - name: Hvorfor kan jeg ikke slette poster fra objektet Faktiske?
+          href: psa/FAQ-deleting-actuals.md
+    - name: Project Service Automation 2.x og 1.x
+      items:
+        - name: Ofte stillede spørgsmål og fejlfinding
+          items:
+            - name: Hvordan tildeler jeg en ressource til en opgave (appversion 2.x)?
+              href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
+            - name: Hvordan foretager jeg en "foreløbig reservation" af ressourcer (appversion 2.x)?
+              href: psa/FAQ-soft-book-in-web-app.md
+            - name: Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
+              href: psa/FAQ-customize-bpf.md
+            - name: Overvejelser i forbindelse opgraderinger i relation til arbejdsopgavehierarkiet
+              href: psa/upgrade-considerations-tasks.md
+        - name: Hvidbøger
+          href: psa/white-papers.md
+        - name: Administratorvejledning
+          href: psa/admin-guide.md
+        - name: Installér og tilpas
+          href: psa/install-customize.md
+        - name: Anvend demodata
+          href: psa/use-demo-data.md
+        - name: Konfigurer Project Service Automation
+          items:
+            - name: Konfigurer programmet Project Service Automation
+              href: psa/configure.md
+            - name: Konfigurer tidsenheder
+              href: psa/set-up-time-units.md
+            - name: Konfigurer valutaer og valutakurser
+              href: psa/set-up-currencies-exchange-rates.md
+            - name: Opret afdelinger
+              href: psa/create-organizational-units.md
+            - name: Konfiguration af fakturahyppigheder
+              href: psa/set-up-invoice-frequencies.md
+            - name: Konfiguration af transaktionskategorier
+              href: psa/configure-transaction-categories.md
+            - name: Konfigurer udgiftskategorier
+              href: psa/configure-expense-categories.md
+            - name: Opret varer fra produktkatalog
+              href: psa/create-product-catalog-items.md
+            - name: Opret en prisliste
+              href: psa/create-price-list.md
+        - name: Ressourcer
+          items:
+            - name: Konfigurer ressourcer
+              href: psa/set-up-resources.md
+            - name: Tilføj ressourcer
+              href: psa/add-resources.md
+            - name: Tilføj ressourcefærdigheder
+              href: psa/add-resource-skills.md
+            - name: Konfigurer kompetencemodeller
+              href: psa/set-up-proficiency-models.md
+            - name: Tilføj ressourceroller
+              href: psa/add-resource-roles.md
+            - name: Konfigurer ressourceroller
+              href: psa/configure-resource-roles.md
+            - name: Tilknyt færdigheder til ressourcer
+              href: psa/associate-skills-with-resources.md
+            - name: Tilknyt færdigheder til ressourceroller
+              href: psa/associate-skills-with-resource-roles.md
+            - name: Opret en arbejdstidsskabelon
+              href: psa/create-work-hours-template.md
+            - name: Anvend en kalender til en ressource
+              href: psa/apply-calendar-resource.md
+            - name: Konfigurer yderligere indstillinger
+              href: psa/configure-additional-parameters-settings.md
+            - name: Aktiver Project Finder Mobile
+              href: psa/enable-project-finder-mobile-app-features.md
+        - name: Ressourcestyring
+          items:
+            - name: Vejledning til Resource Manager
+              href: psa/resource-manager-guide.md
+            - name: Administrer ressourceanmodninger
+              href: psa/manage-resource-requests.md
+            - name: Planlæg ressourcer til et projekt
+              href: psa/schedule-resources-project.md
+            - name: Se ressourcetilgængelighed
+              href: psa/view-resource-availability.md
+            - name: Se tidsforbrug for ressource
+              href: psa/view-resource-utilization.md
+            - name: Universal Resource Scheduling (URS)
+              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+        - name: Projektstyring
+          items:
+            - name: Vejledning til projektleder
+              href: psa/project-manager-guide.md
+            - name: Udarbejd arbejdsestimater
+              href: psa/provide-estimates-project-during-sales-process.md
+            - name: Opret et projekt
+              href: psa/create-project.md
+            - name: Planlæg et projekt med et arbejdsopgavehierarki
+              href: psa/schedule-project-work-breakdown-structure.md
+            - name: Fastsæt projektets omkostnings- og omsætningsestimater
+              href: psa/determine-project-cost-revenue-estimates.md
+            - name: Spor projektets fremgang og omkostning
+              href: psa/track-project-progress-cost.md
+            - name: Opret en projektskabelon
+              href: psa/create-project-template.md
+            - name: Indsend ressourceanmodninger
+              href: psa/submit-resource-requests.md
+            - name: Opret en Office 365-gruppe til et projekt
+              href: psa/create-office-365-group-project.md
+            - name: Tilføj dokumenter til et projekt
+              href: psa/add-documents-project.md
+            - name: Spor et projekts status
+              href: psa/track-project-status.md
+            - name: Se medlemmer af projektgruppe og administrer reservationer
+              href: psa/view-project-team-members-manage-bookings.md
+            - name: Se og rediger projektestimater
+              href: psa/view-edit-project-estimates.md
+            - name: Godkend tid og udgifter
+              href: psa/approve-time-expenses.md
+            - name: Gennemgå faktiske projekter
+              href: psa/review-project-actuals.md
+            - name: Se og send fakturaer
+              href: psa/view-send-invoices.md
+            - name: Se dashboards og rapporter
+              href: psa/view-dashboards-reports.md
+            - name: Brug tilføjelsesprogrammet til at planlægge arbejde i Microsoft Project
+              href: psa/add-plan-work-microsoft-project.md
+        - name: Kontostyring
+          items:
+            - name: Vejledning til account manager
+              href: psa/account-manager-guide.md
+            - name: Opret en kundekonto
+              href: psa/create-customer-account.md
+            - name: Oprette en salgsmulighed i et projekt
+              href: psa/create-project-opportunity.md
+            - name: Opret et projekttilbud
+              href: psa/create-project-quote.md
+            - name: Opret en projektkontrakt
+              href: psa/create-project-contract.md
+        - name: Tid og udgift
+          items:
+            - name: 'Tid, udgifter og samarbejde'
+              href: psa/time-expense-collaboration-guide.md
+            - name: Hent appsene
+              href: psa/get-apps.md
+            - name: Log på
+              href: psa/sign-in.md
+            - name: Se din tidsplan
+              href: psa/view-schedule.md
+            - name: Administrer projekter og reservationer i Office 365
+              href: psa/manage-project-bookings-office-365-calendar.md
+            - name: Angiv klokkeslæt
+              href: psa/enter-time.md
+            - name: Angiv udgifter
+              href: psa/enter-expenses.md
+            - name: Uddeleger tids- eller udgiftsregistrering
+              href: psa/allow-someone-else-enter-time-entry-expense.md
+            - name: Planlæg fridage
+              href: psa/schedule-time-off.md
+            - name: 'Samarbejd ved hjælp af Office 365 Grupper](collaborate-project-team-members-office-365-groups.md'
+            - name: Find projekter med Project Finder Mobile
+              href: psa/find-next-project-finder-mobile-app.md
+            - name: Vejledning til projektressourcehub
+              href: psa/project-resource-hub-users-guide.md
+        - name: Bemærkninger til udvikler
+          items:
+            - name: Tilføj brugerdefinerede formularer for objekter
+              href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
