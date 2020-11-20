@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087870"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119546"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Fastsæt salgspriser for estimater og faktiske oplysninger
 
@@ -27,12 +27,12 @@ I Project Operations bruges estimatlinjer for tid til at angive tilbudslinjen og
 
 Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin for at angive standarden for faktureringssatsen.
 
-1. Systemet bruger felterne **Rolle** , **Ressourcevirksomhed** og **Ressourceenhed** på estimatlinjen for tid for at matche dem med rollens prislinjer i den fastsatte prisliste. Denne afstemning antager, at standardprisfastsættelsesdimensionerne for faktureringssatser anvendes. Hvis du har konfigureret prisfastsættelse på grundlag af andre felter i stedet for eller som supplement til **Rolle** , **Ressourcevirksomhed** og **Ressourceenhed** , bruges denne kombination til at hente en tilsvarende rolleprislinje.
-2. Hvis systemet finder en rolleprislinje, der har en faktureringssats for feltkombinationen **Rolle** , **Ressourcevirksomhed** og **Ressourceenhed** , vil den pågældende faktureringssats være angivet som standard.
-3. Hvis systemet ikke kan matche feltværdierne for **Rolle** , **Ressourcevirksomhed** og **Ressourceenhed** , hentes det rolleprislinjer med en tilsvarende rolle, men der vises ikke null-værdier for **Ressourceenheden**. Når systemet finder en tilsvarende rolleprispost, anvendes faktureringssatsen fra den pågældende post som standard. I denne matchende antages det, at der anvendes en standardkonfiguration for den relative prioritet for **Rolle** i forhold til **Ressourceenhed** som en prisfastsættelsesdimension for salg.
+1. Systemet bruger felterne **Rolle**, **Ressourcevirksomhed** og **Ressourceenhed** på estimatlinjen for tid for at matche dem med rollens prislinjer i den fastsatte prisliste. Denne afstemning antager, at standardprisfastsættelsesdimensionerne for faktureringssatser anvendes. Hvis du har konfigureret prisfastsættelse på grundlag af andre felter i stedet for eller som supplement til **Rolle**, **Ressourcevirksomhed** og **Ressourceenhed**, bruges denne kombination til at hente en tilsvarende rolleprislinje.
+2. Hvis systemet finder en rolleprislinje, der har en faktureringssats for feltkombinationen **Rolle**, **Ressourcevirksomhed** og **Ressourceenhed**, vil den pågældende faktureringssats være angivet som standard.
+3. Hvis systemet ikke kan matche feltværdierne for **Rolle**, **Ressourcevirksomhed** og **Ressourceenhed**, hentes det rolleprislinjer med en tilsvarende rolle, men der vises ikke null-værdier for **Ressourceenheden**. Når systemet finder en tilsvarende rolleprispost, anvendes faktureringssatsen fra den pågældende post som standard. I denne matchende antages det, at der anvendes en standardkonfiguration for den relative prioritet for **Rolle** i forhold til **Ressourceenhed** som en prisfastsættelsesdimension for salg.
 
 > [!NOTE]
-> Hvis du har konfigureret en anden prioritering af **Rolle** , **Ressourcevirksomhed** og **Ressourceenhed** , eller hvis du har andre dimensioner med en højere prioritet, ændres denne funktionsmåde tilsvarende. Systemet henter rolleprisposterne med værdier, der svarer til hver af prisfastsættelsesdimensionsværdierne i prioriteret rækkefølge med rækker, der har null-værdier for de pågældende dimensioner, der kommer sidst.
+> Hvis du har konfigureret en anden prioritering af **Rolle**, **Ressourcevirksomhed** og **Ressourceenhed**, eller hvis du har andre dimensioner med en højere prioritet, ændres denne funktionsmåde tilsvarende. Systemet henter rolleprisposterne med værdier, der svarer til hver af prisfastsættelsesdimensionsværdierne i prioriteret rækkefølge med rækker, der har null-værdier for de pågældende dimensioner, der kommer sidst.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Fastsættelse af salgssatser for faktiske og estimerede linjer for udgifter
 
@@ -41,7 +41,7 @@ I Project Operations bruges estimatlinjer for udgifter til at angive tilbudslinj
 Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin for at angive standarden for enhedens salgspris.
 
 1. Systemet bruger feltkombinationen **Kategori** og **Enhed** på estimatlinjen for en udgift for at matche dem med linjerne med kategoripris i den fastsatte prisliste.
-2. Hvis systemet finder en kategoriprislinje, der har en salgssats for feltkombinationen **Kategori** og **Enhed** , angives den pågældende salgssats som standard.
+2. Hvis systemet finder en kategoriprislinje, der har en salgssats for feltkombinationen **Kategori** og **Enhed**, angives den pågældende salgssats som standard.
 3. Hvis systemet finder en tilsvarende kategoriprislinje, kan prissætningsmetoden bruges som standardsalgspris. I nedenstående tabel vises funktionaliteten for angivelse af standardprisen for udgifter i Project Operations.
 
     | Sammenhæng | Prissætningsmetode | Pris som standard |
@@ -53,4 +53,4 @@ Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin
     | &nbsp; | Til kostpris | Baseret på de relaterede faktiske omkostninger |
     | &nbsp; | Avance i forhold til omkostning | Ved at anvende en avance, der er defineret af kategoriprislinjen i enhedsomkostningssatsen for den relaterede faktiske omkostning |
 
-4. Hvis det ikke er muligt for systemet at matche feltværdierne **Kategori** og **Enhed** , vil salgssatsen som standard være nul (0).
+4. Hvis det ikke er muligt for systemet at matche feltværdierne **Kategori** og **Enhed**, vil salgssatsen som standard være nul (0).

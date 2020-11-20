@@ -3,7 +3,7 @@ title: Afstemme reservationer og tildelinger
 description: Dette emne indeholder oplysninger om faktiske værdier.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074218"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120446"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Afstemme reservationer og tildelinger
 
@@ -35,7 +35,7 @@ På grund af den løse sammenkobling af projektreservationer og opgavetildelinge
 
 For hvert navngivet teammedlem viser fanen **Afstemning** reservationer og tildelinger helt ned til niveauet for de enkelte opgavetildelinger. Den viser timer i celler, der kan repræsentere tidsperioder fra måneder ned til dage.
 
-I feltet **Tidsskala** kan du vælge **Måned** , **Uge** eller **Dag**. **Uge** er valgt som standard. Men du kan dog ændre standardværdien ved at vælge knappen **Indstillinger.** Når fanen **Afstemning** åbnes, vises dags dato, men du kan bruge kalenderkontrolelementet til at gå frem eller tilbage i tiden. Når et projekt har en startdato, der ligger ud i fremtiden, vises datoen under fanen, når den åbnes. Kalenderkontrolelementet indeholder også indstillinger, du kan bruge til at gå til projektets start- og slutdatoer.
+I feltet **Tidsskala** kan du vælge **Måned**, **Uge** eller **Dag**. **Uge** er valgt som standard. Men du kan dog ændre standardværdien ved at vælge knappen **Indstillinger.** Når fanen **Afstemning** åbnes, vises dags dato, men du kan bruge kalenderkontrolelementet til at gå frem eller tilbage i tiden. Når et projekt har en startdato, der ligger ud i fremtiden, vises datoen under fanen, når den åbnes. Kalenderkontrolelementet indeholder også indstillinger, du kan bruge til at gå til projektets start- og slutdatoer.
 
 Du kan bruge kontrolelementerne for udvidelser på de enkelte ressourcer til at få vist detaljer om den pågældende ressources reservationer. Du kan også udvide hver ressources tildelinger til niveauet for den enkelte opgave.
 
@@ -47,9 +47,9 @@ Nederst under fanen **Afstemning** vises et samlet nettototal for projektet, og 
 > [!NOTE]
 > Forklaringen på disse forhold kan være skjult for at give mere plads til gitteret. I så fald kan du gøre forklaringen synlig ved at klikke på knappen **Indstillinger**.
 
-Når feltet **Tidsskala** er angivet til et niveau, der er højere end **Dag** , kan forskelle i visse tilfælde blive beregnet til 0 (nul). På niveauet **Måned** kan nettoforskellen for en ressource f.eks. være 0 (nul) for at angive, at reservationer stemmer overens med tildelinger. Men hvis du kigger på niveauet **Uge** , kan du muligvis se, at der er tildelinger på 0 (nul) timer og reservationer på 40 timer i den første uge af måneden, og tildelinger på 40 timer og reservationer på 0 (nul) timer i løbet af den anden uge af måneden. Selvom det samlede antal reservationer og tildelinger for måneden er ens, er de forskellige fra uge til uge.
+Når feltet **Tidsskala** er angivet til et niveau, der er højere end **Dag**, kan forskelle i visse tilfælde blive beregnet til 0 (nul). På niveauet **Måned** kan nettoforskellen for en ressource f.eks. være 0 (nul) for at angive, at reservationer stemmer overens med tildelinger. Men hvis du kigger på niveauet **Uge**, kan du muligvis se, at der er tildelinger på 0 (nul) timer og reservationer på 40 timer i den første uge af måneden, og tildelinger på 40 timer og reservationer på 0 (nul) timer i løbet af den anden uge af måneden. Selvom det samlede antal reservationer og tildelinger for måneden er ens, er de forskellige fra uge til uge.
 
-Når du får vist tiden på højere niveauer, har fanen **Afstemning** en celleindikator, der giver dig besked om, at der er forskelle på lavere tidsniveauer. I den følgende illustration vises der f.eks. en celleindikator i cellen for oktober 2018 for den ressource, der hedder Elisabeth Larsen. Du kan derfor se, at selvom ressourcens reservationer og tildelinger er ens, når de samles på niveauet **Måned** , matcher de ikke på lavere niveauer.
+Når du får vist tiden på højere niveauer, har fanen **Afstemning** en celleindikator, der giver dig besked om, at der er forskelle på lavere tidsniveauer. I den følgende illustration vises der f.eks. en celleindikator i cellen for oktober 2018 for den ressource, der hedder Elisabeth Larsen. Du kan derfor se, at selvom ressourcens reservationer og tildelinger er ens, når de samles på niveauet **Måned**, matcher de ikke på lavere niveauer.
 
 ![Uoverensstemmende reservationer og tildelinger på månedsniveau](media/reconcile-assignments-01.JPG)
 

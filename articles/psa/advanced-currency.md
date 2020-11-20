@@ -3,7 +3,7 @@ title: Scenarier med flere valutaer (version 3.x)
 description: Denne emne indeholder oplysninger om scenarier med flere valutaer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074282"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123371"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarier med flere valutaer
 
@@ -56,7 +56,7 @@ Følgende objekter betragtes som forretningstransaktioner:
 - Fakturalinjedetalje
 - Faktisk
 
-I hvert af disse objekter findes der en post, der repræsenterer omkostningsbeløbet eller salgsbeløbet. Ligesom for alle Dynamics 365-objekter, der har et **beløbsfelt** , inkluderer hver post beløb i både transaktionsvalutaen og grundvalutaen. 
+I hvert af disse objekter findes der en post, der repræsenterer omkostningsbeløbet eller salgsbeløbet. Ligesom for alle Dynamics 365-objekter, der har et **beløbsfelt**, inkluderer hver post beløb i både transaktionsvalutaen og grundvalutaen. 
 
 PSA udvider konceptet med transaktionsvalutaen for omkostninger og salg på følgende måder:
 
@@ -69,7 +69,7 @@ PSA udvider konceptet med transaktionsvalutaen for omkostninger og salg på føl
 I dette afsnit beskrives et eksempel på et projekt, som Contoso UK leverer til en kunde, der hedder Fabrikam, Japan. Scenariet er konfigureret sådan:
 
 1. GBP og japanske yen (JPY) er konfigureret under **Indstillinger** \> **Forretningsstyring** \> **Valutaer**. 
-2. Der er konfigureret en kundekonto med navnet **Fabrikam -Japan** , og JPY er valgt som valuta for firmaet.
+2. Der er konfigureret en kundekonto med navnet **Fabrikam -Japan**, og JPY er valgt som valuta for firmaet.
 3. En organisationsenhed med navnet **Contoso UK** er konfigureret, og GBP er valgt som valuta.
 4. Der oprettes en projektkontrakt, hvor **Contoso UK** angives som kontraktenheden, og **Fabrikam – Japan** er angivet som kunden.
 5. Der oprettes projektkontraktlinjer på baggrund af faktureringsordningerne for de forskellige transaktionsklasser i projektet, f.eks. fakturering for tid i forhold til fakturering af udgifter.

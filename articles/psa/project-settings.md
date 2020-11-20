@@ -3,7 +3,7 @@ title: Projektindstillinger
 description: Dette emne indeholder oplysninger om indstillinger for projektstyring.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074335"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123101"
 ---
 # <a name="project-settings"></a>Projektindstillinger
 
@@ -49,9 +49,9 @@ Du opretter en projektplan ved at oprette en projektkalenderskabelon, der define
 
 > ![Konfigurer indstillinger](media/project-13.png)
 
-4. Vælg **Ny ugeplan** , og angiv derefter indstillingerne for denne ressourceplanlægning. Du kan angive en tilbagevendende ugentlig tidsplan, parametre for daglige timer, lukketider og meget mere.
-5. Angiv datointervallet, vælg **Gem** , og klik derefter på **Luk**. 
-6. Gå tilbage til listesiden **Ressourcer** , og vælg den ressource, du vil angive arbejdstimer for. 
+4. Vælg **Ny ugeplan**, og angiv derefter indstillingerne for denne ressourceplanlægning. Du kan angive en tilbagevendende ugentlig tidsplan, parametre for daglige timer, lukketider og meget mere.
+5. Angiv datointervallet, vælg **Gem**, og klik derefter på **Luk**. 
+6. Gå tilbage til listesiden **Ressourcer**, og vælg den ressource, du vil angive arbejdstimer for. 
 7. Vælg **Angiv kalender som** for at angive arbejdsskabelonen. 
 8. I dialogboksen **Arbejdsskabelon** skal du angive et navn for arbejdsskabelonen og derefter vælge **Anvend.** 
 

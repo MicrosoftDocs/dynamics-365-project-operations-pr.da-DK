@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 16, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 16, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f277d23e3fb0517f072e51f6f80f855479ab8189
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2c93d34b61001b7755d426539ac384641a7bc9da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121571"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Opdateringsudgivelse 16 til Project Service Automation, V3
 
@@ -56,7 +56,7 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for PSA
 
     -   Løst: Når et projekt, der er knyttet til en kontraktlinje, fjernes, og der tilknyttes et nyt projekt, blev de faktiske poster i det nye projekt ikke evalueret igen på baggrund af de regler for fakturering og prissætning, der er defineret på kontraktlinjen. Dette er blevet løst i denne udgivelse. Prisfastsættelsen og de faktiske poster i det netop tilknyttede projekt bliver tilbageført og genoprettet korrekt baseret på kontraktlinjens regler for prisfastsættelse og fakturering. De faktiske poster for det ikke-tilknyttede projekt vil også blive evalueret igen og genoprettet som følge heraf.
 
-    -   Løst: Der er blevet føjet yderligere validering til en estimeret linjes **Beløb** -felt for at sikre, at null-værdier ikke bevares.
+    -   Løst: Der er blevet føjet yderligere validering til en estimeret linjes **Beløb**-felt for at sikre, at null-værdier ikke bevares.
 
     -   Løst: Når de faktiske værdier er blevet opdateret for et projekt, tilføjes der en opdateringsknap til hovedformularen for projektet for at give brugere mulighed for at synkronisere de faktiske værdier igen.
 

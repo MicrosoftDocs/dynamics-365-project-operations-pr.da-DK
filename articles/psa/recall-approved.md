@@ -3,7 +3,7 @@ title: Tilbagekalde godkendte tids- eller udgiftsposter
 description: Dette emne indeholder oplysninger om, hvordan du kan tilbagekalde en tidligere godkendt tids- eller udgiftstransaktion.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074219"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120536"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Tilbagekalde godkendte tids- eller udgiftsposter
 
@@ -62,11 +62,11 @@ Følg disse trin for at godkende eller afvise en anmodning om tilbagekaldelse.
 1. Gå til **Projekter** \> **Mit arbejde** \> **Godkendelser**.
 2. Skift visningen til **Tilbagekald anmodninger om godkendelse** på listesiden **Godkendelser**. Der vises en liste over sendte anmodninger om tilbagekaldelser.
 3. Vælg en eller flere poster, og vælg derefter enten **Godkend** eller **Afvis**.
-4. Hvis du har valgt **Godkend** , modtager du en advarsel, der forklarer, hvordan godkendelsen virker. Vælg **OK** for at bekræfte handlingen. Anmodningen om tilbagekaldelse er godkendt
+4. Hvis du har valgt **Godkend**, modtager du en advarsel, der forklarer, hvordan godkendelsen virker. Vælg **OK** for at bekræfte handlingen. Anmodningen om tilbagekaldelse er godkendt
 
     eller
 
-    Hvis du har valgt **Afvis** , afvises anmodningen om tilbagekaldelse.
+    Hvis du har valgt **Afvis**, afvises anmodningen om tilbagekaldelse.
 
 > [!NOTE]
 > Som når der anmodes om tilbagekaldelse, kontrolleres det i systemet, om faktureringsaktiviteten for tids- og udgiftsposterne registreres, når en tilbagekaldelse godkendes. Hvis en post allerede er faktureret, eller hvis den er på en kladdefaktura, modtager godkenderen en fejlmeddelelse, der angiver, at tiden eller udgiften ikke kan godkendes til tilbagekaldelse, da den allerede er blevet faktureret.
@@ -77,11 +77,11 @@ Når en godkendelse tilbagekaldes, har det både driftsmæssige og økonomiske k
 
 ### <a name="operational-impact"></a>Driftsmæssig konsekvens
 
-Hvis en anmodning om tilbagekaldelse godkendes, markeres godkendelsesposten som **Afvist**. Postens status ændres til enten **Returneret** eller **Afvist** , afhængigt af om det er en tidsregistrering eller en udgiftspost.
+Hvis en anmodning om tilbagekaldelse godkendes, markeres godkendelsesposten som **Afvist**. Postens status ændres til enten **Returneret** eller **Afvist**, afhængigt af om det er en tidsregistrering eller en udgiftspost.
 
 Projektteammedlemmet kan få vist poster, redigere og derefter sende poster igen eller slette posterne fuldstændigt.
 
-Hvis en anmodning om tilbagekaldelse afvises, forbliver statussen for posten **Godkendt** , og posten kan ikke redigeres af projektteammedlemmet eller godkenderen for projektet.
+Hvis en anmodning om tilbagekaldelse afvises, forbliver statussen for posten **Godkendt**, og posten kan ikke redigeres af projektteammedlemmet eller godkenderen for projektet.
 
 ### <a name="financial-impact"></a>Økonomisk konsekvens
 
@@ -90,7 +90,7 @@ Hvis en tilbagekaldelse godkendes, opdateres de tilsvarende faktiske værdier fo
 - Feltet **Justeringsstatus** opdateres til **Justeret**.
 - Feltet **Faktureringsstatus** opdateres til **Annulleret**.
 
-Dernæst oprettes der tilbageførselsposter i tabellen med faktiske oplysninger. For at oprette tilbageførselsposter kopieres feltværdierne fra de oprindelige faktiske oplysninger i systemet. De eneste værdier, der ikke kopieres over, er antalsværdier. Disse værdier omgøres i stedet. Tilbageførte faktiske værdier oprettes for både faktiske **Omkostninger** og **Ikke-faktureret salg**. Feltet **Justeringsstatus** for de tilbageførte faktiske oplysninger angives til **Ikke-justerbar** , og feltet **Faktureringsstatus** angives til **Annulleret**. Pga. disse ændringer vil det registrerede beløb og omsætningens ordrebeholdning på projektet ikke længere medtage de beløb, som disse faktiske værdier repræsenterer.
+Dernæst oprettes der tilbageførselsposter i tabellen med faktiske oplysninger. For at oprette tilbageførselsposter kopieres feltværdierne fra de oprindelige faktiske oplysninger i systemet. De eneste værdier, der ikke kopieres over, er antalsværdier. Disse værdier omgøres i stedet. Tilbageførte faktiske værdier oprettes for både faktiske **Omkostninger** og **Ikke-faktureret salg**. Feltet **Justeringsstatus** for de tilbageførte faktiske oplysninger angives til **Ikke-justerbar**, og feltet **Faktureringsstatus** angives til **Annulleret**. Pga. disse ændringer vil det registrerede beløb og omsætningens ordrebeholdning på projektet ikke længere medtage de beløb, som disse faktiske værdier repræsenterer.
 
 Hvis en anmodning om tilbagekaldelse afvises, har det ingen økonomisk indvirkning på projektet.
 

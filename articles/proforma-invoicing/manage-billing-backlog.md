@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087867"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122336"
 ---
 # <a name="manage-the-billing-backlog"></a>Administrer faktureringsefterslæbet
 
@@ -23,15 +23,15 @@ Dynamics 365 Project Operations har to dedikerede visninger, som kan hjælpe dig
 
 ## <a name="fixed-price-milestones"></a>Milepæle for fast pris
 
-Her vises alle fast pris-milepæle på tværs af alle projektkontraktlinjer i systemet. Enkelte eller flere milepæle kan markeres som **Klar til fakturering** eller **Ikke-klar til fakturering** fra denne visning. Når du markerer en milepæl som **Klar til fakturering** , bliver milepælen tilgængelig for en kladdefaktura.
+Her vises alle fast pris-milepæle på tværs af alle projektkontraktlinjer i systemet. Enkelte eller flere milepæle kan markeres som **Klar til fakturering** eller **Ikke-klar til fakturering** fra denne visning. Når du markerer en milepæl som **Klar til fakturering**, bliver milepælen tilgængelig for en kladdefaktura.
 
-Når der er angivet en fast pris-faktureringsmetode for kontraktlinjer med flere kunder, oprettes der en milepæl for hver kunde på kontraktlinjen. Brugeren opretter en milepæl, og den pågældende milepæl opdeles i henhold til kunder = specifikke interne milepælsposter i henhold til den faktureringsprocentopdeling, der er defineret for de enkelte kunder på kontraktlinjen. I visningen **Fast pris-milepæle** kan du se de enkelte kundespecifikke milepælsposter. Hver af disse milepælsposter kan særskilt markeres som **Klar til fakturering** fra denne visning. Når en eller flere af de relaterede milepælsopdelinger er markeret som **Klar til fakturering** , konverteres overskriften til statussen **Igangværende** fra **Ikke påbegyndt**. Når alle milepælsopdelinger er blevet faktureret, bliver statussen for overskriftsmilepælen konverteret til **Fuldført**.
+Når der er angivet en fast pris-faktureringsmetode for kontraktlinjer med flere kunder, oprettes der en milepæl for hver kunde på kontraktlinjen. Brugeren opretter en milepæl, og den pågældende milepæl opdeles i henhold til kunder = specifikke interne milepælsposter i henhold til den faktureringsprocentopdeling, der er defineret for de enkelte kunder på kontraktlinjen. I visningen **Fast pris-milepæle** kan du se de enkelte kundespecifikke milepælsposter. Hver af disse milepælsposter kan særskilt markeres som **Klar til fakturering** fra denne visning. Når en eller flere af de relaterede milepælsopdelinger er markeret som **Klar til fakturering**, konverteres overskriften til statussen **Igangværende** fra **Ikke påbegyndt**. Når alle milepælsopdelinger er blevet faktureret, bliver statussen for overskriftsmilepælen konverteret til **Fuldført**.
 
 En milepæl på en kladdefaktura vises i denne visning med en faktureringsstatus angivet til **Kundefaktura oprettet**. Når kladdefakturaen er bekræftet, opdateres faktureringsstatussen for denne post til **Faktura er bogført**. Det anbefales ikke at opdatere denne statusværdi ved hjælp af brugerdefineret kode. Project Operations fungerer ikke korrekt, hvis disse statusværdier opdateres med brugerdefineret kode.
 
 ## <a name="time-and-material-billing-backlog"></a>Ordrebeholdning for fakturering af tid og materiale
 
-I denne visning vises alle ikke-fakturerede faktiske salgsværdier, der ikke er blevet faktureret, på tværs af alle projektkontrakter i systemet. Enkelte eller flere ikke-fakturerede faktiske salgsværdier kan markeres som **Klar til fakturering** eller **Ikke-klar til fakturering** fra denne visning. Hvis du markerer en ikke-faktureret faktisk salgsværdi som **Klar til fakturering** , bliver den tilgængelig til brug i en kladdefaktura.
+I denne visning vises alle ikke-fakturerede faktiske salgsværdier, der ikke er blevet faktureret, på tværs af alle projektkontrakter i systemet. Enkelte eller flere ikke-fakturerede faktiske salgsværdier kan markeres som **Klar til fakturering** eller **Ikke-klar til fakturering** fra denne visning. Hvis du markerer en ikke-faktureret faktisk salgsværdi som **Klar til fakturering**, bliver den tilgængelig til brug i en kladdefaktura.
 
 Ikke-fakturerede faktiske salgsværdier med en status med **Må ikke overskrides** angivet til **Mislykket** kan ikke markeres som **Klar til fakturering**. Hvis disse faktiske oplysninger skal markeres som sådanne, skal du nulstille statussen på andre faktiske oplysninger på den kontraktlinje, der er blevet bekræftet, og derefter evaluere statussen **Må ikke overskrides**.
 

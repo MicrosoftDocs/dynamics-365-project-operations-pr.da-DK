@@ -2,7 +2,7 @@
 title: Opgradere overvejelser i forbindelse med arbejdsopgavehierarkiet
 description: Dette emne indeholder oplysninger om opgradering af arbejdsopgavehierarkiet fra Project Service Automation 2.x til 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074254"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121796"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Opgradere overvejelser i forbindelse med arbejdsopgavehierarkiet
 Dette emne indeholder oplysninger om opgradering af arbejdsopgavehierarkiet fra Project Service Automation 2.x til 3.x. I dette emne defineres den korrekte tilstand for et projekt i PSA (Project Service Automation), der skal bruges for at opnå en vellykket opgradering. Der findes også oplysninger om de almindelige blokeringsforhold, der medfører, at opgraderingen ikke lykkes. Du kan finde flere oplysninger om definition af projektopgaver og deres funktioner i en projektplan i [Projektplaner](project-creating.md).

@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074041"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123731"
 ---
 # <a name="travel-requisitions"></a>Rejserekvisitioner
 
@@ -31,11 +31,11 @@ Rejserekvisitioner kan konfigureres som "obligatoriske" ved at aktivere paramete
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Opret og indsend en rejserekvisition
 
-1. Gå til **Mine udgifter: rejserekvisition** , og vælg **Ny rejserekvisition**.
+1. Gå til **Mine udgifter: rejserekvisition**, og vælg **Ny rejserekvisition**.
 2. Angiv et formål og en destination for rekvisitionen.
 3. I feltet **Rejsebeskrivelse** skal du angive eventuelle yderligere oplysninger. 
 4. Opret et udgiftslinjeelement for hver af de forventede udgifter, f.eks. fly, måltider eller billeje. Medtag den skønnede dato, beløb og valutaen for de enkelte udgifter. 
-5. Vælg **Gem** , når du er færdig med at tilføje de forventede udgifter.
+5. Vælg **Gem**, når du er færdig med at tilføje de forventede udgifter.
 6. Når du er klar til at indsende rejserekvisitionen, skal du vælge **Arbejdsproces** > **Indsend**.
 
 Du kan få vist dine godkendte rejserekvisitioner under **Mine udgifter: rejserekvisition**. 

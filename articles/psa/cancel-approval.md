@@ -3,7 +3,7 @@ title: Annullere tidligere godkendte tids- og udgiftsposter
 description: Dette emne indeholder oplysninger om, hvordan du kan annullere en godkendt projekttids- og udgiftstransaktion.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074347"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123326"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Annullere tidligere godkendte tids- eller udgiftsposter
 
@@ -46,7 +46,7 @@ Når en godkendelse annulleres, har det både driftsmæssige og økonomiske kons
 
 ### <a name="operational-impact"></a>Driftsmæssig konsekvens
 
-Når en godkendelse annulleres på siden handlinger, nulstilles postens status til **Kladde** , og godkendelsen vises ikke længere i visningen **Mine tidligere godkendelser**. I stedet vises den annullerede godkendelse i enten visningen **Tidsregistreringer til godkendelse** eller **Udgiftsposteringer til godkendelse** , afhængigt af om det var en tidspost eller en udgiftspost. Derudover ændres status for den relaterede tids- eller udgiftspost til **Sendt** , så den relaterede post er i overensstemmelse med godkendelser, der har statussen **Kladde**.
+Når en godkendelse annulleres på siden handlinger, nulstilles postens status til **Kladde**, og godkendelsen vises ikke længere i visningen **Mine tidligere godkendelser**. I stedet vises den annullerede godkendelse i enten visningen **Tidsregistreringer til godkendelse** eller **Udgiftsposteringer til godkendelse**, afhængigt af om det var en tidspost eller en udgiftspost. Derudover ændres status for den relaterede tids- eller udgiftspost til **Sendt**, så den relaterede post er i overensstemmelse med godkendelser, der har statussen **Kladde**.
 
 Som godkender kan du redigere nogle af felterne i en godkendelse, der har statussen **Kladde**. Disse felter omfatter **Faktureringstype** og **Fakturerbare timer for tidsregistreringer**. Når du har foretaget ændringerne, kan du godkende posten igen. Du kan også vælge at afvise posten. Hvis du afviser godkendelsen af en tidsregistrering, ændres dens status til **Returneret**. Hvis du afviser godkendelsen af en udgiftspost, ændres dens status til **Afvist**. Både returnerede og afviste poster fungerer som en post, der har statussen **Kladde**. Et projektteammedlem kan enten foretage de nødvendige ændringer af posten og derefter sende den til godkendelse igen eller slette posten fuldstændigt.
 
@@ -57,6 +57,6 @@ Et projekt påvirkes også økonomisk, når en godkendelse annulleres. Først op
 - Justeringsstatus angives til **Justeret**.
 - Faktureringsstatus angives til **Annulleret**.
 
-Dernæst oprettes der tilbageførselsposter i tabellen med faktiske oplysninger. For at oprette tilbageførselsposter kopieres feltværdierne fra de oprindelige faktiske oplysninger i systemet. De eneste værdier, der ikke kopieres over, er antalsværdier. Disse værdier omgøres i stedet. Tilbageførte faktiske værdier oprettes for både faktiske **Omkostninger** og **Ikke-faktureret salg**. Feltet **Justeringsstatus** i de tilbageførte faktiske oplysninger angives til **Ikke-justerbar** , og faktureringsstatussen angives til **Annulleret**.
+Dernæst oprettes der tilbageførselsposter i tabellen med faktiske oplysninger. For at oprette tilbageførselsposter kopieres feltværdierne fra de oprindelige faktiske oplysninger i systemet. De eneste værdier, der ikke kopieres over, er antalsværdier. Disse værdier omgøres i stedet. Tilbageførte faktiske værdier oprettes for både faktiske **Omkostninger** og **Ikke-faktureret salg**. Feltet **Justeringsstatus** i de tilbageførte faktiske oplysninger angives til **Ikke-justerbar**, og faktureringsstatussen angives til **Annulleret**.
 
 Når disse ændringer er foretaget, vil det beløb, der er registreret som brugt på projektet, og omsætningens ordrebeholdning på projektet ikke længere medtage de beløb, som disse faktiske værdier repræsenterer.

@@ -3,7 +3,7 @@ title: Produktbaserede tilbudslinjer.
 description: Dette emne indeholder oplysninger om produktbaserede tilbudslinjer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074352"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123191"
 ---
 # <a name="product-based-quote-lines"></a>Produktbaserede tilbudslinjer.
 
@@ -41,7 +41,7 @@ Et firma sælger f.eks. abonnementslicenser til forskellige typer programmer. Al
 - Antal brugere 
 - Abonnements varighed (i måneder)
 
-En god måde at vedligeholde denne type katalog på er at oprette en produktserie med navnet **Abonnementsprogrammer** , og som har **Antal brugere** og **Abonnements varighed** som attributter. Du kan derefter føje individuelle produkter, f.eks. **Dynamics 365 Sales** eller **Dynamics 365 Field Service** , til produktserien **Abonnementsprogrammer**.
+En god måde at vedligeholde denne type katalog på er at oprette en produktserie med navnet **Abonnementsprogrammer**, og som har **Antal brugere** og **Abonnements varighed** som attributter. Du kan derefter føje individuelle produkter, f.eks. **Dynamics 365 Sales** eller **Dynamics 365 Field Service**, til produktserien **Abonnementsprogrammer**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Tilføjelse af produktkatalogelementer til et projekttilbud
 
@@ -54,9 +54,9 @@ Hvis en tilbudslinje er baseret på et produktkatalog, kan du tilsidesætte salg
 - Tilsidesæt prisfastsættelse  
 - Benyt som standard
 
-Hvis du angiver dette felt til **Tilsidesæt prisfastsættelse** , angives der ikke en standardpris i Dynamics 365. Du skal angive en pris for produktet på tilbudslinjen. Hvis du angiver dette felt til **Benyt som standard** , bruger Dynamics 365 standardsalgsprisen og låser feltet for at forhindre, at der redigeres.
+Hvis du angiver dette felt til **Tilsidesæt prisfastsættelse**, angives der ikke en standardpris i Dynamics 365. Du skal angive en pris for produktet på tilbudslinjen. Hvis du angiver dette felt til **Benyt som standard**, bruger Dynamics 365 standardsalgsprisen og låser feltet for at forhindre, at der redigeres.
 
-Når du har installeret PSA, angives standardsalgspriserne på de produktbaserede linjer i et tilbud. Feltet **Prisfastsættelse** indstilles derefter til **Tilsidesæt prisfastsættelse** , så du kan redigere standardprisen i tilbudslinjerne.
+Når du har installeret PSA, angives standardsalgspriserne på de produktbaserede linjer i et tilbud. Feltet **Prisfastsættelse** indstilles derefter til **Tilsidesæt prisfastsættelse**, så du kan redigere standardprisen i tilbudslinjerne.
 
 > ![Indstilling af tilsidesæt prisfastsættelse](media/basic-guide-10.png)
  

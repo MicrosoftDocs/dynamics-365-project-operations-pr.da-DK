@@ -3,7 +3,7 @@ title: Foreløbig reservation af en ressource
 description: Dette emne indeholder oplysninger om, hvordan du foreløbigt planlægger eller foreløbigt reserverer projektteammedlemmer.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074297"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122201"
 ---
 # <a name="soft-book-a-resource"></a>Foreløbig reservation af en ressource
 
@@ -54,14 +54,14 @@ Du kan bruge denne metode ved at udføre følgende trin.
 5. Du kan vedligeholde ressourcens reservationer ved at vælge **Vedligehold reservationer**.
 6. Når planlægningsområdet åbnes, skal du udvide ressourcen for at få vist hans eller hendes reservationer. Du kan se reservationen vist som **Definitiv**.
 7. Højreklik på reservationen, og vælg **Reservér foreløbigt** \> **Foreløbig** under **Skift status**. Status for reservation er nu **Foreløbig**.
-8. Når du har lukket planlægningsområdet, kan du se, at timerne for ressourcen er flyttet fra kolonnen **Definitivt reserverede timer** til **Foreløbigt reserverede timer** i gitteret under fanen **Team** , når du ser på visningen **Navngivne teammedlemmer**.
+8. Når du har lukket planlægningsområdet, kan du se, at timerne for ressourcen er flyttet fra kolonnen **Definitivt reserverede timer** til **Foreløbigt reserverede timer** i gitteret under fanen **Team**, når du ser på visningen **Navngivne teammedlemmer**.
 
 > [!NOTE]
-> Hvis du reserverer en ressource definitivt til teamet og derefter tildeler ressourcen opgaver i tidsplanen, når du bruger **Vedligehold reservationer** til at ændre status fra **Definitiv** til **Foreløbig** , bevares opgavetildelingerne for ressourcen. Men under fanen **Afstemning** har ressourcen et reservationsunderskud, fordi kun definitive reservationer tages i betragtning ved afstemning af reservationer vs. tildelinger. Du kan bruge funktionen **Udvid reservationer** under fanen **Afstemning** til at reservere ressourcen definitivt for at eliminere underskuddet af definitive reservationer i forhold til ressourcetildelingerne. Du skal annullere den foreløbige reservation for ressourcen ved hjælp af **Vedligehold reservationer**.
+> Hvis du reserverer en ressource definitivt til teamet og derefter tildeler ressourcen opgaver i tidsplanen, når du bruger **Vedligehold reservationer** til at ændre status fra **Definitiv** til **Foreløbig**, bevares opgavetildelingerne for ressourcen. Men under fanen **Afstemning** har ressourcen et reservationsunderskud, fordi kun definitive reservationer tages i betragtning ved afstemning af reservationer vs. tildelinger. Du kan bruge funktionen **Udvid reservationer** under fanen **Afstemning** til at reservere ressourcen definitivt for at eliminere underskuddet af definitive reservationer i forhold til ressourcetildelingerne. Du skal annullere den foreløbige reservation for ressourcen ved hjælp af **Vedligehold reservationer**.
 
 Når du er klar til at ændre en foreløbigt reserveret teammedlemsressource til et definitivt reserveret teammedlem, skal du gøre følgende:
 
 1. I planlægningsområdet skal du udvide ressourcen for at få vist hans eller hendes reservationer. Du kan se reservationen vist som **Foreløbig**.
 2. Højreklik på reservationen, og vælg **Reservér definitivt** \> **Definitivt** under **Skift status**. Status for reservation er nu **Definitiv**.
-3. Når du lukker planlægningsområdet, går tilbage til projektet og åbner fanen **Team** , kan du se, at timerne for ressourcen er flyttet fra kolonnen **Foreløbigt reserverede timer** til kolonnen **Definitivt reserverede timer** under fanen **Team** , når du har åbnet visningen **Navngivne teammedlemmer**. Hvis ressourcen blev tildelt til opgaver, viser de ikke længere et reservationsunderskud under fanen **Afstemning** , fordi deres reservationer nu er definitive.
+3. Når du lukker planlægningsområdet, går tilbage til projektet og åbner fanen **Team**, kan du se, at timerne for ressourcen er flyttet fra kolonnen **Foreløbigt reserverede timer** til kolonnen **Definitivt reserverede timer** under fanen **Team**, når du har åbnet visningen **Navngivne teammedlemmer**. Hvis ressourcen blev tildelt til opgaver, viser de ikke længere et reservationsunderskud under fanen **Afstemning**, fordi deres reservationer nu er definitive.
 

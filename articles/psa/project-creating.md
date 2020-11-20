@@ -3,7 +3,7 @@ title: Projektplaner
 description: Dette emne indeholder oplysninger om, hvordan du opretter en tidsplan.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074207"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123221"
 ---
 # <a name="project-schedules"></a>Projektplaner 
 
@@ -83,12 +83,12 @@ Knapperne **Flyt op** og **Flyt ned** ændrer placeringen af en opgave i dens ov
 
 Gitteret **Planlægning** er fuldt tilgængeligt og kan bruges sammen med skærmlæsere, f.eks. Oplæser, JAWS eller NVDA. Du kan flytte gennem gitterområdet ved hjælp af piletasterne (som i Microsoft Excel), du kan bruge tabulatortasten til at gennemblade de interaktive brugergrænsefladeelementer, og du kan bruge pil ned-tasten, tasten ENTER eller mellemrumstasten til at vælge og aktivere rullemenuerne. Kolonneoverskrifterne er også interaktive. Du kan skjule og få vist kolonner, bruge tabulatortasten og piletasterne til at bevæge dig gennem kolonneoverskrifterne og bruge handlingsknapperne på værktøjslinjen. Du kan desuden bruge følgende tastaturgenveje:
 
-- **Opdater** : ALT + SKIFT + F5
-- **Tilføj** : Alt + SHIFT + Insert
-- **Slet** : ALT + SHIFT + Delete
-- **Flyt op/ned** : ALT + SHIFT + pil op/ned
-- **Indrykning/udrykning** : ALT_SHIFT + venstre/højre pil
-- **Udvid/skjul hierarkier** : ALT + SHIFT + plus/minus-taster
+- **Opdater**: ALT + SKIFT + F5
+- **Tilføj**: Alt + SHIFT + Insert
+- **Slet**: ALT + SHIFT + Delete
+- **Flyt op/ned**: ALT + SHIFT + pil op/ned
+- **Indrykning/udrykning**: ALT_SHIFT + venstre/højre pil
+- **Udvid/skjul hierarkier**: ALT + SHIFT + plus/minus-taster
 
 ## <a name="task-attributes"></a>Opgaveattributter
 
@@ -98,19 +98,19 @@ En opgaves navn beskriver det arbejde, der skal udføres. I PSA er de attributte
  
 ### <a name="schedule-attributes"></a>Planlæg attributter
 
-Attributterne **Indsats** , **Startdato** , **Slutdato** og **Varighed** definerer opgavens tidsplan.
+Attributterne **Indsats**, **Startdato**, **Slutdato** og **Varighed** definerer opgavens tidsplan.
 
 Yderligere planlægningsattributter omfatter:
 
-- **Tidsforbrug** : Angiv et estimat for de timer, der kræves for at fuldføre opgaven. 
-- **Varighed** : Angiv det antal arbejdsdage, der skal bruges for at fuldføre opgaven.
-- **Tidsplans-id** : Dette automatisk genererede id bruges til at sortere opgaver i hierarkiet. Afhængigheder mellem opgaverne styrer den faktiske rækkefølge, hvori opgaverne udføres.
+- **Tidsforbrug**: Angiv et estimat for de timer, der kræves for at fuldføre opgaven. 
+- **Varighed**: Angiv det antal arbejdsdage, der skal bruges for at fuldføre opgaven.
+- **Tidsplans-id**: Dette automatisk genererede id bruges til at sortere opgaver i hierarkiet. Afhængigheder mellem opgaverne styrer den faktiske rækkefølge, hvori opgaverne udføres.
  
 ### <a name="staffing-attributes"></a>Bemandingsattributter
 
 Der kan opnås adgang til medarbejderattributter via feltet **Ressourcer** i tidsplanen. Du kan enten søge efter en eksisterende ressource eller klikke på **Opret** og i ruden **Hurtig oprettelse** tilføje et medlem af projektteamet som en ny ressource.
 
-Felterne **Rolle** , **Ressourceenhed** og **Navn på stilling** bruges til at beskrive personalekravene for opgaven. Disse medarbejderattributter sammen med opgaveplanlægning bruges til at finde tilgængelige ressourcer til udførelse af denne opgave.
+Felterne **Rolle**, **Ressourceenhed** og **Navn på stilling** bruges til at beskrive personalekravene for opgaven. Disse medarbejderattributter sammen med opgaveplanlægning bruges til at finde tilgængelige ressourcer til udførelse af denne opgave.
 
 **Rolle** – Angiv den type ressource, der kræves til udførelse af opgaven.
 

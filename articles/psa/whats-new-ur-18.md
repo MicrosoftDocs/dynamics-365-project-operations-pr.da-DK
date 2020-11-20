@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 18, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 18, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074126"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119861"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Opdateringsudgivelse 18 til Project Service Automation, V3
 
@@ -36,7 +36,7 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Pro
 
 **Tid og udgift**
 
-- Løst: Processerne **Tilbagekald** , **Anmodning** og **Annuller godkendelse** udløser undtagelser med fejlmeddelelser, der ikke er tydelige.
+- Løst: Processerne **Tilbagekald**, **Anmodning** og **Annuller godkendelse** udløser undtagelser med fejlmeddelelser, der ikke er tydelige.
 - Løst: Når det ikke er muligt at **Annullere godkendelse** af en udgift, udløses der ikke en relevant undtagelsesfejl.
 - Løst: Tidsregistreringsgitteret håndterer fejlagtigt ikke-arbejdsdage i Australien efter parameteren for sommertid (sommertid) i oktober.
 - Løst: Forkert standardlogik forhindrer indsendelse af udgifter.
@@ -60,4 +60,4 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Pro
 
 **Sales**
 
-- Løst: Når tidsangivelser godkendes igen ( **Godkend > Annuller >** Godkend igen), oprettes der en dublet, der ikke kan faktureres.
+- Løst: Når tidsangivelser godkendes igen (**Godkend > Annuller >** Godkend igen), oprettes der en dublet, der ikke kan faktureres.

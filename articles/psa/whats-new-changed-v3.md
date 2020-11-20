@@ -2,7 +2,7 @@
 title: Nyheder eller ændringer i Project Service Automation version 3
 description: Dette emne indeholder oplysninger om nyheder og ændringer i Project Service Automation version 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074134"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119996"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheder eller ændringer i Project Service Automation version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -40,7 +40,7 @@ Planlægningen har nu en ny interaktionsoverflade, som er både moderne og tilg�
 - **Gantt-diagram** – Gantt-diagrammet findes ikke længere. En ny Gannt-visualisering vil vende tilbage i en fremtidig opdatering.
 - **Kolonneoverskrifter** – du kan skjule kolonneoverskrifterne i gitteret ved at klikke på nedindikatoren ud for kolonnetitlen. 
 - **Kolonner** – du kan få vist skjulte kolonner ved at klikke på **Tilføj kolonne**. 
-- **Transaktionskategori** - Der er føjet et **Transaktionskategori** -opslag til tidsplanens gitter, og det vises som standard. 
+- **Transaktionskategori** - Der er føjet et **Transaktionskategori**-opslag til tidsplanens gitter, og det vises som standard. 
  
 ## <a name="project-templates"></a>Projektskabeloner
 Der er foretaget følgende ændringer af funktionaliteten i projektskabelonen.
@@ -94,7 +94,7 @@ Estimater er opdelt i to faner, **Ressourcetildeling** og **Estimater**. Fanen *
 
 ![Fanen Ressourcetildelinger, der viser indsatsestimater og ressourcetildelinger for opgaver](media/resource-assignments-tab-02.png)
 
-Under fanen **Estimater** vises omkostnings- og salgsbeløb for ressourcetildelinger. Beløbene er skrivebeskyttede. Fastsættelse af omkostnings- og salgspriser er nu baseret på teammedlemtildelinger i tidsplanen. Det betyder, at hvis du har en opgave uden tildeling, vises opgaven under den ikke-tildelte bucket. Det betyder også, at uden **rolle** , som er en standardprisdimension, er der ingen anslået omkostning eller intet anslået salg, hvis du har en kunde eller kontrakt/tilbud tilknyttet projektet. 
+Under fanen **Estimater** vises omkostnings- og salgsbeløb for ressourcetildelinger. Beløbene er skrivebeskyttede. Fastsættelse af omkostnings- og salgspriser er nu baseret på teammedlemtildelinger i tidsplanen. Det betyder, at hvis du har en opgave uden tildeling, vises opgaven under den ikke-tildelte bucket. Det betyder også, at uden **rolle**, som er en standardprisdimension, er der ingen anslået omkostning eller intet anslået salg, hvis du har en kunde eller kontrakt/tilbud tilknyttet projektet. 
 
 ![Fanen Estimater viser omkostnings- og salgsbeløb](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Udgiftsestimater kan angives i gitteret under fanen **Udgiftsestimater**.
 ![Fanen Udgiftsestimater, der viser gitteret for udgiftsestimater](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Ressourcestyring
-I Project Service Automation version 3 med den nye Unified-klientbrugergrænseflade og ændringer i relationen mellem reservationer og tildelinger er bemanding af et projekt med generiske eller faktiske ressourcer ændret væsentligt fra version 2 og version 1. Begreberne reserverbare ressourcer, både **faktiske** og **generiske** , forbliver de samme ligesom teammedlemmer, krav, tildelinger og reservationer.   
+I Project Service Automation version 3 med den nye Unified-klientbrugergrænseflade og ændringer i relationen mellem reservationer og tildelinger er bemanding af et projekt med generiske eller faktiske ressourcer ændret væsentligt fra version 2 og version 1. Begreberne reserverbare ressourcer, både **faktiske** og **generiske**, forbliver de samme ligesom teammedlemmer, krav, tildelinger og reservationer.   
 
 ![Brug af ressourcevælgeren](media/resource-management-05.png)
 
@@ -146,7 +146,7 @@ Når du har opgavetildelinger for en ressource uden reservationer (manglende res
 Denne sektion indeholder oplysninger om ændringerne i tid, udgifter og godkendelse i version 3 af Project Service Automation. Som en del af Dynamics 365 Project Service Automation-løsningen er funktionen **Tidsregistrering** opdateret, så den kan udnytte Unified Interface-strukturen. Det giver mulighed for levering af en ensartet brugergrænseflade med dynamisk design og optimal visning på en hvilken som helst skærmstørrelse eller enhed. 
 
 ### <a name="landing-page"></a>Landingsside
-Oplevelsen med den brugerdefinerede tidsregistrering, der ikke kan udvides, er frarådet i version 3. I stedet er der nu en indbygget gitteroplevelse, som kan udvides. Du kan få adgang til tidsregistreringsfunktionaliteten ved at bruge webstedsoversigten til venstre. Med denne ændring kan du ikke længere angive tid for én uge ad gangen. I stedet skal du oprette en tidsregistrering for hver dag i gitteret. Når der er oprettet nogle få tidsregistreringer, kan brugerne masseoprette tidsregistreringer ved hjælp af funktionen **Kopiér** , der er forklaret senere i denne emne. 
+Oplevelsen med den brugerdefinerede tidsregistrering, der ikke kan udvides, er frarådet i version 3. I stedet er der nu en indbygget gitteroplevelse, som kan udvides. Du kan få adgang til tidsregistreringsfunktionaliteten ved at bruge webstedsoversigten til venstre. Med denne ændring kan du ikke længere angive tid for én uge ad gangen. I stedet skal du oprette en tidsregistrering for hver dag i gitteret. Når der er oprettet nogle få tidsregistreringer, kan brugerne masseoprette tidsregistreringer ved hjælp af funktionen **Kopiér**, der er forklaret senere i denne emne. 
 
 ![Landingsside for tidsregistrering](media/time-entry-landing-page-07.png)
  
@@ -163,7 +163,7 @@ Når der er oprettet nogle få registreringer, kan du bruge kopieringsfunktionen
 ![Massekopiere tidsregistreringer](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importere data 
-Tildelinger og udveksling følger det samme brugergrænseflademønster, hvilket gør det muligt for brugeren at angive det datointerval, som reservationer skal importeres fra. Du skal derefter udtrykkeligt vælge de reservationer, der skal kopieres til **Kladde** -tidsregistreringer. I version 3 kan du ikke længere se mønsteret med **Foreslået** tidsregistreringer i gitteret og kalenderen.  
+Tildelinger og udveksling følger det samme brugergrænseflademønster, hvilket gør det muligt for brugeren at angive det datointerval, som reservationer skal importeres fra. Du skal derefter udtrykkeligt vælge de reservationer, der skal kopieres til **Kladde**-tidsregistreringer. I version 3 kan du ikke længere se mønsteret med **Foreslået** tidsregistreringer i gitteret og kalenderen.  
 
 ### <a name="change-in-calendar-control"></a>Ændring i kalenderkontrolelement
 I version 3 er vi flyttet væk fra det brugerdefinerede kalenderkontrolelement og bruger nu UC-kalenderen til at få vist tidsregistreringer for ugen. I denne kalender kan du se dag, uge og måned. 
@@ -192,19 +192,19 @@ Common Data Service-platformen understøtter ikke, at en bruger efterligner en a
 Tilpasning giver dig mulighed for tilføje **Reserverbar ressource** for at oprette og redigere oplevelser, som tillader en bruger at fungere som en stedfortræder ved at ændre feltet til **reservation af ressource** til en anden bruger, der skal registreres tids- og udgiftsposter for. Følgende fremgangsmåde dækker delegering af tidsregistrering. De samme oplysninger gælder for delegering af udgiftsposter. 
  
 1.  Sørg for, at den stedfortrædende bruger har global sikkerhedsadgang til projekter og projektopgaver. 
-1.  Da **Reserverbar ressource** , som er et felt i objektet **Tidsregistrering** , ikke er vist på siden **Hurtig oprettelse** , skal du tilføje det.
+1.  Da **Reserverbar ressource**, som er et felt i objektet **Tidsregistrering**, ikke er vist på siden **Hurtig oprettelse**, skal du tilføje det.
 
     eller
 
-    Opret en brugerdefineret visning, som indeholder kolonnen **Reserverbar ressource** , således at den kun viser tidsregistreringer, der er oprettet for ressourcen. Publicer tilpasningerne i appmoduldesigneren, så du kan se denne visning under **Visningsvælger** på siden **Tidsregistreringer**. Der findes to plug-ins, som håndterer indstillingen af leder for tidsregistreringer, der ikke er relateret til et projekt:
+    Opret en brugerdefineret visning, som indeholder kolonnen **Reserverbar ressource**, således at den kun viser tidsregistreringer, der er oprettet for ressourcen. Publicer tilpasningerne i appmoduldesigneren, så du kan se denne visning under **Visningsvælger** på siden **Tidsregistreringer**. Der findes to plug-ins, som håndterer indstillingen af leder for tidsregistreringer, der ikke er relateret til et projekt:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Opret en ny plug-in for at overskrive feltet **Leder** med lederen af den bruger, der er tildelt i feltet **Reserverbar ressource**. Brug samme **Udførelsesfase** som out-of-band (OOB) plug-in'en (før validering), og brug en **Udførelsesrækkefølge** , der er højere end OOB-plug-in'en (større end 1). Dette sikrer, at den brugerdefinerede plug-in er kørt efter OOB-plug-ins.  
+1. Opret en ny plug-in for at overskrive feltet **Leder** med lederen af den bruger, der er tildelt i feltet **Reserverbar ressource**. Brug samme **Udførelsesfase** som out-of-band (OOB) plug-in'en (før validering), og brug en **Udførelsesrækkefølge**, der er højere end OOB-plug-in'en (større end 1). Dette sikrer, at den brugerdefinerede plug-in er kørt efter OOB-plug-ins.  
  
 ### <a name="end-user-experience"></a>Slutbrugeroplevelse
-1.  Når du opretter en tidsregistrering på siden til hurtig oprettelse, skal du angive oplysningerne om projektet og projektopgaven og derefter vælge brugeren i feltet **Reserverbar ressource** , som tidsregistreringerne skal registreres for. 
+1.  Når du opretter en tidsregistrering på siden til hurtig oprettelse, skal du angive oplysningerne om projektet og projektopgaven og derefter vælge brugeren i feltet **Reserverbar ressource**, som tidsregistreringerne skal registreres for. 
 2.  Dette felt er som standard angivet til den bruger, der er logget på, men da brugeren har tilsidesat dette felt, oprettes tidsregistreringen nu for den valgte **Reserverbar ressource**.
 3.  Når du sender de tidsregistreringer, du har oprettet for disse poster, sættes registreringerne i kø til godkenderen i projektet som forventet. 
 4.  Når du tilbagekalder de tidsregistreringer, der er oprettet for den anden bruger, returneres tidsregistreringerne til tilstanden **Kladde** med feltet **Reserverbar ressource** angivet til den anden bruger. 
@@ -229,9 +229,9 @@ For Project Service Automation-kunder, der vil fortsætte med at bruge disse sta
 I version 3 af Project Service Automation er aspekter i forbindelse med konfiguration og administration af tilbud og kontrakter blevet ændret. Du kan finde mere detaljerede oplysninger i følgende sektioner.
 
 ### <a name="set-up-chargeability-options"></a>Konfigurere indstillinger for fakturerbarhed
-I version 1 og 2 blev opsætningen af fakturerbarhed for roller og kategorier for bestemte tilbud og kontrakter udført ved hjælp af visningen **Fakturerbarhed** , der fandtes i den øverste navigation på en tilbudslinje eller en kontraktlinje. Det var også her, du kunne konfigurere priser for disse roller og udgiftskategorier.
+I version 1 og 2 blev opsætningen af fakturerbarhed for roller og kategorier for bestemte tilbud og kontrakter udført ved hjælp af visningen **Fakturerbarhed**, der fandtes i den øverste navigation på en tilbudslinje eller en kontraktlinje. Det var også her, du kunne konfigurere priser for disse roller og udgiftskategorier.
 
-Fra og med version 3 udføres konfiguration af indstillinger for fakturerbarhed efter rolle og udgiftskategori på tilbuds- eller kontraktlinjeniveau. Prisopsætning er adskilt fra opsætning af fakturerbarhed. Du kan finde **Fakturerbare roller** og **Fakturerbare kategorier** som faner på siderne **Tilbudslinje** og **Kontraktlinje** , uden at det er nødvendigt at bruge det øverste navigationsområde.
+Fra og med version 3 udføres konfiguration af indstillinger for fakturerbarhed efter rolle og udgiftskategori på tilbuds- eller kontraktlinjeniveau. Prisopsætning er adskilt fra opsætning af fakturerbarhed. Du kan finde **Fakturerbare roller** og **Fakturerbare kategorier** som faner på siderne **Tilbudslinje** og **Kontraktlinje**, uden at det er nødvendigt at bruge det øverste navigationsområde.
 
 ![Fakturerbare roller](media/chargeable-12.png)
  
@@ -251,4 +251,4 @@ Følgende grafik er efter oprettelse af brugerdefinerede prislister.
 ![Efter brugerdefinerede prislister](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
-> Når du klikker på **Opret brugerdefineret prissætning** , kan der være en kort forsinkelse, før den brugerdefinerede prisliste er oprettet. Det anbefales, at du opdaterer gitteret i stedet for at klikke flere gange. Der er oprettet en brugerdefineret prisliste, hvis navnet på den tilknyttede prisliste har tilbudsnavnet eller projektkontraktnavnet tilføjet.
+> Når du klikker på **Opret brugerdefineret prissætning**, kan der være en kort forsinkelse, før den brugerdefinerede prisliste er oprettet. Det anbefales, at du opdaterer gitteret i stedet for at klikke flere gange. Der er oprettet en brugerdefineret prisliste, hvis navnet på den tilknyttede prisliste har tilbudsnavnet eller projektkontraktnavnet tilføjet.

@@ -3,7 +3,7 @@ title: Projektprissætning
 description: Denne emne indeholder oplysninger om, hvordan prissætning fungerer i Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074369"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120761"
 ---
 # <a name="project-pricing"></a>Projektprissætning 
 
@@ -56,7 +56,7 @@ Udtrykket *ressourcerolle* refererer til et sæt færdigheder, kompetencer og ce
 
 HR-tid er normalt baseret på den rolle, som en ressource udfylder på et bestemt projekt. I forbindelse med HR-tid understøtter PSA efterkalkulation og fakturering, der er baseret på ressourcerollen. Tid kan prissættes i en hvilken som helst enhed i enhedsgruppen **Tid**.
 
-**Tid** -enhedsgruppen oprettes, når PSA installeres. Den har standardenheden **Time**. Du kan ikke slette, omdøbe eller redigere attributterne for enhedsgruppen **Tid** eller enheden **Time**. Men du kan føje andre enheder til enhedsgruppen **Tid**. Hvis du prøver at slette enhedsgruppen **Tid** eller enheden **Time** , kan der opstå fejl i PSA-forretningslogikken.
+**Tid**-enhedsgruppen oprettes, når PSA installeres. Den har standardenheden **Time**. Du kan ikke slette, omdøbe eller redigere attributterne for enhedsgruppen **Tid** eller enheden **Time**. Men du kan føje andre enheder til enhedsgruppen **Tid**. Hvis du prøver at slette enhedsgruppen **Tid** eller enheden **Time**, kan der opstå fejl i PSA-forretningslogikken.
 
 > ![Konfiguration af priser efter rolle](media/basic-guide-13.png)
  

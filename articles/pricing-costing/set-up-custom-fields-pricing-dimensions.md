@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074167"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119411"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
 
@@ -36,14 +36,14 @@ Dette emne indeholder oplysninger om konfiguration af brugerdefinerede prisfasts
 - **msdyn_OrganizationalUnit** (Afdeling)
 
 > [!IMPORTANT]
-> Du skal ikke slette disse rækker. Men hvis du ikke har brug for dem, kan du gøre dem ikke gældende i en bestemt sammenhæng ved at indstille **Gælder for Omkostning** , **Gælder for Salg** og **Gælder for Køb** alle til **Nej**. Hvis du angiver disse attributter til **Nej** , har det den samme effekt, som hvis feltet ikke var der som en prisdimension.
+> Du skal ikke slette disse rækker. Men hvis du ikke har brug for dem, kan du gøre dem ikke gældende i en bestemt sammenhæng ved at indstille **Gælder for Omkostning**, **Gælder for Salg** og **Gælder for Køb** alle til **Nej**. Hvis du angiver disse attributter til **Nej**, har det den samme effekt, som hvis feltet ikke var der som en prisdimension.
 
 Hvis et felt skal blive til en prisdimension, skal det være:
 
 - Oprettet som et felt i objekterne **Rollepris** og **Rolleprisavance**. Du finder flere oplysninger om, hvordan du gør dette, i [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](add-custom-fields-price-setup-transactional-entities.md).
 - Oprettet som en række i tabellen **Prisdimension**. Du kan f.eks. tilføje rækker med prisdimensioner som vist i følgende grafik. 
 
-Arbejdstimer for ressource ( **msdyn_resourceworkhours** ) tilføjes som en avancebaseret dimension og er blevet tilføjet gitteret på fanen **Avancebaserede prisdimensioner**.
+Arbejdstimer for ressource (**msdyn_resourceworkhours**) tilføjes som en avancebaseret dimension og er blevet tilføjet gitteret på fanen **Avancebaserede prisdimensioner**.
 
 > [!IMPORTANT]
 > Eventuelle ændringer af prisdimensionsdata i denne tabel, eksisterende eller nye, overføres kun til forretningslogikken for prisfastsættelse, når cachen er opdateret. Det kan tage op til 10 minutter at opdatere cachen. Tillad denne tid for at se ændringerne i standardlogikken for priser, som bliver resultatet efter ændringer i prisdimensionsdataene.
@@ -53,13 +53,13 @@ Arbejdstimer for ressource ( **msdyn_resourceworkhours** ) tilføjes som en avan
 I følgende afsnit kan du finde oplysninger om de forskellige attributter i tabellen **Prisdimensioner**.
 
 ### <a name="pricing-dimension-name"></a>Prisdimensionsnavn
-Denne værdi skal være præcis den samme som skemanavnet på det felt, der føjes til tabellen **Rollepris** for brugerdefinerede prisdimensioner. Du kan finde flere oplysninger om, hvordan du føjer felter til tabellen **Rollepris** , i [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](add-custom-fields-price-setup-transactional-entities.md)og transaktions enheder.
+Denne værdi skal være præcis den samme som skemanavnet på det felt, der føjes til tabellen **Rollepris** for brugerdefinerede prisdimensioner. Du kan finde flere oplysninger om, hvordan du føjer felter til tabellen **Rollepris**, i [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](add-custom-fields-price-setup-transactional-entities.md)og transaktions enheder.
 
 ### <a name="type-of-dimension"></a>Dimensionstype
 Der findes to typer prisdimensioner:
   
-  - **Beløbsbaserede dimensioner** : Dimensionsværdierne fra inputkonteksten sættes i forhold til dimensionsværdierne på linjen **Rollepris** og prisen/omkostningerne hentes som standard direkte fra tabellen **Rollepris**.
-  - **Avancebaserede dimensioner** : Dette er dimensioner, hvor følgende proces i tre trin for at få prisen/omkostningerne anvendes:
+  - **Beløbsbaserede dimensioner**: Dimensionsværdierne fra inputkonteksten sættes i forhold til dimensionsværdierne på linjen **Rollepris** og prisen/omkostningerne hentes som standard direkte fra tabellen **Rollepris**.
+  - **Avancebaserede dimensioner**: Dette er dimensioner, hvor følgende proces i tre trin for at få prisen/omkostningerne anvendes:
  
     1. De ikke-avancebaserede dimensionsværdier fra inputkonteksten afstemmes med rolleprislinjen for at få grundtaksten.
     2. Dimensionsværdierne fra inputkonteksten afstemmes med linjen **Rolleprisavance** for at beregne en avanceprocent.
@@ -77,16 +77,16 @@ Der findes to typer prisdimensioner:
 Hvis en ressource fra Contoso India, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prisfastsættelsesprogrammet grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gælder for Omkostning 
-Hvis denne indstilles til **Ja** , angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde omkostnings- og avancetaksterne.
+Hvis denne indstilles til **Ja**, angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde omkostnings- og avancetaksterne.
 
 ### <a name="applicable-to-sales"></a>Gælder for Salg
-Hvis denne indstilles til **Ja** , angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde fakturerings- og avancetaksterne.
+Hvis denne indstilles til **Ja**, angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde fakturerings- og avancetaksterne.
 
 ### <a name="applicable-to-purchase"></a>Gælder for Køb
-Hvis denne indstilles til **Ja** , angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde købsprisen. Scenarier for underleverandører understøttes ikke, så dette felt bruges ikke. 
+Hvis denne indstilles til **Ja**, angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde købsprisen. Scenarier for underleverandører understøttes ikke, så dette felt bruges ikke. 
 
 ### <a name="priority"></a>Prioritet
 Opsætning af dimensionsprioritet hjælper prisfastsættelse med at oprette en pris, også selvom der ikke er et nøjagtigt match mellem inputdimensionsværdierne og værdierne fra tabellerne **Rollepris** eller **Rolleprisavance**. I dette scenario bruges null-værdier til ikke-overensstemmende dimensionsværdier ved at vægte dimensionerne i prioriteret rækkefølge.
 
-- **Omkostningsprioritet** : Værdien for en dimensions omkostningsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af kostpriser. Værdien for **Omkostningsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Omkostning**.
-- **Salgsprioritet** : Værdien for en dimensions salgsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af salgspriser eller fakturasatser. Værdien for **Salgsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Salg**.
+- **Omkostningsprioritet**: Værdien for en dimensions omkostningsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af kostpriser. Værdien for **Omkostningsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Omkostning**.
+- **Salgsprioritet**: Værdien for en dimensions salgsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af salgspriser eller fakturasatser. Værdien for **Salgsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Salg**.

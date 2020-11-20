@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074084"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118106"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Opret projekttilbud ud fra salgsmuligheder
 
@@ -29,8 +29,8 @@ Der kan oprettes tilbud fra projektsalgsmuligheder på følgende måder:
 
 Hvis du vil oprette et projekttilbud ud fra en salgsmulighed, skal du benytte følgende fremgangsmåde.
 
-1. Åbn siden **Projektsalgsmulighed** , og vælg derefter fanen **Tilbud**. 
-2. I undergitteret **Tilbud** skal du vælge **+** for at oprette et nyt projekttilbud, der er baseret på salgsmuligheden. Alle salgsmulighedslinjer og relaterede projektprislister kopieres til det nye tilbud fra salgsmuligheden.
+1. Åbn siden **Projektsalgsmulighed**, og vælg derefter fanen **Tilbud**. 
+2. I undergitteret **Tilbud** skal du vælge **+** for at oprette et nyt projekttilbud, der er baseret på en salgsmulighed. Alle salgsmulighedslinjer og relaterede projektprislister kopieres til det nye tilbud fra salgsmuligheden.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>Fra flowet for salgsprocessen for salgsmulighed
 
@@ -38,8 +38,8 @@ Hvis du vil oprette et tilbud ud fra salgsprocesflowet for salgsmuligheden, skal
 
 1. Åbn salgsmuligheden fra salgsprocesflowet for salgsmuligheden.
 2. Vælg fasen **Kvalificer**. 
-3. Vælg **Næste** , og vælg derefter **+ Opret** for at oprette et nyt tilbud. De fleste oplysninger under fanen **Oversigt** for dette nye tilbud vil være angivet som standard fra salgsmuligheden. 
-4. Angiv de påkrævede oplysninger, der mangler, eller opdater standardværdier efter behov under fanen **Oversigt** ,
+3. Vælg **Næste**, og vælg derefter **+ Opret** for at oprette et nyt tilbud. De fleste oplysninger under fanen **Oversigt** for dette nye tilbud vil være angivet som standard fra salgsmuligheden. 
+4. Angiv de påkrævede oplysninger, der mangler, eller opdater standardværdier efter behov under fanen **Oversigt**,
 5. Vælg **Gem**. Det nye tilbud oprettes og knyttes til salgsmuligheden. Du kan nu få vist tilbudsoplysningerne under fanen **Tilbud** på siden **Salgsmulighed**. 
 
    Salgsprocessen for salgsmuligheden flyttes til næste fase, **Foreslå**.
@@ -49,7 +49,7 @@ Hvis du vil oprette et tilbud ud fra salgsprocesflowet for salgsmuligheden, skal
 
 Et eksisterende tilbud kan knyttes til en salgsmulighed. Benyt følgende fremgangsmåde for at opdatere oplysningerne om salgsmuligheder i et eksisterende tilbud.
 
-1. Åbn siden **Tilbud** , og vælg derefter fanen **Oversigt**.
+1. Åbn siden **Tilbud**, og vælg derefter fanen **Oversigt**.
 2. I feltet **Salgsmulighed** skal du vælge den salgsmulighed, som du vil knytte til tilbuddet. Du kan se tilbuddet i gitteret **Tilbud** for salgsmuligheden. 
 3. Ved hjælp af salgsprocessen for salgsmuligheden kan salgsmuligheden flyttes til næste fase, **Foreslå**. 
 

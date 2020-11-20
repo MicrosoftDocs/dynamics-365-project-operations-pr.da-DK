@@ -3,7 +3,7 @@ title: Typer af projektfaser
 description: Dette emne indeholder oplysninger om projektfaser.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074223"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123041"
 ---
 # <a name="project-stage-types"></a>Typer af projektfaser 
 
@@ -46,11 +46,11 @@ Når du opretter et projekt, indstilles projektfasen til **Ny**. Hvis projektet 
 
 ## <a name="quote"></a>Tilbud
 
-Når du knytter et projekt til et tilbud, eller når du opretter et projekt fra et tilbud, angives projektfasen til **Tilbud** , og de forventede start- og slutdatoer opdateres. Når projektet befinder sig i fasen **Tilbud** , vises oplysninger om tilbuddet under fanen **Salg** på siden **Projektenhed**.
+Når du knytter et projekt til et tilbud, eller når du opretter et projekt fra et tilbud, angives projektfasen til **Tilbud**, og de forventede start- og slutdatoer opdateres. Når projektet befinder sig i fasen **Tilbud**, vises oplysninger om tilbuddet under fanen **Salg** på siden **Projektenhed**.
 
 ## <a name="plan"></a>Planlæg
 
-Når du vinder et tilbud, der er knyttet til et projekt, og projektet flyttes til fasen **Kontrakt** , opdateres projektfasen til **Plan**. Når projektet befinder sig i fasen **Plan** , vises oplysninger om kontrakten på fanen **Projektenhed**.
+Når du vinder et tilbud, der er knyttet til et projekt, og projektet flyttes til fasen **Kontrakt**, opdateres projektfasen til **Plan**. Når projektet befinder sig i fasen **Plan**, vises oplysninger om kontrakten på fanen **Projektenhed**.
 
 ## <a name="deliver"></a>Levér
 

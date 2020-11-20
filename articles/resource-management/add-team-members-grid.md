@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074050"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121526"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Tilføj teammedlemmer fra teammedlemsgitteret
 
@@ -21,9 +21,9 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Dynamics 365 Project Operations indeholder et Resource manager-dashboard, der giver en visuel oversigt over ressourcebehov og tidsforbrug i hele organisationen. Du kan bruge diagrammerne på dette dashboard til at få vist følgende oplysninger:
 
-- **Ressourcekrav** : Diagrammet **Aktive anmodninger om ressourcer** viser de ressourcer, der er sendt. Ressourcerne samles efter enten rolle eller projekt.
-- **Ikke sendt ressourcekrav** : Diagrammet **Ikke-tildelt ressourcekrav** viser alle de ressourcekrav, der ikke er blevet sendt. Dette diagram hjælper ressourceadministratoren med at vise de krav, der ikke er faste, og som muligvis kan sendes via en anmodning om ressourcer.
-- **Fakturerbart tidsforbrug for sidste uge** : Diagrammet **Tidsforbrug efter rolle** viser procentdelen af organisationens faktiske fakturerbare tidsforbrug efter rolle i forhold til målets fakturerbare tidsforbrug efter rolle.
+- **Ressourcekrav**: Diagrammet **Aktive anmodninger om ressourcer** viser de ressourcer, der er sendt. Ressourcerne samles efter enten rolle eller projekt.
+- **Ikke sendt ressourcekrav**: Diagrammet **Ikke-tildelt ressourcekrav** viser alle de ressourcekrav, der ikke er blevet sendt. Dette diagram hjælper ressourceadministratoren med at vise de krav, der ikke er faste, og som muligvis kan sendes via en anmodning om ressourcer.
+- **Fakturerbart tidsforbrug for sidste uge**: Diagrammet **Tidsforbrug efter rolle** viser procentdelen af organisationens faktiske fakturerbare tidsforbrug efter rolle i forhold til målets fakturerbare tidsforbrug efter rolle.
 
     > [!NOTE]
     > Hvis du vil stille diagrammet **Tidsforbrug efter rolle** til rådighed, skal du oprette et jo, der kører arbejdsprocessen **UpdateRoleUtilization**. Dette tilbagevendende job kører hver 7. dag for at beregne fakturerbart tidsforbrug for de foregående syv dage. Resultaterne samles efter rolle.
@@ -36,9 +36,9 @@ Projektledere kan bruge ressourceadministratordashboardet til at styre ressource
 
 Hvis du vil tilføje et teammedlem direkte til et projekt, skal du vælge formularen **Projekter** under fanen **Team** og vælge **Nyt**. Dialogboksen **Hurtig oprettelse: Medlem af projektteam** vises. I denne dialogboks kan du udføre følgende opgaver:
 
-- **Reservere en navngivet ressource** : Vælg navnet på ressourcen i feltet **Reserverbar ressource**. Vælg derefter rollen, angiv perioden, og vælg en fordelingsmetode. Den navngivne ressource, du har valgt, føjes til projektet ved hjælp af den valgte fordelingsmetode og ressourcekalenderen.
-- **Tilføj en generisk ressource** : Undlad at udfylde feltet **Reserverbar ressource** , og vælg derefter rollen, angiv perioden, og vælg den ønskede fordelingsmetode. Der tilføjes en standardressource til teamet som en pladsholder. Pladsholderen indeholder det efterspørgselsmønster, der bruges til at reservere navngivne ressourcer i teamet. Kravet fremsættes i henhold til projektkalenderen.
-- **Tilføj en navngivet ressource til teamet uden at forbruge ressourcekapacitet** : Vælg en ressource i feltet **Reserverbar ressource**. Vælg perioden, og vælg derefter **Ingen** som allokeringsmetode. Ressourcen føjes til teamet, men ressourcens kapacitet forbruges ikke via en reservation.
+- **Reservere en navngivet ressource**: Vælg navnet på ressourcen i feltet **Reserverbar ressource**. Vælg derefter rollen, angiv perioden, og vælg en fordelingsmetode. Den navngivne ressource, du har valgt, føjes til projektet ved hjælp af den valgte fordelingsmetode og ressourcekalenderen.
+- **Tilføj en generisk ressource**: Undlad at udfylde feltet **Reserverbar ressource**, og vælg derefter rollen, angiv perioden, og vælg den ønskede fordelingsmetode. Der tilføjes en standardressource til teamet som en pladsholder. Pladsholderen indeholder det efterspørgselsmønster, der bruges til at reservere navngivne ressourcer i teamet. Kravet fremsættes i henhold til projektkalenderen.
+- **Tilføj en navngivet ressource til teamet uden at forbruge ressourcekapacitet**: Vælg en ressource i feltet **Reserverbar ressource**. Vælg perioden, og vælg derefter **Ingen** som allokeringsmetode. Ressourcen føjes til teamet, men ressourcens kapacitet forbruges ikke via en reservation.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reservere et teammedlem for at opfylde ressourcekravene for en generisk ressource
 
@@ -48,10 +48,10 @@ Udfør følgende trin for at angive de nødvendige færdigheder for en generisk 
 
 1. På formularen **Projekter** under fanen **Team** skal du vælge **Ny** for at reservere en generisk ressource.
 2. I kolonnen **Ressourcekrav** i visningen **Alle teammedlemmer** skal du vælge linket for at føje påkrævede færdigheder til den generiske ressource.
-3. På Formularen **Ressourcekrav** skal du i gitteret **Færdigheder** vælge ellipsen ( **...** ) og derefter vælge **Tilføj ny egenskab for krav** for at tilføje de påkrævede færdigheder for din udvikler.
+3. På Formularen **Ressourcekrav** skal du i gitteret **Færdigheder** vælge ellipsen (**...**) og derefter vælge **Tilføj ny egenskab for krav** for at tilføje de påkrævede færdigheder for din udvikler.
 4. I dialogboksen **Hurtig oprettelse: egenskab for krav** skal du vælge den påkrævede færdighed i feltet **Egenskab**.
 5. Vælg færdighedsniveauet for den pågældende færdighed i feltet **Klassificeringsværdi**. 
-6. I feltet **Ressourcekrav** skal du angive kravet til kildens ressourcer fra organisationsenheder eller endda navngivne ressourcer. Vælg **Gem** , når du er færdig.
+6. I feltet **Ressourcekrav** skal du angive kravet til kildens ressourcer fra organisationsenheder eller endda navngivne ressourcer. Vælg **Gem**, når du er færdig.
 7. I formularen **Ressourcekrav** skal du vælge **Reserver** for at opfylde ressourcekravet. Du kan også vælge den generiske ressource i gitteret **Alle teammedlemmer** og derefter vælge **Reservér**.
 
     > [!NOTE]
@@ -61,9 +61,9 @@ Udfør følgende trin for at angive de nødvendige færdigheder for en generisk 
 
    Nogle af de mest almindeligt anvendte filtre er:
 
-    - **Egenskaber sammen med en klassificering** : Filtrér efter færdigheder, certificeringer og andre ressourcekvaliteter ud over klassificeringer af kompetence.
-    - **Roller** : Filtrér efter de standardroller, der er tildelt de reserverbare ressourcer.
-    - **Organisationsenheder** : Filtrer de reserverbare ressourcer efter de organisationsenheder, de er tildelt til.
+    - **Egenskaber sammen med en klassificering**: Filtrér efter færdigheder, certificeringer og andre ressourcekvaliteter ud over klassificeringer af kompetence.
+    - **Roller**: Filtrér efter de standardroller, der er tildelt de reserverbare ressourcer.
+    - **Organisationsenheder**: Filtrer de reserverbare ressourcer efter de organisationsenheder, de er tildelt til.
 
 8. Hvis du ikke er tilfreds med resultaterne af den første søgning efter krav, kan du ændre filterkriterierne. Udvid ruden **Filtervisning** til venstre, og vælg derefter **Søg** for at søge efter flere ressourcer. Hvis du vil ændre den måde, resultater sorteres på, skal du vælge **Sortér**.
 9. Vælg ressourcer i henhold til det behov, der er angivet for kravet som vist øverst i gitteret. Du kan fjerne markeringen af celler i gitteret og lade ressourcekapaciteten være åben. Det er kun muligt at markere én ressource ad gangen som reserveret.
@@ -80,7 +80,7 @@ I Project Operations kan du oprette opgaver og derefter tildele generiske ressou
 1. I formularen **Projekter** skal du vælge under fanen **Planlægning** vælge **Tilføj** for at oprette en opgave.
 2. Vælg symbolet for **Ressourcevælger** i feltet **Ressourcer**. Ressourcevælgeren vises og viser eksisterende teammedlemmer for projektet.
 3. Angiv navnet på den nye generiske ressource, og vælg derefter **Opret**.
-4. I dialogboksen **Hurtig oprettelse: Medlem af projektteam** , der vises, skal du i feltet **Rolle** vælge rollen for den generiske ressource. 
+4. I dialogboksen **Hurtig oprettelse: Medlem af projektteam**, der vises, skal du i feltet **Rolle** vælge rollen for den generiske ressource. 
 5. I feltet **Ressourceenhed** skal du vælge organisationsenheden for den generiske ressource. Vælg derefter **Gem**. Det generiske teammedlem tildeles nu til opgaven.
 
    Under fanen **Team** kan du se det nye generiske teammedlem. Bemærk, at det kun har tildelte timer. Disse timer er summen af alle opgaver, der er tildelt til det generiske teammedlem. Det generiske teammedlem har ikke de påkrævede timer eller et ressourcekrav.
@@ -130,10 +130,10 @@ Du kan ændre en hvilken som helst standardreservationsstatus eller brugerdefine
 
 Følgende statusser er indeholdt i Project Operations:
 
-- **Annulleret** : Annullerer en ressources reservation og frigør ressourcens kapacitet.
-- **Reservér definitivt** : Forbruger en ressources kapacitet. En reservation har som regel denne status, når du åbner **Fasthold reservationer** i gitteret **Alle teammedlemmer** i formularen **Projekter**.
-- **Reservér foreløbigt** : Tilføjer en ressource til et team, men forbruger ikke ressourcens kapacitet. Denne status angiver, at ressourcen er reserveret til potentielt arbejde, men stadig har kapacitet, hvis den kræves til andre job. I visningen af den samlede ressourcetilgængelighed har foreløbige reservationer en anden status end definitive reservationer.
-- **Foreslået** : Repræsenterer ressourceadministratorens eller projektlederens forslag til en ressource. Forslag forbruger ikke en ressources kapacitet, og ressourcen føjes ikke til projektteamet. For at reservere ressourcen definitivt i teamet skal projektlederen acceptere forslaget.
+- **Annulleret**: Annullerer en ressources reservation og frigør ressourcens kapacitet.
+- **Reservér definitivt**: Forbruger en ressources kapacitet. En reservation har som regel denne status, når du åbner **Fasthold reservationer** i gitteret **Alle teammedlemmer** i formularen **Projekter**.
+- **Reservér foreløbigt**: Tilføjer en ressource til et team, men forbruger ikke ressourcens kapacitet. Denne status angiver, at ressourcen er reserveret til potentielt arbejde, men stadig har kapacitet, hvis den kræves til andre job. I visningen af den samlede ressourcetilgængelighed har foreløbige reservationer en anden status end definitive reservationer.
+- **Foreslået**: Repræsenterer ressourceadministratorens eller projektlederens forslag til en ressource. Forslag forbruger ikke en ressources kapacitet, og ressourcen føjes ikke til projektteamet. For at reservere ressourcen definitivt i teamet skal projektlederen acceptere forslaget.
 
 ### <a name="submit-resource-requests"></a>Indsend ressourceanmodninger
 
@@ -182,7 +182,7 @@ eller Hvis du vil søge efter en ressource, skal du benytte følgende fremgangsm
 
 For teammedlemmer er reservationer og tildelinger løst sammenkædet. Med andre ord kan ressourcer have tildelinger men ingen reservationer, eller de kan have reservationer men ingen tildelinger. Ideelt set skal reservationer og tildelinger justeres, så ressourcer har bindende kapacitet til at udføre opgavetildelingerne. Reservationerne kan dog muligvis være baseret på tilgængelighed, og opgavetidspunkter kan ændres, efterhånden som projektet fortsætter. Derfor giver den løse sammenkædning mellem reservationer og tildelinger fleksibilitet.
 
-Project Operations har fanen **Afstemning** , som projektledere kan bruge til at afstemme teammedlemmernes reservationer og tildelinger af disse til projektteams.
+Project Operations har fanen **Afstemning**, som projektledere kan bruge til at afstemme teammedlemmernes reservationer og tildelinger af disse til projektteams.
 
 Fanen **Afstemning** viser reservationer og tildelinger helt ned til niveauet for de enkelte opgavetildelinger for hvert teammedlemmer. Den viser timer i celler, der repræsenterer tidsperioder fra måneder ned til dage.
 
@@ -190,8 +190,8 @@ Under fanen vises også en samlet netto i alt for projektet sammen med en kolonn
 
 For hver ressource beregner fanen forskellen mellem teammedlemmets reservationer og en akkumulering af teammedlemmets opgavetildelinger. Ideelt skal forskellen være 0 (nul). Det vil sige, at der ikke bør være nogen forskel mellem reservationer og tildelinger. Forskelle er farvede og nedtonede for at henlede opmærksomheden på to forhold:
 
-- **Manglende reservation** : Forekommer, når en ressource har flere tildelinger end reservationer. Da denne kapacitet ikke er reserveret, vil en projektleder muligvis rette dette forhold ved at forlænge reservationer af ressourcen for at dække underskuddet.
-- **Overskydende reservationer** : Forekommer, når en ressource er blevet reserveret til projektet, men ikke er tildelt opgaver. Dette forhold kan være acceptabelt i de tilfælde, hvor ressourcen blev reserveret til projektet, før opgavetildeling fandt sted. I andre tilfælde er ressourcen dog ikke planlagt til at blive tildelt til opgaver. I disse tilfælde skal projektlederen overveje at annullere reservationerne af ressourcen, så kapaciteten kan bruges til et andet projekt.
+- **Manglende reservation**: Forekommer, når en ressource har flere tildelinger end reservationer. Da denne kapacitet ikke er reserveret, vil en projektleder muligvis rette dette forhold ved at forlænge reservationer af ressourcen for at dække underskuddet.
+- **Overskydende reservationer**: Forekommer, når en ressource er blevet reserveret til projektet, men ikke er tildelt opgaver. Dette forhold kan være acceptabelt i de tilfælde, hvor ressourcen blev reserveret til projektet, før opgavetildeling fandt sted. I andre tilfælde er ressourcen dog ikke planlagt til at blive tildelt til opgaver. I disse tilfælde skal projektlederen overveje at annullere reservationerne af ressourcen, så kapaciteten kan bruges til et andet projekt.
 
 Når du i visse tilfælde får vist tiden på et højere niveau end dagsniveau, f.eks. månedsniveau, kan du muligvis se en nettoforskel på nul for en ressource. Med andre ord: reservationer = tildelinger. Men hvis du får vist tiden på ugeniveau, kan du muligvis se, at der er tildelinger på 0 timer og reservationer på 40 timer i den første uge, men tildelinger på 40 timer og reservationer på nul timer i løbet af den anden uge. Generelt afstemmes reservationerne og tildelingerne, men de er forskellige fra den ene uge til den næste.
 

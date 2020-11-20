@@ -3,7 +3,7 @@ title: Oprette en projektreservation fra planlægningsområdet
 description: Denne emne indeholder oplysninger om, hvordan du kan oprette en projektreservation fra planlægningsområdet.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074189"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122291"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Oprette en projektreservation fra planlægningsområdet
 
@@ -51,7 +51,7 @@ Du kan oprette en generisk ressource og tildele den en eller flere opgaver i et 
 
 4. Du kan også trække og slippe den markerede række fra bunden af planlægningsområdet til en ressourcecelle i gitteret ovenfor. Når du slipper kravet, åbnes panelet **Opret ressourcereservation** til højre.
 
-    Hvis du vælger **Reservér** , reserveres ressourcen til projektteamet.
+    Hvis du vælger **Reservér**, reserveres ressourcen til projektteamet.
 
 ![Panelet Opret ressourcereservation](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
@@ -66,24 +66,24 @@ Når du opretter et projekt i Project Service, oprettes der automatisk et ressou
 
 2. Vælg det krav, der kun har projektnavnet som navn og har en varighed på nul (0).
 
-3. Vælg fanen **Find tilgængelighed** , der vises i rækken. Dette aktiverer tilstanden Planlægningsassistent i planlægningsområdet og viser tilgængelige ressourcer, der kan reserveres til projektet.
+3. Vælg fanen **Find tilgængelighed**, der vises i rækken. Dette aktiverer tilstanden Planlægningsassistent i planlægningsområdet og viser tilgængelige ressourcer, der kan reserveres til projektet.
 
-4. Da et **Primært krav** er et tomt krav med nul (0) varighed, skal du angive varigheden i panelet **Opret ressourcereservation** , når du vælger og reserverer en ressource.
+4. Da et **Primært krav** er et tomt krav med nul (0) varighed, skal du angive varigheden i panelet **Opret ressourcereservation**, når du vælger og reserverer en ressource.
 
 5. Du kan også vælge det **primære projektkrav** nederst i planlægningsområdet og trække og slippe det på en ressource for at reservere det.
  
-    Da **Primært krav** er et tomt krav med nul (0) varighed, skal du angive varigheden i panelet **Opret ressourcereservation** , når du vælger og reserverer en ressource.
+    Da **Primært krav** er et tomt krav med nul (0) varighed, skal du angive varigheden i panelet **Opret ressourcereservation**, når du vælger og reserverer en ressource.
  
     Når du reserverer en ressource ved hjælp af **Primært krav** i planlægningsområdet, kan du tilføje det i projektteamet uden tildelinger.
  
 ## <a name="book-from-a-new-resource-requirement"></a>Reservere fra et nyt ressourcekrav
 Benyt følgende fremgangsmåde til at reservere fra et nyt ressourcekrav. 
 
-1. Gå til **Ressourcekrav** , og vælg derefter **Ny** for at oprette et nyt ressourcekrav.
+1. Gå til **Ressourcekrav**, og vælg derefter **Ny** for at oprette et nyt ressourcekrav.
 
 2. Vælg et projekt, som kravet skal knyttes til i projektet, under fanen **Projekt**.
  
-    Det nyoprettede krav vises i planlægningsområdet som et **åbent krav** , som du kan opfylde.
+    Det nyoprettede krav vises i planlægningsområdet som et **åbent krav**, som du kan opfylde.
 
 3. Reservér ressourcen for at føje den til projektteamet.
 

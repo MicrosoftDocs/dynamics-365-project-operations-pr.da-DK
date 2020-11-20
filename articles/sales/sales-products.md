@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074269"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121256"
 ---
 # <a name="products"></a>Produkter
 
@@ -34,26 +34,26 @@ Produkter er grundstenen i din virksomhed. Produktkataloget i Dynamics 365 Sales
 
 1.  Kontrollér, at du har rollen som Professional salgschef eller systemadministrator, så du kan tilføje produkter i Dynamics 365 Sales Professional.
 2.  I oversigten over webstedet skal du under **Konfiguration** vælge **Produkter**.
-3.  Vælg **Tilføj produkt** , og angiv følgende oplysninger:
+3.  Vælg **Tilføj produkt**, og angiv følgende oplysninger:
 
     -  **Navn**
     -  **Produkt-id**
-    -  **Overordnet** : Vælg en overordnet produktfamilie til produktet. Hvis du vil oprette et underordnet produkt i en produktfamilie, angives navnet på den overordnede produktfamilie her. Dette kan ikke ændres, efter at posten er gemt.
-    -  **Gyldig fra**/**Gyldig til** : Definerer den periode, produktet er gyldigt i, ved at vælge datoer for **Gyldig fra** og **Gyldig til**.
-    -  **Enhedsgruppe** : Vælg en enhedsgruppe. En enhedsgruppe er en samling af forskellige enheder, som et produkt sælges i, og definerer, hvordan de enkelte varer er grupperet i større mængder. Hvis du f.eks. vil tilføje frø som et produkt, har du muligvis oprettet en enhedsgruppe, kaldet "Frø", og defineret dens primære enhed som "pakke".
-    -  **Standardenhed** : Vælg den mest almindelige enhed, som produktet sælges i. Enheder er det antal eller målinger, som du kan sælge dine produkter i. Hvis du har tilføjet frø som et produkt, kan du for eksempel sælge dem i pakker, kasser eller paller. Hver af disse bliver en enhed af produktet. Hvis frø sælges hovedsageligt i pakker, kan du vælge det som enheden.
-    -  **Standardprisliste** : Hvis det er et nyt produkt, er dette felt skrivebeskyttet. Før du kan vælge en standardprisliste, skal du udfylde de obligatoriske felter og derefter gemme posten. Når du har gemt produktposten, er det en god ide at angive en standardprisliste for hvert produkt, selvom standardprislisten ikke er obligatorisk. Så kan Sales bruge standardprislisten til at generere tilbud, ordrer og fakturaer, hvis en kundepost ikke indeholder en prisliste.
-    -  **Understøttede decimaler** : Du skal indtaste et heltal mellem 0 og 5. Hvis produktet ikke kan deles op i mindre mængder, skal du skrive 0. Præcisionstallet i feltet **Antal** i tilbuds-, ordre- eller fakturaproduktposten valideres i forhold til værdien i dette felt, hvis produktet ikke har en tilknyttet prisliste.
-    -  **Emne** : Knyt dette produkt til et emne. Du kan bruge emner til at kategorisere produkterne og til at filtrere rapporter.
+    -  **Overordnet**: Vælg en overordnet produktfamilie til produktet. Hvis du vil oprette et underordnet produkt i en produktfamilie, angives navnet på den overordnede produktfamilie her. Dette kan ikke ændres, efter at posten er gemt.
+    -  **Gyldig fra**/**Gyldig til**: Definerer den periode, produktet er gyldigt i, ved at vælge datoer for **Gyldig fra** og **Gyldig til**.
+    -  **Enhedsgruppe**: Vælg en enhedsgruppe. En enhedsgruppe er en samling af forskellige enheder, som et produkt sælges i, og definerer, hvordan de enkelte varer er grupperet i større mængder. Hvis du f.eks. vil tilføje frø som et produkt, har du muligvis oprettet en enhedsgruppe, kaldet "Frø", og defineret dens primære enhed som "pakke".
+    -  **Standardenhed**: Vælg den mest almindelige enhed, som produktet sælges i. Enheder er det antal eller målinger, som du kan sælge dine produkter i. Hvis du har tilføjet frø som et produkt, kan du for eksempel sælge dem i pakker, kasser eller paller. Hver af disse bliver en enhed af produktet. Hvis frø sælges hovedsageligt i pakker, kan du vælge det som enheden.
+    -  **Standardprisliste**: Hvis det er et nyt produkt, er dette felt skrivebeskyttet. Før du kan vælge en standardprisliste, skal du udfylde de obligatoriske felter og derefter gemme posten. Når du har gemt produktposten, er det en god ide at angive en standardprisliste for hvert produkt, selvom standardprislisten ikke er obligatorisk. Så kan Sales bruge standardprislisten til at generere tilbud, ordrer og fakturaer, hvis en kundepost ikke indeholder en prisliste.
+    -  **Understøttede decimaler**: Du skal indtaste et heltal mellem 0 og 5. Hvis produktet ikke kan deles op i mindre mængder, skal du skrive 0. Præcisionstallet i feltet **Antal** i tilbuds-, ordre- eller fakturaproduktposten valideres i forhold til værdien i dette felt, hvis produktet ikke har en tilknyttet prisliste.
+    -  **Emne**: Knyt dette produkt til et emne. Du kan bruge emner til at kategorisere produkterne og til at filtrere rapporter.
 
 4.  Vælg **Gem**.
 5.  På fanen **Flere detaljer** i sektionen **Prislisteelementer** skal du vælge **Flere kommandoer** og dernæst vælge **Tilføj nyt prislisteelement**.
 7.  På fanen **Supplerende oplysninger** skal du i sektionen **Produktrelation** vælge ikonet **Flere kommandoer** og derefter vælge **Tilføj ny produktrelation**.
-8.  I formularen **Tilføj ny produktrelation** skal du angive følgende detaljer og på kommandolinjen vælge **Gem og luk** :
+8.  I formularen **Tilføj ny produktrelation** skal du angive følgende detaljer og på kommandolinjen vælge **Gem og luk**:
 
-    -   **Relateret produkt** : Vælg et produkt, som du vil tilføje som et produkt, der er relateret til den eksisterende produktpost, du arbejder på.
-    -   **Salgsrelationstype** : Vælg, om du vil tilføje produktet som et mersalg, salg på tværs, tilbehør eller et erstatningsprodukt.
-    -   **Retning** : Vælg, om forholdet mellem produkterne bliver envejs eller tovejs. Når du vælger envejs, vises det produkt, du vælger i **Relaterede produkter** , som en anbefaling for det eksisterende produkt, men ikke omvendt.
+    -   **Relateret produkt**: Vælg et produkt, som du vil tilføje som et produkt, der er relateret til den eksisterende produktpost, du arbejder på.
+    -   **Salgsrelationstype**: Vælg, om du vil tilføje produktet som et mersalg, salg på tværs, tilbehør eller et erstatningsprodukt.
+    -   **Retning**: Vælg, om forholdet mellem produkterne bliver envejs eller tovejs. Når du vælger envejs, vises det produkt, du vælger i **Relaterede produkter**, som en anbefaling for det eksisterende produkt, men ikke omvendt.
 
 9.  Vælg **Gem** i formularen Produkt.
 
@@ -119,8 +119,8 @@ Systemet validerer, at kun numeriske egenskaber eller produktegenskaber med nume
 
 Hvis følgende egenskaber eksempelvis er til stede: 
 
-- **Antal brugere** : Antallet af brugere 
-- **Antal måneder** : Antallet af abonnementsmåneder
+- **Antal brugere**: Antallet af brugere 
+- **Antal måneder**: Antallet af abonnementsmåneder
 - **Produkt-SKU** 
 
 Egenskaberne **Antal brugere** og **Antal måneder** kan mærkes som mængdefaktorer ved at redigere egenskaberne for produktlinjen. 

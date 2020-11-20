@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074054"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121031"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurer parametre for udgiftsstyring
 
@@ -26,7 +26,7 @@ Dette emne beskriver de parametre, der styrer den generelle funktionsmåde i Udg
 | Felt                                                    | Beskrivelse |
 |----------------------------------------------------------|-------------|
 | Standardsats for kørsel                                 | Angiv refusionssatsen for kørselsudgifter. Denne sats multipliceres med den kilometerværdi, der angives for udgiften, til at beregne det beløb, der refunderes for rejseudgiften. |
-| Valider udgiftsformål                                 | Aktivér denne indstilling for at begrænse brugerne til et eksisterende sæt værdier, der er konfigureret i feltet **Formål med udgiftsrapport** , når de opretter udgiftsrapporter. |
+| Valider udgiftsformål                                 | Aktivér denne indstilling for at begrænse brugerne til et eksisterende sæt værdier, der er konfigureret i feltet **Formål med udgiftsrapport**, når de opretter udgiftsrapporter. |
 | Personlige udgifter betalt af                                | Vælg, hvem der er ansvarlig for at betale de kreditkortstransaktioner, der er kategoriseret som personlige. |
 | Vis hele udgiftsrapporten på drillback               | Vælg denne indstilling, hvis du vil have vist alle udgifter for en udgiftsrapport, når oplysningerne i det oprindelige dokument vises for et bestemt bilag, der blev oprettet, da udgiftsrapporten blev bogført. |
 | Rejser skal godkendes på forhånd                 | Vælg denne indstilling for at kræve, at en rejserekvisition indsendes og godkendes, før en medarbejder kan indsende en udgiftsrapport. |
@@ -36,7 +36,7 @@ Dette emne beskriver de parametre, der styrer den generelle funktionsmåde i Udg
 | Tillad redigering af valutakurser for udgifter til kreditkort | Vælg denne indstilling for at give brugeren mulighed for at redigere valutakursen for importerede kreditkortudgifter. |
 | Der vises hierarkifelter med flere niveauer                  | Vælg, hvilke godkenderfelter der skal vises, når tildelingstypen for arbejdsprocessen er angivet til et hierarki, og valg af **Hierarki** er angivet til at bruge godkendelseshierarkiet på flere niveauer for udgifter. Når godkendelseshierarkiet på flere niveauer bruges til en arbejdsproces, vises de valgte felter i udgiftsrapporten og kan redigeres. |
 | Angiv medarbejderens kreditkortnummer                        | Vælg, om der kan angives et tal på 15 eller 16 tegn, og om det skal angives og gemmes i feltet **Kort-id** på siden **Kreditkort** for en medarbejder. |
-| Valider formål med rejserekvisition                      | Aktivér denne indstilling for at begrænse brugerne til et eksisterende sæt værdier, der er konfigureret i feltet **Formål med udgiftsrapport** , når de opretter rejserekvisitioner. |
+| Valider formål med rejserekvisition                      | Aktivér denne indstilling for at begrænse brugerne til et eksisterende sæt værdier, der er konfigureret i feltet **Formål med udgiftsrapport**, når de opretter rejserekvisitioner. |
 
 ## <a name="financial"></a>Finansiel
 

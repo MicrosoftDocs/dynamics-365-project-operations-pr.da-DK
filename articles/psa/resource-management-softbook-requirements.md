@@ -3,7 +3,7 @@ title: Foreløbig reservation af krav
 description: Dette emne indeholder oplysninger om, hvordan du reserverer krav foreløbigt.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074382"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124091"
 ---
 # <a name="soft-book-requirements"></a>Foreløbig reservation af krav
 
@@ -31,7 +31,7 @@ Et ressourcekrav kan reserveres definitivt. En definitiv reservation opretter et
 
 ![Reservationsstatus indstillet til Foreløbig](media/Resource-Management-image77.png)
 
-Når fanen **Team** er i visningen **Navngivne teammedlemmer** , vises ressourcen her. Timer der er foreløbigt reserveret i kolonnen **Foreløbigt reserverede timer**.
+Når fanen **Team** er i visningen **Navngivne teammedlemmer**, vises ressourcen her. Timer der er foreløbigt reserveret i kolonnen **Foreløbigt reserverede timer**.
 
 ![Foreløbigt reserverede timer i visningen Navngivne teammedlemmer](media/Resource-Management-image78.png)
 
@@ -54,7 +54,7 @@ Hvis du vil konvertere en foreløbig reservation til en definitiv reservation, s
 
 ![Ændring af reservationsstatus til Definitiv](media/Resource-Management-image82.png)
 
-Reservationen ændres, og statussen ændres i planlægningsområdet. Da reservationsstatussen nu er **Definitiv** , vises ressourcen som reserveret, og dens kapacitet og tilgængelighed justeres.
+Reservationen ændres, og statussen ændres i planlægningsområdet. Da reservationsstatussen nu er **Definitiv**, vises ressourcen som reserveret, og dens kapacitet og tilgængelighed justeres.
 
 Du kan bruge samme metode til at annullere en definitiv reservation eller en midlertidig reservation i planlægningsssområdet.
 

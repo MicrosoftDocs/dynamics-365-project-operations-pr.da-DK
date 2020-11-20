@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074141"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120806"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -32,7 +32,7 @@ Microsoft Dynamics 365 Project Operations opretter forbindelse mellem salg, ress
 -   **Salg er aktiveret** for at vinde flere aftaler og gøre salgscyklussen hurtigere med hurtige og præcise tilbud, fleksible priser og problemfrie overgange fra estimatet til udførelse.
 -   **Ressourcer er konfigureret til at optimere** ressourceudnyttelsen ved at tilpasse de rigtige personer med de rette færdigheder til de rette projekter. Dette forbedrer kvaliteten og hjælper dig med at fastholde de bedste sælgere.
 -   **Projektledere kan gøre** projektlevering hurtigere med den nyeste, indbyggede projektstyring, der bruger de velkendte, brugervenlige funktioner i Microsoft Project.
--   **Teammedlemmer kan forbedre produktivitet** , samarbejdet og synligheden med integration med Microsoft Teams og indsende tidsregistreringer og udgifter overalt.
+-   **Teammedlemmer kan forbedre produktivitet**, samarbejdet og synligheden med integration med Microsoft Teams og indsende tidsregistreringer og udgifter overalt.
 -   **Finance kan forenkle projektregnskabet** med styring af tids- og udgiftssporing, projektomkostninger, budgettering, fakturering, indtægtsføring, overholdelse af angivne standarder og synlighed i vigtige målepunkter for virksomhedens sundhed.
 
 Project Operations er effektiv, men kan udvides af de af vores kunder, der har brug for yderligere funktioner, fra Dynamics 365. Dette omfatter Marketing, Human Resources, Customer Service og meget mere. Uanset om du ønsker den yderligere funktionalitet i et andet Dynamics 365-program eller vil tilføje den i et brugerdefineret program, der er bygget med Power Apps, kan det hele fungere sammen, og som du forventer, da programmerne deler en sikker og privat cloud-løsning, som overholder angivne standarder.

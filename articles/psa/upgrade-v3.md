@@ -2,7 +2,7 @@
 title: Overvejelser i forbindelse med opgradering – Microsoft Dynamics 365 Project Service Automation version 2.x eller 1.x til version 3
 description: Dette emne indeholder oplysninger om de overvejelser, du skal gøre dig, når du opgraderer fra Project Service Automation version 2.x eller 1.x til version 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074252"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121706"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overvejelser i forbindelse med opgradering – PSA version 2.x eller 1.x til version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -56,7 +56,7 @@ Når du opgraderer til version 3, erstattes linjeopgaver af ressourcetildelinger
 
 ![Ressourcetildelinger](media/resource-assignment-v2-05.png)
 
-Da estimaterne er baseret på standardrollen for ressourcen, kan estimaterne for salg og omkostninger blive ændret. Bemærk, at du i den følgende illustration ikke længere kan se **Udvikler** -rollen, da rollen nu er taget fra den reserverbare ressources standardrolle.
+Da estimaterne er baseret på standardrollen for ressourcen, kan estimaterne for salg og omkostninger blive ændret. Bemærk, at du i den følgende illustration ikke længere kan se **Udvikler**-rollen, da rollen nu er taget fra den reserverbare ressources standardrolle.
 
 ![Omkostningsestimater for standardroller](media/resource-assignment-cost-estimate-06.png)
 ![Salgsestimat for standardroller](media/resource-assignment-sales-estimate-07.png)
@@ -77,7 +77,7 @@ I version 2 og version 1 kan projekter med generiske ressourcer være i to tilst
 
 Før du går i gang med at udføre en opgradering, anbefales det, at du genererer teamet igen for hvert enkelt projekt, der har opgaver tildelt til generiske ressourcer, eller hvor der endnu ikke er kørt processen Generér team for dem.
 
-I forbindelse med opgaver, der er tildelt til generiske teammedlemmer, som blev genereret vha. **Generér team** , bevarer opgraderingen den generiske ressource i teamet og beholder tildelingen til det generiske teammedlem. Det anbefales, at du genererer ressourcekravet for det generiske teammedlem efter opgraderingen, men før du reserverer eller sender en ressourceanmodning. Derved forbliver eventuelle tildelinger til afdelinger på de generiske teammedlemmer, der er forskellige fra projektets kontraktafdeling.
+I forbindelse med opgaver, der er tildelt til generiske teammedlemmer, som blev genereret vha. **Generér team**, bevarer opgraderingen den generiske ressource i teamet og beholder tildelingen til det generiske teammedlem. Det anbefales, at du genererer ressourcekravet for det generiske teammedlem efter opgraderingen, men før du reserverer eller sender en ressourceanmodning. Derved forbliver eventuelle tildelinger til afdelinger på de generiske teammedlemmer, der er forskellige fra projektets kontraktafdeling.
 
 I Projekt Z-projektet er kontraktafdelingen f.eks. Contoso US. I projektplanen er testopgaver i implementeringsfasen blevet tildelt rollen teknisk konsulent, og den tildelte afdeling er Contoso India.
 

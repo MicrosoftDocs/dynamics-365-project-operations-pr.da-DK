@@ -3,7 +3,7 @@ title: Arbejde med Project Service Automation-datamodellen
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med datamodellen.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074357"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120266"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbejde med Project Service Automation-datamodellen
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation udvider andre app-objekter og introducer
 
 ## <a name="reporting-on-opportunities"></a>Rapportering om salgsmuligheder
 
-Project service Automation udvider objektet Dynamics 365 Sales **mulighed** ved at tilføje felter, der aktiverer projektbaserede scenarier. Disse felter identificeres ved hjælp af et skemanavn, der indledes med **msdyn.\_** Et nyt felt, der er vigtigt for at rapportere om PSA-salgsmuligheder, er **Ordretype**. En værdi for **Arbejdsbaseret,** der er baseret på dette felt, angiver, at salgsmuligheden er en PSA-mulighed. Andre felter, der er føjet til objektet, omfatter **Kontraktorganisation** , som registrerer den organisation, der er indehaver af salgsmuligheden, og **Account Manager** , som registrerer navnet på den chef, der er ansvarlig for salgsmuligheden.
+Project service Automation udvider objektet Dynamics 365 Sales **mulighed** ved at tilføje felter, der aktiverer projektbaserede scenarier. Disse felter identificeres ved hjælp af et skemanavn, der indledes med **msdyn.\_** Et nyt felt, der er vigtigt for at rapportere om PSA-salgsmuligheder, er **Ordretype**. En værdi for **Arbejdsbaseret,** der er baseret på dette felt, angiver, at salgsmuligheden er en PSA-mulighed. Andre felter, der er føjet til objektet, omfatter **Kontraktorganisation**, som registrerer den organisation, der er indehaver af salgsmuligheden, og **Account Manager**, som registrerer navnet på den chef, der er ansvarlig for salgsmuligheden.
 
 Objektet **Salgsmulighedslinjer** indeholder også felter, der er relateret til Project Service. **Faktureringsmetode** angiver, om der skal faktureres for salgsmulighedslinjen på grundlag af tidspunkt og materiale, eller det skal ske på grundlag af fast pris, og **Projekt** registrerer navnet på det projekt, der giver grundlag for salgsmuligheden. Andre felter, hvor du kan rapportere om registreringsomkostninger og kundens budgetterede beløb for linjeelementet.
 
 ## <a name="reporting-on-quotes"></a>Rapportering om tilbud
 
-PSA udvider salgsobjektet **Tilbud** ved at tilføje projektrelaterede felter. **Ordretype** adskiller PSA-tilbud fra ikke-PSA-tilbud. En værdi for **Arbejdsbaseret,** der er baseret på dette felt, angiver, at tilbuddet er et PSA-tilbud. Andre felter, der kan være relevante for rapportering om PSA-tilbud, omfatter beløbsfelter som f.eks. **Fakturerbare omkostninger** , **Ikke-fakturerbare omkostninger** , **Bruttoavance** , **Estimater** og **Budget**. Andre nyttige felter angiver, om tilbuddet er rentabelt, om det vil blive fuldført efter planen, og om det lever op til kundens budgetforventninger.
+PSA udvider salgsobjektet **Tilbud** ved at tilføje projektrelaterede felter. **Ordretype** adskiller PSA-tilbud fra ikke-PSA-tilbud. En værdi for **Arbejdsbaseret,** der er baseret på dette felt, angiver, at tilbuddet er et PSA-tilbud. Andre felter, der kan være relevante for rapportering om PSA-tilbud, omfatter beløbsfelter som f.eks. **Fakturerbare omkostninger**, **Ikke-fakturerbare omkostninger**, **Bruttoavance**, **Estimater** og **Budget**. Andre nyttige felter angiver, om tilbuddet er rentabelt, om det vil blive fuldført efter planen, og om det lever op til kundens budgetforventninger.
 
-PSA udvider også salgsobjektet **Ordrelinje**. Et af de felter, som PSA tilføjer, er **Faktureringsmetode** , som angiver, hvordan tilbudslinjen bliver faktureret (tid og materialer eller fast pris). Andre felter, der er føjet til objektet, registrerer det relaterede projekt, der understøtter tilbudslinjen, fakturering, omkostninger og budget.
+PSA udvider også salgsobjektet **Ordrelinje**. Et af de felter, som PSA tilføjer, er **Faktureringsmetode**, som angiver, hvordan tilbudslinjen bliver faktureret (tid og materialer eller fast pris). Andre felter, der er føjet til objektet, registrerer det relaterede projekt, der understøtter tilbudslinjen, fakturering, omkostninger og budget.
 
 PSA føjer også nye tilbudsrelaterede objekter til Dynamics 365-datamodellen. Her er nogle eksempler:
 
@@ -50,13 +50,13 @@ PSA føjer også nye tilbudsrelaterede objekter til Dynamics 365-datamodellen. H
 - **Milepæl for tilbudslinje** – Dette objekt indeholder milepæle for faktureringen for tilbudslinjer med fast pris.
 - **Analysehierarki for tilbudslinje** – Dette objekt indeholder økonomiske oplysninger om tilbudslinjen. Disse oplysninger kan være nyttige for rapportering af tilbudte salgsbeløb og anslåede omkostningsbeløb efter forskellige dimensioner.
 
-Andre objekter, som PSA føjer til tilbud, er **Projektprisliste for tilbudslinje** , **Ressourcekategori for tilbudslinje** og **Transaktionskategori for tidbudslinje**.
+Andre objekter, som PSA føjer til tilbud, er **Projektprisliste for tilbudslinje**, **Ressourcekategori for tilbudslinje** og **Transaktionskategori for tidbudslinje**.
 
 ![Diagram, der viser tilbud, tilbudslinje og projektrelationer](media/PS-Reporting-image2.png "Diagram, der viser tilbud, tilbudslinje og projektrelationer")
 
 ## <a name="reporting-on-project-contracts"></a>Rapportering om projektkontrakter
 
-PSA udvider det salgsobjektet **Ordre** , der bruges, når der registreres projektkontrakter. Der tilføjes et vigtigt nyt felt, **Ordretype** , der identificerer kontrakten som en PSA-projektkontrakt i stedet for en salgsordre. En værdi for **Arbejdsbaseret,** der er baseret på dette felt, angiver, at ordren er en PSA-projektkontrakt. Andre nye felter, der er føjet til objektet **Ordre** , registrerer oplysninger om omkostninger, PSA-kontraktstatus og den organisation, der ejer kontrakten.
+PSA udvider det salgsobjektet **Ordre**, der bruges, når der registreres projektkontrakter. Der tilføjes et vigtigt nyt felt, **Ordretype**, der identificerer kontrakten som en PSA-projektkontrakt i stedet for en salgsordre. En værdi for **Arbejdsbaseret,** der er baseret på dette felt, angiver, at ordren er en PSA-projektkontrakt. Andre nye felter, der er føjet til objektet **Ordre**, registrerer oplysninger om omkostninger, PSA-kontraktstatus og den organisation, der ejer kontrakten.
 
 PSA udvider også objektet **Salgsordrelinje**. Blandt de felter, der tilføjes, er felter, der registrerer faktureringsmetoden (tid og materialer eller fast pris), kundens budgetterede beløb og det underliggende projekt.
 
@@ -66,7 +66,7 @@ PSA tilføjer også nye objekter, der er udviklet til projektkontrakter. Her er 
 - **Fakturaplanlægning for projektkontraktlinje** – Dette objekt indeholder den faktureringsplan, der genereres på baggrund af den fakturafrekvens, der er tildelt til kontraktlinjen.
 - **Kontraktmilepæl** – Dette objekt indeholder faktureringsmilepæle for kontraktlinjer, hvor fakturering sker ud fra faste priser.
 
-Andre objekter, som PSA føjer til kontrakter, er **Projektprisliste for projektkontaktlinje** , **Ressourcekategori for projektkontraktlinje** og **Transaktionskategori for projektkontraktlinje**.
+Andre objekter, som PSA føjer til kontrakter, er **Projektprisliste for projektkontaktlinje**, **Ressourcekategori for projektkontraktlinje** og **Transaktionskategori for projektkontraktlinje**.
 
 ![Diagram, der viser ordre, ordrelinje og projektrelationer](media/PS-Reporting-image3.png "Diagram, der viser ordre, ordrelinje og projektrelationer")
 
@@ -84,7 +84,7 @@ Objektet **Projekter** og de tilhørende objekter er eksklusive for PSA. **Proje
 
 ## <a name="reporting-on-resources"></a>Rapportering om ressourcer
 
-Projektressourcer bruger de **Reserverbare ressource** -objekter fra Universal Resource Scheduling (URS), der deles med andre apps, f.eks. Microsoft Dynamics 365 Field Service. Her er en liste over de objekter, du måske skal bruge, når du rapporterer om projektressourcer:
+Projektressourcer bruger de **Reserverbare ressource**-objekter fra Universal Resource Scheduling (URS), der deles med andre apps, f.eks. Microsoft Dynamics 365 Field Service. Her er en liste over de objekter, du måske skal bruge, når du rapporterer om projektressourcer:
 
 - **Reserverbar ressource** – Dette objekt repræsenterer den bruger, kontaktperson, standardressource, firmagruppe eller udstyr, der bruges i projektteamet.
 - **Egenskaber for reserverbare ressourcer** – Dette objekt omfatter færdigheder, certificeringer eller uddannelse af ressourcen. Egenskaberne kan have klassificeringsværdier, der er defineret af klassificeringsmodellen.
@@ -97,11 +97,11 @@ Projektressourcer bruger de **Reserverbare ressource** -objekter fra Universal R
 
 Når du godkender en timeseddel eller udgift eller fakturerer en kontrakt i PSA, registreres forretningstransaktionen i objektet **Faktisk**. Dette objekt kan bruges som udgangspunkt for næsten alle finansrelaterede rapporter i PSA. Objektet **Faktisk** registrerer omkostnings- og salgstransaktioner for forretningshændelsen. Den registrerer også mange relevante attributter.
 
-Når du arbejder med objektet **Faktisk** , er det vigtigt, at du forstår, hvilken transaktion eller hvilke transaktioner der registreres i objektet, og hvornår transaktionerne registreres. Her er det almindelige flow, når du arbejder med tidsregistreringer (flowet for udgiftsposter minder herom):
+Når du arbejder med objektet **Faktisk**, er det vigtigt, at du forstår, hvilken transaktion eller hvilke transaktioner der registreres i objektet, og hvornår transaktionerne registreres. Her er det almindelige flow, når du arbejder med tidsregistreringer (flowet for udgiftsposter minder herom):
 
 1. Når tidsregistreringen gemmes, oprettes der ingen poster i objektet **Faktisk**.
 2. Når tidsregistreringen er sendt, oprettes der ingen poster i objektet **Faktisk**.
-3. Når tidsregistreringen er godkendt, oprettes der en post i objektet **Faktisk,** , og der kan også oprettes en anden post. I den første post gemmes omkostningerne for den registrerede tid. I den anden post gemmes det ikke-fakturerede salgsbeløb for den registrerede tid. Den anden post er afhængig af projektet, der enten har en kunde, et tilbud eller en kontraktlinje tilknyttet.
+3. Når tidsregistreringen er godkendt, oprettes der en post i objektet **Faktisk,**, og der kan også oprettes en anden post. I den første post gemmes omkostningerne for den registrerede tid. I den anden post gemmes det ikke-fakturerede salgsbeløb for den registrerede tid. Den anden post er afhængig af projektet, der enten har en kunde, et tilbud eller en kontraktlinje tilknyttet.
 
     | Dokumentdato | Transaktionstype | Transaktionsklasse | Kunde         | Kontrakt   | Ressource     | Ressourcerolle | Faktureringstype | Antal | Enhedspris | Beløb |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|--------|
@@ -110,13 +110,13 @@ Når du arbejder med objektet **Faktisk** , er det vigtigt, at du forstår, hvil
 
     Disse to poster er separate, men relaterede poster. De er hverken debet eller kredit.
 
-4. Hvis der er knyttet en kontrakt til projektet, oprettes der yderligere to poster i objektet **Faktisk** , når tidsregistreringen faktureres. For det første oprettes der et negativt beløb for den ikke-fakturerede salgspost. Denne post tilbagefører grundlæggende det ikke-fakturerede salg. Dernæst oprettes der en transaktion for det fakturerede salg. Disse poster er ligeledes separate, men relaterede poster, hverken debet eller kredit.
+4. Hvis der er knyttet en kontrakt til projektet, oprettes der yderligere to poster i objektet **Faktisk**, når tidsregistreringen faktureres. For det første oprettes der et negativt beløb for den ikke-fakturerede salgspost. Denne post tilbagefører grundlæggende det ikke-fakturerede salg. Dernæst oprettes der en transaktion for det fakturerede salg. Disse poster er ligeledes separate, men relaterede poster, hverken debet eller kredit.
 
     | Dokumentdato | Transaktionstype | Transaktionsklasse | Kunde         | Kontrakt   | Ressource     | Ressourcerolle | Faktureringstype | Antal | Enhedspris | Beløb   |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|----------|
     | 2/4/18        | Ikke-faktureret salg   | Tidspunkt              | Alpine Ski House | Alpine CRM | Anne-Marie Jespersen | Projektleder   | Fakturerbar   | - 8,0    | 100.00     | - 800,00 |
     | 2/4/18        | Faktureret salg     | Tidspunkt              | Alpine Ski House | Alpine CRM | Anne-Marie Jespersen | Projektleder   | Fakturerbar   | 8.0      | 100.00     | 800.00   |
 
-Objektet **Transaktionsoprindelse** registrerer oprindelsen for posten **Faktisk** , og objektet **Transaktionsforbindelse** registrerer de relaterede poster for posten **Faktisk**. Derudover indeholder posten **Faktisk** referencer til projektet, projektkontrakten (ordren), den reserverbare ressource og kunden.
+Objektet **Transaktionsoprindelse** registrerer oprindelsen for posten **Faktisk**, og objektet **Transaktionsforbindelse** registrerer de relaterede poster for posten **Faktisk**. Derudover indeholder posten **Faktisk** referencer til projektet, projektkontrakten (ordren), den reserverbare ressource og kunden.
 
 ![Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer](media/PS-Reporting-image6.png "Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer")

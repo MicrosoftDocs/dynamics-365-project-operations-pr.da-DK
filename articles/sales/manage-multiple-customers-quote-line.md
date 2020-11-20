@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074048"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118556"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Administrer flere kunder i projektbaserede tilbudslinjer
 
@@ -36,7 +36,7 @@ Følgende tabel viser de felter, findes i tilbudslinjekundeposten for en projekt
 | **Firma** | Et redigerbart gitter under fanen **Tilbudslinjekunder** og den primære formular samt formularen for hurtig oprettelse af en tilbudslinjekunde. | Viser alle aktive firmaer. Dette felt er låst, når posten er oprettet. Hvis du har brug for at opdatere feltet, skal du slette posten og oprette den igen. Hvis du har registreret faktiske oplysninger, kan du ikke slette posten. | Når du vælger et firma på den overordnede liste over firmaer, der skal tilføjes, tilføjes tilbudslinjekunden også som en tilbudskunde. Tilbudslinjekunder kopieres over til projektkontraktlinjekunderne, når et tilbud er vundet. |
 | **Procentdel for opdeling af fakturering** | Et redigerbart gitter under fanen **Tilbudslinjekunder** og den primære formular samt formularen for hurtig oprettelse af en tilbudslinjekunde. | Repræsenterer den procentdel af hver ikke-faktureret salgstransaktion, der skal tilknyttes denne tilbudslinjekunde. | Kopieres til projektkontraktlinjekunder. |
 | **Grænse, der ikke må overskrides** | Et redigerbart gitter under fanen **Tilbudslinjekunder** og den primære formular samt formularen for hurtig oprettelse af en tilbudslinjekunde. | Indikerer, hvorvidt der er en forhandlet grænse eller maksimum for det samlede beløb, der vil blive faktureret til denne kunde for denne tilbudslinje. | Kopieret til projektkontraktlinjekunderne, når et tilbud er vundet. |
-| **Ejerselskab** | Et redigerbart gitter under fanen **Tilbudslinjekunder** og den primære formular samt formularen for hurtig oprettelse af en tilbudslinjekunde. | Den juridiske enhed, som denne kunde er konfigureret i, i modulet **Projektstyring og regnskab**. Dette felt er skrivebeskyttet og er angivet til ejerselskabet i selve tilbuddet. Kundelisten, der skal tilføjes i feltet **Firma** , er allerede filtreret til listen fra ejerselskabet i modulet **Projektstyring og regnskab** under Project Operations. | Ejerselskabet svarer til begrebet juridisk enhed. Der redegøres for alle omkostninger og indtægter, der påløber i forbindelse med dette projekt i finanskladden i ejerselskabet. |
+| **Ejerselskab** | Et redigerbart gitter under fanen **Tilbudslinjekunder** og den primære formular samt formularen for hurtig oprettelse af en tilbudslinjekunde. | Den juridiske enhed, som denne kunde er konfigureret i, i modulet **Projektstyring og regnskab**. Dette felt er skrivebeskyttet og er angivet til ejerselskabet i selve tilbuddet. Kundelisten, der skal tilføjes i feltet **Firma**, er allerede filtreret til listen fra ejerselskabet i modulet **Projektstyring og regnskab** under Project Operations. | Ejerselskabet svarer til begrebet juridisk enhed. Der redegøres for alle omkostninger og indtægter, der påløber i forbindelse med dette projekt i finanskladden i ejerselskabet. |
 | **Er afrunding** | Et redigerbart gitter under fanen **Tilbudslinjekunder** og den primære formular samt formularen for hurtig oprettelse af en tilbudslinjekunde. | Angiver, om denne kunde er en standard afrundingskunde for denne projektbaserede tilbudslinje. | Kopieret til projektkontraktkunderne, når et tilbud er vundet. |
 
 ## <a name="edit-billing-split-percentages"></a>Rediger opdelingen af faktureringsprocenter

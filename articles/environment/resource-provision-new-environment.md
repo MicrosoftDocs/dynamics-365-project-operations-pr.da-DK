@@ -3,17 +3,17 @@ title: Klargør et nyt miljø
 description: Dette emne indeholder oplysninger om, hvordan du klargør et nyt Project Operations-miljø.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074059"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121166"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
@@ -120,7 +120,7 @@ Det vil tage et stykke tid at vedligeholde miljøet. Når installationen er fuld
 
 ![Anvend løsninger](./media/13ApplySolutions.png)
 
-5. Vælg begge løsninger, **Dynamics 365 Finance and Operations dobbelt skrivningsobjekttilknytninger** og **Dynamics 365 Project Operations dobbelt skrivningsobjekttilknytninger** , og vælg derefter **Anvend**.
+5. Vælg begge løsninger, **Dynamics 365 Finance and Operations dobbelt skrivningsobjekttilknytninger** og **Dynamics 365 Project Operations dobbelt skrivningsobjekttilknytninger**, og vælg derefter **Anvend**.
 
 ![Bekræft løsninger](./media/14ConfirmSolutions.png)
 
@@ -177,7 +177,7 @@ Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført
 
 5. Kør tilknytningen, når opdateringen er fuldført. Før du aktiverer næste tilknytning, skal du kontrollere, at tilknytningen i tabellen er i tilstanden **Kører**. Det kan tage et stykke tid at køre tilknytningerne med et større antal forudsætninger.
 
-Hvis du vil køre en tilknytning med forudsætninger, skal du aktivere funktionen **Vis relaterede objekttilknytninger**. Hvis tabellen indikerer, at **Indledende synkronisering af forudsætning** er **Nej** , skal du kontrollere, at flaget for den **Indledende synkronisering** er **Slået fra** i alle de påkrævede tilknytninger, før du kører programmet.
+Hvis du vil køre en tilknytning med forudsætninger, skal du aktivere funktionen **Vis relaterede objekttilknytninger**. Hvis tabellen indikerer, at **Indledende synkronisering af forudsætning** er **Nej**, skal du kontrollere, at flaget for den **Indledende synkronisering** er **Slået fra** i alle de påkrævede tilknytninger, før du kører programmet.
 
 ![Kør tilknytning](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Hvis du vil køre en tilknytning med forudsætninger, skal du aktivere funktione
 
 ![Alle tilknytninger kører](./media/22AllMapsRunning.png)
 
-Dit Project Operations-miljø er nu klargjort og konfigureret.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Anvend konfigurationsdata i CDS for Project Operations (valgfrit)
+
+Hvis du har anvendt demodata i Finance-miljøet, skal du se [Konfigurere og anvende konfigurationsdata i Common Data Service til Project Operations](resource-apply-pro-setup-config-data.md) for at anvende demodata i CDS-miljøer.
+
+
+Dit Project Operations-miljø er nu klargjort og konfigureret. 
