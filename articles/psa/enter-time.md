@@ -3,7 +3,7 @@ title: Angive klokkeslæt
 description: Sådan angiver du tid i Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074375"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132866"
 ---
 # <a name="enter-time-project-service"></a>Angiv klokkeslæt (Project Service)
 
@@ -39,7 +39,7 @@ Angiv mindst en gang ugentlig dine timer – eller med den hyppighed, der er øn
   
 3. Hvis du vil angive tid, skal du enten klikke på **Ny** eller dobbeltklikke på kalenderen under den dag, du vil angive tid for.  
   
-4. Udfyld felterne i formularen **Tidsregistrering** , og klik på **Gem**.  
+4. Udfyld felterne i formularen **Tidsregistrering**, og klik på **Gem**.  
   
 5. Fortsæt med at angive tid for ugen. Når du er færdig, og alt ser korrekt ud, skal du klikke på **Send**. En leder skal gennemse og godkende din tidsregistreringer.  
   
@@ -51,7 +51,7 @@ Angiv mindst en gang ugentlig dine timer – eller med den hyppighed, der er øn
   
    Hvis du bruger mobilappen:  
   
-9. Gå til **Tidsregistreringer** fra menuen.     Du kan skifte til visningen **Dag** , **Uge** eller **Måned** eller navigere til den forrige eller næste tidsperiode.  
+9. Gå til **Tidsregistreringer** fra menuen.     Du kan skifte til visningen **Dag**, **Uge** eller **Måned** eller navigere til den forrige eller næste tidsperiode.  
   
 10. Tryk på **…** og tryk på **Ny**.  
   

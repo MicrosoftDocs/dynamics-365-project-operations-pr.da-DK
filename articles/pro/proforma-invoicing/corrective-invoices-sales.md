@@ -1,21 +1,21 @@
 ---
-title: Kreditter og rettede fakturaer
+title: Rettede fakturaer - lille
 description: Dette emne indeholder oplysninger om rettede fakturaer i Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074283"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176424"
 ---
-# <a name="credits-and-corrected-invoices"></a>Kreditter og rettede fakturaer
+# <a name="corrected-invoices---lite"></a>Rettede fakturaer - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -35,7 +35,7 @@ Der oprettes en ny kladdefaktura ud fra den bekræftede faktura. Alle fakturalin
 - Afstemninger af forskudshonorarer og forskud kan rettes, hvis der er brugt et forkert beløb til at afstemme i forhold til gebyrerne på en tidligere bekræftet faktura.
 
 > [!IMPORTANT]
-> De fakturalinjedetaljer, der er rettelser til andre allerede fakturerede opkrævninger, har feltet **Rettelse** angivet til **Ja**. Fakturaer, der har rettede fakturalinjedetaljer, har et felt kaldet **Indeholder rettelser** , der også er angivet til **Ja**.
+> De fakturalinjedetaljer, der er rettelser til andre allerede fakturerede opkrævninger, har feltet **Rettelse** angivet til **Ja**. Fakturaer, der har rettede fakturalinjedetaljer, har et felt kaldet **Indeholder rettelser**, der også er angivet til **Ja**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiske tal, der er oprettede på Bekræftelse af en rettelsesfaktura:
 

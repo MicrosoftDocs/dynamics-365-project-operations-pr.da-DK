@@ -3,7 +3,7 @@ title: Prisfastsættelse i produktkatalog.
 description: Dette emne indeholder oplysninger om, hvordan prisfastsættelse i produktkataloget Dynamics 365 Project Service Automation fungerer i (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074203"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132281"
 ---
 # <a name="product-catalog-pricing"></a>Prisfastsættelse i produktkatalog. 
 
@@ -46,11 +46,11 @@ PSA understøtter forskellige afrundingsindstillinger, når priser er konfigurer
 
 > ![Tilføjelse af produkter fra et katalog til forskellige prislister](media/basic-guide-16.png)
 
-Når du opretter en ny brugerdefineret prisliste for et tilbud ved at vælge **Opret brugerdefineret prissætning** på siden **Projekttilbud** , opretter PSA en kopi af prislisten, og feltet **Objekt** i overskriften for den nye prisliste angives til **Salgsobjekt**. Navnet på den nye prisliste tilføjes sammen med navnet på tilbuddet og et tidsstempel. Du kan også bruge navnet på den nye prisliste og navnet på tilbuddet i brugerdefinerede arbejdsprocesser til at udløse yderligere gennemgang og godkendelse for tilbud, der bruger brugerdefineret prissætning.
+Når du opretter en ny brugerdefineret prisliste for et tilbud ved at vælge **Opret brugerdefineret prissætning** på siden **Projekttilbud**, opretter PSA en kopi af prislisten, og feltet **Objekt** i overskriften for den nye prisliste angives til **Salgsobjekt**. Navnet på den nye prisliste tilføjes sammen med navnet på tilbuddet og et tidsstempel. Du kan også bruge navnet på den nye prisliste og navnet på tilbuddet i brugerdefinerede arbejdsprocesser til at udløse yderligere gennemgang og godkendelse for tilbud, der bruger brugerdefineret prissætning.
 
  
 ## <a name="default-product-price-list"></a>Standardproduktprisliste
-Hver kundepost indeholder feltet **Standardprisliste** , hvor du kan angive en prisliste, der stemmer overens med den valuta, der er angivet for kunden. I PSA angives der ikke automatisk en standardværdi i dette felt. Når der findes en brugerdefineret prisaftale med en bestemt kunde, kan du bruge dette felt til at knytte en prisliste til den pågældende kunde.
+Hver kundepost indeholder feltet **Standardprisliste**, hvor du kan angive en prisliste, der stemmer overens med den valuta, der er angivet for kunden. I PSA angives der ikke automatisk en standardværdi i dette felt. Når der findes en brugerdefineret prisaftale med en bestemt kunde, kan du bruge dette felt til at knytte en prisliste til den pågældende kunde.
 
 For objekterne for salgsmulighed, tilbud og projektkontrakt bruges følgende rækkefølge til at angive standardproduktprislister. Den samme rækkefølge bruges til projektprislister.
 

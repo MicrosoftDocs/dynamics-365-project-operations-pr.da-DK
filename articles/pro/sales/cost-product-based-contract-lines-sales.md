@@ -1,26 +1,26 @@
 ---
-title: Produktbaserede kontraktlinjer for omkostningsfastsættelse
+title: Produktbaserede kontraktlinjer for omkostninger - lille
 description: Dette emne indeholder oplysninger om oprettelse
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4074403"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177234"
 ---
-# <a name="costing-product-based-contract-lines"></a>Produktbaserede kontraktlinjer for omkostningsfastsættelse
+# <a name="cost-product-based-contract-lines---lite"></a>Produktbaserede kontraktlinjer for omkostninger - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
 
-Produktbaserede kontraktlinjer i Dynamics 365 Project Operations omfatter feltet **Kostpris** , som indeholder kostprisen på produktet i relation til beregning af den afledte rentabilitet.
+Produktbaserede kontraktlinjer i Dynamics 365 Project Operations omfatter feltet **Kostpris**, som indeholder kostprisen på produktet i relation til beregning af den afledte rentabilitet.
 
 Når der oprettes en produktbaseret kontaktlinje for et katalogprodukt, hentes omkostningen for den produktbaserede kontraktlinje som standard fra feltet **Standardomkostning** i produktkataloget. Feltet **Standardomkostning** i produktkataloget konfigureres i organisationens grundvaluta. Når enhedsomkostningen konverteres til standarden på kontraktlinjen, konverteres den til salgsvalutaen i kontrakten.
 

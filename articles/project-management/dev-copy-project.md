@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cb49109e8c199bc4569702ae844a19985534294d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074112"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131606"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Udarbejd projektskabeloner med Kopier projekt
 
@@ -21,7 +21,7 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Dynamics 365 Project Operations understøtter muligheden for at kopiere et projekt og tilbageføre eventuelle tildelinger til de standardressourcer, der repræsenterer rollen. Kunder kan bruge denne funktion til at oprette grundlæggende projektskabeloner.
 
-Når du vælger **Kopier projekt** , opdateres statussen for destinationsprojektet. Brug **Statusårsag** til at bestemme, hvornår kopieringen er fuldført. Hvis du vælge **Kopier projekt** , opdateres startdatoen for projektet også til den aktuelle startdato, hvis der ikke er registreret nogen destinationsdato i destinationsprojektobjektet.
+Når du vælger **Kopier projekt**, opdateres statussen for destinationsprojektet. Brug **Statusårsag** til at bestemme, hvornår kopieringen er fuldført. Hvis du vælge **Kopier projekt**, opdateres startdatoen for projektet også til den aktuelle startdato, hvis der ikke er registreret nogen destinationsdato i destinationsprojektobjektet.
 
 ## <a name="copy-project-custom-action"></a>Den brugerdefinerede handling for Kopier projekt 
 
@@ -39,7 +39,7 @@ Der er tre inputparametre:
 | Destination             | Objektreference | Destinationsprojekt |
 
 
-- **{"RydTeamsOgTildelinger":sand}** : Tre standardfunktionsmåder for Project til internettet og fjerner alle tildelinger og teammedlemmer.
+- **{"RydTeamsOgTildelinger":sand}**: Tre standardfunktionsmåder for Project til internettet og fjerner alle tildelinger og teammedlemmer.
 - **{"fjernNavngivneRessourcer": sand}** Standardfunktionsmåden for Project Operations og vil gendanne tildelinger til generiske ressourcer.
 
 Du kan finde flere oplysninger om handlinger under [Anvend WEB-API-handlinger](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)

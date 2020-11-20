@@ -3,7 +3,7 @@ title: Oprette en arbejdstidsskabelon
 description: Sådan opretter du en arbejdstimeskabelon i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074182"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133046"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Oprette en arbejdstimeskabelon (Project Service)
 
@@ -45,9 +45,9 @@ Før du kan oprette projektplaner, skal du oprette en projektkalender, der defin
   
 2.  Vælg den ressource, du vil basere arbejdstiden på.  
   
-3.  Klik på **Gem kalender som** , angiv et navn for arbejdstimeskabelonen, og klik derefter på **Gem**.  
+3.  Klik på **Gem kalender som**, angiv et navn for arbejdstimeskabelonen, og klik derefter på **Gem**.  
   
-4.  Klik på **Gem og luk** , når du er færdig med at ændre indstillinger.  
+4.  Klik på **Gem og luk**, når du er færdig med at ændre indstillinger.  
   
 5.  Klik på knappen **Gem** i nederste højre hjørne af skærmen.  
   

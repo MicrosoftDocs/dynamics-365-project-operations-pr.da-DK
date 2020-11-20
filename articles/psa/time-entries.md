@@ -3,7 +3,7 @@ title: Oprette tidsregistreringer
 description: Dette emne indeholder oplysninger om, hvordan du opretter tidsregistreringer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074263"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131258"
 ---
 # <a name="create-time-entries"></a>Oprette tidsregistreringer
 
@@ -41,13 +41,13 @@ Følg disse trin for at oprette en tidsregistrering.
 4. I feltet **Projektopgave** skal du finde opgaven for denne tidsregistrering.
 
     > [!NOTE]
-    > Hvis du opretter en tidsregistrering for en opgave, der ikke er tildelt til en bruger, skal du i feltet **Projektopgave** vælge knappen **Søg** , vælge **Skift visning** og derefter **Alle aktive projektopgaver** for at få vist alle opgaver.
+    > Hvis du opretter en tidsregistrering for en opgave, der ikke er tildelt til en bruger, skal du i feltet **Projektopgave** vælge knappen **Søg**, vælge **Skift visning** og derefter **Alle aktive projektopgaver** for at få vist alle opgaver.
 
 5. Angiv evt. en beskrivelse, hvis det er nødvendigt, og vælg derefter **Gem og Luk**.
 
 Når tidsregistreringen er oprettet og gemt, kan du redigere den i gitteret for tidsregistrering. Gitteret for tidsregistreringer understøtter to formater:
 
-- Du kan angive tidsregistreringer i **tt:mm** -format. Dette format konverteres derefter til timer og brøkdele.
+- Du kan angive tidsregistreringer i **tt:mm**-format. Dette format konverteres derefter til timer og brøkdele.
 - Du kan angive timer og brøkdele direkte.
 
 Bemærk, at brøkdele af en time ikke er minutter. Derfor er 1,5 timer lig med 1 time og 30 minutter. Den samme regel gælder for brøkdele af en dag. En dag er 24 timer, og 0,5 dage er lig med 12 timer.
@@ -63,7 +63,7 @@ Når der er oprettet nogle få tidsregistreringer, kan du kopiere dem for at opr
 
 ## <a name="import-data-for-time-entries"></a>Importere data for tidsregistreringer
 
-Du kan importere data fra projektreservationer og tildelinger. Når du importerer data, kan du angive datointervallet for de reservationer, der skal importeres, og derefter eksplicit vælge de reservationer, der skal oprettes som **Kladde** -tidsregistreringer.
+Du kan importere data fra projektreservationer og tildelinger. Når du importerer data, kan du angive datointervallet for de reservationer, der skal importeres, og derefter eksplicit vælge de reservationer, der skal oprettes som **Kladde**-tidsregistreringer.
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funktioner for gruppering efter, sortering, søgning og filtrering
 

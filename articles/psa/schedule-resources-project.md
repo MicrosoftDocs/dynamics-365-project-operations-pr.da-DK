@@ -3,7 +3,7 @@ title: Planlægge ressourcer til et projekt
 description: Sådan planlægger du ressourcer til et projekt i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074378"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132123"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planlægge ressourcer til et projekt (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4074378"
 
 Du kan kontrollere ressourcetilgængelighed for at få et generelt overblik over reservationer af dine ressourcer, eller du kan filtrere visningen efter færdigheder, team, placering og andre indstillinger.  
   
-Planlægningsområdet viser en liste over ressourcer og deres tilgængelighed. Vælg en visningstilstand for at få vist tilgængelighed efter **timer** , **dag** , **uge** eller **måned**.  
+Planlægningsområdet viser en liste over ressourcer og deres tilgængelighed. Vælg en visningstilstand for at få vist tilgængelighed efter **timer**, **dag**, **uge** eller **måned**.  
   
 Før du bruger planlægningsområdet, er det vigtigt at konfigurere det. Du kan finde flere oplysninger under [Konfigurering af planlægningsområdet (Field Service eller Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -61,7 +61,7 @@ Hvis du bruger en ældre version, kan du finde oplysninger om ressourcetilgænge
 
 ## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a>Reservere en ressource ved hjælp af visningen daglig og finde ud af, hvem der er underreserveret
   
-1.  I planlægningsområdet skal du vælge **Visningstilstand** , og derefter vælge **Dage**.  
+1.  I planlægningsområdet skal du vælge **Visningstilstand**, og derefter vælge **Dage**.  
   
     Der åbnes en gittervisning over, hvor mange timer en ressource er reserveret pr. dag, og hvilke dage ressourcen er ledig.  
   

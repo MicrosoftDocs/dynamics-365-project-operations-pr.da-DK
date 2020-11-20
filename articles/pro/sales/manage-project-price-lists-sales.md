@@ -1,21 +1,21 @@
 ---
-title: Administrer projektprislister i projekttilbud
+title: Administrer projektprislister i projekttilbud - lille
 description: Dette emne indeholder oplysninger om at arbejde med projektprislister på tilbud. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074095"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175974"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Administrer projektprislister i projekttilbud (Sales)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administrer projektprislister i projekttilbud - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -30,7 +30,7 @@ Når der ikke er nogen projektprislister på et projekttilbud, vises der en adva
 Hvis du vil oprette eller vælge en bestemt prisliste til estimering af projektbaseret arbejde og udgifter, skal du udføre følgende trin.
 
 1. På tilbuddet skal du vælge fanen **Projektpris** og i undergitteret vælge **+ Tilføj ny projektprisliste**.
-2. Vælg en prisliste på siden med hurtig oprettelse. På rullelisten vises alle de prislister, hvor konteksten er angivet til **Salg** , og valutaen stemmer overens med valutaen i tilbuddet.
+2. Vælg en prisliste på siden med hurtig oprettelse. På rullelisten vises alle de prislister, hvor konteksten er angivet til **Salg**, og valutaen stemmer overens med valutaen i tilbuddet.
 4. Angiv en beskrivelse af projektprislistetilknytningen, og vælg **Gem og luk**.
 
 Der oprettes en projektprislistetilknytning.

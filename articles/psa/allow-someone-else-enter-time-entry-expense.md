@@ -3,7 +3,7 @@ title: Tillade andre at angive din tids- eller udgiftsregistrering
 description: Sådan tillader du andre at angive din tids- eller udgiftsregistrering i Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074145"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130351"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Tillade andre at angive din tids- eller udgiftsregistrering (Project Service)
 
@@ -37,13 +37,13 @@ Konfigurer en stedfortræder for at lade en anden udføre tids- eller udgiftsreg
   
 2.  Klik på **Ny** på kommandolinjen.  
   
-3. **Navn** : Angiv et navn til posten.  
+3. **Navn**: Angiv et navn til posten.  
   
-4. **Type** : Vælg, om stedfortræderen må angive tids- eller udgiftsregistreringer på dine vegne.  
+4. **Type**: Vælg, om stedfortræderen må angive tids- eller udgiftsregistreringer på dine vegne.  
   
-5. **Stedfortræder** : Vælg navnet på den person, du vil have som stedfortræder.  
+5. **Stedfortræder**: Vælg navnet på den person, du vil have som stedfortræder.  
   
-6. **Start- og slutdatoer** : Vælg datoer for, hvornår delegeringen skal starte og slutte.  
+6. **Start- og slutdatoer**: Vælg datoer for, hvornår delegeringen skal starte og slutte.  
   
 7.  Når du er færdig, skal du klikke på **Gem og luk**.  
   
@@ -69,7 +69,7 @@ Konfigurer en stedfortræder for at lade en anden udføre tids- eller udgiftsreg
   
 5.  Hvis du vil angive tid, skal du enten klikke på **Ny** eller dobbeltklikke på kalenderen under den dag, du vil angive tid for.  
   
-6.  Udfyld felterne i formularen **Tidsregistrering** , og klik på **Gem**.  
+6.  Udfyld felterne i formularen **Tidsregistrering**, og klik på **Gem**.  
   
 7.  Fortsæt med at angive tid for ugen. Når du er færdig, og alt ser korrekt ud, skal du klikke på **Send**.  
   

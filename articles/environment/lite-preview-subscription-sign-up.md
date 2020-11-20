@@ -1,21 +1,21 @@
 ---
-title: Tilmelding til et prøveversionsabonnement
+title: Tilmelding til et prøveversionsabonnement - lille
 description: Dette emne indeholder oplysninger om, hvordan du abonnere på og udruller den lille udrulning af Project Operations - aftale til proformafakturering.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074035"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175884"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Tilmeld dig et prøveabonnement på den lille udrulning – aftale med proformafakturering
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Tilmelding til et prøveversionsabonnement - lille 
 
 Dette emne forklarer, hvordan du abonnere på prøveversionen af partnertilbuddet og udruller den lille udrulning af Dynamics 365 Project Operations - aftale til proformafakturering.
 
@@ -79,7 +79,7 @@ Gentag de samme trin som ved den første tilbudskode. Sørg for at tilføje den 
 1. Klargør et nyt CDS-udrulningsmiljø for Project Operations ved at følge vejledningen i emnet [CDS-udrulningsmodel](lite-deployment.md). Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.
 ![Nyt miljø](./media/19CreateEnvironment.png)
 
-2. Vælg indstillingen **Aktivér Dynamics 365-apps** , og lad **Udrul automatisk disse apps** være tom.  
+2. Vælg indstillingen **Aktivér Dynamics 365-apps**, og lad **Udrul automatisk disse apps** være tom.  
 3. Vælg **Gem** for at oprette miljøet.
 
 ![Tilføj database](./media/20CreateEnvironment1.png)

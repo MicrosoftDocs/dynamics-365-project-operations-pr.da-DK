@@ -1,21 +1,21 @@
 ---
-title: Konfiguration af fakturerbare komponenter for en projektbaseret kontraktlinje
+title: Konfigurer fakturerbare komponenter i en projektbaseret kontraktlinje - lille
 description: Dette emne indeholder oplysninger om, hvordan du tilføjer fakturerbare komponenter til kontraktlinjer i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074079"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177144"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Konfiguration af fakturerbare komponenter for en projektbaseret kontraktlinje
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurer fakturerbare komponenter i en projektbaseret kontraktlinje - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -34,31 +34,31 @@ Et undersæt af de inkluderede komponenter kan markeres som fakturerbart ved hj�
 
 Der kan defineres fakturerbare komponenter for opgaver, roller og transaktionskategorier.
 
-Fakturerbarheden defineres på opgaver i en projektkontraktlinje og gælder for alle de transaktionsklasser, der er medtaget på linjen. Hvis feltet **Inkluder opgaver** i en kontraktlinje er tomt eller indstillet til * *Hele projektet* *, er fanen **Fakturerbare opgaver** ikke tilgængelig.
+Fakturerbarheden defineres på opgaver i en projektkontraktlinje og gælder for alle de transaktionsklasser, der er medtaget på linjen. Hvis feltet **Inkluder opgaver** i en kontraktlinje er tomt eller indstillet til **Hele projektet**, er fanen **Fakturerbare opgaver** ikke tilgængelig.
 
-Den fakturerbarhed, der er defineret på roller i en projektkontraktlinje, gælder kun for transaktionsklassen **Tid**. Hvis feltet **Inkluder tid** i en kontraktlinje er indstillet til **Nej** , er fanen **Fakturerbare roller** ikke tilgængelig.
+Den fakturerbarhed, der er defineret på roller i en projektkontraktlinje, gælder kun for transaktionsklassen **Tid**. Hvis feltet **Inkluder tid** i en kontraktlinje er indstillet til **Nej**, er fanen **Fakturerbare roller** ikke tilgængelig.
 
-Den fakturerbarhed, der er defineret på transaktionskategorier i en projektkontraktlinje, gælder kun for transaktionsklassen **Udgifter**. Hvis feltet **Inkluder udgifter** er indstillet til **Nej** , er fanen **Fakturerbare kategorier** ikke tilgængelig.
+Den fakturerbarhed, der er defineret på transaktionskategorier i en projektkontraktlinje, gælder kun for transaktionsklassen **Udgifter**. Hvis feltet **Inkluder udgifter** er indstillet til **Nej**, er fanen **Fakturerbare kategorier** ikke tilgængelig.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Opdater en projektopgave som fakturerbar eller ikke-fakturerbar
 
 En projektopgave kan være fakturerbar eller ikke-fakturerbar på en bestemt kontraktlinje, hvilket gør følgende opsætning mulig:
 
-Hvis en projektbaseret kontraktlinje indeholder **Tid** og en bestemt opgave, er **T1** tilknyttet hertil som fakturerbar. Hvis der findes en anden kontraktlinje, som indeholder **Udgifter** , kan du tilknytte T1-opgaven på kontraktlinjen som ikke-fakturerbar. Resultatet er, at al den tid, der er registreret på opgaven, er fakturerbar, og alle udgifter er ikke-fakturerbare.
+Hvis en projektbaseret kontraktlinje indeholder **Tid** og en bestemt opgave, er **T1** tilknyttet hertil som fakturerbar. Hvis der findes en anden kontraktlinje, som indeholder **Udgifter**, kan du tilknytte T1-opgaven på kontraktlinjen som ikke-fakturerbar. Resultatet er, at al den tid, der er registreret på opgaven, er fakturerbar, og alle udgifter er ikke-fakturerbare.
 
-En opgaves faktureringstype kan konfigureres under fanen **Fakturerbare opgaver** på kontraktlinjen ved at opdatere feltet **Faktureringstype** på undergitteret for kontraktlinjeopgaver. Du kan også opdatere feltet **Faktureringstype** i undergitteret i opsætningen af et projekts opgavefakturering, som indeholder de kontraktlinjer, der er knyttet til en opgave.
+En opgaves faktureringstype kan konfigureres under fanen **Fakturerbare opgaver** på kontraktlinjen ved at opdatere feltet **Faktureringstype** i undergitteret for kontraktlinjeopgaver. Du kan også opdatere feltet **Faktureringstype** i undergitteret i opsætningen af opgavefakturering for et projekt, som viser de kontraktlinjer, der er knyttede til en opgave.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Opdater en rolle som fakturerbar eller ikke-fakturerbar
 
 En rolle kan være fakturerbar eller ikke-fakturerbar på en bestemt kontraktlinje.
 
-En rolles faktureringstype kan konfigureres under fanen **Fakturerbare roller** på en kontraktlinje. Det gør du ved at opdatere feltet **Faktureringstype** i undergitteret for **Fakturerbare roller**.
+En rolles faktureringstype kan konfigureres under fanen **Fakturerbare roller** på en kontraktlinje. Det kan du gøre ved at opdatere feltet **Faktureringstype** i undergitteret **Fakturerbare roller**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Opdater en transaktionskategori som fakturerbar eller ikke-fakturerbar
 
 En transaktionskategori kan være fakturerbar eller ikke-fakturerbar på en bestemt kontraktlinje.
 
-En transaktions faktureringstype kan konfigureres under fanen **Fakturerbare kategorier** på en projektbaseret kontraktlinje. Det gør du ved at opdatere feltet **Faktureringstype** i undergitteret for **Fakturerbare kategorier**.
+En transaktions faktureringstype kan konfigureres under fanen **Fakturerbare kategorier** på en projektbaseret kontraktlinje. Det kan du gøre ved at opdatere feltet **Faktureringstype** i undergitteret **Fakturerbare kategorier**.
 
 ### <a name="resolve-chargeability"></a>Løs fakturerbarhed
 

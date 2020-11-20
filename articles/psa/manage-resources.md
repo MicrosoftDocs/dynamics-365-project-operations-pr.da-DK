@@ -3,7 +3,7 @@ title: Administrer ressourcer
 description: Dette emne indeholder oplysninger om, hvordan du kan administrere ressourcer.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074373"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132326"
 ---
 # <a name="manage-resources"></a>Administrer ressourcer
 
@@ -47,7 +47,7 @@ Projektledere kan bruge ressourcestyringsdashboardet til at styre ressourcer i p
 Hvis du vil føje et teammedlem direkte til et projekt, skal du vælge **Ny** under fanen **Team** på siden **Projekter**. Dialogboksen **Hurtig oprettelse: Medlem af projektteam** vises. I denne dialogboks kan du udføre følgende opgaver:
 
 - **Reservere en navngivet ressource** – vælg navnet på ressourcen i feltet **Reserverbar ressource**. Vælg derefter rollen, angiv perioden, og vælg en fordelingsmetode. Den navngivne ressource, du har valgt, føjes til projektet ved hjælp af den valgte fordelingsmetode og ressourcekalenderen.
-- **Tilføj en generisk ressource** – undlad at udfylde feltet **Reserverbar ressource** , og vælg derefter rollen, angiv perioden, og vælg den ønskede fordelingsmetode. Der føjes en generisk ressource til teamet som en pladsholder for det kravsmønster, der bruges til at reservere navngivne ressourcer i teamet. Kravet fremsættes i henhold til projektkalenderen.
+- **Tilføj en generisk ressource** – undlad at udfylde feltet **Reserverbar ressource**, og vælg derefter rollen, angiv perioden, og vælg den ønskede fordelingsmetode. Der føjes en generisk ressource til teamet som en pladsholder for det kravsmønster, der bruges til at reservere navngivne ressourcer i teamet. Kravet fremsættes i henhold til projektkalenderen.
 - **Føj en navngivet ressource til teamet uden at forbruge ressourcekapacitet** – vælg en ressource i feltet **Reserverbar ressource**. Vælg derefter perioden, og vælg **Ingen** som allokeringsmetode. Ressourcen føjes til teamet, men ressourcens kapacitet forbruges ikke via en reservation.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reservere et teammedlem for at opfylde ressourcekravene for en generisk ressource
@@ -64,11 +64,11 @@ Følg disse trin for at angive de nødvendige færdigheder for en generisk resso
 
     ![Link til krav](media/Resource-Management-image10.png)
 
-3. På siden **Ressourcekrav** , der vises, skal du i gitteret **Færdigheder** vælge ellipsen ( **...** ) og derefter vælge **Tilføj ny kravsegenskab** for at tilføje de påkrævede færdigheder for din udvikler.
+3. På siden **Ressourcekrav**, der vises, skal du i gitteret **Færdigheder** vælge ellipsen (**...**) og derefter vælge **Tilføj ny kravsegenskab** for at tilføje de påkrævede færdigheder for din udvikler.
 
     ![Kommandoen Tilføj ny kravsegenskab](media/Resource-Management-image11.png)
 
-4. I dialogboksen **Hurtig oprettelse: Kravsegenskab** , der vises, skal du vælge den påkrævede færdighed i feltet **Egenskab**. Vælg derefter ressourcekundskabsniveauet for den pågældende færdighed i feltet **Klassificeringsværdi**. Endelig skal du i feltet **Ressourcekrav** angive kravet til kildens ressourcer fra organisationsenheder eller endda navngivne ressourcer. Vælg **Gem** , når du er færdig.
+4. I dialogboksen **Hurtig oprettelse: Kravsegenskab**, der vises, skal du vælge den påkrævede færdighed i feltet **Egenskab**. Vælg derefter ressourcekundskabsniveauet for den pågældende færdighed i feltet **Klassificeringsværdi**. Endelig skal du i feltet **Ressourcekrav** angive kravet til kildens ressourcer fra organisationsenheder eller endda navngivne ressourcer. Vælg **Gem**, når du er færdig.
 
     ![Hurtig oprettelse: dialogboksen Kravsegenskab](media/Resource-Management-image12.png)
 
@@ -132,7 +132,7 @@ I PSA kan du oprette opgaver og derefter tildele generiske ressourcer til dem. P
 
     ![Navnet på en ny generisk ressource er angivet](media/Resource-Management-image23.png)
 
-4. I dialogboksen **Hurtig oprettelse: Medlem af projektteam** , der vises, skal du i feltet **Rolle** vælge rollen for den generiske ressource. I feltet **Ressourceenhed** skal du vælge organisationsenheden for den generiske ressource. Vælg derefter **Gem**.
+4. I dialogboksen **Hurtig oprettelse: Medlem af projektteam**, der vises, skal du i feltet **Rolle** vælge rollen for den generiske ressource. I feltet **Ressourceenhed** skal du vælge organisationsenheden for den generiske ressource. Vælg derefter **Gem**.
 
     ![Dialogboksen Hurtig oprettelse: Medlem af projektteam](media/Resource-Management-image24.png)
 
@@ -198,7 +198,7 @@ I disse scenarier er projektlederen derfor ansvarlig for at analysere flere rese
 Når der er oprettet et ressourcekrav, vil en projektleder eller ressourcestyring muligvis redigere oplysningerne for at begrænse søgekriterierne, når planlægningsområdet bruges. Benyt følgende fremgangsmåde for at redigere ressourcekravet.
 
 1. Vælg linket til et vilkårligt krav for en generisk ressource under fanen **Team** på siden **Projekter**.
-2. På siden **Ressourcekrav** , der vises, kan du opdatere flere attributter. Her er nogle eksempler:
+2. På siden **Ressourcekrav**, der vises, kan du opdatere flere attributter. Her er nogle eksempler:
 
     - Navn
     - Fra-dato
@@ -318,7 +318,7 @@ En projektleder må undertiden erstatte et reserveret teammedlem i et projekt.
 
 For teammedlemmer er reservationer og tildelinger løst sammenkædet. Med andre ord kan ressourcer have tildelinger men ingen reservationer, eller de kan have reservationer men ingen tildelinger. Ideelt set skal reservationer og tildelinger justeres, så ressourcer har bindende kapacitet til at udføre opgavetildelingerne. Reservationerne kan dog muligvis være baseret på tilgængelighed, og opgavetidspunkter kan ændres, efterhånden som projektet fortsætter. Derfor giver den løse sammenkædning mellem reservationer og tildelinger fleksibilitet.
 
-PSA har fanen **Afstemning** , som projektledere kan bruge til at afstemme teammedlemmernes reservationer og tildelinger af disse til projektgrupper.
+PSA har fanen **Afstemning**, som projektledere kan bruge til at afstemme teammedlemmernes reservationer og tildelinger af disse til projektgrupper.
 
 ![Fanen Afstemning](media/Resource-Management-image56.png)
 

@@ -3,7 +3,7 @@ title: Oprette en salgsmulighed i et projekt
 description: Sådan opretter du en projektsalgsmulighed i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074364"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133226"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Oprette en projektsalgsmulighed (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Salgsmuligheder er varme kundeemner fra kunder, der er interesseret i en kontrakt på dine tjenesteydelser. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-funktioner i [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] viser dig, hvordan du kan åbne en salgsmulighed for et af dine firmaer, forberede et projekttilbud og udarbejde en projektkontrakt med kunden. Start med at tilføje en salgsmulighed. Du kan også føje estimater for services og produkter til salgsmuligheden. Når du tilføjer en salgsmulighed, du er i **Kvalificering** -fasen af projektet.  
+Salgsmuligheder er varme kundeemner fra kunder, der er interesseret i en kontrakt på dine tjenesteydelser. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-funktioner i [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] viser dig, hvordan du kan åbne en salgsmulighed for et af dine firmaer, forberede et projekttilbud og udarbejde en projektkontrakt med kunden. Start med at tilføje en salgsmulighed. Du kan også føje estimater for services og produkter til salgsmuligheden. Når du tilføjer en salgsmulighed, du er i **Kvalificering**-fasen af projektet.  
   
 1.  Gå til **Project Service > Salgsmuligheder**.  
   
@@ -45,7 +45,7 @@ Salgsmuligheder er varme kundeemner fra kunder, der er interesseret i en kontrak
   
 7.  Hvis du vil tilføje konkurrenter, skal du i området **Konkurrenter** klikke på **+**.  
   
-8.  Hvis du vil føje et produkt til salgsmuligheden, skal du klikke på **Ny** under **Produktbaserede linjer** i området **Salgsmulighedslinjer**. Vælg et element under **Produktnavn** , og angiv derefter antal, salgspris og kundebudget.  
+8.  Hvis du vil føje et produkt til salgsmuligheden, skal du klikke på **Ny** under **Produktbaserede linjer** i området **Salgsmulighedslinjer**. Vælg et element under **Produktnavn**, og angiv derefter antal, salgspris og kundebudget.  
   
 9. Hvis du vil føje et produktestimat til salgsmuligheden, skal du klikke på **+** under **Produktbaserede linjer** i området **Salgsmulighedslinjer**. Angiv navn, budgetbeløb og projekt, hvis de er tilgængelige. Hvis du vil oprette et projekt med et arbejdsopgavehierarki for at komme med et estimat, se [Oprette et projekt](../psa/create-project.md).  
   

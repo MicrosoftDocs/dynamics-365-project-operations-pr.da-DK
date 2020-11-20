@@ -1,21 +1,21 @@
 ---
-title: Produktbaserede salgsmulighedslinjer
+title: Produktbaserede salgsmulighedslinjer - lille
 description: Dette emne indeholder oplysninger om produktbaserede salgsmulighedslinjeelementer i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074098"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176314"
 ---
-# <a name="product-based-opportunity-lines"></a>Produktbaserede salgsmulighedslinjer
+# <a name="product-based-opportunity-lines---lite"></a>Produktbaserede salgsmulighedslinjer - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -25,4 +25,4 @@ Produktbaserede linjer kan være katalogvarer eller produkter, der skal rekvirer
 
 Et af koncepterne ved produktbaserede salgsmulighedslinjer er, som er specifikke for projektbaserede salgsmuligheder, er **Kundebudget**. Brug dette felt til at spore det beløb, som kunden vil betale for linjeelementet.
 
-Hvis omsætningsmetoden for salgsmulighedsoversigten er angivet til **Systemberegnet** , opsummeres kundebudgetværdierne på tværs af produkt- og projektbaserede linjer for at beregne den anslåede omsætning.
+Hvis omsætningsmetoden for salgsmulighedsoversigten er angivet til **Systemberegnet**, opsummeres kundebudgetværdierne på tværs af produkt- og projektbaserede linjer for at beregne den anslåede omsætning.

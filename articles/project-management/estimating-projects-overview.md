@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074061"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131561"
 ---
 # <a name="estimate-projects-overview"></a>Oversigt over estimerede projekter
 
@@ -37,7 +37,7 @@ Materialeestimater er ikke tilladte på kontraktlinjedetaljer.
 
 De processer, der understøttes i en projektkontrakt, er oprettelse og bekræftelse af fakturaer. Oprettelse af faktura opretter en kladde af en projektbaseret faktura, der omfatter alle ikke-fakturerede faktiske salg til dags dato.
 
-Bekræftelse gør kontrakten skrivebeskyttet og ændrer dens status fra **Kladde** til **Bekræftet**. Når du har udført denne handling, kan du ikke fortryde den. Da denne handling er permanent, er det en god ide at bevare kontrakten i **Kladde** -status.
+Bekræftelse gør kontrakten skrivebeskyttet og ændrer dens status fra **Kladde** til **Bekræftet**. Når du har udført denne handling, kan du ikke fortryde den. Da denne handling er permanent, er det en god ide at bevare kontrakten i **Kladde**-status.
 
 De eneste forskelle mellem kladdekontrakter og bekræftede kontrakter er deres status, og det faktum, at kladdekontrakter kan redigeres, mens bekræftede kontrakter ikke kan. Det er muligt at oprette fakturaer og spore faktiske oplysninger på både kladdekontrakter og bekræftede kontrakter.
 
@@ -71,10 +71,10 @@ Brug følgende tabel som vejledning til at forstå forretningslogikken i estimer
 Hvis du har tilføjet et brugerdefineret felt på tilbudslinjedetaljen og ønsker, at systemet skal angive værdien af feltet som en standardværdi på den relaterede omkostningslinje, der oprettes, skal du bruge plug-in-registreringsværktøjerne **PreOperationContractLineDetailUpdate** og **PreOperationQuoteLineDetailUpdate**. Disse plug-ins skal registreres igen, når tilbudslinjedetaljer eller kontraktlinjedetaljer er ændret. Udfør disse trin for at fuldføre processen.
 
 1. Åbn PluginRegistrationTool, og opret forbindelse til din onlineforekomst.
-2. Vælg **Søg** , og søg efter den plug-in, der skal opdateres.
+2. Vælg **Søg**, og søg efter den plug-in, der skal opdateres.
 3. Vælg plug-in'et, og klik derefter på **Vælg** på hovedsiden.
 4. Vælg trinnet for plug-in'en, du vil opdatere, højreklik, og vælg derefter **Opdater**.
-5. I dialogboksen **Opdater eksisterende trin** i feltet **Filtrering af attributter** skal du vælge ellipseknappen ( **...** ):
+5. I dialogboksen **Opdater eksisterende trin** i feltet **Filtrering af attributter** skal du vælge ellipseknappen (**...**):
 6. Markér afkrydsningsfelterne for de brugerdefinerede attributter i dialogboksen **Vælg attributter**.
 7. Vælg **OK** for at lukke dialogboksen, og vælg derefter **Opdater trin**.
 8. Gentag trin 1 til 7 for den anden plug-in.

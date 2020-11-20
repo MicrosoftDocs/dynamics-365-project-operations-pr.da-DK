@@ -1,21 +1,21 @@
 ---
-title: Konfigurer de fakturerbare komponenter i en tilbudslinje
+title: Konfigurer de fakturerbare komponenter i en tilbudslinje - lille
 description: Dette emne indeholder oplysninger om, hvordan du kan konfigurere fakturerbare og ikke-fakturerbare komponenter på en projektbaseret tilbudslinje.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074293"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177099"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurer de fakturerbare komponenter i en tilbudslinje
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurer de fakturerbare komponenter i en tilbudslinje - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -44,21 +44,21 @@ Fakturerbarhed defineres på transaktionskategorier i en tilbudslinje og gælder
 
 En projektopgave kan være fakturerbar eller ikke-fakturerbar i sammenhæng med en bestemt projektbaseret tilbudslinje, hvilket gør følgende opsætning mulig:
 
-Hvis en projektbaseret tilbudslinje indeholder **Tid** og opgaven **T1** , knyttes opgaven til tilbudslinjen som fakturerbar. Hvis der findes en anden tilbudslinje, som indeholder **Udgifter** , kan du tilknytte opgaven **T1** på tilbudslinjen som ikke-fakturerbar. Resultatet er, at al den tid, der registreres på opgaven, er fakturerbar, og alle udgifter der registreres på opgaven er ikke-fakturerbare.
+Hvis en projektbaseret tilbudslinje indeholder **Tid** og opgaven **T1**, knyttes opgaven til tilbudslinjen som fakturerbar. Hvis der findes en anden tilbudslinje, som indeholder **Udgifter**, kan du tilknytte opgaven **T1** på tilbudslinjen som ikke-fakturerbar. Resultatet er, at al den tid, der registreres på opgaven, er fakturerbar, og alle udgifter der registreres på opgaven er ikke-fakturerbare.
 
-En opgaves faktureringstype kan konfigureres under fanen **Fakturerbare opgaver** på en projektbaseret tilbudslinje ved at opdatere feltet **Faktureringstype** på undergitteret for **Tilbudslinjeopgaver**. Du kan også opdatere faktureringstypen for en projektopgave i feltet **Faktureringstype** i undergitteret for opsætningen af opgavens fakturering, som indeholder de tilbudslinjer, der er knyttet til en opgave.
+En opgaves faktureringstype kan konfigureres på fanen **Fakturerbare opgaver** for en projektbaseret tilbudslinje ved at opdatere feltet **Faktureringstype** i undergitteret for **Tilbudslinjeopgaver**. Du kan også opdatere faktureringstypen for en projektopgave i feltet **Faktureringstype** i undergitteret for opsætningen af opgavefakturering for et projekt, som viser de tilbudslinjer, der er knyttede til en opgave.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Opdater en rolle til at være fakturerbar eller ikke-fakturerbar
 
 En rolle kan være fakturerbar eller ikke-fakturerbar i relation til en bestemt projektbaseret tilbudslinje.
 
-En rolles faktureringstype kan konfigureres under fanen **Fakturerbare roller** på en tilbudslinje ved at opdatere feltet **Faktureringstype** på undergitteret for **Fakturerbare roller**.
+En rolles faktureringstype kan konfigureres på fanen **Fakturerbare roller** for en tilbudslinje ved at opdatere feltet **Faktureringstype** i undergitteret for **Fakturerbare roller**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Opdater en transaktionskategori til at være fakturerbar eller ikke-fakturerbar
 
 En transaktionskategori kan være fakturerbar eller ikke-fakturerbar på en bestemt tilbudslinje.
 
-En transaktions faktureringstype kan konfigureres under fanen **Fakturerbare kategorier** på en tilbudslinje ved at opdatere feltet **Faktureringstype** på undergitteret for **Fakturerbare kategorier**.
+En transaktions faktureringstype kan konfigureres på fanen **Fakturerbare kategorier** for en tilbudslinje ved at opdatere feltet **Faktureringstype** i undergitteret for **Fakturerbare kategorier**.
 
 ### <a name="resolve-chargeability"></a>Løs fakturerbarhed
 Et estimat eller en faktisk værdi, der er oprettet for tid, anses kun for at være fakturerbar, hvis **Tid** medtages på tilbudslinjen, og hvis **Opgave** og **Rolle** er konfigureret som fakturerbar på tilbudslinjen.

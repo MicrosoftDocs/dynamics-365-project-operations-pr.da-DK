@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074086"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131966"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurer regnskab for fakturerbare projekter
 
@@ -21,8 +21,8 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Dynamics 365 Project Operations understøtter forskellige regnskabsindstillinger for fakturerbare projekter, der omfatter tid og materialer samt fastpristransaktioner.
 
-- **Tids- og materialetransaktioner** : Disse transaktioner faktureres, efterhånden som arbejdet skrider frem, og er baseret på forbruget af timer, udgifter, varer eller gebyrer i projektet. Disse transaktionsomkostninger kan sammenlignes med omsætningen på hver enkelt transaktion, og projektet faktureres, mens arbejdet skrider frem. Projektomsætning kan også periodiseres på det tidspunkt, hvor transaktionen indtræffer. Under fakturering registreres omsætningen, og periodiseret omsætning tilbageføres, hvis det er relevant.
-- **Fastpristransaktioner** : Disse transaktioner faktureres i henhold til en faktureringsplan, der er baseret på projektkontrakten. Omsætningen for fastpristransaktioner kan registreres ved fakturering eller beregnes og bogføres periodisk i henhold til metoderne **Afsluttet kontrakt** eller **Afsluttet procentdel**.
+- **Tids- og materialetransaktioner**: Disse transaktioner faktureres, efterhånden som arbejdet skrider frem, og er baseret på forbruget af timer, udgifter, varer eller gebyrer i projektet. Disse transaktionsomkostninger kan sammenlignes med omsætningen på hver enkelt transaktion, og projektet faktureres, mens arbejdet skrider frem. Projektomsætning kan også periodiseres på det tidspunkt, hvor transaktionen indtræffer. Under fakturering registreres omsætningen, og periodiseret omsætning tilbageføres, hvis det er relevant.
+- **Fastpristransaktioner**: Disse transaktioner faktureres i henhold til en faktureringsplan, der er baseret på projektkontrakten. Omsætningen for fastpristransaktioner kan registreres ved fakturering eller beregnes og bogføres periodisk i henhold til metoderne **Afsluttet kontrakt** eller **Afsluttet procentdel**.
 
 Et projekt betragtes som fakturerbart, når det knyttes til en eller flere kontraktlinjer. En projektkontraktlinje definerer for sig selv, hvilken faktureringsmetode og hvilke transaktionstyper der er tilladt.
 
@@ -45,47 +45,47 @@ Benyt følgende fremgangsmåde for at oprette en ny projektomkostnings- og indt�
 3. I feltet **Navn** skal du angive navnet på og en kort beskrivelse af profilen.
 4. I feltet **Faktureringsmetode** skal du vælge **Tid og materialer** eller **Fast pris**.
 5. Udvid oversigtspanelet **Hovedbog**. Felterne under denne fane definerer de regnskabsprincipper, der skal bruges, når projekttransaktioner journaliseres ved hjælp af kladden til integration af Project Operations og derefter faktureres via projektfakturaforslaget.
-6. Vælg de relevante oplysninger i følgende felter på oversigtspanelet **Hovedbog** :
+6. Vælg de relevante oplysninger i følgende felter på oversigtspanelet **Hovedbog**:
 
-    - **Bogfør omkostninger – time** :
+    - **Bogfør omkostninger – time**:
 
-       - *Ingen hovedbog* : Omkostningerne for timetransaktioner vil ikke blive bogført i hovedbogen, når kladden til integration af Project Operations bogføres. Bogholderen kan dog bogføre omkostninger ved hjælp af funktionen Bogfør omkostninger på et senere tidspunkt.
-       - **Saldo** : Kostprisen for timetransaktioner debiteres hovedbogskontotypen *IGVA - kostværdien* og krediteres på *Lønfordelingskontoen* i opsætningen af opsætning af bogføring i hovedbogen. Bogholderen bruger funktionen Bogfør omkostninger til at flytte disse omkostninger fra en saldokonto til en driftskonto med jævne mellemrum.
-       - **Drift** : Når du bogfører kladden for integration af Project Operations, debiteres tidstransaktionsomkostninger på hovedbogskontotypen *Omkostning* , og den krediteres på den *Lønfordelingskonto* , der er defineret under fanen **Omkostninger** på siden **Opsætning af finanskontering** ( **Projektstyring og regnskab** \> **Opsætning** \> **Bogføring** \> **Opsætning af bogføring i hovedbog** ). Dette er den mest almindelige opsætning for tids- og materialetransaktioner.
-        - *Aldrig finanskonto* : Omkostningen for timetransaktioner vil aldrig blive bogført i hovedbogen.
+       - *Ingen hovedbog*: Omkostningerne for timetransaktioner vil ikke blive bogført i hovedbogen, når kladden til integration af Project Operations bogføres. Bogholderen kan dog bogføre omkostninger ved hjælp af funktionen Bogfør omkostninger på et senere tidspunkt.
+       - **Saldo**: Kostprisen for timetransaktioner debiteres hovedbogskontotypen *IGVA - kostværdien* og krediteres på *Lønfordelingskontoen* i opsætningen af opsætning af bogføring i hovedbogen. Bogholderen bruger funktionen Bogfør omkostninger til at flytte disse omkostninger fra en saldokonto til en driftskonto med jævne mellemrum.
+       - **Drift**: Når du bogfører kladden for integration af Project Operations, debiteres tidstransaktionsomkostninger på hovedbogskontotypen *Omkostning*, og den krediteres på den *Lønfordelingskonto*, der er defineret under fanen **Omkostninger** på siden **Opsætning af finanskontering** (**Projektstyring og regnskab** \> **Opsætning** \> **Bogføring** \> **Opsætning af bogføring i hovedbog**). Dette er den mest almindelige opsætning for tids- og materialetransaktioner.
+        - *Aldrig finanskonto*: Omkostningen for timetransaktioner vil aldrig blive bogført i hovedbogen.
 
-    - **Bogfør omkostninger - udgifter** :
+    - **Bogfør omkostninger - udgifter**:
 
-         - **Saldo** : Når du bogfører integrationskladden for Project Operations, debiteres omkostningstransaktionsudgiften på hovedbogskontotypen *IGVA - kostværdi* som defineret under fanen **Omkostninger** på siden **Opsætning af bogføring i hovedbog** og krediteres på modkontoen på kladdelinjen. Standardmodkonti for udgifter defineres i **Projektstyring og regnskab** > **Opsætning** \> **Bogføring** \> **Standardmodkonti for udgifter**. Bogholderen bruger funktionen **Bogfør omkostninger** til at flytte disse omkostninger fra saldokontoen til driftskontoen med jævne mellemrum.
-        - **Driftskonto** : Når du bogfører integrationskladden for Project Operations, debiteres omkostningstransaktionsudgiften på hovedbogskontotypen *Omkostninger* som defineret under fanen **Omkostninger** på siden **Opsætning af bogføring i hovedbogen** og krediteres på modkontoen på kladdelinjen. Standardmodkonti for udgifter defineres i **Projektstyring og regnskab** \> **Opsætning** \> **Bogføring** \> **Standardmodkonti for udgifter**.
+         - **Saldo**: Når du bogfører integrationskladden for Project Operations, debiteres omkostningstransaktionsudgiften på hovedbogskontotypen *IGVA - kostværdi* som defineret under fanen **Omkostninger** på siden **Opsætning af bogføring i hovedbog** og krediteres på modkontoen på kladdelinjen. Standardmodkonti for udgifter defineres i **Projektstyring og regnskab** > **Opsætning** \> **Bogføring** \> **Standardmodkonti for udgifter**. Bogholderen bruger funktionen **Bogfør omkostninger** til at flytte disse omkostninger fra saldokontoen til driftskontoen med jævne mellemrum.
+        - **Driftskonto**: Når du bogfører integrationskladden for Project Operations, debiteres omkostningstransaktionsudgiften på hovedbogskontotypen *Omkostninger* som defineret under fanen **Omkostninger** på siden **Opsætning af bogføring i hovedbogen** og krediteres på modkontoen på kladdelinjen. Standardmodkonti for udgifter defineres i **Projektstyring og regnskab** \> **Opsætning** \> **Bogføring** \> **Standardmodkonti for udgifter**.
        
-    - **Aconto-fakturering** :
+    - **Aconto-fakturering**:
 
-        - **Saldo** : Når du bogfører Projektfakturaforslaget, krediteres en aconto-transaktion (faktureringsmilepæl) til hovedbogskontotypen *IGVA - aconto* som defineret under fanen **Omsætning** på siden **Opsætning af bogføring på hovedbog** , og som debiteres på debitors saldokonto.
-         - **Drift** : Når du bogfører Projektfakturaforslaget, krediteres en aconto-transaktion (faktureringsmilepæl) til hovedbogskontotypen *Faktureret omsætning - aconto* som defineret under fanen **Omsætning** på siden **Opsætning af bogføring på hovedbog** , og som debiteres på debitors saldokonto. Kundesaldokonti defineres i **Debitor** \> **Opsætning** \> **Profiler for kundebogføring**.
+        - **Saldo**: Når du bogfører Projektfakturaforslaget, krediteres en aconto-transaktion (faktureringsmilepæl) til hovedbogskontotypen *IGVA - aconto* som defineret under fanen **Omsætning** på siden **Opsætning af bogføring på hovedbog**, og som debiteres på debitors saldokonto.
+         - **Drift**: Når du bogfører Projektfakturaforslaget, krediteres en aconto-transaktion (faktureringsmilepæl) til hovedbogskontotypen *Faktureret omsætning - aconto* som defineret under fanen **Omsætning** på siden **Opsætning af bogføring på hovedbog**, og som debiteres på debitors saldokonto. Kundesaldokonti defineres i **Debitor** \> **Opsætning** \> **Profiler for kundebogføring**.
 
-   Når du definerer posteringsprofiler for tids- og materialefaktureringsmetoder, har du mulighed for at periodisere omsætning pr. transaktionstype (time, udgift og gebyr). Hvis indstillingen **Periodiseret omsætning** er angivet til **Ja** , registreres ikke-fakturerede salgstransaktioner i integrationskladden til Project Operations i finanskladden. Salgsværdien debiteres på **IGVA - salgsværdikonto** og krediteres på kontoen **Periodiseret omsætning - salgsværdi** , der blev konfigureret på siden **Opsætning af bogføring i hovedbogen** på fanen **Omsætning**. 
+   Når du definerer posteringsprofiler for tids- og materialefaktureringsmetoder, har du mulighed for at periodisere omsætning pr. transaktionstype (time, udgift og gebyr). Hvis indstillingen **Periodiseret omsætning** er angivet til **Ja**, registreres ikke-fakturerede salgstransaktioner i integrationskladden til Project Operations i finanskladden. Salgsværdien debiteres på **IGVA - salgsværdikonto** og krediteres på kontoen **Periodiseret omsætning - salgsværdi**, der blev konfigureret på siden **Opsætning af bogføring i hovedbogen** på fanen **Omsætning**. 
   
   > [!NOTE]
   > Indstillingen **Periodiseret omsætning** er kun tilgængelig, hvis den respektive transaktionstype **Omkostninger** bogføres på driftskontoen.
     
 7. Udvid oversigtspanelet **Estimering**. Felterne under denne fane definerer beregningsindstillingerne for estimater for fast pris-omsætning. Felterne under denne fane gælder kun for projektomkostnings- og indtægtsprofiler med faktureringsmetoden **Fastpris**.
-8. Vælg de relevante oplysninger i følgende felter på oversigtspanelet **Estimering** :
+8. Vælg de relevante oplysninger i følgende felter på oversigtspanelet **Estimering**:
 
-    - **Princippet bruges til beregning af færdiggørelse af projekt** :
+    - **Princippet bruges til beregning af færdiggørelse af projekt**:
 
-        - **Afsluttet kontrakt** : Omkostningsperiodisering og indtægtsføring foretages ikke før projektet afsluttes. Omkostningerne afspejles som IGVA i saldoen, indtil projektet er fuldført.
-        - **Afsluttet procentdel** : Periodiseret omsætning beregnes og bogføres i finanskladden for hver periode på grundlag af projektets færdiggørelsesprocent. Der findes flere metoder til beregning af færdiggørelsesprocenten. Disse metoder kan være automatiske på grundlag af konfiguration eller manuelle.
-        - **Ingen IGVA** : Denne opsætning bruges til fastprisprojekter med en kort levetid, hvor fakturaen og omkostningerne opstår i samme periode. I dette tilfælde angives feltværdien **Aconto-fakturering** i oversigtspanelet **Hovedbog** automatisk til **Drift** for at sikre, at indtægter registreres ved fakturering. Indtægtsestimeringsprocessen bruges ikke for denne projektomkostnings- og indtægtsprofil.
+        - **Afsluttet kontrakt**: Omkostningsperiodisering og indtægtsføring foretages ikke før projektet afsluttes. Omkostningerne afspejles som IGVA i saldoen, indtil projektet er fuldført.
+        - **Afsluttet procentdel**: Periodiseret omsætning beregnes og bogføres i finanskladden for hver periode på grundlag af projektets færdiggørelsesprocent. Der findes flere metoder til beregning af færdiggørelsesprocenten. Disse metoder kan være automatiske på grundlag af konfiguration eller manuelle.
+        - **Ingen IGVA**: Denne opsætning bruges til fastprisprojekter med en kort levetid, hvor fakturaen og omkostningerne opstår i samme periode. I dette tilfælde angives feltværdien **Aconto-fakturering** i oversigtspanelet **Hovedbog** automatisk til **Drift** for at sikre, at indtægter registreres ved fakturering. Indtægtsestimeringsprocessen bruges ikke for denne projektomkostnings- og indtægtsprofil.
 
-    - **Periodiseringsprincip** : Dette felt bestemmer, hvordan den beregnede salgsværdi (periodiseret omsætning) skal bogføres i hovedbogen.
+    - **Periodiseringsprincip**: Dette felt bestemmer, hvordan den beregnede salgsværdi (periodiseret omsætning) skal bogføres i hovedbogen.
 
-        - Ved hjælp af princippet **Salgsværdi** , beregner systemet salgsværdien ved at matche omkostningerne og omsætning og derefter bogføre den som et enkelt beløb.
+        - Ved hjælp af princippet **Salgsværdi**, beregner systemet salgsværdien ved at matche omkostningerne og omsætning og derefter bogføre den som et enkelt beløb.
         - Ved hjælp af princippet **Produktion og avance** deler systemet salgsværdien op i realiserede omkostninger og beregnet avance. Disse bogføres separat.
 
-    - **Omkostningsskabeloner** : Tillad, at projekttransaktioner grupperes på baggrund af transaktionstype og projektkategori, og definer beregningsregler for procent for færdiggørelse for disse grupper.
-    - **Periodekoder** : Definer den hyppighed, hvormed omsætningsestimater beregnes for en bestemt projektomkostnings- og indtægtsprofil.
-    - **Kategorier for estimat** : Bruges til bogføring af salgsværdi (periodiseret omsætning) i projekttransaktioner. Du skal først konfigurere den dedikerede projektkategori for en **Gebyr** -transaktionstype og derefter angive flaget **Estimering** for denne projektkategori. Vælg derefter denne projektkategori i feltet **Salgsværdi** eller **Avance** i projektomkostnings- og indtægtsprofilen, afhængigt af det valgte periodiseringsprincip.
+    - **Omkostningsskabeloner**: Tillad, at projekttransaktioner grupperes på baggrund af transaktionstype og projektkategori, og definer beregningsregler for procent for færdiggørelse for disse grupper.
+    - **Periodekoder**: Definer den hyppighed, hvormed omsætningsestimater beregnes for en bestemt projektomkostnings- og indtægtsprofil.
+    - **Kategorier for estimat**: Bruges til bogføring af salgsværdi (periodiseret omsætning) i projekttransaktioner. Du skal først konfigurere den dedikerede projektkategori for en **Gebyr**-transaktionstype og derefter angive flaget **Estimering** for denne projektkategori. Vælg derefter denne projektkategori i feltet **Salgsværdi** eller **Avance** i projektomkostnings- og indtægtsprofilen, afhængigt af det valgte periodiseringsprincip.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Eksempel på konfigurationer for projektomkostnings- og indtægtsprofiler
 

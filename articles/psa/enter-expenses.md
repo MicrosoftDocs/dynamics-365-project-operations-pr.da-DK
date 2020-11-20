@@ -3,7 +3,7 @@ title: Angive udgifter
 description: Sådan angiver du udgifter i Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074376"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132911"
 ---
 # <a name="enter-expenses-project-service"></a>Angiv udgifter (Project Service)
 
@@ -39,7 +39,7 @@ Angiv dine udgifter mindst en gang ugentlig – eller med den hyppighed, der er 
   
 3. Hvis du vil angive udgifter, skal du enten klikke på **Ny** eller dobbeltklikke på kalenderen under den dag, du vil angive tid for.  
   
-4. Udfyld felterne i formen **Ny udgift** , og klik derefter på **Gem**.  
+4. Udfyld felterne i formen **Ny udgift**, og klik derefter på **Gem**.  
   
 5. Fortsæt med at angive dine udgifter for ugen. Når du er færdig, og alt ser korrekt ud, skal du klikke på **Send**. En leder skal gennemse og godkende dine udgifter.  
   
@@ -49,7 +49,7 @@ Angiv dine udgifter mindst en gang ugentlig – eller med den hyppighed, der er 
   
    Hvis du bruger mobilappen:  
   
-8. Gå til **Udgifter** fra menuen.     Du kan skifte til visningen **Dag** , **Uge** eller **Måned** eller gå til den forrige eller næste tidsperiode.  
+8. Gå til **Udgifter** fra menuen.     Du kan skifte til visningen **Dag**, **Uge** eller **Måned** eller gå til den forrige eller næste tidsperiode.  
   
 9. Tryk på **…** og tryk på **Ny**.  
   

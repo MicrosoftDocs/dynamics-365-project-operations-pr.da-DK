@@ -3,7 +3,7 @@ title: Enhedsgrupper og enheder
 description: Dette emne indeholder oplysninger om enhedsgrupper og enheder.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074188"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130571"
 ---
 # <a name="unit-groups-and-units"></a>Enhedsgrupper og enheder
 
@@ -33,16 +33,16 @@ Enhedsgrupper og enheder er basisenhederne i Microsoft Dynamics 365. En enhed er
 
 Her er nogle eksempler på enheder og enhedsgrupper:
  
-- **Enhedsgruppe** : afstand 
-    - **Enheder** : mile, kilometer, osv.
-- **Enhedsgruppe** : Tid
-    - **Enheder** : time, day, uge osv. 
+- **Enhedsgruppe**: afstand 
+    - **Enheder**: mile, kilometer, osv.
+- **Enhedsgruppe**: Tid
+    - **Enheder**: time, day, uge osv. 
 
 Når du konfigurerer flere enheder i en enhedsgruppe, skal du også konfigurere en konverteringsfaktor mellem dem ved at angive den første enhed, du konfigurerer, som standardenhed eller den primære enhed for enhedsgruppen. 
 
-Hvis du f.eks. i en **Tid** -enhedsgruppe konfigurerer **Time** som første enhed, definerer systemet **Time** som standardenhed. Hvis den næste enhed, du konfigurerer, er **Dag** , skal du konfigurere en konverteringsfaktor for **Dag** til **Time**. Hvis du derefter tilføjer **Uge** som en tredje enhed, skal du konfigurere en konverteringsfaktor for **Uge** i forhold til **Dag** eller **Time**. 
+Hvis du f.eks. i en **Tid**-enhedsgruppe konfigurerer **Time** som første enhed, definerer systemet **Time** som standardenhed. Hvis den næste enhed, du konfigurerer, er **Dag**, skal du konfigurere en konverteringsfaktor for **Dag** til **Time**. Hvis du derefter tilføjer **Uge** som en tredje enhed, skal du konfigurere en konverteringsfaktor for **Uge** i forhold til **Dag** eller **Time**. 
 
-I følgende billede vises et eksempel på en opsætning af enheden **Dag** , hvor feltet **Antal** viser det antal timer, der er på en dag, og **Uge** , hvor feltet **Antal** indeholder antallet af dage i en uge.
+I følgende billede vises et eksempel på en opsætning af enheden **Dag** , hvor feltet **Antal** viser det antal timer, der er på en dag, og **Uge**, hvor feltet **Antal** indeholder antallet af dage i en uge.
 
 > ![Enhedsgruppe: siden Oplysninger](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation bruger enheder og enhedsgrupper til at b
 
 For udgifter har de enkelte udgiftskategorier en standardenhedsgruppe og -enhed. Disse værdier angives som standardværdier på prislisteposter for udgiftskategorier. 
 
-Du kan f.eks have en udgiftskategori med navnet **Kørsel**. Den har en enhedsgruppe med navnet **Afstand** og en standardenhed med navnet **Kilometer**. Hvis du konfigurerer **Afstand** -enhedsgruppen, så den har to enheder ( **Mile** og **Kilometer** ), kan du oprette to priser for **Kørsel** -kategorien på én prisliste: pris pr. mile og pris pr. kilometer.
+Du kan f.eks have en udgiftskategori med navnet **Kørsel**. Den har en enhedsgruppe med navnet **Afstand** og en standardenhed med navnet **Kilometer**. Hvis du konfigurerer **Afstand**-enhedsgruppen, så den har to enheder (**Mile** og **Kilometer**), kan du oprette to priser for **Kørsel**-kategorien på én prisliste: pris pr. mile og pris pr. kilometer.
 
 | Udgiftskategori  | Enhedsgruppe  | Enhed      | Prissætningsmetode  | Pris pr. enhed  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -65,24 +65,24 @@ Når du angiver en udgift på et projekt, bestemmer systemet prisen via kombinat
 |----------------------------|---------------------|-------|-----------|----------------|
 | Kørsel til kundeadresse | Kørsel             | Mile  | 10        | 10 USD         |
 
-For tiden indeholder hver prislisteoverskrift et **Standardtidsenhed** -felt. Værdien angives, når du opretter prislisteoverskriften. Denne enhed bruges derefter til at angive alle rollebaserede priser på prislisten.
+For tiden indeholder hver prislisteoverskrift et **Standardtidsenhed**-felt. Værdien angives, når du opretter prislisteoverskriften. Denne enhed bruges derefter til at angive alle rollebaserede priser på prislisten.
 
 Der kan udtrykkes estimatlinjer for feltet **Tid på tilbud** i en hvilken som helst tidsenhed. Dog kan der kun bruges **Time** som tidsenhed i estimatlinjer og tidsregistreringer på projekter. Hvis enheden på tidsregistreringen eller estimatlinjen ikke stemmer overens med enheden på prislistelinjen for den pågældende rolle, vil systemet konvertere prisen til de enheder, der er defineret i projektestimatet eller den faktiske transaktion for projektet.
 
 I følgende eksempel vises, hvordan PSA bruger enhedsgruppe, enheder og konverteringsfaktorer.
 - Enheder
 
-   - **Enhedsgruppe** : Tid 
-   - **Enheder** : time 
+   - **Enhedsgruppe**: Tid 
+   - **Enheder**: time 
     
     - **Dag** – Konverteringsfaktor: 8 timer       
     - **Uge** – Konverteringsfaktor: 40 timer  
         
 - Opsætning af prisliste i projekt A:
 
-    - **Navn** : Britiske salgspriser 2016 
-    - **Standardtidsenhed** : dag 
-    - **Valuta** : GBP
+    - **Navn**: Britiske salgspriser 2016 
+    - **Standardtidsenhed**: dag 
+    - **Valuta**: GBP
 
 | Rolle      | Enhedsgruppe | Enhed | Afdeling: | Pris   |
 |-----------|------------|------|---------------------|---------|

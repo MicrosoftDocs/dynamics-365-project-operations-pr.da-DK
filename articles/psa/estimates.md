@@ -3,7 +3,7 @@ title: Vurderinger
 description: Dette emne indeholder oplysninger om estimater i Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074374"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132712"
 ---
 # <a name="estimates"></a>Vurderinger
 
@@ -47,7 +47,7 @@ PSA tillader ikke materialeestimater på kontraktlinjedetaljer.
 
 De processer, der understøttes i en projektkontrakt, er oprettelse og bekræftelse af fakturaer. Oprettelse af faktura opretter en kladde af en projektbaseret faktura, der omfatter alle ikke-fakturerede faktiske salg til dags dato.
 
-Bekræftelse gør kontrakten skrivebeskyttet og ændrer dens status fra **Kladde** til **Bekræftet**. Når du har udført denne handling, kan du ikke fortryde den. Da denne handling er permanent, er det en god ide at bevare kontrakten i **Kladde** -status.
+Bekræftelse gør kontrakten skrivebeskyttet og ændrer dens status fra **Kladde** til **Bekræftet**. Når du har udført denne handling, kan du ikke fortryde den. Da denne handling er permanent, er det en god ide at bevare kontrakten i **Kladde**-status.
 
 De eneste forskelle mellem kladdekontrakter og bekræftede kontrakter er deres status, og det faktum, at kladdekontrakter kan redigeres, mens bekræftede kontrakter ikke kan. Det er muligt at oprette fakturaer og spore faktiske oplysninger på både kladdekontrakter og bekræftede kontrakter.
 
@@ -81,7 +81,7 @@ Brug følgende tabel som vejledning til at forstå forretningslogikken i estimer
 Hvis du har tilføjet et brugerdefineret felt på tilbudslinjedetaljen og ønsker, at systemet skal angive værdien af feltet som en standardværdi på den relaterede omkostningslinje, der oprettes, skal du bruge plug-in-registreringsværktøjerne PreOperationContractLineDetailUpdate og PreOperationQuoteLineDetailUpdate. Disse plug-ins skal registreres igen, når tilbudslinjedetaljer eller kontraktlinjedetaljer er ændret. Udfør disse trin for at fuldføre processen.
 
 1. Åbn PluginRegistrationTool, og opret forbindelse til din onlineforekomst.
-2. Vælg **Søg** , og søg efter den plug-in, der skal opdateres.
+2. Vælg **Søg**, og søg efter den plug-in, der skal opdateres.
 
     ![Dialogboks med søgetræ](media/basic-guide-19.png)
 
@@ -90,7 +90,7 @@ Hvis du har tilføjet et brugerdefineret felt på tilbudslinjedetaljen og ønske
 
     ![Valg af et trin i plug-in'en](media/basic-guide-20.png)
 
-5. Vælg ellipseknappen ( **...** ) i feltet **Filtreringsattributter** i dialogboksen **Opdater eksisterende trin** :
+5. Vælg ellipseknappen (**...**) i feltet **Filtreringsattributter** i dialogboksen **Opdater eksisterende trin**:
  
     ![Dialogboksen Opdater eksisterende trin](media/basic-guide-21.png)
 
