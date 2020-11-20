@@ -3,7 +3,7 @@ title: Vise og redigere projektestimater
 description: Sådan får du vist og redigerer projektestimater i Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074248"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125846"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Få vist og redigere projektestimater (Project Service)
 
@@ -37,9 +37,9 @@ Med [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-
   
 3.  Vælg pil ned ud for projektnavnet på linjen øverst på skærmen, og klik derefter på **Projektestimater**.  
   
-4.  I **Tidsfase efter** skal du vælge **Indsats** , **Omkostninger** eller **Salg** for at ændre, hvilke projektestimater der skal vises.  
+4.  I **Tidsfase efter** skal du vælge **Indsats**, **Omkostninger** eller **Salg** for at ændre, hvilke projektestimater der skal vises.  
   
-5.  Hvis du vil tilføje eller slette udgifter, skal du klikke på **Åbn gittervisning**. Klik på **Ny udgift** for at oprette en ny udgift. Du kan slette en udgift ved at vælge den på listen og derefter klikke på **Slet udgift**. Klik på **Gem** , når du er færdig med at tilføje eller slette udgifter.  
+5.  Hvis du vil tilføje eller slette udgifter, skal du klikke på **Åbn gittervisning**. Klik på **Ny udgift** for at oprette en ny udgift. Du kan slette en udgift ved at vælge den på listen og derefter klikke på **Slet udgift**. Klik på **Gem**, når du er færdig med at tilføje eller slette udgifter.  
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)

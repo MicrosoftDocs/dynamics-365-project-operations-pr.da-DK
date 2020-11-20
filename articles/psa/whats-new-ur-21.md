@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 21, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 21, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074123"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126701"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Opdateringsudgivelse 21 til Project Service Automation, V3
 
@@ -54,7 +54,7 @@ Følgende problemer er blevet løst:
 
 Følgende problemer er blevet løst:
 
-- Formulargitterne for **Projekt** ( **Ressourcetildeling** , **Opgave** , **Afstemning** , **Udgiftsestimater** ) er fortsat redigerbare, også selvom et projekt ikke er aktivt.
+- Formulargitterne for **Projekt** (**Ressourcetildeling**, **Opgave**, **Afstemning**, **Udgiftsestimater**) er fortsat redigerbare, også selvom et projekt ikke er aktivt.
 - Duplikerede kunder kan ikke flettes med kunder, der er knyttet til bekræftede projektkontrakter.
 - Når en ressource, der ikke har en gyldig kalender, er tilføjet, returnerer systemet ikke en brugervenlig fejlmeddelelse.
 - Knappen **Tilføj opgave** i opgavegitteret aktiveres, når projektet sammenkædes med et **Microsoft Project-tilføjelsesprogram**.
@@ -68,10 +68,10 @@ Der er blevet foretaget følgende forbedringer:
 
 Følgende problemer er blevet løst:
 
-- **Den samlede salgspris** er nul (0) for **Kategorien** , også selvom **Rollen** har en samlet salgspris, der ikke er nul.
-- Kunderne kan ikke ændre værdien i feltet **Fakturastatus** til **Klar til fakturering** , når en anden tilpasset proces opdaterer et ekstra felt.
+- **Den samlede salgspris** er nul (0) for **Kategorien**, også selvom **Rollen** har en samlet salgspris, der ikke er nul.
+- Kunderne kan ikke ændre værdien i feltet **Fakturastatus** til **Klar til fakturering**, når en anden tilpasset proces opdaterer et ekstra felt.
 - Knappen **Opdater fakturalinjer** kan oprette flere duplikerede linjer, hvis den er valgt flere gange.
-- Knappen **Opdater priser** virker ikke på undergitteret **Rollepriser** i formularen **Hurtig visning**.
-- Logikken **Løsningen til salgsprislisten** , håndterer ikke tidszoner korrekt, hvilket medfører et forkert udvalg af prislister.
+- Knappen **Opdater priser** virker ikke i undergitteret **Rollepriser** i formularen til **Hurtig visning**.
+- Logikken **Løsningen til salgsprislisten**, håndterer ikke tidszoner korrekt, hvilket medfører et forkert udvalg af prislister.
 - Beløbet for et projekts **Samlede faktiske omkostninger** kan fravige med en brøkdel, når en enkelt post er godkendt.
 - Logikken **Prisløsning** indeholder ikke en brugervenlig fejlmeddelelse, hvis den **Hentede Rollepris** ikke indeholder værdier i felterne **"Primær enhed"** og **"Pris i primær enhed"**.

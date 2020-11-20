@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074071"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124631"
 ---
 # <a name="extending-time-entries"></a>Forlængelse af tidsregistreringer
 
@@ -33,7 +33,7 @@ Det er muligt at forlænge tidsregistreringer på to områder:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Tilføj brugerdefinerede tidsregistreringer til dit eget brug
 
-Tidsregistreringer er et kerneobjekt, der bruges i flere scenarier. I den første bølge i april 2020 blev kerneløsningen TESA introduceret. TESA indeholder et objekt med **Indstillinger** og en ny sikkerhedsrolle i form af **Tidsregistreringsbruger**. De nye felter, **msdyn_start** og **msdyn_slut** , som har en direkte relation til **msdyn_varighed** , er også inkluderet. Det nye objekt, sikkerhedsrolle og felter muliggør en mere ensartet proces for tid på tværs af flere produkter.
+Tidsregistreringer er et kerneobjekt, der bruges i flere scenarier. I den første bølge i april 2020 blev kerneløsningen TESA introduceret. TESA indeholder et objekt med **Indstillinger** og en ny sikkerhedsrolle i form af **Tidsregistreringsbruger**. De nye felter, **msdyn_start** og **msdyn_slut**, som har en direkte relation til **msdyn_varighed**, er også inkluderet. Det nye objekt, sikkerhedsrolle og felter muliggør en mere ensartet proces for tid på tværs af flere produkter.
 
 
 ### <a name="time-source-entity"></a>Tidskildeobjekt
@@ -109,19 +109,19 @@ Denne visning skal indeholde felterne **Beskrivelse** og **Eksterne kommentarer*
 2. Konfigurer det brugerdefinerede kontrolelement for denne visning, så det bliver et kontrolelement af typen **Tidsregistreringsgitter**. 
 3. Føj dette kontrolelement til visningen, og vælg det til internettet, telefonen og tabletten. 
 4. Konfigurer parametrene for det ugentlige tidsregistreringsgitter. 
-5. Angiv feltet **Startdato** til **msdyn_date** , angiv feltet **Varighed** til **msdyn_duration** , og angiv feltet **Status** til **msdyn_entrystatus**. 
+5. Angiv feltet **Startdato** til **msdyn_date**, angiv feltet **Varighed** til **msdyn_duration**, og angiv feltet **Status** til **msdyn_entrystatus**. 
 6. I standardvisningen er feltet **Skrivebeskyttet statusliste** angivet til **192350002,192350003,192350004**. Feltet **Opgaveproces for redigering af række** er angivet til **msdyn_tidsregistreringredigeringafrække**. Feltet **Opgaveproces for redigering af celle** er angivet til **msdyn_tidsregistreringredigering**. 
 7. Du kan tilpasse disse felter for at tilføje eller fjerne status for skrivebeskyttelse eller bruge en anden opgavebaseret oplevelse (TBX) til række- eller celleredigering. Disse felter er nu bundet til en statisk værdi.
 
 
 > [!NOTE] 
-> Begge indstillinger fjerner noget af standardfiltreringen for objekterne **Projekt** og **Projektopgave** , så alle opslagsvisninger for objekterne er synlige. Som standard er det kun de relevante opslagsvisninger, der er synlige.
+> Begge indstillinger fjerner noget af standardfiltreringen for objekterne **Projekt** og **Projektopgave**, så alle opslagsvisninger for objekterne er synlige. Som standard er det kun de relevante opslagsvisninger, der er synlige.
 
-Vælg den relevante opgaveproces til det brugerdefinerede felt. Hvis du har tilføjet feltet til gitteret, bør det blive placeret i opgaveprocessen for redigering af rækker, der bruges til felter, som gælder for hele rækken af tidsregistreringer. Hvis det brugerdefinerede felt har en entydig værdi hver dag, f.eks. et brugerdefineret felt for **Sluttidspunkt** , skal det placeres i celleredigeringen af opgaveprocessen.
+Vælg den relevante opgaveproces til det brugerdefinerede felt. Hvis du har tilføjet feltet til gitteret, bør det blive placeret i opgaveprocessen for redigering af rækker, der bruges til felter, som gælder for hele rækken af tidsregistreringer. Hvis det brugerdefinerede felt har en entydig værdi hver dag, f.eks. et brugerdefineret felt for **Sluttidspunkt**, skal det placeres i celleredigeringen af opgaveprocessen.
 
-Hvis du vil føje det brugerdefinerede felt til en opgaveproces, skal du trække et **Felt** -element til den relevante placering på siden og derefter angive feltets egenskaber. Angiv egenskaben **Kilde** til **Tidsregistrering** , og angiv egenskaben **Datafelt** til det brugerdefinerede felt. Egenskaben **Felt** angiver det viste navn på TBX-siden. Vælg **Anvend** for at gemme dine ændringer i feltet, og vælg derefter **Opdater** for at gemme ændringerne på siden.
+Hvis du vil føje det brugerdefinerede felt til en opgaveproces, skal du trække et **Felt**-element til den relevante placering på siden og derefter angive feltets egenskaber. Angiv egenskaben **Kilde** til **Tidsregistrering**, og angiv egenskaben **Datafelt** til det brugerdefinerede felt. Egenskaben **Felt** angiver det viste navn på TBX-siden. Vælg **Anvend** for at gemme dine ændringer i feltet, og vælg derefter **Opdater** for at gemme ændringerne på siden.
 
-Hvis du vil bruge en ny brugerdefineret TBX-side i stedet, skal du oprette en ny proces. Angiv kategorien til **Forretningsprocesforløb** , angiv objektet til **Tidsregistrering** , og angiv forretningsprocestypen til **Kør processen som en opgaveproces**. Egenskaben **Sidenavn** under **Egenskaber** skal angives til det viste navn for siden. Føj alle de relevante felter til TBX-siden. Gem og aktivér processen. Opdater egenskaben for det brugerdefinerede kontrolelement for den relevante opgaveproces til værdien af **Navn** i processen.
+Hvis du vil bruge en ny brugerdefineret TBX-side i stedet, skal du oprette en ny proces. Angiv kategorien til **Forretningsprocesforløb**, angiv objektet til **Tidsregistrering**, og angiv forretningsprocestypen til **Kør processen som en opgaveproces**. Egenskaben **Sidenavn** under **Egenskaber** skal angives til det viste navn for siden. Føj alle de relevante felter til TBX-siden. Gem og aktivér processen. Opdater egenskaben for det brugerdefinerede kontrolelement for den relevante opgaveproces til værdien af **Navn** i processen.
 
 ### <a name="add-new-option-set-values"></a>Angive nye værdier for grupperet indstilling
 Hvis du vil føje værdier for grupperet indstilling til et standardfelt, skal du åbne redigeringssiden til feltet og under **Type** vælge **Rediger** ud for den grupperede indstilling. Tilføj en ny indstilling, der har et brugerdefineret navn og farve. Hvis du vil tilføje en ny status for tidsregistreringen, er kaldes standardfeltet **Status for registrering** og ikke **Status**.

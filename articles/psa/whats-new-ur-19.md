@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 19, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 19, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074125"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126828"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Opdateringsudgivelse 19 til Project Service Automation, V3
 
@@ -60,7 +60,7 @@ Følgende problemer er blevet løst:
 - Tilføjelse af elementer for ikke-fakturerbare transaktionskategorier til en debiterbar kontraktlinje respekterer ikke transaktionskategoriens faktureringstype **Ikke-fakturerbar**.
 - Kunderne kan ikke bruge de netop tilføjede roller og kategorier i tidligere oprettede kontrakter.
 - Kunder oplever forringet ydeevne ved unødvendig hentning i PreValidateProjectTeamMemberUpdate.cs
-- Roller, der er konfigureret som ikke-fakturerbare på listen **Ressourcekategorier** , skal føjes til fanen **Fakturerbare roller** som **Ikke-fakturerbare** på kontraktlinjen for et projekt.
+- Roller, der er konfigureret som ikke-fakturerbare på listen **Ressourcekategorier**, skal føjes til fanen **Fakturerbare roller** som **Ikke-fakturerbare** på kontraktlinjen for et projekt.
 - Kunderne kan opleve forringet ydeevne, når de opretter et projekt, da **GetBookableResourceIdFromUser** henter alle kolonner med reserv rbare ressourcer i stedet for kun det primære id.
-- Objektet **TransactionType** mangler plug-in'en til opdatering før validering for at forhindre brugere i at angive **Enheder** og **UnitGroups** , der ikke er gyldige for transaktionstyper.
+- Objektet **TransactionType** mangler plug-in'en til opdatering før validering for at forhindre brugere i at angive **Enheder** og **UnitGroups**, der ikke er gyldige for transaktionstyper.
 - Trinnet **Fjern** virker ikke for import af tidsangivelse.

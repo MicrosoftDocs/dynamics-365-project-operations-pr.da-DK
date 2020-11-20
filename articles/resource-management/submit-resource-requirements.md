@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074066"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128816"
 ---
 # <a name="submit-a-resource-request"></a>Send en anmodning om ressource(r)
 
@@ -26,4 +26,4 @@ Du kan sende et genereret ressourcekrav som en ressourceanmodning. Anmodningen s
 
 Anmodningstatussen for det generiske teammedlem ændres til **Sendt**.
 
-Når anmodningen er fuldført erstattes den generiske ressource af en navngivet ressource, hvis Resource Manageren opfylder anmodningen ved at reservere en navngivet ressource. Ellers forbliver den generiske ressource i teamet, og anmodningsstatussen ændres til **Skal gennemses** , hvis personalechefen har foreslået en navngivet ressource.
+Når anmodningen er fuldført erstattes den generiske ressource af en navngivet ressource, hvis Resource Manageren opfylder anmodningen ved at reservere en navngivet ressource. Ellers forbliver den generiske ressource i teamet, og anmodningsstatussen ændres til **Skal gennemses**, hvis personalechefen har foreslået en navngivet ressource.

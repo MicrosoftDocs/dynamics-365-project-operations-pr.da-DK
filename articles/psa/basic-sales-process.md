@@ -3,7 +3,7 @@ title: Salgsprocesser
 description: Denne emne indeholder oplysninger om de grundlæggende salgsprocesser.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074286"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129311"
 ---
 # <a name="sales-processes"></a>Salgsprocesser
 
@@ -46,7 +46,7 @@ Værdien af et salg kan estimeres på basis af de projekter, der tidligere er le
 
 Du kan oprette et estimat af tilbuddet på højt niveau. Til sidst erstattes dette overordnede estimat med et mere detaljeret estimat, der er baseret på en projektplan, som du opretter ved hjælp af de standardiserede projektskabeloner. Disse skabeloner hjælper dig med at udarbejde en plan og fastlægge pengeværdier for tilbuddet og dets komponenter (tilbudslinjer). 
 
-Du kan oprette flere tilbud til et projekt og gruppere dem under en enkelt objekttype af salgsmulighed. Til sidst bliver et af disse tilbud markeret **Lukket som vundet** , og der oprettes en projektkontrakt eller en arbejdserklæring. En projektkontrakt indeholder kontraktværdien for hver komponent (kontraktlinje), der accepteres af kunden til levering. En arbejdserklæring oprettes normalt som et Microsoft Word-dokument. Alle de fakturaer, der sendes til kunden i løbet af projektet, refererer til projektkontrakten eller arbejdserklæringen.
+Du kan oprette flere tilbud til et projekt og gruppere dem under en enkelt objekttype af salgsmulighed. Til sidst bliver et af disse tilbud markeret **Lukket som vundet**, og der oprettes en projektkontrakt eller en arbejdserklæring. En projektkontrakt indeholder kontraktværdien for hver komponent (kontraktlinje), der accepteres af kunden til levering. En arbejdserklæring oprettes normalt som et Microsoft Word-dokument. Alle de fakturaer, der sendes til kunden i løbet af projektet, refererer til projektkontrakten eller arbejdserklæringen.
 
 Du kan også oprette alternative tilbud under én salgsmulighedsobjekttype eller konfigurere systemet, så der oprettes en projektkontrakt, når et tilbud er vundet. I dette tilfælde kan du vedhæfte et Word-dokument, der repræsenterer arbejdserklæringen i projektkontraktposten.
 
@@ -70,12 +70,12 @@ Disse seks faser repræsenteres af vinkeltegn (\>), som du vælger at udvide i h
  
 Din organisation bruger måske forskellige objekter til at repræsentere samme handel, mens den udvikles. Tidligt i salgsprocessen repræsenteres en handel af objektet Salgsmulighed. Efterhånden som tiden går, og flere detaljer opstår, kan du bruge estimaterne på øverste niveau til at oprette et eller flere tilbud. Hvis et af disse tilbud gennemses af interne interessenter og kundeinteressenter, repræsenterer tilbudsobjektet handlen. Når kunden har accepteret tilbuddet, repræsenterer en projektkontrakt eller en arbejdserklæring handlen. For at understøtte denne funktion er forretningsprocesforløb struktureret, så hver fase i processen er knyttet til en særskilt databasetabel.
 
-Fasen **forretningsprocesforløb** i salgsprocessen kan understøttes af et salgsmulighedsobjekt. Faserne **Estimat** og **Intern evaluering** kan være understøttet af et tilbudsobjekt. Faserne **Kontrakt** , **Levering** og **Luk** kan være understøttet af et projektkontraktobjekt.
+Fasen **forretningsprocesforløb** i salgsprocessen kan understøttes af et salgsmulighedsobjekt. Faserne **Estimat** og **Intern evaluering** kan være understøttet af et tilbudsobjekt. Faserne **Kontrakt**, **Levering** og **Luk** kan være understøttet af et projektkontraktobjekt.
 
 Når du flytter handler gennem faserne, bliver du bedt om at oprette den rette objektpost, så du lettere kan komme gennem processen. Faserne kan være betingede. Hvis du f.eks. kun har brug for en intern evaluering af et tilbud, hvis tilbuddet har en brugerdefineret prisliste, kan du konfigurere denne betingelse i den relevante fase i forretningsprocessen. Fasen **Intern evaluering** vises derefter kun for tilbud, hvor der anvendes en brugerdefineret prisliste. I forbindelse med alle andre handler og tilbud bliver fasen **Estimat** efterfulgt af fasen **Kontrakt**.
 
 > [!NOTE]
-> PSA indeholder specifikke sider til salgsmuligheds-, tilbuds-, ordre- og fakturaobjekter. Du skal oprette salgsmuligheder, tilbud, ordrer og fakturaer til projektstyring ved hjælp af projektoplysningssiderne for disse objekter. Hvis du bruger en anden side til at oprette en post, kan du ikke åbne posten fra siden **Projektoplysninger**. Hvis du vil åbne en post på siden **Projektoplysninger** , skal du slette posten og genoprette den ved hjælp af siden **Projektoplysninger**. På siden **Projektoplysninger** sikrer forretningslogikken for hver af disse objekttyper, at feltet **Type** for posten er angivet korrekt, og at alle de obligatoriske koncepter er initialiseret korrekt.
+> PSA indeholder specifikke sider til salgsmuligheds-, tilbuds-, ordre- og fakturaobjekter. Du skal oprette salgsmuligheder, tilbud, ordrer og fakturaer til projektstyring ved hjælp af projektoplysningssiderne for disse objekter. Hvis du bruger en anden side til at oprette en post, kan du ikke åbne posten fra siden **Projektoplysninger**. Hvis du vil åbne en post på siden **Projektoplysninger**, skal du slette posten og genoprette den ved hjælp af siden **Projektoplysninger**. På siden **Projektoplysninger** sikrer forretningslogikken for hver af disse objekttyper, at feltet **Type** for posten er angivet korrekt, og at alle de obligatoriske koncepter er initialiseret korrekt.
 
 > ![Projektoplysninger for en ny ordre](media/basic-guide-4.png)
  

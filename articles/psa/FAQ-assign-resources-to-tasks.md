@@ -3,7 +3,7 @@ title: Tildele en ressource til en opgave
 description: Dette emne indeholder oplysninger om, hvordan du tildeler ressourcer til opgaver.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074361"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125126"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Tildele en ressource til en opgave
 
@@ -54,11 +54,11 @@ Du kan føje en ressource til projektteamet og derefter tildele ressourcen til o
 
 Når du opretter et generisk teammedlem via opgavetildeling, opretter du en pladsholder eller en generisk ressource, der beskriver egenskaberne for den navngivne ressource, som du i sidste ende vil have til at arbejde med opgaverne. Du kan derefter oprette et krav (eller sende en anmodning ved hjælp af kravet), der bruges til at søge efter, og reservere den navngivne ressource.
 
-1. Vælg **Resource** -ikonet i ressourcecellen i gitteret **Planlægning** for en opgave.
+1. Vælg **Resource**-ikonet i ressourcecellen i gitteret **Planlægning** for en opgave.
 
 2. Skriv et navn, der skal fungere som pladsholderressourcens navn. F.eks. programadministrator.
 
-3. Vælg **Opret** , og angiv rollen for den generiske ressource i feltet **Hurtig oprettelse af projektteammedlem**.
+3. Vælg **Opret**, og angiv rollen for den generiske ressource i feltet **Hurtig oprettelse af projektteammedlem**.
 
 4. Du kan fortsætte med at tildele opgaver til denne pladsholderressource ved at vælge ressourcen i **Resourcevælgeren** for opgaven. De er angivet under **Teammedlemmer**.
 
@@ -74,7 +74,7 @@ Du kan bruge søgefeltet i **Resourcevælgeren** til at søge i alle de reserver
 
 Ressourcer, der er tildelt på denne måde, føjes til teamet uden reservationer. Dette svarer til at tilføje et gruppemedlem og vælge Ingen som fordelingsmetode. Ressourcen vises under fanen **Team** og fanen **Afstemning** som ressourcer med tildelinger og et reservationsunderskud. Reservér dem, hvis du vil bruge deres tilgængelighed.
 
-1. Vælg **Resource** -ikonet i ressourcecellen i gitteret **Planlægning** for en opgave.
+1. Vælg **Resource**-ikonet i ressourcecellen i gitteret **Planlægning** for en opgave.
 
 2. Begynd at skrive et navn. Søgeresultaterne for navnet vises i **Resourcevælgeren** under **Andre ressourcer**.
 

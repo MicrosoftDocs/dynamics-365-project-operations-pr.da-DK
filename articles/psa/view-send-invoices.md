@@ -3,7 +3,7 @@ title: Få vist og sende fakturaer
 description: Sådan får du vist og sender fakturaer i Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 27994c4a14b25d769a0919514906a7be1804dae2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074244"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125756"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Få vist og sende fakturaer (Project Service)
 
@@ -48,7 +48,7 @@ Når du opretter et projekt, kan du angive frekvensen for generering af fakturae
   
 2.  Klik på det projekt, som du vil fakturere.  
   
-3.  Klik på **Sales** , og klik derefter på **Faktura**.  
+3.  Klik på **Sales**, og klik derefter på **Faktura**.  
   
 4.  Vælg parametre for de posteringer, du vil fakturere, herunder skæringsdato varetype, der skal faktureres, enhed og milepæl. Når du er færdig med at vælge parametre, skal du klikke på **Næste**.  
   

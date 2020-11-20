@@ -3,7 +3,7 @@ title: Spore et projekts status
 description: Sådan sporer du et projekts status i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074258"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127826"
 ---
 # <a name="track-a-projects-status-project-service"></a>Spore et projekts status (Project Service)
 
@@ -37,10 +37,10 @@ Som engagementet skrider frem, opdateres projektets faser, så de afspejler fase
 |              |                                                                                                                                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **Ny**    | Når du opretter et projekt, indstilles fasen til **Ny**. Hvis du har oprettet projektet fra en skabelon, kan projektet i denne fase have en tidsplan, estimater og teamdata. Ellers vil det være projektets disposition, og du skal manuelt angive resten af projektkomponenterne. |
-|  **Tilbud**   |      Når du knytter et projekt til et tilbud eller opretter det fra et tilbud, angives projektfasen til **Tilbud** , og de forventede start- og slutdatoer opdateres også. Når projektet er i fasen tilbud, vises oplysninger om tilbuddet under fanen **Salg** på siden **Projekt**.      |
+|  **Tilbud**   |      Når du knytter et projekt til et tilbud eller opretter det fra et tilbud, angives projektfasen til **Tilbud**, og de forventede start- og slutdatoer opdateres også. Når projektet er i fasen tilbud, vises oplysninger om tilbuddet under fanen **Salg** på siden **Projekt**.      |
 |   **Planlæg**   |                                     Når du vinder et tilbud, der er knyttet til et projekt, og når engagementet går videre til kontraktfasen, opdateres projektfasen til **Plan**. Kontraktoplysninger vises under fanen **Salg** på siden **Projekt**.                                      |
 | **Fuldført** |                    Når projektarbejdet er fuldført, kan du vende fasen til **Fuldført**. Når projektfasen er angivet til Fuldført, er det underforstået, at arbejdet er 100 % færdigt, men at projektet holdes åbent for alle ventende tids- eller udgiftsposteringer, der skal registreres.                     |
-|  **Luk**   |           Når alle transaktioner er blevet registreret på projektet, og du ikke forventer at logge mere, kan du manuelt indstille fasen til **Luk**. Når projektet er indstillet til **Luk** , kan du ikke logge flere posteringer på projektet, og projektet vil være skrivebeskyttet.           |
+|  **Luk**   |           Når alle transaktioner er blevet registreret på projektet, og du ikke forventer at logge mere, kan du manuelt indstille fasen til **Luk**. Når projektet er indstillet til **Luk**, kan du ikke logge flere posteringer på projektet, og projektet vil være skrivebeskyttet.           |
 
 ## <a name="to-track-a-projects-status"></a>Sådan spores et projekts status  
 

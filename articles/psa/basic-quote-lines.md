@@ -3,7 +3,7 @@ title: Tilbud og tilbudslinjer
 description: Dette emne indeholder oplysninger om tilbud og tilbudslinjer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074287"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129446"
 ---
 # <a name="quotes-and-quote-lines"></a>Tilbud og tilbudslinjer
 
@@ -35,7 +35,7 @@ I Dynamics 365 Project Service Automation findes der to typer tilbud: projekttil
 - Et salgstilbud understøtter aktivering og revisioner. Et projekttilbud understøtter ikke disse processer.
 - Du kan knytte flere ordrer til et salgstilbud. Du kan kun tilknytte én projektkontrakt til et projekttilbud.
 - Du kan vinde et salgstilbud og holde den relaterede salgsmulighed åben. Når et projekttilbud er vundet, lukkes den tilknyttede salgsmulighed.
-- Et salgstilbud inkluderer ikke visse felter og begreber, der findes i et projekttilbud, som indeholder felter. Felterne omfatter **Kontraktenhed** , **Account Manager** og **Kontaktnavn for fakturering**.  
+- Et salgstilbud inkluderer ikke visse felter og begreber, der findes i et projekttilbud, som indeholder felter. Felterne omfatter **Kontraktenhed**, **Account Manager** og **Kontaktnavn for fakturering**.  
 - Salgstilbud og projekttilbud identificeres også af et felt baseret på grupperet indstilling med navnet **Type.** I forbindelse med et salgstilbud indeholder dette felt værdien **Elementbaseret**. I forbindelse med et projekttilbud har det værdien **Arbejdsbaseret**.
 
 I dette emne fokuseres der på detaljerne i projekttilbud.
@@ -76,7 +76,7 @@ PSA understøtter alle tre typer fakturatidsplaner for tilbudslinjer med fast pr
 Professionelle serviceorganisationer udarbejder typisk et tilbud og fakturerer deres kunder efter klassificering af omkostninger. I PSA repræsenteres omkostningerne af følgende transaktionsklassificeringer:
 
 - **Tid** – denne klassificering repræsenterer omkostningerne ved arbejdskraft eller personalets tid, der er brugt på et projekt.
-- **Udgift** : – denne klassificering repræsenterer alle andre typer udgifter i et projekt. Udgifter kan klassificeres bredt, men de fleste organisationer opretter underkategorier, f.eks. ferie, billeje, hotel eller kontorforsyninger.
+- **Udgift**: – denne klassificering repræsenterer alle andre typer udgifter i et projekt. Udgifter kan klassificeres bredt, men de fleste organisationer opretter underkategorier, f.eks. ferie, billeje, hotel eller kontorforsyninger.
 - **Gebyr** – denne klassificering repræsenterer diverse omkostninger, ekstragebyrer og andet, som en kunde debiteres. 
 - **Moms** – denne klassificering repræsenterer momsbeløb, som brugerne tilføjer, mens de angiver udgifter.
 - **Materialetransaktion** – denne klassificering repræsenterer faktiske værdier fra produktlinjer på en bekræftet projektfaktura.
@@ -91,7 +91,7 @@ Et tilbud kan f.eks. indeholde følgende to tilbudslinjer:
 - Relaterede rejseudgifter, der bruger en faktureringsmetode med fast pris. For eksempel faktureres alle rejseudgifter for eksempelprojektet **Dynamics AX Implementering** med en fast pengeværdi.
 
 > [!NOTE]
-> Kombinationen af projekt- og transaktionsklassificeringerne af **Tid** , **Udgift** og **Vederlag** , der er tilknyttet en tilbuds- eller kontraktlinje, skal være entydig. Hvis den samme kombination af projekt- og transaktionsklasse er knyttet til mere end én kontraktlinje eller tilbudslinje, vil PSA ikke fungere korrekt.
+> Kombinationen af projekt- og transaktionsklassificeringerne af **Tid**, **Udgift** og **Vederlag**, der er tilknyttet en tilbuds- eller kontraktlinje, skal være entydig. Hvis den samme kombination af projekt- og transaktionsklasse er knyttet til mere end én kontraktlinje eller tilbudslinje, vil PSA ikke fungere korrekt.
 
 ## <a name="billing-types"></a>Faktureringstyper
 

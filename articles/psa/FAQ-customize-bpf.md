@@ -2,7 +2,7 @@
 title: Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
 description: En oversigt over, hvordan jeg kan tilpasse forretningsprocesforløbet Projektfaser.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074358"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125025"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Der er et kendt begrænsning i tidligere versioner af programmet Project Service – navnene på faserne i forretningsprocesforløbet Projektfaser skal nøjagtigt stemme overens med de forventede engelske navne ( **Quote** , **Plan** , **Close** ). I modsat fald fungerer forretningslogikken, der er afhængig af de engelske fasenavne, ikke korrekt. Det er derfor, at velkendte handlinger, f.eks. **Skift process** eller **Rediger proces** , ikke ser ud til at være tilgængelige i projektformularen, og tilpasning af forretningsprocesforløbet tilrådes ikke. 
+Der er et kendt begrænsning i tidligere versioner af programmet Project Service – navnene på faserne i forretningsprocesforløbet Projektfaser skal nøjagtigt stemme overens med de forventede engelske navne (**Quote**, **Plan**, **Close**). I modsat fald fungerer forretningslogikken, der er afhængig af de engelske fasenavne, ikke korrekt. Det er derfor, at velkendte handlinger, f.eks. **Skift process** eller **Rediger proces**, ikke ser ud til at være tilgængelige i projektformularen, og tilpasning af forretningsprocesforløbet tilrådes ikke. 
 
 Denne begrænsning er blevet ændret i version 2.4.5.48 og nyere versioner. Denne artikel indeholder foreslåede løsninger, hvis du har brug for at tilpasse standardforretningsprocesforløbet til tidligere versioner.  
 
@@ -38,7 +38,7 @@ Denne begrænsning er blevet ændret i version 2.4.5.48 og nyere versioner. Denn
 Forretningsprocesforløbet Projektfaser indeholder forretningslogik, der understøtter følgende funktionsmåder i appen:
 - Når projektet knyttes til et tilbud, indstiller koden forretningsprocesforløbet til fasen **Quote**.
 - Når projektet knyttes til en kontrakt, indstiller koden forretningsprocesforløbet til fasen **Plan**.
-- Når forretningsprocessen er rykket frem til fasen **Close** , deaktiveres projektposten. Når projektet er deaktiveret, indstilles projektformularen og arbejdsopgavehierarkiet (WBS) til skrivebeskyttet, de navngivne ressourcereservationer udgives, og eventuelle tilknyttede prislister deaktiveres.
+- Når forretningsprocessen er rykket frem til fasen **Close**, deaktiveres projektposten. Når projektet er deaktiveret, indstilles projektformularen og arbejdsopgavehierarkiet (WBS) til skrivebeskyttet, de navngivne ressourcereservationer udgives, og eventuelle tilknyttede prislister deaktiveres.
 
 Denne forretningslogik er baseret på de engelske navne for projektfaserne. Denne afhængighed af engelske fasenavne er den vigtigste årsag til, at vi ikke tilråder tilpasning af forretningsprocesforløbet Projektfaser, og til, at du ikke kan se de almindelige handlinger i forretningsprocesforløbet f.eks. **Skift proces** eller **Rediger proces** i projektobjektet.
 
@@ -48,7 +48,7 @@ I Project Service-appen version 1.x på 8.2-platformen, når fasenavnene i forre
 
 I Project Service-appen version 2.4.4.30 eller tidligere på 9.0 platformen opstod der en betydelig arkitektonisk ændring af forretningsprocesser, som krævede omarbejdelse af forretningslogikken for forretningsprocesforløbet. Det betyder, hvis procesfasenavnene ikke stemmer overens med de forventede engelske navne, modtager du en fejlmeddelelse. 
 
-Derfor, hvis du vil tilpasse forretningsprocesforløbet Projektfaser for projektobjektet, kan du kun tilføje helt nye faser i standardforretningsprocesforløbet for projektobjektet, mens du bevarer **Quote** , **Plan** og **Close** -faserne, som de er. Denne begrænsning sikrer, at du ikke får fejlmeddelelser fra den forretningslogik, der forventer de engelske fasenavne i forretningsprocesforløbet.
+Derfor, hvis du vil tilpasse forretningsprocesforløbet Projektfaser for projektobjektet, kan du kun tilføje helt nye faser i standardforretningsprocesforløbet for projektobjektet, mens du bevarer **Quote**, **Plan** og **Close**-faserne, som de er. Denne begrænsning sikrer, at du ikke får fejlmeddelelser fra den forretningslogik, der forventer de engelske fasenavne i forretningsprocesforløbet.
 
 I version 2.4.5.48 eller nyere versioner fjernes den forretningslogik, der er beskrevet i denne artikel, fra standardforretningsprocesforløbet for projektobjektet. Hvis du opgraderer til den pågældende version eller nyere, kan du tilpasse eller erstatte standardforretningsprocesforløbet med et af dine egne forløb. 
 
@@ -56,12 +56,12 @@ I version 2.4.5.48 eller nyere versioner fjernes den forretningslogik, der er be
 
 Hvis du ikke vil opgradere, kan du tilpasse forretningsprocesforløbet Projektfaser for projektobjektet på en af følgende to måder:
 
-1. Føj flere faser til standardkonfigurationen, samtidig med at du bevarer de engelske fasenavne for **Quote** , **Plan** og **Close**.
+1. Føj flere faser til standardkonfigurationen, samtidig med at du bevarer de engelske fasenavne for **Quote**, **Plan** og **Close**.
 
 
 ![Skærmbillede af tilføjelse af faser til standardkonfiguration](media/FAQ-Customize-BPF-1.png)
  
-2. Opret dit eget forretningsprocesforløb, og gør det til det primære forretningsprocesforløb for projektobjektet, hvor du kan bruge de ønskede fasenavne. Men hvis du vil bruge de samme standardprojektfaser **Quote** , **Plan** og **Close** , skal du udføre nogle tilpasninger, der er baseret på dine brugerdefinerede fasenavne. Den mere komplekse logik er i den afsluttende del af projektet, som du kan stadig udløse ved blot at deaktivere projektposten.
+2. Opret dit eget forretningsprocesforløb, og gør det til det primære forretningsprocesforløb for projektobjektet, hvor du kan bruge de ønskede fasenavne. Men hvis du vil bruge de samme standardprojektfaser **Quote**, **Plan** og **Close**, skal du udføre nogle tilpasninger, der er baseret på dine brugerdefinerede fasenavne. Den mere komplekse logik er i den afsluttende del af projektet, som du kan stadig udløse ved blot at deaktivere projektposten.
 
 ![BPF-tilpasning](media/FAQ-Customize-BPF-2.png)
 
@@ -71,7 +71,7 @@ I Project Service 2.4.4.30 eller ældre på platform 9.0, med et brugerdefineret
 
 - Tilføj et brugerdefineret felt for at få adgang til den aktuelle fase i forretningsprocesforløbet, som opdateres, efterhånden som brugeren går frem i det brugerdefinerede forretningsprocesforløb.
 
-- Rediger diagrammet **Projekt efter fase** , så du kan arbejde med det brugerdefinerede felt i stedet for standardkonfiguration.
+- Rediger diagrammet **Projekt efter fase**, så du kan arbejde med det brugerdefinerede felt i stedet for standardkonfiguration.
 
 ### <a name="steps-to-create-your-own-business-process-flow-for-the-project-entity"></a>Trin til at oprette dit eget forretningsprocesforløb for projektobjektet
 
@@ -81,7 +81,7 @@ Du kan oprette dit eget forretningsprocesforløb for projektobjektet ved at gør
 
   ![Opret proces](media/FAQ-Customize-BPF-3.png)
 
-2. Brug procesdesigneren til at oprette de ønskede fasenavne. Hvis du vil bruge de samme funktioner som til standardfaserne for **Quote** , **Plan** og **Close** , skal du oprette dem baseret på fasenavnene i dit brugerdefinerede forretningsprocesforløb.
+2. Brug procesdesigneren til at oprette de ønskede fasenavne. Hvis du vil bruge de samme funktioner som til standardfaserne for **Quote**, **Plan** og **Close**, skal du oprette dem baseret på fasenavnene i dit brugerdefinerede forretningsprocesforløb.
 
    ![Skærmbillede af procesdesigner, der bruges til at tilpasse BPF](media/FAQ-Customize-BPF-4.png) 
 

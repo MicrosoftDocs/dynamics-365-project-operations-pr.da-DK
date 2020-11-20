@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c429fa14b4b95420c67a91a6a59af7db2660f68
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074070"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124676"
 ---
 # <a name="close-a-quote"></a>Lukke et tilbud
 
@@ -23,7 +23,7 @@ Et projekttilbud kan lukkes som vundet eller tabt. Da funktionerne Aktivér og R
 
 ## <a name="close-a-quote-as-won"></a>Luk et tilbud som vundet
 
-Hvis du lukker et projekttilbud som vundet, angives tilbuddets status til **Lukket** , og statusårsag til **Vundet**. Når du lukker tilbud, skrivebeskyttes de, og der oprettes en kladde med et udkast til projektkontrakt med alle tilbudsoplysninger. Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.
+Hvis du lukker et projekttilbud som vundet, angives tilbuddets status til **Lukket**, og statusårsag til **Vundet**. Når du lukker tilbud, skrivebeskyttes de, og der oprettes en kladde med et udkast til projektkontrakt med alle tilbudsoplysninger. Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.
 
 Den projektkontrakt, der er oprettet ud fra et projekttilbud, gøres også tilgængelig i modulet Projektstyring og regnskab i Project Operations. Hvis en projektkontrakt ikke er knyttet til et projekt på nogen af sine linjer, gøres denne projektkontrakt tilgængelig som en inaktiv projektkontrakt, og den bliver aktiv, så snart der er knyttet et projekt til mindst en af kontraktlinjerne.
 
@@ -37,7 +37,7 @@ Alle genindhentede faktiske oplysninger er tilgængelige i modulet Projektstyrin
 
 ## <a name="close-a-quote-as-lost"></a>Luk et tilbud som tabt
 
-Hvis du lukker et projekttilbud som tabt, angives status til **Lukket** , og statusårsag til **Tabt**. Når tilbuddet lukkes, er det skrivebeskyttet. Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.
+Hvis du lukker et projekttilbud som tabt, angives status til **Lukket**, og statusårsag til **Tabt**. Når tilbuddet lukkes, er det skrivebeskyttet. Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.
 
 Hvis det projekttilbud, der er lukket som tabt, er et projekt, der refereres til på nogen af sine linjer, er det projekt også markeret som lukket, og eventuelle ressourcereservationer fra den pågældende dag annulleres.
 

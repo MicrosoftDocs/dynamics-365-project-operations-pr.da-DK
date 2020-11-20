@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 17, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 17, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074128"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126791"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Opdateringsudgivelse 17 til Project Service Automation, V3
 
@@ -52,6 +52,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for PSA
 **Sales**
 
 - Løst: **Faktura.ForhåndsgodkendelseAfOpdateringAfFaktura** håndterer nu scenariet for gentildeling af postejere korrekt.
-- Løst: Når transaktionsklassen er **Tid** , er **UnitGroup** ikke redigerbar for alle objekter, herunder **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** og **ContractLineDetails**. Men **Enhed** kan ikke alene redigeres for **JournalLine** og **InvoiceLineDetails**.
+- Løst: Når transaktionsklassen er **Tid**, er **UnitGroup** ikke redigerbar for alle objekter, herunder **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** og **ContractLineDetails**. Men **Enhed** kan ikke alene redigeres for **JournalLine** og **InvoiceLineDetails**.
 
 

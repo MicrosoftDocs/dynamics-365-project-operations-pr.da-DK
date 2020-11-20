@@ -3,7 +3,7 @@ title: Oversigt over faktiske
 description: Dette emne indeholder oplysninger om faktiske projektoplysninger.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074370"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129761"
 ---
 # <a name="actuals-overview"></a>Oversigt over faktiske
 
@@ -39,7 +39,7 @@ Når der i PSA indsendes en tidsregistrering for et projekt, der er knyttet til 
 
 Logikken for angivelse af standardpriser findes på kladdelinjen. Samtlige feltværdier fra en tidsregistrering kopieres til kladdelinjen. Disse felter inkluderer datoen for transaktionen, den kontraktlinje, projektet er knyttet til, og valutaresultatet i den rette prisliste. 
 
-De felter, der påvirker standardpriser som f.eks **Rolle** og **Organisationsenhed** , medfører, at der som standard angives en passende pris på kladdelinjen. Hvis du tilføjer et brugerdefineret felt på tidsregistreringen, og feltværdien skal overføres til faktiske værdier, skal du oprette feltet på objektet Faktiske og bruge felttilknytninger til at kopiere feltet fra tidsregistreringen til den faktiske værdi.
+De felter, der påvirker standardpriser som f.eks **Rolle** og **Organisationsenhed**, medfører, at der som standard angives en passende pris på kladdelinjen. Hvis du tilføjer et brugerdefineret felt på tidsregistreringen, og feltværdien skal overføres til faktiske værdier, skal du oprette feltet på objektet Faktiske og bruge felttilknytninger til at kopiere feltet fra tidsregistreringen til den faktiske værdi.
 
 ## <a name="submitting-an-expense-entry"></a>Indsendelse af en udgiftspost
 
@@ -51,7 +51,7 @@ I den aktuelle version af PSA er kategoribaseret angivelse af standardpriser pr.
 
 ## <a name="using-entry-journals-to-record-costs"></a>Brug af Registreringskladder til registrering af omkostninger
 
-I PSA giver Registreringskladder dig mulighed for at registrere omkostningen eller indtægten i materiale-, gebyr-, time-, udgifts- eller momstransaktionsklasser. En kladde indeholder et hoved, linjer og en **Bekræft** -handling. Her er nogle scenarier, hvor du kan bruge en kladde:
+I PSA giver Registreringskladder dig mulighed for at registrere omkostningen eller indtægten i materiale-, gebyr-, time-, udgifts- eller momstransaktionsklasser. En kladde indeholder et hoved, linjer og en **Bekræft**-handling. Her er nogle scenarier, hvor du kan bruge en kladde:
 
 - Du skal registrere de faktiske omkostninger og salget af materialer i et projekt.
 - Du skal flytte faktiske transaktionsoplysninger fra et andet system til PSA.

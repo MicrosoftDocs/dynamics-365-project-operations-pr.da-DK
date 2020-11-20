@@ -3,7 +3,7 @@ title: Projektomkostninger og -omsætning
 description: Dette emne indeholder oplysninger om estimering af projektomkostninger og -omsætning.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074202"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127961"
 ---
 # <a name="project-costs-and-revenue"></a>Projektomkostninger og -omsætning
 
@@ -50,7 +50,7 @@ Hvis kombinationen af rolle og afdeling ikke returnerer en kostpris, ignoreres e
 Hvis systemet ikke finder en pris for rollen, skal kostprisen som standard være **0,00** på estimatlinjen. Alle beløb for omkostninger på projektets linjer med omkostningsestimater registreres i valutaen for kontraktenheden.
 
 > [!NOTE]
-> Som standard gemmer Microsoft Dynamics 365 omkostningsbeløb i grundvalutaen. De omkostningsbeløb, der vises under fanen **Estimater** , vises dog i valutaen for kontraktenheden.  
+> Som standard gemmer Microsoft Dynamics 365 omkostningsbeløb i grundvalutaen. De omkostningsbeløb, der vises under fanen **Estimater**, vises dog i valutaen for kontraktenheden.  
 
 ### <a name="default-sales-price"></a>Standardsalgspris 
 
@@ -80,7 +80,7 @@ I visningen med tidsfaser distribueres den samlede estimerede indsats for opgave
 
 ### <a name="work-hours-based-allocation"></a>Arbejdstidsbaseret fordeling
  
-I opgavetilstanden automatisk planlægning angives de daglige standardtimer for opgaveressourcer til hele timesatsen for arbejdet. Denne adfærd gælder, når indsatsen fordeles ved at opdele den hen over varigheden af opgaven i visningen med tidsfaser. Hvis du f.eks. vurderer, at en opgave bliver udført af én ressource i tidsskalaen **Dag** , vil den indsats, der er allokeret pr. dag, ikke overstige arbejdstimer pr. dag defineret i projektets kalender. Indsatsfordelingen sikrer derfor altid, at ressourcerne estimeres til at blive brugt hele dagen.
+I opgavetilstanden automatisk planlægning angives de daglige standardtimer for opgaveressourcer til hele timesatsen for arbejdet. Denne adfærd gælder, når indsatsen fordeles ved at opdele den hen over varigheden af opgaven i visningen med tidsfaser. Hvis du f.eks. vurderer, at en opgave bliver udført af én ressource i tidsskalaen **Dag**, vil den indsats, der er allokeret pr. dag, ikke overstige arbejdstimer pr. dag defineret i projektets kalender. Indsatsfordelingen sikrer derfor altid, at ressourcerne estimeres til at blive brugt hele dagen.
 
 ### <a name="even-allocation"></a>Ligelig fordeling
 

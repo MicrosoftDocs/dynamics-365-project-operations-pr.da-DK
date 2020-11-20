@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 20, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige i opdateringsudgivelse 20 til Project Service Automation, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074121"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126746"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Opdateringsudgivelse 20 til Project Service Automation, V3
 
@@ -58,5 +58,5 @@ Følgende problemer er blevet løst:
 - Varighed af tidsfasen i **Rentabilitetsanalysediagrammet** stemmer ikke overens med varigheden for omkostningerne i detaljerne for tilbudslinjerne for fastpris i tilbuddet.
 - Enheds- og enhedsgruppeværdier nulstilles ikke korrekt for udgiftskategorier i formularerne **Detaljer om kontraktlinje** og **Detaljer om tilbudslinje**.
 - Listerne **Org enhedskostpris** tillader overlapninger i datoeffektiviteten.
-- Brugere har ikke tilladelse til at ændre **OrgUnit** , når ordretypen ikke er arbejdsbaseret, fordi den vil resultere i en undtagelsesfejl i null-referencen.
-- Når du forsøger at navigere fra formularen **Detaljer om tilbudslinjen** tilbage til fanen **Tilbud** , opdateres formularen, og fanen **Oversigt** vises.
+- Brugere har ikke tilladelse til at ændre **OrgUnit**, når ordretypen ikke er arbejdsbaseret, fordi den vil resultere i en undtagelsesfejl i null-referencen.
+- Når du forsøger at navigere fra formularen **Detaljer om tilbudslinjen** tilbage til fanen **Tilbud**, opdateres formularen, og fanen **Oversigt** vises.

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074109"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128681"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurer fakturerbare komponenter i en projektbaseret kontraktlinje
 
@@ -35,13 +35,13 @@ Den fakturerbarhed, der er defineret på transaktionskategorier i en projektkont
 
 En rolle kan være fakturerbar eller ikke-fakturerbar på en bestemt projektbaseret kontraktlinje.
 
-På fanen **Fakturerbare roller** på en projektbaseret kontraktlinje skal du i undergitteret for **Fakturerbare kategorier** i feltet **Faktureringstype** opdatere faktureringstypen for en rolle.
+På fanen **Fakturerbare roller** for en projektbaseret kontraktlinje kan du i undergitteret **Fakturerbare kategorier** i feltet **Faktureringstype** opdatere en rolles faktureringstype.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Opdater en transaktionskategori til at være fakturerbar eller ikke-fakturerbar
 
 En transaktionskategori kan være fakturerbar eller ikke-fakturerbar på en bestemt projektbaseret kontraktlinje.
 
-På fanen **Fakturerbare kategorier** på en projektbaseret kontraktlinje skal du i undergitteret for **Fakturerbare kategorier** i feltet **Faktureringstype** opdatere faktureringstypen for en transaktion.
+På fanen **Fakturerbare kategorier** for en projektbaseret kontraktlinje kan du i undergitteret **Fakturerbare kategorier** i feltet **Faktureringstype** opdatere en transaktions faktureringstype.
 
 ### <a name="resolve-chargeability"></a>Løs fakturerbarhed
 

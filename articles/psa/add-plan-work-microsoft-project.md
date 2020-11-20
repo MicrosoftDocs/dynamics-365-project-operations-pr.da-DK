@@ -3,7 +3,7 @@ title: Brug tilføjelsesprogrammet Project Service til at planlægge dit arbejde
 description: Denne emne indeholder oplysninger om, hvordan du kan tilføje, konfigurere og bruge Microsoft Project-tilføjelsesprogrammet til Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074302"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129671"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Brug tilføjelsesprogrammet Project Service Automation til at planlægge dit arbejde i Microsoft Project
 
@@ -70,7 +70,7 @@ ms.locfileid: "4074302"
 
 1.  Åbn et projekt, og klik på båndet **Opgave**.  
 
-2.  Klik på menuen **Gantt-diagram** , og vælg derefter **Ressourceark**.  
+2.  Klik på menuen **Gantt-diagram**, og vælg derefter **Ressourceark**.  
 
 3.  Klik på rullemenuen **Project Service-ressourcerolle** på ressourcearket, og vælg en Project Service Automation-rolle.  
 
@@ -80,7 +80,7 @@ ms.locfileid: "4074302"
 
 2.  På skærmen **Reservér ressource** skal du vælge den ressource, du vil bruge til projektet.  
 
-3.  Klik på **Reserver** , og klik derefter på **OK**.  
+3.  Klik på **Reserver**, og klik derefter på **OK**.  
 
 ## <a name="publish-your-project"></a>Udgiv dit projekt  
 Når projektplanlægningen er afsluttet, er næste trin at importere og udgive projektet til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -90,9 +90,9 @@ Projektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-proje
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-diagrammer**   | Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Arbejdsopgavehierarki** -skærmbilledet. |
-| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ressourceark** |   Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Medlemmer af projektteam** -skærmbilledet.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Bruge anvendelse**    |    Importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektestimater** -skærmbilledet.     |
+|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-diagrammer**   | Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Arbejdsopgavehierarki**-skærmbilledet. |
+| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ressourceark** |   Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Medlemmer af projektteam**-skærmbilledet.   |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Bruge anvendelse**    |    Importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektestimater**-skærmbilledet.     |
 
 **Sådan importerer og udgiver du projektet**  
 1. Fra fanen **Project Service** skal du klikke på **Udgiv** > **Nyt Project Service Automation-projekt**.  
@@ -141,7 +141,7 @@ Projektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-proje
 
 3. I dialogboksen **Aktiver Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** skal du vælge **Ja** eller **Nej**.  
 
-   - Hvis du klikker på **Ja** , kan du vælge knappen **Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** i Project Service Automation, starte [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] og indlæse Project-filen fra SharePoint-dokumentbiblioteket.  
+   - Hvis du klikker på **Ja**, kan du vælge knappen **Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** i Project Service Automation, starte [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] og indlæse Project-filen fra SharePoint-dokumentbiblioteket.  
 
    - Hvis du klikker på **Nej** virker linket for knappen **Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ikke.  
 
@@ -155,7 +155,7 @@ Projektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-proje
 
 3. I dialogboksen **Aktiver Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** skal du vælge **Ja** eller **Nej**.  
 
-   - Hvis du klikker på **Ja** , kan du vælge knappen **Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** i Project Service Automation, starte [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] og indlæse Project-filen fra SharePoint-dokumentbiblioteket.  
+   - Hvis du klikker på **Ja**, kan du vælge knappen **Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** i Project Service Automation, starte [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] og indlæse Project-filen fra SharePoint-dokumentbiblioteket.  
 
    - Hvis du klikker på **Nej** virker linket for knappen **Åbn i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ikke.  
 

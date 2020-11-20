@@ -3,7 +3,7 @@ title: Hvordan tildeler jeg en reserverbar ressource til en opgave i webappen?
 description: En oversigt over, hvordan du kan tildele reserverbare ressourcer.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074360"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125171"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hvordan tildeler jeg en reserverbar ressource til en opgave i webappen (Project Service-app v2.x)?
 
@@ -51,7 +51,7 @@ Med denne metode kan du føje en ressource til projektteamet og derefter tildele
     - **Efter timer - jævn fordeling** reserverer ressourcen i et angivet antal timer og distribuerer dem jævnt pr. dag over de angivne fra- og til-datoer.
     - **Efter timer - flest timer først i perioden** reserverer ressourcen i et angivet antal timer og distribuerer timerne pr. dag med de største udgifter først i perioden hen over de angivne fra- og til-datoer.
 
-    Du skal ikke vælge **Ingen** , fordi det føjer ressourcen til teamet, men opretter ikke nogen reservationer, der forbruger ressourcens kapacitet.
+    Du skal ikke vælge **Ingen**, fordi det føjer ressourcen til teamet, men opretter ikke nogen reservationer, der forbruger ressourcens kapacitet.
 5.  Vælg **Gem**.
 
     Bemærk, at reservationstimerne skal kunne dække indsatstimer og datointervaller for de opgaver, som du tildeler denne ressource til. Hvis de ikke er justerede, kan du ikke tildele ressourcen til opgaven.
@@ -59,7 +59,7 @@ Med denne metode kan du føje en ressource til projektteamet og derefter tildele
 6.  Klik på ressourcecellens rulleliste i arbejdsopgavehierarkiet (WBS) for opgaven. Derefter: 
 
     1. Vælg **Tilføj**.
-    2. Vælg rullelisten under **Ressourcer** , og vælg det teammedlem, du har tilføjet ovenfor.
+    2. Vælg rullelisten under **Ressourcer**, og vælg det teammedlem, du har tilføjet ovenfor.
     3. Vælg **OK**. Teammedlemmet tildeles nu til opgaven.
 
     > [!div class="mx-imgBorder"] 
@@ -88,7 +88,7 @@ Denne metode sikrer, at ressourcer har tilstrækkelige reservationer for opgaver
 
 1. Vælg en opgave i arbejdsopgavehierarkiet.
 2. Vælg ikonet **Tildelt rolle** på rullelisten i ressourcecellen.
-3. Vælg rullelisten **Rolle** , og vælg rollen for den generiske ressource.
+3. Vælg rullelisten **Rolle**, og vælg rollen for den generiske ressource.
 4. Vælg **OK**.
 
     > [!div class="mx-imgBorder"] 

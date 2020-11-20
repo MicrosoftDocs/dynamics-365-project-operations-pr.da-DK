@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074292"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128276"
 ---
 # <a name="confirm-a-project-contract"></a>Bekræft en projektkontrakt
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-En projektkontrakt i Dynamics 365 Project Operations kan være aktiv med en årsag angivet til **Bekræftet** eller være lukket med en årsag angivet til **Tabt**. Når du bekræfter en projektkontrakt, opdateres statussen fra **Kladde** til **Aktiv** , og statusårsagen angives til **Bekræftet**. En aktiv eller lukket kontrakt kan ikke redigeres eller genåbnes. 
+En projektkontrakt i Dynamics 365 Project Operations kan være aktiv med en årsag angivet til **Bekræftet** eller være lukket med en årsag angivet til **Tabt**. Når du bekræfter en projektkontrakt, opdateres statussen fra **Kladde** til **Aktiv**, og statusårsagen angives til **Bekræftet**. En aktiv eller lukket kontrakt kan ikke redigeres eller genåbnes. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Økonomisk indvirkning af at bekræfte en projektkontrakt
 

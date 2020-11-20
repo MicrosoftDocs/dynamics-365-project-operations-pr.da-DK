@@ -3,7 +3,7 @@ title: Planlægge et projekt med et arbejdsopgavehierarki
 description: Sådan planlægger du et projekt med et arbejdsopgavehierarki i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074354"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127871"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planlægge et projekt med et arbejdsopgavehierarki (Project Service)
 
@@ -86,14 +86,14 @@ Du skal bruge følgende typer opgaver, når du opretter dit arbejdsopgavehierark
   
 ### <a name="schedule-attributes"></a>Planlæg attributter
 
- - Tildel værdier til **Indsatstimer** , **Antal ressourcer** , **Startdato** , **Slutdato** og **Varighed** til at bestemme tidspunktet for opgaven. 
+ - Tildel værdier til **Indsatstimer**, **Antal ressourcer**, **Startdato**, **Slutdato** og **Varighed** til at bestemme tidspunktet for opgaven. 
  - **Indsats** er et skøn over de timer, det tager at udføre opgaven.
  - **Antal ressourcer** er et skøn, der giver projektlederen til opgave til at komme med den bedste mulige tidsplan. 
  - **Varighed** (i dage) angiver antallet af arbejdsdage, det tager at fuldføre opgaven.  
   
 ### <a name="staffing-attributes"></a>Bemandingsattributter
 
- - **Rolle** , **ressourceafdeling** , **antal ressourcer,** og **ressourcer** beskriver behov for personale til opgaven. 
+ - **Rolle**, **ressourceafdeling**, **antal ressourcer,** og **ressourcer** beskriver behov for personale til opgaven. 
  - **Rolle** beskriver den type ressource, der er nødvendige for at udføre opgaven. 
  - **Ressourceafdeling** angiver den afdeling, der skal bemandes ressourcer til denne opgave. Dette påvirker også omkostninger og salgsvurdering af opgaven, da dette er taget i betragtning ved fastsættelsen af enhedssalgsprisen for ressourcen. 
  - **Ressourcer** indeholder en generisk ressource eller en navngivet ressource, når der findes en.  

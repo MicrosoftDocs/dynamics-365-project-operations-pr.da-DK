@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 24, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074124"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126566"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Opdateringsudgivelse 24 til Project Service Automation, V3
 
@@ -73,7 +73,7 @@ Følgende problemer er blevet løst:
 - De faktiske omkostninger på et projekt afspejler muligvis ikke totalerne fra de **Faktiske værdier**.
 - **Den anslåede slutdato** under fanen **Oversigt** stemmer ikke overens med **WBS-planen**.
 - **Opdater faktiske timer** på udrykning fungerer ikke korrekt.
-- En projektleder uden for **BU** -roden kan ikke oprette et projekt.
+- En projektleder uden for **BU**-roden kan ikke oprette et projekt.
 - Ændringer af opgave eller kategori i **Udgiftsestimater** bevares ikke.
 - **Kopi af kontrakt** kopierer fakturaplanerne og kørselsstatus.
 - Knappen **Opdater faktiske oplysninger** beregner hovedopgaver ukorrekt.

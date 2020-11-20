@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074107"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124496"
 ---
 # <a name="time-entry-ui-behavior"></a>Funktionsmåde for brugergrænsefladen for tidsregistrering
 
@@ -40,15 +40,15 @@ I sektionen Varighed vises dagene i ugen som kolonneoverskrifter. I denne sektio
 
 1. I gitteret for tidsregistreringer skal du vælge **Ny**. 
 2. I dialogboksen for **Hurtig oprettelse af tidsregistrering** skal du vælge datoen for tidsregistreringen.
-3. Angiv data for dimensionerne **Projekt** , **Projektopgave** , **Rolle** og **Varighed**. Disse oplysninger skal tilføjes i minutter, timer eller dage ved at skrive **t** , **m** eller **d** sammen med tallet. 
+3. Angiv data for dimensionerne **Projekt**, **Projektopgave**, **Rolle** og **Varighed**. Disse oplysninger skal tilføjes i minutter, timer eller dage ved at skrive **t**, **m** eller **d** sammen med tallet. 
 4. Angiv en beskrivelse af registreringen og eventuelle kommentarer, der kan deles eksternt i forhold til tidsregistreringen. 
 
-Når du gemmer registreringen, vises de angivne værdier i sektionen **Dimensioner**. De oplysninger, som der er angivet i feltet **Varighed** , vises på den dato, som tidsregistreringen blev oprettet for.
+Når du gemmer registreringen, vises de angivne værdier i sektionen **Dimensioner**. De oplysninger, som der er angivet i feltet **Varighed**, vises på den dato, som tidsregistreringen blev oprettet for.
 
 Opslagsfelter understøttes af systemvisninger. Når en bruger f.eks. indtaster et projekt, er feltet **Projektopgave** som standard angivet til visningen **Kopiér**. Hvis du vil oprette tidsregistreringer for opgaver, der ikke er tildelt til en bruger, skal du vælge **Skift visning** i opslagsdialogboksen og derefter vælge visningen **Alle aktive projektopgaver**.
 
 ## <a name="edit-a-time-entry"></a>Redigere en tidsregistrering 
-Detaljer fra visse felter på siden med tidsregistrering, f.eks **Beskrivelse** og **Eksterne kommentarer** vises ikke i det ugentlige tidsregistreringsgitteret. I stedet vises en lille trekantet indikator i celler med **Varighed** , der indeholder disse yderligere detaljer. 
+Detaljer fra visse felter på siden med tidsregistrering, f.eks **Beskrivelse** og **Eksterne kommentarer** vises ikke i det ugentlige tidsregistreringsgitteret. I stedet vises en lille trekantet indikator i celler med **Varighed**, der indeholder disse yderligere detaljer. 
 
 1. Hvis du vil redigere en tidsregistrering, skal du markere den celle, du vil opdatere i tidsregistreringen.
 2. Vælg **Rediger detaljer** for at opdatere dataene i ruden **Primær formular for tidsregistrering**. 
@@ -67,10 +67,10 @@ Du kan tilbagekalde tidsregistreringer, som du har sendt. Du kan tilbagekalde en
 
 ## <a name="time-entry-status"></a>Status for tidsregistrering
 
-- **Kladde** : Nye tidsregistreringer får automatisk tildelt statussen **Kladde**. Det er kun tidsregistreringer med statussen **Kladde** , der kan slettes.
-- **Indsendt** : Når en tidsregistrering er indsendt, opdateres statussen til **Indsendt**. 
-- **Godkendt** : Når en indsendt tidsregistrering godkendes, opdateres statussen til **Godkendt**. 
-- **Returneret** : Hvis en tidsregistrering afvises, opdateres statussen til **Returneret** , og registreringen bliver tilgængelig, så den kan rettes og indsendes igen. 
+- **Kladde**: Nye tidsregistreringer får automatisk tildelt statussen **Kladde**. Det er kun tidsregistreringer med statussen **Kladde**, der kan slettes.
+- **Indsendt**: Når en tidsregistrering er indsendt, opdateres statussen til **Indsendt**. 
+- **Godkendt**: Når en indsendt tidsregistrering godkendes, opdateres statussen til **Godkendt**. 
+- **Returneret**: Hvis en tidsregistrering afvises, opdateres statussen til **Returneret**, og registreringen bliver tilgængelig, så den kan rettes og indsendes igen. 
 
 ## <a name="view-rejection-comments"></a>Se kommentarer til afvisning
 Når en tidsregistrering afvises af en godkender, kan godkenderen tilføje kommentarer, så ressourcen bedre forstår årsagen til afvisningen. Hvis du vil have vist kommentarerne til afslaget for en tidsregistrering, skal du vælge **Åbn post**. Kommentarerne til afvisningen vises på tidslinjen. Brugeren kan svare på kommentarerne til afvisningen, før de indsender registreringen igen.

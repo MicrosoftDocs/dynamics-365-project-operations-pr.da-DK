@@ -3,7 +3,7 @@ title: Reservere navngivne ressourcer fra ressourcekrav
 description: Denne emne indeholder oplysninger om at reservere navngivne ressourcer til et generisk ressourcekrav.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074377"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125891"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservere navngivne ressourcer fra ressourcekrav
 
@@ -38,7 +38,7 @@ Du kan reservere en navngivet ressource til at erstatte en generisk ressource, d
 ![Reservation af et generisk teammedlem](media/RM-how-to-14.png)
 
 
-3. Vælg en navngivet ressource, der skal reserveres for projektteamet, på siden **Planlægningsassistent** , og klik derefter på **Reservér**.
+3. Vælg en navngivet ressource, der skal reserveres for projektteamet, på siden **Planlægningsassistent**, og klik derefter på **Reservér**.
 
 ![Reservation af et generisk teammedlem ved hjælp af planlægningsassistent](media/RM-how-to-15.png)
 
@@ -63,6 +63,6 @@ Dette er et eksempel på, hvornår der skal bruges flere navngivne ressourcer ti
 
 ![Reservation af flere ressourcer for at indfri kravet](media/RM-how-to-23.png)
 
-Den væsentligste forskel i dette scenarie er, at den generiske ressource forbliver i det team, der er tildelt opgaven, og teammedlemmer af den reserverede navngivne ressource er ikke tildelt som en del af stillingen. Projektlederen kan tildele det arbejde, der er relevant for de navngivne ressourcer. **Afstemning** -visningen kan hjælpe en projektleder med at fordele reservationer på tværs af flere ressourcer til opgavetildelinger. Dette sker ikke automatisk, da det i et hvilket som helst scenarie, der er mere kompliceret end det enkle eksempel overfor, f.eks. hvor du har et bundt opgaver, der udgør kravet, er projektlederens hensigt med tildelingen, der skal optages i systemet. Da systemet ikke kan forstå hensigten, er det sandsynligt, at antagelserne vil være anderledes end forventet, og der opstår et forkert eller uforudsigeligt resultat. Det forudsigelige resultat er, at den generiske ressource forbliver tildelt, indtil projektlederen bevidst opretter tildelinger med hjælp fra visningen **Afstemning**.
+Den væsentligste forskel i dette scenarie er, at den generiske ressource forbliver i det team, der er tildelt opgaven, og teammedlemmer af den reserverede navngivne ressource er ikke tildelt som en del af stillingen. Projektlederen kan tildele det arbejde, der er relevant for de navngivne ressourcer. **Afstemning**-visningen kan hjælpe en projektleder med at fordele reservationer på tværs af flere ressourcer til opgavetildelinger. Dette sker ikke automatisk, da det i et hvilket som helst scenarie, der er mere kompliceret end det enkle eksempel overfor, f.eks. hvor du har et bundt opgaver, der udgør kravet, er projektlederens hensigt med tildelingen, der skal optages i systemet. Da systemet ikke kan forstå hensigten, er det sandsynligt, at antagelserne vil være anderledes end forventet, og der opstår et forkert eller uforudsigeligt resultat. Det forudsigelige resultat er, at den generiske ressource forbliver tildelt, indtil projektlederen bevidst opretter tildelinger med hjælp fra visningen **Afstemning**.
 
 

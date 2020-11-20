@@ -3,7 +3,7 @@ title: Nyheder eller ændringer i opdateringsudgivelse 22, V3, til Project Servi
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 22, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074120"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126611"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Opdateringsudgivelse 22 til Project Service Automation, V3
 
@@ -68,5 +68,5 @@ Følgende problemer er blevet løst:
 
 - Meddelelsen om valideringsfejl vises ikke, når der vælges en Kostprisliste i Prislisteopslaget på "Formular/objekt for prisliste for nyt tilbudsprojekt".
 - Når du lukker tilbuddet som vundet, navigeres der ikke til den oprettede kontrakt, hvis et BPF, der er knyttet til tilbuddet, er i det sidste stadie.
-- Hvis du tilbagefører **Ikke-faktureret salg** , knyttes de til den oprindelige omkostning, når en tidsregistrering tilbagekaldes.
-- Når du har valgt knappen **Bekræft** , ændres fakturaens status ikke til **Bekræftet** , medmindre fakturaen opdateres.
+- Hvis du tilbagefører **Ikke-faktureret salg**, knyttes de til den oprindelige omkostning, når en tidsregistrering tilbagekaldes.
+- Når du har valgt knappen **Bekræft**, ændres fakturaens status ikke til **Bekræftet**, medmindre fakturaen opdateres.

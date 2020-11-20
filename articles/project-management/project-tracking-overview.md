@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074023"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127335"
 ---
 # <a name="project-tracking-overview"></a>Oversigt over projektsporing
 
@@ -25,10 +25,10 @@ Behovet for at spore status i forhold til tidsplanen varierer fra branche til br
 
 Visningen **Indsatssporing** sporer fremgangen for opgaver i tidsplanen ved at sammenligne de faktiske timer anvendt på en opgave med opgavens planlagte tidsforbrug. Dynamics 365 Project Operations bruger følgende formler til at beregne sporingsmålepunkter:
 
-- **Procentvis fremgang** : Det faktiske tidsforbrug til dato - estimeret ved fuldførelse (EAC) 
-- **Anslået tid inden fuldførelse (ETC)** : Det planlagte tidsforbrug - faktisk tidsforbrug indtil dato 
-- **EAC** : Resterende tidsforbrug + faktisk tidsforbrug til dato 
-- **Forventet afvigelse i tidsforbrug** : Det planlagte tidsforbrug - EAC
+- **Procentvis fremgang**: Det faktiske tidsforbrug til dato - estimeret ved fuldførelse (EAC) 
+- **Anslået tid inden fuldførelse (ETC)**: Det planlagte tidsforbrug - faktisk tidsforbrug indtil dato 
+- **EAC**: Resterende tidsforbrug + faktisk tidsforbrug til dato 
+- **Forventet afvigelse i tidsforbrug**: Det planlagte tidsforbrug - EAC
 
 Project Operations viser en projektion af afvigelsen i tidsforbruget for opgaven. Hvis EAC er højere end det planlagte tidsforbrug, projekteres opgaven til at ville tage længere tid, end det oprindeligt var planlagt, og er bagud i forhold til planlægningen. Hvis EAC er mindre end det planlagte tidsforbrug, projekteres opgaven til at ville tage kortere tid, end det oprindeligt var planlagt, og er forud i forhold til planlægningen.
 
@@ -60,10 +60,10 @@ Visningen **Omkostningssporing** sammenligner de faktiske omkostninger, der er b
 > [!NOTE]
 > Denne visning viser kun omkostninger til arbejdsløn og inkluderer ikke omkostninger fra udgiftsestimaterne. Project Operations bruger følgende formler til at beregne sporingsmålepunkter:
 
-- **Procent af forbrugte omkostninger** : De faktiske omkostninger brugt til dato ÷ estimerede omkostninger ved fuldførelse
-- **Omkostninger indtil fuldførelse (CTC)** : De planlagte omkostninger - faktiske omkostninger brugt indtil dato
-- **EAC** : De resterende omkostninger + de faktiske forbrugte omkostninger til date
-- **Forventet omkostningsafvigelse** : Planlagte omkostninger - EAC
+- **Procent af forbrugte omkostninger**: De faktiske omkostninger brugt til dato ÷ estimerede omkostninger ved fuldførelse
+- **Omkostninger indtil fuldførelse (CTC)**: De planlagte omkostninger - faktiske omkostninger brugt indtil dato
+- **EAC**: De resterende omkostninger + de faktiske forbrugte omkostninger til date
+- **Forventet omkostningsafvigelse**: Planlagte omkostninger - EAC
 
 Der vises en projektion af afvigelsen i omkostningerne for opgaven. Hvis EAC er højere end de planlagte omkostninger, projekteres opgaven til at have flere omkostninger, end det oprindeligt blev planlagt. Der er derfor en tendens til at ligge over budgettet. Hvis EAC er lavere end de planlagte omkostninger, projekteres opgaven til at have færre omkostninger, end det oprindeligt blev planlagt. Der er derfor en tendens til at ligge under budgettet.
 
