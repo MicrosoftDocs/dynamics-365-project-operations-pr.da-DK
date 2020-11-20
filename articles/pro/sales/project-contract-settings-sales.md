@@ -1,21 +1,21 @@
 ---
-title: Projektkontraktfelter og -oplysninger
+title: Indstillinger for projektkontrakter - lille
 description: Dette emne indeholder oplysninger om de felter, der påvirker kontraktlinjer, og de oplysninger om kontrakten, der opsummeres på tværs af alle linjeelementer.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087864"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180905"
 ---
-# <a name="project-contract-fields-and-information"></a>Projektkontraktfelter og -oplysninger 
+# <a name="project-contract-settings---lite"></a>Indstillinger for projektkontrakter - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -23,7 +23,7 @@ Dette emne indeholder oplysninger om de felter, der gælder for hele projektkont
 
 I følgende tabel vises felterne for en projektkontrakt, der er entydige for Dynamics 365 Project Operations, eller som har nogle vigtige ændringer i funktionsmåden i forhold til salgsordrer i Dynamics 365 Sales.
 
-| Felt | Lokation | Relevans, formål og vejledning | Downstream-virkning |
+| Felt | Lokation | Beskrivelse | Downstream-virkning |
 | --- | --- | --- | --- |
 | Skriv | Fanen **Oversigt** (skjult) | Dette er et grupperet indstillingsfelt med følgende indstillinger:</br>- **Arbejdsbaseret** (kun tilgængelig, når Project Operations er installeret)</br>- **Enhedsbaseret** (kun tilgængelig, når Project Operations og Sales er installeret)</br>- **Servicevedligeholdelsesbaseret** (tilgængelig, når Dynamics 365 Field Service er installeret) | I Project Operations er værdien i dette felt som standard **Arbejdsbaseret** og klassificerer kontrakten som en projektbaseret kontrakt. En kontrakt skal være projektbaseret, for at alle projektspecifikke udvidelser og funktioner kan aktiveres. |
 | Kundeemne | Fanen **Oversigt** | Referencen til kundernes firma eller firmapost. Når en kontrakt oprettes ud fra et tilbud, kopieres dette felt fra det tilsvarende felt på tilbudsposten. | Valutaen i projektkontrakten angives som standard på grundlag af kundens valuta. Dette kan ændres, før kontrakten er blevet gemt. |
@@ -36,7 +36,7 @@ I følgende tabel vises felterne for en projektkontrakt, der er entydige for Dyn
 
 Følgende nøgletal er tilgængelige under fanen **Kontraktens ydeevne** i en projektkontrakt.
 
-| Felt | Lokation | Relevans, formål og vejledning |
+| Felt | Lokation | Beskrivelse |
 | --- | --- | --- |
 | Kontraktværdi | Overordnet kontrakt | Den samlede værdi af projektkontrakten. |
 | Faktureret beløb | Overordnet kontrakt | Summen af beløbene på alle fakturaer i forhold til denne kontrakt. |

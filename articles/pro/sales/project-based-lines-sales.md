@@ -1,21 +1,21 @@
 ---
-title: Projektbaserede salgsmulighedslinjer (Pro)
+title: Projektbaserede salgsmulighedslinjer - lille
 description: Dette emne indeholder oplysninger om projektbaserede salgsmulighedslinjer. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074097"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180995"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Projektbaserede salgsmulighedslinjer (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Projektbaserede salgsmulighedslinjer - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -25,9 +25,9 @@ Projektbaserede salgsmulighedslinjer er de linjeelementer, der skal leveres til 
 
 Nedenfor vises felterne på en projektbaseret salgsmulighedslinje:
 
-| **Felt** | **Placering** | **Relevans, formål og vejledning** | **Downstream-virkning** |
+| **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
-| Produkttype | Fanen Generelt (skjult) | Du kan vælge en af følgende indstillinger under:</br>- Projektbaseret service (kun tilgængelig, hvis der er installeret Dynamics 365 Project Operations)</br>- Produkt (kun tilgængelig, når Project Operations og Dynamics 365 Sales er installeret) | Værdien i dette felt er angivet til **Projektbaseret service** , når du opretter en projektbaserede salgsmulighedslinje fra gitteret for projektbaserede linjer i salgsmuligheden. <br> Hvis du ændrer eller tilsidesætter denne værdi, aktiveres projektfunktionen ikke i dine projektbaserede linjeelementer. |
+| Produkttype | Fanen Generelt (skjult) | Du kan vælge en af følgende indstillinger under:</br>- Projektbaseret service (kun tilgængelig, hvis der er installeret Dynamics 365 Project Operations)</br>- Produkt (kun tilgængelig, når Project Operations og Dynamics 365 Sales er installeret) | Værdien i dette felt er angivet til **Projektbaseret service**, når du opretter en projektbaserede salgsmulighedslinje fra gitteret for projektbaserede linjer i salgsmuligheden. <br> Hvis du ændrer eller tilsidesætter denne værdi, aktiveres projektfunktionen ikke i dine projektbaserede linjeelementer. |
 | Salgsmulighed | Fanen Generelt | Dette felt er skrivebeskyttet og refererer til de overordnede salgsmulighedsposter, som linjeelementet tilhører. | Dette felt har ingen downstream-virkning. |
 | Navn | Fanen Generelt | Dette redigerbare tekstfelt kan bruges til at give en kort identitet til linjeelementet. | Denne værdi overføres til tilbudslinjen, når du opretter et tilbud fra denne salgsmulighed. |
 | Kundebudget | Fanen Generelt | Dette redigerbare valutafelt kan bruges til at spore det beløb, som kunden er villig til at bruge på dette linjeelement. | Denne værdi overføres til det tilsvarende felt på tilbudslinjen, når du opretter et tilbud fra denne salgsmulighed. |

@@ -1,21 +1,21 @@
 ---
-title: Forskudskontrakter og kontrakter baseret på forskudshonorar
+title: Forskudskontrakter og kontrakter baseret på forskudshonorar - lille
 description: Dette emne indeholder oplysninger om kontraktmodeller, der er baseret på forskudshonorarer eller forskud i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087862"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180860"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Forskudskontrakter og kontrakter baseret på forskudshonorar 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Forskudskontrakter og kontrakter baseret på forskudshonorar - lille
 
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
@@ -33,7 +33,7 @@ Ud over en periodisk plan, der er baseret på forskudshonorar, kan Project Opera
 
 Forskudshonoraret i Project Operations er ikke tilgængelig til brug, før det er faktureret til kunden. Dette angives ved følgende felter på undergitteret for forskud og forskudshonorarer.
 
-| Felt | Relevans, formål og vejledning | Downstream-virkning |
+| Felt | Beskrivelse | Downstream-virkning |
 | --- | --- | --- |
 | Beløb til rådighed | Det beløb, der kan bruges på posten med forskudshonorar eller forskud. | Indtil forskuddet eller forskudshonoraret er blevet faktureret, er det ikke muligt at anvende beløbet, hvilket betyder, at det disponible beløb er nul. |
 | Anvendt beløb | Det beløb, der allerede er brugt på forskudshonorar eller forskud. | Et forskud eller forskudshonorar kan være delvist afstemt på en faktura med faktiske omkostninger, hvor en del vil være markeret som allerede anvendt eller forbrugt. Resten af forskuddet eller forskudshonoraret er tilgængeligt til afstemning på fremtidige fakturaer med faktiske omkostninger. |

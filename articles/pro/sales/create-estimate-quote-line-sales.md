@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074076"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180365"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimering af en projektbaseret tilbudslinje
 
@@ -30,9 +30,9 @@ Hvis du vil estimere en projektbaseret tilbudslinje på den projektbaserede tilb
 
 Hvis du vil oprette et estimat på en projektbaseret tilbudslinje, skal du vælge fanen **Tilbudslinjedetaljer**. Det linjeelement, du opretter under denne fane, opsummerer den citerede værdi for tilbudslinjen. 
 
-Hvis du vil oprette detaljer om tilbudslinjer, skal du vælge **+ Ny tilbudslinjedetalje** i undergitteret **Tilbudslinjedetaljer**. En hurtig oprettelsesskyder åbnes. Følgende felter i formularen **Tilbudslinje** :
+Hvis du vil oprette tilbudslinjedetaljer, skal du vælge **+ Nye tilbudslinjedetalje** i undergitteret **Tilbudslinjedetaljer**. En hurtig oprettelsesskyder åbnes. Følgende felter i formularen **Tilbudslinje**:
 
-| **Felt** | **Placering** | **Relevans, formål og vejledning** | **Downstream-virkning** |
+| **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
 | Beskrivelse | Hurtig oprettelse | En beskrivelse af det specifikke estimat. | Dette felt er som standard angivet til den relaterede tilbudslinje for omkostninger, der oprettes automatisk. |
 | Transaktionsklasse | Hurtig oprettelse | Denne rulleliste indeholder de transaktionsklasser, der findes under fanen **Generelt** for den projektbaserede tilbudslinje.  | Dette felt er som standard angivet til den relaterede tilbudslinje for omkostninger, der oprettes automatisk. |
@@ -50,11 +50,11 @@ Hvis du vil oprette detaljer om tilbudslinjer, skal du vælge **+ Ny tilbudslinj
 
 ## <a name="update-prices-on-quote-line-details"></a>Opdater priser på tilbudslinjedetaljer
 
-Hvis du har ændret priserne på den projektprisliste, der er knyttet til tilbuddet, eller på omkostningsprislisten for ordren, kan du vælge **Genberegn** på siden **Tilbud** for at opdatere priserne på de enkelte tilbudslinjedetaljer, så de afspejler denne ændring. Når du vælger **Genberegn** , vises der en advarsel, der oplyser om, at priser på tilbudslinjedetaljer for alle tilbudslinjer i tilbuddet bliver nulstillet. Vælg **Ja** , hvis du vil opdatere priser for både salgs- og omkostningstilbudslinjedetaljer.
+Hvis du har ændret priserne på den projektprisliste, der er knyttet til tilbuddet, eller på omkostningsprislisten for ordren, kan du vælge **Genberegn** på siden **Tilbud** for at opdatere priserne på de enkelte tilbudslinjedetaljer, så de afspejler denne ændring. Når du vælger **Genberegn**, vises der en advarsel, der oplyser om, at priser på tilbudslinjedetaljer for alle tilbudslinjer i tilbuddet bliver nulstillet. Vælg **Ja**, hvis du vil opdatere priser for både salgs- og omkostningstilbudslinjedetaljer.
 
 ## <a name="access-quote-line-details-for-cost"></a>Få adgang til tilbudslinjedetaljer for omkostninger
 
-På fanen **Tilbudslinjedetaljer** skal du vælge en række i gitteret for at aktivere nogle handlinger på værktøjslinjen i undergitteret. Den første handling på undergitters værktøjslinje, når en tilbudslinjedetalje er valgt, er **Åbne omkostningsdetaljer**. Vælg **Åbne omkostningsdetaljer** for at se den relaterede omkostningssats og det tilknyttede beløb for denne tilbudslinje.
+På fanen **Tilbudslinjedetaljer** skal du vælge en række i gitteret for at aktivere visse handlinger på værktøjslinjen for undergitteret. Den første handling på værktøjslinjen for undergitter, når en tilbudslinjedetalje er valgt, er **Åbn omkostningsdetalje**. Vælg **Åbne omkostningsdetaljer** for at se den relaterede omkostningssats og det tilknyttede beløb for denne tilbudslinje.
 
 > [!NOTE]
 > Hvis du ændrer værdierne for ressourceenhed, antal, datoer, rolle eller kategori på tilbudslinjedetaljerne for omkostningen, ændres de tilsvarende værdier i tilbudslinjedetaljerne for salg.

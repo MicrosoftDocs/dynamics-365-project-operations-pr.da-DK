@@ -3,10 +3,10 @@ title: Gennemse foreslåede ressourcer
 description: Dette emne indeholder oplysninger om, hvordan du foreslår projektressourcer.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074139"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401166"
 ---
 # <a name="review-proposed-resources"></a>Gennemse foreslåede ressourcer
 
@@ -47,35 +47,6 @@ Når personalechefer behandler ressourceanmodninger, kan de benytte en af følge
 - Foreslå færre ressourcer end nødvendigt. I dette scenario er den foreslåede ressourcekapacitet mindre end de krævede timer, som anmoderen har angivet. Når anmoderen accepterer de foreslåede ressourcer, oprettes der derfor et uopfyldt ressourcekrav for at registrere det resterende behov.
 - Reservér flere ressourcer for at opfylde efterspørgslen, hvis der ikke er en enkelt ressource tilgængelig til udførelse af arbejdet.
 - Reservere færre ressourcer end nødvendigt. I dette scenario er de reserverede timer færre end de krævede timer. Systemet hjælper dig med at foreslå ressourcer i stedet for reservationer, så anmoderen kan kontrollere og holde styr på det resterende behov.
-
-## <a name="billable-utilization"></a>Fakturerbart tidsforbrug
-
-Ressourcer kan have et fakturerbart tidsforbrug for et mål. Dette mål-tidsforbrug er enten defineret som en attribut i en ressources standardrolle eller angivet på posten for den individuelle, reserverbare ressource. Beregningerne af tidsforbrug er baseret på det faktiske antal timer, som ressourcer har rapporteret ved hjælp af godkendte tidsregistreringer.
-
-Følgende formler bruges til at beregne forbrug:
-
-- Fakturerbart tidsforbrug = fakturerbare faktiske timer ÷ ressourcekapacitet
-- Ikke-fakturerbar tidsforbrug = faktisk tid med faktureringstype-ID = ikke-fakturerbar, komplementær eller ikke tilgængelig ÷ ressourcekapacitet
-- Intern = faktisk tid uden salgskontrakt ÷ ressourcekapacitet
-- Ressourcekapacitet = ressourcens arbejdstimer – ikke til stede – fridage
-
-Du kan finde visningen **Ressourceforbrug** i ruden **Ressourcer.**
-
-Hver celle i gitteret repræsenterer den fakturerbare udnyttelsesprocent for ressourcen i en periode, f.eks. en dag, uge eller måned. Følgende formler bruges til farvning af cellerne:
-
-- **Grøn:** Fakturerbart tidsforbrug \>= Resourcens måltidsforbrug
-- **Gul:** Mål-tidsforbrug – 20 \<= Fakturerbart tidsforbrug \< Mål-tidsforbrug
-- **Rød:** Fakturerbart tidsforbrug \< Mål-tidsforbrug – 20
-
-Da visningen **Ressourceforbrug** er baseret på planlægningsområdet, kan du bruge filtreringsfunktionerne i planlægningsområdet til at filtrere resultaterne.
-
-Gitteret kræver, at du angiver et mål-tidsforbrug for enten rolle eller den enkelte ressource. Du konfigurerer dette ved at gå til **Ressourcer** \> **Ressourceroller**.
-
-Derudover skal der tildeles en standardrolle til hver af de pågældende reserverbare ressourcer. Gå til **Ressourcer** \> **Ressourcer**. På fanen **Project Service** skal du kontrollere, at der er defineret en ressourcerolle, og at feltet **Er standard** herfor er angivet til **Ja**. Du kan tilføje flere roller, hvor **Er standard =** nej. Den rolle, hvor **Er standard = Ja** , bruges til at evaluere ressourcens tidsforbrug i forhold til destinationen for den pågældende rolle.
-
-På fanen **Project Service** kan du også angive en individuel mål-tidsforbrug for ressourcen. I beregningen af tidsforbruget bruger derefter denne mål-tidsforbrug til at evaluere ressourcens mål i stedet for målet for ressourcens standardrolle.
-
-Tidsforbrug vises kun for en ressource, hvis den pågældende ressource har godkendt fakturerbar tid i løbet af den periode, der vises i gitteret.
 
 ## <a name="resource-availability"></a>Ressourcetilgængelighed
 

@@ -1,21 +1,21 @@
 ---
-title: Projektbaserede tilbudslinjer
+title: Oversigt over projektbaserede tilbudslinjer
 description: Dette emne indeholder oplysninger om, hvordan du bruger projektbaserede tilbudslinjer til projektarbejde.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074039"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181850"
 ---
-# <a name="project-based-quote-lines"></a>Projektbaserede tilbudslinjer
+# <a name="project-based-quote-lines-overview"></a>Oversigt over projektbaserede tilbudslinjer
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
@@ -31,7 +31,7 @@ Projektbaserede tilbudslinjer er udviklet til at hjælpe med at vurdere projekta
 
 Følgende tabel indeholder oplysninger om felterne under fanen **Generelt** på den projektbaserede tilbudslinje. Disse felter bruges til at konfigurere grundlaget for en detaljeret estimering overslag af projektarbejdet fra start til slut.
 
-| **Felt** | **Relevans, formål og vejledning** | **Downstream-virkning** |
+| **Felt** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- |
 | Navn | Navnet på tilbudslinjen, som kan hjælpe dig med at identificere den diskrete komponent i det tilbud, der estimeres. | Kopieres til den projektkontraktlinje, der er oprettet ud fra denne tilbudslinje, når tilbuddet er vundet. |
 | Faktureringsmetode | På et tilbud, der er oprettet ud fra en salgsmulighed, kopieres denne værdi fra det tilsvarende felt på salgsmulighedslinjen. Dette felt indeholder de to primære kontraherende modeller, der understøttes af Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid og materiale.| Denne feltværdi kopieres til den projektkontraktlinje, der er oprettet ud fra denne tilbudslinje, når tilbuddet er vundet. |
@@ -47,11 +47,11 @@ Følgende tabel indeholder oplysninger om felterne under fanen **Generelt** på 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Valideringsregler for felter under fanen Generelt på projektbaserede tilbudslinjer
 
-**Regel 1** : En bestemt transaktionsklasse i det valgte projekt kan kun inkluderes på én projektbaseret tilbudslinje i et tilbud.
+**Regel 1**: En bestemt transaktionsklasse i det valgte projekt kan kun inkluderes på én projektbaseret tilbudslinje i et tilbud.
 
-**Regel 2** : Hvis en salgsmulighed har flere tilbud, kan der være tilbudslinjer fra forskellige tilbud, der alle refererer til det samme projekt, og som inkluderer samme transaktionsklasse.
+**Regel 2**: Hvis en salgsmulighed har flere tilbud, kan der være tilbudslinjer fra forskellige tilbud, der alle refererer til det samme projekt, og som inkluderer samme transaktionsklasse.
 
-**Regel 3** : Hvis de pågældende tilbud ikke hører til samme salgsmulighed, kan de ikke indeholde samme projekt- og transaktionsklasse.
+**Regel 3**: Hvis de pågældende tilbud ikke hører til samme salgsmulighed, kan de ikke indeholde samme projekt- og transaktionsklasse.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

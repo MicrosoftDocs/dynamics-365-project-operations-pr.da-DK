@@ -1,0 +1,41 @@
+---
+title: Oprettelse af et ad hoc-forskud på en kontrakt - lille
+description: Dette emne indeholder oplysninger om, hvordan du opretter et forskud på en kontrakt efter behov.
+author: rumant
+manager: Annbe
+ms.date: 10/26/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181355"
+---
+# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Oprettelse af et ad hoc-forskud på en kontrakt - lille
+
+_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+
+Microsoft Dynamics 365 Project Operations understøtter faktureringsscenarier, som omfatter forudbetalinger og forskud. Processen til brug af **Forskud** i **Project Operations** svarer til kontrakter med **Forskudshonorar**. 
+
+Benyt følgende fremgangsmåde for at fakturere et forskud til kunden.
+
+1. Gå til siden **Projektkontrakt**, og vælg derefter fanen **Forskud og forskudshonorarer**.
+2. I undergitteret, som viser alle de tidligere registrerede forskud og forudbetalinger skal du vælge **+ Nyt forskudshonorarer på projektkontrakt**. 
+
+    Formularen **Hurtig oprettelse** åbnes med henblik på registrering af en forudbetalinger eller et forskud.
+    
+3. I tabellen nedenfor vises de felter til registrering af forskud og overvejelser, du skal have in mente, når du opretter nye:
+
+    | Felt | Beskrivelse | Downstream-virkning |
+    | --- | --- | --- |
+    | **Projektkontraktkunde** | Dette feltet angiver, hvilken kunde på kontrakten dette forskud skal faktureres til. | Hvis der er flere kunder på kontrakten, og du vil fakturere hver af dem et bestemt forskudshonorarer eller forskudsbeløb, skal du oprette et forskud for hver enkelt kunde. |
+    | **Beskrivelse** | Beskrivelsen af formålet med eller tidspunktet for forskuddet bidrager til at identificere forskuddet. | Beskrivelsen vises på fakturalinjen for denne forskudsbetaling. |
+    | **Beløb** | Beløbet for forudbetalingen eller forskuddet. | Dette beløb vises på fakturalinjen for denne forskudsbetaling. |
+    | **Fakturadato** | Den dato, hvor dette forskud er faktureret til kunden. | Dette er datoen, hvor processen for automatisk fakturaoprettelse opretter en fakturalinje for forskuddet. |
+    | **Fakturastatus** | Dette er en indstilling, der angiver, om dette forskud tilføjes til en kladdefaktura for denne kunde. De mulige værdier er:</br>- **Ikke klar til fakturering**</br>- **Klar til fakturering** | Når et forskud eller en forudbetaling er markeret som **Klar til fakturering**, tilføjes den som en linjetid på en kladdefaktura. Det er kun et fuldt faktureret forskud, der kan bruges til afstemning med projektomkostninger for den næste faktureringsperiode. |
+
+4. Vælg **Gem og luk** i dialogboksen for hurtig oprettelse for at registrere forskuddet eller forudbetalingen.

@@ -1,21 +1,21 @@
 ---
-title: Nøglekoncepter for projekttilbud
+title: Tilbud - nøglekoncepter – lille
 description: Dette emne indeholder oplysninger om, hvordan du bruger projekttilbud i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074096"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177999"
 ---
-# <a name="project-quote-key-concepts"></a>Nøglekoncepter for projekttilbud
+# <a name="quotes---key-concepts---lite"></a>Tilbud - nøglekoncepter – lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -78,7 +78,7 @@ Aftaler med flere kunder finder sted, når der er mere end én kunde, som skal f
 
 ## <a name="invoice-schedules"></a>Fakturaplaner
 
-Fakturaplaner er specifikke for hver tilbudslinje og er også valgfrie. Fakturaplaner oprettes på baggrund af bestemte start- og slutdatoer og fakturafrekvenser. Fakturaplaner bruges i kontraktfasen, når processen for automatisk oprettelse af fakturaer er konfigureret. I tilbudsfasen er planerne valgfrie. Når der oprettes fakturaplaner i fasen **Tilbud** , kopieres de til den projektkontrakt, der oprettes, når et projekttilbud er vundet.
+Fakturaplaner er specifikke for hver tilbudslinje og er også valgfrie. Fakturaplaner oprettes på baggrund af bestemte start- og slutdatoer og fakturafrekvenser. Fakturaplaner bruges i kontraktfasen, når processen for automatisk oprettelse af fakturaer er konfigureret. I tilbudsfasen er planerne valgfrie. Når der oprettes fakturaplaner i fasen **Tilbud**, kopieres de til den projektkontrakt, der oprettes, når et projekttilbud er vundet.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Ændringer fra tilbud i Dynamics 365 Sales:
 

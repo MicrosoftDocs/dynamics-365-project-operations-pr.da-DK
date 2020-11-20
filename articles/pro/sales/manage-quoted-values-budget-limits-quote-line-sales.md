@@ -1,21 +1,21 @@
 ---
-title: Projektbaserede tilbudslinjer (Pro)
+title: Oversigt over projektbaserede tilbudslinjer - lille
 description: Dette emne indeholder oplysninger om, hvordan du bruger projektbaserede tilbudslinjer til projektarbejde. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074102"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181085"
 ---
-# <a name="project-based-quote-lines-pro"></a>Projektbaserede tilbudslinjer (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Oversigt over projektbaserede tilbudslinjer - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -31,7 +31,7 @@ Projektbaserede tilbudslinjer er udviklet til at hjælpe med at vurdere projekta
 
 Følgende tabel indeholder oplysninger om felterne under fanen **Generelt** på den projektbaserede tilbudslinje. Disse felter bruges til at konfigurere grundlaget for en detaljeret estimering overslag af projektarbejdet fra start til slut.
 
-| **Felt** | **Relevans, formål og vejledning** | **Downstream-virkning** |
+| **Felt** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- |
 | Navn | Navnet på tilbudslinjen, som kan hjælpe dig med at identificere den diskrete komponent i det tilbud, der estimeres. | Kopieres til den projektkontraktlinje, der er oprettet ud fra denne tilbudslinje, når tilbuddet er vundet. |
 | Faktureringsmetode | På et tilbud, der er oprettet ud fra en salgsmulighed, kopieres denne værdi fra det tilsvarende felt på salgsmulighedslinjen. Dette felt indeholder de to primære kontraherende modeller, der understøttes af Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid og materiale.| Denne feltværdi kopieres til den projektkontraktlinje, der er oprettet ud fra denne tilbudslinje, når tilbuddet er vundet. |
@@ -49,15 +49,15 @@ Følgende tabel indeholder oplysninger om felterne under fanen **Generelt** på 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Valideringsregler for felter under fanen Generelt på projektbaserede tilbudslinjer
 
-**Regel 1** : Hvis feltet **Inkluderede opgaver** er tomt, eller hvis det er angivet til **Alle projektopgaver** , medtages der et projekt i tilbudslinjen.
+**Regel 1**: Hvis feltet **Inkluderede opgaver** er tomt, eller hvis det er angivet til **Alle projektopgaver**, medtages der et projekt i tilbudslinjen.
 
-**Regel 2** : Hvis feltet **Inkluderede opgaver** er tomt, eller hvis det er angivet til **Alle projektopgaver** , kan et projekt og en bestemt transaktionsklasse kun inkluderes på én projektbaseret tilbudslinje for et tilbud.
+**Regel 2**: Hvis feltet **Inkluderede opgaver** er tomt, eller hvis det er angivet til **Alle projektopgaver**, kan et projekt og en bestemt transaktionsklasse kun inkluderes på én projektbaseret tilbudslinje for et tilbud.
 
-**Regel 3** : Hvis feltet **Inkluderede opgaver** er angivet til **Kun valgte projektopgaver** , kan et projekt og en bestemt transaktionsklasse inkluderes på flere projektbaseret tilbudslinjer for et tilbud.
+**Regel 3**: Hvis feltet **Inkluderede opgaver** er angivet til **Kun valgte projektopgaver**, kan et projekt og en bestemt transaktionsklasse inkluderes på flere projektbaseret tilbudslinjer for et tilbud.
 
-**Regel 4** : Hvis en salgsmulighed har flere tilbud, kan der være tilbudslinjer fra forskellige tilbud, der alle refererer til det samme projekt, og som inkluderer samme transaktionsklasse.
+**Regel 4**: Hvis en salgsmulighed har flere tilbud, kan der være tilbudslinjer fra forskellige tilbud, der alle refererer til det samme projekt, og som inkluderer samme transaktionsklasse.
 
-**Regel 5** : Hvis de pågældende tilbud ikke hører til samme salgsmulighed, kan de ikke indeholde samme projekt- og transaktionsklasse.
+**Regel 5**: Hvis de pågældende tilbud ikke hører til samme salgsmulighed, kan de ikke indeholde samme projekt- og transaktionsklasse.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

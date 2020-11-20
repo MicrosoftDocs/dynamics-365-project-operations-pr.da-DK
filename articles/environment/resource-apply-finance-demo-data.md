@@ -1,21 +1,21 @@
 ---
-title: Anvend demonstrationsdata for Project Operations på et skybaseret Finance-miljø
+title: Anvend demonstrationsdata på et skybaseret Finance-miljø
 description: Dette emne beskriver, hvordan du anvender demonstrationsdata fra Project Operations til et skybaseret Dynamics 365 Finance-miljø.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096615"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365231"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Anvend demonstrationsdata for Project Operations på et skybaseret Finance-miljø
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Anvend demonstrationsdata på et skybaseret Finance-miljø
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
@@ -28,19 +28,19 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 Det første sæt af fremhævede legitimationsoplysninger er legitimationsoplysninger til den lokale konto og indeholder et link til forbindelse til fjernskrivebord. Legitimationsoplysningerne omfatter administrators brugernavn og adgangskode for miljøet. Det andet sæt legitimationsoplysninger bruges til at logge på SQL Server i dette miljø.
 
-2. Opret fjernforbindelse til miljøet ved hjælp af linket i **Lokale Konti** , og brug **Legitimationsoplysningerne** for at autorisere.
-3. Gå til **Internet Information Services** > **Programgrupper** > **AOSService** , og stands tjenesten. Du er ved at stoppe tjenesten på dette tidspunkt, så du kan fortsætte med at erstatte SQL-databasen.
+2. Opret fjernforbindelse til miljøet ved hjælp af linket i **Lokale Konti**, og brug **Legitimationsoplysningerne** for at autorisere.
+3. Gå til **Internet Information Services** > **Programgrupper** > **AOSService**, og stands tjenesten. Du er ved at stoppe tjenesten på dette tidspunkt, så du kan fortsætte med at erstatte SQL-databasen.
 
 ![Stands AOS](./media/2StopAOS.png)
 
-4. Gå til **Tjenester** , og stop følgende to elementer:
+4. Gå til **Tjenester**, og stop følgende to elementer:
 
 - Microsoft Dynamics 365 Unified Operations: Batch Management Service
 - Microsoft Dynamics 365 Unified Operations: Data Import Export Framework
 
 ![Stop tjenester](./media/3StopServices.png)
 
-5. Åbn Microsoft SQL Server Management Studio. Log på med SQL Server-legitimationsoplysninger, og brug axdbadmin-brugeren og -adgangskoden fra siden med LCS- **Miljøoplysninger**.
+5. Åbn Microsoft SQL Server Management Studio. Log på med SQL Server-legitimationsoplysninger, og brug axdbadmin-brugeren og -adgangskoden fra siden med LCS-**Miljøoplysninger**.
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
@@ -50,19 +50,19 @@ Det første sæt af fremhævede legitimationsoplysninger er legitimationsoplysni
 
 ![Gendan database](./media/5RestoreDatabase.png)
 
-9. Vælg **Kildeenhed** , og naviger til den fil, du har kopieret fra den zip-fil, som du kopierede.
+9. Vælg **Kildeenhed**, og naviger til den fil, du har kopieret fra den zip-fil, som du kopierede.
 
 ![Kildeenheder](./media/6SourceDevice.png)
 
-10. Vælg **Indstillinger** , og vælg derefter **Overskriv den eksisterende database** , og **Luk eksisterende forbindelser til destinationsdatabasen**. 
+10. Vælg **Indstillinger**, og vælg derefter **Overskriv den eksisterende database**, og **Luk eksisterende forbindelser til destinationsdatabasen**. 
 11. Vælg **OK**.
 
 ![Gendan indstillinger](./media/7RestoreSetting.png)
 
 Du modtager en bekræftelse på, at AXDB-gendannelsen blev fuldført. Når du har modtaget denne bekræftelse, kan du lukke SQL Services Management Studio.
 
-12. Gå tilbage til **Internet Information Services** > **Programgrupper** > **AOSService** , og start AOSService.
-13. Gå til **Tjenester** , og start de to tjenester, du standsede tidligere.
+12. Gå tilbage til **Internet Information Services** > **Programgrupper** > **AOSService**, og start AOSService.
+13. Gå til **Tjenester**, og start de to tjenester, du standsede tidligere.
 
 14. Find AdminUserProvisioning-værktøjet på denne VM. Se under K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.
 15. Kør .ext-filen ved hjælp af din brugeradresse i feltet **Mailadresse**. 
@@ -76,6 +76,6 @@ Dette tager et par minutter at fuldføre. Du bør modtage en bekræftelsesmeddel
 
 ![Nulstil IIS](./media/9IISReset.png)
 
-18. Luk fjernskrivebordssessionen, og brug siden med LCS- **Miljødetaljer** til at logge på miljøet for at bekræfte, at den fungerer som forventet.
+18. Luk fjernskrivebordssessionen, og brug siden med LCS-**Miljødetaljer** til at logge på miljøet for at bekræfte, at den fungerer som forventet.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)

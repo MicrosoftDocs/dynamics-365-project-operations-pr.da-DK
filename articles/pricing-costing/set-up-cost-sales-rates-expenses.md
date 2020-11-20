@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074091"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180275"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurer satser for omkostninger og salg
 
@@ -24,17 +24,17 @@ Du kan konfigurere kost- og salgspriser for transaktionskategorier i Dynamics 36
 Hvis du vil konfigurere satser for omkostninger og salg for transaktionskategorier, skal du benytte følgende fremgangsmåde. 
 
 1. Opret en prisliste, der er baseret på prislistens overskrift. 
-2. På **Kategoripriser** skal du i undergitteret vælge **+ Ny kategoripris**. 
+2. I menuen for undergitteret skal du på **Kategoripriser** vælge **+ Ny kategoripris**. 
 3. På siden **Hurtig oprettelse** skal du angive den transaktionskategori og enhed, som du opretter den nye pris for.
 
-I følgende tabel vises de felter på fanen **Generelt** og siden **Hurtig oprettelse** , som du skal være opmærksom på, når du opretter kategoripriser på en salgs- eller kostprisliste.
+I følgende tabel vises de felter på fanen **Generelt** og siden **Hurtig oprettelse**, som du skal være opmærksom på, når du opretter kategoripriser på en salgs- eller kostprisliste.
 
-| Felt | Lokation | Relevans, formål og vejledning | Downstream-virkning |
+| Felt | Lokation | Beskrivelse | Downstream-virkning |
 | --- | --- | --- | --- |
 | Transaktionskategori | Fanen **Generelt** og siderne **Hurtig oprettelse** | Vælg den transaktionskategori, som du vil oprette en salgs- eller kostpris for. | Transaktionskategorien i det indgående estimat eller den faktiske udgift sammenholdes med denne linje for at angive standarden for transaktionskategoriens satser for omkostninger eller salg. |
 | Enhedsplan | Fanen **Generelt** og siderne **Hurtig oprettelse** | Enhedsplanen er som standard baseret på enhedsplanen for transaktionskategorien. | Dette felt har ingen downstream-virkning. |
 | Enhed | Fanen **Generelt** og siderne **Hurtig oprettelse** | Vælg den enhed, som satserne er konfigureret til. | Enheden for det indgående estimat eller faktiske oplysning sammenholdes med enheden på denne linje for at angive standarden for satsen for udgiftsestimatet eller den faktiske oplysning. |
-| Prissætningsmetode | Fanen **Generelt** og siderne **Hurtig oprettelse** | Mulige værdier i **Prissætningsmetode** er **Pris pr. enhed** , **Til omkostningsværdi** og **Avance i forhold til omkostninger**. | Hvis du vælge **Pris pr. enhed** under prisopsætningen, låses feltet **Procent** på prislinjen for kategorien. Hvis **Til omkostningsværdi** er valgt, låses felterne **Pris** og **Procent** på salgsprislisten. Hvis du vælger **Avance i forhold til omkostninger** , låses feltet **Pris** på salgsprislisten. På en indgående faktisk linje til udgifter resulterer prissætningsmetoden **Til omkostningsværdi** eller **Avance i forhold til omkostning** i, at den tilsvarende ikke-fakturerede salgslinje tildeles en pris, der er lig med prisen på den faktiske omkostning eller beregnes som en avance i forhold til prisen. |
+| Prissætningsmetode | Fanen **Generelt** og siderne **Hurtig oprettelse** | Mulige værdier i **Prissætningsmetode** er **Pris pr. enhed**, **Til omkostningsværdi** og **Avance i forhold til omkostninger**. | Hvis du vælge **Pris pr. enhed** under prisopsætningen, låses feltet **Procent** på prislinjen for kategorien. Hvis **Til omkostningsværdi** er valgt, låses felterne **Pris** og **Procent** på salgsprislisten. Hvis du vælger **Avance i forhold til omkostninger**, låses feltet **Pris** på salgsprislisten. På en indgående faktisk linje til udgifter resulterer prissætningsmetoden **Til omkostningsværdi** eller **Avance i forhold til omkostning** i, at den tilsvarende ikke-fakturerede salgslinje tildeles en pris, der er lig med prisen på den faktiske omkostning eller beregnes som en avance i forhold til prisen. |
 | Pris | Fanen **Generelt** og siderne **Hurtig oprettelse** | Opret en sats pr. enhed for kombinationen transaktionskategori og enhed. Satsen for kørsel er f.eks. 10 USD pr. mil og 8 USD pr. kilometer. | Kilometersatsen er den sats, der er angivet som standardværdi for pr. enhedspris eller omkostning på det indgående estimatlinje eller faktiske linje for en udgiftstransaktionsklasse.|
 | Procent | Fanen **Generelt** og siderne **Hurtig oprettelse** | Konfigurer procent over omkostning for kombinationen transaktionskategori og enhed. Salgssatsen for flybilletter skal f.eks. have en avance på 10 procent over omkostningerne for den påløbne udgift til en flybillet. | Denne procent over omkostning kan kun anvendes på en salgsprisliste, når den valgte prissætningsmetode er **Avance i forhold til omkostning**. |
 | Valuta | Fanen **Generelt** og siderne **Hurtig oprettelse** | Værdien hentes som standard fra valutaen i overskriften til prislisten. I forbindelse med prisfastsættelse af transaktionskategorier kan valutaen ikke tilsidesættes. | Denne valutas standard er pr. enhedspris for den indgående faktiske linje for udgiftstransaktionsklassen for omkostninger og salg. |

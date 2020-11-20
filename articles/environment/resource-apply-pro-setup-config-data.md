@@ -1,23 +1,33 @@
 ---
-title: Konfigurer og anvend konfigurationsdata i Common Data Service for Project Operations
+title: Konfigurer og anvend konfigurationsdata i Common Data Service
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer og anvender demonstrationskonfiguration og konfigurationsdata i Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074045"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401121"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurer og anvend konfigurationsdata i Common Data Service for Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurer og anvend konfigurationsdata i Common Data Service 
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
+
+## <a name="prerequisites"></a>Forudsætninger
+
+Før du begynder at konfigurere data i Common Data Service (CDS), skal følgende forudsætninger være opfyldt:
+
+1.  Klargør et CDS-miljø og et Dynamics 365 Finance-miljø til Project Operations.
+2.  Oplysninger om juridiske enheder fra Dynamics 365 Finance deles med CDS-miljøet. Dette betyder, at objektet **Virksomehd** i CDS indeholder følgende firmaposter:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Installer konfiguration og konfigurationsdata
 
@@ -75,7 +85,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 ![Åbn miljø](./media/7OpenEnvironment.png)
 
-2. Gå til **Projekter** > **Ressourcer** , og vælg derefter **Ny** for at oprette en reserverbar ressource til brugeren.
+2. Gå til **Projekter** > **Ressourcer**, og vælg derefter **Ny** for at oprette en reserverbar ressource til brugeren.
 
 ![Reserverbare ressourcer](./media/8BookableResources.png)
 
@@ -100,7 +110,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 ![Opdater kalender](./media/13UpdateCalendar.png)
 
-9. Gå til **Indstillinger** > **Kalenderskabeloner** , og vælg **Ny**.
+9. Gå til **Indstillinger** > **Kalenderskabeloner**, og vælg **Ny**.
  
  ![Kalenderskabeloner](./media/14CalendarTemplates.png)
  
@@ -108,16 +118,16 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
  
  ![Gem kalenderskabelon](./media/15SaveCalendarTemplate.png)
  
- 11. Gå til **Parametre** , og dobbeltklik på posten. 
+ 11. Gå til **Parametre**, og dobbeltklik på posten. 
  
  ![Projektparametre](./media/16ProjectParameters.png)
  
 12. Opdater følgende felter:
 
- - **Standardvirksomhed** : USPM
- - **Standardafdeling** : Contoso Robotics Global
- - **Fakturafrekvens** : Hver syvende og sidste dag
- - **Arbejdstidsskabelon** : Skift til den skabelon, du har oprettet.
+ - **Standardvirksomhed**: USPM
+ - **Standardafdeling**: Contoso Robotics Global
+ - **Fakturafrekvens**: Hver syvende og sidste dag
+ - **Arbejdstidsskabelon**: Skift til den skabelon, du har oprettet.
 
 13. Vælg **Gem**. 
 

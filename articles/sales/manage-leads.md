@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074030"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181760"
 ---
 # <a name="manage-leads"></a>Administrer kundeemner
 
@@ -34,11 +34,11 @@ Når der kvalificeres et projektbaseret kundeemne, oprettes der en salgsmulighed
 - Faktureringsmetoder for tids- og materiale samt fast pris
 - Adskillige prislister gældende pr. dato for personale, udgifter og materiale anvendt på projekter
 
-Hvis et kvalificeret kundeemne automatisk skal oprette en salgsmulighed, skal du angive attributten **Type** til **Arbejdsbaseret** , når du opretter kundeemnet. Hvis du vælger en anden type, oprettes der ikke en projektbaseret salgsmulighed i kundeemnet, når den kvalificeres. Hvis den projektbaserede salgsmulighed ikke oprettes, vil de projektspecifikke funktioner ikke være tilgængelige i de efterfølgende salgsprocesser.
+Hvis et kvalificeret kundeemne automatisk skal oprette en salgsmulighed, skal du angive attributten **Type** til **Arbejdsbaseret**, når du opretter kundeemnet. Hvis du vælger en anden type, oprettes der ikke en projektbaseret salgsmulighed i kundeemnet, når den kvalificeres. Hvis den projektbaserede salgsmulighed ikke oprettes, vil de projektspecifikke funktioner ikke være tilgængelige i de efterfølgende salgsprocesser.
 
 Følgende tabel indeholder vigtige feltoplysninger for et kundeemne og de downstream-konsekvenser for disse felter.
  
-| **Felt** | **Placering** | **Relevans, formål og vejledning** | **Downstream-virkning** |
+| **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
 | Emne | Fanen Generelt | Dette tekstfelt skal indeholde en kort beskrivelse af handlen. | Emnet for kundeemnet vil som standard være emnet for salgsmuligheden og navnet på tilbud og projektkontrakt. |
 | Skriv | Fanen Generelt | Feltet med grupperet indstilling har følgende indstillinger:</br>- Arbejdsbaseret (kun tilgængelig, når Project Operations er installeret)</br>- Enhedsbaseret (kun tilgængelig, når Project Operations og Sales er installeret)</br>- Servicevedligeholdelsesbaseret (tilgængelig, når Field Service er installeret) | Når værdien i dette felt er angivet til **Arbejdsbaseret** i kundeemnet, kvalificeres kundeemnet til at oprette en projektbaseret salgsmulighed. Der kræves en projektbaseret salgsmulighed for at aktivere alle projektspecifikke udvidelser og funktioner i den efterfølgende salgsproces for denne aftale. |
@@ -49,11 +49,11 @@ Følgende tabel indeholder vigtige feltoplysninger for et kundeemne og de downst
 
 ## <a name="qualify-a-new-project-based-lead"></a>Kvalificer et nyt projektbaseret kundeemne
 
-De kundeemner, der har værdien **Type** angivet til **Arbejdsbaseret** , kaldes projektbaserede kundeemner. Når et projektbaseret kundeemne er kvalificeret, oprettes følgende:
+De kundeemner, der har værdien **Type** angivet til **Arbejdsbaseret**, kaldes projektbaserede kundeemner. Når et projektbaseret kundeemne er kvalificeret, oprettes følgende:
 
 - Et firma, der bruger kundeemnets felt **Virksomhed**.
 - En kontaktpersonpost, der er knyttet til firmaet, baseret på værdierne i felterne **Fornavn** og **Efternavn** for kundeemnet.
-- En projektbaseret salgsmulighed, der har feltet **Type** angivet til &quot;**Arbejdsbaseret**.
+- En projektbaseret salgsmulighed, der har feltet **Type** angivet til **Arbejdsbaseret**.
 
 Du kan finde mere detaljerede oplysninger om kvalificering af kundeemner i[Kvalificer eller konverter kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

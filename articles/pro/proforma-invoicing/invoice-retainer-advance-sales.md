@@ -1,21 +1,21 @@
 ---
-title: Fakturer et forskudshonorar eller et forskud
+title: Fakturer et forskudshonorar eller et forskud - lille
 description: Dette emne indeholder oplysninger om, hvordan du fakturerer et forskudshonorar eller et forskud i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087865"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180545"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fakturer et forskudshonorar eller et forskud
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturer et forskudshonorar eller et forskud - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -33,7 +33,7 @@ Fuldfør følgende trin for at fakturer et forskudshonorar eller et forskud.
 Du kan oprette et forskudshonorar eller forskud direkte på en faktura.
 
 1. På en kladdefaktura skal du i undergitteret **Forskudshonorarer og forskud** vælge **Nyt** for at oprette et nyt forskudshonorar eller forskud. 
-2. Angiv de fornødne oplysninger på siden **Hurtig oprettelse** , og vælg derefter **Gem**. Forskudshonoraret eller forskuddet oprettes i den projektkontrakt, der er knyttet til fakturaen. Forskudshonoraret eller forskuddet markeres automatisk som **Klar til fakturering** og tilføjes derefter til undergitteret **Forskudshonorarer og forskud** på siden **Faktura**.
+2. Angiv de fornødne oplysninger på siden **Hurtig oprettelse**, og vælg derefter **Gem**. Forskudshonoraret eller forskuddet oprettes i den projektkontrakt, der er knyttet til fakturaen. Forskudshonoraret eller forskuddet markeres automatisk som **Klar til fakturering** og tilføjes derefter til undergitteret **Forskudshonorarer og forskud** på siden **Faktura**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Afstem et faktureret forskudshonorar eller et forskud
 
@@ -43,7 +43,7 @@ På alle de fakturaer, der er genereret for en projektkontrakt, og som har faktu
 
 Dette kan ses i gitteret **Anvendte forskudshonorarer og forskud** på siden **Faktura**. Følgende tabel indeholder oplysninger om felterne i gitteret **Anvendte forskudshonorarer og forskud** på siden **Projektfaktura**.
 
-| Felt | Lokation | Relevans, formål og vejledning | Downstream-virkning |
+| Felt | Lokation | Beskrivelse | Downstream-virkning |
 | --- | --- | --- | --- |
 | Beskrivelse | Gitteret **Anvendte forskudshonorarer og forskud** på siden **Projektfaktura** |Dette skrivebeskyttede felt indeholder en beskrivelse af det forskudshonorar eller forskud, der bruges på fakturaen. Denne værdi kan ikke ændres på fakturaen. Denne værdi kan opdateres i undergitteret på siden **Projektkontrakt**. | Dette felt kan vises for kunden på den udskrevne faktura for at angive, hvilket forskudshonorar eller forskud, der anvendes på fakturaen. |
 | Leveret d. | Gitteret **Anvendte forskudshonorarer og forskud** på siden **Projektfaktura**  | Dette skrivebeskyttede felt indeholder fakturadatoen for det forskudshonorar eller forskud, der bruges på fakturaen. Denne værdi kan ikke ændres på fakturaen. Denne værdi kan opdateres i undergitteret på siden **Projektkontrakt**. | Dette felt kan vises for kunden på den udskrevne faktura for at angive datoen for, hvornår forskudshonoraret eller forskuddet første gang blev faktureret til kunden. |

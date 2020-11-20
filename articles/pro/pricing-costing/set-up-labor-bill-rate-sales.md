@@ -1,21 +1,21 @@
 ---
-title: Konfiguration af faktureringssatser for arbejdskraft
+title: Konfigurer hyppigheden for fakturering af arbejdstid - lille
 description: Dette emne indeholder oplysninger om konfiguration af faktureringssatser for arbejdskraft i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074234"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181174"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Konfiguration af faktureringssatser for faktureringssats for arbejdskraft 
+# <a name="set-up-labor-bill-rates---lite"></a>Konfigurer hyppigheden for fakturering af arbejdstid - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -27,7 +27,7 @@ Hver prisliste har et sæt rollepriser eller satser for arbejdskraft, der er gæ
 
   Følgende tabel omfatter de felter på fanen **Generelt** og ruden **Hurtig oprettelse** for en rolleprislinje, som du skal være opmærksom på, når du opretter rollepriser på en salgsprisliste:
 
-  | Felt | Lokation | Relevans, formål og vejledning | Downstream-virkning |
+  | Felt | Lokation | Beskrivelse | Downstream-virkning |
   | --- | --- | --- | --- |
   | Rolle | Fanen **Generelt** og ruden **Hurtig oprettelse** | Vælg den rolle, som du vil angive faktureringssatsen for. | Rollen på det indgående estimat eller den faktiske oplysning sammenholdelse med denne linje for at angive standardfaktureringssatsen for rollen. |
   | Ressourceenhed | Fanen **Generelt** og ruden **Hurtig oprettelse** | Vælg organisationsenheden eller divisionen for den virksomhed, som rollen stammer fra. En udvikler fra Fabrikams Robotics-afdeling i Indien eller en udvikler fra Fabrikams softwareafdeling i USA. | Ressourceenheden på det indgående estimat eller den faktiske oplysning sammenholdelse med denne linje for at angive standardfaktureringssatsen for rollen. |
@@ -45,7 +45,7 @@ En udvikler fra Fabrikam i Indien, som arbejder på et projekt fra USA, fakturer
 
 ### <a name="example-set-up-a-bill-rate"></a>Eksempel: konfiguration af en faktureringssats
 
-1. Opret en salgsprisliste med navnet *Faktureringssatser for Fabrikam i USA* , og angiv ikrafttrædelsesdatoen.
+1. Opret en salgsprisliste med navnet *Faktureringssatser for Fabrikam i USA*, og angiv ikrafttrædelsesdatoen.
 2. Angiv følgende satsoplysninger i salgsprislisten:
 
     | Rolle | Afdeling | Fakturasats |

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087869"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181130"
 ---
 # <a name="project-contract-settings"></a>Indstillinger for projektkontrakt
 
@@ -23,7 +23,7 @@ Dette emne indeholder oplysninger om de felter, der gælder for hele projektkont
 
 I følgende tabel vises felterne for en projektkontrakt, der er entydige for Dynamics 365 Project Operations, eller som har nogle vigtige ændringer i funktionsmåden i forhold til salgsordrer i Dynamics 365 Sales.
 
-| Felt | Lokation | Relevans, formål og vejledning | Downstream-virkning |
+| Felt | Lokation | Beskrivelse | Downstream-virkning |
 | --- | --- | --- | --- |
 | Skriv | Fanen **Oversigt** (skjult) | Dette er et grupperet indstillingsfelt med følgende indstillinger:</br>- **Arbejdsbaseret** (kun tilgængelig, når Project Operations er installeret)</br>- **Enhedsbaseret** (kun tilgængelig, når Project Operations og Sales er installeret)</br>- **Servicevedligeholdelsesbaseret** (tilgængelig, når Dynamics 365 Field Service er installeret) | I Project Operations er værdien i dette felt som standard **Arbejdsbaseret** og klassificerer kontrakten som en projektbaseret kontrakt. En kontrakt skal være projektbaseret, for at alle projektspecifikke udvidelser og funktioner kan aktiveres. |
 | Ejende virksomhed | Fanen **Oversigt** | Den juridiske enhed, der holder regnskab med de omkostninger og indtægter, der påløber fra de projekter, der er knyttet til projektkontrakten. Når en kontrakt oprettes ud fra et tilbud, kopieres dette felt fra det tilsvarende felt på tilbudsposten. | Ejerselskabet svarer til begrebet juridisk enhed i modulet **Projektstyring og regnskab** under Project Operations. Der redegøres for alle påløbne omkostninger og indtægter i forbindelse med dette projekt i finanskladden i ejerselskabet. |
@@ -37,7 +37,7 @@ I følgende tabel vises felterne for en projektkontrakt, der er entydige for Dyn
 
 Følgende nøgletal er tilgængelige under fanen **Kontraktens ydeevne** i en projektkontrakt.
 
-| Felt | Lokation | Relevans, formål og vejledning |
+| Felt | Lokation | Beskrivelse |
 | --- | --- | --- |
 | Kontraktværdi | Overordnet kontrakt | Den samlede værdi af projektkontrakten. |
 | Faktureret beløb | Overordnet kontrakt | Summen af beløbene på alle fakturaer i forhold til denne kontrakt. |

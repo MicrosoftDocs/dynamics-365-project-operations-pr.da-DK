@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4074404"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180770"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Opret en fakturaplan på en projektbaseret kontraktlinje 
 
@@ -25,15 +25,15 @@ Du kan oprette en fakturaplan på en projektbaseret kontraktlinje. Fakturering e
 
 Når en projektbaseret kontraktlinje har faktureringsmetoden tid og materialer, kan du oprette en datobaseret fakturaplan. Hvis du automatisk vil oprette en datobaseret fakturaplan, skal du udføre følgende trin.
 
-1. Gå til **Indstillinger** > **Fakturafrekvenser** , og konfigurer en fakturafrekvens.
+1. Gå til **Indstillinger** > **Fakturafrekvenser**, og konfigurer en fakturafrekvens.
 2. Gå til projektkontraktposten, og vælg en dato på fanen **Opsummering** i feltet **Ønsket leveringsdato**.
-3. Åbn kontraktlinjen **Tid og materialer** , som du opretter en datobaseret fakturaplan for. 
+3. Åbn kontraktlinjen **Tid og materialer**, som du opretter en datobaseret fakturaplan for. 
 4. På fanen **Fakturaplan** skal du vælge startdatoen og fakturafrekvensen for faktureringen.
-5. Vælg **Generér fakturaplan** i undergitteret. Fakturaplanen genereres med felterne **Kørselsdato for faktura** , **Skæringsdato for transaktion** og **Status for kørsel** angivet på følgende måde:
+5. Vælg **Generér fakturaplan** i undergitteret. Fakturaplanen genereres med felterne **Kørselsdato for faktura**, **Skæringsdato for transaktion** og **Status for kørsel** angivet på følgende måde:
 
-    - **Kørselsdato for faktura** : Denne dato er dikteret af fakturafrekvensen.
-    - **Skæringsdatoen for transaktionen** : Dagen før fakturaens kørselsdato.
-    - **Status for kørsel** : Angives automatisk til **Ikke kørt**. Når jobbet for automatisk oprettelse af en faktura køres for en bestemt kørselsdato for faktura, opdateres feltet til **Kørsel gennemført** eller **Kørsel mislykket**.
+    - **Kørselsdato for faktura**: Denne dato er dikteret af fakturafrekvensen.
+    - **Skæringsdatoen for transaktionen**: Dagen før fakturaens kørselsdato.
+    - **Status for kørsel**: Angives automatisk til **Ikke kørt**. Når jobbet for automatisk oprettelse af en faktura køres for en bestemt kørselsdato for faktura, opdateres feltet til **Kørsel gennemført** eller **Kørsel mislykket**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Opret en plan for fakturering af fast pris for en kontraktlinje
 
@@ -44,14 +44,14 @@ Når kontraktlinjen har en fast faktureringsmetode, kan du oprette en milepælsb
 
 Benyt følgende fremgangsmåde for at oprette en milepælsbaseret fakturaplan for et fast sæt ligeligt fordelte milepæle i kalenderperioden.
 
-1. Gå til **Indstillinger** > **Fakturafrekvenser** , og konfigurer en fakturafrekvens.
+1. Gå til **Indstillinger** > **Fakturafrekvenser**, og konfigurer en fakturafrekvens.
 2. Gå til projektkontraktposten, og vælg en dato på fanen **Opsummering** i feltet **Ønsket leveringsdato**.
-3. Åbn kontraktlinjen **Fast pris** , som du opretter milepælsplanen for. På fanen **Faktureringsmilepæl** skal du vælge startdatoen og fakturafrekvensen for faktureringen. 
-4. Vælg **Generér periodiske milepæle** i undergitteret. Der oprettes en fakturaplan med felter indeholdende **Navnet på milepælen** , **Datoen for milepælen** og **Milepælsbeløbene** på følgende måde:
+3. Åbn kontraktlinjen **Fast pris**, som du opretter milepælsplanen for. På fanen **Faktureringsmilepæl** skal du vælge startdatoen og fakturafrekvensen for faktureringen. 
+4. Vælg **Generér periodiske milepæle** i undergitteret. Der oprettes en fakturaplan med felter indeholdende **Navnet på milepælen**, **Datoen for milepælen** og **Milepælsbeløbene** på følgende måde:
 
-    - **Navnet på milepælen** : Denne dato er dikteret af fakturafrekvensen.
-    - **Datoen for milepælen** : Denne dato er dikteret af fakturafrekvensen.
-    - **Milepælsbeløbet** : Dette beløb beregnes ved at dividere kontraktbeløbet på kontraktlinjen med antallet af milepæle, som er dikteret af frekvensen, startdatoen for fakturering samt de ønskede leveringsdatoer.
+    - **Navnet på milepælen**: Denne dato er dikteret af fakturafrekvensen.
+    - **Datoen for milepælen**: Denne dato er dikteret af fakturafrekvensen.
+    - **Milepælsbeløbet**: Dette beløb beregnes ved at dividere kontraktbeløbet på kontraktlinjen med antallet af milepæle, som er dikteret af frekvensen, startdatoen for fakturering samt de ønskede leveringsdatoer.
 
     Hvis der er angivet en værdi i feltet **Estimeret momsbeløb** i kontraktlinjen, fordeles dette felt også til hver milepæl ligeligt, når der genereres periodiske milepæle.
 
@@ -64,7 +64,7 @@ Du kan generere milepæle for fast pris manuelt, når de ikke er periodisk opdel
 1. Åbn kontraktlinjen med fast pris, som du er ved at oprette en milepæl for, og vælg i undergitteret på fanen **Fakturaplan** **+ Opret en ny kontraktlinjemilepæl**. 
 2. På siden **Opret milepæl** skal du angive de påkrævede oplysninger, der er baseret på følgende tabel.
 
-| Felt | Lokation | Relevans, formål og vejledning | Downstream-virkning |
+| Felt | Lokation | Beskrivelse | Downstream-virkning |
 | --- | --- | --- | --- |
 | Navn på milepæl | Hurtig oprettelse | Tekstfelt for navnet på milepælen. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
 | Projektopgave | Hurtig oprettelse | Hvis milepælen er knyttet til en projektopgave, kan denne reference anvendes til at tilføje en brugerdefineret logik ved at angive status for milepælen på baggrund af opgavestatus. | Programmet har ingen afledt virkning for denne reference til en opgave. |

@@ -5,27 +5,27 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074111"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181625"
 ---
 # <a name="copy-project-based-opportunities"></a>Kopier projektbaserede salgsmuligheder
 
-_**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 
 Det er nemt at kopiere projektbaserede salgsmuligheder, så du kan oprette nye projektbaserede salgsmuligheder. 
 
-1. Gå til listesiden **Projektbaserede salgsmuligheder** , og vælg en salgsmulighed på listen. Du kan også åbne siden med detaljer for en bestemt salgsmulighed. 
+1. Gå til listesiden **Projektbaserede salgsmuligheder**, og vælg en salgsmulighed på listen. Du kan også åbne siden med detaljer for en bestemt salgsmulighed. 
 2. Vælg **Kopier** på en af siderne. Der vises en dialogboks, som indeholder følgende feltoplysninger. Afhængigt af de valgte værdier i denne dialog kan kopiprocessen blive ændret.
 
-    | **Felt** | **Relevans, formål og vejledning** | **Downstream-virkning** |
+    | **Felt** | **Beskrivelse** | **Downstream-virkning** |
     | --- | --- | --- |
     | Emne | Angiv det relevante emne på destinationssalgsmuligheden. Når dialogboksen åbnes, angiver systemet det som emne for kildesalgsmuligheden med **kopi** tilføjet. | Dette felt har ingen afledt virkning. |
     | Konto | Referencer til kundens firma eller firmapost. Når dialogboksen åbnes, konfigurerer systemet det til kontoen i kildesalgsmuligheden. | Dette felt er den primære kunde i salgsmuligheden. |

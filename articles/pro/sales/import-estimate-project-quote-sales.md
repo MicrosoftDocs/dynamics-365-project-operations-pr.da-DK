@@ -1,21 +1,21 @@
 ---
-title: Import af estimater for et projekt til en projektbaseret tilbudslinje
+title: Importér estimater for et projekt til en projektbaseret tilbudslinje - lille
 description: Dette emne indeholder oplysninger om, hvordan du importerer estimater fra et projekt til en tilbudslinje.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074074"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177729"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Import af estimater for et projekt til en projektbaseret tilbudslinje
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importér estimater for et projekt til en projektbaseret tilbudslinje - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -30,7 +30,7 @@ Hvis et projekt oprettes i forbindelse med den indledende salgsfase, kan du væl
   - **Rolle** 
   - **Projektopgave**
 
-Afhængigt af dit valg kopieres estimatet fra projektet for alle de transaktionsklasser, der indgår i tilbudslinjen, over. Hvis du vil kontrollere, hvilke transaktionsklasser der er inkluderet, skal du vælge fanen **Generelt** på den projektbaserede tilbudslinje og kontrollere værdierne for **Medtag tid** , **Medtag udgifter** og **Inkluder gebyrer**.  Hvis du vil kontrollere, hvilke opgaver der er inkluderet, skal du vælge fanen **Fakturerbare opgaver** på tilbudslinjen.
+Afhængigt af dit valg kopieres estimatet fra projektet for alle de transaktionsklasser, der indgår i tilbudslinjen, over. Hvis du vil kontrollere, hvilke transaktionsklasser der er inkluderet, skal du vælge fanen **Generelt** på den projektbaserede tilbudslinje og kontrollere værdierne for **Medtag tid**, **Medtag udgifter** og **Inkluder gebyrer**.  Hvis du vil kontrollere, hvilke opgaver der er inkluderet, skal du vælge fanen **Fakturerbare opgaver** på tilbudslinjen.
 
 Afhængigt af de tilknyttede opgaver og inkluderede transaktionsklasser, importeres estimaterne for disse kombinationer af opgaver og transaktionsklasser til tilbudslinjen.
 

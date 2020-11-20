@@ -1,21 +1,21 @@
 ---
-title: Opsummerende oplysninger i et projekttilbud
+title: Indstillinger for projekttilbud
 description: Dette emne indeholder oplysninger om de oplysninger og indstillinger, der gælder for og påvirker projekttilbud.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074018"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180230"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Opsummerende oplysninger i et projekttilbud
+# <a name="project-quote-settings"></a>Indstillinger for projekttilbud
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
@@ -24,7 +24,7 @@ Denne artikel indeholder en beskrivelse af de oplysninger, der er relevante for 
 
 I følgende tabel vises oversigtsoplysningsfelterne for et projekttilbud, der er entydigt for Dynamics 365 Project Operations, eller som har nogle vigtige ændringer i funktionsmåden i forhold til tilbud i Dynamics 365 Sales.
 
-| **Felt** | **Placering** | **Relevans, formål og vejledning** | **Downstream-virkning** |
+| **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
 | Skriv | Oversigtsfanen (skjult) | Feltet med grupperet indstilling har følgende indstillinger:</br>- Arbejdsbaseret (kun tilgængelig, når Project Operations er installeret)</br>- Enhedsbaseret (kun tilgængelig, når Project Operations og Sales er installeret)</br>- Servicevedligeholdelsesbaseret (tilgængelig, når Dynamics 365 Field Service er installeret) | Når du bruger programmet Project Operations, angives værdien i dette felt automatisk til **Arbejdsbaseret**. Dette klassificerer tilbuddet som et projektbaseret tilbud. Et tilbud skal være projektbaseret, for at alle projektspecifikke udvidelser og funktioner kan aktiveres. |
 | Ejende virksomhed | Resumé | Den juridiske enhed, der skal holde regnskab med de omkostninger og indtægter, der påløber fra dette projekt eller de projekter, der er knyttet til tilbuddet. Når tilbud oprettes ud fra en salgsmulighed, kopieres dette felt fra det tilsvarende felt på salgsmuligheden. | Ejerselskabet svarer til begrebet juridisk enhed i modulet **Projektstyring og regnskab** under Project Operations. Der redegøres for alle påløbne omkostninger og indtægter i forbindelse med dette projekt i finanskladden i ejerselskabet. |
@@ -38,7 +38,7 @@ I følgende tabel vises oversigtsoplysningsfelterne for et projekttilbud, der er
 
 Nedenfor vises de faner og nøgletal, der er tilgængelige i et projekttilbud, som er entydigt for Project Operations, eller som er vigtige ændringer af funktionsmåden i forhold til tilbud i Sales:
 
-| **Felt** | **Placering** | **Relevans, formål og vejledning** |
+| **Felt** | **Placering** | **Beskrivelse** |
 | --- | --- | --- |
 | Rentabilitetsanalyse | Tilbudsfanen | Fanen viser følgende målepunkter:</br>- Samlede fakturerbar omkostninger</br></br>- Samlede ikke-fakturerbare omkostninger</br>- Omsætning i alt</br>- Samlet omsætning (basis)</br>- Bruttoavance</br>- Justeret bruttoavance|
 | Sammenligning med kundernes forventninger | Tilbudsfanen | Denne fane viser følgende målepunkter:</br>- Estimeret fuldførelse</br>- Ønsket fuldførelse</br>- Kundebudget</br>- Værdi i tilbud |

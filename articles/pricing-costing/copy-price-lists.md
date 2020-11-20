@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074211"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181490"
 ---
 # <a name="copy-price-lists"></a>Kopier prislister
 
@@ -26,7 +26,7 @@ Hvis du vil oprette en kopi af prislisten, skal du benytte følgende fremgangsm�
 1. Åbn den prisliste, som du vil oprette en kopi af, og vælg **Kopier**.
 2. Angiv de nødvendige oplysninger for at kopiere prislisten. I følgende tabel vises overvejelser, du skal huske, når du angiver oplysninger.
 
-| Felt | Relevans, formål og vejledning | Downstream-virkning |
+| Felt | Beskrivelse | Downstream-virkning |
 | --- | --- | --- |
 | Navn | Navnet på kildeprislisten, hvor der er tilføjet **-kopien**. | Prislisten inkluderer denne værdi på alle listesider og indstillinger for rullelister. |
 | Sammenhæng | Angiv den kontekst, der skal vises for destinationsprislisten. | En prisliste med konteksten **Omkostninger** bruges til at slå prisen for omkostningsestimater og faktiske omkostningsværdier op. En prisliste med konteksten **Salg** bruges til at slå prisen for salgsestimater og faktiske salgsværdier op. Kun prislister med konteksten **Salg** kan tilknyttes en projektprisliste for en kunde, tilbud eller kontrakt. |
@@ -40,6 +40,6 @@ Hvis du vil oprette en kopi af prislisten, skal du benytte følgende fremgangsm�
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Opdater en prisliste ved at anvende en avance for alle priser
 
-1. På fanerne **Rolle** , **Kategori** og **Prislisteelement** i en prisliste kan du vælge **Opdater priser** for at anvende en avance for alle priser i undergitteret. 
+1. På fanerne **Rolle**, **Kategori** og **Prislisteelement** for en prisliste kan du vælge **Opdater priser** for at anvende en avance for alle priser i undergitteret. 
 2. Angiv en avance på den dialogside, der vises. Du kan også angive en negativ avanceprocent for at reducere priserne med en bestemt procentdel. 
 3. Vælg **OK** på dialogsiden, og kontrollér derefter, at priserne i undergitteret afspejler de ændringer, du har foretaget.

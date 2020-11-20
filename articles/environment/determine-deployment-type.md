@@ -3,17 +3,17 @@ title: Vælg din udrulningstype
 description: Dette emne indeholder oplysninger, som hjælper dig med at fastlægge den korrekte udrulningstype for Project operations for din virksomhed.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074176"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401211"
 ---
 # <a name="determine-your-deployment-type"></a>Vælg din udrulningstype
 
@@ -25,11 +25,11 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Eksisterende Dynamics-kunder, som anvender Dynamics 365 Project Service Automation
-Project operations omfatter de funktioner, der blev leveret sammen med Project Service Automation. Der frigives en opgraderingssti for disse kunder på et senere tidspunkt.
+Project operations omfatter de funktioner, der blev leveret sammen med Project Service Automation. Der udgives en opgraderingssti for disse kunder i den første frigivelsesbølge i 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Eksisterende Dynamics 365 Finance-kunder, som anvender projektstyring og regnskab 
 
-Eksisterende Finance-kunder, der benytter funktionen projektstyring og regnskab, kan fortsætte med at bruge denne funktion som hidtil. Se [Project Operations for lagerbaserede/produktionsordrescenarier](#pma).
+Eksisterende Finance-kunder, der benytter funktionen Projektstyring og regnskab, kan fortsætte med at bruge den, som hidtil. Se [Project Operations for lagerbaserede/produktionsordrescenarier](#pma).
 
 
 ## <a name="deployment-types"></a>Udrulningstyper
@@ -47,12 +47,13 @@ Project Operations understøtter scenarier med lagerførte-/produktionsordre og 
 
 Den lille udrulning inkluderer følgende funktioner:
 
+- Salgsproces for projekter, der udvider oplevelserne i programmet Dynamics 365 Sales
 - Projektplanlægning ved hjælp af Microsoft Project til internettet
 - Flerdimensionel prisfastsættelse
 - Fælles ressourcestyring
 - Tidssporing
 - Grundlæggende udgifter
-- Fakturaforslag
+- Proforma og kundeorienteret fakturering 
 
 #### <a name="deployment-steps"></a>Installationsprocessen
 Find den bedste udrulningsmodel til Project Operations ved hjælp af [Spørgeskemaet om udrulning](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ I forbindelse med denne installation kan du se [Tilmelding til eksempelabonnemen
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations for ressource/ikke-lagerscenarier
 Project Operations for ressource/ikke-lagerførte scenarier omfatter følgende funktioner:
-  
+ 
+- Salgsproces for projekter, der udvider programmet Dynamics 365 Sales
 - Projektplanlægning ved hjælp af Microsoft Project til internettet
 - Flerdimensionel prisfastsættelse
 - Fælles ressourcestyring
@@ -70,8 +72,8 @@ Project Operations for ressource/ikke-lagerførte scenarier omfatter følgende f
 - Grundlæggende udgifter
 - Fuld udgift
 - Optisk tegngenkendelseskvittering
-- Fuld fakturering
-- Indtægtsanerkendelse
+- Proforma og kundeorienteret fakturering 
+- Indtægtsføring for projekter
 
 #### <a name="deployment-steps"></a>Installationsprocessen
 Find den bedste udrulningsmodel til Project Operations ved hjælp af [Spørgeskemaet om udrulning](https://aka.ms/provisionprojectoperations).
