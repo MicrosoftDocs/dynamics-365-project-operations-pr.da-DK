@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nyheder
       items:
+        - name: December 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Salgsproces for projekt
@@ -87,7 +89,7 @@
                 - name: Administrer flere kunder i projektbaserede tilbudslinjer
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfigurer de fakturerbare komponenter i en projekttilbudslinje
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Opret estimater på en tilbudslinje
                   href: sales/create-estimate-quote-line.md
                 - name: Importér estimater fra et projekt til en projektbaseret tilbudslinje
@@ -109,7 +111,7 @@
             - name: Administrer projektprislister i projektkontrakter
               href: sales/contracts-manage-project-price-lists.md
             - name: Administrer flere kunder i projektkontrakter
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projektbaserede kontraktlinjer
               items:
                 - name: Oversigt over projektbaserede kontraktlinjer
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Kopier en projektkontrakt
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Forskud og forskudshonorarer
+              items:
+                - name: Forskudskontrakter og kontrakter baseret på forskudshonorar - lille
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Konfigurer en plan for forskudshonorar - lille
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Opret et ad hoc-forskud på en kontrakt - lille
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prisfastsættelse og omkostningsfastsættelse
       items:
         - name: Konfigurer prisliste
@@ -158,10 +168,18 @@
           items:
             - name: Oversigt over dimensioner for prisfastsættelse
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Opret en løsning til brugerdefinerede prisfastsættelsesdimensioner
+              href: sales/create-solution-custompd.md
             - name: Brug eksisterende felter som prisfastsættelsesdimensioner
               items:
                 - name: Felter i Project Operations som prisfastsættelsesdimensioner
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Anvend en reserverbar ressource som en prisfastsættelsesdimension
+                  href: sales/use-br-as-pd.md
+                - name: Anvend en transaktionskategori som en prisfastsættelsesdimension
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Reserverbar ressource med flere roller på et projekt
+                  href: sales/br-playing-multiple-roles.md
             - name: Brugerdefinerede felter som prisfastsættelsesdimensioner
               items:
                 - name: Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Opdater plug-in-attributter, så de indeholder nye prisfastsættelsesdimensioner'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Slå en prisfastsættelsesdimension fra
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektstyring
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administration af ressourcer
           items:
+            - name: Opret ressourcer
+              href: resource-management/create-resources.md
             - name: Definer færdigheder og kvalifikationer
               href: resource-management/define-skills-proficiencies.md
+            - name: Definer roller
+              href: resource-management/define-roles.md
             - name: Definer ressourcekalendere
               href: resource-management/define-resource-calendars.md
         - name: Reservationsallokeringsmetoder
           href: resource-management/booking-allocation-methods.md
+        - name: Reservationsstatusser
+          href: resource-management/booking-status.md
         - name: Færdigheds- og kompetencemodeller
           href: resource-management/skills-proficiency-models.md
         - name: Ressourceafstemning
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Administrer en proformafaktura på projektet
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Fakturer et forskudshonorar eller et forskud
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Bekræft en proformafaktura på projektet
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfigurer automatisering af projektfaktura
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Kladde til integration i Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Intern fakturering
+          items:
+            - name: Oversigt over intern fakturering
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurer intern fakturering
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Opret interne kunde- og kreditorfakturaer
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Opret interne transaktioner
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Indtægtsanerkendelse
+      items:
+        - name: Oversigt over indtægtsanerkendelse
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Opsætning af indtægtsanerkendelse
+          items:
+            - name: Opsætning af periodetyper
+              href: project-accounting/period-types.md
+            - name: Opsætning af omkostningsskabeloner
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Administrer omsætningsestimater
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Omsætningsestimat for projekter med fast pris
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Metoder til færdiggørelsesomkostninger
+          href: revenue-recognition/cost-complete-methods.md
 - name: Lille udrulning - aftale til proformafakturering
   items:
     - name: Start her
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
+        - name: Nyheder december 2020 - lille udrulning - aftale til proformafakturering
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Nyheder november 2020 - lille udrulning - aftale til proformafakturering
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Salgsproces for projekt
@@ -538,10 +594,18 @@
           items:
             - name: Oversigt over dimensioner for prisfastsættelse
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Opret en løsning til brugerdefinerede prisfastsættelsesdimensioner
+              href: sales/create-solution-custompd.md
             - name: Brug eksisterende felter som prisfastsættelsesdimensioner
               items:
-                - name: Brug et eksisterende felt som en prisfastsættelsesdimension
+                - name: Felter i Project Operations som prisfastsættelsesdimensioner
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Anvend en reserverbar ressource som en prisfastsættelsesdimension
+                  href: sales/use-br-as-pd.md
+                - name: Anvend en transaktionskategori som en prisfastsættelsesdimension
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Reserverbar ressource med flere roller på et projekt
+                  href: sales/br-playing-multiple-roles.md
             - name: Brugerdefinerede felter som prisfastsættelsesdimensioner
               items:
                 - name: Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Opdater plug-in-attributter, så de indeholder nye prisfastsættelsesdimensioner'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Slå en prisfastsættelsesdimension fra
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektstyring
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administration af ressourcer
           items:
+            - name: Opret ressourcer
+              href: resource-management/create-resources.md
             - name: Definer færdigheder og kvalifikationer
               href: resource-management/define-skills-proficiencies.md
+            - name: Definer roller
+              href: resource-management/define-roles.md
             - name: Definer ressourcekalendere
               href: resource-management/define-resource-calendars.md
         - name: Reserver allokeringsmetoder
           href: resource-management/booking-allocation-methods.md
+        - name: Reservationsstatusser
+          href: resource-management/booking-status.md
         - name: Færdigheds- og kompetencemodeller
           href: resource-management/skills-proficiency-models.md
         - name: Ressourceafstemning
@@ -834,6 +906,8 @@
       items:
         - name: Plan for udgivelse af opdatering til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 26. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-26.md
         - name: 'Nyheder eller ændringer i den 25. opdateringsudgivelse, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Nyheder eller ændringer i den 24. opdateringsudgivelse, v3'
