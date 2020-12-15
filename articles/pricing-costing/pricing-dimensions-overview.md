@@ -3,26 +3,18 @@ title: Oversigt over dimensioner for prisfastsættelse
 description: Dette emne indeholder oplysninger om prisfastsættelsesdimensioner i Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128456"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650178"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversigt over dimensioner for prisfastsættelse
 
@@ -40,9 +32,21 @@ Derfor findes der to typer værdier for prisfastsættelsesdimensioner:
 
 ## <a name="pricing-dimensions"></a>Dimensioner for prisfastsættelse
 
-Dynamics 365 Project Operations leveres med et standardsæt af prisfastsættelsesdimensioner. Du kan få vist disse prisfastsættelsesdimensioner ved at gå til **Project Operations** > **Parametre**. I parameterposten på fanen **Beløbsbaserede prisdimensioner** skal du kontrollere, at rollen **msdyn_resourcecategory** og ressourceafdelingen, **msdyn_organizationalunit** har felterne **Gælder for Salg** og **Gælder for Omkostning** angivet til **Ja**. Ved at aktivere disse felter får du mulighed for at konfigurere prisen og omkostningerne for de enkelte kombinationer af rolle og afdeling.
+Dynamics 365 Project Operations leveres med et standardsæt prisfastsættelsesdimensioner. Du kan få vist disse prisfastsættelsesdimensioner ved at gå til **Project Operations** > **Parametre**. I parameterposten på fanen **Beløbsbaserede prisdimensioner** skal du kontrollere, at rollen **msdyn_resourcecategory** og ressourceafdelingen, **msdyn_organizationalunit** har felterne **Gælder for Salg** og **Gælder for Omkostning** angivet til **Ja**. Ved at aktivere disse felter får du mulighed for at konfigurere prisen og omkostningerne for de enkelte kombinationer af rolle og afdeling.
 
-Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer ved hjælp af ekstra attributter, kan du oprette brugerdefinerede felter, objekter og dimensioner.
+![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret](media/PS-OOB-parameters.png)
+
+Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer ved hjælp af ekstra attributter, kan du oprette brugerdefinerede felter, objekter og dimensioner. Du kan finde flere oplysninger i følgende emner. 
+  
+  > [!NOTE]
+  > Procedurerne skal udføres i den rækkefølge, de er angivet.
+
+1. [Opret en løsning til brugerdefinerede prisfastsættelsesdimensioner](../sales/create-solution-custompd.md)
+2. [Opret brugerdefinerede felter og objekter](create-custom-fields-entities-pricing-dimensions.md)
+3. [Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter](add-custom-fields-price-setup-transactional-entities.md)
+4. [Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner](set-up-custom-fields-pricing-dimensions.md)
+5. [Opdatere plug-in-attributter, så de indeholder nye prisfastsættelsesdimensioner](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Prisfastsættelse af HR-tid
 Hvordan en organisation prisfastsætter HR-tid er ofte en vigtig strategisk overvejelse, der direkte påvirker organisationens rentabilitet. Arbejd sammen med økonomiteamene og praksischeferne, når organisationen er klar til at identificere, hvordan man vil konfigurere fakturerings- og omkostningssatser for HR-tid.

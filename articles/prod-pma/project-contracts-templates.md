@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074306"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642626"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dette emne beskriver den skabelon og underliggende opgaver, der bruges til at synkronisere kontrakter og projekter direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
@@ -133,9 +135,9 @@ Hvis du skal bruge Power Query, skal du følge disse retningslinjer:
 ## <a name="template-mapping-in-data-integration"></a>Skabelon for tilknytning i dataintegration
 
 > [!NOTE] 
-> Felterne **Kundereference** , **AdresseBy** , **AdresseLandOmrådeId** , **AdresseBeskrivelse** , **Addresselinje1** , **Addresselinje2** , **AddresseRegion** og **AddressePostnummer** er ikke medtaget i standardtilknytningen for projektkontrakter. Du kan tilføje tilknytningerne, hvis du har brug for, at disse data synkroniseres i forbindelse med projektkontrakter.
+> Felterne **Kundereference**, **AdresseBy**, **AdresseLandOmrådeId**, **AdresseBeskrivelse**, **Addresselinje1**, **Addresselinje2**, **AddresseRegion** og **AddressePostnummer** er ikke medtaget i standardtilknytningen for projektkontrakter. Du kan tilføje tilknytningerne, hvis du har brug for, at disse data synkroniseres i forbindelse med projektkontrakter.
 >
-> Felterne **Beskrivelse** , **Overordnetid** , **Projektgruppe** , **ProjektledersPersonalenummer** og **Projekttype** medtages ikke i standardtilknytningen for projekter. Du kan tilføje tilknytningerne, hvis du har brug for, at disse data synkroniseres i forbindelse med projekter.
+> Felterne **Beskrivelse**, **Overordnetid**, **Projektgruppe**, **ProjektledersPersonalenummer** og **Projekttype** medtages ikke i standardtilknytningen for projekter. Du kan tilføje tilknytningerne, hvis du har brug for, at disse data synkroniseres i forbindelse med projekter.
 
 I følgende illustrationer vises eksempler på tilknytninger mellem skabelonopgaver i dataintegration. I tilknytningen vises de feltoplysninger, der synkroniseres fra Project Service Automation til Finance.
 

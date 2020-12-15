@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121121"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642944"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Tilmeld dig abonnement på prøveversion af Project Operations for ressource/ikke-lagerførte scenarier
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 I dette emne gives en forklaring på, hvordan du abonnerer på prøveversion/partnertilbuddet og udruller Project Operations-miljø for ressource/ikke-lagerbaserede scenarier.
 
@@ -42,7 +44,7 @@ Når din [anmodning om prøveversion](https://forms.office.com/FormsPro/Pages/Re
 
 Før du går i gang, skal du sikre dig, at du er logget på en browser med brugerens arbejdskonto i lejeren, hvor du vil installere prøveversionen af Project Operations.
 
-1. Indløser den første tilbudskode, **Dynamics 365 Project Operations (CRM) - prøveversion** ved at indsætte den i browserens URL-adresse.
+1. Indløs den første tilbudskode, **Dynamics 365 Project Operations (CRM) - prøveversion** ved at indsætte den i browserens URL.
 
 ![Accepter tilbud](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Gentag de samme trin med det sidste tilbud fra velkomstmailen.
 
 ![Tildel licenser](./media/15AssignLicenses.png)
 
-3. Kontroller, at licensen til **Prøveversion af Dynamics 365 Project Operations (CRM)** og **Office 365 Project Operations - prøveversion** er markeret og vælg **Gem ændringer**.
+3. Kontroller, at licensen **Dynamics 365 Project Operations (CRM) prøveversion** og **Office 365 Project Operations - prøveversion** er valgt, og vælg **Gem ændringer**.
 
 > [!NOTE]
 > Tilbuddet om prøveversionen af Finance behøver ikke at være tildelt en bruger.

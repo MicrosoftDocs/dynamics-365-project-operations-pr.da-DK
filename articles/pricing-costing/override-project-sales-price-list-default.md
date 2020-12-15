@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130841"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672224"
 ---
 # <a name="override-project-sales-price-lists"></a>Tilsidesæt projektsalgsprislister
 
@@ -27,7 +28,7 @@ Hvis du vil oprette en kundespecifik projektprisliste, skal du i området **Salg
 
 1. Åbn listesiden med **Konti**.
 2. Find og dobbeltklik på en kundepost for at åbne detaljesiden for **Konto**.
-3. På fanen **Projektprislister** skal du vælge **+ Ny projektprisliste^^.
+3. På fanen **Projektprislister** skal du vælge **+ Ny projektprisliste**.
 4. På siden **Ny projektprisliste** skal du vælge en prisliste i rullemenuen. Kun prislister, hvor konteksten er angivet til **Salg**, og hvis valuta matcher kontovalutaen, medtages.
 5. Navngiv tilknytningen og vælg derefter **Gem**. Der oprettes en kundespecifik projektprisliste. Denne prisliste bruges som standard for projektpriser på projekttilbud eller kontrakter, der er oprettet for denne kunde, når den oprettede dato for tilbuddet eller projektkontrakten falder inden for prislistens ikraftrædelsesdato.
 

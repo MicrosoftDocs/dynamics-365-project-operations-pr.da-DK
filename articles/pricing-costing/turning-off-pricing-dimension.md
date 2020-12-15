@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ffeff2ab465f37b8a4e40f4e64b118e3bb412cb8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119276"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650042"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Deaktivering af en prisdimension
 
@@ -33,6 +33,8 @@ Det kan være nødvendigt at gennemgå og opdatere din prisstrategi hvert andet 
 Du deaktiverer en prisdimension, uanset om den er standard eller brugerdefineret, ved at indstille felterne **Gælder for Omkostning** og **Gælder for Salg** i prisdimensionen til **Nej**.
 
 Men når du gør det, kan du få vist fejlmeddelelsen **Prisfastsættelsesdimensionen kan ikke opdateres eller slettes, hvis der er tilknyttede prisposter.**
+
+![Forretningsprocesfejl er sandsynlig, når du deaktiverer en prisdimension](media/Business-Process-Error.png)
 
 Denne fejlmeddelelse angiver, at der findes prisposter, der tidligere var konfigureret for den dimension, som bliver deaktiveret. Alle poster for **Rollepris** og **Rolleprisavance**, der refererer til en dimension, skal slettes, før dimensionens anvendelighed kan indstilles til **Nej**. Denne regel gælder både for standardprisdimensioner og eventuelle brugerdefinerede prisdimensioner, som du kan have oprettet. Årsagen til denne validering er, at hver enkelt **Rollepris**-post skal have en entydig kombination af dimensioner. På en prisliste, der hedder **US Cost Rates 2018**, har du f.eks. følgende **Rollepris**-rækker. 
 

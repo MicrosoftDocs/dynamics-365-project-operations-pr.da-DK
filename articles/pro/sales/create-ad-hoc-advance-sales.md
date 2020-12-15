@@ -1,5 +1,5 @@
 ---
-title: Oprettelse af et ad hoc-forskud på en kontrakt - lille
+title: Oprettelse af et ad hoc-forskud på en kontrakt
 description: Dette emne indeholder oplysninger om, hvordan du opretter et forskud på en kontrakt efter behov.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181355"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595946"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Oprettelse af et ad hoc-forskud på en kontrakt - lille
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Oprettelse af et ad hoc-forskud på en kontrakt
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 Microsoft Dynamics 365 Project Operations understøtter faktureringsscenarier, som omfatter forudbetalinger og forskud. Processen til brug af **Forskud** i **Project Operations** svarer til kontrakter med **Forskudshonorar**. 
 

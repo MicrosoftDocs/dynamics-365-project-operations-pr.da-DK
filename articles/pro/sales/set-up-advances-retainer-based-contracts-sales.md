@@ -1,5 +1,5 @@
 ---
-title: Forskudskontrakter og kontrakter baseret på forskudshonorar - lille
+title: Forskudskontrakter og kontrakter baseret på forskudshonorar
 description: Dette emne indeholder oplysninger om kontraktmodeller, der er baseret på forskudshonorarer eller forskud i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180860"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596095"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Forskudskontrakter og kontrakter baseret på forskudshonorar - lille
+# <a name="advances-and-retainer-based-contracts"></a>Forskudskontrakter og kontrakter baseret på forskudshonorar
 
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations understøtter kontrakter baseret på forskudshonorarer. En kontrakt, der er baseret på forskudshonorarer, er et forhandlet sæt ligeligt fordelte betalinger, som kunden faktureres for i hele projektets varighed. Denne kontrakttype bruges typisk til faktureringsmodeller, der er baseret på tid og materiale eller forbrug, hvor der er behov for at give kunden en forudsigelig plan for fakturering og betaling. Faktiske omsætningsoplysninger periodiseret i hver periode afstemmes mod den betaling, der modtages fra kunden i begyndelsen af perioden. I overensstemmelse med konceptet med faktureringsmodellen for tid og materiale kan omsætningsværdierne periodiseret i de enkelte perioder variere med de påløbne omkostninger. Hvis den periodiserede omsætning er større end det beløb, der modtages i begyndelsen af perioden, kan det pågældende projekts leveringsvirksomhed gøre følgende:
+Dynamics 365 Project Operations understøtter forskudsbaserede kontrakter. En kontrakt, der er baseret på forskudshonorarer, er et forhandlet sæt ligeligt fordelte betalinger, som kunden faktureres for i hele projektets varighed. Denne kontrakttype bruges typisk til faktureringsmodeller, der er baseret på tid og materiale eller forbrug, hvor der er behov for at give kunden en forudsigelig plan for fakturering og betaling. Faktiske omsætningsoplysninger periodiseret i hver periode afstemmes mod den betaling, der modtages fra kunden i begyndelsen af perioden. I overensstemmelse med konceptet med faktureringsmodellen for tid og materiale kan omsætningsværdierne periodiseret i de enkelte perioder variere med de påløbne omkostninger. Hvis den periodiserede omsætning er større end det beløb, der modtages i begyndelsen af perioden, kan det pågældende projekts leveringsvirksomhed gøre følgende:
 
 - Kun fakturer kunden for den overskydende del 
 - Udskyde afstemningen af omsætningen til næste faktureringsperiode og udarbejde en endelig faktura ved projektets afslutning for eventuelle resterende ikke-afstemt omsætning

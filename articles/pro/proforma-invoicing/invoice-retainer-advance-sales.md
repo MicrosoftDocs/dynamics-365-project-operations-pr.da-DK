@@ -1,5 +1,5 @@
 ---
-title: Fakturer et forskudshonorar eller et forskud - lille
+title: Fakturer et forskudshonorar eller et forskud
 description: Dette emne indeholder oplysninger om, hvordan du fakturerer et forskudshonorar eller et forskud i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180545"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596185"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturer et forskudshonorar eller et forskud - lille
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturer et forskudshonorar eller et forskud
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations understøtter kontrakter baseret på forskudshonorarer og engangsforskud. I en projektkontrakt kan du registrere en plan for forskudshonorarer eller engangsforskud. Selvom du angiver det på projektkontraktniveau, bliver et forskudshonorar eller et forskud dog ikke øjeblikkeligt tilgængelig for brug. Hvis du vil bruge et forskudshonorar eller et forskud på en faktura, der rent faktisk fakturerer kunden, skal forskudshonoraret eller forskuddet først være faktureret.
+Dynamics 365 Project Operations understøtter forskudsbaserede kontrakter og engangsforskud. I en projektkontrakt kan du registrere en plan for forskudshonorarer eller engangsforskud. Selvom du angiver det på projektkontraktniveau, bliver et forskudshonorar eller et forskud dog ikke øjeblikkeligt tilgængelig for brug. Hvis du vil bruge et forskudshonorar eller et forskud på en faktura, der rent faktisk fakturerer kunden, skal forskudshonoraret eller forskuddet først være faktureret.
 
 Fuldfør følgende trin for at fakturer et forskudshonorar eller et forskud.
 

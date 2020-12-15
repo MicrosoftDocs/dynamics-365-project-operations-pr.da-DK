@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121166"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642957"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Dette emne indeholder oplysninger om, hvordan du klargør et nyt Dynamics 365 Project Operations-miljø for ressource-/ikke-lagerbaserede scenarier.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dette emne indeholder oplysninger om, hvordan du klargør et nyt Dynamics 365 Project Operations-miljø til ressource/ikke-lagerbaserede scenarier.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Aktivér automatisk klargøring af Project Operations i et LCS-projekt
 
@@ -120,7 +122,7 @@ Det vil tage et stykke tid at vedligeholde miljøet. Når installationen er fuld
 
 ![Anvend løsninger](./media/13ApplySolutions.png)
 
-5. Vælg begge løsninger, **Dynamics 365 Finance and Operations dobbelt skrivningsobjekttilknytninger** og **Dynamics 365 Project Operations dobbelt skrivningsobjekttilknytninger**, og vælg derefter **Anvend**.
+5. Vælg begge løsninger, **Dynamics 365 Finance and Operations - dobbeltskrivning af objekttilknytningdobbelt** og **Dynamics 365 Project Operations - dobbeltskrivning af objekttilknytningdobbelt**, og vælg derefter **Anvend**.
 
 ![Bekræft løsninger](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført
 | --- | --- | --- | --- | --- | --- |
 | **Projektressourceroller for alle firmaer (reserverbareressourcekategorier)** | Nr. | Ja | Common Data Service | Nr. | I\R |
 | **Juridiske enheder (cdm\_virksomheder)** | Nr. | Ja | Finance and Operations-apps | Nr. | I\R |
+| **Hovedbog (msdyn_ledgers)** | Nr. | Ja | Finance and Operations-apps | Ja | Ja, Finance and Operations-apps |
 | **Integration af faktiske oplysninger i Project Operations (msdyn\_faktiske oplysninger)** | Nr. | Nr. | I\R | Ja | Nr. |
 | **Projekkontraktlinjer (salgsordredetaljer)** | Nr. | Nr. | I\R | Nr. | Nr. |
 | **Integrationsobjekt for projekttransaktionsrelationer (msdyn\_transaktionsforbindelser)** | Nr. | Nr. | I\R | Nr. | I\R |

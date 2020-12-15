@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401256"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642086"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Anvend demonstrationskonfiguration og konfigurationsdata for Project Operations - lille 
 
 _**Lille udrulning - aftale til proformafakturering_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="prerequisites"></a>Forudsætninger
 
 Før du går i gang med konfigurationen, skal du have et Common Data Service-miljø (CDS), der er klargjort til Dynamics 365 Project Operations.
 
 
-## <a name="instructions"></a>Instruktioner
+## <a name="instructions"></a>Vejledninger
 
 1. Hent [Masterdatapakken](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Naviger til mappen *ProjOpsDemoDataSetupAndMaster - Integreret CMT*, og kør den eksekverbare fil *DataMigrationUtility*.

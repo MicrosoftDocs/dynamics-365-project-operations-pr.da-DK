@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181760"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513827"
 ---
 # <a name="manage-leads"></a>Administrer kundeemner
 
@@ -55,7 +55,7 @@ De kundeemner, der har værdien **Type** angivet til **Arbejdsbaseret**, kaldes 
 - En kontaktpersonpost, der er knyttet til firmaet, baseret på værdierne i felterne **Fornavn** og **Efternavn** for kundeemnet.
 - En projektbaseret salgsmulighed, der har feltet **Type** angivet til **Arbejdsbaseret**.
 
-Du kan finde mere detaljerede oplysninger om kvalificering af kundeemner i[Kvalificer eller konverter kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Du kan finde mere detaljerede oplysninger om kvalificering af kundeemner i [Kvalificer eller konverter kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kvalificering af kundeemne og juridiske enhedsoplysninger 
 

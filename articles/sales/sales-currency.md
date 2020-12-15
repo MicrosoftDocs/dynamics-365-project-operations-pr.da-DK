@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121211"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642266"
 ---
 # <a name="currency"></a>Valuta
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Valutaer bestemmer prisen på produkter i produktkataloget og omkostningerne ved transaktioner, f.eks. salgsordrer. Hvis dine kunder er spredt over flere lande, tilføjes deres valutaer med henblik på at administrere dine transaktioner. Tilføj de valutaer, der er mest relevante for dine aktuelle og fremtidige virksomhedsbehov.  
 

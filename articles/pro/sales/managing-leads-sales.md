@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180500"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513782"
 ---
 # <a name="manage-leads---lite"></a>Administrer kundeemner - lille
 
@@ -23,7 +23,7 @@ Projektbaserede kundeemner kan administreres og kvalificeres i Project Operation
 
 ## <a name="list-of-project-sales-leads"></a>Liste med projektbaserede kundeemner
 
-I sektionen **Salg** i venstre navigationsrude skal du åbne listesiden **Kundeemner** for at få vist en liste over alle kundeemneposter i systemet. Listen over de viste kundeemner er arbejdsbaserede og andre typer af kundeemner, der kan oprettes, hvis du også har programmerne Dynamics 365 Sales eller Dynamics 365 Field Service.
+I sektionen **Salg** i venstre navigationsrude skal du åbne listesiden **Kundeemner** for at få vist en liste over alle kundeemneposter i systemet. Kundeemnerne på listen er arbejdsbaserede og andre typer kundeemner, der kan oprettes, hvis du også har programmerne Dynamics 365 Sales eller Dynamics 365 Field Service.
 
 Du kan oprette en filtreret visning, hvis du kun vil se projektbaserede kundeemner, når du opretter et filter for værdien **Type**. Du kan f.eks. vælge kun at få vist arbejdsbaserede kundeemner.
 
@@ -55,7 +55,7 @@ De kundeemner, der har værdien **Type** angivet til **Arbejdsbaseret**, kaldes 
 - En kontaktpersonpost, der er knyttet til firmaet, baseret på værdierne i felterne **Fornavn** og **Efternavn** for kundeemnet.
 - En projektbaseret salgsmulighed, der har feltet **Type** angivet til **Arbejdsbaseret**.
 
-Du kan finde mere detaljerede oplysninger om kvalificering af kundeemner i[Kvalificer eller konverter kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Du kan finde mere detaljerede oplysninger om kvalificering af kundeemner i [Kvalificer eller konverter kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Forretningsprocesflow for projektbaserede handler
 

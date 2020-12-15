@@ -1,5 +1,5 @@
 ---
-title: Konfigurer en plan for forskudshonorar - lille
+title: Konfigurer en plan for forskudshonorarer
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer en plan for forskudshonorar i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181265"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596365"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Konfigurer en plan for forskudshonorar - lille
+# <a name="set-up-a-retainer-schedule"></a>Konfigurer en plan for forskudshonorarer
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 Planer for forskudshonorarer konfigureres på siden **Projektkontrakt** i Dynamics 365 Project Operations.
 

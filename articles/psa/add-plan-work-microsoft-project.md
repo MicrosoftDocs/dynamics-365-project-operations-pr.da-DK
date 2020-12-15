@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129671"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642761"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Brug tilføjelsesprogrammet Project Service Automation til at planlægge dit arbejde i Microsoft Project
 
@@ -85,14 +85,14 @@ ms.locfileid: "4129671"
 ## <a name="publish-your-project"></a>Udgiv dit projekt  
 Når projektplanlægningen er afsluttet, er næste trin at importere og udgive projektet til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Projektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Processen til generering af pris og team anvendes. Åbn projektet i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for at se, at gruppen, projekt estimaterne og arbejdsopgavehierarkiet er blevet genereret. I følgende tabel vises, hvor du kan finde resultaterne:
+Projektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Processen til generering af pris og team anvendes. Åbn projektet i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for at se, at gruppen, projektestimaterne og arbejdsopgavehierarkiet er blevet genereret. I følgende tabel vises, hvor du kan finde resultaterne:
 
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-diagrammer**   | Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Arbejdsopgavehierarki**-skærmbilledet. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ressourceark** |   Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Medlemmer af projektteam**-skærmbilledet.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Bruge anvendelse**    |    Importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektestimater**-skærmbilledet.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Bruge anvendelse**    |    Import til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektestimater**-skærmbilledet.     |
 
 **Sådan importerer og udgiver du projektet**  
 1. Fra fanen **Project Service** skal du klikke på **Udgiv** > **Nyt Project Service Automation-projekt**.  
@@ -173,6 +173,59 @@ Projektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-proje
 4. Klik på **Publicer**.  
 
 Hvis projektfilen sammenkædes med [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], bliver projektfilen master, og den angiver arbejdsopgavehierarkiet i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-skabelonen til skrivebeskyttet.  Hvis du vil foretage ændringer i projektplanen, skal du foretage dem i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] og udgive dem som opdateringer til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Læs en ressourceindlæst plan
+
+Når du læser et projekt fra Project Service Automation, synkroniseres ressourcens kalender ikke med skrivebordsklienten. Hvis der er forskelle i opgavevarigheden, indsats eller sluttidspunkt, er det sandsynligvis fordi, at ressourcerne og skrivebordsklienten ikke har den samme arbejdstidsskabelon, som er anvendt på projektet.
+
+
+## <a name="data-synchronization"></a>Datasynkronisering
+
+I følgende tabel beskrives det, hvordan data synkroniseres mellem Project Service Automation og tilføjelsesprogrammet Microsoft Project til skrivebordet.
+
+| **Objekt** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektopgave | Forfaldsdato | ● | - |
+| Projektopgave | Anslået indsats | ● | - |
+| Projektopgave | MS Project-klient-id | ● | - |
+| Projektopgave | Overordnet opgave | ● | - |
+| Projektopgave | Project | ● | - |
+| Projektopgave | Projektopgave | ● | - |
+| Projektopgave | Navn på projektopgave | ● | - |
+| Projektopgave | Ressourceenhed (udfaset i v3.0) | ● | - |
+| Projektopgave | Planlagt varighed | ● | - |
+| Projektopgave | Startdato | ● | - |
+| Projektopgave | WBS-id | ● | - |
+
+| **Objekt** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Teammedlem | MS Project-klient-id | ● | - |
+| Teammedlem | Stillingsnavn | ● | - |
+| Teammedlem | projekt | ● | ● |
+| Teammedlem | Projektteam | ● | ● |
+| Teammedlem | Ressourceenhed | - | ● |
+| Teammedlem | Rolle | - | ● |
+| Teammedlem | Arbejdstimer | Ikke synkroniseret | Ikke synkroniseret |
+
+| **Objekt** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Ressourcetildeling | Fra-dato | ● | - |
+| Ressourcetildeling | Timer | ● | - |
+| Ressourcetildeling | MS Project-klient-id | ● | - |
+| Ressourcetildeling | Planlagt arbejde | ● | - |
+| Ressourcetildeling | Project | ● | - |
+| Ressourcetildeling | Projektteam | ● | - |
+| Ressourcetildeling | Ressourcetildeling | ● | - |
+| Ressourcetildeling | Opgave | ● | - |
+| Ressourcetildeling | Til-dato | ● | - |
+
+| **Objekt** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektopgaveafhængigheder | Projektopgaveafhængighed | ● | - |
+| Projektopgaveafhængigheder | Linktype | ● | - |
+| Projektopgaveafhængigheder | Foregående opgave | ● | - |
+| Projektopgaveafhængigheder | Project | ● | - |
+| Projektopgaveafhængigheder | Efterfølgende opgave | ● | - |
 
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)

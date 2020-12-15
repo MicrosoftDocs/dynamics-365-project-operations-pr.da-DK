@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131606"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642401"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Udarbejd projektskabeloner med Kopier projekt
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Operations understøtter muligheden for at kopiere et projekt og tilbageføre eventuelle tildelinger til de standardressourcer, der repræsenterer rollen. Kunder kan bruge denne funktion til at oprette grundlæggende projektskabeloner.
 

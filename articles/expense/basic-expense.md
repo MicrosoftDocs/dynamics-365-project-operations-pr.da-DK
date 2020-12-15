@@ -3,17 +3,17 @@ title: Udgiftspost (lille)
 description: Dette emne indeholder oplysninger om, hvordan du kan arbejde med udgiftsposter i en lille udrulning.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121076"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590939"
 ---
 # <a name="expense-entry-lite"></a>Udgiftspost (lille)
 
@@ -36,6 +36,10 @@ Når du er færdig med at indlæse alle udgifterne, og du er klar til at godkend
 
 1. Gå til **Udgifter**, og vælg en udgift. Du kan også vælge at markere alle udgifterne ved hjælp af afkrydsningsfeltet i overskriften.
 2. Vælg **Send**. Systemet behandler de valgte poster og opretter derefter anmodninger om godkendelse af udgifter.
+
+## <a name="add-an-attachment"></a>Tilføj en vedhæftet fil
+
+Det kan være nødvendigt at give godkenderen yderligere dokumentation om din udgift. Du kan vedhæfte en kvittering i tidslinjen for udgiftsposten. Vælg **Rediger** i sektionen **Tidslinje**, og vælg derefter papirclips-ikonet for at vedhæfte kvitteringen.
 
 ## <a name="recall-a-basic-expense"></a>Tilbagekald en grundlæggende udgift
 
