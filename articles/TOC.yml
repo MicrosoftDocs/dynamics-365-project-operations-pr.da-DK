@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Anvend demonstrationsdata
           items:
-            - name: Anvend demonstrationsdata på et skybaseret Finance-miljø
-              href: environment/resource-apply-finance-demo-data.md
             - name: Anvend konfigurationsdata i Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Udrul miljøer
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nyheder
       items:
+        - name: Februar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Januar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: December 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Forskud og forskudshonorarer
               items:
-                - name: Forskudskontrakter og kontrakter baseret på forskudshonorar - lille
+                - name: Forskudskontrakter og kontrakter baseret på forskudshonorar
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurer en plan for forskudshonorar - lille
+                - name: Konfigurer en planlægning for forskudshonorarer
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Opret et ad hoc-forskud på en kontrakt - lille
+                - name: Opret et ad hoc-forskud på en kontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prisfastsættelse og omkostningsfastsættelse
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Planlægning af arbejdsopgavehierarki
           items:
+            - name: Opret et arbejdsopgavehierarki
+              href: project-management/create-wbs.md
             - name: Opret tildelinger
               href: project-management/create-assignments.md
         - name: Estimer projekter
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Bevar projektteamets medlemmer
               href: project-management/maintain-team-members.md
+        - name: Lokalisering af fejl i forbindelse med arbejde i opgavegitteret
+          href: project-management/projectplanningUIFAQ.md
         - name: Samarbejde
           items:
             - name: Samarbejde med Office Grupper
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Gennemse foreslåede ressourcer
               href: resource-management/review-proposed-resources.md
+            - name: Rediger reservationer
+              href: resource-management/edit-existing-bookings.md
         - name: Decentraliseret ressourcereservation (hybrid)
           items:
             - name: Tilføj teammedlemmer fra teammedlemsgitteret
@@ -324,8 +332,10 @@
                   href: expense/configure-expense-management-parameters.md
                 - name: Konfigurer integration af kreditkort
                   href: expense/set-up-credit-card-integration.md
-                - name: Opsætning af udgiftskategorier
+                - name: Konfigurer udgiftskategorier
                   href: expense/set-up-expense-categories.md
+            - name: Arbejd med personlige udgifter i en udgiftsrapport
+              href: expense/personal-expenses-expense-report.md
             - name: Opret udgiftsrapporter
               items:
                 - name: Fordelinger i en udgiftsrapport
@@ -370,22 +380,28 @@
           items:
             - name: Opret og bekræft rettelseskladder
               href: actuals/create-confirm-correction-journals.md
-    - name: Proformafakturering
+    - name: Fakturering
       items:
-        - name: Administrer efterslæbet af projektfakturering
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: 'Administrer status, som ikke må overskrides, og valideringer'
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Opret manuelt en proformafaktura på projektet
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Administrer en proformafaktura på projektet
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Fakturer et forskudshonorar eller et forskud
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Bekræft en proformafaktura på projektet
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Konfigurer automatisering af projektfaktura
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Oversigt over faktureringsprocessen
+          href: invoicing/post-project-invoices.md
+        - name: Administrer forslag til projektfakturaer
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Proformafakturering
+          items:
+            - name: Administrer efterslæbet af projektfakturering
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: 'Administrer status, som ikke må overskrides, og valideringer'
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Opret manuelt en proformafaktura på projektet
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Administrer en proformafaktura på projektet
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Fakturer et forskudshonorar eller et forskud
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Bekræft en proformafaktura på projektet
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Konfigurer automatisering af projektfaktura
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projektregnskab
       items:
         - name: Standarder for økonomiske dimensioner
@@ -404,26 +420,26 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Konfigurer intern fakturering
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Opret interne kunde- og kreditorfakturaer
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Opret interne transaktioner
               href: project-accounting/create-intercompany-transactions.md
+            - name: Opret interne kunde- og kreditorfakturaer
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Indtægtsanerkendelse
       items:
         - name: Oversigt over indtægtsanerkendelse
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Opsætning af indtægtsanerkendelse
+        - name: Konfigurer indtægtsanerkendelse
           items:
-            - name: Opsætning af periodetyper
+            - name: Konfigurer periodetyper
               href: project-accounting/period-types.md
-            - name: Opsætning af omkostningsskabeloner
+            - name: Konfigurer omkostningsskabeloner
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Administrer omsætningsestimater
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Omsætningsestimat for projekter med fast pris
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Metoder til færdiggørelsesomkostninger
           href: revenue-recognition/cost-complete-methods.md
+        - name: Administrer omsætningsestimater
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Lille udrulning - aftale til proformafakturering
   items:
     - name: Start her
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
-        - name: Nyheder december 2020 - lille udrulning - aftale til proformafakturering
+        - name: Nyheder i februar 2021 – lille udrulning
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Nyheder i januar 2021 – lille udrulning
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Nyheder i december 2020 – lille udrulning
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Nyheder november 2020 - lille udrulning - aftale til proformafakturering
+        - name: Nyheder i november 2020 – lille udrulning
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Salgsproces for projekt
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Planlægning af arbejdsopgavehierarki
           items:
+            - name: Opret et arbejdsopgavehierarki
+              href: project-management/create-wbs.md
             - name: Opret tildelinger
               href: project-management/create-assignments.md
         - name: Estimer projekter
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Bevar projektteamets medlemmer
               href: project-management/maintain-team-members.md
+        - name: Lokalisering af fejl i forbindelse med arbejde i opgavegitteret
+          href: project-management/projectplanningUIFAQ.md
         - name: Samarbejde
           items:
             - name: Samarbejde med Office Grupper
               href: project-management/collaboration-groups.md
+        - name: Bemærkninger til udvikler
+          items:
+            - name: Udarbejd projektskabeloner med Kopier projekt
+              href: project-management/dev-copy-project.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Gennemse foreslåede ressourcer
               href: resource-management/review-proposed-resources.md
+            - name: Rediger reservationer
+              href: resource-management/edit-existing-bookings.md
         - name: Decentraliseret ressourcereservation (hybrid)
           items:
             - name: Tilføj teammedlemmer fra teammedlemsgitteret
@@ -772,6 +802,10 @@
   items:
     - name: Nyheder
       items:
+        - name: Nyheder januar 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Nyheder december 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Nyheder november 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Udrulningsoversigt til Project Operations for lagerbaserede/produktionsbaserede scenarier
@@ -904,9 +938,17 @@
       href: psa/overview.md
     - name: Nyheder
       items:
-        - name: Plan for udgivelse af opdatering til Project Service 3.x
+        - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Nyheder eller ændringer i den 26. opdateringsudgivelse, v3'
+        - name: 'Nyheder eller ændringer i opdateringsudgivelse 28.5 hotfix, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Nyheder eller ændringer i den 28. opdateringsudgivelse, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Nyheder eller ændringer i opdateringsudgivelse 27.5 hotfix, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Nyheder eller ændringer i den 27. opdateringsudgivelse, V3'
+          href: psa/whats-new-ur-27.md
+        - name: 'Nyheder eller ændringer i den 26. opdateringsudgivelse, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Nyheder eller ændringer i den 25. opdateringsudgivelse, V3'
           href: psa/whats-new-ur-25.md
@@ -936,7 +978,9 @@
           href: psa/whats-new-ur-13.md
         - name: 'Nyheder eller ændringer i den 12. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-12.md
-        - name: Nyheder eller ændringer i Project Service Automation v3.x bølge 1 2020
+        - name: 'Nyheder eller ændringer i Project Service Automation v3.x, 1. bølge 2021'
+          href: psa/whats-new-2021-wave1.md
+        - name: 'Nyheder eller ændringer i Project Service Automation v3.x, 1. bølge 2020'
           href: psa/whats-new-v3-2020-wave1.md
         - name: Nyheder eller ændringer i Project Service Automation v3
           href: psa/whats-new-changed-v3.md
@@ -984,7 +1028,7 @@
               href: psa/project-estimating.md
             - name: Salgsestimater og projekter
               href: psa/project-leveraging.md
-            - name: Projektstatus og -omkostningsforbrug
+            - name: Projektstatus og omkostningsforbrug
               href: psa/project-tracking.md
             - name: Projektskabeloner
               href: psa/project-templates.md
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Projektindstillinger
               href: psa/project-settings.md
+            - name: Planlæg dit arbejde i Microsoft Project med tilføjelsesprogrammet Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: Dimensioner for prisfastsættelse og omkostningsfastsættelse
           items:
             - name: Startside for dimensioner for prisfastsættelse og omkostningsfastsættelse
