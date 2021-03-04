@@ -3,6 +3,7 @@ title: Hvorfor anvendes en standardpris på nul for faktiske salgsudgifter?
 description: Følgende tre kontroller hjælper dig med at foretage fejlfinding af grunden til, at standardprisen på 0 anvendes til faktiske salgsudgifter.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122066"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146296"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Hvorfor anvendes en standardpris på nul for faktiske salgsudgifter?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Disse ofte stillede spørgsmål gælder for faktiske udgifter, hvor transaktions
 
 Find projektet fra projektfeltet for den faktiske værdi, og gå til projektsiden. Gå derefter til fanen Salg. Klik på linket i feltet Projektkontrakt på gitteret Projektkontraktlinjer. Siden Projektkontrakt åbnes. På siden Projektkontrakt skal du gå til fanen Projektprislister. Se, om der er mindst én prisliste, der er tilknyttet her.
 
-Hvis der ikke er tilknyttet en prisliste i gitteret Projektprislister i Projektkontrakt, skal du gøre følgende:
+Hvis der ikke er tilknyttet en prisliste i gitteret Projektprislister i Projektkontrakt:
 
 - Tilknyt en prisliste til gitteret Projektprislister. De prislisterne, der kan tilknyttes her, skal have kontekstfeltet indstillet til Salg, og valutafeltet på prislisten skal svare til valutafeltet i projektkontrakten. Når du har foretaget de nødvendige rettelser, skal du genoprette en udgiftspost, godkende den og kontrollere, at de ikke-fakturerede faktiske salgsværdier viser en gyldig pris.
 - Hvis du har en eller flere prislister tilknyttet i gitteret Projektprislister for projektkontrakten, kan du gå til Kontrol 2.
@@ -47,7 +50,7 @@ Hvis Project Service skal tage en prisliste for standardprisen i betragtning, sk
 - Start med at kontrollere, at start- og slutdatoer under fanen Generelt for de prislister, der er tilknyttet, ikke er tomme. Hvis start- og slutdatoerne til i prislisterne ovenfor, er tomme, har du isoleret problemet. 
 - Noter startdatofeltet i den faktiske salgsudgift, og kontroller, om en eller flere af de prislister, der er identificeret, er relevant for denne dato. Eksempelvis skal datoen for den faktiske udgift ligge inden for start- og slutdatoen på prislisten. 
     - Hvis der ikke er en prisliste, der dækker denne dato på den faktiske salgsudgift, har du isoleret problemet. Du skal ændre start- og slutdatoer på prislisten for at sikre, at prislisten omfatter datoen for den faktiske udgift. 
-    - Hvis der er mere end én prisliste, der dækker datoen for den faktiske salgsudgift, har du isoleret problemet. Du kan løse dette problem ved at redigere start- og slutdatoerne på prislisterne, så der er kun én prisliste, der dækker datoen for den faktiske udgift. 
+    - Hvis der er mere end én prisliste, der dækker datoen for den faktiske salgsudgift, har du isoleret problemet. Rediger start- og slutdatoerne på prislisterne, så der er kun én prisliste, der dækker datoen for den faktiske udgift. 
     - Hvis der kun er én prisliste, der dækker datoen for den faktiske udgift, skal du gå til Kontrol 3.
 Når du har foretaget de nødvendige rettelser, skal du genoprette en udgiftspost, godkende den og kontrollere, at de ikke-fakturerede faktiske salgsværdier viser en gyldig pris.
 
@@ -55,7 +58,7 @@ Når du har foretaget de nødvendige rettelser, skal du genoprette en udgiftspos
 
 Hvis du har fuldført kontrol 1 og kontrol 2, bør du kun have én projektprisliste, der gælder for datoen for den faktiske salgsudgift, nu. Åbn denne projektprisliste, og gå til fanen Kategoripriser. Kontroller, at der er en række i gitteret til den specifikke udgiftskategori for den faktiske udgift.
  
-- Hvis der ikke er en række, har du isoleret problemet. Opret en række i gitteret Kategoripris for kategorien i den faktiske udgift. Når du har gjort det, skal du genoprette en udgiftspost, godkende den og kontrollere, at de ikke-fakturerede faktiske salgsværdier viser en gyldig pris. 
+- Hvis der ikke er en række, har du isoleret problemet. Opret en række i gitteret Kategoripris for kategorien i den faktiske udgift. Derefter skal du genoprette en udgiftspost, godkende den og kontrollere, at de ikke-fakturerede faktiske salgsværdier viser en gyldig pris. 
 - Hvis der findes en række for udgiftskategorien i gitteret Kategoripriser, kan du kontrollere, om den har en gyldig pris.
 
 For at forstå, hvad der er en gyldig pris, skal du bruge følgende metoder:
@@ -66,6 +69,6 @@ For at forstå, hvad der er en gyldig pris, skal du bruge følgende metoder:
 
 Hvis prisopsætningen for udgiftskategorien ikke er gyldig, har du isoleret problemet. Løsningen er at redigere kategoriprislinjen med en gyldig pris for udgiftskategorien i overensstemmelse med ovenstående regler. Når du har gjort det, skal du genoprette en udgiftspost, godkende den og derefter kontrollere, at de ikke-fakturerede faktiske salgsværdier får en gyldig pris.
 
-Hvis du stadig ikke kan se en gyldig pris i din faktiske salgsudgift, skal du anmode om support.
+Hvis du stadig ikke kan se en gyldig pris i din faktiske salgsudgift, skal du indgive en supportanmodning.
 
 
