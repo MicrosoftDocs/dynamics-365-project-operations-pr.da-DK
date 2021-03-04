@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074363"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148636"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Ændringer i ressourcestyringen (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Sektionerne i dette emne indeholder oplysninger om de ændringer, der er foretaget i ressourcestyringsområdet i Dynamics 365 Project Service Automation version 3.x.
 
 ## <a name="project-estimates"></a>Projektestimater
 
-I stedet for at være baseret på **msdyn\_projecttask** -objektet ( **Projektopgave** ) baseres projektestimater på objektet **msdyn\_ressourceassignment** ( **Ressourcetildeling** ). Ressourcetildelinger er blevet "kilden til sandhed" for opgaveplanlægning og prisfastsættelse.
+I stedet for at være baseret på **msdyn\_projecttask**-objektet (**Projektopgave**) baseres projektestimater på objektet **msdyn\_ressourceassignment** (**Ressourcetildeling**). Ressourcetildelinger er blevet "kilden til sandhed" for opgaveplanlægning og prisfastsættelse.
 
 ## <a name="line-tasks"></a>Linjeopgaver
 
@@ -58,14 +60,14 @@ I det følgende eksempel kan du se, hvordan en opgave med navnet "Testopgave" ti
 
 ## <a name="unassigned-assignment"></a>Ikke-tildelt tildeling
 
-I PSA 3.x er en ikke-tildelt tildeling en tildeling, der er tildelt til et **NULL** -teammedlem og **NULL** -ressource. Ikke-tildelte tildelinger kan forekomme i et par scenarier:
+I PSA 3.x er en ikke-tildelt tildeling en tildeling, der er tildelt til et **NULL**-teammedlem og **NULL**-ressource. Ikke-tildelte tildelinger kan forekomme i et par scenarier:
 
 - Hvis en opgave er blevet oprettet, men endnu ikke er tildelt til et teammedlem, oprettes der altid en ikke-tildelt tildeling. 
 - Hvis alle modtagere af en opgave fjernes, oprettes der en ikke-tildelt tildeling igen for den pågældende opgave.
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Planlægningsfelter på objektet Projektopgave
 
-Felterne på **msdyn\_projecttask** -objektet er forældede eller flyttet til objektet **msdyn\_resourceassignment** , eller der henvises nu til dem fra objektet **msdyn\_projectteam** ( **Projektteammedlem** ).
+Felterne på **msdyn\_projecttask**-objektet er forældede eller flyttet til objektet **msdyn\_resourceassignment**, eller der henvises nu til dem fra objektet **msdyn\_projectteam** (**Projektteammedlem**).
 
 | Feltet frarådes i msdyn\_projecttask (projektopgave) | Nyt felt i msdyn\_resourceassignment (ressourcetildeling) | Kommentar |
 |---|---|---|
@@ -77,7 +79,7 @@ Felterne på **msdyn\_projecttask** -objektet er forældede eller flyttet til ob
 
 ## <a name="schedule-contour"></a>Planlægge en profil
 
-Planlægningsprofilen gemmes i feltet **Planlagt arbejde** ( **msdyn\_plannedwork** ) for hvert enkelt **ressourcetildelings** -objekt ( **msdyn\_resourceassignment** ).
+Planlægningsprofilen gemmes i feltet **Planlagt arbejde** (**msdyn\_plannedwork**) for hvert enkelt **ressourcetildelings**-objekt (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktur
 
@@ -139,7 +141,7 @@ I dette eksempel tildeles opgaven til to ressourcer, og den planlægges automati
 
 ## <a name="pricing-dimensions"></a>Prisfastsættelsesdimensioner
 
-I PSA 3.x er felterne for ressourcespecifikke prisfastsættelsesdimensioner (f.eks. **Rolle** og **Afdeling** ) blevet fjernet fra objektet **msdyn\_projecttask**. Disse felter kan nu hentes fra det aktuelle projektteammedlem ( **msdyn\_projectteam** ) i ressourcetildelingen ( **msdyn\_resourceassignment** ), når der genereres projektestimater. Der er føjet et nyt felt, **msdyn\_organizationalunit** , til objektet **msdyn\_projectteam**.
+I PSA 3.x er felterne for ressourcespecifikke prisfastsættelsesdimensioner (f.eks. **Rolle** og **Afdeling**) blevet fjernet fra objektet **msdyn\_projecttask**. Disse felter kan nu hentes fra det aktuelle projektteammedlem (**msdyn\_projectteam**) i ressourcetildelingen (**msdyn\_resourceassignment**), når der genereres projektestimater. Der er føjet et nyt felt, **msdyn\_organizationalunit**, til objektet **msdyn\_projectteam**.
 
 | Feltet frarådes i msdyn\_projecttask (projektopgave) | Felt fra msdyn\_projectteam (projektteammedlem), der bruges i stedet |
 |---|---|
@@ -160,7 +162,7 @@ De følgende felter er blevet føjet til objektet **msdyn\_resourceassignment**.
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-De følgende felter for planlagte, faktiske og resterende omkostninger og salg er uændrede i objektet **msdyn\_projecttask** :
+De følgende felter for planlagte, faktiske og resterende omkostninger og salg er uændrede i objektet **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

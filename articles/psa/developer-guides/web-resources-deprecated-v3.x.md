@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074183"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148546"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Udfasede webressourcer i Project Service Automation 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 På grund af den nye klientgrænseflade og andre ændringer, der er foretaget af Dynamics 365 Project Service Automation-løsningen, bruges nogle af webressourcerne længere til løsningen. De er derfor forældet (frarådes) pr. version 3.0.
 

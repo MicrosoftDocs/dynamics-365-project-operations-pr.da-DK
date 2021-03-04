@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074278"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148456"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 I dette emne antages det, at du har fuldført procedurerne i emnet, [Oprette brugerdefinerede felter og objekter](create-custom-fields-entities.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til dette emne. 
 
 I dette emne viser procedurerne dig, hvordan du kan føje de påkrævede brugerdefinerede feltreferencer til objekter og til brugergrænsefladeelementerne (UI), f.eks. formularer og visninger.
@@ -37,9 +40,9 @@ Når en brugerdefineret prisdimension er baseret på grupperet indstilling, skal
 
 1. I Project Service Automation (PSA) skal du klikke på **Indstillinger** > **Løsninger** og derefter dobbeltklikke på **\<your organization name> prisfastsættelsesdimensioner**. 
 2. Vælg **Objekter > Rollepris** i den venstre navigationsrude i løsningsoversigten.
-3. Udvid objeket **Rollepris** , og vælg **Felter**.
-4. Klik på **Ny** for at oprette et nyt felt med navnet **Arbejdssted for ressource** , og vælg **Grupperet indstilling** som felttype. 
-5. Vælg **Brug en eksisterende grupperet indstilling** , vælg den grupperede indstilling **Arbejdssted for ressource** , og klik derefter på **Gem**.
+3. Udvid objeket **Rollepris**, og vælg **Felter**.
+4. Klik på **Ny** for at oprette et nyt felt med navnet **Arbejdssted for ressource**, og vælg **Grupperet indstilling** som felttype. 
+5. Vælg **Brug en eksisterende grupperet indstilling**, vælg den grupperede indstilling **Arbejdssted for ressource**, og klik derefter på **Gem**.
 6. Gentag trin 1-5 for at føje dette felt til objektet **Rolleprisavance**. 
 7. Gentag trin 1-5 for den grupperede indstilling **Arbejdstimer for ressource**.
 
@@ -48,27 +51,27 @@ Når en brugerdefineret prisdimension er baseret på grupperet indstilling, skal
 
 > ![Føje arbejdssted for ressource til rollepris](media/RWL-Field.png)
 
-I salgs- og estimatfaserne for et projekt bruges estimater af den arbejdsindsats, der kræves til at udføre **lokalt** arbejde og arbejde **på stedet** inden for **Ordinær arbejdstid** og **Overarbejde** til at estimere værdien af tilbuddet/projektet. Felterne **Arbejdssted for ressource** og **Arbejdstid for ressource** føjes til estimatobjekterne **Tilbudslinjedetaljer** , **Kontraktlinjedetaljer** , **Projektopgave** , **Medlem af projektteam** og **Estimatlinje**.
+I salgs- og estimatfaserne for et projekt bruges estimater af den arbejdsindsats, der kræves til at udføre **lokalt** arbejde og arbejde **på stedet** inden for **Ordinær arbejdstid** og **Overarbejde** til at estimere værdien af tilbuddet/projektet. Felterne **Arbejdssted for ressource** og **Arbejdstid for ressource** føjes til estimatobjekterne **Tilbudslinjedetaljer**, **Kontraktlinjedetaljer**, **Projektopgave**, **Medlem af projektteam** og **Estimatlinje**.
 
 1. Vælg **Indstillinger** > **Løsninger** og dobbeltklik derefter på **\<your organization name> prisfastsættelsesdimensioner** i PSA. 
 2. Vælg **Objekter > Tilbudslinjedetaljer** i den venstre navigationsrude i løsningsoversigten.
-3. Udvid objektet **Tilbudslinjedetaljer** , og vælg **Felter**.
-4. Klik på **Ny** for at oprette et nyt felt med navnet **Arbejdssted for ressource** , og vælg felttypen **Grupperet indstilling**. 
-5. Vælg **Brug en eksisterende grupperet indstilling** og **Arbejdssted for ressource** , og klik derefter på **Gem**.
-6. Gentag trin 1-5 for at føje dette felt til objekterne **Projektkontraktlinjedetalje** , **Projektopgave** , **Medlem af projektteam** og **Estimatlinje**.
+3. Udvid objektet **Tilbudslinjedetaljer**, og vælg **Felter**.
+4. Klik på **Ny** for at oprette et nyt felt med navnet **Arbejdssted for ressource**, og vælg felttypen **Grupperet indstilling**. 
+5. Vælg **Brug en eksisterende grupperet indstilling** og **Arbejdssted for ressource**, og klik derefter på **Gem**.
+6. Gentag trin 1-5 for at føje dette felt til objekterne **Projektkontraktlinjedetalje**, **Projektopgave**, **Medlem af projektteam** og **Estimatlinje**.
 7. Gentag trin 1-6 for den grupperede indstilling **Arbejdstimer for ressource**. 
 
 > ![Føje arbejdssted for ressource til estimatlinje](media/RWL-Default-Value.png)
 
 
-I forbindelse med levering og fakturering skal fuldført arbejde prissættes korrekt for at kunne vælge, om det blev udført **lokalt** eller **på stedet** , og om det blev udført inden for den **ordinære arbejdstid** eller som **overarbejde** under Projektets faktiske værdier. Felterne **Arbejdssted for ressource** og **Arbejdstimer for ressource** skal føjes til objekterne **Tidsregistrering** , **Faktisk** , **Fakturalinjedetalje** og **Kladdelinje**.
+I forbindelse med levering og fakturering skal fuldført arbejde prissættes korrekt for at kunne vælge, om det blev udført **lokalt** eller **på stedet**, og om det blev udført inden for den **ordinære arbejdstid** eller som **overarbejde** under Projektets faktiske værdier. Felterne **Arbejdssted for ressource** og **Arbejdstimer for ressource** skal føjes til objekterne **Tidsregistrering**, **Faktisk**, **Fakturalinjedetalje** og **Kladdelinje**.
 
 1. Vælg **Indstillinger** > **Løsninger** og dobbeltklik derefter på **\<your organization name> prisfastsættelsesdimensioner** i PSA.
 2. Vælg **Objekter > Tidsregistrering** i venstre navigationsrude i løsningsoversigten.
-3. Udvid objektet **Tilbudslinjedetaljer** , og vælg derefter **Felter**.
-4. Klik på **Ny** for at oprette et nyt felt med navnet **Arbejdssted for ressource** , og vælg **Grupperet indstilling** som felttype. 
-5. Vælg **Brug en eksisterende grupperet indstilling** , vælg den grupperede indstilling **Arbejdssted for ressource** , og klik derefter på **Gem**.
-6. Gentag trin 1-5 for at føje dette felt til objekterne **Faktisk** , **Fakturalinjedetalje** og **Kladdelinje**.
+3. Udvid objektet **Tilbudslinjedetaljer**, og vælg derefter **Felter**.
+4. Klik på **Ny** for at oprette et nyt felt med navnet **Arbejdssted for ressource**, og vælg **Grupperet indstilling** som felttype. 
+5. Vælg **Brug en eksisterende grupperet indstilling**, vælg den grupperede indstilling **Arbejdssted for ressource**, og klik derefter på **Gem**.
+6. Gentag trin 1-5 for at føje dette felt til objekterne **Faktisk**, **Fakturalinjedetalje** og **Kladdelinje**.
 7. Gentag trin 1-6 for den grupperede indstilling **Arbejdstimer for ressource**. 
 
 > ![Føje arbejdssted for ressource til tidsregistrering](media/RWL-time-entry.png)
@@ -81,7 +84,7 @@ Når den brugerdefinerede prisdimension er et objekt, skal du tilføje 1:N-relat
 
 1. Vælg **Indstillinger** > **Løsninger** og dobbeltklik derefter på **\<your organization name> prisfastsættelsesdimensioner** i PSA. 
 2. Vælg **Objekter > Standartitel** i venstre navigationsrude i løsningsoversigten.
-3. Udvid objektet **Standardtitel** , og vælg **1:N-relationer**.
+3. Udvid objektet **Standardtitel**, og vælg **1:N-relationer**.
 4. Klik på **Ny** for at oprette en ny 1:N-relation med navnet **Standardtitel til reserverbar ressource**. Angiv de nødvendige oplysninger, og klik derefter på **Gem**.
 
 > ![Tilføjelse af standardtitel som et referencefelt til en ressource, der kan reserveres](media/ST-BR.png)
@@ -89,7 +92,7 @@ Når den brugerdefinerede prisdimension er et objekt, skal du tilføje 1:N-relat
 Standardtitlen skal også føjes til objekterne for Project Service-prisfastsættelse, **Rollepris** og **Rolleprisavance**. Dette udfyldes også ved brug af 1:N-relationer mellem objekterne **Standardtitel** og **Rollepris** og objekterne **Standardtitel** og **Rolleprisavance**.
 
 1. Vælg **Objekter > Standartitel** i venstre navigationsrude i løsningsoversigten.
-2. Udvid objektet **Standardtitel** , og vælg **1:N-relationer**.
+2. Udvid objektet **Standardtitel**, og vælg **1:N-relationer**.
 3. Klik på **Ny** for at oprette en ny 1:N-relation med navnet **Standardtitel for rollepris**. Angiv de nødvendige oplysninger, og klik derefter på **Gem**.
 4. Gentag trin 1-4 for at oprette 1:N-relationer mellem objekterne **Standardtitel** og **Rolleprisavance**.
 
@@ -101,13 +104,13 @@ I salgs- og estimatfaserne for projektet er det nødvendigt at prissætte tilbud
 - **Medlem af projektteam**
 - **Estimatlinje**
 
-5. Gentag trin 1-5 for at oprette 1:N-relationer fra **Standardtitel** til **Tilbudslinjedetaljer** , **Projektkontraktlinjedetaljer** , **Projektopgave** , **Medlem af projektteam** og **Estimatlinje**.
+5. Gentag trin 1-5 for at oprette 1:N-relationer fra **Standardtitel** til **Tilbudslinjedetaljer**, **Projektkontraktlinjedetaljer**, **Projektopgave**, **Medlem af projektteam** og **Estimatlinje**.
 
 > ![Tilføjelse af standardtitel som et referencefelt til en estimatlinje](media/ST-Estimate-Line.png)
 
-I faserne levering og fakturering skal det arbejde, der er udført af hver enkelt standardtitel, være præcist prissat under Projektets faktiske værdier. Det betyder, at der skal være 1:N-relationer fra **Standardtitel** til objekterne **Tidsregistrering** , **Faktisk** , **Fakturalinjedetaljer** og **Kladdelinje**.
+I faserne levering og fakturering skal det arbejde, der er udført af hver enkelt standardtitel, være præcist prissat under Projektets faktiske værdier. Det betyder, at der skal være 1:N-relationer fra **Standardtitel** til objekterne **Tidsregistrering**, **Faktisk**, **Fakturalinjedetaljer** og **Kladdelinje**.
 
-6. Gentag trin 1-6 for at oprette 1:N-relationer fra **Standardtitel** til objekterne **Tidsregistrering** , **Faktisk** , **Fakturalinjedetalje** og **Kladdelinje**.
+6. Gentag trin 1-6 for at oprette 1:N-relationer fra **Standardtitel** til objekterne **Tidsregistrering**, **Faktisk**, **Fakturalinjedetalje** og **Kladdelinje**.
 
 > ![Tilføjelse af standardtitel som et referencefelt til tidsregistrering](media/ST-Mapping.png)
 
@@ -115,7 +118,7 @@ I faserne levering og fakturering skal det arbejde, der er udført af hver enkel
 I forbindelse med tidsregistrering ville det være en hjælp at have systemet til som standard at angive standardtitlen på tidsregistreringen fra den reserverbare ressource, der registrerer tidsposten. Benyt følgende fremgangsmåde for at føje felttilknytninger i 1:N-relationen fra **Reserverbar ressource** til **Tidsregistrering**.
 
 1. Vælg **Objekter > Standartitel** i venstre navigationsrude i løsningsoversigten.
-2. Udvid objektet **Standardtitel** , og vælg **1:N-relationer**.
+2. Udvid objektet **Standardtitel**, og vælg **1:N-relationer**.
 3. Dobbeltklik på **Reserverbar ressource til tidsregistrering**. På siden **Relation** skal du klikke på **Brug felttilknytninger**. 
 4. Klik på **Ny** for at oprette en ny felttilknytning mellem feltet **Standardtitel** på objektet **Reserverbar ressource** til referencefeltet **Standardtitel** på objektet **Tidsregistrering**. 
 
