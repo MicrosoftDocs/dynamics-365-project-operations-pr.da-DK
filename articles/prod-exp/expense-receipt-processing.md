@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074330"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960285"
 ---
 # <a name="expense-receipt-processing"></a>Behandling af udgiftskvittering
-
-[!include [banner](../includes/banner.md)]
 
 Udgiftsposten er blevet forbedret via introduktionen af behandling af kvitteringer ved hjælp af optisk tegngenkendelse (OCR). Denne funktion er udviklet til at forbedre brugeroplevelsen ved oprettelse af udgiftsrapporter.
 
@@ -49,11 +47,11 @@ Hvis du vil oprette en udgift eller afstemme en udgift fra en kvittering, skal d
   2. Læg mærke til indstillingerne **Opret** og **Afstem** under det overførte billede af kvitteringen.
 
       - Vælg **Opret** for at oprette en manuelt angivet udgiftstransaktioner, og angiv de værdier, der er udtrukket fra kvitteringen.
-      - Hvis du vælger **Afstem** , vil systemet forsøge at afstemme en eksisterende udgift med kvitteringen.
+      - Hvis du vælger **Afstem**, vil systemet forsøge at afstemme en eksisterende udgift med kvitteringen.
 
 ## <a name="installation"></a>Installation
 
-Denne funktion fungerer sammen med funktionen for **Nye udgiftsrapporter** , som hjælper med at forenkle udgiftsoplevelsen. Denne funktion er kun tilgængelig for miljøer over niveau 2, hvilke er sandkasse- og produktionsmiljøer.
+Denne funktion fungerer sammen med funktionen for **Nye udgiftsrapporter**, som hjælper med at forenkle udgiftsoplevelsen. Denne funktion er kun tilgængelig for miljøer over niveau 2, hvilke er sandkasse- og produktionsmiljøer.
 
 Hvis du vil bruge disse avancerede udgiftsfunktioner, skal du installere tilføjelsesprogrammet til tjenesten for udgiftsstyring i Microsoft Dynamics 365 Finance og aktivere funktionerne i din forekomst. Du kan få adgang til tilføjelsesprogrammet fra dit projekt i Microsoft Dynamics Lifecycle Services (LCS).
 

@@ -3,19 +3,19 @@ title: Kontantforskud
 description: Dette emne indeholder oplysninger om kontantforskud.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122742"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098877"
 ---
 # <a name="cash-advance"></a>Kontantforskud
 
@@ -24,8 +24,9 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 Et kontantforskud giver medarbejderne mulighed for at låne penge fra deres virksomhed, inden de afholder udgifter. Når et ønsket kontantforskud godkendes og betales, kan medarbejderen bruge penge til de forretningsudgifter, de kan blive pålagt. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Opret og indsend en anmodning om kontantforskud
+Hvis du vil oprette et nyt kontantforskud og indsende en anmodning om kontantforskud, skal du gøre følgende: 
 
-1. Under **Mine udgifter** skal du vælge **Kontantforskud** > **Nyt** for at oprette et nyt kontantforskud. 
+1. Under **Mine udgifter** skal du vælge **Kontantforskud** > **Nyt**. 
 2. På siden **Ny anmodning om kontantforskud** skal du angive formålet med udgiften og vælge den placering, hvor udgiften afholdes.
 3. Angiv det ønskede beløb og den ønskede valuta, og vælg **Gem**. 
 4. Når du er klar til at indsende anmodningen om kontantforskud, skal du på siden **Anmodning om kontantforskud** vælge **Arbejdsproces** > **Indsend**.
@@ -34,7 +35,7 @@ Et kontantforskud giver medarbejderne mulighed for at låne penge fra deres virk
 
 Du kan ændre en anmodning om kontantforskud, hvis den ikke er sendt til godkendelse.
 
-1. Under **Mine udgifter: kontantforskud** skal du finde og vælge det kontantforskud, du vil redigere.
+1. Under **Mine udgifter: Kontantforskud** skal du finde og vælge det kontantforskud, som du ønsker at redigere.
 2. Vælg **Rediger**, og foretag de nødvendige ændringer af anmodningen om kontantforskud. 
 3. Vælg **Gem og luk**.
 
@@ -57,7 +58,8 @@ Følgende procedure gennemføres typisk af en bogholder eller en bruger med regn
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Indsend en udgiftsrapport mod et betalt kontantforskud 
 
-Når du opretter og indsender en udgiftsrapport for det allerede modtagne kontantforskud, justeres udgifterne automatisk i forhold til forskuddet. Hvis kontantforskuddet er større end det udgiftsførte beløb, skal du vende tilbage til virksomhedens saldi ved hjælp af udgiftskategorien **Returner kontanter**. Hvis det virksomhedsbetalte kontantforskud er mindre end det beløb, du har udgiftsført, skal virksomheden refundere differencen. 
+Når du opretter og indsender en udgiftsrapport for det kontantforskud, som du allerede har modtaget, justeres udgifterne automatisk i forhold til det pågældende forskud. Hvis kontantforskuddet er større end det udgiftsførte beløb, skal du vende tilbage til virksomhedens saldi ved hjælp af udgiftskategorien **Returner kontanter**. Hvis det af virksomheden betalte kontantforskud er mindre end det beløb, som du har angivet som udgiv, skal virksomheden udbetale saldoen til dig. 
 
 ### <a name="example"></a>Eksempel
-Du har planer om at skulle rejse fra København til Aarhus for at deltage i en konference. Du opretter en anmodning om kontantforskud på 3.000,00 DKK, da du har estimeret omkostningerne til konferencebilletten, fly, hotel, måltider og taxier til at udgør dette beløb. Du modtager ikke udbetalingen, medmindre din leder har godkendt denne anmodning. Når din leder har godkendt det, indbetales det ønskede kontantforskud som 3.000,00 DKK på din bankkonto. Du deltager derefter i konferencen. Når rejsen er gennemført, kan du se, at den samlede udgift kun var 2.790,00 DKK. Vælg **Kontant** i feltet **Betalingsmetode**, og indsend udgiften på 2.790,00 DKK. Det indsendte udgiftsbeløb justeres automatisk i forhold til kontantforskuddet på 3.000,00 DKK, som blev udlånt til dig. Du skylder nu virksomheden 210,00 DKK (3.000,00-2.790,00), som du kan returnere ved hjælp af udgiftskategorien **Returner kontanter**. 
+Du planlægger at rejse fra København til New York City for at deltage i en konference. Du opretter en anmodning om et kontantforskud på 3.000,00 USD på baggrund af de anslåede omkostninger til konferencebilletten, flybilletten, hotellet, måltider og taxi. Du modtager ikke betaling, medmindre din leder godkender denne anmodning. Når din leder har godkendt det, indbetales det ønskede kontantforskud som 3.000,00 DKK på din bankkonto. Du deltager derefter i konferencen. Når rejsen er gennemført, kan du se, at den samlede udgift kun var 2.790,00 DKK. Vælg **Kontant** i feltet **Betalingsmetode**, og indsend dine udgifter på 2.790,00 USD. Det indsendte udgiftsbeløb justeres automatisk i forhold til kontantforskuddet på 3.000,00 DKK, som blev udlånt til dig. Du har nu en balance på 210,00 USD (3.000,00-2.790,00), som du kan betale tilbage til virksomheden ved hjælp af udgiftskategorien **Tilbagebetal kontanter**.
+

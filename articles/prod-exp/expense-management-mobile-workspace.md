@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074331"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960465"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilt arbejdsområde til udgiftsstyring
-
-[!include [banner](../includes/banner.md)]
 
 Dette emne indeholder oplysninger om det mobile arbejdsområde for **Udgiftsstyring**. I dette arbejdsområde kan brugerne oprette og overføre en kvittering, så de kan knytte den til en udgiftsrapport senere. Brugerne kan også hurtigt oprette en udgiftslinje ved hjælp af en tilknyttet kvittering og oprette og administrere deres udgiftsrapporter. Derudover kan godkendere bruge det mobile arbejdsområde for **Udgiftsstyring** til at få vist udgiftsrapporter, der er tildelt til dem, og enten godkende eller afvise disse udgiftsrapporter.
 
@@ -115,12 +113,12 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 3. Vælg **Tag et billede** eller **Vælg et billede**.
 4. Følg et af disse trin:
 
-    - Hvis du valgte **Tag et billede** , skal du benytte følgende fremgangsmåde:
+    - Hvis du valgte **Tag et billede**, skal du benytte følgende fremgangsmåde:
 
         1. Du føres til kameraet på din mobilenhed, så du kan tage et billede af kvitteringen. Når du er færdig med at tage et billede, skal du vælge **OK** for at acceptere billedet.
         2. Valgfrit: Angiv et navn til billedet, og angiv eventuelle noter.
 
-    - Hvis du valgte **Vælg et billede** , skal du benytte følgende fremgangsmåde:
+    - Hvis du valgte **Vælg et billede**, skal du benytte følgende fremgangsmåde:
 
         1. Vælg et billede på listen.
         2. Valgfrit: Angiv et navn til billedet, og angiv eventuelle noter.
@@ -139,7 +137,7 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 9. Følg et af disse trin:
 
     - Hvis du valgte **Tag et billede** føres du til kameraet på din mobilenhed, så du kan tage et billede af kvitteringen. Når du er færdig med at tage et billede, skal du vælge **OK** for at acceptere billedet.
-    - Hvis du har valgt **Vælg et billede** , skal du vælge et billede på listen.
+    - Hvis du har valgt **Vælg et billede**, skal du vælge et billede på listen.
 
 10. Vælg **Udført**.
 
@@ -158,7 +156,7 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 ## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Opret en ny udgiftsrapport og indsende den til godkendelse ved hjælp af det mobile arbejdsområde for Udgiftsstyring (hvis du bruger opdateringen fra juli 2017)
 1. Åbn arbejdsområdet for **Udgiftsstyring** på din mobilenhed.
 2. Vælg **Udgiftsregistrering**.
-3. Vælg **Ny rapport** , eller vælg en eksisterende udgiftsrapport på listen.
+3. Vælg **Ny rapport**, eller vælg en eksisterende udgiftsrapport på listen.
 4. I forbindelse med nye udgiftsrapporter skal du angive formålet og eventuelle yderligere oplysninger, der er tilgængelige. Oplysningerne kan variere, afhængigt af hvordan udgiftsstyring er konfigureret for din virksomhed.
 5. Vælg **Udført**.
 6. Hvis du vil tilføje eksisterende udgifter, f.eks. kreditkorttransaktioner, skal du vælge **Vedhæft** til udgiftsrapporten.
@@ -177,24 +175,24 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
     1. Vælg **Registrer kvittering** eller **Vedhæft kvittering**.
     2. Følg et af disse trin:
 
-        - Hvis du valgte **Registrer kvittering** , skal du benytte følgende fremgangsmåde:
+        - Hvis du valgte **Registrer kvittering**, skal du benytte følgende fremgangsmåde:
 
             1. Vælg **Tag et billede** eller **Vælg et billede**.
             2. Følg et af disse trin:
 
-                - Hvis du valgte **Tag et billede** , skal du benytte følgende fremgangsmåde:
+                - Hvis du valgte **Tag et billede**, skal du benytte følgende fremgangsmåde:
 
                     1. Du føres til kameraet på din mobilenhed, så du kan tage et billede af kvitteringen. Når du er færdig med at tage et billede, skal du vælge **OK** for at acceptere billedet.
                     2. Valgfrit: Angiv et navn til billedet, og angiv eventuelle noter.
 
-                - Hvis du valgte **Vælg et billede** , skal du benytte følgende fremgangsmåde:
+                - Hvis du valgte **Vælg et billede**, skal du benytte følgende fremgangsmåde:
 
                     1. Vælg et billede på listen.
                     2. Valgfrit: Angiv et navn til billedet, og angiv eventuelle noter.
 
             3.  Vælg **Udført**.
 
-        - Hvis du valgte **Vedhæft kvittering** , skal du benytte følgende fremgangsmåde:
+        - Hvis du valgte **Vedhæft kvittering**, skal du benytte følgende fremgangsmåde:
 
             1.  Vælg et eller flere billeder på listen.
             2.  Vælg **Udført**.
@@ -203,22 +201,22 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 
 18. Hvis virksomhedens politik er at kræve gæster for udgiften, skal du vælge **Gæster** og derefter følge disse trin:
 
-    1. Vælg **Gæst** , **Tidligere gæster** eller **Kollegaer**.
+    1. Vælg **Gæst**, **Tidligere gæster** eller **Kollegaer**.
     2. Følg et af disse trin:
 
-        - Hvis du valgte **Gæst** , skal du benytte følgende fremgangsmåde:
+        - Hvis du valgte **Gæst**, skal du benytte følgende fremgangsmåde:
 
             1. Angiv navnet på gæsten.
             2. Valgfrit: Angiv gæstens organisation og/eller land.
             3. Valgfrit: Angiv gæstens titel.
             4. Vælg **Udført**.
 
-        - Hvis du valgte **Tidligere gæster** , skal du benytte følgende fremgangsmåde:
+        - Hvis du valgte **Tidligere gæster**, skal du benytte følgende fremgangsmåde:
 
             1. Vælg en eller flere tidligere gæster på listen. Du får vist en liste over tidligere gæster, som du har tilføjet til de forrige udgiftsrapporter, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Hvis din tidligere gæst findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter navn, eller skift for at søge efter organisation, land eller titel.
             2. Vælg **Udført**.
 
-        - Hvis du valgte **Kollegaer** , skal du benytte følgende fremgangsmåde:
+        - Hvis du valgte **Kollegaer**, skal du benytte følgende fremgangsmåde:
 
             1. Vælg en eller flere kollegaer på listen. Du får vist en liste over de kollegaer, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Hvis din kollega ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter navn, eller skift for at søge efter virksomhed eller titel.
             2. Vælg **Udført**.

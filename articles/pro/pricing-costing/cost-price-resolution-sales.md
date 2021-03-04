@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d2afaa2231f4044dbcbfa24b91aec39289275a91
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176784"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764573"
 ---
 # <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Fastsæt kostpriser for estimater og faktiske tal - lille
 
@@ -25,7 +26,7 @@ For at kunne fastsætte kostpriser og kostprislisten til estimater og faktiske o
 
 Estimatlinjer for tid refererer til tilbuds- og kontraktlinjeoplysninger om tid- og ressourcetildelinger i et projekt.
 
-Når en kostprisliste er blevet fastsat, bruger systemet felterne **Rolle** og **Ressourceenhed** på estimatlinjen for tid for at matche dem med rollens prislinjer i prislisten. Denne afstemning antager, at du bruger standardprisfastsættelsesdimensionerne for arbejdsomkostninger. Hvis du har konfigureret systemet til at matche felter i stedet for eller som supplement til **Rolle** og **Ressourceenhed**, bruges der en anden kombination til at hente en tilsvarende rolleprislinje. Hvis programmet finder en rolleprislinje, der har en omkostningssats for kombinationen **Rolle** og **Ressourceenhed**, vil den være standardomkostningssatsen. Hvis programmet ikke kan matche værdierne for **Rolle** og **Ressourceenhed**, hentes det rolleprislinjer med en tilsvarende rolle, men der vises ikke null-værdier for **Ressourceenheden**. Når det har en tilsvarende rolleprispost, vil omkostningssatsen som standard stamme fra den pågældende post. 
+Når en kostprisliste er løst, sammenholdes felterne **Rolle** og **Ressourceenhed** på estimatlinjen for Tid med rolleprislinjerne i prislisten. Denne sammenligning forudsætter, at du bruger standarddimensionerne for prisfastsættelse af lønomkostninger. Hvis du har konfigureret systemet til at matche felter i stedet for eller som supplement til **Rolle** og **Ressourceenhed**, bruges der en anden kombination til at hente en tilsvarende rolleprislinje. Hvis programmet finder en rolleprislinje, der har en omkostningssats for kombinationen **Rolle** og **Ressourceenhed**, vil den være standardomkostningssatsen. Hvis programmet ikke kan matche værdierne for **Rolle** og **Ressourceenhed**, hentes det rolleprislinjer med en tilsvarende rolle, men der vises ikke null-værdier for **Ressourceenheden**. Når det har en tilsvarende rolleprispost, vil omkostningssatsen som standard stamme fra den pågældende post. 
 
 > [!NOTE]
 > Hvis du konfigurerer en anden prioritering af **Rolle** og **Ressourceenhed**, eller hvis du har andre dimensioner med en højere prioritet, ændres denne funktionsmåde tilsvarende. Systemet henter rolleprisposter med værdier, der svarer til hver af prisfastsættelsesdimensionsværdierne i prioriteret rækkefølge med rækker, der har null-værdier for de pågældende dimensioner, der kommer sidst.
@@ -34,4 +35,4 @@ Når en kostprisliste er blevet fastsat, bruger systemet felterne **Rolle** og *
 
 Estimatlinjer for udgifter refererer til tilbuds- og kontraktlinjeoplysninger om udgifter og udgiftsestimatlinjer i et projekt.
 
-Når en kostprisliste er blevet fastsat, bruger systemet en kombination af felterne **Kategori** og **Enhed** på estimatlinjen for en udgift for at matche dem med linjerne med **Kategoripris** på den fastsatte prisliste. Hvis systemet finder en kategorisprislinje, der har en omkostningssats for feltkombinationen **Kategori** og **Enhed**, konverteres omkostningssatsen til standarden. Hvis systemet ikke kan matche værdierne i **Kategori** og **Enhed**, eller hvis det kan finde en tilsvarende kategoriprislinje, men prissætningsmetoden ikke er **Pris pr. enhed**, konverteres omkostningssatsen som standard til nul (0).
+Når en kostprisliste er løst, bruger systemet en kombination af felterne **Kategori** og **Enhed** på udgiftsestimatlinjen til at sammenligne med linjerne **Kategoripris** i den løste prisliste. Hvis systemet finder en kategorisprislinje, der har en omkostningssats for feltkombinationen **Kategori** og **Enhed**, konverteres omkostningssatsen til standarden. Hvis systemet ikke kan sammenholde værdierne for **Kategori** og **Enhed**, eller hvis det kan finde en tilsvarende kategoriprislinje, men prisfastsættelsesmetoden ikke er **Pris pr. enhed**, vil omkostningssatsen som standard være nul (0).

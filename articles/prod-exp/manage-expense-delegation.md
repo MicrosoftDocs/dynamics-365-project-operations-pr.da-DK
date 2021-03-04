@@ -1,6 +1,6 @@
 ---
 title: Administrer udgiftsdelegering
-description: En udgiftsstedfortræderbruger kan oprette og administrere udgiftsrapporter på vegne af en anden medarbejder i organisationen.
+description: En bruger, som er stedfortræder for udgifter, kan oprette og administrere udgiftsrapporter for en anden medarbejder i organisationen.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074324"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960780"
 ---
 # <a name="manage-expense-delegation"></a>Administrer udgiftsdelegering
 
-[!include [banner](../includes/banner.md)]
+En udgiftsstedfortræder kan oprette og administrere udgiftsrapporter for en anden medarbejder.
 
-En udgiftsstedfortræderbruger kan oprette og administrere udgiftsrapporter på vegne af en anden medarbejder i organisationen.
+## <a name="configure-expense-delegation"></a>Konfigurer udgiftsdelegering
 
-## <a name="configuring-expense-delegation"></a>Konfiguration af uddelegering af udgift
+1. Hvis du vil konfigurere en bruger, som uddeleger udgifter, skal du gå til **Udgiftsstyring > Installation > Generelt > Uddelegeringer**.
+2. På siden **Uddelegeringer** skal du vælge **Ny**.
+3. Vælg den medarbejder, der skal defineres en uddelegering for. 
+4. Angiv alias for den stedfortrædende bruger samt start- og slutdato for delegeringsperioden.
 
-Hvis du vil konfigurere en bruger som en udgiftsstedfortræder, skal du gå til **Udgiftsstyring > Opsætning > Generelt > Stedfortrædere** for at åbne siden **Stedfortrædere**. Vælg **Ny** og derefter vælge den medarbejder, der skal have en stedfortræder defineret. Angiv alias for den stedfortrædende bruger samt start- og slutdato for delegeringsperioden.
+## <a name="manage-expense-delegation-for-another-employee"></a>Administrer uddelegering af udgifter for en anden medarbejder
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Administrering af udgiftsdelegering på vegne af en anden medarbejder
+Når funktionsstyringsnøglen **Aktiver listesiden for uddelegering af udgifter** er aktiveret, er listesiden **Udgifter, som er uddelegeret til mig**, tilgængelig. Gå til **Udgiftsstyring** > **Mine udgifter** > **Udgifter uddelegeret til mig**.
 
-Hvis nøgleadministrationsfunktionen **Aktiver listeside med udgiftsstedfortrædere** er aktiveret, vil listesiden **Udgifter, der er uddelegeret til mig** være tilgængelig, når du navigerer til **Udgiftsstyring > Mine udgifter > Udgifter, der er uddelegeret til mig**.
+En bruger med uddelegering kan hurtigt filtrere og søge på eksisterende udgiftsrapporter, der er uddelegeret til brugeren. De kan også oprette en ny udgiftsrapport for andre brugere ved at vælge **Ny udgiftsrapport**.
 
-En stedfortrædende bruger kan hurtigt filtrere og søge efter eksisterende udgiftsrapporter, der er uddelegeret til brugeren. Brugeren kan også hurtigt oprette en ny udgiftsrapport på vegne af andre brugere ved at klikke på **Ny udgiftsrapport**.
-
-Stedfortrædende brugere kan også oprette og administrere udgiftsrapporter på vegne af andre medarbejdere ved at navigere til **Udgiftsstyring > Mine udgifter > Udgiftsrapporter** og klikke på knappen **Åbn anden brugers udgifter**.
+Brugere med uddelegering kan også oprette og administrere udgiftsrapporter for andre medarbejdere ved at gå til **Udgiftsstyring** > **Mine udgifter** > **Udgiftsrapporter** og vælge **Åbn andre brugeres udgifter**.

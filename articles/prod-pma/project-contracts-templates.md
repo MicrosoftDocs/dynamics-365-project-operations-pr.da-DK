@@ -1,9 +1,9 @@
 ---
-title: Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance and Operations
+title: Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance
 description: Dette emne beskriver den skabelon og underliggende opgaver, der bruges til at synkronisere kontrakter og projekter direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642626"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764812"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Hvis du vil have adgang til den tilgængelige skabelon, skal du i Microsoft Powe
 Følgende skabeloner og underliggende opgaver bruges til at synkronisere projektkontrakter og projekter fra Project Service Automation til Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integration med Dynamics 365 Project Service Automation v2.x
-- **Navnet på skabelonen i dataintegration:** Projekter og kontrakter (PSA til Fin og Ops)
+- **Navnet på skabelonen i Dataintegration:** Projekter og kontrakter (Project Service Automation til Finance)
 - **Navnet på opgaverne i projektet:**
 
-    - Projektkontrakter PSA til Fin og Ops
-    - Projekter PSA til Fin og Ops
-    - Projektkontraktlinjer PSA til Fin og Ops
-    - Milepæle for projektkontraktlinjer PSA til Fin og Ops
+    - Projektkontrakter Project Service Automation til Finance
+    - Projekter Project Service Automation til Finance
+    - Projektkontraktlinjer Project Service Automation til Finance
+    - Milepæle for projektkontraktlinjer Project Service Automation til Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integration med Dynamics 365 Project Service Automation v3.x
 Der er en skemaændring i Project Service Automation, som påvirker skabelonen for milepæle for projektkontraktlinjer, og brugen af skabelonens v2-version er nødvendig for at integrere Project Service Automation v3.x med Dynamics 365.
 
-- **Navnet på skabelonen i dataintegration:** Projekter og kontrakter (PSA 3.x til Fin og Ops) - v2
+- **Navnet på skabelonen i Dataintegration:** Projekter og kontrakter (Project Service Automation 3.x til Finance) - v2
 - **Navnet på opgaverne i projektet:**
 
-    - Projektkontrakter PSA til Fin og Ops
-    - Projekter PSA til Fin og Ops
-    - Projektkontraktlinjer PSA til Fin og Ops
-    - Milepæle for projektkontraktlinjer PSA til Fin og Ops
+    - Projektkontrakter Project Service Automation til Finance
+    - Projekter Project Service Automation til Finance
+    - Projektkontraktlinjer Project Service Automation til Finance
+    - Milepæle for projektkontraktlinjer Project Service Automation til Finance
 
 Inden synkroniseringen mellem projektkontrakter og projekter kan ske, skal du synkronisere kontiene.
 
@@ -87,7 +87,8 @@ Inden synkroniseringen mellem projektkontrakter og projekter kan ske, skal du sy
 
 Projektkontrakter administreres i Project Service Automation, og de synkroniseres med Finance som projektkontrakter. Som en del af integrationsskabelonen kan du angive integrationskilden i Finance for projektkontrakten.
 
-Tids- og materialeprojekter samt fastprisprojekter administreres i Project Service Automation, og de synkroniseres med Finance som projekter. Som en del af skabelonintegrationen kan du angive integrationskilden i Finance for projektet.
+Tids- og materiale- og fastprisprojekter administreres i Project Service Automation og synkroniseres til Finance som projekter. Som en del af skabelonintegrationen kan du angive integrationskilden for projektet i Finance. I øjeblikket er det kun tid- og materiale- og fastprisprojekter, der understøttes.
+
 
 Projektkontraktlinjer administreres i Project Service Automation, og de synkroniseres med Finance som faktureringsregler for projektkontrakter. Hvis faktureringsmetoden adskiller sig fra standardprojekttypen, opdaterer synkroniseringen projekttypen for kontraktlinjeprojektet og projektgruppen.
 
@@ -122,7 +123,7 @@ Når integrationsløsningen for Project Service Automation til Finance anvendes,
 
 ## <a name="power-query"></a>Power Query
 
-Du skal bruge Microsoft Power-forespørgsel til Excel til at filtrere data, hvis følgende betingelser er opfyldt:
+Brug Microsoft Power Query til Excel til at filtrere data, hvis følgende betingelser er opfyldt:
 
 - Du har salgsordrer i Dynamics 365 Sales.
 - Du har flere afdelinger i Project Service Automation, og disse afdelinger knyttes til flere juridiske enheder i Finance.
@@ -130,7 +131,7 @@ Du skal bruge Microsoft Power-forespørgsel til Excel til at filtrere data, hvis
 Hvis du skal bruge Power Query, skal du følge disse retningslinjer:
 
 - Skabelonen for projekter og kontrakter (PSA til Fin og Ops) har et standardfilter, der kun indeholder salgsordrer af typen **Arbejdsenhed (msdyn\_ordretype = 192350001)**. Dette filter er med til at sikre, at der ikke oprettes projektkontrakter for salgsordrer i Finance. Hvis du opretter din egen skabelon, skal du tilføje dette filter.
-- Du skal oprette et Power Query-filter, der kun medtager de kontraktorganisationer, der skal synkroniseres med den juridiske enhed for integrationsforbindelsessættet. F.eks. bør de projektkontrakter, som du har med den kontraktlige afdeling af Contoso US, synkroniseres med USSI's juridiske enhed, men de projektkontrakter, som du har med den kontraktlige afdeling af Contoso Global, skal synkroniseres med USMF's juridiske enhed. Hvis du ikke tilføjer dette filter til din opgavetilknytning, synkroniseres alle projektkontrakter med den juridiske enhed, der er defineret for forbindelsessættet, uanset kontraktafdelingen.
+- Opret et Power Query-filter, der kun omfatter de kontraktorganisationer, der skal synkroniseres med den juridiske enhed i integrationsforbindelsessættet. F.eks. bør de projektkontrakter, som du har med den kontraktlige afdeling af Contoso US, synkroniseres med USSI's juridiske enhed, men de projektkontrakter, som du har med den kontraktlige afdeling af Contoso Global, skal synkroniseres med USMF's juridiske enhed. Hvis du ikke tilføjer dette filter til din opgavetilknytning, synkroniseres alle projektkontrakter med den juridiske enhed, der er defineret for forbindelsessættet, uanset kontraktafdelingen.
 
 ## <a name="template-mapping-in-data-integration"></a>Skabelon for tilknytning i dataintegration
 

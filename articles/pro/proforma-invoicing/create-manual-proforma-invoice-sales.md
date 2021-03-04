@@ -5,21 +5,22 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176379"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764496"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Opret en manuel proformafaktura - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-I Dynamics 365 Project Operations kan du oprette proformafakturaer manuelt efter behov. Du kan manuelt oprette en proformafaktura på listesiden **Projektkontrakter** eller på siden med oplysninger om **Projektkontrakt**.
+I Dynamics 365 Project Operations kan proformafakturaer oprettes manuelt efter behov. Du kan manuelt oprette en proformafaktura på listesiden **Projektkontrakter** eller på siden med oplysninger om **Projektkontrakt**.
 
 ##  <a name="project-contracts-list-page"></a>Listeside med projektkontrakt
 
@@ -31,6 +32,6 @@ Alle de oprettede projektfakturaer er tilgængelige på siden **Faktura** i sekt
 
 ## <a name="project-contract-details-page"></a>Side med oplysninger om projektkontrakt
 
-Du kan også oprette en proformafaktura på siden med oplysninger om **Projektkontrakt**, hvilket opretter fakturaen for den pågældende projektkontrakt. Systemet kontrollerer, om den valgte projektkontrakt har et efterslæb med **Klar til at blive faktureret**, som er dateret før dags dato. På grundlag af disse kontrakter opretter systemet kladdeproformafakturaer, der er baseret på antallet af kunder på hver kontraktlinje.
+Der kan også oprettes en proformafaktura på siden med detaljer for **Projektkontrakt**. Systemet verficerer, at projektkontrakten et efterslæb med **Klar til at blive faktureret**, som er dateret før dags dato. På grundlag af disse kontrakter opretter systemet kladdeproformafakturaer, der er baseret på antallet af kunder på hver kontraktlinje.
 
-Når der er oprettet en enkelt proformafaktura, åbnes siden **Faktura**. Hvis der er oprettet flere fakturaer for den pågældende projektkontrakt, åbnes listesiden **Fakturaer**, hvor du kan se alle de oprettede fakturaer.
+Når der er oprettet en enkelt proformafaktura, åbnes siden **Faktura**. Hvis der oprettes flere fakturaer for den pågældende projektkontrakt, åbnes listesiden **Fakturaer** for at vise alle de oprettede fakturaer.
