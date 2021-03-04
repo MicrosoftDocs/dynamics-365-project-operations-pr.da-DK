@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074271"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144991"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Bruge reserverbar ressource som en prisdimension
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Denne emne indeholder oplysninger om, hvordan du bruger en reserverbar ressource som en prisdimension. Før du går i gang, skal du oprette en ny prisdimensionsløsning, hvis du ikke allerede har oprettet én. Hvis du allerede har en prisdimensionsløsning, kan du foretage ændringerne i den pågældende løsning. Hvis du ikke har oprettet en ny prisdimensionsløsning for organisationen, skal du fuldføre procedurerne i emnet [Oprette brugerdefinerede felter og objekter](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Føje reserverbar ressource til formularer og visninger
@@ -57,7 +60,7 @@ Følgende tabel indeholder en omfattende liste over standardformularer og -visni
 ## <a name="set-up-pricing-dimension-field-names"></a>Konfigurere feltnavne for prisdimensioner
 
 Når feltnavnet for en prisdimension i tabellen **Rollepris** adskiller sig fra feltnavnet i et af de andre objekter, hvor prisstandard skal fungere, skal prisdimensionsposten gøres opmærksom på de forskellige navne.    
-I forbindelse med en reserverbar ressource har objektet **Medlemmer af projektteam** et lidt andet feltnavn ( **msdyn_bookableresourceid** ) end på objektet **Rollepris** ( **msdyn_ bookableresource** ). Prisdimensionsposten for **msydn_bookableresource** skal gøres opmærksom på dette. 
+I forbindelse med en reserverbar ressource har objektet **Medlemmer af projektteam** et lidt andet feltnavn (**msdyn_bookableresourceid**) end på objektet **Rollepris** (**msdyn_ bookableresource**). Prisdimensionsposten for **msydn_bookableresource** skal gøres opmærksom på dette. 
 1. Det kan du gøre ved at dobbeltklikke på rækken i gitteret **Prisdimensioner** for at åbne dimensionssiden i **msdyn_bookableresource**.
 2. Klik på **Feltnavne for prisdimensioner** under fanen **Relaterede**.
 

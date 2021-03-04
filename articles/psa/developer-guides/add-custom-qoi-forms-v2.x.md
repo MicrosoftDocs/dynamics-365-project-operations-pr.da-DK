@@ -16,28 +16,30 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074366"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144586"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Tilføje nye brugerdefinerede objektformularer (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Feltet Type 
 
-Dynamics 365 Project Service Automation bruger feltet **Type** ( **msdyn\_ordertype** ) i objekterne Salgsmulighed, Tilbud, Ordre og Faktura til at skelne mellem **arbejdsbaserede** versioner af disse objekter og **varebaserede** og **servicebaserede** versioner. Arbejdsbaserede versioner af disse objekter håndteres af PSA. masser af forretningslogik på klientsiden og serversiden af løsningen afhænger af feltet **Type**. Det er derfor vigtigt, at feltet initialiseres med en korrekt værdi, når objekterne oprettes. En forkert værdi kan medføre forkerte funktionsmåder, og nogen forretningslogik kører muligvis ikke korrekt.
+Dynamics 365 Project Service Automation bruger feltet **Type** (**msdyn\_ordertype**) i objekterne Salgsmulighed, Tilbud, Ordre og Faktura til at skelne mellem **arbejdsbaserede** versioner af disse objekter og **varebaserede** og **servicebaserede** versioner. Arbejdsbaserede versioner af disse objekter håndteres af PSA. masser af forretningslogik på klientsiden og serversiden af løsningen afhænger af feltet **Type**. Det er derfor vigtigt, at feltet initialiseres med en korrekt værdi, når objekterne oprettes. En forkert værdi kan medføre forkerte funktionsmåder, og nogen forretningslogik kører muligvis ikke korrekt.
 
 ## <a name="automatic-form-switching"></a>Automatisk skift af formularer
 
 For at undgå potentielle beskadigelser af data og uventede funktionsmåder, der skyldes forkert initialisering og redigering af salgsobjektposterne, inkluderer PSA nu logik til automatisk skift af formularer i standardformularer. Denne logik fører brugerne til den korrekte formular for arbejde med den arbejdsbaserede version eller en anden type salgsmuligheds-, tilbuds-, ordre- eller fakturaobjekt. Når en bruger åbner den arbejdsbaserede version af et salgsmuligheds-, tilbuds-, ordre- eller fakturaobjekt, skifter formularen til **Projektoplysninger**.
 
-Den automatiske formularskiftningslogik benytter tilknytningen mellem **formId** -værdien og feltet **msdyn\_ordertype**. Alle indbyggede formularer er føjet til den pågældende tilknytning. Men brugerdefinerede formularer skal tilføjes manuelt for at angive, hvilken version af objektet de skal håndtere. Dette er baseret på feltet **msdyn\_ordertype**. Hvis formularskiftet mangler i tilknytningen, skifter logikken til den indbyggede formular baseret på den værdi, der er gemt i feltet **msdyn\_ordertype** for objektet.
+Den automatiske formularskiftningslogik benytter tilknytningen mellem **formId**-værdien og feltet **msdyn\_ordertype**. Alle indbyggede formularer er føjet til den pågældende tilknytning. Men brugerdefinerede formularer skal tilføjes manuelt for at angive, hvilken version af objektet de skal håndtere. Dette er baseret på feltet **msdyn\_ordertype**. Hvis formularskiftet mangler i tilknytningen, skifter logikken til den indbyggede formular baseret på den værdi, der er gemt i feltet **msdyn\_ordertype** for objektet.
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Tilføje brugerdefinerede formularer og aktivere logikken for formularskift
 
-I følgende eksempel kan du se, hvordan du kan tilføje en brugerdefineret formular, **Mine projektoplysninger** , så de fungerer som arbejdsbaserede salgsmuligheder. Den samme proces bruges til at tilføje brugerdefinerede formularer, så de kan arbejde med tilbud, ordrer og fakturaer.
+I følgende eksempel kan du se, hvordan du kan tilføje en brugerdefineret formular, **Mine projektoplysninger**, så de fungerer som arbejdsbaserede salgsmuligheder. Den samme proces bruges til at tilføje brugerdefinerede formularer, så de kan arbejde med tilbud, ordrer og fakturaer.
 
 Benyt følgende fremgangsmåde for at oprette en brugerdefineret version af formularen **Projektoplysninger**.
 
@@ -47,19 +49,19 @@ Benyt følgende fremgangsmåde for at oprette en brugerdefineret version af form
     > [!IMPORTANT]
     > Du må ikke fjerne scripts. I modsat fald kan nogle data blive initialiseret forkert.
 
-3. Kontrollér, at feltet **Type** ( **msdyn\_ordertype** ) findes i formularen. 
+3. Kontrollér, at feltet **Type** (**msdyn\_ordertype**) findes i formularen. 
 
     > [!IMPORTANT]
     > Du må ikke fjerne dette felt. Hvis du gør det, kan initialiseringsscripts ikke udføres.
 
-4. Find **formId** -værdien for den nye formular. Det kan du gøre på to forskellige måder:
+4. Find **formId**-værdien for den nye formular. Det kan du gøre på to forskellige måder:
 
     - Eksportér formularen **Mine projektoplysninger** som en del af en ikke-administreret løsning, og slå derefter værdien af **formId** op i filen customization.xml for den eksporterede løsning.
     - Åbn formularen **Mine projektoplysninger** i formulareditoren, og søg derefter efter GUID (Globally Unique Identifier) ud for parameteren **fromId** i URL-adressen, som vist i følgende illustration.
 
     ![Værdien af formId for den nye formular i URL-adressen.](media/how-to-add-custom-forms-in-v2.0.png)
 
-5. Opret en **msdyn\_ordertype** -tilknytning for værdien **formId** ved at redigere webressourcen msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Fjern koden fra ressourcen, og erstat den med følgende kode.
+5. Opret en **msdyn\_ordertype**-tilknytning for værdien **formId** ved at redigere webressourcen msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Fjern koden fra ressourcen, og erstat den med følgende kode.
 
     ```javascript
     define(["require", "exports"], function (require, exports) {

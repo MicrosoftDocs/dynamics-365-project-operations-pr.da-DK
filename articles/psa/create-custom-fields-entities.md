@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074241"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144856"
 ---
 # <a name="create-custom-fields-and-entities"></a>Oprette brugerdefinerede felter og objekter 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Benyt følgende fremgangsmåde, når du vil oprette en brugerdefineret grupperet indstilling eller et objekt på Power Apps-platformen.  
 Fremgangsmåderne i dette emne skal udføres ved hjælp af webgrænsefladen i Project Service Automation (PSA).
@@ -63,8 +65,8 @@ Du kan oprette to dimensioner, der er baseret på grupperet indstilling. Brug **
 
 Du kan oprette data til objektbaserede dimensioner manuelt eller ved hjælp af Microsoft Excel-import eller -serviceopkald. Følg trinnene i denne fremgangsmåde for at oprette to standard titler, **Systemtekniker** og **Seniorsystemtekniker** fra den objektbaserede dimension, **Standardtitel**. Hvis de data, du vil oprette, er små, som i følgende eksempel, kan du bruge en standardformular.
 
-1. Klik på **Avanceret søgning** i PSA. Vælg objektet **Standardtitel** , og klik derefter på **Resultater**. Alle rækkerne i objektet **Standardtitel** vises.
-2. Klik på **Ny**. Angiv "Systemtekniker" i feltet **Navn** , og klik derefter på **Gem**.
+1. Klik på **Avanceret søgning** i PSA. Vælg objektet **Standardtitel**, og klik derefter på **Resultater**. Alle rækkerne i objektet **Standardtitel** vises.
+2. Klik på **Ny**. Angiv "Systemtekniker" i feltet **Navn**, og klik derefter på **Gem**.
 3. Luk formularen. 
 4. Gentag trin 1-3 for at oprette endnu en standardtitel til "Seniorsystemtekniker".
 

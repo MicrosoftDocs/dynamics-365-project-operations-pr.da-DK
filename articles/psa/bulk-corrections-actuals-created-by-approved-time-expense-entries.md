@@ -18,14 +18,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074348"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144946"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Massekorrektioner af de faktiske værdier, der er oprettet af godkendte tids- og udgiftsposter
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Det kan ske, at en tids- eller udgiftspost registreres forkert. En konsulent kan f.eks. vælge den forkerte dato, når han/hun opretter en tidspost, eller konsulenten kan transponere tallene, når der angives en udgift. Hvis en konsulent ikke kan opdatere de indtastede poster, kan en administrator rette i posten for et projekt direkte.
 
@@ -51,7 +53,7 @@ Benyt følgende fremgangsmåde for at rette enkelte eller flere tidsangivelser f
 
 7. Hvis rettelserne vises som forventet, skal du vælge **Bekræft**. Vælg **OK** i dialogboksen.
 
-8. Gå tilbage til området **Salg** , og vælg **Projekter** , og åbn derefter det projekt, som du lige har opdateret tidsposterne for. 
+8. Gå tilbage til området **Salg**, og vælg **Projekter**, og åbn derefter det projekt, som du lige har opdateret tidsposterne for. 
 
 9. På siden **Projekter** kan du under fanen **Faktiske værdier** få vist de ændringer, du har foretaget. 
 
@@ -72,7 +74,7 @@ Benyt følgende fremgangsmåde for at rette en eller flere udgiftsposter.
 
 2. På listen **Godkendte udgifter** skal du vælge det projekt, som du ønsker at rette, og dernæst vælge **Ret poster**. Der oprettes automatisk en ny rettelseskladde med den tildelte type **Udgiftsrettelse**. 
 
-3. På siden **Ny kladde** skal du angive en **Beskrivelse** for rettelsen, og på fanen **Udgiftsrettelse** i sektionen **Nye værdier for udgifter** skal du vælge de datafelter, som du ønsker at rette for de valgte udgiftslinjer. Du kan f.eks. tildele udgiften til et andet **Projekt** eller rette **Udgiftskategorien** , **Udgiftsdatoen** eller den **Reserverbare ressource**.
+3. På siden **Ny kladde** skal du angive en **Beskrivelse** for rettelsen, og på fanen **Udgiftsrettelse** i sektionen **Nye værdier for udgifter** skal du vælge de datafelter, som du ønsker at rette for de valgte udgiftslinjer. Du kan f.eks. tildele udgiften til et andet **Projekt** eller rette **Udgiftskategorien**, **Udgiftsdatoen** eller den **Reserverbare ressource**.
 
 4. Vælg **Forhåndsvisning**. Vælg **OK** i dialogboksen. 
 

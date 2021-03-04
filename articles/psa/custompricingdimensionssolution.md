@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074181"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144632"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Opret brugerdefinerede løsninger til prisfastsættelsesdimensioner
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Alle ændringer af brugerdefineret prisfastsættelsesdimensioner bør være i en separat løsning. Denne vigtige bedste praksis giver større fleksibilitet i fremtiden til at opdatere eller fjerne ændringer efter behov, hjælper dig med at genbruge dit arbejde og gør det nemmere at overføre disse ændringer til en anden forekomst. Når du har foretaget de nødvendige ændringer, skal du eksportere løsningen som en **Administreret løsning** og importere den i andre forekomster for at genbruge din prisfastsættelse.
 
-1. Vælg **Indstillinger** > **Løsninger** , og vælg derefter **Ny**. 
-2. Navngiv løsningen **\<your organization name> prisfastsættelsesdimensioner** , angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.
+1. Vælg **Indstillinger** > **Løsninger**, og vælg derefter **Ny**. 
+2. Navngiv løsningen **\<your organization name> prisfastsættelsesdimensioner**, angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.
 
 > ![Oprettelse af en brugerdefineret løsning til prisdimensioner](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
@@ -39,7 +41,7 @@ Du skal føje følgende Project Service-objekter til din prissætningsløsning. 
 
 1. Vælg **Indstillinger** > **Løsninger** og dobbeltklik derefter på **\<your organization name> prisfastsættelsesdimensioner**. 
 2. Vælg **Tilføj eksisterende** > **Objekter** i venstre navigationsrude i løsningsoversigten.
-3. Vælg følgende objekter i dialogboksen **Løsningskomponenter** :
+3. Vælg følgende objekter i dialogboksen **Løsningskomponenter**:
 
 - Faktisk
 - Reserverbar ressource
@@ -61,7 +63,7 @@ Du skal føje følgende Project Service-objekter til din prissætningsløsning. 
 > [!NOTE]
 > Sørg for at inkludere alle formularer og visninger for hvert af de valgte objekter.
 
-4. Vælg **Nej** , når du bliver bedt om at inkludere afhængige objekter for de valgte objekter.
+4. Vælg **Nej**, når du bliver bedt om at inkludere afhængige objekter for de valgte objekter.
 
 > ![Inkluder ikke alle relaterede komponenter](media/Do-not-include-required.png)
 

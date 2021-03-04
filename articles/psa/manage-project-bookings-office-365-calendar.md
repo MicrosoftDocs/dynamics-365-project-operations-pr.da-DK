@@ -17,17 +17,19 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129041"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144451"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Administrere projekter og reservationer i din kalender (Project Service)
 
 > [!Note]
 > UDFASET: Denne funktion er blevet udfaset og er ikke længere tilgængelig.
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
