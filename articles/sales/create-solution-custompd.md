@@ -64,3 +64,6 @@ Tilføj følgende Project Service-objekter til din prisfastsættelsesløsning fo
 5.  Når du bliver bedt om at medtage eventuelle afhængige objekter for de valgte objekter, skal du vælge **Nej, medtag ikke de påkrævede komponenter.**
 
     ![Herunder afhængige enheder](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

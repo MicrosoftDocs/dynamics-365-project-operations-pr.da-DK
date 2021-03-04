@@ -39,3 +39,6 @@ Hvis funktionen for funktionsnøglen **Aktiver listesiden for udgiftsstedfortræ
 En stedfortræder kan hurtigt filtrere og søge efter eksisterende udgiftsrapporter, der er uddelegeret til dem. Stedfortræderen kan også hurtigt oprette en ny udgiftsrapport til andre brugere ved at vælge **Ny udgiftsrapport**.
 
 Stedfortrædere kan oprette og administrere udgiftsrapporter for andre medarbejdere ved at gå til **Udgiftsstyring** > **Mine udgifter** > **Udgiftsrapporter** og vælge **Åbn anden brugers udgifter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

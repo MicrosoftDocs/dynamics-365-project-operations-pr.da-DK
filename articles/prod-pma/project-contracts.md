@@ -344,3 +344,6 @@ I løbet af den første måned registreres der i alt 800 konsulenttimer på proj
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

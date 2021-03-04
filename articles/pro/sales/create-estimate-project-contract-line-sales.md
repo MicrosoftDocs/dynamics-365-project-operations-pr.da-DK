@@ -68,3 +68,6 @@ Rentabilitetsberegninger konverterer beløbene for kontraktlinjedetaljerne for *
 
 > [!NOTE]
 > Fejl i valutaafrunding og ændrede margener kan opstå på grund af manglende angivelse af ikrafttrædelsesdatoen for en valutakurs. Brug kun disse beregninger på projektkontrakter som tilnærmelser og ikke for egentlig lovpligtig eller anden rapportering, der kræver større præcision i forbindelse med afrunding og forståelse af valutakursers ikrafttrædelsesdato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

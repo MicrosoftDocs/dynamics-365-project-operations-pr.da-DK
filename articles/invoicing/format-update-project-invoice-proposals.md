@@ -143,3 +143,6 @@ Hvis du vil have vist fakturaen, før du bogfører den, skal du fjerne markering
 Ud over siden **Fakturaforslag** kan fakturaforslag også bogføres ved at køre det periodiske job **Bogfør fakturaforslag**. Du kan finde dette job ved at gå til **Projektstyring og regnskab** > **Periodisk** > **Projektfakturaer** > **Bogfør fakturaforslag**.
 
 På denne side vises alle de fakturaforslag, der er klar til at blive bogført. Du kan planlægge at bogføre fakturaforslag ved at vælge **Batch**. Angiv **Batchbehandlingsparameteren** til **Ja**, og angiv gentagelsen af batchbehandling ved at vælge **Gentagelse**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

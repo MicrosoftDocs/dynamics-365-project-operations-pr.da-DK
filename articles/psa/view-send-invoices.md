@@ -58,3 +58,6 @@ Når du opretter et projekt, kan du angive frekvensen for generering af fakturae
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

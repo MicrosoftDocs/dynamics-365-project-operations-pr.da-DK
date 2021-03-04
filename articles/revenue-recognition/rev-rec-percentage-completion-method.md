@@ -35,3 +35,6 @@ Hvis du vil have vist estimater for omsætning i fastprisprojekter, skal du udf�
 
   Projektomkostninger, omsætningsprofil, omkostningsskabelon og periodekode kan angives manuelt. Hvis de ikke angives manuelt, anvendes standardværdierne under beregning af første estimat for projektet ved hjælp af de regler, der er konfigureret for projektomkostnings- og omsætningsprofiler.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

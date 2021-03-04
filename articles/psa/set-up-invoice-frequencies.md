@@ -51,3 +51,6 @@ Fakturafrekvenser for [!INCLUDE[pn_project_service_auto](../includes/pn-project-
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

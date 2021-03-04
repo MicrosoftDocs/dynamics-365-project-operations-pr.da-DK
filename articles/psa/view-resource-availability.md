@@ -48,3 +48,6 @@ Du kan kontrollere ressourcetilgængelighed for at få et generelt overblik over
 
 ### <a name="see-also"></a>Se også  
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

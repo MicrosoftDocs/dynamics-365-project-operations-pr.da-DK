@@ -45,3 +45,6 @@ Disse hvidbøger er designet til at give detaljerede oplysninger om Project Serv
 
 ### <a name="see-also"></a>Se også
  [Oversigt over Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

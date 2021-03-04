@@ -65,3 +65,6 @@ Salgsprocessen for salgsmuligheder i Project Operations er en udvidelse af forre
 > Hvis din projektbaserede aftale er startet med en salgsmulighed, har salgsprocessen for salgsmulighed forrang.
 
 Du kan redigere produktets forretningsprocesforløb eller oprette dine egne forretningsprocesforløb for at spore din salgsproces efter behov. Du kan finde flere oplysninger om forretningsprocesforløb i [Oversigt over forretningsprocesforløb](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

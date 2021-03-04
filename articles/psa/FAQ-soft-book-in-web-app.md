@@ -87,3 +87,6 @@ Når du er klar til at ændre en foreløbigt reserveret teammedlemsressource til
 2. Når planlægningsområdet åbnes, skal du udvide ressourcen for at få vist hans eller hendes reservationer. Du kan se reservationen markeret som Foreløbig.
 3. Højreklik på reservationen, og vælg Reservér definitivt og derefter Definitivt under Skift status. Status for reservation er nu Definitiv.
 4. Når du har lukket planlægningsområdet, kan du se, at timerne for ressourcen er ændret fra Foreløbig til Definitiv i teammedlemsgitteret. Du kan nu tildele ressourcen til opgaver (hvis der er overensstemmelse mellem de definitivt reserverede timer og indsatstimerne i opgaven, der skal tildeles). Bemærk, at hvis du har fulgt trinnene for opfyldelse af generisk ressource i punkt #3 ovenfor, og du ændrer status for den foreløbige reserverbare ressource til definitiv, fjernes det generiske teammedlem fra teamet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

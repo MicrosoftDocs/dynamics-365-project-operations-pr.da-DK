@@ -71,3 +71,6 @@ Prislister er baseret på roller og udgiftskategorier, så før du opretter en p
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

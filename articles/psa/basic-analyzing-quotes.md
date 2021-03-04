@@ -60,3 +60,6 @@ Du kan analysere tilbud og oprette diagrammer til kundernes forventninger om tid
 Analyse af kundeforventninger om tidsplanen sker ved at sammenligne den seneste slutdato for tilbudslinjedetaljerne med den ønskede leveringsdato på tværs af alle tilbudslinjer i tilbuddet.
 
 Analyse af kundernes forventninger om budgettet sker ved at sammenligne summen af det samlede kundebudget med det tilbudte beløb på tværs af alle tilbudslinjer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

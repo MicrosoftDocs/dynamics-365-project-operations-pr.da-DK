@@ -55,3 +55,6 @@ Følgende problemer er blevet løst:
 - Der genereres en null-referenceundtagelse, når tilføjelsesprogrammet **GetEstimatesForProject** aktiveres.
 - **Markering af klar til at blive faktureret** i milepælsgitteret, opdaterer kun attributter delvist, bortset fra attributten **Fakturastatus**, som opdateres.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

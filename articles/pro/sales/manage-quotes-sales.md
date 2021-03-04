@@ -33,3 +33,6 @@ Du kan se en liste over alle projekttilbud på listesiden **Tilbud**.
 2. Brug **Visningsskifteren** til at vælge andre filtrerede visninger for de pågældende tilbud. Ved hjælp af brugerdefinerede filterkriterier kan du konfigurere dine egne visninger og navigationsindstillinger.
 
 Der kan oprettes eller slettes tilbud fra denne listeside eller detaljesider.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Hvis du har tilføjet et brugerdefineret felt på tilbudslinjedetaljen og ønske
 7. Vælg **OK** for at lukke dialogboksen, og vælg derefter **Opdater trin**.
 8. Gentag trin 1 til 7 for den anden plug-in.
 9. Luk PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

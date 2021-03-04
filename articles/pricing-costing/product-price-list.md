@@ -58,3 +58,6 @@ For objekterne for salgsmulighed, tilbud og projektkontrakt bruges følgende ræ
 Som standard viser feltet **Produkt** på tilbudslinjen en liste over alle de aktive produkter i tilbuddets produktprisliste. Hvis et produkt er blevet deaktiveret, eller hvis det er et kladdeprodukt, vises det ikke på listen, heller ikke selvom det er på prislisten. 
 
 Produktkataloglinjer tilføjes som fakturalinjer i den første faktura, der oprettes for en projektkontrakt. På en kladdefaktura kan de pågældende fakturalinjer slettes. Hvis det er tilfældet, vil linjerne blive vist på en efterfølgende faktura, indtil de faktureres, eller indtil fakturaen er sendt til kunden. Du kan ikke fakturere et delvist antal på en produktfakturalinje. Når produktlinjerne fra projektkontrakten faktureres, oprettes der faktiske oplysninger. Disse faktiske tal er dog ikke kædet sammen med det relaterede projektobjekt. Det vil sige, at produktbaserede projektkontraktlinjer er uafhængige af projektbaseret brug. Materialeforbrug på projekter spores ikke.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

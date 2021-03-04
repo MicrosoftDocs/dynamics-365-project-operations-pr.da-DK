@@ -68,3 +68,6 @@ I følgende trin forklares, hvordan du kan registrere plug-ins.
 
 9. Luk Plug-in Registration Tool.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

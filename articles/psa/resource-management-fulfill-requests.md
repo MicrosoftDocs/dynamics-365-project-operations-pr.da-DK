@@ -46,3 +46,6 @@ Planlægningsassistenten vises og filtreres efter kravene. Vælg ressourcen og d
 > ![Ressourcer valgt](media/Resource-Management-image61.png)
 
 Det generiske teammedlem erstattes af den navngivne definitivt reserverede ressource i projektteamet og opgavetildelinger i projektplanen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

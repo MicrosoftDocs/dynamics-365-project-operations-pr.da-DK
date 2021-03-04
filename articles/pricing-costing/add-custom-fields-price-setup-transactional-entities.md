@@ -146,3 +146,6 @@ Følgende tabel indeholder en omfattende liste over standardformularer og -visni
 |  Faktisk|• Oplysninger<br>• Aktive faktiske|• Visning for tilknyttet faktisk|
 
 Det kan også være nødvendigt at tilføje brugerdefinerede felter i forretningsregler, afhængigt af hvad du har defineret. Et standardeksempel gælder forretningsreglen **Redigerbarhed af Tidsregistrering baseret på status**. Denne regel definerer, hvilke felter der skal låses, når tidsregistreringen befinder sig i en status, der ikke kan redigeres, f.eks. **Godkendt**. Føj felter til denne forretningsregel, så felterne låses mod redigering, når tidsregistreringen befinder sig i en status, der ikke er **Kladde** eller **Returneret**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Når der foretages en eller flere opdateringer af arbejdsopgavehierarkiet, misly
   - Systemet Project Operations
   - Projektsystem
   - Dobbeltskrivningssystemet til Project Operations (denne rolle er nødvendig, hvis du installerer det ressourcebaserede/ikke-lagerbaserede scenario for Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

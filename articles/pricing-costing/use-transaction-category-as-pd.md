@@ -50,3 +50,6 @@ I følgende tabel vises alle indbyggede formularer og visninger efter objekt. Du
 2. På siden **Parametre** skal du på fanen **Beløbsbaserede prisfastsættelsesdimensioner** godkende, at gitteret viser posterne i objektet **Prisfastsættelsesdimensioner**.
 3. Tilføj **Transaktionskategorien** til denne liste, og angiv felterne **Gælder for Omkostning** og **Gælder for Salg** til **Ja**.
 4. I feltet **Dimensionstype** skal du vælge **Beløbsbaseret** og derefter vælge den prioritet for **Transaktionskategori**, da det er relateret til omkostning og salg.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

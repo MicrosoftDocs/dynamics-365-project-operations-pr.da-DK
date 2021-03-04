@@ -57,3 +57,6 @@ I filtreringsruden vises de arbejdsrelaterede indstillinger, herunder:
 -   Ressourcevirksomhed
 -   Ressourcetyper
 -   Foretrukne ressourcer
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Når et budget eller en budgetrevision er blevet fordelt, kan du gennemse alloke
 10. Når allokeringen er foretaget på den ønskede måde, skal du klikke på Indsend på siden Projektbudget for at sende budgettet eller budgetrevisionerne til godkendelsesarbejdsgangen.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

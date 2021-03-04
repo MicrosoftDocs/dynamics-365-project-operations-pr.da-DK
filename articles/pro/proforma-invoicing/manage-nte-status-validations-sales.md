@@ -73,3 +73,6 @@ Du kan udføre en massereevaluering af må ikke overskrides-status. Revurdering 
 Hvis du vil reevaluere må ikke overskrides-statussen, skal du vælge en eller flere faktiske værdier i visningen **Efterslæb for fakturering af tid og materialer** eller **Faktiske værdier** og vælge **Reevaluer må ikke overskrides-status**.
 
 Alle de relevante valgte faktiske værdier med en grænse, der ikke må overskrides, vil blive evalueret i forhold til opsætningen af grænsen, der ikke må overskrides. Faktiske værdier, der er relevante for reevalueringen af må ikke overskrides-statussen, er ikke-fakturerede faktiske salgsværdier, der ikke er blevet faktureret og ikke fremgår af en kladdefaktura, og som er markeret som fakturerbare. Alle andre valgte faktiske værdier, der er markeret.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

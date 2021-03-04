@@ -60,3 +60,6 @@ Fra teammedlemsgitteret kan følgende handlinger udføres:
 
 - **Nyt**: Ud over at tilføje ressourcer direkte fra tidsplanen kan projektledere tilføje nye navngivne eller generiske teammedlemmer fra teammedlemsgitteret.
 - **Slet**: Ved at vælge en eller flere teammedlemmer kan projektlederen slette ressourcer, der ikke længere skal deltage i projektet. Hvis du sletter et teammedlem, slettes alle tilknyttede ressourcetildelinger også, og alle eksisterende reservationer annulleres.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

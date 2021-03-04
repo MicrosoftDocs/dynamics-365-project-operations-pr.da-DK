@@ -26,3 +26,6 @@ Med Office Grupper kan du dele et projekt med andre teammedlemmer i Common Data 
 > [!NOTE] 
 > Brugerne tilføjes kun til gruppen, hvis du trykker på **Grupper** og tilføjer dem. Det er anderledes for funktionaliteten for projekter på internettet. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

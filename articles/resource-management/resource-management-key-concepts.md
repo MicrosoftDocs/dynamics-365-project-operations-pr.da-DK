@@ -35,3 +35,6 @@ Ressourcer er det vigtigste aktiv i en servicebaseret organisation. Muligheden f
 
 
 Du kan forsyne dit projekt med et team bestående af generiske eller navngivne ressourcer i Project Operations. Du kan bruge forskellige metoder til at tilføje og tildele teammedlemmer og til at administrere deres reservationer og tildelinger. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Hver udgiftskategori kan have sin egen enhedsgruppe og enhed. Du kan definere pr
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

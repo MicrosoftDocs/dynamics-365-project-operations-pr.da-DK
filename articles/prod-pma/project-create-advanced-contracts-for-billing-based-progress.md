@@ -103,3 +103,6 @@ Budgetkategorier anvendes til automatisk at beregne fakturabeløbene for den pro
 8. Valgfrit: Tildel faktureringsreglen til flere projekter. I oversigtspanelet **Projekter** skal du i sektionen **Tilgængelige projekter** vælge et projekt og derefter vælge den højre piletast for at tilføje projektet til sektionen **Valgte projekter**.
 9. Valgfrit: Beregn det procentuelle beløb, som kunden tilbageholder fra betalinger på en faktura. I oversigtspanelet **Betingelser for tilbageholdelse af betaling** skal du vælge finansieringskilden og derefter i feltet **Tilbageholdelsesprocent** angive tilbageholdelsesprocenten.
 10. Gentag disse trin for at oprette flere faktureringsregler for projektkontrakten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ I følgende tabel medtages felterne i en projektbaseret salgsmulighed, der enten
 | Kontraktenhed | Fanen Generelt | Den organisationsenhed, der er ansvarlig for leveringen af det projekt eller de projekter, der er knyttet til denne handel. | Kontraktenheden er afdelingen i det firma, der skal gennemføre projekterne, når handlen er indgået. Alle kontraherende enheder har en valuta, og denne valuta bruges til at rapportere de anslåede og faktiske omkostninger, der er påløbet i løbet af projektet. |
 
 For alle andre felter og sektioner under fanen **Oversigt** for salgsmuligheden se [Opret eller rediger salgsmuligheder (Salg og Salgshub)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

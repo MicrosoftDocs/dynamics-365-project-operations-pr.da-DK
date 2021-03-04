@@ -45,3 +45,6 @@ Hvis du vil afvise forslaget, skal du klikke på **Afvis ressource**.
 ![Acceptere et ressourceforslag](media/RM-how-to-20.png) 
 
 På samme måde, som når du direkte opfylder en generisk ressourceanmodning med en navngivet ressource, erstattes den generiske ressource, og de tildelte opgaver opdateres med det navngivne teammedlem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

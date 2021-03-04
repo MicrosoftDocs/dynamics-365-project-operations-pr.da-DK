@@ -70,3 +70,6 @@ Du kan importere data fra projektreservationer og tildelinger. Når du importere
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funktioner for gruppering efter, sortering, søgning og filtrering
 
 Du kan gruppere og filtrere tidsregistreringer efter de dimensioner, der er angivet i kolonnerne. I feltet **Gruppér efter** skal du vælge den dimension, der skal bruges til at filtrere tidsregistreringer. Du kan også sortere tidsregistreringsposterne i stigende eller faldende rækkefølge ved hjælp af sorteringspilen på kolonneoverskrifterne. Du kan også få vist eller skjule poster ved at vælge knappen **Filtrer** på kolonneoverskrifterne og derefter i boksen **Søg** angive den tekst, der skal bruges til at søge efter tidsregistreringer ud fra projektnavn, projektopgave, tidsregistrering eller ressourcen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ I følgende tabel vises de arbejdsprocestyper, som du kan oprette i **Udgiftssty
 |       <strong>Rejserekvisition</strong>       |          Opret godkendelsesarbejdsprocesser for rejserekvisitioner.           |
 |      <strong>Anmodning om kontantforskud</strong>      |         Opret godkendelsesarbejdsprocesser for anmodninger om kontantforskud.          |
 |        <strong>Moms- og skatteinddrivelse</strong>        | Opret godkendelsesarbejdsprocesser for inddrivelse af moms.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

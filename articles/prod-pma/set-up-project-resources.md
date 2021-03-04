@@ -75,3 +75,6 @@ Når de foregående opgaver er fuldført, kan du udføre følgende opgaver, som 
 - Opfyld ressourcekrav.
 - Anmod om en personaleressource fra et WBS.
 - Reserver ressourcer til et projekt, uden at der skal anmodes om en personaleressource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

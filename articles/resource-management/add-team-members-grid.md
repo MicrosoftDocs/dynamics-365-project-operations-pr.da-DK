@@ -200,3 +200,6 @@ Når du får vist tiden på højere niveauer, har fanen **Afstemning** en indika
 Hvis du har opgavetildelinger for en ressource men ingen reservationer, skal du i formularen **Projekter** på fanen **Afstemning** vælge den manglende reservation og derefter vælge **Forlæng reservation**. Dialogboksen **Udvid reservation** vises og angiver den reservation, der skal bruges for at løse manglen på ressource. Dialogboksen viser også ressourcens eksisterende reservationer på tværs af alle projekter eller andre objekter, der kan planlægges. Hvis du vælger **OK** for at oprette reservationen for ressourcen, uanset den pågældende ressources tilgængelighed, kan det medføre overreservation.
 
 Projektlederen eller ressourceadministratoren kan derefter bruge planlægningsområdet til at administrere de situationer, hvor en ressource overreserveres i forhold til dens kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

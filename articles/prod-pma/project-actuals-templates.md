@@ -140,3 +140,6 @@ I følgende illustrationer vises eksempler på tilknytninger mellem skabelonopga
 [![Skabelontilknytning – opdatering af faktiske oplysninger](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Skabelontilknytning – opdatering af transaktion](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

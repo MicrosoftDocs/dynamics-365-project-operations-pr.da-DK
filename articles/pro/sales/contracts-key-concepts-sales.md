@@ -93,3 +93,6 @@ Kontrakter i Project Operations er baseret på kontrakter i Dynamics 365 Sales. 
 - Kontrakter i Project Operations har deres egne formular- og brugergrænsefladeelementer, forretningsregler, forretningslogik i plug-ins og klientbaserede scripts, der adskiller dem fra kontrakter i Sales.
 
 Du bør derfor ikke skiftevis anvende en kontrakt fra Sales og en projektkontrakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

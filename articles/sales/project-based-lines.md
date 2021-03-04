@@ -33,3 +33,6 @@ Nedenfor vises felterne på en projektbaseret salgsmulighedslinje:
 | Navn | Fanen Generelt | Dette er et redigerbart tekstfelt, der kan bruges til at give en kort identitet til dette linjeelement | Denne værdi overføres til tilbudslinjen, når du opretter et tilbud fra denne salgsmulighed |
 | Kundebudget | Fanen Generelt | Dette redigerbare valutafelt kan bruges til at spore det beløb, som kunden er villig til at bruge på dette linjeelement. | Denne værdi overføres til det tilsvarende felt på tilbudslinjen, når du opretter et tilbud fra denne salgsmulighed |
 | Faktureringsmetode | Fanen Generelt | Dette redigerbare felt har følgende værdier:</br>- Tid og materiale</br>- Fast pris | Denne værdi overføres til det tilsvarende felt på tilbudslinjen, når du opretter et tilbud fra denne salgsmulighed. Når tilbudslinjen er oprettet, er feltet låst og kan ikke ændres. Tildel denne feltværdi så præcist som muligt. Hvis du har brug for at ændre værdien i dette felt på tilbudslinjen, skal du slette og oprette tilbudslinjen igen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Find den bedste udrulningsmodel til Project Operations ved hjælp af [Spørgeske
 
 I forbindelse med denne installation kan du se [Tilmelding til eksempelabonnementer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) og [Klargøring af nyt miljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

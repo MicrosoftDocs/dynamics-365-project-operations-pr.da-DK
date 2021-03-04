@@ -60,3 +60,6 @@ Ikke-fakturerede faktiske salgstal med en status angivet til **Må ikke overskri
 Hvis der er tale om en faktureringsmetode for tid og materialer i forbindelse med kontraktlinjer med flere kunder, oprettes der en ikke-faktureret faktisk salgsværdi for hver kunde på kontraktlinjen i henhold til den faktureringsprocentsats, der er defineret for hver enkelt kunde. Visningen **Faktureringsefterslæb for tid og materialer** kan du se de enkelte kundespecifikke ikke-fakturerede faktiske salgsværdier. Hver af disse ikke-fakturerede faktiske salgsposter kan særskilt markeres som **Klar til fakturering** fra denne visning.
 
 En ikke-faktureret faktisk salgsværdi i en kladdefaktura vises i denne visning med en faktureringsstatus **Kundefaktura oprettet**. Når kladdefakturaen er bekræftet, opdateres faktureringsstatussen for denne post til **Kundefaktura er bogført**. Opdater ikke denne statusværdi ved hjælp af brugerdefineret kode. Project Operations fungerer ikke korrekt, når disse statusværdier opdateres med brugerdefineret kode.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

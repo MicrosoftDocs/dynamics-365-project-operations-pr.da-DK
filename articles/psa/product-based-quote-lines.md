@@ -82,3 +82,6 @@ Egenskaberne **Antal brugere** og **Antal måneder** kan mærkes som mængdefakt
 
 > ![Mærkning af Antal brugere og Antal måneder som kvalitetsfaktorer](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

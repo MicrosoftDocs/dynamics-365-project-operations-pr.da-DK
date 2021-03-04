@@ -61,3 +61,6 @@ Du kan oprette flere interne fakturaer på samme tid for alle juridiske låneenh
 ## <a name="post-the-intercompany-vendor-invoice"></a>Bogfør den interne leverandørfaktura
 
 En projektbogholder i den juridiske låneenhed kan gennemgå interne afventende leverandørfakturaer, når den tilsvarende interne kundefaktura bogføres. I Finance skal du i den juridiske låneenhed gå til **Kreditor** > **Fakturaer** > **Afventende leverandørfaktura**. Det afventende fakturanummer stemmer overens med nummeret på den interne kundefaktura. Kontroller, at fakturaen er korrekt, og bogfør fakturaen. Bogføring af interne leverandørfakturaer opretter en underhovedbog på projektet og en transaktion i finanskladden, som afspejler transaktionsomkostningerne i den juridiske låneenhed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Du kan oprette projektbaserede salgsordrer på to måder:
 - Gå til selve projektet. Vælg **Administrer > Vareopgaver > Salgsordre** i handlingsruden. Projektoplysningerne anvendes som standard for salgsordren fra projektet. Hvis projektkontrakten har mere end én finansieringskilde, skal du vælge den finansieringskilde, der skal bruges til at angive kunden til salgsordren. Hvis der kun er én finansieringskilde for projektet, angives kunden automatisk.
 - Gå til listesiden **Alle salgsordre** , og opret en ny salgsordre. Du skal vælge projektet for salgsordren. Når projektet er valgt, angives kunden fra finansieringskilden, ellers skal du vælge finansieringskilden, hvis projektkontrakten har flere finansieringskilder.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

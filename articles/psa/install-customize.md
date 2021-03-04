@@ -55,3 +55,6 @@ Funktioner [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-aut
  [Vejledning til projektledere](../psa/project-manager-guide.md)   
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)   
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

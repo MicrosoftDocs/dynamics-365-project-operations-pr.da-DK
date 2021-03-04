@@ -78,3 +78,6 @@ Prisfastsættelsesdimensionsposten for **msydn_bookableresource** skal underrett
 5. Tilføj **msdyn_bookableresourceid** til **Feltnavn**.
 
  ![Formular til nyt feltnavn for prisdimension](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

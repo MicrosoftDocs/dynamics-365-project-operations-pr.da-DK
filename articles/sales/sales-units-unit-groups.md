@@ -46,3 +46,6 @@ Hvis du vil udføre trinnene i dette emne, skal du sørge for, at du er tildelt 
 3. I feltet **Antal** skal du angive det antal, som enheden skal indeholde. Hvis f.eks. en boks indeholder to styk, skal du angive "2". 
 4. I feltet **Basisenhed** skal du vælge en basisenhed for at oprette den mindste måleenhed for enheden. Du kan f. eks. vælge "stk.".
 5. Vælg **Gem**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

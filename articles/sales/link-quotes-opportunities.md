@@ -56,3 +56,6 @@ Et eksisterende tilbud kan knyttes til en salgsmulighed. Benyt følgende fremgan
    Når du flytter en salgsmulighed til denne fase, kan du vælge dette tilbud på en liste over tilbud, der er knyttet til salgsmuligheden. Hvis du vælger dette tilbud, betyder det, at du fortsætter med det.
 
    Alle de andre tilbud, der er knyttet til salgsmuligheden, er stadig tilgængelige og aktive, indtil et af dem er vundet. Du kan flytte salgsprocessen tilbage til forrige fase **Kvalificer** og vælge et andet tilbud, som du ønsker at fortsætte med.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ De enkelte juridiske objekter, der bruger lagerbaserede/produktionsordrescenarie
   - **Standardfaktureringstyper**: Project Operations bruger et fast sæt faktureringstypestandarder, der skal knyttes til linjeegenskaber i Finance. Opret en post for hver faktureringstype: **Ikke angivet**, **Fakturerbar**, **Ikke-fakturerbar**, **Gratis** og **Ikke tilgængelig**.
   - **Standardprojektkategorier**: Vælg de standardprojektkategorier, der skal bruges for de enkelte transaktionstyper. Disse standardindstillinger bruges i **Integrationskladden i Project Operations** og i estimater, hvor der ikke er angivet nogen transaktionskategori for projektets faktiske værdi.
   - **Prognoser**: Vælg den prognosemodel, der skal bruges til estimater for tid og udgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

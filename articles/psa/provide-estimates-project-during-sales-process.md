@@ -54,3 +54,6 @@ Under salgsprocessen kan du udarbejde salgsestimater fra bunden med tilbudslinje
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

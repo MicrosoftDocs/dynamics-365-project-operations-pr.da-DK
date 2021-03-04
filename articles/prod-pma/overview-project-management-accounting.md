@@ -440,3 +440,6 @@ Når opgørelsen er beregnet, kan du se følgende oplysninger under de forskelli
 -   **Forbrug** – Oplysninger om forbrug af timer, varer, udgifter og løntransaktioner.
 -   **Faktura** – Oplysninger om fakturaer og acontofakturering.
 -   **Timesats** – Timesatserne for timer, der bogføres på indtægts- og omkostningskonti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

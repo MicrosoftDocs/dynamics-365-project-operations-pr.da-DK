@@ -42,3 +42,6 @@ Følgende problemer er blevet løst:
 
 - Forringelse af søgepræstationen i planlægningsassistance
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Følgende problemer er blevet løst:
 - Listerne **Org enhedskostpris** tillader overlapninger i datoeffektiviteten.
 - Brugere har ikke tilladelse til at ændre **OrgUnit**, når ordretypen ikke er arbejdsbaseret, fordi den vil resultere i en undtagelsesfejl i null-referencen.
 - Når du forsøger at navigere fra formularen **Detaljer om tilbudslinjen** tilbage til fanen **Tilbud**, opdateres formularen, og fanen **Oversigt** vises.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,3 +20,6 @@ ms.locfileid: "4514507"
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 Du kan bruge den indbyggede funktion i Universal Resource Scheduling til Dynamics 365 Field Service til at konfigurere reservationsstatusser for organisationen. For yderligere oplysninger om hvordan du fuldfører denne konfiguration, se [Konfiguration af reservationsstatusser](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

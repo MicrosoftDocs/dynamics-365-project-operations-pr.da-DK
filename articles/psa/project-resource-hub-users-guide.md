@@ -105,3 +105,6 @@ Angiv dine udgifter mindst en gang ugentlig – eller med den hyppighed, der er 
  [Oversigt over Project Service](../psa/overview.md)   
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

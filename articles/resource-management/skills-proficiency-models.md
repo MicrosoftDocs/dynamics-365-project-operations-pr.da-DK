@@ -43,3 +43,5 @@ Hvis du tilføjer karakteristika til ressourcekrav, kan du dokumentere den viden
 3. I undergitteret for **Færdigheder** skal du vælge **+ Tilføj ny karakteristika for krav**.
 4. Find og vælg de påkrævede karakteristika i ruden for hurtig oprettelse, og tilføj en **Bedømmelseværdi**.
 5. Vælg **Gem og luk**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

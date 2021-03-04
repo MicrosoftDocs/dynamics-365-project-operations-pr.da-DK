@@ -36,3 +36,6 @@ Hvis du vil angive tid og udgifter på mobilenheden, kan du [Hente og installere
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

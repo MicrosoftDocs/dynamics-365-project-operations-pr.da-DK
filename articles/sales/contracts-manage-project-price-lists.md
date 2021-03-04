@@ -72,3 +72,6 @@ Du kan også konfigurere kundespecifikke projektprislister, når du har forhandl
 ## <a name="custom-pricing-on-a-project-contract"></a>Brugerdefineret prisfastsættelse på en projektkontrakt
 
 Når du har standard organisations- og kundespecifikke projektprislister, oprettes dine projektkontrakter automatisk med disse projektprislister tilknyttet. Projektprislister i en projektkontrakt kopieres dog altid med den dato og det kontraktnavn, de er tilføjet med. Account managere og projektlederne kan derefter begynde at redigere priserne på disse kopier. Disse ændrede priser gælder kun for denne projektkontrakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

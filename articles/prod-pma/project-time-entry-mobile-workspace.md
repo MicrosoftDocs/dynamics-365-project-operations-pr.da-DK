@@ -113,3 +113,6 @@ Hent og installer Finance and Operations-mobilappen:
 11. Vælg linjeegenskaben.
 12. Valgfrit: Angiv eksterne og interne kommentarer.
 13. Vælg **Udført**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Du kan finde flere oplysninger i [Udgiftsregistrering (lille)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Vælg din udgiftsudrulning
 Du kan finde ud af, om du kører den grundlæggende udrulning af udgiftsstyring, ved at verificere, at URL-adressen slutter med **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Du skal føje følgende Project Service-objekter til din prissætningsløsning. 
 > ![Inkluder ikke alle relaterede komponenter](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

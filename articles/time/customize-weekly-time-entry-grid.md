@@ -144,3 +144,6 @@ Brug plug-in-valideringer for alle valideringer, der kræver mere kontekst, end 
 
 ### <a name="copying-time-entries"></a>Kopiering af tidsregistreringer
 Brug visningen **Kopier kolonner med tidsregistreringer** for at definere listen over de felter, der skal kopieres i forbindelse med tidsregistreringer. **Dato** og **Varighed** er obligatoriske felter og skal ikke fjernes fra visningen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

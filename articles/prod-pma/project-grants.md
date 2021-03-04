@@ -79,3 +79,6 @@ Du kan oprette et tilskud ved at angive samtlige detaljer i en ny post, eller du
 2. Vælg det tilskud, der skal ændres.
 3. I handlingsruden skal du på fanen **Tilskud** i gruppen **Bevar** vælge **Rediger**.
 4. Gennemse tilskudsoplysningerne, og foretag eventuelle nødvendige ændringer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -236,3 +236,6 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 22. Vælg **Send**.
 23. Skriv eventuelle kommentarer til godkenderen.
 24. Vælg **Udført**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

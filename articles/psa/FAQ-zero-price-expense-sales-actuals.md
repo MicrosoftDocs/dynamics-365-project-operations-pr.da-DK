@@ -72,3 +72,6 @@ Hvis prisopsætningen for udgiftskategorien ikke er gyldig, har du isoleret prob
 Hvis du stadig ikke kan se en gyldig pris i din faktiske salgsudgift, skal du indgive en supportanmodning.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

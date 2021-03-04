@@ -68,3 +68,6 @@ De enkelte organisationer skal konfigurere disse roller på siden **Aktive resso
 ## <a name="price-lists"></a>Prislister
 
 Prislisterne giver dig mulighed for at indstille kost- og salgspriser for ressourceroller, udgiftskategorier, produkter og andre elementer i en organisation. Inden du angiver økonomiske estimater for det arbejde, der skal leveres til et projekt, skal du oprette en sikkerhedskopi af omkostnings- og prisliste. I sektionen parametre skal du også konfigurere en standard omkostnings- og prisliste, der gælder for alle de projekter, der oprettes i organisationen. På siden **Aktive projektparametre** skal du sørge for at konfigurere en omkostnings- og prisliste.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

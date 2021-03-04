@@ -58,3 +58,6 @@ Yderligere hjælp er tilgængelig som opgavevejledninger. Hvis du vil have adgan
 ### <a name="videos"></a>Videoer
 
 Se de nu tilgængelige videoer om, hvordan man gør, på [Microsoft Dynamics 365's YouTube-kanal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

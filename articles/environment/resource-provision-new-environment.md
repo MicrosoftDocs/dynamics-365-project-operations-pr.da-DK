@@ -209,3 +209,6 @@ Hvis du har anvendt demodata i Finance-miljøet, skal du se [Konfigurere og anve
 
 
 Dit Project Operations-miljø er nu klargjort og konfigureret. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

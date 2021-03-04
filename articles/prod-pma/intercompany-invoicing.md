@@ -113,3 +113,6 @@ Når den juridiske udlånsenhed, USSI, bogfører den interne kundefaktura, opret
 Du kan finde flere oplysninger i [Konfiguration af intern projektfakturering](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

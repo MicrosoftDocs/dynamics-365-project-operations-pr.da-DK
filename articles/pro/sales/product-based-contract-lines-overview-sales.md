@@ -46,3 +46,6 @@ Hvis en kontraktlinje er baseret på et produktkatalog, kan du tilsidesætte sal
 Hvis du angiver feltet **Prisfastsættelse** til **Tilsidesæt prisfastsættelse**, angives standardprisen ikke. Angiv en pris for produktet på kontraktlinjen. Hvis du angiver feltet som **Brug standard**, bruges standardsalgsprisen, og feltet kan ikke redigeres.
 
 Når du har installeret Project Operations, angives standardsalgspriserne på de produktbaserede linjer i en kontrakt. Feltet **Prisfastsættelse** indstilles til **Tilsidesæt prisfastsættelse**, så du kan redigere standardprisen i kontraktlinjerne. Dette er en tilsidesættelse specifik for Project Operations for produktbaserede linjers funktion i Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

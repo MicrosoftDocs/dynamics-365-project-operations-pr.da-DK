@@ -57,3 +57,6 @@ I dette emne beskrives det, hvordan du kan oprette en prognosemodel for resteren
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

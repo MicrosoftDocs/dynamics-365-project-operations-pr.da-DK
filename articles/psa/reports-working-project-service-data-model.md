@@ -123,3 +123,6 @@ Når du arbejder med objektet **Faktisk**, er det vigtigt, at du forstår, hvilk
 Objektet **Transaktionsoprindelse** registrerer oprindelsen for posten **Faktisk**, og objektet **Transaktionsforbindelse** registrerer de relaterede poster for posten **Faktisk**. Derudover indeholder posten **Faktisk** referencer til projektet, projektkontrakten (ordren), den reserverbare ressource og kunden.
 
 ![Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer](media/PS-Reporting-image6.png "Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

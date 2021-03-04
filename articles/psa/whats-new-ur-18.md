@@ -63,3 +63,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Pro
 **Sales**
 
 - Løst: Når tidsangivelser godkendes igen (**Godkend > Annuller >** Godkend igen), oprettes der en dublet, der ikke kan faktureres.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

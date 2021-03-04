@@ -54,3 +54,6 @@ Du kan definere en arbejdsindsats og planlægge estimater ved hjælp af felterne
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Import af estimater fra et projekt til et tilbud
 
 Når du har defineret projektestimater, kan du importere dem til tilbudslinjen. På siden **Tilbudslinjedetaljer** skal du vælge **Import fra estimater** på båndet for at opsummere projektestimater efter transaktionstype, rolle eller opgaveniveau.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

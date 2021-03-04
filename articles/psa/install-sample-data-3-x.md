@@ -297,3 +297,6 @@ Vælg en bruger (f.eks. Spencer Low), og skift Spencers arbejdstimer til de time
 
 > [!div class="mx-imgBorder"]
 > ![Skærmbillede af aktive reserverbare ressourcer](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

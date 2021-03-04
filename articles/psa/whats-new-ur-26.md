@@ -74,3 +74,6 @@ Følgende problemer er blevet løst:
 - Når du vælger en projektbaseret linje i tilbud eller kontrakt, bør knappen **Forslag** kun vises, når du vælger en produktbaseret linje, der er knyttet til et eksisterende produkt.
 - Opdel rettigeheden **Opret produkt** fra rettigheden **Opret_Projektkontrakt**.
 - Sletning af fakturalinjen medfører fejl i null-referencer på **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

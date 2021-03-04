@@ -54,3 +54,6 @@ Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin
     | &nbsp; | Avance i forhold til omkostning | Anvend en avance, der er defineret af kategoriprislinjen i enhedsomkostningssatsen for den relaterede faktiske omkostning |
 
 4. Hvis det ikke er muligt for systemet at matche feltværdierne **Kategori** og **Enhed**, vil salgssatsen som standard være nul (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

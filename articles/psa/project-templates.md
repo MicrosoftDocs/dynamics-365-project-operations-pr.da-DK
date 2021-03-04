@@ -69,3 +69,6 @@ Når du kopierer på tværs af projektestimatlinjer, opdateres prislisterne. Hva
 ### <a name="copying-a-project-team"></a>Kopiere et projektteam
 
 Når et projektteam kopieres fra en projektskabelon til et projekt, kopieres standardressourcerne sammen med de færdigheder og kompetencer, der er defineret i skabelonen. Standardressourcetildelinger bevares også, som de var, i projektskabelonen. Navngivne ressourcer understøttes ikke i projektskabeloner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

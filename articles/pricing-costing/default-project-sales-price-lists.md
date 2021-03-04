@@ -57,3 +57,6 @@ Kostprislister hentes ikke som standard for nogen objekter i Project Operations.
 5. Systemet ser dernæst på ikrafttrædelsesdatoen for de prislister, der stemmer overens med datoen for den indgående estimatlinje eller faktiske linje. 
 6. Hvis der er flere prislister, som er gældende på datoen for det indgående estimat eller faktiske oplysning, vælges den senest oprettede prisliste.
 7. Hvis der ikke er tilknyttet kostprislister til projektparametrene, som stemmer overens med valutaen og ikrafttrædelsesdatoen, anvendes som standard en omkostningssats på nul (0) på den indgående estimatlinje eller den faktiske linje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

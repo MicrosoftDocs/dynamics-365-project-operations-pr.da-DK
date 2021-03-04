@@ -107,3 +107,6 @@ Der er tilføjet yderligere muligheder i WBS for at opnå en bedre anvendelse af
     > Du modtager ikke en advarsel om, at den angivne ressource nu er 2, da antallet af ressourcer stadig er 1.
 
 14. På siden **Arbejdsopgavehierarki** skal du kontrollere ressourcetildelingen i WBS og derefter vælge **Gem**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

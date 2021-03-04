@@ -61,3 +61,6 @@ Før du kan gå i gang med konfigurationsprocessen, skal der træffes følgende 
 
     - Er nogen af underkategorierne undtaget fra momsopkrævning?
     - Hvad er varemomsgruppen for underkategorierne?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

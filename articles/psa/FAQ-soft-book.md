@@ -67,3 +67,6 @@ Når du er klar til at ændre en foreløbigt reserveret teammedlemsressource til
 2. Højreklik på reservationen, og vælg **Reservér definitivt** \> **Definitivt** under **Skift status**. Status for reservation er nu **Definitiv**.
 3. Når du lukker planlægningsområdet, går tilbage til projektet og åbner fanen **Team**, kan du se, at timerne for ressourcen er flyttet fra kolonnen **Foreløbigt reserverede timer** til kolonnen **Definitivt reserverede timer** under fanen **Team**, når du har åbnet visningen **Navngivne teammedlemmer**. Hvis ressourcen blev tildelt til opgaver, viser de ikke længere et reservationsunderskud under fanen **Afstemning**, fordi deres reservationer nu er definitive.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

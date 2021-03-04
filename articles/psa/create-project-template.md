@@ -62,3 +62,6 @@ Projektskabeloner sparer dig tid, hvis virksomheden regelmæssigt afgiver bud p�
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Android er kompatibel med platformsopdatering 16, når den bliver tilgængelig.
 13. Valgfrit: Angiv flere timeseddellinjer.
 
 14. Når du er færdig med at angive linjerne i timesedlen, skal du vælge handlingen **Arbejdsproces** \> **Indsend** for at indsende din timeseddel til processen for godkendelse via arbejdsproces.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

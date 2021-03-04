@@ -93,3 +93,6 @@ Konfigurer en stedfortræder for at lade en anden udføre tids- eller udgiftsreg
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

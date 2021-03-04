@@ -32,3 +32,6 @@ Planer for forskudshonorarer konfigureres på siden **Projektkontrakt** i Dynami
 | Antal forskudshonorarer, der skal oprettes | Når du angiver antallet af forskudshonorarer, der skal oprettes, bruger systemet startdatoen og hyppigheden til at oprette antallet i dette felt. | Når dette felt opdateres manuelt, ignorerer systemet værdien i feltet **Slutdato for plan for forskudshonorar**, og der oprettes i stedet et bestemt antal forskudshonorarer eller forskud. |
 | Fakturahyppighed | Hvor ofte opretter programmet forskudshonorar og forskud. | Denne værdi påvirker antallet af forskudshonorarer og forskud og de oprettede datoer direkte. |
 | Samlet beløb | Det samlede beløb er det beløb, der er opdelt i individuelle forskudshonorar eller forskud, som vil blive oprettet. | Dette felt har ingen afledt virkning. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

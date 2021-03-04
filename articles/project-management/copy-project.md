@@ -61,3 +61,6 @@ Når et projektteam kopieres fra kildeprojektet, kopieres de generiske ressource
 Når projektet kopieres, kopieres både ressource- og udgiftsestimatlinjer fra kildeprojektet. 
 
 Oplysninger om, hvordan du får adgang til Kopier projekt via programmering, finder du under [Udvikling af projektskabeloner med Kopier projekt](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

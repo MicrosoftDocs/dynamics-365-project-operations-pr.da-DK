@@ -42,3 +42,6 @@ Når du foretager et valg, tilføjes ressourcen til projektteamet og tildeles op
 Du kan bruge fanen **Afstemning** til at udvide reservationsfunktionen eller **Planlægningsområde** til at reservere ressourcens kapacitet til projektet.
 
 Når et teammedlem er reserveret på projektet, kan du bruge **Bevar reservationer** eller **Planlægningsområdet** til direkte at administrere deres reservationer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -316,3 +316,6 @@ Du kan også rette planlægningsfejl individuelt ved at klikke på advarselsikon
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

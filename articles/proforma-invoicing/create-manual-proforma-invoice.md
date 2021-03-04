@@ -111,3 +111,6 @@ Når du bekræfter en rettelsesfaktura, tilbageføres det oprindeligt fakturered
 
 - Et faktureret faktisk salgstal for seks timer.
 - Et ikke-faktureret faktisk salgstal for de resterende to timer. Denne transaktion kan enten faktureres senere eller markeres som ikke-fakturerbar, afhængigt af forhandlingerne med kunden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

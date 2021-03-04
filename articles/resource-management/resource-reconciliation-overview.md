@@ -48,3 +48,6 @@ Hvis du har opgavetildelinger for en ressource men ingen reservationer, skal du 
 Reservationer, der oprettes via handlingen **Udvid reservation**, er knyttet til det primære projektkrav. Når en udvidelse startes, kan det specifikke krav, der skal udvides, ikke bestemmes, da ressourcen kan være knyttet til mere end ét krav til projektet.
 
 Projektlederen eller ressourceadministratoren kan derefter bruge planlægningsområdet til at administrere de situationer, hvor en ressource overreserveres i forhold til dens kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

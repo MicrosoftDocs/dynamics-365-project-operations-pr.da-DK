@@ -83,3 +83,6 @@ Hvis du bruger en ældre version, kan du finde oplysninger om ressourcetilgænge
   
 ### <a name="additional-resources"></a>Flere ressourcer  
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

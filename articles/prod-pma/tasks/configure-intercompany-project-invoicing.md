@@ -64,3 +64,6 @@ I dette emne beskrives det, hvordan du kan konfigurere projektfakturering mellem
 32. Angiv et nummer i feltet **Prisfastsættelse**.
 33. Vælg **Gem**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

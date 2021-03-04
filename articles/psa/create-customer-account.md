@@ -47,3 +47,6 @@ Opret en konto for hver enkelt kunde, du arbejder med, uanset om du afgiver tilb
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til kundechefer](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

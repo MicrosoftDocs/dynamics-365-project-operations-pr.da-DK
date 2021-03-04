@@ -37,3 +37,5 @@ Som projektleder skal du udføre følgende trin for at redigere et teammedlems r
 ## <a name="edit-resource-assignment-contours"></a>Rediger profiler for ressourcetildeling
 
 Ud over at redigere oplysningerne om ressourcekravene kan en projektleder opdatere de enkelte profiler for ressourcekravet ved hjælp af funktionen **Angiv mønster**. Når **Angiv mønster** er valgt, åbnes en side, hvor du kan få vist profilerne i henhold til dag, uge eller måned. Hver enkelt profil kan justeres i forhold til starttidspunktet, sluttidspunktet og den samlede indsats i en given periode.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

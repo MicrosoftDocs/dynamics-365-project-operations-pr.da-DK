@@ -93,3 +93,6 @@ I PSA kan du ikke spore ændringer, der er foretaget i et tilbud. Du skal i sted
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Sporing af kommentarer og godkendelser af tilbud og projektkontrakter
 Du kan administrere gennemgang og godkendelse af tilbud og projektkontrakter ved hjælp af postvæggen og indlæg. Din organisation kan oprette tilpassede arbejdsprocesser og plug-ins for at tildele, omdirigere, eskalere og administrere meddelelser om gennemsyn og godkendelse af arbejdselementer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

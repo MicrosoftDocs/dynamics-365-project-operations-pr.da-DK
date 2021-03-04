@@ -134,3 +134,6 @@ Før du begynder at konfigurere data i Common Data Service (CDS), skal følgende
 13. Vælg **Gem**. 
 
 ![Opdater projektparametre](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

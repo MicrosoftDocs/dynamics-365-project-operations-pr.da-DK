@@ -77,3 +77,6 @@ Målrettede frigivelsesdatoer kan ændres. Du kan finde flere oplysninger i [Til
 | --- | --- |
 | 10.0.17 | 19. marts 2021 |
 | 10.0.18 | 16. april 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

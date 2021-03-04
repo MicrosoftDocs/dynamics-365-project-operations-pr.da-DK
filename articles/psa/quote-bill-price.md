@@ -44,3 +44,6 @@ Du kan finde flere oplysninger om funktionerne tilbudsgivning, prisfastsættelse
 - [Enhedsgrupper og enheder](advanced-units.md)
 - [Flere valutaenheder](advanced-currency.md)
 - [Registrere faktiske oplysninger](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

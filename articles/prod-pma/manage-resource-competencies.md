@@ -53,3 +53,6 @@ Hvis du vil konfigurere kompetencer for en arbejder, kan du enten bruge listesid
 5. I feltet **Niveaudato** skal du vælge **1-/14/2014**.
 6. I feltet **Antal års erfaring** skal du angive **10**.
 7. Vælg **Gem** , og luk derefter siden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

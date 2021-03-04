@@ -70,3 +70,6 @@ Autorisationen er nu fuldført.
 Du har oprettet forbindelse til dit Azure-abonnement. Du kan nu udrulle skybaserede Dynamics 365 Finance-miljøer.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

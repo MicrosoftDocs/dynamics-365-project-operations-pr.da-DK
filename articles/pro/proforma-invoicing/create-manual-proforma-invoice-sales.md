@@ -35,3 +35,6 @@ Alle de oprettede projektfakturaer er tilgængelige på siden **Faktura** i sekt
 Der kan også oprettes en proformafaktura på siden med detaljer for **Projektkontrakt**. Systemet verficerer, at projektkontrakten et efterslæb med **Klar til at blive faktureret**, som er dateret før dags dato. På grundlag af disse kontrakter opretter systemet kladdeproformafakturaer, der er baseret på antallet af kunder på hver kontraktlinje.
 
 Når der er oprettet en enkelt proformafaktura, åbnes siden **Faktura**. Hvis der oprettes flere fakturaer for den pågældende projektkontrakt, åbnes listesiden **Fakturaer** for at vise alle de oprettede fakturaer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Kalenderen understøtter ikke handlinger for individuelle kalenderelementer, og 
 ## <a name="extensibility"></a>Mulighed for udvidelse af 
 
 På siden **Tidsregistreringer**, hvor du finder gitteret for angivelse af tidsregistreringer, kan du tilføje brugerdefinerede felter, konfigurere opslagsfelter og oprette brugerdefinerede visninger. Du kan også konfigurere en brugerdefineret forretningslogik, der er baseret på de værdier, som vælges eller indtastes i brugerdefinerede felter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

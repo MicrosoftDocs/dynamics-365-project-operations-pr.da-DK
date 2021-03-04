@@ -97,3 +97,6 @@ I både gittervisningen og visningen med tidsfaser kan du vælge, hvilke felter 
 ## <a name="expense-estimates"></a>Udgiftsestimater
 
 Du kan bruge knappen **Tilføj et nyt udgiftsestimat** i gittervisningen til at registrere eventuelle udgifter, der opstår i projektet, men som ikke er direkte relateret til arbejdskraften. Du kan registrere udgiftsestimater for en bestemt opgave eller for hele projektet. Vælg udgiftskategorier og den foreløbige dato for, hvornår du forventer at betale udgiften. Hvis den tilknyttede kostpris- og salgsprisliste har standardpriser (eller hvis avanceprocentsatser er defineret for udgiftskategorier), bliver de automatisk angivet i estimatlinjen ved tilknytning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

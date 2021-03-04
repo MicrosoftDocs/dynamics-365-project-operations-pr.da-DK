@@ -101,3 +101,6 @@ Når funktionen til udvidelse af reservationer er blevet udført for de enkelte 
 
 Du kan dog få vist de nærmere detaljer for reservationen, hvoraf forskellene i starttidspunkterne for reservationerne fremgår. Reservationerne starter tidligst på starttidspunktet for tildelingsprofilen og ikke førend ressourcens tilgængelige starttidspunkt.
  ![Nye reservationer af ressourcerne i planlægningsområdet](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

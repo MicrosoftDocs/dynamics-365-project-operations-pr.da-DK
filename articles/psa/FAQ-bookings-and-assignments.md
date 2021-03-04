@@ -68,3 +68,6 @@ Da reservationer og tildelinger ikke er tæt forbundne, er det muligt at reserve
 > [!NOTE]
 > Hvis du flytter en opgave, som du selv har oprettet profiler for, gemmes disse profiler ikke. Profiler genoprettes ud fra projektkalenderen for at tage højde for ændringer i arbejdstimer og fridage. Dette er tilsigtet, eftersom systemet ikke kender formålet med den oprindelige profil og ikke kan finde ud af, om der er behov for at bevare denne profil i en ny tidsperiode. Da reservationer og tildelinger ikke er forbundne, bevarer reservationerne de oprindelige reservationsprofiler. I dette tilfælde skal du annullere og reservere igen til den nye tildelingsprofil.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

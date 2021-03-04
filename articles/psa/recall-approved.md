@@ -107,3 +107,6 @@ I den følgende illustration vises de ændringer, der sker for godkendte tidsreg
 I den følgende illustration vises de ændringer, der sker for godkendte udgiftsposter, når de tilbagekaldes.
 
 ![Tilstandsovergange for udgiftsposter](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Når du har organisations- og kundespecifikke standardprojektprislister, oprette
 
 1. I **Projekttilbud** skal du på fanen **Projektprisliste** kontrollere, at der ikke er valgt en specifik prislistepost i undergitteret.
 2. Vælg **Opret brugerdefineret prisfastsættelse**. Dette opretter kopier af de standardprislister, der i øjeblikket er knyttet til tilbuddet, og disse kopier knyttes til tilbuddet. De tilknytninger, der findes til standardprislisterne, fjernes. Sælgeren kan derefter begynde at foretage ændringer af priserne i disse kopier. Disse ændrede priser gælder kun for dette projekttilbud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

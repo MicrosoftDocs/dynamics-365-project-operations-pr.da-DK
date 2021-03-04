@@ -42,3 +42,6 @@ Færdigheder til ressourcer klassificeres af kompetencemodeller. De enkelte klas
 
 
 Disse klassificeringsværdier vises i filtrene **Resourcekrav**, **Planlægningsområde** og **Planlægningsassistent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

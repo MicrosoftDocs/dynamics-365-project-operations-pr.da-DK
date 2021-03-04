@@ -29,3 +29,6 @@ Sektionen **Status** på siden **Projektobjekt** indeholder en oversigt over et 
 - Feltet **Kommentarer** giver projektlederen mulighed for at komme med konkrete kommentarer til statussen. 
 - Feltet **Status opdateret den** kan ikke redigeres. Værdien i dette felt er et tidsstempel, der angiver, hvornår statussen senest er opdateret.
 - Felterne **Planlægningsresultat** og **Omkostningsresultat** angives fra sporingsgitteret. Når afvigelsen fra tidsplanen og omkostningerne for rodnoden i visningen **Indsatssporing** er positiv, opdateres disse felter til **Ahead** Når afvigelsen fra tidsplanen og omkostningerne for rodnoden er negativ, angives disse felter til **Bagud**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

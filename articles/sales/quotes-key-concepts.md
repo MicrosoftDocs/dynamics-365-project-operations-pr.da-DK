@@ -128,3 +128,6 @@ I forbindelse med en tilbudslinje med fast pris kan du bruge gitteret **Fakturat
 - Hvis du vil oprette faktureringsmilepæle, der er fordelt ligeligt, skal du vælge en fakturahyppighed, angive faktureringsstartdatoen på tilbudslinjen og vælge **Ønsket fuldførelse** for tilbuddet i sektionen **Oversigt** i overskriften til tilbuddet. Vælg **Generer periodiske milepæle** for at oprette ligeligt opdelte milepæle baseret på den valgte fakturahyppighed. 
 - Hvis du vil oprette en faktureringsmilepæl med en engangssum, skal du oprette en milepæl og derefter angive værdien for tilbudslinjen som beløbet for milepælen.
 - Hvis du vil oprette faktureringsmilepæle, der er baseret på bestemte opgaver i projektplanen, skal du oprette en milepæl og knytte den til projektets tidsplanelement i brugergrænsefladen til faktureringsmilepælen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

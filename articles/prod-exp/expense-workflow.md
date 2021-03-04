@@ -55,3 +55,6 @@ Følgende proces er et eksempel på arbejdsprocessen for udgiftsstyring for en u
 Når disse krav er kontrolleret, bogføres udgiftsrapporten.
 
 Når udgiftsrapporten er bogført, godkendes betalingen i udgiftsrapporten, og medarbejderen refunderes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

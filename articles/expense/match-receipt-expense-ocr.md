@@ -94,3 +94,6 @@ USA understøttes i øjeblikket.
 Finance kontakter Cognitive Services for at udtrække feltdataene. Cognitive Services opbevarer en kopi af din kvittering i op til 24 timer, mens behandlingen pågår. Når behandlingen er fuldført, fjerner Cognitive Services kvitteringen. Kvitteringer gemmes stadig i Finance.
 
 Du kan finde flere oplysninger under [Aktiver forståelse af kvitteringer med Form Recognizers nye funktion](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

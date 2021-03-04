@@ -95,3 +95,6 @@ Denne vejledning indeholder oplysninger, du skal bruge til at oprette og adminis
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)   
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

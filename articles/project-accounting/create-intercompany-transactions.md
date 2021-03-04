@@ -113,3 +113,6 @@ Freja Jacobsen, som er beskæftiget i GBPM, registrerer 10 timers arbejde på et
     - Kredit: projekt – periodiseret omsætning 120 USD
 
     Systemet er nu klar til at oprette en intern kundefaktura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Angiv dine udgifter mindst en gang ugentlig – eller med den hyppighed, der er 
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

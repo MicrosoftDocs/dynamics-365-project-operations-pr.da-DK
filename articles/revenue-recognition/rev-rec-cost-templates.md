@@ -79,3 +79,6 @@ Følg disse trin for at oprette omkostningsskabeloner:
 7. På fanen **Kategorier** skal du vælge de projektkategorier, der skal inkluderes i omkostningsskabelonlinjen.
 8. Under fanen **Generelt** skal du vælge, om linjen skal inkluderes i beregningen af færdiggørelsesgraden.
 9. Vælg den metode for færdiggørelsesomkostninger, der skal bruges ved beregning af færdiggørelsesgraden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

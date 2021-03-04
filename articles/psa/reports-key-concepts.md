@@ -48,3 +48,6 @@ I den følgende tabel defineres nøglebegreber, der bruges i Dynamics 365 Projec
 | Omrids                    | Opgave, krav eller tildelingstimer, efterhånden som de opdeles i en daglig fordeling. En opgave på fem dage, 40 timer, kan f.eks. oprettes som otte timer om dagen i løbet af fem dage. |
 | Visningen Afstemning        | En visning, der viser reservationer og tildelinger for hvert enkelt projektteammedlem. Denne visning giver projektlederne mulighed for at se, om der er uoverensstemmelse mellem reservationer og tildelinger, så de kan foretage korrigerende handlinger, hvis der forekommer uoverensstemmelser. |
 | Arbejdstimer                 | Et objekt, der bruges til at identificere ressourcekapacitet, arbejdstimer og fritid. Dette objekt kaldes også ressourcekalenderen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

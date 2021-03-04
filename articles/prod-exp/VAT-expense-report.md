@@ -72,3 +72,6 @@ Når Jens er klar til at indsende udgiftsrapportdataene til den tredjepartslever
 Jens skal bekræfte, at udgiftsrapportens transaktioner er berettiget til momsopkrævning, og at de digitale kvitteringer er knyttet til rapporterne. For at begynde at behandle berettigede udgifter til indenlandsk inddrivelse, åbner Jens siden **Momsopkrævning for udgifter** og vælger den udgiftsrapport, der kræver bekræftelse. Han bekræfter, at kvitteringerne er i firmaets navn i stedet for i medarbejderens. I forbindelse med momsopkrævning skal kvitteringerne være udstedt i virksomhedsnavnet. Jens bekræfter derefter, at de korrekte momsgrupper og varemomskoder er anvendt.
 
 Når Jens modtager papirkvitteringerne, ændrer han statussen for udgiftsrapporten til **Klar til opkrævning**. Han kan derefter indsende opkrævningen til den relevante skattemyndighed. I dette tilfælde er den relevante momsmyndighed i USA "Internal Revenue Service" (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

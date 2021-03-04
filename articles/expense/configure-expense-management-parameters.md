@@ -83,3 +83,6 @@ Dette emne beskriver de parametre, der styrer den generelle funktionsmåde i Udg
 | Vis attestation mod korruption   | Vælg denne indstilling for at få vist teksten vedrørende bekæmpelse af korruption, når der oprettes en udgiftsrapport. Der kan derefter aktiveres bestemte udgiftskategorier, som kræver, at attestationen vedrørende bekæmpelse af korruption er valgt i udgiftsrapporten. Et gavekort, der er relateret til en offentlig officiel udgift, kan f.eks. kræve, at medarbejderen bekræfter, at udgiften overholder firmapolitikken, der er knyttet til offentlige embedsmænd. |
 | Meddelelse om bekæmpelse af korruption, der skal sendes til indsenderen | Angiv den tekst, der skal vises en medarbejder, som opretter en udgiftsrapport. Hvis du vil angive en sprogspecifik tekst, der skal vises på baggrund af brugersproget, skal du vælge **Oversættelser**. |
 | Meddelelse om bekæmpelse af korruption, der skal sendes til godkenderen  | Angiv den tekst, der skal vises godkenderen, når en udgiftsrapport bliver oprettet. Hvis du vil angive en sprogspecifik tekst, der skal vises på baggrund af brugersproget, skal du vælge **Oversættelser**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

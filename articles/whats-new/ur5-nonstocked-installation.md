@@ -125,3 +125,6 @@ Følgende opdateringer af sikkerhedsrettighederne for objekter er påkrævet som
  
  ![Synkronisering af tilknytning i hovedbog](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

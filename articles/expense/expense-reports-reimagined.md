@@ -78,3 +78,6 @@ Følgende funktioner findes på den eksisterende side, men er endnu ikke til ste
 - Arbejdsproces på linjeniveau
 - Understøttelse af midlertidig godkender
 - Avanceret specificering
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

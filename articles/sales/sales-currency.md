@@ -71,3 +71,6 @@ Før du går i gang med denne procedure, skal du kontrollere, at din sikkerhedsr
 
 > [!IMPORTANT]
 >  Du kan ikke slette valutaer, der bruges af andre poster. Du kan kun deaktivere dem. Hvis du deaktiverer valutaposter for f.eks. salgsmuligheder og ordrer, fjernes de valutaoplysninger, der er lagret i eksisterende poster, ikke. Du kan dog ikke vælge den deaktiverede valuta til nye transaktioner.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

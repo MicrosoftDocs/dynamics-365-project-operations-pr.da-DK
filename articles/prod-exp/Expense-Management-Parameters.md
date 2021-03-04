@@ -89,3 +89,6 @@ Parametrene styrer den generelle funktionsmåde i udgiftsstyring.
 | <strong>Meddelelse om bekæmpelse af korruption, der skal sendes til indsenderen</strong> |                                                                                             Angiv den tekst, der skal vises til medarbejderen, når der oprettes en ny udgiftsrapport. Klik på knappen <strong>Oversættelser</strong> for at angive en sprogspecifik tekst, der skal vises på baggrund af brugersproget.                                                                                             |
 | <strong>Meddelelse om bekæmpelse af korruption, der skal sendes til godkenderen</strong>  |                                                                                             Angiv den tekst, der skal vises godkenderen, når der oprettes en ny udgiftsrapport. Klik på knappen <strong>Oversættelser</strong> for at angive en sprogspecifik tekst, der skal vises på baggrund af brugersproget.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

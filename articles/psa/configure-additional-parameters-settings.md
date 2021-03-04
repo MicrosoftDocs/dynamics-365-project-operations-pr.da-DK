@@ -67,3 +67,6 @@ Sådan indstilles projektparametre:
 
 ### <a name="see-also"></a>Se også  
  [Konfigurere ressourcer](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

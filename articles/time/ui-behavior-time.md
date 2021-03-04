@@ -85,3 +85,6 @@ Når der er oprettet nogle få tidsregistreringer, kan brugerne oprette flere ti
 
 ## <a name="import"></a>Importer
 Den samme grundlæggende fremgangsmåde bruges til at importere fra reservationer, tildelinger og udvekslinger. Du kan angive datointervallet, som reservationer importeres fra, og derefter eksplicit vælge de reservationer, der skal kopieres som kladde-tidsregistreringer. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

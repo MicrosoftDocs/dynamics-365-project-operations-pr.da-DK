@@ -91,3 +91,6 @@ Batchprocesjobbet til oprettelse af fakturaer er et tilbagevendende job. Hvis de
 
 > [!NOTE]
 > Batchfakturering i Project Operations køres kun for projektkontrakt linjer, der er konfigureret af fakturaplaner. Der skal være konfigureret målepæle for en kontraktlinje med en faktureringsmetode med fast pris. Der skal konfigureres en datobaseret fakturaplan for en projektkontraktlinje med en metode til fakturering af time og materiale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

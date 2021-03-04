@@ -49,3 +49,6 @@ Vi anbefaler, at du bruger en batch . Indstillingerne er tilgængelige under syn
     | Slutdato    | Angiv slutdatoen for synkroniseringsprocessen for akkumuleringer af ressourcekapacitet. |
 
 [![Synkroniseringsproces](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

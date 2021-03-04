@@ -63,3 +63,6 @@ Når du opretter og indsender en udgiftsrapport for det kontantforskud, som du a
 ### <a name="example"></a>Eksempel
 Du planlægger at rejse fra København til New York City for at deltage i en konference. Du opretter en anmodning om et kontantforskud på 3.000,00 USD på baggrund af de anslåede omkostninger til konferencebilletten, flybilletten, hotellet, måltider og taxi. Du modtager ikke betaling, medmindre din leder godkender denne anmodning. Når din leder har godkendt det, indbetales det ønskede kontantforskud som 3.000,00 DKK på din bankkonto. Du deltager derefter i konferencen. Når rejsen er gennemført, kan du se, at den samlede udgift kun var 2.790,00 DKK. Vælg **Kontant** i feltet **Betalingsmetode**, og indsend dine udgifter på 2.790,00 USD. Det indsendte udgiftsbeløb justeres automatisk i forhold til kontantforskuddet på 3.000,00 DKK, som blev udlånt til dig. Du har nu en balance på 210,00 USD (3.000,00-2.790,00), som du kan betale tilbage til virksomheden ved hjælp af udgiftskategorien **Tilbagebetal kontanter**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

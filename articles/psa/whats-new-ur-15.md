@@ -63,3 +63,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for PSA
   - Løst: Du får ikke længere en fejlmeddelelse i **Projektopslag** i formularen **Tilbudslinje**, når der er mere end 1.000 projekter.
   - Løst: Gitteret **Anslået** for arbejdsestimater og udgiftsestimater viser nu det korrekte valutasymbol.
   - Løst: Når en organisation opdaterer PSA fra 14. opdateringsudgivelse til 15. opdateringsudgivelse, vises fanen **Planlægning** ikke længere som tom i formularen **Projekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

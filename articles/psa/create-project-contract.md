@@ -47,3 +47,6 @@ Nu hvor du har vundet tilbuddet for projektet, er det tid at oprette en kontrakt
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til kundechefer](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

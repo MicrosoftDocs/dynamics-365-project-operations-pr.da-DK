@@ -26,3 +26,6 @@ I modsætning til reservationer er tildelinger ressourcers forpligtelse til proj
 Summen af en ressources reservationer svarer typisk til summen af ressourcens tildelinger på tværs af en eller flere opgaver. Project Operations gennemtvinger dog ikke denne aftale. I visningen **Afstemning** kan projektlederen se de steder, hvor en ressources reservationer og tildelinger ikke stemmer overens med hinanden.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

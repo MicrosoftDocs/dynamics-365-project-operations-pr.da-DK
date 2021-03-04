@@ -91,3 +91,6 @@ Få vist private aftaler, reservationer til projektarbejde og tildelinger af arb
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,5 @@ Ressourcekrav defineres af projektlederen for at fastlægge de ressourcer, der e
 3.  Vælg teammedlemmet, og vælg derefter **Generer krav** under fanen **Teammedlem**.
 
 Du kan finde oplysninger om, hvordan du ændrer ressourcekravet, under [Opdater oplysninger om ressourcekrav](define-resource-requirements.md) for at ændre ressourcekravet.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

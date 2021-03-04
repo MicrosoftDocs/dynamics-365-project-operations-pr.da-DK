@@ -35,3 +35,6 @@ Gå til projektets faktiske oplysninger, og sørg for, at omkostninger og faktur
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

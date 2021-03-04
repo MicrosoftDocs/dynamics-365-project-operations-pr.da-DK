@@ -40,3 +40,6 @@ Dashboardet **Praksischef** giver praksischefer en mulighed for med grafisk dash
 ## <a name="resource-manager"></a>Personalechef 
 
 Dashboardet **Personalechef** giver personalechefer mulighed for med et grafisk dashboard at overvåge ressourceanmodninger, ressourcebehov og tidsforbrug. Det giver også personalechefer mulighed for at opdele de overvågede oplysninger i forskellige dimensioner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

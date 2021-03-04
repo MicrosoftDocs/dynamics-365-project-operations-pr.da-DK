@@ -57,3 +57,6 @@ Følgende nøgletal er tilgængelige under fanen **Kontraktens ydeevne** i en pr
 | Påløbne omkostninger | Produktbaserede linjer | Summen af alle de faktiske omkostninger for den produktbaserede kontraktlinje. |
 | Bruttoavance | Projektbaserede linjer | Faktureret beløb – omkostninger, der er påløbet frem til dags dato/faktureret beløb |
 | Anslået avance | Produktbaserede linjer | (Kontraktlinjeværdi - estimerede omkostninger for kontraktlinjen) / Kontraktlinjeværdi |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

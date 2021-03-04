@@ -45,3 +45,6 @@ Følgende oplysninger kopieres ikke fra **Kilde** til **Destinationskontrakt**:
   - Oplysninger om kundebudget
 
 Da disse oplysninger er specifikke for hver kontrakt, kopieres disse felter og poster ikke. Kontraktlinjer for projekter og produkter, estimeringer på kontraktlinjedetaljer og maksimale værdier på kontraktniveau kopieres. Konvertering til standardværdierne for pris- og omkostningssatser afhænger af det foretagne valg i feltet **Kopier prisfastsættelse** på dialogsiden **Kopier parametre**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

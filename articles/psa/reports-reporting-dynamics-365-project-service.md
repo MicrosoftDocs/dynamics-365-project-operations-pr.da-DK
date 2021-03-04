@@ -52,3 +52,6 @@ Du finder flere oplysninger om rapportering i PSA under følgende emner:
 - [Arbejde med Project Service-datamodellen](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

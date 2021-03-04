@@ -44,3 +44,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for V3,
 - Løst: 24-timers arbejdstimeskabeloner tilføjer ved en fejl en ekstra dag til opgaver.
 - Løst: Håndtering af +13 GMT-arbejdstimeskabeloner, hvor der ved en fejl skiftes opgaver én dag for tidligt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

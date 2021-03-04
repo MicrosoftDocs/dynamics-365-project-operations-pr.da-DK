@@ -40,3 +40,6 @@ En projektleder kan planlægge nødvendige ressource roller for et projekt. Den 
 7. Vælg en arbejder, og vælg derefter **Tildel**.
 8. Kontroller, at linjen for **Softwareudvikler 1** er blevet fjernet for projektet **XYZ-opgradering af projektfase 2**.
 9. Under fanen **Projektteam og planlægning** skal du for projektet **XYZ-opgraderingsfase 2** kontrollere, at den arbejder, du har valgt i forrige trin, er blevet tilføjet som **Softwareudvikler**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

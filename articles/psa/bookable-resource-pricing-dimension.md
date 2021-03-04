@@ -76,3 +76,6 @@ Derved åbnes siden **Nyt feltnavn for prisdimension** for **msdyn_bookableresou
 5. Føj **msdyn_projectteam** til feltet **Objektets logiske navn** og **msdyn_bookableresourceid** til feltet **Feltnavn**. Gem posten.
 
  ![Formular til nyt feltnavn for prisdimension](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

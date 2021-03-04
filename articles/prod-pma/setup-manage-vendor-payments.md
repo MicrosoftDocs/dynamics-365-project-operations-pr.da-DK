@@ -80,3 +80,6 @@ Når en leverandør er færdig med at arbejde på et projekt og sender dig en fa
 2. På siden **Leverandørfakturaer med betal ved betaling** skal du i søgefeltet angive værdier for at finde den leverandørfaktura, som du vil gennemse, og derefter vælge **Søg**.
 3. I oversigtspanelet **Leverandørfakturalinjer** skal du markere de linjer, som du vil ændre.
 4. Hvis vilkårene for **Betal ved betaling** er opfyldt for fakturalinjen, skal du vælge **Frigiv leverandørbetaling**. Markeringen i **Betal ved betaling** fjernes, og værdien i feltet **Klar til betaling** ændres til **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

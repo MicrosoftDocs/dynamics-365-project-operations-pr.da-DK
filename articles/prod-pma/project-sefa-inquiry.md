@@ -104,3 +104,6 @@ Forespørgsel om planen for udgifter til føderale priser omfatter følgende kol
 - Katalog over Federal Domestic Assistance
 - Kvitteringer
 - Udgifter
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -142,3 +142,6 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 ## <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
 
 Du kan finde oplysninger om lovgivningsmæssige opdateringer til Dynamics 365 Finance under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). En anden måde at lære om lovgivningsmæssige opdateringer på er at logge på Lifecycle Services (LCS) og se de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til problemsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

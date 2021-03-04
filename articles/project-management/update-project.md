@@ -48,3 +48,6 @@ Nedenfor vises en oversigt over de felter, der kan opdateres i et projekt, efter
 - **Overordnet projektstatus**: Den overordnede projekttilstand, der er angivet af projektlederen.
 - **Kommentarer**: En kommentar om den aktuelle tilstand for projektet, som angives af projektlederen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

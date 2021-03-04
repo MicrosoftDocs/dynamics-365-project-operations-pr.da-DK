@@ -70,3 +70,6 @@ Følgende problemer er blevet løst:
 - Forbedret fejlhåndtering til imødegåelse af null-referenceundtagelser, der er genereret fra **Kopier projekt: estimering af administration af hjælperessourcer**.
 - **Ikke er klar til fakturering** på en **Faktureringsefterslæb for tid og materialer** rydder ikke faktureringsstatussen.
 - Rettede, fejlmærkede knapper for **Priser** på fanen **Rollepris** og **Katalogelementer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

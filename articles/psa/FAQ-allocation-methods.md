@@ -71,3 +71,6 @@ Følgende allokeringsmetoder kan altså føre til overbookning, hvis ressourcen 
 - Fordele timer jævnt
 
 Når du bruger en af disse tre allokeringsmetoder, får du ikke besked om, at ressourcen er overbooket. Du kan kun løse overreservationsproblemet ved hjælp af planlægningsområdet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

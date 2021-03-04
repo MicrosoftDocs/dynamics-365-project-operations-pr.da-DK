@@ -74,3 +74,6 @@ Før du går i gang med konfigurationen, skal du have et Common Data Service-mil
     -   Egenskab for reserverbar ressource
 
     ![Fuldført import](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

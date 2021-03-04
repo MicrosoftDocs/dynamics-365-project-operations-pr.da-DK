@@ -35,3 +35,6 @@ Hvis den projektkontrakt, der lukkes som værende tabt, refererer til et projekt
 
 > [!NOTE]
 > I Dynamics 365 Project Operations påvirkes statussen for den tilknyttede salgsmulighed ikke ved, at du lukker et projekt som værende tabt. Salgsmuligheden er stadig åben og skal lukkes manuelt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

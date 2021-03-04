@@ -135,3 +135,6 @@ Hvis du har faktiske værdier, der indgik, efter at du har oprettet fakturaen, k
 2. Åbn kladden for at oprette en proformafaktura, og klik på **Handlinger** på båndet og derefter på **Opdater fakturalinjetransaktioner**.
 
   Dermed oprettes fakturalinjedetaljer for eventuelle faktiske værdier, der har en tidligere dato og er markeret som **Klar til fakturering**, men som ikke er inkluderet i fakturaen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

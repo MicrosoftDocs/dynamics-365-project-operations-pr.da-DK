@@ -52,3 +52,6 @@ I denne vejledning får du hjælp til at installere og konfigurere:
  [Vejledning til kundechefer](../psa/account-manager-guide.md) [Vejledning til kundechefer](../psa/project-manager-guide.md)   
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)   
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

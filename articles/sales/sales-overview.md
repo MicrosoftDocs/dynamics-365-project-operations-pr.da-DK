@@ -63,3 +63,6 @@ I Project Operations kan du ikke spore de revisioner, der er foretaget i et tilb
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Spor kommentarer og godkendelser af tilbud og projektkontrakter
 Du kan administrere gennemgang og godkendelse af tilbud og projektkontrakter ved hjælp af postvæggen og indlæg. Din organisation kan oprette tilpassede arbejdsprocesser og plug-ins for at tildele, omdirigere, eskalere og administrere meddelelser om gennemsyn og godkendelse af arbejdselementer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -429,3 +429,6 @@ Indtastning af en standardprojektkategori på timeseddelposteringer sker på tre
 1. Appen forsøger at anbringe standardkategorien fra projektressourcen. Denne standardkategori er angivet i metoderne **getCurrentUserResource** og **getDelegatedResourcesForCurrentUser** i klassen **TSTimesheetSettingsService**.
 2. Hvis standardkategorien ikke er angivet på projektressourceniveau, forsøger appen at hente den fra projektaktiviteten. Denne standardkategori er angivet i metoden **getActivitiesForProject** i klassen **TSTimesheetProjectService**.
 3. Hvis standardkategorien ikke er angivet på projektressourceniveau, hentes standardkategorien fra projektparametrene. Denne standardkategori er angivet i metoden **getProjectDetailsbyRule** i klassen **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

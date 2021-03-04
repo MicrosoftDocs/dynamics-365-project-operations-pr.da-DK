@@ -20,3 +20,6 @@ ms.locfileid: "4514506"
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 Du kan bruge Dynamics 365 Field Service til at oprette ressourcer, der kan reserveres, og som du kan bruge i dit Dynamics 365 Project Operations-miljø. Hvis du vil oprette disse ressourcer, skal du se i [Konfigurer ressourcer, der kan reserveres](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Du kan finde flere oplysninger i:
 - [Oversigt over Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Oversigt over Dynamics 365 Project Operations frigivelsesbølge 1 i 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Hvis det projekttilbud, der er lukket som Tabt, refererer til et projekt på en 
 
 > [!NOTE]
 > Hvis du lukker et tilbud som vundet eller tabt i Project Operations, påvirkes statussen for salgsmuligheden ikke, og den vil være åben, indtil den lukkes manuelt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

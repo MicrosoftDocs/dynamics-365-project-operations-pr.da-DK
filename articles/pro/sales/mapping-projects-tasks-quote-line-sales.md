@@ -90,3 +90,6 @@ Du kan også fjerne tilknytningen mellem projektopgaver og tilbudslinjer fra fan
 
 >[!NOTE]
 > Denne procedure sletter ikke opgaven fra projektet. Det er kun opgavetilknytningen, der fjernes fra den projektbaserede tilbudslinje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

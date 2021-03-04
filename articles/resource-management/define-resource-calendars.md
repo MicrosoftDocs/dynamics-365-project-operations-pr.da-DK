@@ -43,3 +43,6 @@ Alle de reserverbare ressourcer, der arbejder på et projekt, skal have en kalen
 2. Vælg op til 25 **Reserverbare ressourcer** i gittervisningen, som skal opdateres.
 3. Vælg **Angiv kalender** og en dialogboks vises med en liste over tilgængelige arbejdstidsskabeloner.
 4. Vælg den til at finde den skabelon, som du vil bruge, og vælg derefter **Anvend**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

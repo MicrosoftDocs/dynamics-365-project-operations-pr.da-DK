@@ -81,3 +81,6 @@ Følgende problemer er blevet løst:
 - Knappen **Opdater faktiske oplysninger** beregner hovedopgaver ukorrekt.
 - Tilføjelsesprogram til Microsoft Project: ret en fejl i null-reference, hvis et teammedlem har en tom ressourceenhed.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

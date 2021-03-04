@@ -38,3 +38,6 @@ Disse ofte stillede spørgsmål gælder for faktiske udgifter, hvor transaktions
 Gå til den relaterede udgiftspost, og sørg for, at der er et beløb i udgiftspostfeltet. Hvis beløbsfeltet ikke var udfyldt for den oprindelige udgift, har du isoleret problemet.
  
 Du kan løse dette problem ved at genoprette udgiftsposten med et gyldigt beløb og godkende den.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

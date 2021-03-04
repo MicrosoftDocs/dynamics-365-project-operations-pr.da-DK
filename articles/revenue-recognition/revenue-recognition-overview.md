@@ -60,3 +60,6 @@ I Dynamics 365 Project Operations varierer principperne for omsætningsanerkende
 [Administrer omsætningsestimater](rev-rec-completed-contract-method.md)
 
 [Metoder til færdiggørelsesomkostninger](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

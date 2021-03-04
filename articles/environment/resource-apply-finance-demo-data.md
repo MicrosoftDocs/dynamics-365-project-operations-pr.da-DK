@@ -79,3 +79,6 @@ Dette tager et par minutter at fuldføre. Du bør modtage en bekræftelsesmeddel
 18. Luk fjernskrivebordssessionen, og brug siden med LCS-**Miljødetaljer** til at logge på miljøet for at bekræfte, at den fungerer som forventet.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Produktbaserede linjer kan være katalogvarer eller produkter, der skal rekvirer
 
 Når omsætningsmetoden for salgsoversigten er **Beregnet af systemet**, opsummeres værdierne på kundebudgettet på tværs af salgsmulighedslinjerne for at beregne den anslåede omsætning. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

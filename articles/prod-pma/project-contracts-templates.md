@@ -153,3 +153,6 @@ I følgende illustrationer vises eksempler på tilknytninger mellem skabelonopga
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Tilknytning af projektkontraktlinjers milepæle i skabelonen for projekter og kontrakter (PSA 3.x til Dynamics) - v2:
 
 [![Tilknytning af milepæl for projektkontraktlinje med version to-skabelon](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

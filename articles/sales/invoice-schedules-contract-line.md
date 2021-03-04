@@ -74,3 +74,6 @@ Du kan generere milepæle for fast pris manuelt, når de ikke er periodisk opdel
 | Moms | Hurtig oprettelse | Det momsbeløb, der anvendes på milepælen. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
 
 3. Vælg **Gem og luk**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

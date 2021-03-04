@@ -198,3 +198,6 @@ Fakturering af en faktisk salgsværdi for milepælsbeløbet på den oprindelige 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ I Dynamics 365 Project Service Automation version 3.0 er visninger for tid og ud
 Tidligere blev kalender- og gittervisningerne for tid og udgifter implementeret som DHTMLX-kontrolelementer. De artefakter, der er relateret til denne implementering af kalender- og gittervisningerne, er nu forældede (udfasede).
 
 Du kan finde en komplet liste over forældede ressourcer under [Udfasede webressourcer i Project Service Automation 3.x](web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Hvert projekt har en række medlemmer af projektteamet. Du kan angive, hvilke te
 3. Vælg **Gem**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

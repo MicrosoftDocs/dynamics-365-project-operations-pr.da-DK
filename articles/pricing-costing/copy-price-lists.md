@@ -43,3 +43,6 @@ Hvis du vil oprette en kopi af prislisten, skal du benytte følgende fremgangsm�
 1. På fanerne **Rolle**, **Kategori** og **Prislisteelement** for en prisliste kan du vælge **Opdater priser** for at anvende en avance for alle priser i undergitteret. 
 2. Angiv en avance på den dialogside, der vises. Du kan også angive en negativ avanceprocent for at reducere priserne med en bestemt procentdel. 
 3. Vælg **OK** på dialogsiden, og kontrollér derefter, at priserne i undergitteret afspejler de ændringer, du har foretaget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

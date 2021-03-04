@@ -96,3 +96,6 @@ Klik på **Indsend** for at sende timesedlen til godkendelsesarbejdsgangen.
 ## <a name="review-timesheets"></a>Gennemse timesedler
 
 Der findes en liste over de timesedler, der skal gennemgås, i menuen. Denne indstilling er kun tilgængelig, hvis du er angivet som godkender af arbejdsproces. Både overskrifts- og linjegodkendelser understøttes. Godkendelse på linjeniveau giver mulighed for at markere en eller flere linjer til godkendelse. Når du har gennemgået oplysningerne i timesedlen, skal du klikke på **Godkend** , **Deleger** eller **Vend tilbage** for at fortsætte arbejdsprocessen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

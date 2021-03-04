@@ -43,3 +43,6 @@ Konfigurer posteringskategorier for at definere et supersæt af udgiftskategorie
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

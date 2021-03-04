@@ -36,3 +36,6 @@ Følg disse trin for at bruge guiden.
 1. Gå til **Projektstyring og regnskab** > **Tilbud** > **Projekttilbud**.
 2. Vælg det tilbud, som du vil overføre, og vælg i fanen **Opfølgning** i gruppen **Modificer** **Overfør til projekt**.
 3. Følg guiden **Overfør tilbud til projekt** for at tilknytte og overføre tilbuddet til et projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

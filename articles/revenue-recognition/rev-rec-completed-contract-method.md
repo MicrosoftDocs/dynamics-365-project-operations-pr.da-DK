@@ -90,3 +90,6 @@ I estimatetet ændres statussen til **Elimineret**.
 Brug denne side til at tilbageføre alle elimineringer med en bestemt estimatdato og med estimatstatussen **Elimineret**. Transaktionsstatussen ændres, når du har valgt de relevante felter.
 
 Derved ændres projektstatus også automatisk til **Igangværende**, hvis projektstadiet er angivet til afsluttet. Estimatstatus for projektperioden ændres tilbage til **Bogført**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

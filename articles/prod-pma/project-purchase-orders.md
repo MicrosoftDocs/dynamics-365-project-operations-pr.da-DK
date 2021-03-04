@@ -76,3 +76,6 @@ Du kan benytte en af følgende fremgangsmåder for at oprette en købsordre i pr
 
 Du kan finde flere oplysninger i [Modtag varer på købsordre fra varebehov](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Mine timesedler (optimeret til mobil) og timesedler til min gennemgang (optimere
 - [Tidsregistrering på projekter]( project-time-entry-mobile-workspace.md)
 - [Projekttimesedler på en mobilenhed](Mobile-timesheets.md)
 - [Implementer brugerdefinerede felter til Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

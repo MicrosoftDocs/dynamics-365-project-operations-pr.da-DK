@@ -59,3 +59,6 @@ Hver projektkontraktlinje, der har en fastpris-faktureringsmetode, skal definere
 Hvis du vil gennemse faktureringsmilepæle, skal du gå til **Salg** \> **Fakturering** \> **Milepæle for fast pris**. Markér de milepæle, der er klar til at blive faktureret, og vælg derefter **Klar til fakturering**. Faktureringsstatussen for disse milepæle ændres til **Klar til fakturering**.
 
 ![Milepæle for fast pris](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

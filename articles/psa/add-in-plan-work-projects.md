@@ -242,3 +242,6 @@ I følgende tabel beskrives det, hvordan objektdata for projektopgaveafhængighe
 
 ### <a name="additional-resources"></a>Flere ressourcer
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

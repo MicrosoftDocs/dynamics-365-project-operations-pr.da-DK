@@ -43,3 +43,6 @@ Nedenfor vises de felter på **Kontrakt**-linjens kundepost for en projektbasere
 Faktureringsopdelingsprocenter kan redigeres i gitteret. Når faktureringsopdelingsprocenterne ikke udgør 100 procent i alt, opstår der en fejl. Når du har redigeret faktureringsopdelingsprocenterne, skal du opdatere siden for at fjerne fejlen.
 
 Du kan også vælge **Fordel ligeligt** på kontraktlinjekundens undergitter. Denne handling allokerer faktureringsopdelinger til alle kontraktlinje kunder ligeligt. Hvis der er en afrundingsfaktor, vil den blive føjet til den afrundede kunde. En kontraktlinjekunde er altid mærket som den **Afrundede** kunde, hvor **Afrundingsflaget** er angivet til **Ja**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

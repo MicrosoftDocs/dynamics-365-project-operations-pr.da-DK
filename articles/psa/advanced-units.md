@@ -112,3 +112,6 @@ Nej. Estimeret tidsplan er i øjeblikket begrænset til timer og kan ikke ændre
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kan enheder og enhedsgrupper redigeres, slettes og tilføjes?
 Ja. Med undtagelse af enhedsgruppen **Tid** og enheden **Time** kan alle enheder slettes eller redigeres, og der kan tilføjes nye enheder. I PSA kan enhedsgruppen **Tid** og enheden **Time** ikke slettes. De kan dog opdateres med en oversat tekst til feltet **Navn**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

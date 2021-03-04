@@ -73,3 +73,6 @@ Du kan oprette data til objektbaserede dimensioner manuelt eller ved hjælp af M
 > ![Eksempeldata til objektet Standardtitel ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

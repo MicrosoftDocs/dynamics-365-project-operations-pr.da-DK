@@ -96,3 +96,6 @@ Følgende relationer skal vedligeholdes korrekt for at sikre en vellykket opgrad
 
 - Alle projektopgaveafhængigheder skal være relateret til det samme projekt.
 - En opgave kan ikke have samme afhængighed refereret mere end én gang.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

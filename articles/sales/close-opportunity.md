@@ -24,3 +24,6 @@ Projektsalgsmuligheder kan lukkes som vundet eller tabt. I dialogboksen **Luk sa
 Du kan ikke lukke salgsmuligheden, hvis der er knyttet aktive tilbud til den. Du kan lukke alle aktive tilbud, der er knyttet til en salgsmulighed på samme tid. Du får derefter lov til at lukke salgsmuligheden.
 
 Du kan finde flere generelle oplysninger om afslutning af salgsmuligheder under [Luk salgsmuligheder som vundne eller tabte](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

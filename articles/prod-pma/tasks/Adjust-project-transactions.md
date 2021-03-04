@@ -44,3 +44,6 @@ I denne opgavevejledning illustreres det, hvordan du kan justere en transaktion 
 13. Marker den valgte række på listen. 
 14. Angiv et nummer i feltet Kostpris. 
 15. Klik på Indlæg. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

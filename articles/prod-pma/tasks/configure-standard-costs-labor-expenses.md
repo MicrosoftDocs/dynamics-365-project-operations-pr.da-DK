@@ -54,3 +54,6 @@ I dette emne beskrives det, hvordan du kan konfigurere standardomkostninger for 
 22. Angiv et nummer i feltet **Prisfastsættelse**. Den faktiske salgspris, som anvendes, når en arbejder angiver transaktioner i en udgiftskladde, er den salgspris, der har det højeste detaljeringsniveau. Hvis du f.eks. både konfigurerer en generel og en arbejderspecifik salgspris, bruges den arbejderspecifikke salgspris.  
 23. Vælg **Gem**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

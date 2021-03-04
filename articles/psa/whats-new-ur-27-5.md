@@ -42,3 +42,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Pro
 Følgende problemer er blevet løst:
 
 - Forringelse af søgepræstationen i planlægningsassistance
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

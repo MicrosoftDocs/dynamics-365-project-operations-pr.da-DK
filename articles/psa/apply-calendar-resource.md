@@ -45,3 +45,6 @@ Når du har oprettet en skabelon til arbejdstimer, skal du tildele den til resso
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere ressourcer](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

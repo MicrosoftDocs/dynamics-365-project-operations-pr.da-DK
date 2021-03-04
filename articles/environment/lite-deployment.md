@@ -44,3 +44,6 @@ Project Operations understøtter flere udrulningsmodeller. Du kan finde den beds
 2. Installer **Microsoft Dynamics 365 Project Operations** fra udrulningslisten for Dynamics 365-apps. Du kan finde flere oplysninger i [Administrer Dynamics 365-apps](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

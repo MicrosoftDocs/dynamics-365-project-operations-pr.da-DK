@@ -116,3 +116,6 @@ Opgavetilstanden påvirker ikke de opdateringer, der er foretaget af start- og s
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hjælp til handicappede og tastaturgenveje
 
 Gitteret **Planlægning** er fuldt tilgængeligt og kan bruges sammen med skærmlæsere, f.eks. Oplæser, JAWS eller NVDA. Du kan flytte gennem gitterområdet ved hjælp af piletasterne (som i Microsoft Excel), du kan bruge tabulatortasten til at gennemblade de interaktive brugergrænsefladeelementer, og du kan bruge pil ned-tasten, tasten ENTER eller mellemrumstasten til at åbne og aktivere rullemenuerne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

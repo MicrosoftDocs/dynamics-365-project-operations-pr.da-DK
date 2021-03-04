@@ -77,3 +77,6 @@ Følgende problemer er blevet løst:
 - Logikken **Løsningen til salgsprislisten**, håndterer ikke tidszoner korrekt, hvilket medfører et forkert udvalg af prislister.
 - Beløbet for et projekts **Samlede faktiske omkostninger** kan fravige med en brøkdel, når en enkelt post er godkendt.
 - Logikken **Prisløsning** indeholder ikke en brugervenlig fejlmeddelelse, hvis den **Hentede Rollepris** ikke indeholder værdier i felterne **"Primær enhed"** og **"Pris i primær enhed"**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

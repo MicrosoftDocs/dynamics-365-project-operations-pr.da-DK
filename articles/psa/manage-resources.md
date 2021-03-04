@@ -344,3 +344,6 @@ Hvis du har opgavetildelinger for en ressource men ingen reservationer, skal du 
 ![Dialogboksen Udvid reservation](media/Resource-Management-image58.png)
 
 Projektlederen eller ressourcestyringen kan derefter bruge planlægningsområdet til at administrere de situationer, hvor en ressource overreserveres i forhold til dens kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ I forbindelse med udgiftsrapporter kan du detailudlede fra en transaktion til de
 Hvis du vil foretage detailudledning i den oprindelige udgiftsrapport, som en transaktion blev vist på, skal du vælge transaktionen og derefter vælge **Originaldokument**.
 
 Når du får vist de enkelte transaktioner, kan du også få vist eventuelle yderligere data, der er knyttet til en transaktion. Du kan f.eks. få vist en detaljeret liste over udgifter såsom internetadgang, telefonopkald og roomservice i forbindelse med en specificeret hoteludgift.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

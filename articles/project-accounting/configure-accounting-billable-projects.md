@@ -125,3 +125,6 @@ Fast pris – færdiggørelsesprocent
 Reglerne for projektomkostnings- og omsætningsprofiler bestemmer, hvilke projektomkostnings- og indtægtsprofiler der skal bruges, når fakturerbare projekttransaktioner skal behandles. Definer reglerne ved at gå til **Projektstyring og regnskab** \> **Opsætning** \> **Bogføring** \> **Regler for projektomkostnings- og omsætningsprofil**.
 
 Regler kan defineres ud fra projektkontrakt, projektgruppe eller efter et bestemt projekt. Systemet vælger altid den højeste granuleringsregel først.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Hvis der ikke er en række i rolleprisgitteret for prissætningsdimensionerne i 
 
 Hvis du stadig ikke kan se en gyldig pris i dine faktiske tidsrelaterede salgstal, skal du anmode om support. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

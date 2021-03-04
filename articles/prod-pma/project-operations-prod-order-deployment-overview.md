@@ -43,3 +43,6 @@ Vælg denne udrulningstype for at bruge Dynamics 365 Project Operations til hele
 - Et avanceret program for moms i virksomhedsklasse og valutakurser, hvor du kan oprette kundeorienterede fakturaer til projekter.
 - Et system for projektregnskab og indtægtsføring, som overholder de internationale standarder for regnskabsaflæggelse.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

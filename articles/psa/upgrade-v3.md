@@ -110,3 +110,6 @@ For opgaver, der er tildelt til en rolle med en afdeling, der er anderledes end 
  
 Ændringer af standardværdien for de forskellige ressourceafdelinger vedrørende ikke-genererede teammedlemmer er årsagen til, at vi anbefaler, at du genererer eller regenererer teamet på hvert enkelt projekt, der indeholder generiske ressourcer før opgraderingen, så afdelingstildelingerne ikke går tabt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

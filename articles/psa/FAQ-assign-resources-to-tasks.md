@@ -82,3 +82,6 @@ Ressourcer, der er tildelt på denne måde, føjes til teamet uden reservationer
 
 3. Vælg den ressource, som du vil tildele til opgaven.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

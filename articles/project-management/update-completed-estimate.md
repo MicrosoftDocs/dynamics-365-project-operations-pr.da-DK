@@ -36,3 +36,6 @@ En projektleder kan ændre arbejdsindsatsen på opgaver på to måder:
 - Tilsidesætte standardstatussen i procent med et nyt estimat for den faktiske indsats på opgaven.
 
 Hver af disse fremgangsmåder medfører en genberegning af opgavens procentvise ETC, estimering ved fuldførelse (EAC) og status samt den forventede afvigelse i tidsforbrug på en opgave. EAC, ETC og status i procenten for hovedopgaver genberegnes og giver en ny projektion af afvigelsen i tidsforbruget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

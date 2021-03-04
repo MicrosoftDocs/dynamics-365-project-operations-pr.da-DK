@@ -35,3 +35,6 @@ Projektfaser kan fungere som en vejledning i projektets livscyklus. Du kan defin
 4. Vælg den foruddefinerede eller brugerdefinerede fase, som du vil tilpasse. 
 5. Angiv det nye navn i feltet Projektfase.
 6. Klik på Gem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

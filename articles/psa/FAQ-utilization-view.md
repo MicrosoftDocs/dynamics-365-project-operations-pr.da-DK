@@ -101,3 +101,6 @@ Hvis du ikke kan se fakturerbart tidsforbrug, er her nogle ting, du kan kontroll
   - Rollen i den projektkontraktlinje, der sikkerhedskopierer projektet, er indstillet til ikke-fakturerbar.
   - Projektet har ikke en tilknyttet kontraktlinje.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

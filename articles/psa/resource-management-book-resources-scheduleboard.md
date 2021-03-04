@@ -53,3 +53,6 @@ Før du kan reservere fra planlægningsområdet, skal du oprette eller generere 
 Kravet opfyldes ved hjælp af den valgte ressource. Bemærk, at i ruden **Krav til reservationer** er kravet blevet opdateret, og ressourcen vises som reserveret til projektet.
 
 ![Ressource reserveret til projektet](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

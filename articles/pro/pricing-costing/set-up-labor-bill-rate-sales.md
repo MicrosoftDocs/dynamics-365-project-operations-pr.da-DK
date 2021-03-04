@@ -55,3 +55,6 @@ En udvikler fra Fabrikam i Indien, som arbejder på et projekt fra USA, fakturer
     | Udvikler | Fabrikam i USA | 150 $ |
 
 3. Knyt salgsprislisten **Faktureringssatser for Fabrikam i USA** til projektets prisliste for projektkontrakten eller til et bestemt firma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

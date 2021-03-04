@@ -55,3 +55,6 @@ Salgsmuligheder er varme kundeemner fra kunder, der er interesseret i en kontrak
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til kundechefer](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

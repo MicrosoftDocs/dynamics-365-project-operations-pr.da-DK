@@ -45,3 +45,6 @@ Når du vil se, hvad du skal arbejde på i løbet af ugen, kan du tage et kig p�
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Når der er reserveret ressourcer, skal du vælge **Vedligehold reservationer** 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Hvad er forskellen på en tildeling og en reservation?
 
 Tildelinger er tildelingen af ressourcer til projektopgaver i projektplanen. Ressourcerne kan være enten faktiske ressourcer eller generiske ressourcer. Reservationer er definitiv eller foreløbig allokering af ressourcerne til et projekt. Definitive reservationer forbruger en ressources kapacitet. Ideelt set skulle faktiske ressourcer, reservationer og tildelinger være i overensstemmelse med hinanden, eftersom de ikke er forskellige. PSA gennemtvinger dog ikke denne aftale. I visningen Afstemning vises en projektledersituation, hvor en ressources reservationer og tildelinger ikke er i overensstemmelse med hinanden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

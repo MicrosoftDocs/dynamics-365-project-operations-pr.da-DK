@@ -72,3 +72,6 @@ Følgende problemer er blevet løst:
 - Når du lukker tilbuddet som vundet, navigeres der ikke til den oprettede kontrakt, hvis et BPF, der er knyttet til tilbuddet, er i det sidste stadie.
 - Hvis du tilbagefører **Ikke-faktureret salg**, knyttes de til den oprindelige omkostning, når en tidsregistrering tilbagekaldes.
 - Når du har valgt knappen **Bekræft**, ændres fakturaens status ikke til **Bekræftet**, medmindre fakturaen opdateres.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

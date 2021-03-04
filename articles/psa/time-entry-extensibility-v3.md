@@ -132,3 +132,6 @@ Du skal bruge plug-in-valideringer for alle valideringer, der kræver mere konte
 
 > [!IMPORTANT] 
 > Et kendt problem på TBX-siderne forhindrer i øjeblikket brugere i at rette oplysninger og igen markere Udført, når en opdatering ikke lykkes for en plug-in-validering. Du kan løse problemet ved at konfigurere valideringer af forretningsregler, for at denne situation for så vidt muligt undgås.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

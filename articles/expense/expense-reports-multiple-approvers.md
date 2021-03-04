@@ -41,3 +41,6 @@ Hvis du beslutter dig for at kræve flere godkendere af udgiftsrapporter, kan du
 
     1. Medarbejderens leder godkender udgiftsrapporten.
     2. Budgetejeren godkender udgiftsrapporten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

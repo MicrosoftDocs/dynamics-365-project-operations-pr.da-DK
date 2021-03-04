@@ -36,3 +36,6 @@ Når en kostprisliste er løst, sammenholdes felterne **Rolle** og **Ressourceen
 Estimatlinjer for udgifter refererer til tilbuds- og kontraktlinjeoplysninger om udgifter og udgiftsestimatlinjer i et projekt.
 
 Når en kostprisliste er løst, bruger systemet en kombination af felterne **Kategori** og **Enhed** på udgiftsestimatlinjen til at sammenligne med linjerne **Kategoripris** i den løste prisliste. Hvis systemet finder en kategorisprislinje, der har en omkostningssats for feltkombinationen **Kategori** og **Enhed**, konverteres omkostningssatsen til standarden. Hvis systemet ikke kan sammenholde værdierne for **Kategori** og **Enhed**, eller hvis det kan finde en tilsvarende kategoriprislinje, men prisfastsættelsesmetoden ikke er **Pris pr. enhed**, vil omkostningssatsen som standard være nul (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

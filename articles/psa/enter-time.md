@@ -61,3 +61,6 @@ Angiv mindst en gang ugentlig dine timer – eller med den hyppighed, der er øn
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

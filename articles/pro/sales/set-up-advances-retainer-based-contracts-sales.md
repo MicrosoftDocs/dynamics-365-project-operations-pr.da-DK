@@ -37,3 +37,6 @@ Forskudshonoraret i Project Operations er ikke tilgængelig til brug, før det e
 | --- | --- | --- |
 | Beløb til rådighed | Det beløb, der kan bruges på posten med forskudshonorar eller forskud. | Indtil forskuddet eller forskudshonoraret er blevet faktureret, er det ikke muligt at anvende beløbet, hvilket betyder, at det disponible beløb er nul. |
 | Anvendt beløb | Det beløb, der allerede er brugt på forskudshonorar eller forskud. | Et forskud eller forskudshonorar kan være delvist afstemt på en faktura med faktiske omkostninger, hvor en del vil være markeret som allerede anvendt eller forbrugt. Resten af forskuddet eller forskudshonoraret er tilgængeligt til afstemning på fremtidige fakturaer med faktiske omkostninger. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

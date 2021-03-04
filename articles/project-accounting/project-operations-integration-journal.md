@@ -55,3 +55,6 @@ Det er kun følgende regnskabsattributter, der kan opdateres i integrationskladd
 Integrationskladdelinjer kan slettes, men alle ikke-bogførte linjer indsættes igen i kladden, når du har kørt den periodiske proces **Importer fra midlertidig** på ny.
 
 Når du bogfører integrationskladden, oprettes der en underfinanskonto for projektet og transaktioner på finanskontoen. Disse bruges til afledt kundefakturering, indtægtsføring og finansiel rapportering.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

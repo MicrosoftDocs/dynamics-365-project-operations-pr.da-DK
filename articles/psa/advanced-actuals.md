@@ -34,3 +34,6 @@ ms.locfileid: "5145711"
 Alle økonomiske transaktioner, der sker under et projekt, registreres. Disse transaktioner registreres som **faktiske oplysninger**. I følgende tabel vises de forskellige typer af faktiske oplysninger, der oprettes, afhængigt af, om projektet er tid-og-materiale-, fastpris eller internt, eller om det er i fasen presales.
 
 > ![Tabel, der viser, hvordan faktiske oplysninger registreres](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

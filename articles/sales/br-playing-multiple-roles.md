@@ -106,3 +106,6 @@ Når du udvider rækken for den pågældende teammedlemspost, kan du se de forsk
 ### <a name="estimates-grid"></a>Gitter til estimater 
 
 I gitteret **Estimater** prisfastsættes begge tildelinger for samme ressource forskelligt. Tildelingen for ressourcen på **Opgave A** er prisfastsat ved hjælp af attributværdien **Rolle** for **Konsulterende kundeemne**. Tildelingen for den samme ressource på **Opgave B** er prisfastsat ved hjælp af attributværdien **Rolle** for **Netværkstekniker**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

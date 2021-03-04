@@ -101,3 +101,6 @@ I følgende eksempel er Contoso Robotics USA (USPM) den juridiske låneenhed, og
           - **Ressourcevirksomhed** = **Contoso Robotics UK**
           - **Faktureringssats** = **200 USD**
       9. Gå til **Salg** > **Projektkontrakter**, og knyt prislisten for **Faktureringssatser for Adventure Works** sammen med projektkontraktens projektprisliste for Adventure Works.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

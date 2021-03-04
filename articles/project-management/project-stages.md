@@ -63,3 +63,6 @@ Når arbejdet på projektet er fuldført, kan projektlederen opdatere fasen til 
 
 Når alle transaktioner er registreret for projektet, kan projektlederen opdatere fasen til **Luk.** På dette tidspunkt kan der ikke registreres flere transaktioner, og projektet får indstillingen skrivebeskyttet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

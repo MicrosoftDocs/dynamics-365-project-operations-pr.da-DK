@@ -68,3 +68,6 @@ Der kan også oprettes milepæle for fast pris manuelt, når de ikke er periodis
 | Fakturastatus | Hurtig oprettelse | Når der oprettes en milepæl, angives denne status altid til **Ikke klar til fakturering**. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
 | Linjebeløb | Hurtig oprettelse | Beløb eller værdi for den milepæl, der vil blive faktureret kunden. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
 | Moms | Hurtig oprettelse | Momsbeløb, der vil blive anvendt på milepælen. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

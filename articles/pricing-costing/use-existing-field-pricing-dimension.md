@@ -31,3 +31,6 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 Objektet **Faktiske** har mange felter, der kan bruges som prisfastsættelsesdimensioner for ressourcebaseret prisfastsættelse. Et almindeligt felt er f.eks. **Reserverbar ressource**. Mindre virksomheder, der har færre end 20-30 fakturerbare ressourcer, kan mene, at det er enklere at have faktura- og omkostningssatser, der er specifikke for hver enkelt ressource. Men da den fakturerbare arbejdsstyrke vokser, kan ressourcespecifikke satser blive urealistiske at opretholde. Ressourceomkostninger og faktureringssatser begynder at variere, efterhånden som ressourcer bliver forfremmet, får flere oplevelser, eller kræver et andet sæt færdigheder. 
 
 Et andet eksempel er transaktionskategorien. Kunder og installatører har brugt transaktionskategorien til at klassificere arbejde og bruge feltet til at angive priser og omkostninger baseret på arbejdskategorien.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

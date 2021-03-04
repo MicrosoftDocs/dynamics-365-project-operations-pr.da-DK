@@ -65,3 +65,6 @@ Når du har oprettet betingelserne for tilbageholdelse af leverandørbetaling fo
 6. Hvis projektet også har betingelserne betal ved betaling (PWP) konfigureret for leverandøren, skal du angive tærskelprocenten for projektet i feltet **Tærskelprocent for betal ved betaling**.
 
 Betingelserne for tilbageholdelse af leverandørbetaling vises også på de indkøbsordrer, du opretter for leverandøren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

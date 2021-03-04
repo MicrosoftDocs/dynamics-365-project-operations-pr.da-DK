@@ -113,3 +113,6 @@ Da Dynamics 365 Project Service Automation bruger Universal Resource Scheduling-
 Hvis du vil have vist flere oplysninger om en enkelt ressource, skal du højreklikke på den for at åbne ressourcekortet.
 
 ![Ressourcekort](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

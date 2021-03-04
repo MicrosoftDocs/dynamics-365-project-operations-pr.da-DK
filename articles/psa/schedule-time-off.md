@@ -57,3 +57,6 @@ Planlæg din ferie eller orlov på næsten på samme måde, som du angiver tid f
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

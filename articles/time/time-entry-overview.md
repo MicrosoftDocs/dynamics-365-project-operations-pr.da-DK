@@ -27,3 +27,6 @@ Medlemmer af projektteamet opretter og indsender tidsregistreringer til godkende
 
 Du kan finde oplysninger om, hvordan du opretter, indsender eller tilbagekalder en registrering, og andre funktioner, der kan hjælpe dig med at fuldføre rapporteringen, i [Brugeradfærd for tidsregistrering](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

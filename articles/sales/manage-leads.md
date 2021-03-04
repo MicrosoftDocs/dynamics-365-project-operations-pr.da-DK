@@ -80,3 +80,6 @@ Forretningsprocessen for kundeemne til salgsmuligheder understøtter følgende f
 | Opstil tilbud | Salgsmulighed | Udarbejd salgsmuligheden for at tilføje flere oplysninger om det involverede arbejde, interessenter og konkurrenter. |
 | Afgiv tilbud | Salgsmulighed | Udarbejd forslaget, og få godkendelse fra det interne vurderingsteam. |
 | Luk | Salgsmulighed | Vind salgsmuligheden for lukke handlen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

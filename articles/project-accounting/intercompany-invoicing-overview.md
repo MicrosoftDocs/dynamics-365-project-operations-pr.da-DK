@@ -43,3 +43,6 @@ I følgende diagram illustreres den interne fakturering i sin sammenhæng med re
 - [Konfigurer intern fakturering](configure-intercompany-invoicing.md)
 - [Registrer interne transaktioner](create-intercompany-transactions.md)
 - [Opret interne kunde- og kreditorfakturaer](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -152,3 +152,6 @@ Du skal bruge følgende typer opgaver, når du opretter dit arbejdsopgavehierark
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

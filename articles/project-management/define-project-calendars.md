@@ -49,3 +49,6 @@ Du opretter en projektplan ved at oprette en projektkalenderskabelon, der define
 8. I dialogboksen **Arbejdsskabelon** skal du angive et navn for arbejdsskabelonen og derefter vælge **Anvend.** 
 
 Du kan nu knytte arbejdsskabelonen til en skabelon for projektkalenderen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

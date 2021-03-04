@@ -53,3 +53,6 @@ Du kan forsyne dit projekt med et medarbejderteam af generiske eller navngivne r
 - [Reservere navngivne ressourcer fra ressourcekrav](book-named-resource.md)
 - [Sende en ressourceanmodning](submit-resource-request.md)
 - [Acceptere eller afvise en foreslået projektressource i en ressourceanmodning](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

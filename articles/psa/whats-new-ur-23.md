@@ -67,3 +67,6 @@ Følgende problemer er blevet løst:
 Følgende problemer er blevet løst:
 
 - Dobbeltklik på **Hent alle transaktionskategorier** opretter flere linjer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

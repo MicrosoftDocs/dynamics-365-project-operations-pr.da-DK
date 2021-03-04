@@ -127,3 +127,6 @@ Hvis du vil oprette et nyt arbejdsopgavehierarki ved hjælp af Microsoft Project
 8.  Vælg den **Kalender** , der skal bruges til ressourcer.
 
 11. Klik på **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

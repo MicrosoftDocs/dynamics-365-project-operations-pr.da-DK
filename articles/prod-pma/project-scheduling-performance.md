@@ -69,3 +69,6 @@ Hvis du vil aktivere forbedring af ydeevnen for ressourceplanlægning, skal du b
 
 > [!NOTE]
 > Dette distribuerer generelle data til tabellen **ResRollup** på tværs af alle virksomheder i dit miljø, så batchjobbet kun skal køres i én juridisk enhed. Denne kørsel er nødvendig for alle visninger af **Ressourcetilgængelighed**. Hvis batchjobbet ikke køres, vil dataene **ResRollup** blive genereret løbende, hvilket kan tage lang tid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Hvis du bruger projektprognosticering, kan du identificere modellerne som underm
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

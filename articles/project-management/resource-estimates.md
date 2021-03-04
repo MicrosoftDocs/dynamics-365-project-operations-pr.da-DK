@@ -34,3 +34,6 @@ Salgspriser anvendes én gang pr. handel. Hierarkiet for standardprislisten er s
 1. Organisation
 2. Kunde
 3. Tilbud/kontrakt
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

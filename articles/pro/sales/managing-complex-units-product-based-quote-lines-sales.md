@@ -45,3 +45,6 @@ Hvis du vil oprette mængdefaktorer fra produktegenskaber, skal du følge disse 
 6. Gem og luk formularen. Gentag disse trin for alle de egenskaber, der skal bruges til beregning af mængden for den produktbaserede tilbudslinje.
 
 Når du opretter en produktbaseret tilbudslinje for et produkt, låses mængden på tilbudslinjen. Antallet beregnes som et produkt af de egenskabsværdier, du kan angive for den pågældende tilbudslinje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

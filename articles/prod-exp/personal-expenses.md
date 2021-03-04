@@ -33,3 +33,6 @@ Der findes to metoder til håndtering af en arbejders personlige udgifter:
 - **Betalt af virksomhed** – Din organisation betaler hele fakturaen for virksomhedens kreditkort og debiterer derefter arbejderens konto for de personlige udgifter.
 
 Du kan vælge den metode, som din organisation bruger, på siden **Parametre for udgiftsstyring**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

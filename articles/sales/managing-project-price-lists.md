@@ -120,3 +120,6 @@ Ligesom fakturasatser konfigureres omkostningssatser for HR også ved hjælp af 
     1. Den kostprisliste, der er knyttet til afdelingen.
     2. Den kostprisliste, der er knyttet til Project Operations-parametrene. Da kostprislister i mange forskellige valutaer kan knyttes til parametrene, gennemføres der et valutamatch mellem valutaen i kontraktafdelingen for projektet, kontrakten eller tilbuddet og valutaen på kostprislisten .
     3. I forbindelse med udgifter gælder prissætningsmetoderne til kostprisen og avancen ikke for kostprislister. Selvom disse prissætningsmetoder bruges på kostprislistelinjer til at konfigurere omkostninger for transaktionskategorier, ignoreres de i systemet, og der angives ingen standardkostpris.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

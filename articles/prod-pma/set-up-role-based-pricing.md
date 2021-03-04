@@ -34,3 +34,6 @@ Alle omkostninger, salgs- og overførelsespriser kan konfigureres for roller. Be
 1. På siden **Salgspris (time)** skal du vælge **Ny** og angive en ikrafttrædelsesdato.
 2. I kolonnen **Rolle** skal du vælge en rolle.
 3. I kolonnen **Prisfastsættelse** skal du angive en pris for den valgte ressourcerolle.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

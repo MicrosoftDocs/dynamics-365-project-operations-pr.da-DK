@@ -67,3 +67,6 @@ Valuta i tilbudslinjedetaljer for omkostninger er som standard hentet fra den pr
 Rentabilitetsberegninger konverterer beløb i tilbudslinjedetaljer for omkostninger og salg til grundvalutaen for omkostninger og salg for miljøet for at rapportere den samlede anslåede margen for tilbuddet.
 
 Dette kan resultere i fejl i valutaafrunding og ændrede margener på grund af manglende valutakurser, der er gældende på datoen. Du skal kun bruge disse beregninger på projekttilbud som tilnærmelsesvise og ikke faktiske, velegnede eller anden rapportering, der kræver større præcision i forbindelse med afrunding og bevidsthed om valutakurser, der er gældende på datoen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

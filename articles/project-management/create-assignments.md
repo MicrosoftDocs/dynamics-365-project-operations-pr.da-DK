@@ -42,3 +42,6 @@ Du kan bruge søgefeltet i **Ressourcevælger** til at søge i alle de aktive re
 1. Fra opgavegitteret, området eller tidslinjen skal du navigere til cellen **Tildelt til**.
 2. Begynd at skrive et navn i søgefeltet. Søgeresultaterne for navnet vises i **Resourcevælgeren** under **Andre ressourcer**.
 3. Vælg den ressource, som du vil tildele til opgaven, eller vælg navnet på ressourcen under **Andre teamressourcer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

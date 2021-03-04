@@ -231,3 +231,6 @@ I følgende tabel beskrives det, hvordan data synkroniseres mellem Project Servi
 
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

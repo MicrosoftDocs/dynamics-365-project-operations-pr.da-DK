@@ -56,3 +56,6 @@ Denne opgave anvender datasættet USSI.
 21. Skriv en værdi i feltet **Produktkvittering**.
 22. Vælg **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

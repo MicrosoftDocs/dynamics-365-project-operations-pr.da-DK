@@ -28,3 +28,6 @@ ms.locfileid: "4960015"
 En *diæt* er en godtgørelse, der udbetales til en arbejder, der rejser i forbindelse med arbejde. I udgiftsstyring kan du oprette diætregler for forskellige rejsesituationer. Diætsatser kan være baseret på tidspunktet for året, rejselokationen eller begge. Når du opretter en diætregel, kan du angive, at en procentdel af diætsatsen skal tilbageholdes, hvis en arbejder modtager gratis måltider eller servicer. Du kan også angive en nedre og øvre grænse for antallet af timer, hvor diætsatsen skal finde anvendelse på en arbejders rejse.
 
 Beregningen af et samlet diætbeløb er baseret på de startdatoer og slutdatoer, hvilke du kan angive på siden for **Diæter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

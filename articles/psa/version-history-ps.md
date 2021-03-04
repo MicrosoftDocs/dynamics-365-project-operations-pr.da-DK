@@ -73,3 +73,6 @@ Du kan finde oplysninger om opdateringer af Project Service ved at gå til [frig
 >[!Note]
 > - Datoer i alle områder undtagen Government Community Cloud (GCC) angiver tidspunktet for den næste automatiske opdatering. Datoer i GCC angiver versionstilgængelighed, og på nuværende tidspunkt opdateres disse områder ikke automatisk.
 > - For alle andre områder er de fleste opdateringer fuldført på den planlagte aften, men der kan udføres mere tidskrævende opdateringer i løbet af de mørke timer i weekenden, der er angivet i kolonnen **Planlagt dato**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

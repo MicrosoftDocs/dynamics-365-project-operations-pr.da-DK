@@ -59,3 +59,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Pro
      - Løst: Ekstra knapper til **Ny salgsmulighed**, **Tilbud**, **Ordrelinje** og **Tilføj produkt** er synlige i kommandoer for salgsmuligheder, tilbud, bestil produkter og undergitteret for de projektbaserede linjer.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Du kan sende et genereret ressourcekrav som en ressourceanmodning. Anmodningen s
 Anmodningstatussen for det generiske teammedlem ændres til **Sendt**.
 
 Når anmodningen er fuldført erstattes den generiske ressource af en navngivet ressource, hvis Resource Manageren opfylder anmodningen ved at reservere en navngivet ressource. Ellers forbliver den generiske ressource i teamet, og anmodningsstatussen ændres til **Skal gennemses**, hvis personalechefen har foreslået en navngivet ressource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

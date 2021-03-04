@@ -90,3 +90,6 @@ Benyt følgende fremgangsmåde for at rette en eller flere udgiftsposter.
 8. På projektsiden skal du under fanen **Faktiske værdier** gennemse **Oversigt over faktiske tilknytninger**. De oprindelige poster og de rettede poster vises på listen. I følgende illustration vises de oprindelige beløb for udgiftsposter og de tilsvarende korrigerede udgiftsposter. 
 
 ![Faktiske udgifter](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

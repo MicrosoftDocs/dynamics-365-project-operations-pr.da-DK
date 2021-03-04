@@ -59,3 +59,6 @@ Roller er vigtige i projektplanlægningen, når ressourcekrav eller omkostninger
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere ressourcer](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

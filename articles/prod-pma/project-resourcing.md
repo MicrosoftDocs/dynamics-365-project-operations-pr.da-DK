@@ -55,3 +55,6 @@ Følgende emner oplyser om de opgaver, der skal udføres, når du arbejder på r
 - [Ydeevne for et projekts ressourceplanlægning](project-scheduling-performance.md)
 - [Konfigurer roller for skabeloner til arbejdsopgavehierarki](set-up-roles-wbs-template.md)
 - [Ressourceopfyldelse for planlagte ressourcer](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

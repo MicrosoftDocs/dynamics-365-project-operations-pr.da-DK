@@ -38,3 +38,6 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 | **Projektplanlægning og -sporing** | 2164035 | Løste problemer med funktionen **Kopiér projekt**. |
 | **Tidsregistrering** | 2129161 | Der anvendes mere stramme begrænsninger for at sikre, at brugere ikke kan ændre og opdatere en tidsregistrering, der er indsendt eller godkendt. |
 | **Tidsregistrering** | 2103572 | Godkendelse af tid for tidsregistreringer, der ikke er relaterede til projektet, må ikke søge efter rollen for projektgodkender. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

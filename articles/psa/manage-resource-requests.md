@@ -51,3 +51,6 @@ Kundechefer og projektledere anmoder jævnligt om ressourcer til deres projekter
   
 ### <a name="see-also"></a>Se også  
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

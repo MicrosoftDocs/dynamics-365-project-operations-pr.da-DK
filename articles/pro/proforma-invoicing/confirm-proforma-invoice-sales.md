@@ -273,3 +273,6 @@ Fakturering af en faktisk salgsværdi for produktlinjen med det antal og beløb,
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

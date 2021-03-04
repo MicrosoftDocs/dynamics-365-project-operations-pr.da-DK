@@ -32,3 +32,6 @@ Organisationen kræver måske, at der sendes en rejserekvisition, før medarbejd
 Rejserekvisitioner og -politikker kan bruges som hjælp til budgetkontrol. Hvis din organisation f.eks. arbejder på et fastprisprojekt, der kræver rejse, skal rejseudgifterne for projektets teammedlemmer være inden for budgettet for projektet. Ved at kræve, at rejseudgifter godkendes, før de afholdes, kan organisationen være med til at sikre, at projektet forbliver inden for budgettet.
 
 Du kan konfigurere politikker for rejserekvisitioner på siden **Rejserekvisition**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ I følgende illustrationer vises eksempler på tilknytninger mellem skabelonopga
 [![Skabelontilknytning af transaktioner af udgiftsestimater](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Skabelontilknytning af udgiftsestimater](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

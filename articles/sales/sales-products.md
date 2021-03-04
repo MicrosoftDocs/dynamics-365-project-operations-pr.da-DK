@@ -124,3 +124,6 @@ Hvis følgende egenskaber eksempelvis er til stede:
 - **Produkt-SKU** 
 
 Egenskaberne **Antal brugere** og **Antal måneder** kan mærkes som mængdefaktorer ved at redigere egenskaberne for produktlinjen. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

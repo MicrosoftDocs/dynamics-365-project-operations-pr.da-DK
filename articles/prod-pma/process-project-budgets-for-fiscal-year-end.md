@@ -98,3 +98,6 @@ Når du behandler de resterende budgetbeløb, kan du oprette transaktioner i fin
 5. For hvert projekt, du vil behandle, skal du vælge indstillingen i starten af linjen for projektet. 
 6. Vælg **Behandl** for at overføre de resterende budgetbeløb for de valgte projekter til det valgte regnskabsår.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

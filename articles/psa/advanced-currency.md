@@ -105,3 +105,6 @@ I Dynamics 365 håndteres akkumuleringer af beløb automatisk i forskellige valu
 | Udgift           | Ikke-faktureret salg   | 17-jun | Adam  | Biludlejning           | 1 EA     | 150 EUR      | 150 EUR     | 0,94          | 159,57 USD     |
 
 Hvis du vil beregne den samlede ikke-fakturerede salgsværdi på projektet, kan du oprette et akkumuleringsfelt for **Beløb** i alle de relaterede ikke-fakturerede faktiske salg. Akkumuleringsfeltet er en struktur i Dynamics 365, der gør det muligt at have hurtige formler på relaterede poster.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

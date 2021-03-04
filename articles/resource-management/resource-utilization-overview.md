@@ -45,3 +45,6 @@ Derudover skal der tildeles en standardrolle til hver af de pågældende reserve
 På fanen **Project Service** kan du også angive en individuel mål-tidsforbrug for ressourcen. I beregningen af tidsforbruget bruger derefter denne mål-tidsforbrug til at evaluere ressourcens mål i stedet for målet for ressourcens standardrolle.
 
 Tidsforbrug vises kun for en ressource, hvis den pågældende ressource har godkendt fakturerbar tid i løbet af den periode, der vises i gitteret.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

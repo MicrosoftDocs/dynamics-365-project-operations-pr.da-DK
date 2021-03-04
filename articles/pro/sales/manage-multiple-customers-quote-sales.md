@@ -52,3 +52,6 @@ Du kan oprette, opdatere eller slette en tilbudskunde under fanen **Tilbudskunde
 Du kan redigere procenter for opdeling af fakturering ved hjælp af redigeringsoplevelsen på det indbyggede gitter. Når procentsatsen for faktureringsopdeling ikke samlet set udgør 100 %, opstår der en fejl. Når du har opdateret procenter for opdeling af fakturering, skal du opdatere siden for at fjerne fejlen.
 
 Du kan også vælge **Fordel ligeligt** på tilbudskunders undergitter. Denne handling tildeler faktureringsopdelinger til alle tilbudskunder. Hvis der er en afrundingsfaktor, vil den blive tilføjet til den afrundede kunde. En af tilbudskunderne er altid mærket som den afrundede kunde. Dette betyder, at tilbudskundeposten har flaget for **Afrunding** angivet til **Ja**. Dette er som regel den primære kunde for tilbuddet, men det kan ændres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

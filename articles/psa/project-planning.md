@@ -52,3 +52,6 @@ Følgende emner indeholder oplysninger, der kan hjælpe projektledere med at vur
 - [Projektskabeloner](project-templates.md)
 - [Projektfaser](project-stages.md)
 - [Projektindstillinger](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Klik på et link nedenfor for at få mere at vide om, hvad du kan gøre med [!IN
  [Vejledning til kundechefer](../psa/account-manager-guide.md)   
  [Vejledning til projektledere](../psa/project-manager-guide.md)   
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

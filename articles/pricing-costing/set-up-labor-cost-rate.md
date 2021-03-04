@@ -84,3 +84,6 @@ På kostprislisten for Fabrikam i Storbritannien-Robotics kan omkostningssatser 
 | Udvikler | Fabrikam i Storbritannien | 115 GBP |
 
 Kostprislisten kan levere satser for arbejdskraft i flere valutaer. Når der genereres et omkostningsestimat for projektet, konverterer Project Operations disse omkostningssatser til projektvalutaen og viser dem til brugeren. Når en tidsregistrering godkendes, og der oprettes et faktisk omkostningsbeløb, prisfastsættes den faktiske omkostning i den valuta, der gælder for den tilsvarende rolleprislinje på kostprislisten. Faktiske omkostninger for tid på et enkelt projekt kan registreres i flere valutaer. Når Project Operations akkumulerer eller opsummerer de faktiske omkostninger til arbejdskraft på projektniveau, konverteres alle omkostninger til arbejdskraft til projektvalutaen, som brugeren kan få vist.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

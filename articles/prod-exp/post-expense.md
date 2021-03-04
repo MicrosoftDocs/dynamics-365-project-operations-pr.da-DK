@@ -32,3 +32,6 @@ Hvis udgifter i en udgiftsrapport skal overføres til en anden virksomhed end de
 Hvis du vil bogføre en udgiftsrapport, skal du på siden **Godkend udgiftsrapporter** vælge den godkendte udgiftsrapport og derefter vælge **Bogfør** i handlingsruden.
 
 Du kan også bogføre alle udgiftsrapporter på listen på én gang. Vælg alle udgiftsrapporter, og vælg derefter **Bogfør**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

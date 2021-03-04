@@ -116,3 +116,6 @@ Vælg **Reservér** for den generiske ressource, så du kan bruge planlægningso
 Når den generiske ressource er indfriet med en navngivet ressource, fjernes den generiske ressource fra teamet, og opgavetildelingerne for den generiske ressource tildeles til den navngivne ressource, der opfyldte ressourcekravet til den generiske ressource.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Når konsulenter angiver deres tid og udgifter for et projekt, skal du godkende 
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

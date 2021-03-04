@@ -91,3 +91,6 @@ Benyt følgende fremgangsmåde til at reservere fra et nyt ressourcekrav.
 
 4. Nu, hvor ressourcen er reserveret, skal du tildele opgaver manuelt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

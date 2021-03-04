@@ -68,3 +68,6 @@ Når funktionen til forlængelse af reservation er blevet brugt for de enkelte r
 Bemærk, hvis du kigger nærmere på detaljerne for reservationerne, kan du se forskelle på starttidspunkterne for reservationerne. Reservationernes startdato er ikke tidligere end starttidspunktet for tildelingsprofilen og kan ikke være før ressourcens tilgængelige starttidspunkt.
 
 ![Nye reservationer af ressourcerne i planlægningsområdet](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

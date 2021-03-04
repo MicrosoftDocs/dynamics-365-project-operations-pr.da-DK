@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x indeholder nye funktioner, implement
 - [Ændring af tider og udgifter (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Ændringer i ressourcestyringen (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Udfasede webressourcer i Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

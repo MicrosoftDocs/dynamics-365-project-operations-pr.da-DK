@@ -55,3 +55,6 @@ En udvikler fra Fabrikams Robotics-afdeling i Indien, som arbejder på et projek
     | Udvikler | Fabrikam i USA | Fabrikam i USA - Robotics | 150 $ |
 
 3. Knyt salgsprislisten **Faktureringssatser for Fabrikam i USA** til projektets prisliste for projektkontrakten eller til et bestemt firma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

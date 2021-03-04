@@ -149,3 +149,6 @@ I følgende tabel vises posterne i objektet Transaktionsforbindelse for den fore
 | Rettelse af kladdefaktura       | GUID for fakturalinjetransaktion | Erstatning          | msdyn_invoicelinetransaction | GUID for faktureret salg            | Oprindelig           | msdyn_actual       |
 | Bekræft rettelse af faktura     | GUID for tilbageførsel af faktureret salg    | Tilbageførsel          | msdyn_actual                 | GUID for faktureret salg            | Oprindelig           | msdyn_actual       |
 | GUID for nyt faktisk ikke-faktureret salg | Erstatning                     | msdyn_actual       | GUID for faktureret salg            | Oprindelig                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

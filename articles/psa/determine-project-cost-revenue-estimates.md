@@ -81,3 +81,6 @@ Enhver udgift, der skal afholdes i projektet, og som ikke er direkte relateret t
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

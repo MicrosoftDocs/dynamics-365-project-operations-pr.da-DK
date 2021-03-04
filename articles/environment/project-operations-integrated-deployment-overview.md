@@ -43,3 +43,6 @@ Denne udrulning bør vælges, hvis Project Operations forventes at anvende hele 
 - Kræver et avanceret program for moms i virksomhedsklasse og valutakurser for at oprette kundeorienterede fakturaer til projekter.
 - Et system for projektregnskab og indtægtsføring, som overholder de internationale standarder for regnskabsaflæggelse.
 - Programmerne Finance or Supply Chain Management og integration af projektbaserede transaktioner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

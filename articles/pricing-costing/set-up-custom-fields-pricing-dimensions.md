@@ -96,3 +96,6 @@ Opsætning af dimensionsprioritet hjælper prisfastsættelse med at oprette en p
 
 - **Omkostningsprioritet**: Værdien for en dimensions omkostningsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af kostpriser. Værdien for **Omkostningsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Omkostning**.
 - **Salgsprioritet**: Værdien for en dimensions salgsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af salgspriser eller fakturasatser. Værdien for **Salgsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Salg**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

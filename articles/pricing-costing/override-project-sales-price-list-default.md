@@ -52,3 +52,6 @@ Du kan bruge hver af disse prislister og foretage opdateringer til arbejdskraftp
 På en projektkontrakt er projektprisfastsættelse som standard altid en brugerdefineret prisliste med navnet på kontrakten og tidspunkt for oprettelse, der er føjet til navnet. Dette gælder, uanset om kontrakten blev oprettet, da tilbuddet blev vundet, eller om kontrakten blev oprettet fra bunden. Hvis det er nødvendigt, kan du fjerne denne tilknytning til den brugerdefinerede prisliste og knytte en standardprisliste til projektkontrakten i stedet.
 
 Når du knytter en standardprisliste til projektprislisterne på et tilbud eller en kontrakt, vil eventuelle ændringer af priserne i prislisten påvirke alle tilbud og kontrakter, der bruger prislisten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

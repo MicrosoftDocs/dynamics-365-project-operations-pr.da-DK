@@ -58,3 +58,6 @@ Før du kan bruge funktionerne til automatisering af [!INCLUDE[pn_project_servic
  [Vejledning til projektledere](../psa/project-manager-guide.md)   
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)   
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ I følgende illustration vises et eksempel på tilknytningen mellem skabelonopga
 > I tilknytningen vises de feltoplysninger, der synkroniseres fra Project Service Automation til Finance.
 
 [![Skabelontilknytning for Project Service Automation til Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Du kan oprette, opdatere eller slette en kontraktkunde under fanen **Kunder** p�
 Faktureringsopdelingsprocenter kan redigeres ved hjælp af oplevelsen med direkte redigering af gitteret. Når faktureringsopdelingsprocenterne ikke udgør 100 procent i alt, modtager du en fejlmeddelelse. Når du har redigeret faktureringsopdelingsprocenterne, skal du opdatere siden for at afvise fejlen.
 
 Du kan også vælge **Ligelig fordeling** i undergitteret **Kontraktkunder** for at allokere faktureringsopdelingen ligeligt for alle kontraktkunder. Hvis der er en afrundingsfaktor, vil den blive føjet til den afrundede kunde. En af kontraktkunderne er altid mærket som en **afrundings**-kunde, hvilket betyder, at afrundingsflaget er angivet til **Ja** for den pågældende kontraktkundepost. Det er som regel den primære kunde i kontrakten, men dette kan også ændres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

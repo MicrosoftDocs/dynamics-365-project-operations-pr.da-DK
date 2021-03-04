@@ -74,3 +74,6 @@ Når du udvider rækken for det pågældende teammedlems post, kan du se de fors
 Når du navigerer til gitteret **Estimater**, vil du bemærke, at tildelingerne til den samme ressource er prisfastsat forskelligt.
 Tildelingen for ressourcen på opgave A er prisfastsat ved hjælp af **Rolle**-attributværdien for **Konsulterende kundeemne**. Tildelingen for den samme ressource på opgave B er prisfastsat ved hjælp af **Rolle**-attributværdien for **Netværkstekniker**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

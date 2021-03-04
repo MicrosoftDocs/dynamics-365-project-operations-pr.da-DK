@@ -47,3 +47,6 @@ Du kan oprette, opdatere eller slette en kontraktkunde via fanen **Kontraktkunde
 Du kan redigere faktureringsopdelingsprocenter i gitteret. Når faktureringsopdelingsprocenter ikke udgør 100 procent i alt, opstår der fejl. Når du har redigeret en faktureringsopdelingsprocent, skal du opdatere siden **Projektkontrakt** for at fjerne fejlen.
 
 Du kan også vælge **Fordel ligeligt** på undergitteret for projektkontraktkunder. Faktureringsopdelinger fordeles ligeligt til alle kunderne i projektkontrakten. Hvis der er en afrundingsfaktor, vil faktoren blive føjet til den afrundede kunde. En af kkontraktkunderne har altid flaget for **Afrunding** angivet til **Ja**. Kunden er den afrundede kunde. Den afrundingskunde er som regel også den primære kunde i kontrakten, men det er ikke et krav.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

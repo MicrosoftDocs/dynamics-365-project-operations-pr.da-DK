@@ -59,3 +59,6 @@ Du kan også klikke på linket **Ressourcekrav** i teamgitteret for at åbne kra
 
 ![Ressourcekrav](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

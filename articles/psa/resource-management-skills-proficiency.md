@@ -48,3 +48,6 @@ Færdigheder til ressourcer klassificeres af kompetencemodeller. De enkelte klas
 > ![Minimum- og maksimumklassificeringer defineret](media/Resource-Management-image85.png)
 
 Disse klassificeringsværdier vises i filtrene **Resourcekrav**, **Planlægningsområde** og **Planlægningsassistent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

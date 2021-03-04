@@ -52,3 +52,6 @@ Din virksomhed organiserer sandsynligvis sin rådgivning efter geografi, funktio
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

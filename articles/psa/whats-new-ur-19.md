@@ -66,3 +66,6 @@ Følgende problemer er blevet løst:
 - Kunderne kan opleve forringet ydeevne, når de opretter et projekt, da **GetBookableResourceIdFromUser** henter alle kolonner med reserv rbare ressourcer i stedet for kun det primære id.
 - Objektet **TransactionType** mangler plug-in'en til opdatering før validering for at forhindre brugere i at angive **Enheder** og **UnitGroups**, der ikke er gyldige for transaktionstyper.
 - Trinnet **Fjern** virker ikke for import af tidsangivelse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

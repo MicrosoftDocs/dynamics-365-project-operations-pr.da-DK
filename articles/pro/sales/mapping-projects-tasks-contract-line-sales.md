@@ -82,3 +82,6 @@ Dette er den mest optimale oplevelse til at fjerne tilknyttede opgaver fra kontr
 4. Vælg en kontraktlinje på rullelisten på den dialogside, der vises.
 5. Markér afkrydsningsfeltet for at angive, om tilknytningen også skal fjernes fra eventuelle underordnede opgaver for de valgte opgaver. Hvis du markerer afkrydsningsfeltet, fjernes de tilknyttede underordnede opgaver for de valgte opgaver fra kontraktlinjen.
 6. Vælg **OK**. En advarselsmeddelelse angiver, at fjernelse af denne tilknytning kan resultere i tilbageførsel af faktiske værdier, der tidligere er blevet registreret på opgaven. Vælg **OK** i advarselsdialogen for at fjerne tilknytningen mellem opgaven og den projektbaserede kontraktlinje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

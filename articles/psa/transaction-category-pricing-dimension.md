@@ -53,3 +53,6 @@ Den følgende tabel er en omfattende liste over standardformularer og -visninger
 2. På siden **Parameter** skal du på fanen **Beløbsbaserede prisdimensioner** lægge mærke til, at gitteret på fanen viser posterne i objektet **Prisdimensioner**.
 3. Føj **Transaktionskategorien** til denne liste, og angiv felterne **Gælder for Omkostning** og **Gælder for Salg** til **Ja**.
 4. I feltet **Dimensionstype** skal du vælge **Beløbsbaseret** og derefter vælge den prioritet for **Transaktionskategori**, der er relateret til omkostning og salg.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

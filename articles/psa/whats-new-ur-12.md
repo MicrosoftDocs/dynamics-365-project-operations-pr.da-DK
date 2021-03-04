@@ -61,3 +61,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Pro
     - Løst: Der findes identiske objekt-ID'er i formularen **Hovedkontrakt**.
     - Løst: Logikken er blevet opdateret for at gøre fanen **Tilbudsanalyse** synlig, så den viser metadataopsætningen for fanen.
     - Løst: Regnskabsdatoen på den faktiske post kommer nu fra datoen for registrering af tid/udgifter og ikke fra datoen for godkendelsen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

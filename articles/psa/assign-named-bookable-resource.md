@@ -68,3 +68,6 @@ Du kan bruge fanen **Afstemning** til at udvide reservationsfunktionen eller **P
 ![Udvide reservationer for et teammedlem under fanen Ressourceafstemning](media/RM-how-to-7.png)
 
 Når et teammedlem er reserveret på projektet, kan du bruge vedligeholdelse af reservationer eller planlægningsområdet til direkte at administrere deres reservationer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

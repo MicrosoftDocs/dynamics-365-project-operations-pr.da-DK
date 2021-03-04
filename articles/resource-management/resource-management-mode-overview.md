@@ -48,3 +48,6 @@ Reserver en ressource direkte til et projekt:
 Reserver en ressource fra et ressourcekrav:
 - [Tildel generiske reserverbare ressourcer til en opgave og generering af ressourcekrav](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Reserver navngivne ressourcer fra ressourcekrav](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

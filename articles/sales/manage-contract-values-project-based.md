@@ -57,3 +57,6 @@ Regel: Et projekt og en bestemt transaktionsklasse kan kun inkluderes på én pr
 | C1       | CL2           | P1      | Nr.           | Ja             | Nr.          | Gyldig           | Tid og gebyrer på projekt P1 er inkluderet i CL1. Udgift til projekt P1 er inkluderet i CL2. </br>   Der findes ingen overlapning i det, der medtages på hver kontraktlinje, og den er derfor gyldig.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Ikke gyldig       | Overtræder reglen. Tid, udgifter og gebyrer på projekt P1 findes på linjerne i to kontrakter.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Ikke gyldig       | Overtræder reglen. Tid, udgifter og gebyrer på projekt P1 findes på linjerne i to kontrakter.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

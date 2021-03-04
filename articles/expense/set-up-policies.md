@@ -53,3 +53,6 @@ Her er et par forslag, der kan hjælpe dig med at oprette nye politikker for udg
 ## <a name="when-to-evaluate-policies"></a>Tidspunkt for evaluering af politikker
 
 I parametre for udgiftsstyring kan du vælge at evaluere politikker for udgiftsstyring, når en linje gemmes, eller når der indsendes en udgiftsrapport. Hvis du vælger at evaluere, når en linje gemmes, får brugerne tidligere indsigt i, hvad de skal gøre for at fuldføre deres udgiftsrapporter på én gang. Ellers kan du forsinke evalueringen af politikker og spare tid ved at validere den til slut i forbindelse med indsendelsen til arbejdsprocessen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

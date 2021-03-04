@@ -55,3 +55,6 @@ Når denne prissætningsmetode vælges på kategoriprislinjen, der er knyttet ti
 
 ### <a name="markup-over-cost"></a>Avance i forhold til omkostning
 Når denne prissætningsmetode vælges på kategoriprislinjen, der er knyttet til en salgsprisliste, angives standardprisen for kombinationen kategori og enhed kun for en faktisk udgift. Eksempelvis ikke-fakturerede faktiske salgsoplysninger for udgiftstransaktionsklassen. Denne enhedspris er konfigureret på grundlag af de ikke-fakturerede faktiske salgsoplysninger og angivet som en beregnet værdi fra enhedsprisen på de faktiske omkostningsoplysninger for den pågældende udgift, når den definerede avanceprocent finder anvendelse. Standardangivelse af pris baseret på omkostninger udføres ikke på projektestimater for udgifter eller tilbudslinjer og kontraktlinjedetaljer for udgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

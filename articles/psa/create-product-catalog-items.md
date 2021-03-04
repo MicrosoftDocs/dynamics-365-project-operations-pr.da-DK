@@ -37,3 +37,6 @@ Hvis du vil medtage produkter som f.eks. softwarelicenser i dine projekttilbud o
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

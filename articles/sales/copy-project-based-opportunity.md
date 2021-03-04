@@ -34,3 +34,6 @@ Det er nemt at kopiere projektbaserede salgsmuligheder, så du kan oprette nye p
     | Kopiér prisfastsættelse | En værdi af typen ja/nej, der angiver, om prisfastsættelsen af salgsmuligheden skal kopieres fra kildesalgsmuligheden. | Hvis **Ja** er markeret, kopieres prislister fra kilden til destinationssalgsmuligheden. Hvis der er valgt **Nej** gendannes standarderne for prislisterne på baggrund af de nyeste prislister, der er konfigureret. |
 
 3. Vælg **OK**. Systemet opretter en kopi af projektsalgsmuligheden på baggrund af de valgte parametre, og den nye projektsalgsmulighed åbnes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

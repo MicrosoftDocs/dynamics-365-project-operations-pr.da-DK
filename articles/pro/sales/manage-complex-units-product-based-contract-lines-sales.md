@@ -46,3 +46,6 @@ Hvis du vil oprette mængdefaktorer fra produktegenskaber, skal du benytte følg
 7. Gentag trin 2-6 for alle de egenskaber, der tilsammen udgør antallet i den produktbaserede kontraktlinje.
 
 Hvis mængdefaktorer er konfigureret, og brugeren opretter en kontraktlinje for dette produkt, låses antallet på kontraktlinjen. Antallet beregnes derefter som et produkt af egenskabsværdierne for den pågældende kontraktlinje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

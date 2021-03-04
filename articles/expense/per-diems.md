@@ -31,3 +31,6 @@ En diæt er en godtgørelse, der udbetales til en arbejder, der rejser i forbind
     
 ## <a name="submit-expenses-using-per-diem"></a>Indsend udgifter ved hjælp af diæter
 Hvis du vil indsende udgifter, der anvender diæter, skal du bruge udgiftskategorien **Diæter**, når du opretter en udgiftsrapport. Angiv **Diæt fra dato**, **Diæt til dato** og **Diætlokation**. Beløbet vil blive beregnet på baggrund af diætsatserne for den valgte lokation, og reduktionen af måltid beregnes på baggrund af diætsatsniveauerne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

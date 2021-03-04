@@ -63,3 +63,6 @@ Du kan bruge samme metode til at annullere en definitiv reservation eller en mid
 Hvis du vil konvertere en ressource, der er foreløbigt reserveret til definitivt reserveret på projektets fane **Team,** skal du vælge ressourcen og derefter **Bekræft**.
 
 ![Bekræft kommando](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

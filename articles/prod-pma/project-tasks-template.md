@@ -83,3 +83,6 @@ Hvis du skal bruge Power Query, skal du følge denne retningslinje:
 I følgende illustration vises et eksempel på tilknytningerne mellem skabelonopgaver i dataintegration. I tilknytningen vises de feltoplysninger, der synkroniseres fra Project Service Automation til Finance.
 
 [![Skabelontilknytning](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

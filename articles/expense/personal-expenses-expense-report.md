@@ -28,3 +28,6 @@ Der er to metoder, som du kan bruge til at arbejde med en medarbejders personlig
   - **Betalt af virksomhed**: Din organisation betaler den fulde faktura for firmakreditkortet og debiterer derefter arbejderens konto for de personlige udgifter.
 
 Du kan vælge den metode, som din organisation bruger, på siden **Parametre for udgiftsstyring**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Du kan se en liste over alle projektkontrakter på listesiden **Kontrakter**.
 2. Vælg **Skift visning** (rullepilen ud for navnet på visningen) for at vælge andre filtrerede visninger. Du kan oprette dine egne visninger med brugerdefinerede filterkriterier.
 
 Der kan oprettes eller slettes kontrakter fra denne listeside eller detaljesider.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

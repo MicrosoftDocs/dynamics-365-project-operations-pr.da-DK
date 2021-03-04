@@ -66,3 +66,6 @@ Hvis du stadig ikke kan se en gyldig pris i din faktiske tidsrelaterede omkostni
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

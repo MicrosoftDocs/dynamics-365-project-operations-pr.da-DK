@@ -43,3 +43,6 @@ Følgende problemer er blevet løst:
 
 - Slutdatoer udfyldes automatisk, når der oprettes en tidspost, hvis varigheden er null.
 - Brugerne kan ændre opgaven på en tidspost, der er godkendt eller indsendt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

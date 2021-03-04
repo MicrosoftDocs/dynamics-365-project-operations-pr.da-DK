@@ -102,3 +102,6 @@ Nedenstående er en kort oversigt over de typiske kontrolelementer, der findes u
 **Tilføj kolonne**: Giver brugeren mulighed for at definere de synlige kolonner i gitteret. Det er kun de foruddefinerede kolonner, der kan tilføjes til gitrene i formularen **Projektplanlægning**.
 
 ![Tilføj kolonneknap](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

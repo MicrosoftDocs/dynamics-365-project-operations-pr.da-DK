@@ -64,3 +64,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for PSA
      - Løst: Den samlede salgspris beregnes ikke, før brugeren også opretter en kostpris for udgiftsestimater på et projekt.
      - Løst: Lukning af et tilbud som **Vundet** mislykkes, hvis den tilknyttede projektkontrakt ikke er i tilstanden **Kladde**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Nedenfor vises de faner og nøgletal, der er tilgængelige i et projekttilbud, s
 | Rentabilitetsanalyse | Tilbudsfanen | Fanen viser følgende målepunkter:</br>- Samlede fakturerbar omkostninger</br></br>- Samlede ikke-fakturerbare omkostninger</br>- Omsætning i alt</br>- Samlet omsætning (basis)</br>- Bruttoavance</br>- Justeret bruttoavance|
 | Sammenligning med kundernes forventninger | Tilbudsfanen | Denne fane viser følgende målepunkter:</br>- Estimeret fuldførelse</br>- Ønsket fuldførelse</br>- Kundebudget</br>- Værdi i tilbud |
 | Tilbudsanalyse | Tilbudsfanen | Under denne fane opsummeres følgende vigtigste nøgletal for et projekttilbud</br>- Sammenligning med kundernes forventninger til budget og planlægning</br>- Bruttoavance</br>- Justeret bruttoavance |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

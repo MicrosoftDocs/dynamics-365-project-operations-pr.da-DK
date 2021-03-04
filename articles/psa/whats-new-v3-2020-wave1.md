@@ -43,3 +43,6 @@ Hvis du har brugerdefinerede app-moduler, der omfatter alle formularer for objek
 
 ### <a name="currently-extended-time-entry-changes"></a>Aktuelle ændringer i udvidet tidsregistrering
 Hvis du vil minimere virkningen for aktuelle brugere af tidsregistreringen, er denne rolleændring det eneste kernekrav, der er nødvendigt for at fortsætte med at bruge tidsregistrering. Hvis du har oprettet brugerdefinerede visninger eller separate tidsregistreringsoplevelser, skal du i felterne **Indstillinger for tidsregistrering** angive de korrekte PSA-værdier.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

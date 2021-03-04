@@ -77,3 +77,6 @@ Du kan oprette data til objektbaserede dimensioner manuelt eller ved hjælp af M
 5. Gentag trin 1-3 for at oprette endnu en standardtitel til "Seniorsystemtekniker".
 
 > ![Eksempeldata til objektet Standardtitel](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

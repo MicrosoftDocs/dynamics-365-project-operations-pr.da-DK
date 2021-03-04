@@ -33,3 +33,6 @@ ms.locfileid: "5148951"
 
 I Project Service Automation (PSA) kan du ikke slette faktiske oplysninger, fordi de tjener som sand kilde for transaktioner, der har økonomiske konsekvenser for de efterfølgende systemer, f.eks. finansregnskabet. Hvis faktiske oplysninger kunne slettes, kunne der blive stillet spørgsmål ved integriteten af økonomiske rapporteringstransaktioner. For at kunne etablere et revisionsspor skal kunderne bruge kladder til at oprette kompensationstransaktioner.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

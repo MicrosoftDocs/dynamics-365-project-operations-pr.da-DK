@@ -44,3 +44,6 @@ Følgende tabel viser de felter, findes i tilbudslinjekundeposten for en projekt
 Du kan redigere procentsatsen for opdeling af fakturering i linjen. Når procentsatsen for faktureringsopdeling ikke samlet set udgør 100 %, vises der en fejl. Når du har redigeret procentsatserne for opdeling af fakturering, skal du opdatere tilbudslinjesiden for at fjerne fejlen.
 
 Brug handlingen ligeligt fordelt på tilbudslinjekunders undergitter til at fordele faktureringsopdelinger til alle tilbudslinjekunder. Hvis der er en afrundingsfaktor, vil den blive tilføjet til den afrundede kunde. En af tilbudslinjekunderne vil altid være mærket som en afrundingskunde, hvilket vil sige, at afrundingsflaget er angivet til **Ja** for kundeposten i tilbudslinjen. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

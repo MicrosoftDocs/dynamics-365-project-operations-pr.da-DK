@@ -66,3 +66,6 @@ Som projektleder kan du få brug for at reservere en ressource til et projekt, m
 
 > [!NOTE]
 > Denne metode opretter ikke reservationer for ressourcen. Den tilføjer i stedet ressourcen til teamet. Når teammedlemmet er blevet tilføjet til projektet, kan projektlederen bruge det til at fastholde reservationer eller forlænge reservationer for at tilføje de nødvendige reservationer til ressourcen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

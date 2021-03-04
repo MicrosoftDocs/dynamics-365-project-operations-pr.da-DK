@@ -38,3 +38,6 @@ Vælg **Login** > **Log på miljø** for at navigere til modulet **Projektstyrin
 
 > [!NOTE]
 > Du kan få adgang til Project Operations i Common Data Service og modulet **Projektstyring og regnskab** direkte ved hjælp af deres respektive URL-adresser. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Før en medarbejder kan oprette og indsende interne udgifter, skal du aktivere d
 
 Før du kan bruge momsgrupper, der er knyttet til den juridiske låneenhed (kilde) i stedet for den juridiske udlånsenhed (destination), i udgiftsrapporten skal du aktivere funktionaliteten i opsætningen af moms i finanskladden. Når parameteren **Juridisk enhed for intern momsbogføring** angives til **Kilde**, og **Anvend regler for moms** angives til **Nej**, bruges momskombination for den juridiske låneenhed. Når den samme parameter er angivet til **Destination**, bruges momskombinationen for den juridiske låneenhed. For juridiske enheder i USA, hvor parameteren er angivet til **Kilde**, skal feltet **Salgsmoms** også konfigureres på den nye side for **Finanskonteringsgrupper**. Regnskabsprogrammet bruger oplysningerne fra dette felt i forbindelse med momsrelateret regnskabspostering.   
 Funktionsmåden er den samme for de udgiftslinjer, der bogføres med eller uden et projekt.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

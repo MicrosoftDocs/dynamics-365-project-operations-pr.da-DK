@@ -73,3 +73,6 @@ ms.locfileid: "5147331"
  [Vejledning til kundechefer](../psa/account-manager-guide.md)   
  [Vejledning til projektledere](../psa/project-manager-guide.md)   
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

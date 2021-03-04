@@ -160,3 +160,6 @@ Ved at oprette politikker for udgiftsrapporter kan du hjælpe din organisation m
 - Hvornår udløber politikken?
 - Hvad er politikreglen?
 - Hvad er udfaldet af politikreglen?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

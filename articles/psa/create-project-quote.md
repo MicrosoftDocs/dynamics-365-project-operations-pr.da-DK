@@ -55,3 +55,6 @@ Når du opretter et tilbud, svarer det til at oprette en salgsmulighed. Mens en 
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til kundechefer](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Brug denne udrulningstype, hvis du forventer at bruge Project Operations til hel
 - Et integreret system, der styrer interne og fakturerbare projekter for planer og regnskaber fra projektsalg til fakturering.
 - En tredjepartssystem for virksomheders ressourceplanlæging (ERP/økonomisk regnskabssystem), som kan integreres med Project Operations.
 - Et tredjepartssystem, der bruges til at arbejde med moms, valutakurser, refusionsgodtgørelser og ikkeprojektrelaterde udgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

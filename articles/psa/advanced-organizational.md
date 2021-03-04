@@ -167,3 +167,6 @@ Hvis virksomheden opererer som én enhed, der har en kostprisliste, behøver du 
 Når et projekt oprettes selvstændigt, er standardkontraktenheden for projektet baseret på den bruger, der opretter den. Denne bruger er også standardprojektleder. Hvis projektet er knyttet til et salgsobjekt, f.eks. et tilbud eller en projektkontrakt, er kontraktenheden for projektet i stedet baseret på salgsobjektet. I dette tilfælde beregnes projektestimater muligvis igen, da kostprislisten bruges til at beregne ændringer i omkostningsestimat, hvis kontraktenheden ændres. Salgsprislisten bruges til at beregne de salgsestimater, der skal ændres, så de er synkroniseret med projektprislisten i tilbuddet.
 
 Felterne **Kontraktenhed** og **Valuta** i projektet er låst mod redigering, da de skal være synkroniseret med værdierne i det salgsobjektet (tilbud eller projektkontrakt), som projektet er knyttet til.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

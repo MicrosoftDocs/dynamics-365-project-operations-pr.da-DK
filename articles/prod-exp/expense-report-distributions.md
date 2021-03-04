@@ -37,3 +37,6 @@ Da Birgitte arbejdede på to separate projekter, mens hun var i Frankfurt, distr
 |Hotel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Måltider         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

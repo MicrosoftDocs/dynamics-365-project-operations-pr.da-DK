@@ -37,3 +37,6 @@ Følgende tabel viser opdateringerne til Project Operations på CDS-miljø versi
 | Hurtig registrering af tid og udgifter | 2047499          | Knappen **Ny** på siden med tidsregistrering åbner siden **Ny mailsignatur**.                                                                                               |
 | Hurtig registrering af tid og udgifter | 2059859          | Der åbnes uventede pop op-vinduer, når der oprettes en udgiftspost.                                                                                                                         |
 | Anden                        | 2044181          | [Afinstallation af Project Operations] - Fejlen "Posten er ikke tilgængelig" vises, når du forsøger at afinstallere kerneløsningerne **msdyn_ProjectServiceCore_Patch** og msdyn Project Service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

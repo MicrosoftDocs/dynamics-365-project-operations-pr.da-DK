@@ -56,3 +56,6 @@ Vælg den rejserekvisition, du vil godkende, og vælg derefter **Arbejdsproces**
 
 > [!NOTE]
 > Når du tilknytter en udgiftsrapport til en godkendt rejserekvisition, kan transaktionsbeløbet ikke være større end det godkendte beløb. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

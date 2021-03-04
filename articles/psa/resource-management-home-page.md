@@ -41,3 +41,6 @@ Ressourcer er det vigtigste aktiv i en servicebaseret organisation. Muligheden f
 - [Krav til foreløbige reservationer](resource-management-softbook-requirements.md)
 - [Færdigheds- og kompetencemodeller](resource-management-skills-proficiency.md)
 - [Ofte stillede spørgsmål om ressourcestyring](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

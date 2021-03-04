@@ -41,3 +41,6 @@ Når funktionsstyringsnøglen **Aktiver listesiden for uddelegering af udgifter*
 En bruger med uddelegering kan hurtigt filtrere og søge på eksisterende udgiftsrapporter, der er uddelegeret til brugeren. De kan også oprette en ny udgiftsrapport for andre brugere ved at vælge **Ny udgiftsrapport**.
 
 Brugere med uddelegering kan også oprette og administrere udgiftsrapporter for andre medarbejdere ved at gå til **Udgiftsstyring** > **Mine udgifter** > **Udgiftsrapporter** og vælge **Åbn andre brugeres udgifter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

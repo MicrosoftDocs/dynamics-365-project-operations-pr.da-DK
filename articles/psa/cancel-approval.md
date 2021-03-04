@@ -62,3 +62,6 @@ Et projekt påvirkes også økonomisk, når en godkendelse annulleres. Først op
 Dernæst oprettes der tilbageførselsposter i tabellen med faktiske oplysninger. For at oprette tilbageførselsposter kopieres feltværdierne fra de oprindelige faktiske oplysninger i systemet. De eneste værdier, der ikke kopieres over, er antalsværdier. Disse værdier omgøres i stedet. Tilbageførte faktiske værdier oprettes for både faktiske **Omkostninger** og **Ikke-faktureret salg**. Feltet **Justeringsstatus** i de tilbageførte faktiske oplysninger angives til **Ikke-justerbar**, og faktureringsstatussen angives til **Annulleret**.
 
 Når disse ændringer er foretaget, vil det beløb, der er registreret som brugt på projektet, og omsætningens ordrebeholdning på projektet ikke længere medtage de beløb, som disse faktiske værdier repræsenterer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Du kan kontrollere tidsforbrug for ressourcer for at fastlægge niveauer for tid
   
 ### <a name="see-also"></a>Se også  
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ I dette emne vises de funktioner og rettelser, der er nye eller ændrede for PSA
 - Løst: Når transaktionsklassen er **Tid**, er **UnitGroup** ikke redigerbar for alle objekter, herunder **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** og **ContractLineDetails**. Men **Enhed** kan ikke alene redigeres for **JournalLine** og **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

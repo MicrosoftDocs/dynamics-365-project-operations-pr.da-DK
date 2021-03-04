@@ -112,3 +112,6 @@ I følgende eksempel vises det, hvordan du kan kalde den brugerdefinerede handli
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

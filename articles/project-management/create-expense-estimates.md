@@ -38,3 +38,6 @@ Følgende attributter defineres for de enkelte udgiftslinjeelementer:
 - **Enhedskostpris**: Den enhedspris, der bruges til at beregne omkostningerne for udgiften.
 - **Enhedssalgspris**: Den enhedspris, der bruges til at beregne salgspriserne for udgiften.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ En projektleder kan fra gitteret **Teammedlem** fremhæve en specifik ressource 
 ## <a name="schedule-board"></a>Planlægningsområde
 
 I **Planlægningsområde** har ressourceadministratoren en oversigt over alle reservationer på tværs af en organisation. Fra denne visning kan ressourceadministratoren udvide, afkorte eller flytte eksisterende reservationer i stil med de muligheder, der findes i **Bevar reservationer**. Ressourceadministratoren kan også erstatte eksisterende ressourcer, der er tildelt en bestemt reservation, ved at højreklikke på reservationen og vælge **Erstat ressource**. Ressourceadministratorer kan også redigere eksisterende reservationer ved at højreklikke på reservationen og vælge **Rediger**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

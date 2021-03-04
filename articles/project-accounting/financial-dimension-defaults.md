@@ -62,3 +62,6 @@ Projekter oprettes og vedligeholdes i CDS. Regnskabsattributter for projekter an
 4. Angiv standarderne for økonomiske dimensioner. Bemærk, at økonomiske dimensioner hentes som standard fra kundekontoen. Hvis projektet er knyttet til en kontraktlinje med flere projektkontraktkunder, bruges den primære kunde som standard som den økonomiske dimensioner.
 
 Projektets standarder for økonomiske dimensioner bruges til at angive standarder for kladdelinjer for tid, udgifter og gebyrtransaktioner i **Integrationskladden i Project Operations** og på relaterede projektfakturalinjer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Dine ressourcer kan bruge Project Finder Mobile-appen på deres telefon med [!IN
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere ressourcer](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

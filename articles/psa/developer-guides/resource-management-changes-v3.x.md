@@ -170,3 +170,6 @@ De følgende felter for planlagte, faktiske og resterende omkostninger og salg e
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

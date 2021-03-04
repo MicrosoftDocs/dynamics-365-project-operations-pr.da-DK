@@ -96,3 +96,6 @@ Benyt følgende fremgangsmåde for at oprette en brugerdefineret version af form
     ```
 
 6. Gem og publicer derefter tilpasningerne.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

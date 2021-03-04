@@ -257,3 +257,6 @@ Følgende grafik er efter oprettelse af brugerdefinerede prislister.
 
 > [!NOTE]
 > Når du klikker på **Opret brugerdefineret prissætning**, kan der være en kort forsinkelse, før den brugerdefinerede prisliste er oprettet. Det anbefales, at du opdaterer gitteret i stedet for at klikke flere gange. Der er oprettet en brugerdefineret prisliste, hvis navnet på den tilknyttede prisliste har tilbudsnavnet eller projektkontraktnavnet tilføjet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ I forbindelse med ressourcereservationen kan projektledere filtrere de rolleress
 
 3. Vælg **Gem** , og luk derefter siden.
 4. På fanen **Kompetencer** skal du tilføje færdigheden **ProjectMgmt** og certifikatet **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 | **Styring af salgsmuligheder** | 2040713 | Løste den scriptfejl, der opstår under oprettelse af en faktura ud fra en kontrakt, og Field Service er installeret. |
 | **Projektplanlægning og -sporing** | 2090202 | Markerede forretningsregler, der ikke længere bruges, som **Frarådet**. |
 | **Tid og udgift** | 2091249 | Strammede op på kontroller, som brugerne ikke kan ændre opgaven på en indsendt eller godkendt tidsregistrering. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

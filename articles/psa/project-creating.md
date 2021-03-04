@@ -149,3 +149,6 @@ Der gælder som standard, at hvis en bladnodeopgave ikke har foregående opgaver
 ### <a name="manual-scheduling"></a>Manuel planlægning
 
 Hvis reglerne for automatisk planlægning ikke opfylder dine krav, kan du indstille opgavetilstanden for opgaven til **Manuelt planlagt**. Denne indstilling stopper planlægningsprogrammet i at beregne værdierne for andre planlægningsattributter. Uanset opgavetilstand kan du altid påvirke den afhængige opgaves startdato, hvis du angiver de foregående opgaver for opgaverne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
