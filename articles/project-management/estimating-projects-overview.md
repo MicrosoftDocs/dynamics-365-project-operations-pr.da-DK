@@ -1,6 +1,6 @@
 ---
 title: Oversigt over estimerede projekter
-description: Dette emne indeholder oplysninger om estimeringer i Dynamics 365 Project Operations.
+description: Dette emne indeholder oplysninger om estimater i Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286871"
 ---
 # <a name="estimate-projects-overview"></a>Oversigt over estimerede projekter
 

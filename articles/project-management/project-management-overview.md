@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4e23b5cd4b625736e02e62624ee838926e4dd325
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127556"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286691"
 ---
 # <a name="project-management-overview"></a>Oversigt over projektstyring
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Med projektstyringsværktøjerne i Dynamics 365 Project Operations kan du nemt køre projekter. De indbyggede skabeloner og planlægningsværktøjer hjælper projektledere og teams med at forblive produktive. Nogle af de opgaver, som værktøjerne hjælper med, omfatter:
+Med hjælp fra projektstyringsværktøjerne i Dynamics 365 Project Operations kan du nemt køre projekter. De indbyggede skabeloner og planlægningsværktøjer hjælper projektledere og teams med at forblive produktive. Nogle af de opgaver, som værktøjerne hjælper med, omfatter:
 
 - Planlægge projekter ved hjælp af arbejdsplanlægning og estimater.
 - Vurdere og spore omkostninger og omsætning for et projekt.

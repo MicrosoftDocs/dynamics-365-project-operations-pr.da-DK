@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131966"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287636"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurer regnskab for fakturerbare projekter
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations understøtter forskellige regnskabsindstillinger for fakturerbare projekter, der omfatter tid og materialer samt fastpristransaktioner.
+Dynamics 365 Project Operations understøtter forskellige regnskabsindstillinger for fakturerbare projekter, der omfatter tids- og materialetransaktioner og transaktioner med fast pris.
 
 - **Tids- og materialetransaktioner**: Disse transaktioner faktureres, efterhånden som arbejdet skrider frem, og er baseret på forbruget af timer, udgifter, varer eller gebyrer i projektet. Disse transaktionsomkostninger kan sammenlignes med omsætningen på hver enkelt transaktion, og projektet faktureres, mens arbejdet skrider frem. Projektomsætning kan også periodiseres på det tidspunkt, hvor transaktionen indtræffer. Under fakturering registreres omsætningen, og periodiseret omsætning tilbageføres, hvis det er relevant.
 - **Fastpristransaktioner**: Disse transaktioner faktureres i henhold til en faktureringsplan, der er baseret på projektkontrakten. Omsætningen for fastpristransaktioner kan registreres ved fakturering eller beregnes og bogføres periodisk i henhold til metoderne **Afsluttet kontrakt** eller **Afsluttet procentdel**.

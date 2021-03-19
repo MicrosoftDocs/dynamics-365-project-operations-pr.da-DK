@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595449"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287411"
 ---
 # <a name="create-intercompany-transactions"></a>Opret interne transaktioner
 
@@ -69,7 +69,7 @@ Freja Jacobsen, som er beskæftiget i GBPM, registrerer 10 timers arbejde på et
     5. Opret et nyt projekt, og knyt det til denne kontraktlinje.
 4. Log på som ressourcen **Freja Jacobsen**. Gå til **Projekter** > **Tidsposter**, og opret en tidspost for Adventure Works-projektet.
 5. Log på som projektleder. Gå til **Projekter** > **Godkendelser**, og godkend den tidsposttransaktion, der er registreret af Freja Jacobsen.
-6. Naviger til Adventure Works-projektet, og vælg **Relaterede** > **Faktiske**. Følgende faktiske transaktioner oprettes.
+6. Naviger til Adventure Works-projektet, og vælg **Relaterede** > **Faktiske værdier**. Følgende faktiske transaktioner oprettes.
 
 | **Transaktionstype** | **Pris** | **Transaktionsvaluta** | **Beløb** |
 | --- | --- | --- | --- |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286826"
 ---
 # <a name="maintain-team-members"></a>Bevar projektteamets medlemmer
 
@@ -21,7 +21,7 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Du kan tilføje en navngivet ressource til projektteamet ved at reservere den direkte til teamet.
 
-1. Gå til **Projekter** i Dynamics 365 Project Operations, og vælg det åbne projekt, du skal reservere for.
+1. I Dynamics 365 Project Operations skal du gå til **Projekter** og vælge det åbne projekt, som du skal reservere for.
 2. På siden **Projekt** skal du på fanen **Team** vælge **Nyt**. 
 3. Vælg den reserverbare ressource i dialogboksen **Hurtig oprettelse af projektteammedlem**. Feltet **Rolle** udfyldes med ressourcens standardrolle, hvis der er tildelt en sådan. Du kan ændre rollen. 
 4. Vælg den fra- og til-dato, som ressourcen skal bruge, og vælg derefter fordelingsmetoden for ressourcens kapacitet. 
