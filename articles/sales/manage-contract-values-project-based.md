@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181705"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278096"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Arbejd med projektbaserede kontraktlinjer
 
-Projektbaserede kontraktlinjer i Dynamics 365 Project Operations er udformet til at rumme estimat- og faktureringsaftaler for specifikke komponenter i projektarbejde på en aftale. Strukturen i en projektbaseret kontraktlinje udvides for projektestimater og faktureringsscenarier med følgende koncepter:
+Projektbaserede kontraktlinjer i Dynamics 365 Project Operations er designet til at rumme estimat- og faktureringsaftaler for specifikke komponenter i projektarbejde på en aftale. Strukturen i en projektbaseret kontraktlinje udvides for projektestimater og faktureringsscenarier med følgende koncepter:
 
 - Faktureringsmetode
 - Projekt- og opgavetilknytning

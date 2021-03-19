@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118466"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277826"
 ---
 # <a name="manage-project-based-opportunities"></a>Administrer projektbaserede salgsmuligheder
 
@@ -21,7 +21,7 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Projektbaserede virksomheder leverer typisk på tværs af flere lande og geografi. Omkostningerne til projektudførelse og levering kan variere, afhængigt af hvilken geografi eller hvilken afdeling der administrerer leveringen. Det kan således påvirke margenerne i handlen. Levering af projektbaserede tjenester indebærer typisk store mængder af menneskelige ressourcers tid, høje udgifter til rejser, materialeomkostninger og andre udgifter.
 
-Projektbaserede salgsmuligheder i Dynamics 365 Project Operations er designet med udvidelser til Dynamics 365 Sales. Dette emne indeholder oplysninger om de forskellige felter og den forretningslogik, der er inkluderet i de ekstra funktioner, som projektbaserede virksomheder kræver for at administrere projektbaserede salgsmuligheder.
+Projektbaserede salgsmuligheder i Dynamics 365 Project Operations er udviklet med udvidelser til Dynamics 365 Sales. Dette emne indeholder oplysninger om de forskellige felter og den forretningslogik, der er inkluderet i de ekstra funktioner, som projektbaserede virksomheder kræver for at administrere projektbaserede salgsmuligheder.
 
 ## <a name="view-all-project-based-opportunities"></a>Se alle projektbaserede salgsmuligheder
 

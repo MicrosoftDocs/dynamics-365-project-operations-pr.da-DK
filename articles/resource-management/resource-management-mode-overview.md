@@ -1,6 +1,6 @@
 ---
 title: Oversigt over tilstande for ressourcestyring
-description: Dette emne indeholder oplysninger om funktionaliteten Ressourcestyring i Dynamics 365 Project Operations.
+description: Dette emne indeholder oplysninger om funktionaliteten for ressourcestyring i Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118511"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279446"
 ---
 # <a name="resource-management-modes-overview"></a>Oversigt over tilstande for ressourcestyring
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 
-Dynamics 365 Project Operations understøtter to tilstande, for at du kan udføre det overordnede reservationsflow. Administrationstilstanden defineres som en projekt parameter og kan ændres, hvis din virksomhed har behov for at skifte.    
+Dynamics 365 Project Operations understøtter to tilstande, således at du kan udføre den overordnede reservationsstrøm. Administrationstilstanden defineres som en projekt parameter og kan ændres, hvis din virksomhed har behov for at skifte.    
 
 ## <a name="central-mode"></a>Central tilstand
 For organisationer, der centraliserer fordelingen for ressourcer til projekter, er den centrale tilstand en måde, hvorpå det sikres, at projektledere kan definere ressourcekrav på projektniveau. Opfyldelsen af ressourcekravene er uddelegeret til en Resource Manager. Projektledere kan acceptere eller afvise ressourcer, der er foreslået af Resource Manager.

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124676"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277241"
 ---
 # <a name="close-a-quote"></a>Lukke et tilbud
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Et projekttilbud kan lukkes som vundet eller tabt. Da funktionerne Aktivér og Revider ikke understøttes i tilbud i Microsoft Dynamics 365 Project Operations, kan du lukke et tilbud i kladdeform.
+Et projekttilbud kan lukkes som vundet eller tabt. Da funktionerne Aktiver og Revider ikke er understøttet for tilbud i Microsoft Dynamics 365 Project Operations, kan du lukke en tilbudskladde.
 
 ## <a name="close-a-quote-as-won"></a>Luk et tilbud som vundet
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278501"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>Estimer en projektbaseret kontraktlinje
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_ 
 
-I Dynamics 365 Project Operations indeholder en projektbaseret kontraktlinje oplysninger, der kan hjælpe dig med at estimere omkostningerne og den potentielle omsætning for det arbejde, der indgår i at levere kontraktlinjen.
+Dynamics 365 Project Operations indeholder en projektbaseret kontraktlinje med oplysninger, der kan hjælpe dig med at estimere omkostningerne og den potentielle omsætning for det arbejde, der indgår i at levere kontraktlinjen.
 
 Hvis du vil estimere en projektbaseret kontraktlinje, skal du gå til fanen **Kontraktlinjedetaljer** på den projektbaserede **Kontraktlinje**.  Du kan oprette et estimat på en projektbaseret kontraktlinje på to måder:
 
