@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175884"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290037"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tilmelding til et prøveversionsabonnement - lille 
 
-Dette emne forklarer, hvordan du abonnere på prøveversionen af partnertilbuddet og udruller den lille udrulning af Dynamics 365 Project Operations - aftale til proformafakturering.
+I dette emne beskrives det, hvordan du abonnerer på partnertilbuddet om en forhåndsversion og udruller Dynamics 365 Project Operations lille udrulning – aftale til proformafakturering.
 
 > [!NOTE]
 > Denne proces ændres i de kommende versioner af Project Operations.
@@ -42,7 +42,7 @@ Når du modtager en godkendelse af din [anmodning om prøveversion](https://form
 
 Før du går i gang, skal du sikre dig, at du er logget på en browser med brugerens arbejdskonto i lejeren, hvor du vil installere prøveversionen af Project Operations.
 
-1. Indløser den første tilbudskode, **Dynamics 365 Project Operations (CRM) - prøveversion** ved at indsætte den i browserens URL-adresse.
+1. Indløs den første tilbudskode, **Dynamics 365 Project Operations (CRM) - prøveversion** ved at indsætte den i browserens URL.
 
 ![Accepter tilbud](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Gentag de samme trin som ved den første tilbudskode. Sørg for at tilføje den 
 
 ![Tildel licenser](./media/15AssignLicenses.png)
 
-3. Kontroller, at licenserne **Dynamics 365 Project Operations (CRM) prøveversion** og **Office 365 Project Operations - prøveversion** er valgt. 
+3. Kontrollér, at licenserne til **Dynamics 365 Project Operations (CRM) forhåndsversion** og **Office 365 Project Operations – forhåndsversion** er valgt. 
 4. Vælg **Gem ændringer**.
 
 ## <a name="create-a-new-cds-environment"></a>Opret et CDS-miljø
@@ -84,7 +84,7 @@ Gentag de samme trin som ved den første tilbudskode. Sørg for at tilføje den 
 
 ![Tilføj database](./media/20CreateEnvironment1.png)
 
-4. Når miljøet er oprettet, skal du installere løsningen **Microsoft Dynamics 365 Project Operations**. 
+4. Når miljøet er oprettet, skal du installere **Microsoft Dynamics 365 Project Operations**-løsningen. 
 
 ![Installer løsningen](./media/21InstallSolution.png)
 

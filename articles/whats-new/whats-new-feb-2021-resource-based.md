@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ba44ea471f7d72d1e816ec74de304d3fdcf1f68
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: 12708a9b847f1f87ee0f5f45688adf48638d709f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141299"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291882"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder februar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
