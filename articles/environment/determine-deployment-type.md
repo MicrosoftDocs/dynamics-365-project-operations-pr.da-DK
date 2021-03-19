@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401211"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479557"
 ---
 # <a name="determine-your-deployment-type"></a>Vælg din udrulningstype
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 > [!IMPORTANT]
-> Når du har købt licensen, skal du starte her for at fastlægge den bedste udrulningsmodel til Dynamics 365 Project operations ved hjælp af det [Styrede installationsflow](https://aka.ms/provisionprojectoperations).
+> Når du har købt licensen, skal du starte her for at finde den bedste udrulningsmodel Dynamics 365 Project Operations ved hjælp af [vejledningen til installationsflow](https://aka.ms/provisionprojectoperations).
 > Når du har afsluttet det styrede installationsflow, omdirigeres du til den korrekte administrationsportal for at fuldføre installationen. Se detaljerne om udrulning for at fuldføre installationen.
 
 
@@ -31,6 +31,9 @@ Project operations omfatter de funktioner, der blev leveret sammen med Project S
 
 Eksisterende Finance-kunder, der benytter funktionen Projektstyring og regnskab, kan fortsætte med at bruge den, som hidtil. Se [Project Operations for lagerbaserede/produktionsordrescenarier](#pma).
 
+
+## <a name="deployment-regions"></a>Installationsområder
+Du kan se, hvilke områder der understøtter udrulningen af Project Operations, under [Geografisk tilgængelighed for Dynamics 365 og i rapporten Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Vælg **Vis rapport**, og udvid **Dynamics 365 > Operations-programmer > Dynamics 365 Project Operations** for at få vist de understøttede områder.
 
 ## <a name="deployment-types"></a>Udrulningstyper
 Project Operations understøtter forskellige udrulningsmuligheder, så de passer til dine behov. Uanset om du er ny eller eksisterende Dynamics 365-kunde, kan Project Operations opfylde dine behov.

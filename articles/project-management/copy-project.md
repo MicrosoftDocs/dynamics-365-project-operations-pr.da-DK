@@ -3,25 +3,25 @@ title: Kopiér et projekt
 description: Dette emne indeholder oplysninger om kopiering af projekter i Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131786"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479512"
 ---
 # <a name="copy-a-project"></a>Kopiér et projekt
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Med Dynamics 365 Project Operations kan du hurtigt bygge nye projekter ved at vælge **Kopiér projekt** på formularen **Projekter**. Hvis du vil kopiere et projekt, skal du åbne det projekt, du vil kopiere, og derefter vælge **Kopiér projekt**. Handlingen kopierer:
+Ved hjælp af Dynamics 365 Project Operations kan du hurtigt oprette nye projekter ved at vælge **Kopiér projekt** i formularen **Projekter**. Hvis du vil kopiere et projekt, skal du åbne det projekt, du vil kopiere, og derefter vælge **Kopiér projekt**. Handlingen kopierer:
 
-- Projektegenskaber
+- Projektegenskaber (den anslåede startdato kopieres fra kildeprojektet)
 - Arbejdsopgavehierarkiet
 - Projektteamets medlemmer
 - Projektestimater

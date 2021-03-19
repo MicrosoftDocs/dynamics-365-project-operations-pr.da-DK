@@ -3,17 +3,17 @@ title: Funktionsmåde for brugergrænsefladen for tidsregistrering
 description: Dette emne indeholder oplysninger om funktionsmåden for brugergrænsefladen for tidsregistrering.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124496"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499607"
 ---
 # <a name="time-entry-ui-behavior"></a>Funktionsmåde for brugergrænsefladen for tidsregistrering
 
@@ -21,6 +21,19 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 
 Gitteret for **Ugentlig tidsregistrering** er et brugerdefineret kontrolelement med to hovedsektioner **Dimensioner** og **Varighed**.
+
+## <a name="keyboard-shortcuts"></a>Tastaturgenveje
+| Handling        | Genvej                  |
+|------------   |------------------------   |
+| Nyt           | Alt + Shift + n           |
+| Kopiér række      | Alt + Shift + c           |
+| Rediger indtastning    | Alt + Shift + e           |
+| Rediger række      | Alt + Shift + Ctrl + e    |
+| Åbn registrering    | Alt + Shift + o           |
+| Indsend        | Alt + Shift + s           |
+| Tilbagekald        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopiér uge     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensioner
 Sektionen **Dimensioner** viser alle de dimensioner, som tid kan registreres i forhold til. Følgende dimensioner understøttes som standard:

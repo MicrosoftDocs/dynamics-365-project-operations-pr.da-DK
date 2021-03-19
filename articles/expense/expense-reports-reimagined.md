@@ -1,9 +1,9 @@
 ---
 title: Nye udgiftsrapporter
-description: Dette emne indeholder oplysninger om det nye design og nyudviklede oplevelse med registrering i udgiftsrapporter.
+description: Dette emne beskriver den nydesignede og genskabte oplevelse af indtastning af udgiftsrapporter.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122786"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499709"
 ---
 # <a name="expense-reports-reimagined"></a>Nye udgiftsrapporter
 
@@ -59,25 +59,22 @@ Videoen [Udgiftsoplevelsen i Dynamics 365 for Finance and Operations](https://yo
 | Reduktion af meddelelser i meddelelseslinjen| Antallet af infolog-meddelelser blev formindsket, og der blev gjort et forsøg på at forhindre, at der vises dubletter i mange tilfælde. |
 | Fælles grupperede almindelige handlinger | Grænsefladen blev ryddet op med tilføjelsen af en ny handlingsknap for de fleste fælles handlinger på linjeniveau og tilføjelsen af en ellipseknap (...) for overskrifter og andre mindre hyppige handlinger. |
 | Nyt arbejdsområde for at øge synligheden | Et nyt arbejdsområde forener funktioner og links, og gør det muligt for brugere at flytte til forskellige områder. |
-| Tilføj eksisterende udgifter og kvitteringer under oprettelse af udgifter | Når du opretter udgiftsrapporter, kan du tilføje alle eller udvalgte udgifter og kvitteringer. |
+| Tilføj eksisterende udgifter og kvitteringer under oprettelse af udgifter | Når du opretter udgiftsrapporter, kan du tilføje alle udgifter eller vælge ikke-tilknyttede udgifter. Ikke-tilknyttede udgifter er udgifter, der er importeret fra firmaets kreditkortudskrift, eller udgifter, der er oprettet manuelt af brugeren, men som ikke er knyttet til en udgiftsrapport.|
 | Beregning af valutakurs | Der tilføjes en beregner til valutakurs, som giver dig mulighed for at beregne valutakursen for transaktioner med udlæg med flere valutaer. |
 | Gem og tilføj nye udgiftslinjer | Knapperne **Gem** og **Ny** er tilgængelige, når der angives nye udgifter, så du hurtigt kan angive udgiftslinjer. |
 | Bedre synlighed til opdelte og specificerede linjer | De specificerede og opdelte linjer tilføjes direkte til listen over udgifter for at øge synligheden og hjælpe dig med hurtigt at finde ud af, om der er opstået fejl. |
 | Vis kvitteringer under specifikation | Kvitteringer kan vises under specifikation. |
+| Valg af kontaktforskud | Vælg en eller flere kontantforskud for at gennemføre en enkelt udgiftstransaktion. |
+| Kontantforskudssaldi | Gennemse saldoen for kontantforskud i realtid, når du opretter en udgiftspost, i forhold til godkendte og betalte kontantforskud. |
 
 Den første version er fokuseret på scenarier med udgiftsposter. Et scenarie med gennemgang eller godkendelse af en udgiftsrapport vil fortsat bruge den eksisterende udgiftsregistreringsside.
 
-Følgende funktioner findes på den eksisterende side, men er endnu ikke til stede på den nye side. Disse funktioner genindføres over de næste kommende frigivelser:
+Følgende funktioner understøttes ikke i det nye udgiftsarbejdsområde:
 
-- Godkendelser
-- Godkendelse af kreditorer og muligheden for at redigere regnskabet
-- Flere registreringspunkter
 - Rejserekvisitionsintegration
-- Dataobjekt for udgiftsfeltets synlighed
-- Registrering af diætudgifter
-- Arbejdsproces på linjeniveau
+- Udgiftsregistrering pr. dag
 - Understøttelse af midlertidig godkender
-- Avanceret specificering
+- Mulighed for at få vist historik over arbejdsprocesser
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
