@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147106"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280661"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Opdateringsudgivelse 20 til Project Service Automation, V3
 
@@ -42,7 +42,7 @@ Følgende problemer er blevet løst:
 
 - Import af projektgruppemedlemmer med en fordelingsmetode, der kræver timer, resulterer i en utydelig fejlmeddelelse, når de angivne timer er nul.
 - Brugerne får vist en fejlmeddelelse om, at der er indsat et maksimum antal tegn i feltet **Beskrivelse** for en projektopgave.
-- Siden **overførsel af tilføjelsesprogram til Microsoft Dynamics 365 Project Service Automation** omdirigerer til den engelske overførelsesside, når brugerens sprogindstillinger er angivet til japansk.
+- Siden **Overfør tilføjelsesprogram til Microsoft Dynamics 365 Project Service Automation** omdirigerer til den engelske overførselsside, når brugerens sprogindstillinger er angivet til japansk.
 - Når der opstår en serverfejl, beholdes synkroniseringsnavnet på fanen **Planlægning** i formularen **Projekter** til tider.
 - Overflødige opgaveopdateringer sendes til serveren, når en opgave ændres.
 

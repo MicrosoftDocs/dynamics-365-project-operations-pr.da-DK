@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121526"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280076"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Tilføj teammedlemmer fra teammedlemsgitteret
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations indeholder et Resource manager-dashboard, der giver en visuel oversigt over ressourcebehov og tidsforbrug i hele organisationen. Du kan bruge diagrammerne på dette dashboard til at få vist følgende oplysninger:
+Dynamics 365 Project Operations indeholder et dashboard for Resource Manager, der giver en visuel oversigt over ressourcebehov og tidsforbrug i hele organisationen. Du kan bruge diagrammerne på dette dashboard til at få vist følgende oplysninger:
 
 - **Ressourcekrav**: Diagrammet **Aktive anmodninger om ressourcer** viser de ressourcer, der er sendt. Ressourcerne samles efter enten rolle eller projekt.
 - **Ikke sendt ressourcekrav**: Diagrammet **Ikke-tildelt ressourcekrav** viser alle de ressourcekrav, der ikke er blevet sendt. Dette diagram hjælper ressourceadministratoren med at vise de krav, der ikke er faste, og som muligvis kan sendes via en anmodning om ressourcer.

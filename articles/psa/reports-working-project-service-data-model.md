@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147646"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283226"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbejde med Project Service Automation-datamodellen
 
@@ -87,7 +87,7 @@ Objektet **Projekter** og de tilhørende objekter er eksklusive for PSA. **Proje
 
 ## <a name="reporting-on-resources"></a>Rapportering om ressourcer
 
-Projektressourcer bruger de **Reserverbare ressource**-objekter fra Universal Resource Scheduling (URS), der deles med andre apps, f.eks. Microsoft Dynamics 365 Field Service. Her er en liste over de objekter, du måske skal bruge, når du rapporterer om projektressourcer:
+Projektressourcer bruger objekterne **Reserverbare ressource** fra Universal Resource Scheduling (URS), der deles med andre apps, f.eks. Microsoft Dynamics 365 Field Service. Her er en liste over de objekter, du måske skal bruge, når du rapporterer om projektressourcer:
 
 - **Reserverbar ressource** – Dette objekt repræsenterer den bruger, kontaktperson, standardressource, firmagruppe eller udstyr, der bruges i projektteamet.
 - **Egenskaber for reserverbare ressourcer** – Dette objekt omfatter færdigheder, certificeringer eller uddannelse af ressourcen. Egenskaberne kan have klassificeringsværdier, der er defineret af klassificeringsmodellen.
