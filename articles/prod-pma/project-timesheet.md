@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288822"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilappen Project Timesheet
 
@@ -76,7 +76,7 @@ I feltet **Projekt** skal du vælge det projekt, som du angiver tid for. Feltet 
 
 Du kan bruge søgningerne for kunde- og projektopslag til at søge på tværs af både kunder og projekter.
 
-Vælg oplysninger i felterne **Kategori** , **Aktivitet** , **Linjeegenskab** , **Momsgruppe** og **Momsgruppe for varesalg** efter behov. Disse felter kan tilsidesættes.
+Vælg oplysninger i felterne **Kategori**, **Aktivitet**, **Linjeegenskab**, **Momsgruppe** og **Momsgruppe for varesalg** efter behov. Disse felter kan tilsidesættes.
 
 Feltet **Linjeegenskab** angives til en standardværdi, der er baseret på projektstyring og regnskabsparametre. Når parametrene projekt/kategori og kategori/ressource er aktiverede, angives værdien for **Linjeegenskab** til den standardværdi, som du har angivet for denne validering. Når parametrene projekt/kategori og kategori/ressource ikke er aktiverede, vil værdien for **Linjeegenskab** som standard være baseret på feltet **Aktivér standardlinjeegenskab** på siden **Projektstyring og regnskabsparametre**. Værdien **Linjeegenskab** kan tilsidesættes.
 
@@ -95,7 +95,7 @@ Klik på **Indsend** for at sende timesedlen til godkendelsesarbejdsgangen.
 
 ## <a name="review-timesheets"></a>Gennemse timesedler
 
-Der findes en liste over de timesedler, der skal gennemgås, i menuen. Denne indstilling er kun tilgængelig, hvis du er angivet som godkender af arbejdsproces. Både overskrifts- og linjegodkendelser understøttes. Godkendelse på linjeniveau giver mulighed for at markere en eller flere linjer til godkendelse. Når du har gennemgået oplysningerne i timesedlen, skal du klikke på **Godkend** , **Deleger** eller **Vend tilbage** for at fortsætte arbejdsprocessen.
+Der findes en liste over de timesedler, der skal gennemgås, i menuen. Denne indstilling er kun tilgængelig, hvis du er angivet som godkender af arbejdsproces. Både overskrifts- og linjegodkendelser understøttes. Godkendelse på linjeniveau giver mulighed for at markere en eller flere linjer til godkendelse. Når du har gennemgået oplysningerne i timesedlen, skal du klikke på **Godkend**, **Deleger** eller **Vend tilbage** for at fortsætte arbejdsprocessen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

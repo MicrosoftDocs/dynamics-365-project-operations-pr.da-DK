@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074233"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289317"
 ---
 # <a name="microsoft-project-client-integration"></a>Integration med Microsoft Project Client
 
@@ -39,10 +39,10 @@ Hvis du vil aktivere integrationen med Microsoft Project Client, skal du install
 
 • Klik på **Konfigurer tilføjelsesprogrammet for projektklient** fra arbejdsområdesektionen **Links** > **Opsætning**.
 
-• Klik på **Åbn** , og klik derefter på **Kør** , når du bliver bedt om det.
+• Klik på **Åbn**, og klik derefter på **Kør**, når du bliver bedt om det.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Åbn og rediger et eksisterende udkast til et arbejdsopgavehierarki i Microsoft Project Client
-Hvis et projekt i Dynamics 365 Finance allerede har et arbejdsopgavehierarki, kan arbejdsopgavehierarkiet åbnes i Microsoft Project Client-programmet, hvis arbejdsopgavehierarkiet er i kladdestatus. Hvis du vil åbne siden **Projekt** , skal du klikke på linket **Åbn i Microsoft Project** fra fanen **Plan**. Du kan også åbne denne side fra Microsoft Project Client-programmet ved at klikke på **Åbn** i fanen **Microsoft Dynamics 365**. Vælg den **Juridiske enhed** og **Projektet** på listen.
+Hvis et projekt i Dynamics 365 Finance allerede har et arbejdsopgavehierarki, kan arbejdsopgavehierarkiet åbnes i Microsoft Project Client-programmet, hvis arbejdsopgavehierarkiet er i kladdestatus. Hvis du vil åbne siden **Projekt**, skal du klikke på linket **Åbn i Microsoft Project** fra fanen **Plan**. Du kan også åbne denne side fra Microsoft Project Client-programmet ved at klikke på **Åbn** i fanen **Microsoft Dynamics 365**. Vælg den **Juridiske enhed** og **Projektet** på listen.
 
 > [!NOTE]
 > Hvis du bruger Internet Explorer som browser, skal du klikke på **Gem** for at åbne den manuelt fra den placering, hvor filen er overført til. Du kan også klikke på **Gem og Åbn** for at åbne filen i Microsoft Project Client. Du skal ikke omdøbe filnavnet, når du gemmer.
@@ -122,9 +122,9 @@ Hvis du vil oprette et nyt arbejdsopgavehierarki ved hjælp af Microsoft Project
 
 6.  Angiv **Projektnavnet**.
 
-7.  Vælg **Projekttype** , **Projektgruppe** og **Projektkontrakt-id**. Du kan også oprette en ny projektkontrakt ved at klikke på **Ny**.
+7.  Vælg **Projekttype**, **Projektgruppe** og **Projektkontrakt-id**. Du kan også oprette en ny projektkontrakt ved at klikke på **Ny**.
 
-8.  Vælg den **Kalender** , der skal bruges til ressourcer.
+8.  Vælg den **Kalender**, der skal bruges til ressourcer.
 
 11. Klik på **OK**.
 

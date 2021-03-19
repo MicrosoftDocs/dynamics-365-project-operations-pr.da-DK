@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074301"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289497"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Opret avancerede kontrakter for fakturering, der er baseret på status
 [!include [banner](../includes/banner.md)]
@@ -94,7 +94,7 @@ Budgetkategorier anvendes til automatisk at beregne fakturabeløbene for den pro
 ## <a name="create-billing-rules-for-progress-billings"></a>Opret faktureringsregler for statusfaktureringer
 
 1. Gå til **Projektstyring og regnskab** \> **Projekter** \> **Projektkontrakter**.
-2. Åbn siden med listen **Projektkontrakter** , vælg og åbn en projektkontrakt.
+2. Åbn siden med listen **Projektkontrakter**, vælg og åbn en projektkontrakt.
 3. På siden med projektkontrakten skal du i oversigtspanelet **Faktureringsregler** vælge **Tilføj**.
 4. På siden **Faktureringsregel** skal du i feltet **Linjetype** vælge **Fremgang**.
 5. I oversigtspanelet **Linjedetaljer om faktureringsregel** skal du i feltet **Kontraktværdi** angive kontraktens samlede værdi.

@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288957"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Forespørgsel om plan for udgifter til føderale priser
 
@@ -61,8 +61,8 @@ Du skal konfigurere CFDA-numre, der kan tilføjes til tilskud og medtages i fore
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Konfigurer tilskud, der skal rapporteres i forespørgsel om planen for udgifter til føderale priser
 
-1. Gå til **Projektstyring og regnskab \> Tilskud \> Tilskud** , og vælg et eksisterende tilskud.
-2. I oversigtspanelet **Opsætning** skal du i feltet **Katalog over Federal Domestic Assistance** tildele CFDA-nummeret. CFDA-nummeret på tilskuddet bestemmer CFDA-klyngen med henblik på rapportering.
+1. Gå til **Projektstyring og regnskab \> Tilskud \> Tilskud**, og vælg et eksisterende tilskud.
+2. I oversigtspanelet **Opsætning** skal du i feltet **Katalog over Federal Domestic Assistance** tildele CFDA-nummeret. CFDA-nummeret på tilskuddet bestemmer CFDA-klyngen med henblik på rapportering.
 3. I oversigtspanelet **Kontaktoplysninger** skal du angive oplysningerne på tilskudsgiver ved at benytte følgende fremgangsmåde:
 
     1. I feltet **Tilskudskunde** skal du angive den kunde, der er ansvarlig for tilskuddet. For et eksisterende tilskud er disse oplysninger muligvis allerede angivet.
@@ -79,8 +79,8 @@ De føderale offentlige myndigheder finansierede et infrastrukturprojekt for en 
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Udeluk tilskud fra SEFA-rapportering baseret på tilskudstype
 
-1. Gå til **Projektstyring og regnskab \> Opsætning \> Tilskud \> Tilskudstyper**.
-2. I oversigtspanelet **Standardoplysninger** skal du vælge afkrydsningsfeltet **Udeluk fra plan for udgifter til føderale priser**.
+1. Gå til **Projektstyring og regnskab \> Opsætning \> Tilskud \> Tilskudstyper**.
+2. I oversigtspanelet **Standardoplysninger** skal du vælge afkrydsningsfeltet **Udeluk fra plan for udgifter til føderale priser**.
 3. Vælg **Gem** for at gemme dine ændringer.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Kør forespørgslen for planen for udgifter til føderale priser

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074304"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289677"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkroniser projekters faktiske oplysninger direkte fra Project Service Automation med projektintegrationskladden til bogføring i Finance and Operations
 
@@ -88,8 +88,8 @@ I skabelonen for projektets faktisk oplysninger skal du bruge Microsoft Power-fo
 #### <a name="contract-organizational-unit"></a>Kontraktorganisationsenhed
 Hvis du vil opdatere den indsatte betingede kolonne i skabelonen, skal du klikke på pilen **Tilknyt** for at åbne tilknytningen. Vælg linket **Avanceret forespørgsel og filtrering** for at åbne Power Query.
 
-- Hvis du bruger standardskabelonen for projektets faktiske oplysninger (PSA til Fin og Ops), skal du i Power Query markere den sidst **Indsatte betingelse** fra sektionen **Anvendte trin**. I feltet **Funktion** skal du erstatte **USSI** med navnet på den juridiske enhed, der skal bruges sammen med integrationen. Tilføj efter behov yderligere betingelser til feltet **Funktion** , og opdater betingelse **eller** fra **USMF** til den korrekte juridiske enhed.
-- Hvis du opretter en ny skabelon, skal du tilføje kolonnen for at understøtte internt tid og udgifter. Vælg **Tilføj betinget kolonne** , og angiv et navn for kolonnen, som f.eks **LegalEntity**. Angiv en betingelse for kolonnen "hvor" hvis **msdyn\_contractorganizationalunitid.msdyn\_navn** er \<organizational unit\> og \<enter the legal entity\>; ellers null.
+- Hvis du bruger standardskabelonen for projektets faktiske oplysninger (PSA til Fin og Ops), skal du i Power Query markere den sidst **Indsatte betingelse** fra sektionen **Anvendte trin**. I feltet **Funktion** skal du erstatte **USSI** med navnet på den juridiske enhed, der skal bruges sammen med integrationen. Tilføj efter behov yderligere betingelser til feltet **Funktion**, og opdater betingelse **eller** fra **USMF** til den korrekte juridiske enhed.
+- Hvis du opretter en ny skabelon, skal du tilføje kolonnen for at understøtte internt tid og udgifter. Vælg **Tilføj betinget kolonne**, og angiv et navn for kolonnen, som f.eks **LegalEntity**. Angiv en betingelse for kolonnen "hvor" hvis **msdyn\_contractorganizationalunitid.msdyn\_navn** er \<organizational unit\> og \<enter the legal entity\>; ellers null.
 
 ### <a name="template-mapping-in-data-integration"></a>Skabelon for tilknytning i dataintegration
 

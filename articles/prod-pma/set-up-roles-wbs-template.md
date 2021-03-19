@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074152"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288642"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Konfigurer roller for skabeloner til arbejdsopgavehierarki
 
@@ -93,11 +93,11 @@ Der er tilføjet yderligere muligheder i WBS for at opnå en bedre anvendelse af
 
     [![Angivelse af datoer og tidsforbrug](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Vælg opgavelinjen **Påbegynd** , og du skal derefter i feltet **Rolle** vælge **Overordnet projektleder**.
+5. Vælg opgavelinjen **Påbegynd**, og du skal derefter i feltet **Rolle** vælge **Overordnet projektleder**.
 6. Vælg **Udgiv**.
 7. På den samme linje skal du i feltet **Ressource** vælge **Daniel Goldschmidt** og derefter vælge **Accepter**.
-8. Markér opgavelinjen **Planlægning** , og vælge derefter i feltet **Rolle** **Forretningsanalytiker**.
-9. Vælg **Publicer** , og vælg **Opret team automatisk**.
+8. Markér opgavelinjen **Planlægning**, og vælge derefter i feltet **Rolle** **Forretningsanalytiker**.
+9. Vælg **Publicer**, og vælg **Opret team automatisk**.
 10. I bekræftelsesfeltet, der vises, skal du vælge **Ja**.
 11. I feltet **Ressource** skal du kontrollere, at værdien er **Forretningsanalytiker 1**.
 12. For ressourcen **Forretningsanalytiker 1** skal du åbne opslaget og vælge **Start ressourcetildelinger**. Vælg derefter en arbejder til opgaven.

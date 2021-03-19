@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074155"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289002"
 ---
 # <a name="project-resource-scheduling-performance"></a>Ydeevne for et projekts ressourceplanlægning
 
@@ -34,12 +34,12 @@ ms.locfileid: "4074155"
 Ydeevneproblemer, der er relaterede til ressourceplanlægning, kan forekomme, når antallet af projekter når op i tusinder. Hvis du vil forbedre ydeevnen i ressourceplanlægning, er der en tilgængelig funktion, som gør det muligt for brugerne at reducere den tid, det tager at åbne formularen med ressourcetilgængelighed. Dette fjerner især processen med synkronisering af akkumulering af ressourcekapacitet og bruger tabellen **ResProjectResource** til at gøre søgningen i ressourcer hurtigere. Bemærk, at tabellen **ResRollup** ikke længere skal bruges.
 
 > [!IMPORTANT]
-> Hvis der er en afhængighed i enten processen med synkronisering af akkumulering af ressourcekapacitet eller tabellen **ResProjectResource** , skal du ikke bruge denne funktion.
+> Hvis der er en afhængighed i enten processen med synkronisering af akkumulering af ressourcekapacitet eller tabellen **ResProjectResource**, skal du ikke bruge denne funktion.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Aktiver forbedring af ydeevnen for ressourceplanlægning
 Hvis du vil aktivere forbedring af ydeevnen for ressourceplanlægning, skal du benytte følgende fremgangsmåde.
 
-1. Gå til **Funktionsstyring** > **Alle** , og find **Aktiver funktionen til forbedring af ydeevnen for projektressourceplanlægning** på funktionslisten.
+1. Gå til **Funktionsstyring** > **Alle**, og find **Aktiver funktionen til forbedring af ydeevnen for projektressourceplanlægning** på funktionslisten.
 2. Vælg **Aktivér nu**.
 
 > [!NOTE]
@@ -54,11 +54,11 @@ Hvis du vil aktivere forbedring af ydeevnen for ressourceplanlægning, skal du b
  > [!NOTE]
  > Dette distribuerer generelle data til tabellen **ResCalendarCapacity** på tværs af alle virksomheder i dit miljø, så batchjobbet kun skal køres i én juridisk enhed. Dataene i denne kørsel skal bruges til at beregne ressourcekapaciteten via den tilknyttede kalender.
 
-8. Gå til **Projektstyring og regnskab** > **Periodisk** > **Projektressourcer** > **Udfyld projektressourcer på tværs af alle virksomheder** , og vælg derefter **OK**. Dette er scriptet til dataopgradering for generelle data i tabellerne **ResProjectResource** , **ResCalendarDateTimeRange** og **ResEffectiveDateTimeRange**. Værdierne for feltet **PSAPRojSchedRole.RootActivity** opdateres også. Hvis den ikke køres, vises der en advarsel, når du forsøger at udføre ressourceplanlægningshandlinger.
+8. Gå til **Projektstyring og regnskab** > **Periodisk** > **Projektressourcer** > **Udfyld projektressourcer på tværs af alle virksomheder**, og vælg derefter **OK**. Dette er scriptet til dataopgradering for generelle data i tabellerne **ResProjectResource**, **ResCalendarDateTimeRange** og **ResEffectiveDateTimeRange**. Værdierne for feltet **PSAPRojSchedRole.RootActivity** opdateres også. Hvis den ikke køres, vises der en advarsel, når du forsøger at udføre ressourceplanlægningshandlinger.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Deaktiver forbedring af ydeevnen for ressourceplanlægning
 
-1. Gå til **Funktionsstyring** > **Alle** , og søg efter **Aktiver funktionen til forbedring af ydeevnen for projektressourceplanlægning**.
+1. Gå til **Funktionsstyring** > **Alle**, og søg efter **Aktiver funktionen til forbedring af ydeevnen for projektressourceplanlægning**.
 2. Vælg funktionen, og vælg derefter knappen **Deaktiver**.
 3. Opdater browseren.
 4. Gå til **Projektstyring og regnskab** > **Periodisk** > **Kapacitetssynkronisering** > **Synkroniser ressourcekapacitetsakkumuleringer**.

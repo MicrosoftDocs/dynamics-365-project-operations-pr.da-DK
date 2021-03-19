@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287951"
 ---
 # <a name="work-breakdown-structures-overview"></a>Oversigt over arbejdsopgavehierarkier
 
@@ -98,11 +98,11 @@ I øjeblikket kan du ikke tilpasse WBS-nummereringen.
 
 **Udrykket opgave** Når du rykker en opgave ud, er den ikke længere en konstituentopgave for dens overordnede. WBS-nummeret for denne opgave genberegnes automatisk for at afspejle opgavens nye niveau i hierarkiet. Tidsforbruget, omkostningerne og datoerne for opgavens tidligere overordnede opgave genberegnes, så den ekskluderer denne opgave. 
 
-**Flyt op og flyt ned** Når du klikker på **Flyt op** og **Flyt ned** , kan du ændre placeringen af en opgave i dens overordnedes hierarki. En opgaves position påvirker ikke opgavens tidsforbrug, omkostninger, datoer eller varighed. WBS-nummeret for denne opgave genberegnes dog automatisk for at afspejle opgavens nye position.
+**Flyt op og flyt ned** Når du klikker på **Flyt op** og **Flyt ned**, kan du ændre placeringen af en opgave i dens overordnedes hierarki. En opgaves position påvirker ikke opgavens tidsforbrug, omkostninger, datoer eller varighed. WBS-nummeret for denne opgave genberegnes dog automatisk for at afspejle opgavens nye position.
 
 ### <a name="schedule-estimation"></a>Planlægningsestimering
 
-Planlægningsestimering er som regel det andet trin i oprettelsen af et WBS. Den bedste fremgangsmåde er at fuldføre planlæsningsestimering, når du har oprettet opgaverne. Siden **Arbejdsopgavehierarki** i Finance indeholder to sektioner. Den øverste rude er beregnet til planlægningsestimeringer, og den nederste rude indeholder en fane med **Estimerede omkostninger og omsætning** , som du kan bruge til omkostningsestimering. 
+Planlægningsestimering er som regel det andet trin i oprettelsen af et WBS. Den bedste fremgangsmåde er at fuldføre planlæsningsestimering, når du har oprettet opgaverne. Siden **Arbejdsopgavehierarki** i Finance indeholder to sektioner. Den øverste rude er beregnet til planlægningsestimeringer, og den nederste rude indeholder en fane med **Estimerede omkostninger og omsætning**, som du kan bruge til omkostningsestimering. 
 **Opgaveafhængigheder** I et WBS kan du oprette en foregående relation mellem opgaver. Når du tildeler foregående opgaver til en opgave, kan opgaven kun starte, når du har fuldført alle de foregående opgaver. Opgavens planlagte startdato indstilles automatisk til den seneste dato for alle dens foregående opgaver. 
 
 **Opgaveplanlægning** Følgende faktorer bestemmer planlægningen af bladnodeopgaver:

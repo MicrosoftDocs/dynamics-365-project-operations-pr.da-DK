@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289452"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser projektestimater direkte fra Project Service Automation til Finance and Operations
 
@@ -83,11 +83,11 @@ I skabelonen for projektets timeestimater skal du bruge Microsoft Power-forespø
 Hvis du vil opdatere id'et for standardprognosemodellen i skabelonen, skal du klikke på pilen **Tilknyt** for at åbne tilknytningen. Vælg derefter linket **Avanceret forespørgsel og filtrering**.
 
 - Hvis du bruger standardtimeestimaterne for projektet (PSA til Fin og Ops), skal du i Power Query markere den sidst **Indsatte betingelse** i listen **Anvendte trin**. I feltet **Funktion** skal du erstatte **O\_prognose** med navnet din prognosemodels id, som skal bruges sammen med integrationen. Standardskabelonen har et prognosemodel-id fra demonstrationsdataene.
-- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne** , og angiv et navn for den nye kolonnen, som f.eks **Model-id**. Angiv betingelsen for kolonnen "hvor" hvis projektopgave ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
+- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne**, og angiv et navn for den nye kolonnen, som f.eks **Model-id**. Angiv betingelsen for kolonnen "hvor" hvis projektopgave ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrering af ressourcespecifikke poster
 
-Skabelonen for projektets timeestimater (PSA til Fin og Ops) har et standardfilter, der fjerner alle ressourcespecifikke poster. Hvis du opretter din egen skabelon, skal du tilføje dette filter. Vælg linket **Avanceret forespørgsel og filtrering** , der skal filtreres i kolonnen **msdyn\_erlinjeopgave** , så det kun er poster med **Falsk** , der inkluderes.
+Skabelonen for projektets timeestimater (PSA til Fin og Ops) har et standardfilter, der fjerner alle ressourcespecifikke poster. Hvis du opretter din egen skabelon, skal du tilføje dette filter. Vælg linket **Avanceret forespørgsel og filtrering**, der skal filtreres i kolonnen **msdyn\_erlinjeopgave**, så det kun er poster med **Falsk**, der inkluderes.
 
 #### <a name="filter-out-empty-transaction-category-rows"></a>Filtrerer tomme rækker fra i transaktionskategorier
 
@@ -137,18 +137,18 @@ I skabelonen for projektets udgiftsestimater skal du bruge Power Query til at fu
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filter, så det kun omfatter linjer for udgiftsestimater
 
-Skabelonen for projektets udgiftsestimater (PSA til Fin og Ops) har et standardfilter, der kun indeholder udgiftslinjer i integrationen. Hvis du opretter din egen skabelon, skal du tilføje dette filter. Vælg opgaven **Transaktionsrelationer** , og klik derefter på pilen **Tilknyt** for at åbne tilknytningen. Vælg linket **Avanceret forespørgsel og filtrering**. Filtrer kolonnen **msdyn\_transaktionstype1** , så den kun inkluderer **msdyn\_estimalinje**.
+Skabelonen for projektets udgiftsestimater (PSA til Fin og Ops) har et standardfilter, der kun indeholder udgiftslinjer i integrationen. Hvis du opretter din egen skabelon, skal du tilføje dette filter. Vælg opgaven **Transaktionsrelationer**, og klik derefter på pilen **Tilknyt** for at åbne tilknytningen. Vælg linket **Avanceret forespørgsel og filtrering**. Filtrer kolonnen **msdyn\_transaktionstype1**, så den kun inkluderer **msdyn\_estimalinje**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Angiv id'et for standardprognosemodellen
 
 Hvis du vil opdatere id'et for standardprognosemodellen i skabelonen, skal du vælge opgaven **Udgiftsestimater** og derefter klikke på pilen **Tilknyt** for at åbne tilknytningen. Vælg linket **Avanceret forespørgsel og filtrering**.
 
 - Hvis du bruger standardskabelonen for projektets udgiftsestimater (PSA til Fin og Ops), skal du i Power Query markere den første **Indsatte betingelse** fra sektionen **Anvendte trin**. I feltet **Funktion** skal du erstatte **O\_prognose** med navnet din prognosemodels id, som skal bruges sammen med integrationen. Standardskabelonen har et prognosemodel-id fra demonstrationsdataene.
-- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne** , og angiv et navn for den nye kolonnen, som f.eks **Model-id**. Angiv betingelsen for kolonnen "hvor" hvis estimatlinje-id ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
+- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne**, og angiv et navn for den nye kolonnen, som f.eks **Model-id**. Angiv betingelsen for kolonnen "hvor" hvis estimatlinje-id ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
 
 #### <a name="transform-the-billing-types"></a>Transformer faktureringstyperne
 
-Skabelonen for projektets udgiftsestimater (PSA til Fin og Ops) indeholder en betinget kolonne, der bruges til at transformere de faktureringstyper, der modtages fra Project Service Automation under integrationen. Hvis du opretter din egen skabelon, skal du tilføje denne betingede kolonne. Vælg linket **Avanceret forespørgsel og filtrering** , og vælg derefter **Tilføj betinget kolonne**. Angiv et navn til den nye kolonne, f.eks. **Faktureringstype**. Angiv derefter følgende betingelse:
+Skabelonen for projektets udgiftsestimater (PSA til Fin og Ops) indeholder en betinget kolonne, der bruges til at transformere de faktureringstyper, der modtages fra Project Service Automation under integrationen. Hvis du opretter din egen skabelon, skal du tilføje denne betingede kolonne. Vælg linket **Avanceret forespørgsel og filtrering**, og vælg derefter **Tilføj betinget kolonne**. Angiv et navn til den nye kolonne, f.eks. **Faktureringstype**. Angiv derefter følgende betingelse:
 
 Hvis **msdyn\_faktureringstype** = 192350000, er den ikke **Fakturerbar**  
 Hvis **msdyn\_faktureringstype** = 192350001, er den **Fakturerbar**  
@@ -157,7 +157,7 @@ ellers **Ikketilgængelige**
 
 #### <a name="transform-the-transaction-types"></a>Transformer transaktionstyperne
 
-Skabelonen for projektets udgiftsestimater (PSA til Fin og Ops) indeholder en betinget kolonne, der bruges til at transformere de transaktionstyper, der modtages fra Project Service Automation under integrationen. Hvis du opretter din egen skabelon, skal du tilføje denne betingede kolonne. Vælg linket **Avanceret forespørgsel og filtrering** , og vælg derefter **Tilføj betinget kolonne**. Angiv et navn til den nye kolonne, f.eks. **Transaktionstype**. Angiv derefter følgende betingelse:
+Skabelonen for projektets udgiftsestimater (PSA til Fin og Ops) indeholder en betinget kolonne, der bruges til at transformere de transaktionstyper, der modtages fra Project Service Automation under integrationen. Hvis du opretter din egen skabelon, skal du tilføje denne betingede kolonne. Vælg linket **Avanceret forespørgsel og filtrering**, og vælg derefter **Tilføj betinget kolonne**. Angiv et navn til den nye kolonne, f.eks. **Transaktionstype**. Angiv derefter følgende betingelse:
 
 Hvis **msdyn\_transaktionstypekode** = 192350000, er det **Omkostninger**  
 Hvis **msdyn\_transaktionstypekode** = 192350005, så er det **Salg**  

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122336"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287726"
 ---
 # <a name="manage-the-billing-backlog"></a>Administrer faktureringsefterslæbet
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations har to dedikerede visninger, som kan hjælpe dig med at arbejde med og administrere faktureringsefterslæbet. De er **Fast pris-milepæle** og **Faktureringsefterslæb for tid og materiale** Hvis du vil vælge en visning, skal du i området **Salg** i Project Operations vælge **Fakturering** i venstre navigationsside. Links til faktureringsefterslæbet gemmes der.
+Dynamics 365 Project Operations har to dedikerede visninger, der kan hjælpe dig med at arbejde med og administrere faktureringsefterslæbet. De er **Fast pris-milepæle** og **Faktureringsefterslæb for tid og materiale** Hvis du vil vælge en visning, skal du i området **Salg** i Project Operations vælge **Fakturering** i venstre navigationsside. Links til faktureringsefterslæbet gemmes der.
 
 ## <a name="fixed-price-milestones"></a>Milepæle for fast pris
 

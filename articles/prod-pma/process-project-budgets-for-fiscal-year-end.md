@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289722"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Overfør projektbudgetter ved afslutning af regnskabsåret
 
@@ -59,10 +59,10 @@ Når du behandler de resterende budgetbeløb, kan du oprette transaktioner i fin
 2. På siden **Proces for overførsel af projektbudget** skal du vælge **Årsafslutning** og derefter aktivere **Overfør de resterende projektbudgetbeløb** og **Opret budgetregisterposter i finanskladden**. 
 3. På fanen **Parametre** skal du i feltgruppen **Projektparametre** vælge følgende:
 
-   - **Projektbudgetår** : Vælg starten af det regnskabsår, som du vil have vist de resterende budgetbeløb for. 
-   - **Drift** : Opret driftstransaktioner i finanskladden. 
-   -  **IGVA** : Opret transaktioner for IGVA (igangværende arbejde) i finanskladden.
-   -  **Løn** : Opret lønfordelingstransaktioner i finanskladden. 
+   - **Projektbudgetår**: Vælg starten af det regnskabsår, som du vil have vist de resterende budgetbeløb for. 
+   - **Drift**: Opret driftstransaktioner i finanskladden. 
+   -  **IGVA**: Opret transaktioner for IGVA (igangværende arbejde) i finanskladden.
+   -  **Løn**: Opret lønfordelingstransaktioner i finanskladden. 
 
 5. I feltgruppen **Finanskladde** skal du angive følgende oplysninger: 
 
@@ -73,7 +73,7 @@ Når du behandler de resterende budgetbeløb, kan du oprette transaktioner i fin
 
    - I feltet **Fra prognosemodel** skal du vælge den prognosemodel for projektbudgettet, der er knyttet til de resterende budgetbeløb, som du vil overføre for projekterne. 
    - I feltet **til finansbudgetmodel** skal du vælge den finansbudgetmodel, der er knyttet til de budgetbeløb, som du vil overføre til finanskladden. 
-   -  Vælg **Overfør salgsvaluta** , hvis du vil bruge projektets salgsvaluta til de transaktioner i finanskladden, der oprettes, når du overfører budgetbeløbene for projekterne. Hvis indstillingen ikke er valgt, bruger transaktionerne regnskabsvalutaen. 
+   -  Vælg **Overfør salgsvaluta**, hvis du vil bruge projektets salgsvaluta til de transaktioner i finanskladden, der oprettes, når du overfører budgetbeløbene for projekterne. Hvis indstillingen ikke er valgt, bruger transaktionerne regnskabsvalutaen. 
    -  Vælg **Vis ingen resterende** for at inkludere projekter, der ikke har nogen resterende budgetbeløb, men opfylder de øvrige kriterier, som du har valgt i de projekter, der vises i den nederste rude.
 
 7. På fanen **Vælg budgetter** skal du vælge **Hent alle budgetter** for at indlæse alle de budgetter, der opfylder de valgte kriterier. Hvis du foretrækker at designe en databaseforespørgsel, der indlæser et bestemt sæt projektbudgetter i ruden, skal du vælge **Hent valgte budgetter**.

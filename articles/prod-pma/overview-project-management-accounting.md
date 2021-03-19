@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074315"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289767"
 ---
 # <a name="project-management-and-accounting-overview"></a>Oversigt over projektstyring og regnskab
 
@@ -205,7 +205,7 @@ Du kan bestille varer fra firmaets lager med henblik på at forbruge dem i et pr
 
 Den måde, du bestiller varer på, afhænger af, hvor du bestiller dem fra:
 
--   Hvis du vil bestille varer fra firmaets lager, skal du angive ordren som et varebehov. Hvis du bruger siden **Varebehov** , kan du konfigurere behovet, så du modtager varerne som delleverancer. Du kan derfor udskyde forbruget af et antal varer, indtil der er brug for varerne.
+-   Hvis du vil bestille varer fra firmaets lager, skal du angive ordren som et varebehov. Hvis du bruger siden **Varebehov**, kan du konfigurere behovet, så du modtager varerne som delleverancer. Du kan derfor udskyde forbruget af et antal varer, indtil der er brug for varerne.
 -   Hvis du vil bestille varer fra en ekstern leverandør, skal du oprette ordren som en indkøbsordre på siden **Indkøbsordre**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Du finder flere oplysninger om, hvordan du behandler projektfakturaer i [Projekt
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Beregn omkostningerne for at fuldføre et projekt
 
-Når du opretter et estimat, kan du vælge den metode, der skal bruges til at beregne færdiggørelsesomkostningerne for projektet. Du kan vælge en metode i feltet **Færdiggørelsesomkostningsmetode** på siden **Opret estimat**. Den metode, du vælger, anvendes separat på de enkelte omkostningslinjer i omkostningsestimatet. Mens en linje har statussen **Oprettet** , kan du ændre den metode, der anvendes på den, på siden **Omkostningsestimat**. 
+Når du opretter et estimat, kan du vælge den metode, der skal bruges til at beregne færdiggørelsesomkostningerne for projektet. Du kan vælge en metode i feltet **Færdiggørelsesomkostningsmetode** på siden **Opret estimat**. Den metode, du vælger, anvendes separat på de enkelte omkostningslinjer i omkostningsestimatet. Mens en linje har statussen **Oprettet**, kan du ændre den metode, der anvendes på den, på siden **Omkostningsestimat**. 
 
 I tabellen nedenfor finder du en beskrivelse af de metoder, du kan anvende til at beregne omkostningerne for at fuldføre et projekt.
 
@@ -300,7 +300,7 @@ Afhængigt af din konfiguration kan du udarbejde en prognose for likviditetstilg
 -   **Projektdato:** 5. marts 2012.
 -   **Fakturadato:** 31. marts 2012. Denne dato bestemmes ud fra fakturafrekvensen. I dette eksempel skal du angive fakturafrekvensen til den aktuelle måned. Alle transaktioner, der bogføres i marts måned, faktureres derfor den sidste dag i måneden.
 -   **Forfaldsdato:** 14. april 2012. Denne dato bestemmes ud fra de betalingsbetingelser, der blev angivet for projektet. I dette eksempel har du valgt betalingsbetingelser på 14 dage. Der føjes derfor 14 dage til fakturadatoen, som skal forfalde den 14. april 2012.
--   **Forventet salgsbetalingsdato:** 27. april 2012. Denne dato beregnes ved at tilføje antallet af dage i feltet **Generelle bufferdage** på siden **Projektstyring og regnskabsparametre** til antallet af dage i feltet **Enkelte bufferdage** på siden **Projektkontrakter** og derefter tilføje totalen til antallet af dage i feltet **Forfaldsdato**. I dette eksempel har du angivet **3** i feltet **Generelle bufferdage** og **10** i feltet **Individuelle bufferdage**. Der føjes derfor 13 dage til forfaldsdatoen, som er sammenfaldende med en forventet salgsbetalingsdato, der er angivet som den 27. april 2012.
+-   **Forventet salgsbetalingsdato:** 27. april 2012. Denne dato beregnes ved at tilføje antallet af dage i feltet **Generelle bufferdage** på siden **Projektstyring og regnskabsparametre** til antallet af dage i feltet **Individuelle bufferdage** på siden **Projektkontrakter** og derefter tilføje totalen til antallet af dage i feltet **Forfaldsdato**. I dette eksempel har du angivet **3** i feltet **Generelle bufferdage** og **10** i feltet **Individuelle bufferdage**. Der føjes derfor 13 dage til forfaldsdatoen, som er sammenfaldende med en forventet salgsbetalingsdato, der er angivet som den 27. april 2012.
 
 De generelle bufferdage kan enten erstatte de enkelte bufferdage eller blive tilføjet til de enkelte bufferdage:
 
@@ -323,9 +323,9 @@ På baggrund af de dage, der er defineret, kan omkostningsbetalingsdatoen være 
 
 Projektdatoen for transaktionen er f.eks. den 5. marts 2012, og følgende betalingsbetingelser angives:
 
--   **Tidspunkt:** Indeværende måned ( **M** )
--   **Udgifter:** 14 dage ( **D14** )
--   **Varer:** 30 dage ( **D30** )
+-   **Tidspunkt:** Indeværende måned (**M**)
+-   **Udgifter:** 14 dage (**D14**)
+-   **Varer:** 30 dage (**D30**)
 
 Afhængigt af disse indstillinger er omkostningsbetalingsdatoen for de enkelte posteringstyper i dette tilfælde:
 
@@ -364,7 +364,7 @@ Du kan overvåge de omkostninger, der opstår i organisationen i forbindelse med
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Få vist de resterende budgetterede beløb
 
-Hvis **Resterende budget** er valgt som metode for omkostningsstyring på siden **Projektstyring og regnskabsparametre** , beregner siden **Omkostningsstyring** de omkostninger, der ikke er blevet bogført som faktiske eller markeret som bindende. Beløbene under fanen **Generelt** i den nederste rude på siden **Omkostningsstyring** beregnes mere specifikt på følgende måder:
+Hvis **Resterende budget** er valgt som metode for omkostningsstyring på siden **Projektstyring og regnskabsparametre**, beregner siden **Omkostningsstyring** de omkostninger, der ikke er blevet bogført som faktiske eller markeret som bindende. Beløbene under fanen **Generelt** i den nederste rude på siden **Omkostningsstyring** beregnes mere specifikt på følgende måder:
 
 -   **Faktisk omkostning** – Det samlede beløb, der er brugt på projektet for den valgte omkostningslinje. Det faktiske omkostningsbeløb beregnes på siden **Finansopdateringer**.
 -   **Bindende omkostning** – Det ekstra udgiftsbeløb, som den juridiske enhed har givet tilsagn om at betale. De specifikke bindende omkostninger beregnes på siden **Bindende omkostninger**.
@@ -381,7 +381,7 @@ På siden **Omkostningsstyring** under fanen **Afvigelse** kan du se en sammenli
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Få vist de samlede budgetterede beløb
 
-Hvis **Det samlede budget** er valgt som metode for omkostningsstyring på siden **Projektstyring og regnskabsparametre** , beregner siden **Omkostningsstyring** de faktiske omkostninger og projektets samlede omkostninger for at hjælpe dig med at identificere eventuelle forskelle mellem de to. Beløbene i kolonnerne i den nederste rude på siden **Omkostningsstyring** under fanen **Generelt** beregnes mere specifikt på følgende måder:
+Hvis **Det samlede budget** er valgt som metode for omkostningsstyring på siden **Projektstyring og regnskabsparametre**, beregner siden **Omkostningsstyring** de faktiske omkostninger og projektets samlede omkostninger for at hjælpe dig med at identificere eventuelle forskelle mellem de to. På siden **Omkostningsstyring** kan du i kolonnerne i den nederste rude på fanen **Generelt** specifikt se beløbene, som beregnes på følgende måder:
 
 -   **Samlede budgetterede omkostninger** – Det samlede budgetterede beløb for den valgte omkostningslinje.
 -   **Faktisk omkostning** – De samlede omkostninger, der er påløbet for projektet dags dato for de valgte omkostningslinjer.
@@ -418,7 +418,7 @@ På siden **Tidsforbrug i timer** kan du, udover den samlede procent af tidsforb
 
 -   **Ikke-inkluderede timer** – Disse timer indgår ikke i tidsforbrugssatsen angivet i timer.
 -   **Inkluderede timer** – Disse timer beregnes ved at tilføje tidsforbruget i timer og direkte tid. Disse timer inkluderes i tidsforbrugsgraden.
--   **Direkte tid** – Hvis du beregner en faktureringsgrad, er disse timer de samme som ikke-fakturerbare timer. Hvis du beregner en effektivitetsgrad, er disse timer de samme som ikke-produktive timer.
+-   **Belastet tid** – Hvis du beregner en faktureringsgrad, er disse timer de samme som ikke-fakturerbare timer. Hvis du beregner en effektivitetsgrad, er disse timer de samme som ikke-produktive timer.
 -   **Tidsforbrug i timer** – Hvis du beregner en faktureringsgrad, er disse timer de samme som fakturerbare timer. Hvis du beregner en effektivitetsgrad, er disse timer de samme som produktive timer.
 
 Når du beregner tidsforbrugsgraden for en arbejder, kan du bruge normtimer eller inkluderede timer. Hvis du bruger inkluderede timer, skal du sikre dig, at arbejdere registrerer al arbejdstid i timeseddelperioderne, da beregningen udtrykkes som en procentdel af de timer, der er angivet. Når du beregner den timelige tidsforbrugssats for et projekt, en projektkontrakt, en kundepost eller en kategori, skal du bruge inkluderede timer i beregningen.
@@ -432,7 +432,7 @@ Du kan oprette en projektopgørelse for at få vist et hurtigt snapshot af et pr
 -   Projektdato/finanskladdedato
 -   Data
 
-Når opgørelsen er beregnet, kan du se følgende oplysninger under de forskellige faner på siden **Projektopgørelser** :
+Når opgørelsen er beregnet, kan du se følgende oplysninger under de forskellige faner på siden **Projektopgørelser**:
 
 -   **Generelt** – Generelle oplysninger om projektets grundlæggende driftsstruktur.
 -   **Drift** – Oplysninger om akkumuleret omsætning.
