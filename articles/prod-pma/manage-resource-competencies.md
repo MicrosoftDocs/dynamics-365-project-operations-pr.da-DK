@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074197"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270626"
 ---
 # <a name="manage-resource-competencies"></a>Administrer ressourcekompetencer
 
@@ -41,7 +41,7 @@ Hvis du vil konfigurere kompetencer for en arbejder, kan du enten bruge listesid
 
 1. På siden **Arbejdere** skal du vælge linjen for den arbejder, som skal have tilføjet oplysninger om et certifikat.
 2. I handlingsruden skal du på fanen **Arbejder** i gruppen **Kompetencer** vælge **Certifikater**.
-3. Vælg **Ny** , og derefter skal du i feltet **Certifikattype** vælge **PMP**.
+3. Vælg **Ny**, og derefter skal du i feltet **Certifikattype** vælge **PMP**.
 4. I feltet **Startdato** skal du vælge **10/1/2015** og vælge **Gem**.
 
 ## <a name="set-up-competencies-skills"></a>Konfigurer kompetencer: færdigheder
@@ -52,7 +52,7 @@ Hvis du vil konfigurere kompetencer for en arbejder, kan du enten bruge listesid
 4. I feltet **Niveau** skal du vælge **5 Ekspert**.
 5. I feltet **Niveaudato** skal du vælge **1-/14/2014**.
 6. I feltet **Antal års erfaring** skal du angive **10**.
-7. Vælg **Gem** , og luk derefter siden.
+7. Vælg **Gem**, og luk derefter siden.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274316"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Konfigurer automatisk fakturaoprettelse - lille
  
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Du kan konfigurere automatisk oprettelse af faktura i Dynamics 365 Project Operations. Systemet opretter en proformafaktura i kladde, der er baseret på fakturaplanen for hver projektkontrakt og kontraktlinje. Fakturaplaner konfigureres på kontraktlinjeniveau. De enkelte linjer i en kontrakt kan have en særskilt fakturaplan, eller du kan inkludere den samme fakturaplan på alle kontraktlinjer.
+Du kan konfigurere automatisk fakturaoprettelse i Dynamics 365 Project Operations. Systemet opretter en proformafaktura i kladde, der er baseret på fakturaplanen for hver projektkontrakt og kontraktlinje. Fakturaplaner konfigureres på kontraktlinjeniveau. De enkelte linjer i en kontrakt kan have en særskilt fakturaplan, eller du kan inkludere den samme fakturaplan på alle kontraktlinjer.
 
 Når du opretter en faktura, opretter systemet altid mindst én faktura pr. projektkontrakt. I visse tilfælde kan der oprettes flere fakturaer.
 

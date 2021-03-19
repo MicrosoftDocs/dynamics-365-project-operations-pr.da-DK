@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074308"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271031"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Opret prognosemodeller for projektbudgetter 
 
@@ -41,9 +41,9 @@ I dette emne beskrives det, hvordan du kan oprette en prognosemodel for resteren
 5. Hvis du vil bruge projektdatoen som fakturadatoen, skal du angive **Prognosefakturadato** til **Ja**. 
 6. I feltet **Budgettype** skal du vælge en af følgende modeltyper:
 
-   - **Oprindeligt budget** : Brug de oprindelige budgetbeløb, der er bindende, når det første budget oprettes og godkendes.
-   - **Resterende budget** : Brug de resterende budgetbeløb i projektets levetid. Saldiene i denne prognosemodel reduceres med faktiske transaktioner og forøges eller formindskes via budgetrevisioner.
-   - **Overfør** : Brug overførte budgetbeløb til projektet. Overførsel er en valgfri proces, der kan køres for at overføre ubrugte budgetbeløb fra et regnskabsår til et andet.
+   - **Oprindeligt budget**: Brug de oprindelige budgetbeløb, der er bindende, når det første budget oprettes og godkendes.
+   - **Resterende budget**: Brug de resterende budgetbeløb i projektets levetid. Saldiene i denne prognosemodel reduceres med faktiske transaktioner og forøges eller formindskes via budgetrevisioner.
+   - **Overfør**: Brug overførte budgetbeløb til projektet. Overførsel er en valgfri proces, der kan køres for at overføre ubrugte budgetbeløb fra et regnskabsår til et andet.
 
 7. Angiv følgende indstillinger efter behov:
 

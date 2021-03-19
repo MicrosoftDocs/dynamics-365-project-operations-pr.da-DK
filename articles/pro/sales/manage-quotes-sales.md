@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177819"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272921"
 ---
 # <a name="manage-project-quotes"></a>Administrer projekttilbud
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-I Dynamics 365 Project Operations er projekttilbud designet til at hjælpe med at udarbejde forslag til projektarbejde. Strukturen i et projekttilbud i Project Operations er tiltænkt projektforslag med følgende komponenter:
+I Dynamics 365 Project Operations er projekttilbud designet til at hjælpe med at sammensætte forslag til projektarbejde. Strukturen i et projekttilbud i Project Operations er tiltænkt projektforslag med følgende komponenter:
 
   - Tilbudslinjer, der identificerer de separate komponenter i arbejdet, som vil blive præsenteret som komponenter på højt niveau.
   - Tilbudslinjedetaljer, der identificerer og estimerer arbejdet for de enkelte komponenter eller tilbudslinje på højt niveau. Planen eller estimerede datoer og de finansielle aspekter for arbejdet er knyttet til den pågældende tilbudslinje.

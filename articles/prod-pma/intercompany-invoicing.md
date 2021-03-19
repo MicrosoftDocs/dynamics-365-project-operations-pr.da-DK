@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074198"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270761"
 ---
 # <a name="intercompany-invoicing"></a>Intern fakturering
 
@@ -31,7 +31,7 @@ ms.locfileid: "4074198"
 
 Denne artikel indeholder oplysninger om og eksempler på intern fakturering af projekter.
 
-Din organisation kan have flere afdelinger, datterselskaber og andre juridiske enheder, som overfører produkter og tjenester til hinanden i forbindelse med projekter. Den juridiske enhed, der leverer tjenesten eller produktet, kaldes den *juridiske udlånsenhed* , og den juridiske enhed, der modtager servicen eller produktet, kaldes den *juridiske låneenhed*. 
+Din organisation kan have flere afdelinger, datterselskaber og andre juridiske enheder, som overfører produkter og tjenester til hinanden i forbindelse med projekter. Den juridiske enhed, der leverer tjenesten eller produktet, kaldes den *juridiske udlånsenhed*, og den juridiske enhed, der modtager servicen eller produktet, kaldes den *juridiske låneenhed*. 
 
 I følgende illustration vises et typisk scenarie, hvor to juridiske objekter, SI FR (den juridiske låneenhed) og SI USA (den juridiske udlånsenhed) deler ressourcer for at levere et projekt til kunde A. I dette scenario er SI FR forpligtet i henhold til kontrakt til at levere arbejdet til kunde A. 
 
@@ -44,12 +44,12 @@ Målet er at gøre omkostningskontrol, indtægtsføring, moms og overførselspri
 -   Udsæt indtægtsføring i en juridisk udlånsenhed, og når en juridisk låneenhed skal genkende omkostningerne.
 -   Akkumuler omsætning for igangværende arbejde i den juridiske udlånsenhed.
 -   Angiv overførselspriser, der kan være baseret på forskellige prisfastsættelsesmodeller. Her er nogle eksempler:
-    -   **Antal** – Den mængde, som du angiver i feltet **Prisfastsættelse** , er den faktiske omkostning pr. antal eller enhed.
+    -   **Antal** – Den mængde, som du angiver i feltet **Prisfastsættelse**, er den faktiske omkostning pr. antal eller enhed.
     -   **Gebyrbeløb** – Prisen/omkostningerne pr. transaktion plus det gebyrbeløb, du angiver i feltet **Prisfastsættelse**.
     -   **Gebyrprocent** – Overførselsprisen er prisen/omkostningerne pr. transaktion ganget med den gebyrprocent, som du angiver i feltet **Prisfastsættelse**.
     -   **Procent af salgspris** – Den procentdel af salgsprisen, der overføres til den juridiske udlånsenhed.
     -   **Beløb under salgspris** – Det beløb, som den juridiske låneenhed holder tilbage fra salgspriserne, før de overføres til den juridiske udlånsenhed.
-    -   **Dækningsgrad** – Det tal, du angiver i feltet **Prisfastsættelse** , er dækningsgraden, som angives som en procentdel af salgsprisen.
+    -   **Dækningsgrad** – Det tal, du angiver i feltet **Prisfastsættelse**, er dækningsgraden, som angives som en procentdel af salgsprisen.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Eksempel 1: Opsætning af parametre til intern fakturering
 I dette eksempel er USSI en juridisk udlånsenhed, og dens ressourcer er rapporteringsperiode set i forhold til den juridiske låneenhed, FRSI, der ejer kontrakten med slutbrugeren. Timer og udgifter, som USSI's medarbejdere rapporterer, kan medtages i den projektfaktura, som FRSI genererer. Derudover findes der en tredje kilde til transaktioner, som kan stamme fra den juridiske udlånsenhed (her: USSI), når den leverer delte leverandørtjenester til datterselskaber (som f.eks. FRSI) og derefter overfører disse omkostninger til projekter i de pågældende datterselskaber. Alle tilsvarende fakturadokumenter og momsberegninger fuldføres i Finance. 
@@ -65,13 +65,13 @@ I dette eksempel skal FRSI være en kunde i den juridiske enhed USSI, og USSI sk
    |  C   |                                  Åbn den leverandørpost, som du lige har oprettet, i FRSI.                                  | I handlingsruden skal du på fanen <strong>Generelt</strong> i gruppen <strong>Konfiguration</strong> klikke på <strong>Intern</strong>. På siden <strong>Intern</strong> skal du på fanen <strong>Samhandelsforhold</strong> angive skyderen <strong>Aktiv</strong> til <strong>Ja</strong>. I feltet <strong>Kundevirksomhed</strong> skal du vælge den kundepost, som du oprettede i trin A. |
 
 
-2. Klik på **Projektstyring og regnskab** &gt; **Opsætning** &gt; **Regnskabsparametre til projektstyring** , og klik dernæst på fanen **Intern**. Den måde, du konfigurerer parametrene på, afhænger af, om du er den juridiske låneenhed eller den juridiske udlånsenhed.
+2. Klik på **Projektstyring og regnskab** &gt; **Opsætning** &gt; **Regnskabsparametre til projektstyring**, og klik dernæst på fanen **Intern**. Den måde, du konfigurerer parametrene på, afhænger af, om du er den juridiske låneenhed eller den juridiske udlånsenhed.
    -   Hvis du er den juridiske låneenhed, skal du vælge den indkøbskategori, der skal bruges til at afstemme leverandørfakturaerne, som genereres automatisk.
    -   Hvis du er juridisk udlånsenhed for hver låneenhed, skal du vælge en standardprojektkategori for de enkelte transaktionstyper. Projektkategorier bruges til momskonfiguration, når den fakturerede kategori i interne transaktioner kun findes i den juridiske låneenhed. Du kan vælge at akkumulere omsætningen for interne transaktioner. Denne akkumulering sker, når transaktionerne bogføres og derefter tilbageføres, når den interne faktura bogføres.
 
 3. Klik på **Projektstyring og regnskab** &gt; **Opsætning** &gt; **Priser** &gt; **Overfør pris**.
 4. Vælg en valuta, transaktionstype og model for prisoverførsel. Den valuta, der bruges på fakturaen, er den valuta, der er konfigureret i kundeposten for den juridiske låneenhed i den juridiske udlånsenhed. Valutaen bruges til at sammenhold poster i tabellen med overførelsesprisen.
-5. Klik på **Generel hovedbog** &gt; **Opsætning af bogføring** &gt; **Internt regnskab** , og konfigurer en relation for USSI og FRSI.
+5. Klik på **Generel hovedbog** &gt; **Opsætning af bogføring** &gt; **Internt regnskab**, og konfigurer en relation for USSI og FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Eksempel 2: oprettelse og bogføring af en intern timeseddel
 USSI, som er den juridiske udlånsenhed, skal oprette og bogføre timesedlen for et projekt fra FRSI, som er den juridiske låneenhed. Der er to indgangspunkter for de trin, der skal udføres for denne opgave.

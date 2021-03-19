@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119546"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274946"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Fastsæt salgspriser for estimater og faktiske oplysninger
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Når salgspriser på estimater og faktiske oplysninger fastsættes i Dynamics 365 Project Operations, bruger systemet først datoen og valutaen for det relaterede projekttilbud eller -kontrakt til at fastsætte salgsprislisten. Når salgsprislisten er blevet fastsat, fastsætter systemet salgs- eller faktureringssatsen.
+Når salgspriserne på estimater og faktiske værdier afsluttes i Dynamics 365 Project Operations, bruger systemet først datoen og valutaen for det relaterede projekttilbud eller den relaterede kontrakt til at afslutte salgsprislisten. Når salgsprislisten er blevet fastsat, fastsætter systemet salgs- eller faktureringssatsen.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Fastsættelse af salgssatser for faktiske og estimerede linjer for tid
 

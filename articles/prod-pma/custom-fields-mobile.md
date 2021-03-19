@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074226"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270986"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementer brugerdefinerede felter til Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 
@@ -45,7 +45,7 @@ Dette emne er tiltænkt udviklere, der integrerer deres brugerdefinerede felter 
 Klassen **TSTimesheetCustomField** er den X++-datakontraktklasse, der repræsenterer oplysninger om et brugerdefineret felt til timeseddelfunktionaliteten. Lister over brugerdefinerede feltobjekter overføres både til TSTimesheetDetails-datakontrakten og TSTimesheetEntry-datakontrakten for at få vist brugerdefinerede felter i mobilappen.
 
 - **TSTimesheetDetails** – Kontrakten for overskrifter til timesedlen.
-- **TSTimesheetEntry** – Kontrakt for timeseddeltransaktion. Grupper af disse objekter, der har samme projektoplysninger og den samme værdi i **timesheetLineRecId** , udgør en linje.
+- **TSTimesheetEntry** – Kontrakt for timeseddeltransaktion. Grupper af disse objekter, der har samme projektoplysninger og den samme værdi i **timesheetLineRecId**, udgør en linje.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (typer)
 
@@ -56,16 +56,16 @@ Egenskaben **FieldBaseType** i objektet **TsTimesheetCustom** bestemmer, hvilken
 | 0           | Streng (og enum) | Feltet vises som et tekstfelt. |
 | 0           | Integer           | Værdien vises som et tal uden decimaler. |
 | 2           | Reelle tal              | Værdien vises som et tal med decimaler.<p>Hvis du vil have vist den reelle værdi som en valuta i appen, skal du bruge egenskaben **fieldExtenededType**. Du kan bruge egenskaben **numberOfDecimals** til at angive det antal decimaler, der skal vises.</p> |
-| 3           | Date              | Datoformater bestemmes af brugerens indstilling for **Dato, klokkeslæt og talformat** , der er angivet under **Præference for sprog og land/område** under **Brugerindstillinger**. |
+| 3           | Date              | Datoformater bestemmes af brugerens indstilling for **Dato, klokkeslæt og talformat**, der er angivet under **Præference for sprog og land/område** under **Brugerindstillinger**. |
 | 4           | Boolean           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Hvis egenskaben **stringOptions** ikke findes i objektet **TSTimesheetCustomField** , stilles et fritekstfelt til rådighed for brugeren.
+- Hvis egenskaben **stringOptions** ikke findes i objektet **TSTimesheetCustomField**, stilles et fritekstfelt til rådighed for brugeren.
 
     Egenskaben **stringLength** kan bruges til at angive den maksimale strenglængde, som brugere kan angive.
 
-- Hvis egenskaben **stringOptions** er angivet på objektet **TSTimesheetCustomField** , er listeelementerne de eneste værdier, som brugere kan vælge ved hjælp af alternativknapper (alternativknapper).
+- Hvis egenskaben **stringOptions** er angivet på objektet **TSTimesheetCustomField**, er listeelementerne de eneste værdier, som brugere kan vælge ved hjælp af alternativknapper (alternativknapper).
 
     I dette tilfælde kan strengfeltet fungere som en enum-værdi med henblik på brugerangivelse. Hvis du vil gemme værdien i databasen som en enum, skal strengværdien knyttes til enum-værdien manuelt, før du gemmer den i databasen, ved hjælp af kommandokæden (se f.eks. afsnittet "Brug af en kommandokæde i TSTimesheetEntryService-klassen for at gemme en timeseddelpost fra appen til databasen igen" senere i dette emne).
 
@@ -145,7 +145,7 @@ For felter af typen **Reel** overfører denne egenskab den reelle værdi for fel
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-For felter af typen **Streng** overfører denne egenskab strengværdien for feltet mellem serveren og app'en. Den bruges også til felter af typen **Reel** , der formateres som valuta. I forbindelse med disse felter bruges egenskaben til at sende valutakoden til appen.
+For felter af typen **Streng** overfører denne egenskab strengværdien for feltet mellem serveren og app'en. Den bruges også til felter af typen **Reel**, der formateres som valuta. I forbindelse med disse felter bruges egenskaben til at sende valutakoden til appen.
 
 ### <a name="datevalue-date"></a>dateValue (dato)
 
@@ -179,9 +179,9 @@ Nedenfor vises et skærmbillede fra Visual Studio af applikationsobjekttræet. D
 
 Denne kode styrer visningsindstillingerne for feltet i appen. Den styrer f.eks. felttypen, navnet, om feltet er obligatorisk, og hvilken sektion feltet vises i.
 
-Følgende eksempel viser et strengfelt for tidsregistreringer. Dette felt indeholder to indstillinger, **Første mulighed** og **Anden mulighed** , der er tilgængelige via alternativknapper (alternativknapper). Feltet i appen er knyttet til feltet **TestLineString** , som føjes til tabellen TSTimesheetLine.
+Følgende eksempel viser et strengfelt for tidsregistreringer. Dette felt indeholder to indstillinger, **Første mulighed** og **Anden mulighed**, der er tilgængelige via alternativknapper (alternativknapper). Feltet i appen er knyttet til feltet **TestLineString**, som føjes til tabellen TSTimesheetLine.
 
-Bemærk, at brugen af metoden **TSTimesheetCustomField::newFromMetatdata()** gør det nemmere at initialisere egenskaberne for det brugerdefinerede felt: **fieldBaseType** , **tableName** , **feltnavn** , **navn** , **erRedigerbar** , **erObligatorisk** , **strengLængde** og **numberOfDecimals**. Du kan også angive disse parametre manuelt, som du foretrækker.
+Bemærk, at brugen af metoden **TSTimesheetCustomField::newFromMetatdata()** gør det nemmere at initialisere egenskaberne for det brugerdefinerede felt: **fieldBaseType**, **tableName**, **feltnavn**, **navn**, **erRedigerbar**, **erObligatorisk**, **strengLængde** og **numberOfDecimals**. Du kan også angive disse parametre manuelt, som du foretrækker.
 
 ```xpp
 ...
@@ -245,10 +245,10 @@ Hvis du vil gemme et brugerdefineret felt i databasen igen, der anvendes normalt
 
 - Metoden **timesheetLineNeedsUpdating** bruges til at afgøre, om linjeposten er blevet ændret af brugeren i appen og skal gemmes i databasen. Hvis ydeevnen ikke er et problem, kan denne metode forenkles, så den altid returnerer **sand**.
 - Metoderne **populateTimesheetLineFromEntryDuringCreate** og **populateTimesheetLineFromEntryDuringUpdate** kan udvides, så de angiver værdier i TSTimesheetLine-databaseposten fra den TSTimesheetEntry-datakontraktpost, der leveres. I eksemplet nedenfor kan du se, hvordan tilknytningen mellem databasefeltet og posteringsfeltet manuelt udføres via X++-kode.
-- Metoden **populateTimesheetWeekFromEntry** kan også udvides, hvis det brugerdefinerede felt, der er knyttet til objektet **TSTimesheetEntry** , skal skrive tilbage til TSTimesheetLineweek-databasetabellen.
+- Metoden **populateTimesheetWeekFromEntry** kan også udvides, hvis det brugerdefinerede felt, der er knyttet til objektet **TSTimesheetEntry**, skal skrive tilbage til TSTimesheetLineweek-databasetabellen.
 
 > [!NOTE]
-> I følgende eksempel gemmes værdien for **firstOption** eller **secondOption** , som brugeren vælger, til databasen som en rå strengværdi. Hvis databasefeltet er et felt af typen **Enum** , kan disse værdier knyttes manuelt til en enum-værdi og derefter gemmes i et enum-felt i databasetabellen.
+> I følgende eksempel gemmes værdien for **firstOption** eller **secondOption**, som brugeren vælger, til databasen som en rå strengværdi. Hvis databasefeltet er et felt af typen **Enum**, kan disse værdier knyttes manuelt til en enum-værdi og derefter gemmes i et enum-felt i databasetabellen.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Eksisterende logik for timeseddelfunktionalitet på databaseniveau fungerer stad
 
 - Hvis **validateWrite** i tabellen TSTimesheetLine returnerer **falsk** under en lagringshandling for en timeseddellinje, vises der en fejlmeddelelse i mobilappen.
 - Hvis **validateSubmit** i tabellen TSTimesheetTable returnerer **falsk** under en indsendelse af en timeseddel i appen, vises brugeren en fejlmeddelelse.
-- Logik, der udfylder felter (f.eks. **Linjeegenskab** ) under metoden **indsæt** i TSTimesheetLine-tabellen, kører stadig.
+- Logik, der udfylder felter (f.eks. **Linjeegenskab**) under metoden **indsæt** i TSTimesheetLine-tabellen, kører stadig.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Skjul og marker standardfelterne som skrivebeskyttede via konfiguration
 

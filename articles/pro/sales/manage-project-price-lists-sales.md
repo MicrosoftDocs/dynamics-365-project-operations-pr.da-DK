@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175974"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273011"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administrer projektprislister i projekttilbud - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Projekttilbud er udviklet for at understøtte flere salgsprislister med gældende datoer. Med Dynamics 365 Project Operations tilføjes der et nyt tilknyttet objekt, der kaldes **Projektprislister**. Dette objekt har en 1-til-mange-relation til et projekttilbud.
+Projekttilbud er udviklet for at understøtte flere salgsprislister med gældende datoer. Med Dynamics 365 Project Operations tilføjes der et nyt tilknyttet objekt kaldet **Projektprislister**. Dette objekt har en 1-til-mange-relation til et projekttilbud.
 
 Projektprislister bruges til at prisfastsætte tids- og udgiftstransaktioner på et projekt. Når et tilbud indeholder en eller flere projektprislister, bruges disse prislister til at prisfastsætte tids- og udgiftsestimater og faktiske værdier på projekter, der er knyttet til tilbuddet, via tilbudslinjen.
 

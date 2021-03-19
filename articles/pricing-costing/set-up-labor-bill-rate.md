@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180681"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274811"
 ---
 # <a name="set-up-labor-bill-rates"></a>Konfigurer hyppigheden for fakturering af arbejdstid
 
 **Finder anvendelse på:** Project Operations til ressource-/ikke-lagerbaserede scenarier
 
-Hver prisliste har et sæt rollepriser eller satser for arbejdskraft, der er gældende for den kontekst og ikrafttrædelsesdato, der er inkluderet i prislistens overskrift. Faktureringssatser for tid i Dynamics 365 Project Operations kan kun konfigureres i én valuta, som er den valuta, der er angivet i prislistens overskrift.
+Hver prisliste har et sæt rollepriser eller satser for arbejdskraft, der er gældende for den kontekst og ikrafttrædelsesdato, der er inkluderet i prislistens overskrift. Fakturapriser for tid i Dynamics 365 Project Operations kan kun konfigureres i én valuta, som er valutaen i prislisteoverskriften.
 
 1. Hvis du vil konfigurere faktureringssatser for arbejdskraft for en salgsprisliste, skal du oprette en prisliste, der er baseret på prislistens overskrift. 
 2. På fanen **Rollepriser** skal du i undergitteret vælge **+ Ny rollepris**. 

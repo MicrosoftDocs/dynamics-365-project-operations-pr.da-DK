@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074309"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270941"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Opret og anvend betingelser for tilbageholdelse af leverandørbetaling
 
@@ -39,11 +39,11 @@ Benyt følgende fremgangsmåde for at konfigurere og vedligeholde tilbageholdels
 
 1. Gå til **Projektstyring og regnskab** > **Tilbageholdelse** > **Betingelser for tilbageholdelse af leverandørbetaling**.
 2. Vælg **Ny** for at tilføje en ny betingelse for tilbageholdelse af leverandørbetaling. Værdien **Regel-id** for den nye betingelse angives automatisk. 
-3. Angiv en kort beskrivelse i feltet **Beskrivelse** , og i oversigtspanelet **Betingelser** skal du vælge **Tilføj linje** for at angive betingelsesværdier for følgende:
+3. Angiv en kort beskrivelse i feltet **Beskrivelse**, og i oversigtspanelet **Betingelser** skal du vælge **Tilføj linje** for at angive betingelsesværdier for følgende:
 
-   - **Procentdel af leverede enheder** : Angiv en færdiggørelsesprocent for betingelsen. Der tilbageholdes automatisk beløb for leverandørfakturaer, indtil projektets fuldførelsesfase svarer til den angivne procentdel. Hvis du f.eks. angiver 50,00, bevares beløb, indtil projektet er 50 procent fuldført.
-   - **Procentdel, der skal tilbageholdes** : Angiv en procentdel af beløbet på leverandørfakturaen, der skal tilbageholdes. Hvis du f.eks. skriver 10,00, tilbageholdes 10 procent af beløbet på en leverandørfaktura, indtil projektet når den i feltet **Procentdel af leverede enheder** angivne fuldførelsesgrad.
-   - **Procentdel, der skal frigives** : Vælg **Tilføj linje** for at angive en procentdel af alle tidligere tilbageholdte beløb, der skal frigives for det valgte niveau for projektets færdiggørelse.
+   - **Procentdel af leverede enheder**: Angiv en færdiggørelsesprocent for betingelsen. Der tilbageholdes automatisk beløb for leverandørfakturaer, indtil projektets fuldførelsesfase svarer til den angivne procentdel. Hvis du f.eks. angiver 50,00, bevares beløb, indtil projektet er 50 procent fuldført.
+   - **Procentdel, der skal tilbageholdes**: Angiv en procentdel af beløbet på leverandørfakturaen, der skal tilbageholdes. Hvis du f.eks. skriver 10,00, tilbageholdes 10 procent af beløbet på en leverandørfaktura, indtil projektet når den i feltet **Procentdel af leverede enheder** angivne fuldførelsesgrad.
+   - **Procentdel, der skal frigives**: Vælg **Tilføj linje** for at angive en procentdel af alle tidligere tilbageholdte beløb, der skal frigives for det valgte niveau for projektets færdiggørelse.
 
 > [!NOTE]
 > Hvis du har mere end én milepæl for forskellige niveauer af projektets færdiggørelse, skal du angive en separat betingelseslinje for tilbageholdelse af leverandørbetaling for hver tilbageholdelsesregel. Hver linje kan angive en anden tilbageholdelsesprocent og en anden frigivelsesprocent for hvert enkelt angivet niveau af projektets fuldførelse.
@@ -52,13 +52,13 @@ Når du har oprettet betingelserne for tilbageholdelse af leverandørbetaling fo
 
 ## <a name="apply-vendor-retention-terms-to-a-project"></a>Anvend betingelser for tilbageholdelse af leverandørbetaling på et projekt
 
-1. Gå til **Projektstyring og regnskab** > **Projekter** > **Alle projekter** , og åbn et projekt på projektlistesiden.
+1. Gå til **Projektstyring og regnskab** > **Projekter** > **Alle projekter**, og åbn et projekt på projektlistesiden.
 2. I oversigtspanelet **Leverandøraftaler** skal du vælge **Tilføj linje**.
 3. I **Kontokodefelt** skal du vælge en af følgende indstillinger: 
 
-   - **Tabel** : Betingelser for tilbageholdelse af leverandørbetaling gælder for en enkelt leverandør.
-   - **Gruppe** : Betingelserne for tilbageholde af leverandørbetaling gælder for alle leverandører i en leverandørgruppe.
-   - **Alle** : Betingelser for tilbageholdelse af leverandørbetaling gælder for alle leverandører.
+   - **Tabel**: Betingelser for tilbageholdelse af leverandørbetaling gælder for en enkelt leverandør.
+   - **Gruppe**: Betingelserne for tilbageholde af leverandørbetaling gælder for alle leverandører i en leverandørgruppe.
+   - **Alle**: Betingelser for tilbageholdelse af leverandørbetaling gælder for alle leverandører.
 
 4. I **feltet Leverandør/Leverandørgruppe** skal du vælge den leverandør eller leverandørgruppe, som betingelserne for tilbageholdelse af leverandørbetaling gælder for. Hvis du har valgt **Alle** i det foregående trin, er dette felt ikke tilgængeligt.
 5. I feltet **Betingelser for tilbageholdelse af leverandørbetaling** skal du vælge de tilbageholdelsesbetingelser, som du oprettede i forrige procedure.
