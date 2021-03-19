@@ -8,21 +8,23 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c707a664230cc56e2ac8114279f091936f446153
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: da803300f0e416be2544420d2b7e6e633923f65b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126431"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279761"
 ---
-# <a name="define-resource-requirements"></a><span data-ttu-id="29316-103">Definer ressourcekrav</span><span class="sxs-lookup"><span data-stu-id="29316-103">Define resource requirements</span></span>
+# <a name="define-resource-requirements"></a><span data-ttu-id="e4458-103">Definer ressourcekrav</span><span class="sxs-lookup"><span data-stu-id="e4458-103">Define resource requirements</span></span>
 
-<span data-ttu-id="29316-104">_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="29316-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="e4458-104">_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="e4458-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="29316-105">Ressourcekrav defineres af projektlederen for at fastlægge de ressourcer, der er nødvendige for at udføre arbejdet på projektet.</span><span class="sxs-lookup"><span data-stu-id="29316-105">Resource requirements are defined by the Project manager to establish the resources needed to execute the work on the project.</span></span> <span data-ttu-id="29316-106">Benyt følgende fremgangsmåde for at definere et ressourcekrav.</span><span class="sxs-lookup"><span data-stu-id="29316-106">Complete the following steps to define a resource requirement.</span></span>
+<span data-ttu-id="e4458-105">Ressourcekrav defineres af projektlederen for at fastlægge de ressourcer, der er nødvendige for at udføre arbejdet på projektet.</span><span class="sxs-lookup"><span data-stu-id="e4458-105">Resource requirements are defined by the Project manager to establish the resources needed to execute the work on the project.</span></span> <span data-ttu-id="e4458-106">Benyt følgende fremgangsmåde for at definere et ressourcekrav.</span><span class="sxs-lookup"><span data-stu-id="e4458-106">Complete the following steps to define a resource requirement.</span></span>
 
-1.  <span data-ttu-id="29316-107">I **Arbejdsopgavehierarkiet** skal du oprette en eller flere opgaver.</span><span class="sxs-lookup"><span data-stu-id="29316-107">In the **Work breakdown structure**, create one or more tasks.</span></span>
-2.  <span data-ttu-id="29316-108">Tildel et generisk teammedlem til hver opgave.</span><span class="sxs-lookup"><span data-stu-id="29316-108">Assign a generic team member to each task.</span></span> <span data-ttu-id="29316-109">Tildelingerne opdaterer projektteammedlemmets samlede indsats.</span><span class="sxs-lookup"><span data-stu-id="29316-109">The assignments will update the total effort of the project team member.</span></span>
-3.  <span data-ttu-id="29316-110">Vælg teammedlemmet, og vælg derefter **Generer krav** under fanen **Teammedlem**.</span><span class="sxs-lookup"><span data-stu-id="29316-110">On the **Team Member** tab, select the team member and then select **Generate Requirement**.</span></span>
+1.  <span data-ttu-id="e4458-107">I **Arbejdsopgavehierarkiet** skal du oprette en eller flere opgaver.</span><span class="sxs-lookup"><span data-stu-id="e4458-107">In the **Work breakdown structure**, create one or more tasks.</span></span>
+2.  <span data-ttu-id="e4458-108">Tildel et generisk teammedlem til hver opgave.</span><span class="sxs-lookup"><span data-stu-id="e4458-108">Assign a generic team member to each task.</span></span> <span data-ttu-id="e4458-109">Tildelingerne opdaterer projektteammedlemmets samlede indsats.</span><span class="sxs-lookup"><span data-stu-id="e4458-109">The assignments will update the total effort of the project team member.</span></span>
+3.  <span data-ttu-id="e4458-110">Vælg teammedlemmet, og vælg derefter **Generer krav** under fanen **Teammedlem**.</span><span class="sxs-lookup"><span data-stu-id="e4458-110">On the **Team Member** tab, select the team member and then select **Generate Requirement**.</span></span>
 
-<span data-ttu-id="29316-111">Du kan finde oplysninger om, hvordan du ændrer ressourcekravet, under [Opdater oplysninger om ressourcekrav](define-resource-requirements.md) for at ændre ressourcekravet.</span><span class="sxs-lookup"><span data-stu-id="29316-111">For information about how to modify the resource requirement, see [Update Resource requirement details](define-resource-requirements.md) to modify the resource requirement.</span></span>
+<span data-ttu-id="e4458-111">Du kan finde oplysninger om, hvordan du ændrer ressourcekravet, under [Opdater oplysninger om ressourcekrav](define-resource-requirements.md) for at ændre ressourcekravet.</span><span class="sxs-lookup"><span data-stu-id="e4458-111">For information about how to modify the resource requirement, see [Update Resource requirement details](define-resource-requirements.md) to modify the resource requirement.</span></span>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
