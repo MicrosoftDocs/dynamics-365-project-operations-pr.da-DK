@@ -18,78 +18,81 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 252fff0b60d221233c881e68db176e6763cdcdc0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291567"
 ---
-# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="ec34b-103">Tillade andre at angive din tids- eller udgiftsregistrering (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ec34b-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
+# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="9ceb0-103">Tillade andre at angive din tids- eller udgiftsregistrering (Project Service)</span><span class="sxs-lookup"><span data-stu-id="9ceb0-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="ec34b-104">Konfigurer en stedfortræder for at lade en anden udføre tids- eller udgiftsregistreringer på dine vegne i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="ec34b-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+<span data-ttu-id="9ceb0-104">Konfigurer en stedfortræder for at lade en anden udføre tids- eller udgiftsregistreringer på dine vegne i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="9ceb0-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
   
-## <a name="create-a-delegate"></a><span data-ttu-id="ec34b-105">Oprette en stedfortræder</span><span class="sxs-lookup"><span data-stu-id="ec34b-105">Create a delegate</span></span>  
+## <a name="create-a-delegate"></a><span data-ttu-id="9ceb0-105">Oprette en stedfortræder</span><span class="sxs-lookup"><span data-stu-id="9ceb0-105">Create a delegate</span></span>  
   
-1.  <span data-ttu-id="ec34b-106">I hovedmenuen skal du klikke på **Project Service** > **Delegeringer**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="9ceb0-106">I hovedmenuen skal du klikke på **Project Service** > **Delegeringer**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="ec34b-107">Klik på **Ny** på kommandolinjen.</span><span class="sxs-lookup"><span data-stu-id="ec34b-107">On the command bar, click **New**.</span></span>  
+2.  <span data-ttu-id="9ceb0-107">Klik på **Ny** på kommandolinjen.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-107">On the command bar, click **New**.</span></span>  
   
-3. <span data-ttu-id="ec34b-108">**Navn**: Angiv et navn til posten.</span><span class="sxs-lookup"><span data-stu-id="ec34b-108">**Name**: Enter a name for the record.</span></span>  
+3. <span data-ttu-id="9ceb0-108">**Navn**: Angiv et navn til posten.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-108">**Name**: Enter a name for the record.</span></span>  
   
-4. <span data-ttu-id="ec34b-109">**Type**: Vælg, om stedfortræderen må angive tids- eller udgiftsregistreringer på dine vegne.</span><span class="sxs-lookup"><span data-stu-id="ec34b-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
+4. <span data-ttu-id="9ceb0-109">**Type**: Vælg, om stedfortræderen må angive tids- eller udgiftsregistreringer på dine vegne.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
   
-5. <span data-ttu-id="ec34b-110">**Stedfortræder**: Vælg navnet på den person, du vil have som stedfortræder.</span><span class="sxs-lookup"><span data-stu-id="ec34b-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
+5. <span data-ttu-id="9ceb0-110">**Stedfortræder**: Vælg navnet på den person, du vil have som stedfortræder.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
   
-6. <span data-ttu-id="ec34b-111">**Start- og slutdatoer**: Vælg datoer for, hvornår delegeringen skal starte og slutte.</span><span class="sxs-lookup"><span data-stu-id="ec34b-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
+6. <span data-ttu-id="9ceb0-111">**Start- og slutdatoer**: Vælg datoer for, hvornår delegeringen skal starte og slutte.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
   
-7.  <span data-ttu-id="ec34b-112">Når du er færdig, skal du klikke på **Gem og luk**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-112">When you're done, click **Save & Close**.</span></span>  
+7.  <span data-ttu-id="9ceb0-112">Når du er færdig, skal du klikke på **Gem og luk**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-112">When you're done, click **Save & Close**.</span></span>  
   
-## <a name="turn-off-delegation"></a><span data-ttu-id="ec34b-113">Slå delegeringer fra</span><span class="sxs-lookup"><span data-stu-id="ec34b-113">Turn off delegation</span></span>  
+## <a name="turn-off-delegation"></a><span data-ttu-id="9ceb0-113">Slå delegeringer fra</span><span class="sxs-lookup"><span data-stu-id="9ceb0-113">Turn off delegation</span></span>  
   
-1.  <span data-ttu-id="ec34b-114">I hovedmenuen skal du klikke på **Project Service** > **Delegeringer**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="9ceb0-114">I hovedmenuen skal du klikke på **Project Service** > **Delegeringer**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="ec34b-115">Vælg den delegeringspost, der skal slås fra.</span><span class="sxs-lookup"><span data-stu-id="ec34b-115">Select the delegation record you want to turn off.</span></span>  
+2.  <span data-ttu-id="9ceb0-115">Vælg den delegeringspost, der skal slås fra.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-115">Select the delegation record you want to turn off.</span></span>  
   
-3.  <span data-ttu-id="ec34b-116">Klik på **Deaktiver** på kommandolinjen.</span><span class="sxs-lookup"><span data-stu-id="ec34b-116">On the command bar, click **Deactivate**.</span></span>  
+3.  <span data-ttu-id="9ceb0-116">Klik på **Deaktiver** på kommandolinjen.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-116">On the command bar, click **Deactivate**.</span></span>  
   
-4.  <span data-ttu-id="ec34b-117">Klik på **Deaktiver** i dialogboksen **Bekræft deaktivering**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
+4.  <span data-ttu-id="9ceb0-117">Klik på **Deaktiver** i dialogboksen **Bekræft deaktivering**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
   
-## <a name="enter-time-for-someone-else"></a><span data-ttu-id="ec34b-118">Angive tidspunkt for en anden</span><span class="sxs-lookup"><span data-stu-id="ec34b-118">Enter time for someone else</span></span>  
+## <a name="enter-time-for-someone-else"></a><span data-ttu-id="9ceb0-118">Angive tidspunkt for en anden</span><span class="sxs-lookup"><span data-stu-id="9ceb0-118">Enter time for someone else</span></span>  
   
-1.  <span data-ttu-id="ec34b-119">I hovedmenuen skal du klikke på **Project Service** > **Tidsregistreringer**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
+1.  <span data-ttu-id="9ceb0-119">I hovedmenuen skal du klikke på **Project Service** > **Tidsregistreringer**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
   
-2.  <span data-ttu-id="ec34b-120">På kommandolinjen skal du vælge rullemenuen **RESSOURCENAVN** og vælge navnet på den person, som du indtaster tid for.</span><span class="sxs-lookup"><span data-stu-id="ec34b-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
+2.  <span data-ttu-id="9ceb0-120">På kommandolinjen skal du vælge rullemenuen **RESSOURCENAVN** og vælge navnet på den person, som du indtaster tid for.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
   
-3.  <span data-ttu-id="ec34b-121">Klik på **OK**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-121">Click **OK**.</span></span>  
+3.  <span data-ttu-id="9ceb0-121">Klik på **OK**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-121">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="ec34b-122">Dette åbner kalenderen.</span><span class="sxs-lookup"><span data-stu-id="ec34b-122">This brings up the calendar.</span></span> <span data-ttu-id="ec34b-123">For at se kalenderen for den forrige eller næste uge skal du klikke på **Forrige** eller **Næste**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="ec34b-124">Klik på **I dag** for at vende tilbage til den aktuelle uge.</span><span class="sxs-lookup"><span data-stu-id="ec34b-124">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="9ceb0-122">Dette åbner kalenderen.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-122">This brings up the calendar.</span></span> <span data-ttu-id="9ceb0-123">For at se kalenderen for den forrige eller næste uge skal du klikke på **Forrige** eller **Næste**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="9ceb0-124">Klik på **I dag** for at vende tilbage til den aktuelle uge.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-124">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="ec34b-125">Hvis du vil angive tid, skal du enten klikke på **Ny** eller dobbeltklikke på kalenderen under den dag, du vil angive tid for.</span><span class="sxs-lookup"><span data-stu-id="ec34b-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+5.  <span data-ttu-id="9ceb0-125">Hvis du vil angive tid, skal du enten klikke på **Ny** eller dobbeltklikke på kalenderen under den dag, du vil angive tid for.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-6.  <span data-ttu-id="ec34b-126">Udfyld felterne i formularen **Tidsregistrering**, og klik på **Gem**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
+6.  <span data-ttu-id="9ceb0-126">Udfyld felterne i formularen **Tidsregistrering**, og klik på **Gem**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
   
-7.  <span data-ttu-id="ec34b-127">Fortsæt med at angive tid for ugen.</span><span class="sxs-lookup"><span data-stu-id="ec34b-127">Continue entering time for the week.</span></span> <span data-ttu-id="ec34b-128">Når du er færdig, og alt ser korrekt ud, skal du klikke på **Send**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
+7.  <span data-ttu-id="9ceb0-127">Fortsæt med at angive tid for ugen.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-127">Continue entering time for the week.</span></span> <span data-ttu-id="9ceb0-128">Når du er færdig, og alt ser korrekt ud, skal du klikke på **Send**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
   
-## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="ec34b-129">Angive udgifter for en anden</span><span class="sxs-lookup"><span data-stu-id="ec34b-129">Enter expenses for someone else</span></span>  
+## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="9ceb0-129">Angive udgifter for en anden</span><span class="sxs-lookup"><span data-stu-id="9ceb0-129">Enter expenses for someone else</span></span>  
   
-1.  <span data-ttu-id="ec34b-130">I hovedmenuen skal du klikke på **Project Service** > **Udgifter**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
+1.  <span data-ttu-id="9ceb0-130">I hovedmenuen skal du klikke på **Project Service** > **Udgifter**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
   
-2.  <span data-ttu-id="ec34b-131">På kommandolinjen skal du vælge rullemenuen **RESSOURCENAVN** og vælge navnet på den person, som du indtaster udgifter for.</span><span class="sxs-lookup"><span data-stu-id="ec34b-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
+2.  <span data-ttu-id="9ceb0-131">På kommandolinjen skal du vælge rullemenuen **RESSOURCENAVN** og vælge navnet på den person, som du indtaster udgifter for.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
   
-3.  <span data-ttu-id="ec34b-132">Klik på **OK**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-132">Click **OK**.</span></span>  
+3.  <span data-ttu-id="9ceb0-132">Klik på **OK**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-132">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="ec34b-133">For at se kalenderen for den forrige eller næste uge skal du klikke på **Forrige** eller **Næste**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="ec34b-134">Klik på **I dag** for at vende tilbage til den aktuelle uge.</span><span class="sxs-lookup"><span data-stu-id="ec34b-134">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="9ceb0-133">For at se kalenderen for den forrige eller næste uge skal du klikke på **Forrige** eller **Næste**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="9ceb0-134">Klik på **I dag** for at vende tilbage til den aktuelle uge.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-134">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="ec34b-135">Hvis du vil angive en udgift, skal du klikke på **Ny**</span><span class="sxs-lookup"><span data-stu-id="ec34b-135">To enter an expense, either click **New**</span></span>  
+5.  <span data-ttu-id="9ceb0-135">Hvis du vil angive en udgift, skal du klikke på **Ny**</span><span class="sxs-lookup"><span data-stu-id="9ceb0-135">To enter an expense, either click **New**</span></span>  
   
-6.  <span data-ttu-id="ec34b-136">Udfyld felterne i formularen **Ny udgift**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="ec34b-137">Du kan også tilføje kvitteringer.</span><span class="sxs-lookup"><span data-stu-id="ec34b-137">You can also add receipts.</span></span>  
+6.  <span data-ttu-id="9ceb0-136">Udfyld felterne i formularen **Ny udgift**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="9ceb0-137">Du kan også tilføje kvitteringer.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-137">You can also add receipts.</span></span>  
   
-7.  <span data-ttu-id="ec34b-138">Når du er færdig, skal du klikke på **Gem**.</span><span class="sxs-lookup"><span data-stu-id="ec34b-138">When you’re done, click **Save**.</span></span>  
+7.  <span data-ttu-id="9ceb0-138">Når du er færdig, skal du klikke på **Gem**.</span><span class="sxs-lookup"><span data-stu-id="9ceb0-138">When you’re done, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="ec34b-139">Se også</span><span class="sxs-lookup"><span data-stu-id="ec34b-139">See Also</span></span>  
- [<span data-ttu-id="ec34b-140">Tids-, udgifts- og samarbejdsvejledning</span><span class="sxs-lookup"><span data-stu-id="ec34b-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="9ceb0-139">Se også</span><span class="sxs-lookup"><span data-stu-id="9ceb0-139">See Also</span></span>  
+ [<span data-ttu-id="9ceb0-140">Tids-, udgifts- og samarbejdsvejledning</span><span class="sxs-lookup"><span data-stu-id="9ceb0-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
