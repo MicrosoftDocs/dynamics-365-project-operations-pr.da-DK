@@ -32,10 +32,12 @@
               href: environment/resource-provision-new-environment.md
             - name: Sikkerhedsmodel
               href: environment/security-model.md
-            - name: Konfigurer integration af Project Operations for de enkelte juridiske enheder
+            - name: Konfigurer integration af Project Operations for hver juridisk enhed
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nyheder
       items:
+        - name: April 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marts 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Februar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -64,7 +66,7 @@
           items:
             - name: Oversigt over administration af salgsmuligheder for projekt
               href: sales/manage-project-based-opportunities.md
-            - name: Indstillinger for projektbaseret salgsmulighed
+            - name: Overskriftsdetaljer for projektbaserede salgsmuligheder
               href: sales/opportunity-header.md
             - name: Projektbaserede salgsmulighedslinjer
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Administrer oversigt over projekttilbud
               href: pro/sales/manage-quotes-sales.md
-            - name: Koncepter for projekttilbud
+            - name: 'Begreber, der er unikke for projektbaserede tilbud'
               href: sales/quotes-key-concepts.md
-            - name: Indstillinger for projekttilbud
+            - name: Overskriftsdetaljer for projektbaserede tilbud
               href: sales/quote-values-budget-limits-contract.md
             - name: Administrer flere kunder i et projekttilbud
               href: sales/manage-multiple-customers-quote.md
             - name: Administrer projektprislister i et tilbud
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektbaserede tilbudslinjer
               items:
                 - name: Oversigt over projektbaserede tilbudslinjer
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Administrer flere kunder i projektbaserede tilbudslinjer
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Tilknyt projekter og opgaver til projektbaserede tilbudslinjer
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Konfigurer fakturerbare komponenter for projektbaserede tilbudslinjer
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Konfigurer de fakturerbare komponenter i en projekttilbudslinje
                   href: sales/configure-chargeable-quoteline.md
-                - name: Opret estimater på en tilbudslinje
+                - name: Estimer en projekttilbudslinje
                   href: sales/create-estimate-quote-line.md
                 - name: Importér estimater fra et projekt til en projektbaseret tilbudslinje
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Administrer oversigt over projektkontrakter
               href: pro/sales/manage-contracts-sales.md
-            - name: Koncepter for projektkontrakter
+            - name: 'Begreber, der er unikke for projektbaserede kontrakter'
               href: sales/contracts-key-concepts.md
-            - name: Indstillinger for projektkontrakter
+            - name: Overskriftsdetaljer for projektbaserede kontrakter
               href: sales/project-contract-settings.md
             - name: Administrer projektprislister i projektkontrakter
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Projektbaserede kontraktlinjer
               items:
                 - name: Oversigt over projektbaserede kontraktlinjer
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Administrer flere kunder i projektbaserede kontraktlinjer
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Konfigurer fakturerbare komponenter i en projektbaseret kontraktlinje
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Estimer en projektbaseret kontraktlinje
+                - name: Tilknyt projekter og opgaver på en projektkontraktlinje
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Konfigurer fakturerbare komponenter for en projektkontraktlinje
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Estimer en projektkontraktlinje
                   href: sales/create-estimate-contract-line.md
                 - name: Importér estimater fra et projekt til en projektbaseret kontraktlinje
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Bekræft en projektkontrakt
               href: pro/sales/confirm-contract-sales.md
-            - name: Kopier en projektkontrakt
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Forskud og forskudshonorarer
               items:
                 - name: Forskudskontrakter og kontrakter baseret på forskudshonorar
@@ -146,16 +152,16 @@
       items:
         - name: Konfigurer prisliste
           items:
-            - name: Konfigurer prislister
+            - name: Definition af prisliste
               href: pricing-costing/price-list-setup.md
-            - name: Produktprislister
-              href: pricing-costing/product-price-list.md
             - name: Konfigurer hyppigheden for fakturering af arbejdstid
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Konfigurer satser for arbejdskraftomkostninger
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Konfigurer udgiftssatser for omkostninger og salg
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Konfigurer omkostnings- og salgssatser for materialer
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Standarder og tilsidesættelser
           items:
             - name: Standardprislister
@@ -166,8 +172,10 @@
               href: pricing-costing/cost-price-resolution.md
             - name: Fastsæt salgspriser for estimater og faktiske tal
               href: pricing-costing/sales-price-resolution.md
-            - name: Kopier prislister
+            - name: Kopiér prislister
               href: pricing-costing/copy-price-lists.md
+            - name: Deaktivér prislister
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensioner for prisfastsættelse
           items:
             - name: Oversigt over dimensioner for prisfastsættelse
@@ -218,19 +226,25 @@
               href: project-management/create-wbs.md
             - name: Opret tildelinger
               href: project-management/create-assignments.md
-        - name: Estimer projekter
+        - name: Økonomiske estimater på projekter
           items:
-            - name: Oversigt over estimerede projekter
+            - name: Begreber for økonomiske estimater
               href: project-management/estimating-projects-overview.md
-            - name: Ressourceestimater
+            - name: Økonomiske estimater for ressourcetid på projekter
               href: project-management/resource-estimates.md
-            - name: Opret udgiftsestimater
+            - name: Økonomiske estimater for udgifter på projekter
               href: project-management/create-expense-estimates.md
+            - name: Økonomiske estimater for materialer på projekter
+              href: project-management/create-material-estimate.md
         - name: Projektsporing
           items:
-            - name: Oversigt over projektsporing
+            - name: Sporing af indsats på et projekt
               href: project-management/project-tracking-overview.md
-            - name: Opdater estimat ved fuldførelse
+            - name: Sporing af arbejdsomkostninger på projekter
+              href: project-management/project-cost-tracking.md
+            - name: Sporing af arbejdsomsætning på projekter
+              href: project-management/project-sales-tracking.md
+            - name: Opdatér estimat ved fuldførelse
               href: project-management/update-completed-estimate.md
         - name: Projektteamets medlemmer
           items:
@@ -248,6 +262,8 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
+            - name: Brug planlægnings-API'er (offentlig forhåndsversion)
+              href: project-management/schedule-api-preview.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -366,6 +382,10 @@
           items:
             - name: Momsinddrivelse
               href: expense/vat-recovery.md
+    - name: Materialeforbrug
+      items:
+        - name: Registrér materialeforbrug på projekter og projektopgaver
+          href: material/material-usage-log.md
     - name: Godkendelser
       items:
         - name: Godkendelsesoversigt
@@ -378,6 +398,8 @@
       items:
         - name: Oversigt over faktiske
           href: actuals/actuals-overview.md
+        - name: Knyt faktiske poster til oprindelige poster
+          href: actuals/linkingactuals.md
         - name: Rettelseskladder
           items:
             - name: Opret og bekræft rettelseskladder
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Proformafakturering
           items:
-            - name: Administrer efterslæbet af projektfakturering
+            - name: Administrer efterslæbet af projektbaseret fakturering
               href: proforma-invoicing/manage-billing-backlog.md
             - name: 'Administrer status, som ikke må overskrides, og valideringer'
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Opret manuelt en proformafaktura på projektet
+            - name: Projektbaserede proformafakturaer
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Administrer en proformafaktura på projektet
+            - name: Administrer en projektbaseret proformafaktura
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Fakturer et forskudshonorar eller et forskud
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Bekræft en proformafaktura på projektet
+            - name: Bekræft en projektbaseret proformafaktura
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Konfigurer automatisering af projektfaktura
+            - name: Opret projektbaserede rettelsesfakturaer
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Konfigurer projektbaseret automatisering af faktura
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projektregnskab
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
+        - name: Nyheder i april 2021 – lille udrulning
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Nyheder i marts 2021 – lille udrulning
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Nyheder i februar 2021 – lille udrulning
@@ -486,7 +512,7 @@
           items:
             - name: Oversigt over salgsmuligheder for projekt
               href: sales/manage-project-based-opportunities.md
-            - name: Indstillinger for salgsmuligheder for projekt
+            - name: Overskriftsdetaljer for salgsmuligheder på et projekt
               href: pro/sales/opportunity-header-sales.md
             - name: Administrer produktbaserede salgsmulighedslinjer
               href: pro/sales/product-based-lines-sales.md
@@ -502,13 +528,13 @@
           items:
             - name: Oversigt over projektbaserede tilbud
               href: pro/sales/manage-quotes-sales.md
-            - name: Koncepter for projekttilbud
+            - name: 'Begreber, der er unikke for projekttilbud'
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Indstillinger for projekttilbud
+            - name: Overskriftsdetaljer for projekttilbud
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Flere kunder i projekttilbud
+            - name: Flere kunder på projekttilbud
               href: pro/sales/manage-multiple-customers-quote-sales.md
-            - name: Projektprislister i projekttilbud
+            - name: Projektprislister på projekttilbud
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Produktbaserede tilbudslinjer
               items:
@@ -542,11 +568,11 @@
           items:
             - name: Oversigt over projektbaserede kontrakter
               href: pro/sales/manage-contracts-sales.md
-            - name: Koncepter for projektkontrakt
+            - name: 'Begreber, der er unikke for projektkontrakter'
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Indstillinger for projektkontrakter
+            - name: Overskriftsdetaljer for projektkontrakter
               href: pro/sales/project-contract-settings-sales.md
-            - name: Flere kunder i projektkontrakter
+            - name: Flere kunder på projektkontrakter
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Projektprislister på projektkontrakter
               href: sales/contracts-manage-project-price-lists.md
@@ -590,30 +616,32 @@
       items:
         - name: Konfigurer prisliste
           items:
-            - name: Konfigurer prislister
+            - name: Definition af prisliste
               href: pricing-costing/price-list-setup.md
-            - name: Konfigurer salgsprisliste
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Konfigurer hyppigheden for fakturering af arbejdstid - lille
+            - name: Konfigurer produktprislister
+              href: pricing-costing/product-price-list.md
+            - name: Konfigurer hyppigheden for fakturering af arbejde
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Konfigurer satser for arbejdskraftomkostninger - lille
+            - name: Konfigurer omkostningssatser for arbejde
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Konfigurer satser for omkostninger og salg af katalogprodukter - lille
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Konfigurer udgiftssatser for omkostninger og salg
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Konfigurer omkostnings- og salgssatser for materialer
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Standarder og tilsidesættelser
           items:
             - name: Standardprislister
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Tilsidesæt projektsalgsprislister
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Fastsæt kostpriser for estimater og faktiske tal - lille
+            - name: Fastsæt kostpriser på projektestimater og faktiske
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Fastsæt salgspriser for estimater og faktiske tal - lille
+            - name: Fastsæt salgspriser for projektestimater og faktiske
               href: pro/pricing-costing/sales-price-resolution-sales.md
-            - name: Kopier prislister
+            - name: Kopiér prislister
               href: pricing-costing/copy-price-lists.md
+            - name: Deaktivér projektprislister
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensioner for prisfastsættelse
           items:
             - name: Oversigt over dimensioner for prisfastsættelse
@@ -664,19 +692,25 @@
               href: project-management/create-wbs.md
             - name: Opret tildelinger
               href: project-management/create-assignments.md
-        - name: Estimer projekter
+        - name: Økonomiske estimater på projekter
           items:
-            - name: Oversigt over estimerede projekter
+            - name: Begreber for økonomiske estimater
               href: project-management/estimating-projects-overview.md
-            - name: Ressourceestimater
+            - name: Økonomiske estimater for ressourcetid på projekter
               href: project-management/resource-estimates.md
-            - name: Opret udgiftsestimater
+            - name: Økonomiske estimater for udgifter på projekter
               href: project-management/create-expense-estimates.md
+            - name: Økonomiske estimater for materialer på projekter
+              href: project-management/create-material-estimate.md
         - name: Projektsporing
           items:
-            - name: Oversigt over projektsporing
+            - name: Sporing af indsats på et projekt
               href: project-management/project-tracking-overview.md
-            - name: Opdater estimat ved fuldførelse
+            - name: Sporing af arbejdsomkostninger på projekter
+              href: project-management/project-cost-tracking.md
+            - name: Sporing af arbejdsomsætning på projekter
+              href: project-management/project-sales-tracking.md
+            - name: Opdatér estimat ved fuldførelse
               href: project-management/update-completed-estimate.md
         - name: Projektteamets medlemmer
           items:
@@ -694,6 +728,8 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
+            - name: Brug planlægnings-API'er (offentlig forhåndsversion)
+              href: project-management/schedule-api-preview.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Udgiftspost (lille)
           href: expense/basic-expense.md
+    - name: Materialeforbrug
+      items:
+        - name: Registrér materialeforbrug på projekter og projektopgaver
+          href: material/material-usage-log.md
     - name: Godkendelser
       items:
         - name: Godkendelsesoversigt
@@ -780,6 +820,8 @@
       items:
         - name: Oversigt over faktiske
           href: actuals/actuals-overview.md
+        - name: Knyt faktiske poster til oprindelige poster
+          href: actuals/linkingactuals.md
         - name: Rettelseskladder
           items:
             - name: Opret og bekræft rettelseskladder
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: 'Administrer status, som ikke må overskrides, og valideringer'
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Opret manuelt en proformafaktura på projektet
+        - name: Proformafakturaer på projekter
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Administrer en proformafaktura på projektet
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Nyheder
       items:
+        - name: Nyheder marts 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Nyheder januar 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: Nyheder december 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Projektfakturering
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Ydeevne af forslag til projektfaktura
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektkontrakter
       href: prod-pma/project-contracts.md
     - name: 'Opret avancerede kontrakter for fakturering, der er baseret på status'
@@ -952,6 +998,10 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 30. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Nyheder eller ændringer i opdateringsudgivelse 29.5 hotfix, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Nyheder eller ændringer i den 29. opdateringsudgivelse, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Nyheder eller ændringer i opdateringsudgivelse 28.6 hotfix, V3'
