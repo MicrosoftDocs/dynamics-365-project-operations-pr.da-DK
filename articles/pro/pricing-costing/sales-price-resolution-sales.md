@@ -1,21 +1,21 @@
 ---
-title: Fastsæt salgspriser for estimater og faktiske tal - lille
-description: Dette emne indeholder oplysninger om fastsættelse af salgspriser for estimater og faktiske oplysninger.
+title: Fastsæt salgspriser for projektestimater og faktiske værdier
+description: Dette emne indeholder oplysninger om fastsættelse af salgspriser på projektestimater og faktiske værdier.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274496"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877349"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Fastsæt salgspriser for estimater og faktiske tal - lille
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Fastsæt salgspriser for projektestimater og faktiske værdier
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -55,5 +55,14 @@ Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin
 
 4. Hvis det ikke er muligt for systemet at matche feltværdierne **Kategori** og **Enhed**, vil salgssatsen som standard være nul (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Fastsættelse af salgspriser på faktiske og anslåede linjer for materialer
+
+I Project Operations bruges estimatlinjer for materialer til at angive tilbudslinje- og kontraktlinjedetaljerne for materiale og materialeestimatlinjer på projektet.
+
+Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin for at angive standarden for enhedens salgspris.
+
+1. Systemet bruger kombinationsfeltet **Produkt** og **Enhed** på estimatlinjen for materialer til at matche med prislisteelementlinjerne på den prisliste, der blev fastsat.
+2. Hvis der findes en prislisteelementlinje, der har en salgspris for feltkombinationen **Produkt** og **Enhed**, og prissætningsmetoden er **Valutabeløb**, bruges den salgspris, der er angivet på prislistelinjen.
+3. Hvis feltværdierne for **Produkt** og **Enhed** ikke stemmer overens, angives salgssatsen som standard til nul.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

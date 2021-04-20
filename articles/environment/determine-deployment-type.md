@@ -3,17 +3,17 @@ title: Vælg din udrulningstype
 description: Dette emne indeholder oplysninger, som hjælper dig med at fastlægge den korrekte udrulningstype for Project operations for din virksomhed.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479557"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663587"
 ---
 # <a name="determine-your-deployment-type"></a>Vælg din udrulningstype
 
@@ -44,7 +44,7 @@ Vores [Spørgeskema vedrørende udrulning](https://aka.ms/provisionprojectoperat
 - [Project Operations for ressource/ikke-lagerscenarier](#integrated)
 - [Project Operations for lagerbaserede/produktionsordrescenarier](#pma)
 
-Project Operations understøtter scenarier med lagerførte-/produktionsordre og ikke-lagerførte-/ressourcebaserede scenarier i samme miljø via konfigurationer på juridisk enhedsniveau. Contoso kan f eks. bruge egenskaberne for lagerbaserede ordrer/produktionsordre i deres amerikanske produktionsanlæg (juridisk enhed = Contoso Manufacturing USA). Contoso kan bruge de ikke-lagerbaserede/ressourcebasered egenskaber i deres servicevirksomhed Contoso Robotics Arms i Storbritannien (juridisk enhed = Contoso Robotics Storbritannien).
+Project Operations understøtter scenarier med lagerførte-/produktionsordre og ikke-lagerførte-/ressourcebaserede scenarier i samme miljø via konfigurationer på juridisk enhedsniveau. Contoso kan f.eks. bruge funktionerne til lager-/produktionsordre i deres facilitet til produktion i USA (juridisk enhed = Contoso Manufacturing USA). Contoso kan bruge de ikke-lagerbaserede/ressourcebaserede funktioner i deres serviceringsfacilitet for Contoso Robotics Arms i Storbritannien (juridisk enhed = Contoso Robotics Storbritannien).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lille udrulning - aftale til proformafakturering
 
@@ -56,7 +56,7 @@ Den lille udrulning inkluderer følgende funktioner:
 - Fælles ressourcestyring
 - Tidssporing
 - Grundlæggende udgifter
-- Proforma og kundeorienteret fakturering 
+- Proformafakturering, som projektlederen skal gennemgå og redigere 
 
 #### <a name="deployment-steps"></a>Installationsprocessen
 Find den bedste udrulningsmodel til Project Operations ved hjælp af [Spørgeskemaet om udrulning](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ I forbindelse med denne installation kan du se [Tilmelding til eksempelabonnemen
 - Fuld fakturering
 - Indtægtsanerkendelse
 - Produktionsordrer
-- Materialesupport
+- Understøttelse af lagerførte materialer med lager
 
 #### <a name="deployment-steps"></a>Installationsprocessen
 Find den bedste udrulningsmodel til Project Operations ved hjælp af [Spørgeskemaet om udrulning](https://aka.ms/provisionprojectoperations).

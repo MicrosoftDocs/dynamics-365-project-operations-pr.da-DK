@@ -1,27 +1,27 @@
 ---
-title: Administrer projektprislister i projekttilbud - lille
-description: Dette emne indeholder oplysninger om at arbejde med projektprislister på tilbud. (Sales)
+title: Administrer projektprislister i projekttilbud
+description: Dette emne indeholder oplysninger om at arbejde med projektprislister på tilbud.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273011"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858601"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administrer projektprislister i projekttilbud - lille
+# <a name="manage-project-price-lists-on-project-quotes"></a>Administrer projektprislister i projekttilbud 
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
 Projekttilbud er udviklet for at understøtte flere salgsprislister med gældende datoer. Med Dynamics 365 Project Operations tilføjes der et nyt tilknyttet objekt kaldet **Projektprislister**. Dette objekt har en 1-til-mange-relation til et projekttilbud.
 
-Projektprislister bruges til at prisfastsætte tids- og udgiftstransaktioner på et projekt. Når et tilbud indeholder en eller flere projektprislister, bruges disse prislister til at prisfastsætte tids- og udgiftsestimater og faktiske værdier på projekter, der er knyttet til tilbuddet, via tilbudslinjen.
+Projektprislister bruges til at prisfastsætte tids-, materiale- og udgiftstransaktioner på et projekt. Når et tilbud indeholder en eller flere projektprislister, bruges disse prislister til at prisfastsætte tids-, materiale-, omkostningsestimater samt faktiske værdier på projekter, der er knyttet til tilbuddet via tilbudslinjen.
 
 Når der ikke er nogen projektprislister på et projekttilbud, vises der en advarsel. Meddelelsen angiver, at idet der ikke er nogen projektprislister, vil dit estimerede og faktiske projektarbejde og udgifter ikke vil være prisfastsat. I stedet har de prisen nul (0) for salgsværdier.
 

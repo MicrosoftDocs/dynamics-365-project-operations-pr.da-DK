@@ -1,29 +1,27 @@
 ---
-title: Konfigurer automatisk fakturaoprettelse - lille
-description: Dette emne indeholder oplysninger om, hvordan du konfigurerer automatisk oprettelse af proformafakturaer.
+title: Konfigurer automatisk fakturaoprettelse
+description: Dette emne indeholder oplysninger om konfiguration af automatisk oprettelse af proformafakturaer.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274316"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866810"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurer automatisk fakturaoprettelse - lille
+# <a name="set-up-automatic-invoice-creation"></a>Konfigurer automatisk fakturaoprettelse 
  
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Lille udrulning - aftale om proformafakturering, Project Operations for ressource/ikke-lagerbaserede scenarier_
 
 Du kan konfigurere automatisk fakturaoprettelse i Dynamics 365 Project Operations. Systemet opretter en proformafaktura i kladde, der er baseret på fakturaplanen for hver projektkontrakt og kontraktlinje. Fakturaplaner konfigureres på kontraktlinjeniveau. De enkelte linjer i en kontrakt kan have en særskilt fakturaplan, eller du kan inkludere den samme fakturaplan på alle kontraktlinjer.
 
-Når du opretter en faktura, opretter systemet altid mindst én faktura pr. projektkontrakt. I visse tilfælde kan der oprettes flere fakturaer.
-
-Hvis kontrakten f.eks. har flere kunder, oprettes samme antal fakturaer som det antal kunder, der har fakturerbare transaktioner, der skal faktureres på den pågældende projektkontrakt.
+Når du opretter en faktura, opretter systemet altid mindst én faktura pr. projektkontrakt. I visse tilfælde kan der oprettes flere fakturaer. Hvis kontrakten f.eks. har flere kunder, oprettes samme antal fakturaer som det antal kunder, der har fakturerbare transaktioner, der skal faktureres på den pågældende projektkontrakt.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Forstå, hvordan transaktioner medtages i en faktura 
 

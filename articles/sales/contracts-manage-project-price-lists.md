@@ -3,17 +3,17 @@ title: Administrer projektprislister i projektkontrakter
 description: Dette emne indeholder oplysninger om administration af projektprislister i projektkontrakter.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278591"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858556"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Administrer projektprislister i projektkontrakter
 
@@ -21,13 +21,13 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Projektkontrakter i Dynamics 365 Project Operations er udviklet til at understøtte salgsprislister med flere ikrafttrædelsesdatoer på en kontrakt. I Project Operations er der et nyt tilknyttet objekt, som kaldes **Projektprislister**. Dette objekt har en en-til-mange-relation til en projektkontrakt.
 
-Projektprislister bruges til at prisfastsætte tids- og udgiftstransaktioner på et projekt. Når en kontrakt har en eller flere projektprislister, bruges disse prislister til at fastsætte prisen for tids- og udgiftsestimater og faktiske værdier på projekter, der er knyttet til kontrakten via kontraktlinjen.
+Projektprislister bruges til at prisfastsætte tids-, materiale- og udgiftstransaktioner på et projekt. Når en kontrakt indeholder en eller flere projektprislister, bruges disse prislister til at prisfastsætte tids-, materiale-, omkostningsestimater samt faktiske værdier på projekter, der er knyttet til kontrakten via kontraktlinjen.
 
-Når der ikke er nogen projektprislister i en projektkontrakt, vises der en advarsel om, at der ikke er nogen projektprislister, og dine estimater, det faktiske projektarbejde og udgifter vil ikke være prisfastsat. Der kan ikke beregnes priser for salgsværdier.
+Når der ikke findes projektprislister på en projektkontrakt, får du vist en advarsel om, at der ikke findes nogen projektprislister, og dine estimater, det faktiske projektarbejde, materialer og udgifter logføres uden at blive prisfastsat. Der kan ikke beregnes priser for salgsværdier.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Tilknyt eller fjern tilknytningen for en projektprisliste i en projektkontrakt
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Opret eller tilknyt en bestemt prisliste til beregning af projektbaseret arbejde og udgifter
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Opret eller tilknyt en bestemt prisliste til estimering af projektbaseret arbejde, materiale og udgifter
 
 1. Vælg fanen **Projektprislister** i projektkontrakten.
 2. Vælg **+ Tilføj ny projektprisliste** i undergitteret.
@@ -52,7 +52,7 @@ Når der ikke er nogen projektprislister i en projektkontrakt, vises der en adva
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Konfigurer automatisk angivelse af projektprislister i en kontrakt
 
-En projektprisliste kan konfigureres som en standardliste i en projektkontrakt. Denne konfiguration kan være med til at sikre, at alle kontrakter i organisationen altid starter med en standardprisliste for den pågældende prisperiode.
+En projektprisliste kan konfigureres som standardprislisten for projektet. Denne konfiguration sikrer, at alle kontrakter i din organisation altid starter med en standardprisliste for projekter for den pågældende prisperiode.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Konfigurer organisationens standard for projektprislister
 

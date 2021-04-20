@@ -3,17 +3,17 @@ title: Konfigurer faktureringssatser arbejdskraft
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer faktureringssatser for arbejdskraft i Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274811"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877393"
 ---
 # <a name="set-up-labor-bill-rates"></a>Konfigurer hyppigheden for fakturering af arbejdstid
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274811"
 
 Hver prisliste har et sæt rollepriser eller satser for arbejdskraft, der er gældende for den kontekst og ikrafttrædelsesdato, der er inkluderet i prislistens overskrift. Fakturapriser for tid i Dynamics 365 Project Operations kan kun konfigureres i én valuta, som er valutaen i prislisteoverskriften.
 
-1. Hvis du vil konfigurere faktureringssatser for arbejdskraft for en salgsprisliste, skal du oprette en prisliste, der er baseret på prislistens overskrift. 
-2. På fanen **Rollepriser** skal du i undergitteret vælge **+ Ny rollepris**. 
+1. Hvis du vil konfigurere fakturering af arbejdstid for en salgsprisliste, skal du gå til **Salg** > **Kunder** > **Prisliste** og vælge **Ny** for at oprette en ny prisliste. 
+2. På fanen **Rollepriser** skal du i undergitteret vælge **Ny rollepris**. 
 3. I ruden **Hurtig oprettelse** skal du angive kombinationen af rolle og organisationsenhed, som du vil konfigurere faktureringssatsen for.
 
    Følgende tabel omfatter de felter på fanen **Generelt** og ruden **Hurtig oprettelse** for en rolleprislinje, som du skal være opmærksom på, når du opretter rollepriser på en salgsprisliste:

@@ -1,6 +1,6 @@
 ---
-title: Korrigerende projektbaserede fakturaer
-description: Dette emne indeholder oplysninger om, hvordan du opretter og bekræfter korrigerende projektbaserede fakturaer i Project Operations.
+title: Opret korrigerende projektbaserede fakturaer
+description: Dette emne indeholder oplysninger om korrigerende fakturaer i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867034"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788844"
 ---
-# <a name="corrective-project-based-invoices"></a>Korrigerende projektbaserede fakturaer
+# <a name="create-corrective-project-based-invoices"></a>Opret korrigerende projektbaserede fakturaer 
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
@@ -24,18 +24,19 @@ En bekræftet projektfaktura kan rettes for at behandle ændringer eller kreditt
 Hvis du vil foretage ændringer af en bekræftet faktura, skal du åbne den bekræftede faktura og vælge **Ret denne faktura**. 
 
 > [!NOTE]
-> Dette valg er ikke tilgængeligt, medmindre en projektfaktura er bekræftet, eller den projektbaserede faktura har forskud eller forskudshonorarer eller afstemninger af forskud eller forskudshonorarer.
+> Denne markering er ikke tilgængelig, medmindre en projektfaktura er bekræftet.
 
-Der oprettes en ny kladdefaktura ud fra den bekræftede faktura. Alle fakturalinjedetaljer fra den tidligere bekræftede faktura kopieres til den nye kladde. Her følger nogle af de vigtigste punkter om linjedetaljerne i den nye rettede faktura:
+Der oprettes en ny kladdefaktura ud fra den bekræftede faktura. Alle fakturalinjedetaljer fra den tidligere bekræftede faktura kopieres til den nye kladde. Følgende er nogle af de vigtige punkter, der kan hjælpe dig med bedre at forstå linjedetaljerne på den nye korrigerede faktura:
 
-- Alle mængder opdateres til nul. Dynamics 365 Project Operations antager, at alle fakturerede elementer er fuldt krediteret. Hvis det er nødvendigt, kan du opdatere mængderne manuelt, så det afspejler det antal, der er ved at blive faktureret, og ikke det antal, der krediteres. På baggrund af det antal, du angiver, beregner programmet det krediterede antal. Beløbet afspejles i de faktiske tal, der oprettes, når den rettede faktura bekræftes. Hvis du foretager ændringer i momsbeløbet, skal du angive det korrekte momsbeløb og ikke det momsbeløb, der krediteres.
+- Alle mængder opdateres til nul. Dette forudsætter, at alle fakturerede elementer er fuldt krediteret. Hvis det er nødvendigt, kan du opdatere mængderne manuelt, så det afspejler det antal, der er ved at blive faktureret, og ikke det antal, der krediteres. På baggrund af det antal, du angiver, beregner programmet det krediterede antal. Beløbet afspejles i de faktiske tal, der oprettes, når den rettede faktura bekræftes. Hvis du foretager ændringer i momsbeløbet, skal du angive det korrekte momsbeløb og ikke det momsbeløb, der krediteres.
 - Rettelser i relation til milepæle behandles altid som komplette kreditter.
-
+- Forskudshonorar eller forskudsbeløb kan rettes, hvis kunden er faktureret et forkert beløb.
+- Afstemninger af forskudshonorarer og forskud kan rettes, hvis der er brugt et forkert beløb til at afstemme i forhold til gebyrerne på en tidligere bekræftet faktura.
 
 > [!IMPORTANT]
-> Hvis det drejer sig om fakturalinjedetaljer, der er rettelser til andre allerede fakturerede opkrævninger, angives feltet **Korrektion** til **Ja**. For så vidt angår fakturaer med korrigerede fakturalinjedetaljer, angives feltet **Indeholder rettelser** til **Ja**.
+> Fakturalinjedetaljer, der er rettelser til andre allerede fakturerede opkrævninger, har feltet **Korrektion** angivet til **Ja**. Fakturaer, der har rettede fakturalinjedetaljer, har et felt kaldet **Indeholder rettelser**, der også er angivet til **Ja**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktiske tal, der blev oprettet, da en korrigerende faktura blev bekræftet
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiske tal, der er oprettede på Bekræftelse af en rettelsesfaktura
 
 I følgende tabel vises de faktiske værdier, der oprettes, når en korrigerende faktura bekræftes.
 
@@ -50,6 +51,72 @@ I følgende tabel vises de faktiske værdier, der oprettes, når en korrigerende
             <td width="808" valign="top">
                 <p>
                     <strong>De faktiske oplysninger, der blev oprettet i forbindelse med bekræftelse</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Bekræfte rettelsen af et faktureret forskudshonorar eller forskud.<strong></strong>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Tilbageførsel af en ikke-faktureret faktisk salgsværdi i form af et forskudshonorar eller et forskud, der blev oprettet med henblik på afstemning. Dette beløb er positivt, fordi det skal annullere det negative beløb, der blev oprettet, da forskudshonoraret eller forskuddet blev faktureret.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Der oprettes en tilbageførelse af et faktureret faktisk salg lydende på beløbet for forskudshonoraret eller forskuddet for at tilbageføre det oprindelige fakturerede salg.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Der oprettes en ny fakturering for faktisk salgsværdi for det rettede beløb på den rettede fakturalinje for forskudshonoraret eller forskuddet.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+En ikke-faktureret faktisk salgsværdi med et negativt pålydende beløb for den forskudshonorarbaserede eller forskudsbaserede fakturalinje, som skal anvendes til afstemningen.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Bekræftelse af rettelsen af et tidligere afstemt forskudshonorar eller forskud.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Tilbageførsel af en ikke-faktureret faktisk salgsværdi i form af et forskudshonorar eller et forskud, der blev oprettet med henblik på afstemning. Dette beløb er positivt og skal udligne det negative beløb, der blev oprettet, da den tidligere afstemning blev foretaget.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Tilbageførelse af fakturering af en faktisk salgsværdi svarende til beløbet på den forrige faktura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+En ny fakturering for faktisk salgsværdi for det rettede beløb for forskudshonoraret, som anvendes på den rettede faktura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+En ikke-faktureret faktisk salgsværdi med et negativt pålydende beløb fra det resterende beløb af forskudshonoraret eller forskuddet skal anvendes til afstemning af efterfølgende fakturaer.
                 </p>
             </td>
         </tr>
@@ -143,51 +210,6 @@ En ny ikke-faktureret faktisk salgsværdi, der er fakturerbar for det resterende
                 </p>
             </td>
         </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af den fulde kredit for en tidligere faktureret materialetransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et faktureret salg for mængden og beløbet på den oprindelige fakturalinjedetaljer for materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny faktisk værdi for ikke-faktureret salg for mængden og beløbet på den oprindelige fakturalinjedetaljer for materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturering af den delvise kredit på en materialetransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et faktureret salg for den fakturerede mængde og beløb på den oprindelige fakturalinjedetaljer for materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny faktisk værdi for ikke-faktureret salg, der kan faktureres for mængden og beløbet på den redigerede fakturalinjedetalje, en tilbageførsel heraf, og et tilsvarende faktureret faktisk salg.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbar for det resterende antal og beløb, efter at de rettede tal på fakturalinjedetaljen er blevet trukket fra.
-                </p>
-            </td>
-        </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
@@ -237,7 +259,7 @@ Fakturering af den fulde kredit for en tidligere faktureret milepæl.
 En tilbageførelse af faktureret salg for beløbet på den oprindelige fakturalinjedetalje for milepælen.
                 </p>
                 <p>
-Fakturastatussen for milepælen opdateres fra <b>Bogført kundefaktura</b> til <b>Klar til fakturering</b>.
+Fakturastatussen på milepælen opdateres fra <b>Bogført kundefaktura</b> til <b>Klar til fakturering</b>.
                 </p>
             </td>
         </tr>
@@ -249,10 +271,9 @@ Fakturering af den delvise kredit for en tidligere faktureret milepæl.
             </td>
             <td width="408" valign="top">
                 <p>
-Dette scenarie understøttes ikke.
-                </p>
+Understøttes ikke </p>
             </td>
-        </tr>       
+        </tr>        
     </tbody>
 </table>
 

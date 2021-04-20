@@ -3,7 +3,7 @@ title: Faktiske
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med faktiske værdier i Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291792"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852537"
 ---
 # <a name="actuals"></a>Faktiske 
 
-_**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Faktiske oplysninger er mængden af arbejde, der er udført på et projekt. De oprettes som et resultat af tids- og udgiftsposter samt kladdeposteringer og fakturaer.
+Faktiske værdier repræsenterer den gennemgåede og godkendte økonomiske og planlægningsmæssige status for et projekt. De oprettes som følge af godkendelse af registreringer af tid, udgifter, materialeforbrug samt kladdeposteringer og fakturaer.
 
 ## <a name="journal-lines-and-time-submission"></a>Kladdelinjer og tidsregistrering
 
@@ -45,7 +45,7 @@ Når en indsendt tidsregistrering er forbundet med et projekt, der er knyttet ti
 
 Logikken for oprettelse af standardpriser findes på kladdelinjen. Feltværdierne fra tidsregistreringen kopieres til kladdelinjen. Disse værdier inkluderer datoen for transaktionen, den kontraktlinje, som projektet er knyttet til, og valutaresultatet i den rette prisliste.
 
-De felter, der påvirker standardprisfastsættelser som f.eks **Rolle** og **Organisationsenhed**, anvendes til at fastsætte en passende pris på kladdelinjen. Du kan tilføje et brugerdefineret felt på tidsregistreringen. Hvis du ønsker, at feltværdien skal overføres til faktiske værdier, skal du oprette feltet på objektet Faktiske og bruge felttilknytninger til at kopiere feltet fra tidsregistreringen til den faktiske værdi.
+De felter, der påvirker standardprisfastsættelse som f.eks **Rolle** og **Ressourceenhed**, anvendes til at fastsætte den passende pris på kladdelinjen. Du kan tilføje et brugerdefineret felt på tidsregistreringen. Hvis feltværdien skal overføres til faktiske værdier, skal du oprette feltet i tabellerne **Faktiske** og **Kladdelinje**. Brug brugerdefineret kode til at overføre den valgte feltværdi fra Tidindtastning til Faktiske via kladdelinjen ved hjælp af transaktionsoprindelser. Du kan finde flere oplysninger om transaktionsoprindelser og forbindelser under [Tilknytning af faktiske til oprindelige poster](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Kladdelinjer og indsendelse af grundlæggende udgifter
 
@@ -57,24 +57,42 @@ Når en grundlæggende udgiftspost hænger sammen med et projekt, der er knyttet
 
 ### <a name="fixed-price"></a>Fast pris
 
-Når en grundlæggende udgiftspost er forbundet med et projekt, der er knyttet til en kontraktlinje med fastpris, opretter systemet en kladdelinje for omkostninger.
+Når en indsendt grundlæggende udgiftsposten knyttes sammen med et projekt, der er tilknyttet en kontraktlinje med fastpris, opretter systemet en kladdelinje for omkostning.
 
 ### <a name="default-pricing"></a>Standardprisfastsættelse
 
-Logikken for angivelse af standardpriser for udgifter er baseret på udgiftskategorien. Datoen for transaktionen, den kontraktlinje, projektet er knyttet til, og valutaen bruges alle til at fastlægge den rette prisliste. Det beløb, som brugeren har indtastet, for selve prisen er dog som standard angivet direkte på de relaterede udgiftskladdelinjer for omkostning og salg.
+Logikken for angivelse af standardpriser for udgifter er baseret på udgiftskategorien. Datoen for transaktionen, den kontraktlinje, projektet er knyttet til, og valutaen bruges alle til at fastlægge den rette prisliste. De felter, der påvirker standardprisfastsættelse som f.eks **Transaktionskategori** og **Enhed**, anvendes til at fastsætte den passende pris på kladdelinjen. Dette fungerer dog kun, når prisfastsættelsesmetoden på prislisten er **Pris pr. enhed**. Hvis prisfastsættelsesmetoden er **Omkostning** eller **Avance før omkostning**, bruges den pris, der blev angivet ved oprettelse af udgiftsposten, til omkostning, og prisen på salgslinjen beregnes på grundlag af prisfastsættelsesmetoden. 
 
-Den kategoribaserede angivelse af standardpriser pr. enhed for udgiftsposter er ikke tilgængelig.
+Du kan tilføje et brugerdefineret felt på udgiftsposten. Hvis feltværdien skal overføres til faktiske værdier, skal du oprette feltet i tabellerne **Faktiske** og **Kladdelinje**. Brug brugerdefineret kode til at overføre den valgte feltværdi fra Tidindtastning til Faktiske via kladdelinjen ved hjælp af transaktionsoprindelser. Du kan finde flere oplysninger om transaktionsoprindelser og forbindelser under [Tilknytning af faktiske til oprindelige poster](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Indsendelse af kladdelinjer og materialeforbrugslog
+
+Du kan finde flere oplysninger om udgiftsregistrering i [Materialeforbrugslog](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Tid og materialer
+
+Når en indsendt registrering af en materialeforbrugslog forbindes med et projekt, der er tilknyttet en tids- og materialekontraktlinje, opretter systemet to kladdelinjer, én for omkostning og én for ikke-faktureret salg.
+
+### <a name="fixed-price"></a>Fast pris
+
+Når en indsendt registrering af materialeforbrugslog forbindes med et projekt, der er tilknyttet en kontraktlinje med fastpris, opretter systemet en kladdelinje for omkostning.
+
+### <a name="default-pricing"></a>Standardprisfastsættelse
+
+Logikken for registrering af standardpriser for materiale er baseret på kombinationen af produkt og enhed. Datoen for transaktionen, den kontraktlinje, projektet er knyttet til, og valutaen bruges alle til at fastlægge den rette prisliste. De felter, der påvirker standardprisfastsættelse som f.eks **Produkt-id** og **Enhed**, anvendes til at fastsætte den passende pris på kladdelinjen. Dette fungerer dog kun for katalogprodukter. For produkter, der skal rekvireres, anvendes den pris, der blev angivet, da registreringen af materialeforbrugsloggen blev oprettet, som kostpris og salgspris på kladdelinjerne. 
+
+Du kan tilføje et brugerdefineret felt på registreringen af **Materialeforbrugslog**. Hvis feltværdien skal overføres til faktiske værdier, skal du oprette feltet i tabellerne **Faktiske** og **Kladdelinje**. Brug brugerdefineret kode til at overføre den valgte feltværdi fra Tidindtastning til Faktiske via kladdelinjen ved hjælp af transaktionsoprindelser. Du kan finde flere oplysninger om transaktionsoprindelser og forbindelser under [Tilknytning af faktiske til oprindelige poster](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Brug posteringskladder til registrering af omkostninger
 
 Du kan anvende posteringskladder til at registrere omkostningerne eller indtægterne i materiale-, gebyr-, time-, udgifts- eller momstransaktionsklasser. Kladder kan bruges til følgende formål:
 
-- Registrering af de faktiske omkostninger til materialer og salg i et projekt.
 - Flyt faktiske transaktionsoplysninger fra et andet system til Microsoft Dynamics 365 Project Operations.
 - Registrer omkostninger, der er opstået i et andet system. Disse omkostninger kan inkludere udgifter til indkøb eller underleverandører.
 
 > [!IMPORTANT]
 > Applikationen validerer ikke kladdelinjetypen eller den relaterede prisfastsættelse, der er angivet på kladdelinjen. Derfor er det kun en bruger, der er fuldt bekendt med den regnskabsmæssige indvirkning, som faktiske værdier har på projektet, der skal bruge posteringskladder til at oprette faktiske værdier. Som følge af virkningen af denne kladdetype skal du omhyggeligt vælge, hvem der har adgang til at oprette posteringskladder.
+
 ## <a name="record-actuals-based-on-project-events"></a>Registrer faktiske oplysninger baseret på projekthændelser
 
 Project Operations registrerer de økonomiske transaktioner, der sker i løbet af et projekt. Disse transaktioner registreres som faktiske oplysninger. I følgende tabel vises de forskellige typer af faktiske oplysninger, der oprettes, afhængigt af, om projektet er tid-og-materiale- eller fastprisprojekt, er i fasen presales eller er et internt projekt.

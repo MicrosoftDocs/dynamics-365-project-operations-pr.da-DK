@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278636"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663698"
 ---
-# <a name="project-contracts---key-concepts"></a>Projektkontrakter - nøglekoncepter
+# <a name="concepts-unique-to-project-based-contracts"></a>Begreber, der er entydige for projektbaserede kontrakter
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 

@@ -3,17 +3,17 @@ title: Konfigurer satser for omkostninger og salg
 description: Dette emne indeholder oplysninger om, hvordan du kan konfigurere satserne for omkostninger og salg for transaktions- og udgiftskategorier.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274901"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877213"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurer satser for omkostninger og salg
 
@@ -23,9 +23,10 @@ Du kan konfigurere kost- og salgspriser for transaktionskategorier i Dynamics 36
 
 Hvis du vil konfigurere satser for omkostninger og salg for transaktionskategorier, skal du benytte følgende fremgangsmåde. 
 
-1. Opret en prisliste, der er baseret på prislistens overskrift. 
-2. I menuen for undergitteret skal du på **Kategoripriser** vælge **+ Ny kategoripris**. 
-3. På siden **Hurtig oprettelse** skal du angive den transaktionskategori og enhed, som du opretter den nye pris for.
+1. Gå til **Salg** > **Kunder** > **Prislister**.
+2. Vælg **Ny** for at oprette en ny prisliste. 
+3. Under **Kategoripriser** skal du i menuen for undergitteret vælge **Ny kategoripris**. 
+4. På siden **Hurtig oprettelse** skal du angive den transaktionskategori og enhed, som du opretter den nye pris for.
 
 I følgende tabel vises de felter på fanen **Generelt** og siden **Hurtig oprettelse**, som du skal være opmærksom på, når du opretter kategoripriser på en salgs- eller kostprisliste.
 

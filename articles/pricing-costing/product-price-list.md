@@ -3,7 +3,7 @@ title: Produktprislister
 description: Dette emne indeholder oplysninger om prislisterne i katalogprisfastsættelse, der bruges til projekttilbud og kontrakter.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275351"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877483"
 ---
 # <a name="product-price-lists"></a>Produktprislister
 
-_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
+_**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Prislister og objekter for prislisteelementer understøtter prisfastsættelse i produktkataloget. I de fleste tilfælde bruges denne funktion i forbindelse med katalogbaserede linjer i projekttilbud og projektkontrakter.
-
-I forbindelse med projektbaserede linjer repræsenterer en kontrakt handlen, efter at den blev vundet. Da forhandlingsprocessen sædvanligvis ligger før den vundne handel, kopieres den prisfastsættelse, der er knyttet til tilbuddet, altid som den er til en ny prisliste og knyttes til kontrakten. Denne nye prisliste kan ikke ændres uden for kontraktens omfang. Denne begrænsning er med til at beskytte den satstabel, der er blevet forhandlet om, mod eventuelle prisændringer, der opstår på den overordnede prisliste.
+ I Project Operations understøtter **Produktprislister** og relaterede prislisteelementobjekter funktionaliteten for prisfastsættelse af produkter i produktbaserede tilbuds- og kontraktlinjer. For produkter, der bruges på projekter, anvendes prislisteelementposterne for projektprislister. 
 
 Produkterne skal konfigureres, så de har standardomkostnings- og prislister i produktkataloget. Anvend listeprisen, standardomkostningerne og de aktuelle omkostninger til at konfigurere standardomkostninger og listepriser. Standardlistepriserne bruges kun i en tilbudslinje eller en projektkontraktlinje, hvis systemet ikke kan finde en prislistelinje for det pågældende produkt på produktprislisten for tilbuddet eller projektkontrakten.
 
@@ -40,9 +38,7 @@ Kostprisen for produktkataloglinjer kan ændres mellem tilbud. Denne funktion er
 
 Du kan føje produkter fra et produktkatalog til forskellige prislister. Prislistelinjer for produkter refererer altid til en bestemt enhed. Du kan konfigurere prislisteelementer for et produkt som et valutabeløb. Alternativt kan den konfigureres som en funktion af listepris, aktuelle omkostninger eller standardomkostninger.
 
-PSA understøtter forskellige afrundingsindstillinger, når priser er konfigureret som en funktion af listeprisen, standardomkostninger eller aktuelle omkostninger. Ud over at udnytte flere prisfastsættelsesmetoder og afrundingsindstillinger kan du knytte rabatlister til prislisteelementer. 
-
-Når du opretter en ny brugerdefineret prisliste for et tilbud ved at vælge **Opret brugerdefineret prisfastsættelse** på siden **Projekttilbud**, oprettes en kopi af prislisten, og feltet **Objekt** i overskriften for den nye prisliste angives til **Salgsobjekt**. Navnet på den nye prisliste tilføjes sammen med navnet på tilbuddet og et tidsstempel. Du kan også bruge navnet på den nye prisliste og navnet på tilbuddet i brugerdefinerede arbejdsprocesser til at udløse yderligere gennemgang og godkendelse for tilbud, der bruger brugerdefineret prissætning.
+Funktionen prisfastsættelse understøtter forskellige afrundingsindstillinger, når produktpriser er konfigureret som en funktion af listeprisen, standardomkostninger eller aktuelle omkostninger. Ud over at udnytte flere prisfastsættelsesmetoder og afrundingsindstillinger kan du knytte rabatlister til prislisteelementer. 
 
  
 ## <a name="default-product-price-list"></a>Standardproduktprisliste
@@ -57,7 +53,7 @@ For objekterne for salgsmulighed, tilbud og projektkontrakt bruges følgende ræ
 
 Som standard viser feltet **Produkt** på tilbudslinjen en liste over alle de aktive produkter i tilbuddets produktprisliste. Hvis et produkt er blevet deaktiveret, eller hvis det er et kladdeprodukt, vises det ikke på listen, heller ikke selvom det er på prislisten. 
 
-Produktkataloglinjer tilføjes som fakturalinjer i den første faktura, der oprettes for en projektkontrakt. På en kladdefaktura kan de pågældende fakturalinjer slettes. Hvis det er tilfældet, vil linjerne blive vist på en efterfølgende faktura, indtil de faktureres, eller indtil fakturaen er sendt til kunden. Du kan ikke fakturere et delvist antal på en produktfakturalinje. Når produktlinjerne fra projektkontrakten faktureres, oprettes der faktiske oplysninger. Disse faktiske tal er dog ikke kædet sammen med det relaterede projektobjekt. Det vil sige, at produktbaserede projektkontraktlinjer er uafhængige af projektbaseret brug. Materialeforbrug på projekter spores ikke.
+Produktkataloglinjer tilføjes som fakturalinjer i den første faktura, der oprettes for en projektkontrakt. På en kladdefaktura kan de pågældende fakturalinjer slettes. Hvis det er tilfældet, vil linjerne blive vist på en efterfølgende faktura, indtil de faktureres, eller indtil fakturaen er sendt til kunden. Du kan ikke fakturere et delvist antal på en produktfakturalinje. Når produktlinjerne fra projektkontrakten faktureres, oprettes der faktiske oplysninger. Disse faktiske tal er dog ikke kædet sammen med det relaterede projektobjekt. Det vil sige, at produktbaserede projektkontraktlinjer er uafhængige af projektbaseret brug. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

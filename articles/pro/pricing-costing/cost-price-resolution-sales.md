@@ -1,22 +1,22 @@
 ---
-title: Fastsæt kostpriser for estimater og faktiske tal - lille
-description: Dette emne indeholder oplysninger om, hvordan kostpriser for estimater og faktiske oplysninger fastsættes.
+title: Fastsæt kostpriser på projektestimater og faktiske
+description: Dette emne indeholder oplysninger om, hvordan du fastsætter kostpriser på projektestimater og faktiske værdier.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274542"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877258"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Fastsæt kostpriser for estimater og faktiske tal - lille
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Fastsæt kostpriser på projektestimater og faktiske 
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -36,6 +36,12 @@ Når en kostprisliste er løst, sammenholdes felterne **Rolle** og **Ressourceen
 Estimatlinjer for udgifter refererer til tilbuds- og kontraktlinjeoplysninger om udgifter og udgiftsestimatlinjer i et projekt.
 
 Når en kostprisliste er løst, bruger systemet en kombination af felterne **Kategori** og **Enhed** på udgiftsestimatlinjen til at sammenligne med linjerne **Kategoripris** i den løste prisliste. Hvis systemet finder en kategorisprislinje, der har en omkostningssats for feltkombinationen **Kategori** og **Enhed**, konverteres omkostningssatsen til standarden. Hvis systemet ikke kan sammenholde værdierne for **Kategori** og **Enhed**, eller hvis det kan finde en tilsvarende kategoriprislinje, men prisfastsættelsesmetoden ikke er **Pris pr. enhed**, vil omkostningssatsen som standard være nul (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Fastsættelse af kostpriser på faktiske og anslåede linjer for materialer
+
+Estimatlinjer for materialer henviser til tilbuds- og kontraktlinjedetaljerne for materiale og materialeestimatlinjerne på et projekt.
+
+Når en kostprisliste er fastsat, bruger systemet en kombination af felterne **Produkt** og **Enhed** på estimatlinjen til et materialeestimat, der skal afstemmes mod linjerne **Prislisteelementer** i den fastsatte prisliste. Hvis systemet finder en produktprislinje, der har en kostsats for kombinationsfeltet **Produkt** og **Enhed**, anvendes kostsatsen som standard. Hvis systemet ikke kan matche værdierne **Produkt** og **Enhed**, eller hvis det er muligt at finde en tilsvarende prislisteelementlinje, men prisfastsættelsesmetoden er baseret på standardomkostninger eller aktuelle omkostninger, og ingen af dem er defineret for produktet, angives enhedsomkostningen som standard til nul.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

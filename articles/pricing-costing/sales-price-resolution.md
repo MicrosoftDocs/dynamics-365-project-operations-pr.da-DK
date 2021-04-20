@@ -3,17 +3,17 @@ title: Fastsæt salgspriser for estimater og faktiske oplysninger
 description: Dette emne indeholder oplysninger om, hvordan du fastsætter salgssatser estimater og faktiske oplysninger.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274946"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877438"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Fastsæt salgspriser for estimater og faktiske oplysninger
 
@@ -54,6 +54,17 @@ Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin
     | &nbsp; | Avance i forhold til omkostning | Ved at anvende en avance, der er defineret af kategoriprislinjen i enhedsomkostningssatsen for den relaterede faktiske omkostning |
 
 4. Hvis det ikke er muligt for systemet at matche feltværdierne **Kategori** og **Enhed**, vil salgssatsen som standard være nul (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Fastsæt salgspriser på faktiske og estimerede linjer for materialer
+
+I Project Operations bruges estimatlinjer for materialer til at angive tilbudslinje- og kontraktlinjedetaljerne for materiale og materialeestimatlinjer på projektet.
+
+Når en prisliste for salg er blevet fastsat, fuldfører systemet følgende trin for at angive standarden for enhedens salgspris.
+
+1. Systemet bruger kombinationsfeltet **Produkt** og **Enhed** på estimatlinjen for materialer til at matche med prislisteelementlinjerne på den prisliste, der blev fastsat.
+2. Hvis systemet finder en prislisteelementlinje, der har en salgspris for feltkombinationen **Produkt** og **Enhed**, og prissætningsmetoden er **Valutabeløb**, bruges den salgspris, der er angivet på prislistelinjen.
+3. Hvis feltværdierne for **Produkt** og **Enhed** ikke stemmer overens, angives salgssatsen som standard til nul.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

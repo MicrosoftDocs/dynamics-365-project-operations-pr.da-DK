@@ -3,19 +3,19 @@ title: Kontantforskud
 description: Dette emne indeholder oplysninger om kontantforskud.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276701"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715553"
 ---
 # <a name="cash-advance"></a>Kontantforskud
 
@@ -60,7 +60,22 @@ Følgende procedure gennemføres typisk af en bogholder eller en bruger med regn
 
 Når du opretter og indsender en udgiftsrapport for det kontantforskud, som du allerede har modtaget, justeres udgifterne automatisk i forhold til det pågældende forskud. Hvis kontantforskuddet er større end det udgiftsførte beløb, skal du vende tilbage til virksomhedens saldi ved hjælp af udgiftskategorien **Returner kontanter**. Hvis det af virksomheden betalte kontantforskud er mindre end det beløb, som du har angivet som udgiv, skal virksomheden udbetale saldoen til dig. 
 
-### <a name="example"></a>Eksempel
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Vælg kontantforskud, der gælder for dine udgifter
+Før du indsender en udgiftsrapport, kan du vælge det kontantforskud, der stemmer overens med udgiftstransaktionerne i rapporten. Hvis du vil bruge denne funktion, skal følgende to funktioner aktiveres fra arbejdsområdet **Funktionsstyring**:
+
+  - Nye udgiftsrapporter
+  - Mulighed for at tilknytte kontantforskud til udgiftslinjer
+ 
+ Når disse funktioner er aktiveret:
+ 
+  - Du kan vælge en eller flere kontantforskud for hver udgiftslinje.
+  - Den tilgængelige saldo for et kontantforskud kan ses i realtid, når en udgiftsrapport gemmes. Dette giver dig mulighed for at behandle udgiftstransaktioner og samtidig tilbageføre kontanttransaktioner.
+  - Du kan vælge flere kontantforskud for en udgiftstransaktion.
+  - Dataene for afstemning af kontantforskuddet er tilgængelig via en forespørgsel. 
+ 
+Hvis du ikke bruger disse funktioner, forbliver funktionaliteten den samme, og det eksisterende kontantforskud reduceres automatisk, når en udgift indsendes.
+
+### <a name="example"></a>Eksempel 
 Du planlægger at rejse fra København til New York City for at deltage i en konference. Du opretter en anmodning om et kontantforskud på 3.000,00 USD på baggrund af de anslåede omkostninger til konferencebilletten, flybilletten, hotellet, måltider og taxi. Du modtager ikke betaling, medmindre din leder godkender denne anmodning. Når din leder har godkendt det, indbetales det ønskede kontantforskud som 3.000,00 DKK på din bankkonto. Du deltager derefter i konferencen. Når rejsen er gennemført, kan du se, at den samlede udgift kun var 2.790,00 DKK. Vælg **Kontant** i feltet **Betalingsmetode**, og indsend dine udgifter på 2.790,00 USD. Det indsendte udgiftsbeløb justeres automatisk i forhold til kontantforskuddet på 3.000,00 DKK, som blev udlånt til dig. Du har nu en balance på 210,00 USD (3.000,00-2.790,00), som du kan betale tilbage til virksomheden ved hjælp af udgiftskategorien **Tilbagebetal kontanter**.
 
 
