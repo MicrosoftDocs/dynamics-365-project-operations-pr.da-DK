@@ -1,5 +1,5 @@
 ---
-title: Arbejd med projektbaserede kontraktlinjer - lille
+title: Oversigt over projektbaserede kontraktlinjer
 description: Dette emne indeholder oplysninger om at arbejde med projektbaserede kontraktlinjer.
 author: rumant
 manager: Annbe
@@ -8,64 +8,628 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273281"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858151"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a><span data-ttu-id="3db97-103">Arbejd med projektbaserede kontraktlinjer - lille</span><span class="sxs-lookup"><span data-stu-id="3db97-103">Work with project–based contract lines - lite</span></span>
+# <a name="project-based-contract-lines-overview"></a><span data-ttu-id="ac213-103">Oversigt over projektbaserede kontraktlinjer</span><span class="sxs-lookup"><span data-stu-id="ac213-103">Project-based contract lines overview</span></span>
 
-<span data-ttu-id="3db97-104">_**Gælder for:** Lille udrulning - aftale til proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="3db97-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ac213-104">_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="ac213-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="3db97-105">Projektbaserede kontraktlinjer i Dynamics 365 Project Operations er designet til at rumme estimat- og faktureringsaftaler for specifikke komponenter i projektarbejde på en aftale.</span><span class="sxs-lookup"><span data-stu-id="3db97-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="3db97-106">Strukturen i en projektbaseret kontraktlinje udvides for projektestimater og faktureringsscenarier med følgende koncepter:</span><span class="sxs-lookup"><span data-stu-id="3db97-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
+<span data-ttu-id="ac213-105">Projektbaserede kontraktlinjer i Dynamics 365 Project Operations er designet til at rumme estimat- og faktureringsaftaler for specifikke komponenter i projektarbejde på en aftale.</span><span class="sxs-lookup"><span data-stu-id="ac213-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="ac213-106">Strukturen i en projektbaseret kontraktlinje udvides for projektestimater og faktureringsscenarier med følgende koncepter:</span><span class="sxs-lookup"><span data-stu-id="ac213-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
 
-- <span data-ttu-id="3db97-107">Faktureringsmetode</span><span class="sxs-lookup"><span data-stu-id="3db97-107">Billing method</span></span>
-- <span data-ttu-id="3db97-108">Projekt- og opgavetilknytning</span><span class="sxs-lookup"><span data-stu-id="3db97-108">Project and task mapping</span></span>
-- <span data-ttu-id="3db97-109">Inkluderede transaktionsklasser</span><span class="sxs-lookup"><span data-stu-id="3db97-109">Included transaction classes</span></span>
-- <span data-ttu-id="3db97-110">Grænse, der ikke må overskrides</span><span class="sxs-lookup"><span data-stu-id="3db97-110">Not-to-exceed limit</span></span>
-- <span data-ttu-id="3db97-111">Opsætning af fakturerbarhed</span><span class="sxs-lookup"><span data-stu-id="3db97-111">Chargeability setup</span></span>
-- <span data-ttu-id="3db97-112">Estimater ved hjælp af kontraktlinjedetaljer</span><span class="sxs-lookup"><span data-stu-id="3db97-112">Estimates using contract line details</span></span>
-- <span data-ttu-id="3db97-113">Kontraktlinjekunder</span><span class="sxs-lookup"><span data-stu-id="3db97-113">Contract line customers</span></span>
+- <span data-ttu-id="ac213-107">Faktureringsmetode</span><span class="sxs-lookup"><span data-stu-id="ac213-107">Billing method</span></span>
+- <span data-ttu-id="ac213-108">Projekt- og opgavetilknytning</span><span class="sxs-lookup"><span data-stu-id="ac213-108">Project and task mapping</span></span>
+- <span data-ttu-id="ac213-109">Inkluderede transaktionsklasser</span><span class="sxs-lookup"><span data-stu-id="ac213-109">Included transaction classes</span></span>
+- <span data-ttu-id="ac213-110">Grænse, der ikke må overskrides</span><span class="sxs-lookup"><span data-stu-id="ac213-110">Not-to-exceed limit</span></span>
+- <span data-ttu-id="ac213-111">Opsætning af fakturerbarhed</span><span class="sxs-lookup"><span data-stu-id="ac213-111">Chargeability setup</span></span>
+- <span data-ttu-id="ac213-112">Estimater ved hjælp af kontraktlinjedetaljer</span><span class="sxs-lookup"><span data-stu-id="ac213-112">Estimates using contract line details</span></span>
+- <span data-ttu-id="ac213-113">Kontraktlinjekunder</span><span class="sxs-lookup"><span data-stu-id="ac213-113">Contract line customers</span></span>
 
-<span data-ttu-id="3db97-114">I følgende tabel medtages felterne under fanen **Generelt** for projektbaserede kontraktlinjer, som hjælper med at konfigurere grundlaget for et detaljeret, grundlæggende estimat og faktureringsaftaler for projektbaseret arbejde.</span><span class="sxs-lookup"><span data-stu-id="3db97-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
+<span data-ttu-id="ac213-114">I følgende tabel medtages felterne under fanen **Generelt** for projektbaserede kontraktlinjer, som hjælper med at konfigurere grundlaget for et detaljeret, grundlæggende estimat og faktureringsaftaler for projektbaseret arbejde.</span><span class="sxs-lookup"><span data-stu-id="ac213-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
 
-| <span data-ttu-id="3db97-115">Felt</span><span class="sxs-lookup"><span data-stu-id="3db97-115">Field</span></span> | <span data-ttu-id="3db97-116">Beskrivelse</span><span class="sxs-lookup"><span data-stu-id="3db97-116">Description</span></span> | <span data-ttu-id="3db97-117">Downstream-virkning</span><span class="sxs-lookup"><span data-stu-id="3db97-117">Downstream impact</span></span> |
+| <span data-ttu-id="ac213-115">Felt</span><span class="sxs-lookup"><span data-stu-id="ac213-115">Field</span></span> | <span data-ttu-id="ac213-116">Beskrivelse</span><span class="sxs-lookup"><span data-stu-id="ac213-116">Description</span></span> | <span data-ttu-id="ac213-117">Downstream-virkning</span><span class="sxs-lookup"><span data-stu-id="ac213-117">Downstream impact</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="3db97-118">**Navn**</span><span class="sxs-lookup"><span data-stu-id="3db97-118">**Name**</span></span> | <span data-ttu-id="3db97-119">Navn på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-119">Name of the contract line.</span></span> <span data-ttu-id="3db97-120">Dette identificerer den diskrete komponent i kontrakten, der skal estimeres.</span><span class="sxs-lookup"><span data-stu-id="3db97-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="3db97-121">I en projektkontrakt, der er oprettet ud fra et tilbud, kopieres denne værdi fra en tilsvarende værdi for den projektbaserede tilbudslinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="3db97-122">Navnet kopieres til den projektfakturalinje, der oprettes fra denne kontraktlinje, når fakturaen oprettes.</span><span class="sxs-lookup"><span data-stu-id="3db97-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
-| <span data-ttu-id="3db97-123">**Faktureringsmetode**</span><span class="sxs-lookup"><span data-stu-id="3db97-123">**Billing Method**</span></span> | <span data-ttu-id="3db97-124">På en projektkontrakt, der er oprettet ud fra et tilbud, kopieres denne værdi fra det tilsvarende felt på tilbudslinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="3db97-125">Dette er en grupperet indstilling, der repræsenterer de to primære kontraktmodeller, som understøttes af Project Operations:</span><span class="sxs-lookup"><span data-stu-id="3db97-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="3db97-126">- **Fast pris**</span><span class="sxs-lookup"><span data-stu-id="3db97-126">- **Fixed Price**</span></span></br><span data-ttu-id="3db97-127">- **Tid og materiale**</span><span class="sxs-lookup"><span data-stu-id="3db97-127">- **Time and Material**</span></span> | <span data-ttu-id="3db97-128">Den faktiske transaktion behandles på grundlag af faktureringsmetoden for den kontrakt, der henvises til.</span><span class="sxs-lookup"><span data-stu-id="3db97-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="3db97-129">Hvis den kontraktlinje, der henvises til af den faktiske værdi, har en faktureringsmetode for tid og materialer, oprettes der poster for omkostninger og ikke-faktureret faktisk salgsværdier.</span><span class="sxs-lookup"><span data-stu-id="3db97-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="3db97-130">Hvis den kontraktlinje, der henvises til af den faktiske værdi, har en faktureringsmetode for fast pris, oprettes der kun en faktisk omkostningsværdi.</span><span class="sxs-lookup"><span data-stu-id="3db97-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
-| <span data-ttu-id="3db97-131">**Project**</span><span class="sxs-lookup"><span data-stu-id="3db97-131">**Project**</span></span> | <span data-ttu-id="3db97-132">Brug dette felt til at identificere det projekt, der skal bruges til at levere arbejdet på denne aftale.</span><span class="sxs-lookup"><span data-stu-id="3db97-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="3db97-133">Denne værdi anvendes sammen med **Inkluderede opgaver** og **Inkluderede transaktionsklasser** til at fortolke kontraktlinjereferencen på en post for en faktisk værdi eller en estimatlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="3db97-134">**Inkluderede opgaver**</span><span class="sxs-lookup"><span data-stu-id="3db97-134">**Included Tasks**</span></span> | <span data-ttu-id="3db97-135">Angiver, om denne kontraktlinje inkluderer alle projektopgaver for det valgte projekt eller kun et undersæt af opgaverne.</span><span class="sxs-lookup"><span data-stu-id="3db97-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="3db97-136">Dette er en grupperet indstilling, der har følgende mulige værdier:</span><span class="sxs-lookup"><span data-stu-id="3db97-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="3db97-137">- **Alle projektopgaver**</span><span class="sxs-lookup"><span data-stu-id="3db97-137">- **All Project Tasks**</span></span></br><span data-ttu-id="3db97-138">- **Kun markerede projektopgaver**.</span><span class="sxs-lookup"><span data-stu-id="3db97-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="3db97-139">En tom værdi i dette felt svarer til at vælge **Alle projektopgaver**.</span><span class="sxs-lookup"><span data-stu-id="3db97-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="3db97-140">Hvis du har valgt **Kun markerede opgaver**, kan du vælge bestemte opgaver og knytte dem til denne kontraktlinje under fanen **Opsætning af opgavefakturering** på siden **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="3db97-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="3db97-141">Værdien anvendes sammen med klasserne **Projekt** og **Inkluderet transaktion** til at fortolke kontraktlinjereferencen på en post for en faktisk værdi eller en estimatlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="3db97-142">**Medtag tid**</span><span class="sxs-lookup"><span data-stu-id="3db97-142">**Include Time**</span></span> | <span data-ttu-id="3db97-143">Et flag angiver, om tidstransaktioner eller arbejdsomkostninger på det valgte projekt medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-143">A flag indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="3db97-144">En værdi angivet til **Nej** medfører, at tidstransaktionerne eller arbejdsomkostninger ikke medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="3db97-145">Hvis værdien **Ja** er angivet, betyder det, at de bliver medtaget.</span><span class="sxs-lookup"><span data-stu-id="3db97-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="3db97-146">Denne værdi bruges sammen med projektet til at fortolke kontraktlinjereferencen på en faktisk værdipost eller en estimatlinjepost.</span><span class="sxs-lookup"><span data-stu-id="3db97-146">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="3db97-147">**Medtag udgift**</span><span class="sxs-lookup"><span data-stu-id="3db97-147">**Include Expense**</span></span> | <span data-ttu-id="3db97-148">Et flag angiver, om udgiftsomkostninger på det valgte projekt medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-148">A flag indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="3db97-149">En værdi angivet til **Nej** medfører, at udgiftsomkostningen ikke medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="3db97-150">Hvis værdien **Ja** er angivet, betyder det, at den bliver medtaget.</span><span class="sxs-lookup"><span data-stu-id="3db97-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="3db97-151">Denne værdi bruges sammen med projektet til at fortolke kontraktlinjereferencen på en faktisk værdipost eller en estimatlinjepost.</span><span class="sxs-lookup"><span data-stu-id="3db97-151">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="3db97-152">**Medtag gebyr**</span><span class="sxs-lookup"><span data-stu-id="3db97-152">**Include Fee**</span></span> | <span data-ttu-id="3db97-153">Et flag angiver, om gebyrer på det valgte projekt medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-153">A flag indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="3db97-154">En værdi angivet til **Nej** medfører, at gebyrerne ikke medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="3db97-154">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="3db97-155">Hvis værdien **Ja** er angivet, betyder det, at de bliver medtaget.</span><span class="sxs-lookup"><span data-stu-id="3db97-155">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="3db97-156">Denne værdi bruges sammen med projektet til at fortolke kontraktlinjereferencen på en faktisk værdipost eller en estimatlinjepost.</span><span class="sxs-lookup"><span data-stu-id="3db97-156">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="3db97-157">**Kontraktbeløb**</span><span class="sxs-lookup"><span data-stu-id="3db97-157">**Contracted Amount**</span></span> | <span data-ttu-id="3db97-158">På en kontraktlinje med fast pris er dette beløb den aftalte værdi, der skal faktureres kunden for alle de arbejdskomponenter, der er knyttet til kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-158">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="3db97-159">På en kontraktlinje med tid og materialer er dette beløb en estimeret værdi for det, der skal faktureres kunden for alle de arbejdskomponenter, der er knyttet til kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-159">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="3db97-160">På en projektkontrakt, som er oprettet ud fra et tilbud, kopieres denne værdi fra det tilsvarende felt på tilbudslinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-160">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="3db97-161">Når en projektbaseret kontraktlinje indeholder linjeoplysninger, er dette felt låst mod redigering og opsummeres i på grundlag af beløbet i kontraktlinjeoplysningerne.</span><span class="sxs-lookup"><span data-stu-id="3db97-161">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="3db97-162">Når kontraktlinjen indeholder linjeoplysninger, kan denne værdi ændres ved at ændre beløbene på linjedetaljerne.</span><span class="sxs-lookup"><span data-stu-id="3db97-162">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="3db97-163">På en kontraktlinje med fast pris bruges denne værdi til at oprette beløbet før moms på periodiske faktureringsmilepæle.</span><span class="sxs-lookup"><span data-stu-id="3db97-163">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="3db97-164">**Anslået moms**</span><span class="sxs-lookup"><span data-stu-id="3db97-164">**Estimated Tax**</span></span> | <span data-ttu-id="3db97-165">Brugeren kan redigere dette felt for at angive det estimerede momsbeløb på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-165">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="3db97-166">Når en projektbaseret kontraktlinje indeholder linjeoplysninger, er dette felt låst mod redigering og opsummeres i på grundlag af momsbeløbet i kontraktlinjeoplysningerne.</span><span class="sxs-lookup"><span data-stu-id="3db97-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="3db97-167">Når kontraktlinjen indeholder linjeoplysninger, kan denne værdi ændres ved at ændre momsbeløbene på linjedetaljerne.</span><span class="sxs-lookup"><span data-stu-id="3db97-167">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="3db97-168">På en kontraktlinje med fast pris bruges denne værdi til at oprette momsen på periodiske faktureringsmilepæle.</span><span class="sxs-lookup"><span data-stu-id="3db97-168">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="3db97-169">**Kontraktbeløb efter moms**</span><span class="sxs-lookup"><span data-stu-id="3db97-169">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="3db97-170">Beløbet på kontraktlinjen efter moms.</span><span class="sxs-lookup"><span data-stu-id="3db97-170">The contract line amount after tax.</span></span> <span data-ttu-id="3db97-171">Dette felt er skrivebeskyttet og beregnes som **Kontraktbeløb + moms**.</span><span class="sxs-lookup"><span data-stu-id="3db97-171">This field is read-only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="3db97-172">På en kontraktlinje med fast pris bruges denne værdi til at oprette periodiske faktureringsmilepæle.</span><span class="sxs-lookup"><span data-stu-id="3db97-172">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
-| <span data-ttu-id="3db97-173">**Grænse, der ikke må overskrides**</span><span class="sxs-lookup"><span data-stu-id="3db97-173">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="3db97-174">Brugeren kan redigere dette felt, og det er kun tilgængeligt for projektbaserede kontraktlinjer, der har faktureringsmetoden angivet som tid og materialer.</span><span class="sxs-lookup"><span data-stu-id="3db97-174">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="3db97-175">Brugeren kan redigere dette felt.</span><span class="sxs-lookup"><span data-stu-id="3db97-175">The user can edit this field.</span></span> <span data-ttu-id="3db97-176">Når en faktisk værdi for tid og materialer refererer til denne kontraktlinje for tid og materiale, evalueres beløbet på den faktiske værdi i forhold til grænsen, der ikke må overskrides, på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-176">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="3db97-177">Denne evaluering fuldføres, når der redegøres for de allerede brugte og forpligtede beløb.</span><span class="sxs-lookup"><span data-stu-id="3db97-177">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
-| <span data-ttu-id="3db97-178">**Kundebudget**</span><span class="sxs-lookup"><span data-stu-id="3db97-178">**Customer Budget**</span></span> | <span data-ttu-id="3db97-179">Dette felt kan redigeres og kopieres fra det tilsvarende felt på tilbudslinjen, hvis kontrakten er blevet oprettet på grundlag af et tilbud.</span><span class="sxs-lookup"><span data-stu-id="3db97-179">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="3db97-180">Dette felt bruges kun til orientering, og det har ingen afledede virkninger.</span><span class="sxs-lookup"><span data-stu-id="3db97-180">This field is only used for information and does not have any downstream significance.</span></span> |
+| <span data-ttu-id="ac213-118">**Navn**</span><span class="sxs-lookup"><span data-stu-id="ac213-118">**Name**</span></span> | <span data-ttu-id="ac213-119">Navn på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-119">Name of the contract line.</span></span> <span data-ttu-id="ac213-120">Dette identificerer den diskrete komponent i kontrakten, der skal estimeres.</span><span class="sxs-lookup"><span data-stu-id="ac213-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="ac213-121">I en projektkontrakt, der er oprettet ud fra et tilbud, kopieres denne værdi fra en tilsvarende værdi for den projektbaserede tilbudslinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="ac213-122">Navnet kopieres til den projektfakturalinje, der oprettes fra denne kontraktlinje, når fakturaen oprettes.</span><span class="sxs-lookup"><span data-stu-id="ac213-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
+| <span data-ttu-id="ac213-123">**Faktureringsmetode**</span><span class="sxs-lookup"><span data-stu-id="ac213-123">**Billing Method**</span></span> | <span data-ttu-id="ac213-124">På en projektkontrakt, der er oprettet ud fra et tilbud, kopieres denne værdi fra det tilsvarende felt på tilbudslinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="ac213-125">Dette er en grupperet indstilling, der repræsenterer de to primære kontraktmodeller, som understøttes af Project Operations:</span><span class="sxs-lookup"><span data-stu-id="ac213-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="ac213-126">- **Fast pris**</span><span class="sxs-lookup"><span data-stu-id="ac213-126">- **Fixed Price**</span></span></br><span data-ttu-id="ac213-127">- **Tid og materiale**</span><span class="sxs-lookup"><span data-stu-id="ac213-127">- **Time and Material**</span></span> | <span data-ttu-id="ac213-128">Den faktiske transaktion behandles på grundlag af faktureringsmetoden for den kontrakt, der henvises til.</span><span class="sxs-lookup"><span data-stu-id="ac213-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="ac213-129">Hvis den kontraktlinje, der henvises til af den faktiske værdi, har en faktureringsmetode for tid og materialer, oprettes der poster for omkostninger og ikke-faktureret faktisk salgsværdier.</span><span class="sxs-lookup"><span data-stu-id="ac213-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="ac213-130">Hvis den kontraktlinje, der henvises til af den faktiske værdi, har en faktureringsmetode for fast pris, oprettes der kun en faktisk omkostningsværdi.</span><span class="sxs-lookup"><span data-stu-id="ac213-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
+| <span data-ttu-id="ac213-131">**Project**</span><span class="sxs-lookup"><span data-stu-id="ac213-131">**Project**</span></span> | <span data-ttu-id="ac213-132">Brug dette felt til at identificere det projekt, der skal bruges til at levere arbejdet på denne aftale.</span><span class="sxs-lookup"><span data-stu-id="ac213-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="ac213-133">Denne værdi bruges sammen med **Inkluderede opgaver** og **Inkluderede transaktionsklasser** til at fastsætte kontraktlinjereferencen for en faktisk eller estimeret linjepost.</span><span class="sxs-lookup"><span data-stu-id="ac213-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or estimate line record.</span></span> |
+| <span data-ttu-id="ac213-134">**Inkluderede opgaver**</span><span class="sxs-lookup"><span data-stu-id="ac213-134">**Included Tasks**</span></span> | <span data-ttu-id="ac213-135">Angiver, om denne kontraktlinje inkluderer alle projektopgaver for det valgte projekt eller kun et undersæt af opgaverne.</span><span class="sxs-lookup"><span data-stu-id="ac213-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="ac213-136">Dette er en grupperet indstilling, der har følgende mulige værdier:</span><span class="sxs-lookup"><span data-stu-id="ac213-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="ac213-137">- **Alle projektopgaver**</span><span class="sxs-lookup"><span data-stu-id="ac213-137">- **All Project Tasks**</span></span></br><span data-ttu-id="ac213-138">- **Kun markerede projektopgaver**.</span><span class="sxs-lookup"><span data-stu-id="ac213-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="ac213-139">En tom værdi i dette felt svarer til at vælge **Alle projektopgaver**.</span><span class="sxs-lookup"><span data-stu-id="ac213-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="ac213-140">Hvis du har valgt **Kun markerede opgaver**, kan du vælge bestemte opgaver og knytte dem til denne kontraktlinje under fanen **Opsætning af opgavefakturering** på siden **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="ac213-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="ac213-141">Værdien anvendes sammen med klasserne **Projekt** og **Inkluderet transaktion** til at fortolke kontraktlinjereferencen på en post for en faktisk værdi eller en estimatlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="ac213-142">**Medtag tid**</span><span class="sxs-lookup"><span data-stu-id="ac213-142">**Include Time**</span></span> | <span data-ttu-id="ac213-143">Værdien **Ja**/**Nej** angiver, om tidstransaktioner eller arbejdsomkostninger for det valgte projekt skal medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-143">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="ac213-144">En værdi angivet til **Nej** medfører, at tidstransaktionerne eller arbejdsomkostninger ikke medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="ac213-145">Hvis værdien **Ja** er angivet, betyder det, at de bliver medtaget.</span><span class="sxs-lookup"><span data-stu-id="ac213-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="ac213-146">Denne værdi bruges sammen med projektet til at fastsætte kontraktlinjereferencen for en faktisk eller estimeret linjepost.</span><span class="sxs-lookup"><span data-stu-id="ac213-146">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="ac213-147">**Medtag udgift**</span><span class="sxs-lookup"><span data-stu-id="ac213-147">**Include Expense**</span></span> | <span data-ttu-id="ac213-148">Værdien **Ja**/**Nej** angiver, om udgiftsomkostninger for det valgte projekt skal medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-148">A **Yes**/**No** value indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="ac213-149">En værdi angivet til **Nej** medfører, at udgiftsomkostningen ikke medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="ac213-150">Hvis værdien **Ja** er angivet, betyder det, at den bliver medtaget.</span><span class="sxs-lookup"><span data-stu-id="ac213-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="ac213-151">Denne værdi bruges sammen med projektet til at fastsætte kontraktlinjereferencen for en faktisk eller estimeret linjepost.</span><span class="sxs-lookup"><span data-stu-id="ac213-151">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="ac213-152">**Medtag materialer**</span><span class="sxs-lookup"><span data-stu-id="ac213-152">**Include Materials**</span></span> | <span data-ttu-id="ac213-153">Værdien **Ja**/**Nej** angiver, om materialeomkostninger for det valgte projekt skal medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-153">A **Yes**/**No** value indicates if material costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="ac213-154">En værdi angivet som **Nej** indikerer, at materialeomkostningerne ikke bliver medtaget på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-154">A **No** value indicates that the material costs will not be included on this contract line.</span></span> <span data-ttu-id="ac213-155">Hvis værdien **Ja** er angivet, betyder det, at den bliver medtaget.</span><span class="sxs-lookup"><span data-stu-id="ac213-155">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="ac213-156">Denne værdi bruges sammen med projektet til at fastsætte kontraktlinjereferencen for en faktisk eller estimeret linjepost.</span><span class="sxs-lookup"><span data-stu-id="ac213-156">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="ac213-157">**Medtag gebyr**</span><span class="sxs-lookup"><span data-stu-id="ac213-157">**Include Fee**</span></span> | <span data-ttu-id="ac213-158">Værdien **Ja**/**Nej** angiver, om gebyrer for det valgte projekt skal medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-158">A **Yes**/**No** value indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="ac213-159">En værdi angivet til **Nej** medfører, at gebyrerne ikke medtages på denne kontraktlinje.</span><span class="sxs-lookup"><span data-stu-id="ac213-159">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="ac213-160">Hvis værdien **Ja** er angivet, betyder det, at de bliver medtaget.</span><span class="sxs-lookup"><span data-stu-id="ac213-160">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="ac213-161">Denne værdi bruges sammen med projektet til at fastsætte kontraktlinjereferencen for en faktisk eller estimeret linjepost.</span><span class="sxs-lookup"><span data-stu-id="ac213-161">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="ac213-162">**Kontraktbeløb**</span><span class="sxs-lookup"><span data-stu-id="ac213-162">**Contracted Amount**</span></span> | <span data-ttu-id="ac213-163">På en kontraktlinje med fast pris er dette beløb den aftalte værdi, der skal faktureres kunden for alle de arbejdskomponenter, der er knyttet til kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-163">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="ac213-164">På en kontraktlinje med tid og materialer er dette beløb en estimeret værdi for det, der skal faktureres kunden for alle de arbejdskomponenter, der er knyttet til kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-164">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="ac213-165">På en projektkontrakt, som er oprettet ud fra et tilbud, kopieres denne værdi fra det tilsvarende felt på tilbudslinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-165">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="ac213-166">Når en projektbaseret kontraktlinje indeholder linjeoplysninger, er dette felt låst mod redigering og opsummeres i på grundlag af beløbet i kontraktlinjeoplysningerne.</span><span class="sxs-lookup"><span data-stu-id="ac213-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="ac213-167">Når kontraktlinjen indeholder linjeoplysninger, kan denne værdi ændres ved at ændre beløbene på linjedetaljerne.</span><span class="sxs-lookup"><span data-stu-id="ac213-167">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="ac213-168">På en kontraktlinje med fast pris bruges denne værdi til at oprette beløbet før moms på periodiske faktureringsmilepæle.</span><span class="sxs-lookup"><span data-stu-id="ac213-168">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="ac213-169">**Anslået moms**</span><span class="sxs-lookup"><span data-stu-id="ac213-169">**Estimated Tax**</span></span> | <span data-ttu-id="ac213-170">Brugeren kan redigere dette felt for at angive det estimerede momsbeløb på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-170">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="ac213-171">Når en projektbaseret kontraktlinje indeholder linjeoplysninger, er dette felt låst mod redigering og opsummeres i på grundlag af momsbeløbet i kontraktlinjeoplysningerne.</span><span class="sxs-lookup"><span data-stu-id="ac213-171">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="ac213-172">Når kontraktlinjen indeholder linjeoplysninger, kan denne værdi ændres ved at ændre momsbeløbene på linjedetaljerne.</span><span class="sxs-lookup"><span data-stu-id="ac213-172">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="ac213-173">På en kontraktlinje med fast pris bruges denne værdi til at oprette momsen på periodiske faktureringsmilepæle.</span><span class="sxs-lookup"><span data-stu-id="ac213-173">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="ac213-174">**Kontraktbeløb efter moms**</span><span class="sxs-lookup"><span data-stu-id="ac213-174">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="ac213-175">Beløbet på kontraktlinjen efter moms.</span><span class="sxs-lookup"><span data-stu-id="ac213-175">The contract line amount after tax.</span></span> <span data-ttu-id="ac213-176">Dette felt er skrivebeskyttet og beregnes som **Kontraktbeløb + moms**.</span><span class="sxs-lookup"><span data-stu-id="ac213-176">This field is read only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="ac213-177">På en kontraktlinje med fast pris bruges denne værdi til at oprette periodiske faktureringsmilepæle.</span><span class="sxs-lookup"><span data-stu-id="ac213-177">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
+| <span data-ttu-id="ac213-178">**Grænse, der ikke må overskrides**</span><span class="sxs-lookup"><span data-stu-id="ac213-178">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="ac213-179">Brugeren kan redigere dette felt, og det er kun tilgængeligt for projektbaserede kontraktlinjer, der har faktureringsmetoden angivet som tid og materialer.</span><span class="sxs-lookup"><span data-stu-id="ac213-179">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="ac213-180">Brugeren kan redigere dette felt.</span><span class="sxs-lookup"><span data-stu-id="ac213-180">The user can edit this field.</span></span> <span data-ttu-id="ac213-181">Når en faktisk værdi for tid og materialer refererer til denne kontraktlinje for tid og materiale, evalueres beløbet på den faktiske værdi i forhold til grænsen, der ikke må overskrides, på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-181">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="ac213-182">Denne evaluering fuldføres, når der redegøres for de allerede brugte og forpligtede beløb.</span><span class="sxs-lookup"><span data-stu-id="ac213-182">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
+| <span data-ttu-id="ac213-183">**Kundebudget**</span><span class="sxs-lookup"><span data-stu-id="ac213-183">**Customer Budget**</span></span> | <span data-ttu-id="ac213-184">Dette felt kan redigeres og kopieres fra det tilsvarende felt på tilbudslinjen, hvis kontrakten er blevet oprettet på grundlag af et tilbud.</span><span class="sxs-lookup"><span data-stu-id="ac213-184">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="ac213-185">Dette felt bruges kun til orientering, og det har ingen afledede virkninger.</span><span class="sxs-lookup"><span data-stu-id="ac213-185">This field is only used for information and does not have any downstream significance.</span></span> |
 
-## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="3db97-181">Valideringsregler for indstillingerne under fanen Generelt på projektbaserede kontraktlinjer</span><span class="sxs-lookup"><span data-stu-id="3db97-181">Validation rules for the options on the General tab of project-based contract lines</span></span>
+## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="ac213-186">Valideringsregler for indstillingerne under fanen Generelt på projektbaserede kontraktlinjer</span><span class="sxs-lookup"><span data-stu-id="ac213-186">Validation rules for the options on the General tab of project-based contract lines</span></span>
 
-<span data-ttu-id="3db97-182">Regel 1: Hvis feltet **Inkluderede opgaver** er tomt eller angivet til **Alle projektopgaver**, medtages alle opgaver i projektet på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="3db97-182">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
+<span data-ttu-id="ac213-187">Regel 1: Hvis feltet **Inkluderede opgaver** er tomt eller angivet til **Alle projektopgaver**, medtages alle opgaver i projektet på kontraktlinjen.</span><span class="sxs-lookup"><span data-stu-id="ac213-187">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
 
-<span data-ttu-id="3db97-183">Regel 2: Når feltet **Inkluderede opgaver** er tomt eller eksplicit angivet til **Alle projektopgaver**, kan et projekt og en bestemt transaktionsklasse kun inkluderes på én projektbaseret kontraktlinje i en kontrakt.</span><span class="sxs-lookup"><span data-stu-id="3db97-183">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
+<span data-ttu-id="ac213-188">Regel 2: Når feltet **Inkluderede opgaver** er tomt eller eksplicit angivet til **Alle projektopgaver**, kan et projekt og en bestemt transaktionsklasse kun inkluderes på én projektbaseret kontraktlinje i en kontrakt.</span><span class="sxs-lookup"><span data-stu-id="ac213-188">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
 
-<span data-ttu-id="3db97-184">Regel 3: Når feltet **Inkluderede opgaver** er angivet til **Kun markerede projektopgaver**, kan et projekt og en bestemt transaktionsklasse inkluderes på flere projektbaserede kontraktlinjer i en kontrakt.</span><span class="sxs-lookup"><span data-stu-id="3db97-184">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
+<span data-ttu-id="ac213-189">Regel 3: Når feltet **Inkluderede opgaver** er angivet til **Kun markerede projektopgaver**, kan et projekt og en bestemt transaktionsklasse inkluderes på flere projektbaserede kontraktlinjer i en kontrakt.</span><span class="sxs-lookup"><span data-stu-id="ac213-189">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
 
-| <span data-ttu-id="3db97-185">Kontrakt</span><span class="sxs-lookup"><span data-stu-id="3db97-185">Contract</span></span> | <span data-ttu-id="3db97-186">Kontraktlinje</span><span class="sxs-lookup"><span data-stu-id="3db97-186">Contract line</span></span> | <span data-ttu-id="3db97-187">Project</span><span class="sxs-lookup"><span data-stu-id="3db97-187">Project</span></span> | <span data-ttu-id="3db97-188">Inkluderede opgaver</span><span class="sxs-lookup"><span data-stu-id="3db97-188">Included tasks</span></span>      | <span data-ttu-id="3db97-189">Medtag tid</span><span class="sxs-lookup"><span data-stu-id="3db97-189">Include time</span></span> | <span data-ttu-id="3db97-190">Medtag udgift</span><span class="sxs-lookup"><span data-stu-id="3db97-190">Include expense</span></span> | <span data-ttu-id="3db97-191">Medtag gebyr</span><span class="sxs-lookup"><span data-stu-id="3db97-191">Include fee</span></span> | <span data-ttu-id="3db97-192">Gyldig/ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-192">Valid/not valid</span></span> | <span data-ttu-id="3db97-193">Årsag</span><span class="sxs-lookup"><span data-stu-id="3db97-193">Reason</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="3db97-194">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-194">C1</span></span>       | <span data-ttu-id="3db97-195">CL1</span><span class="sxs-lookup"><span data-stu-id="3db97-195">CL1</span></span>           | <span data-ttu-id="3db97-196">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-196">P1</span></span>      | <span data-ttu-id="3db97-197">Tom</span><span class="sxs-lookup"><span data-stu-id="3db97-197">Blank</span></span>               | <span data-ttu-id="3db97-198">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-198">Yes</span></span>          | <span data-ttu-id="3db97-199">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-199">Yes</span></span>             | <span data-ttu-id="3db97-200">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-200">Yes</span></span>         | <span data-ttu-id="3db97-201">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-201">Not valid</span></span>       | <span data-ttu-id="3db97-202">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="3db97-202">Violation of Rule #2.</span></span> <span data-ttu-id="3db97-203">Tid, udgifter og gebyrer på projekt P1 findes på både kontraktlinjer, CL1 og CL2.</span><span class="sxs-lookup"><span data-stu-id="3db97-203">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="3db97-204">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-204">C1</span></span>       | <span data-ttu-id="3db97-205">CL2</span><span class="sxs-lookup"><span data-stu-id="3db97-205">CL2</span></span>           | <span data-ttu-id="3db97-206">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-206">P1</span></span>      | <span data-ttu-id="3db97-207">Tom</span><span class="sxs-lookup"><span data-stu-id="3db97-207">Blank</span></span>               | <span data-ttu-id="3db97-208">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-208">Yes</span></span>          | <span data-ttu-id="3db97-209">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-209">Yes</span></span>             | <span data-ttu-id="3db97-210">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-210">Yes</span></span>         | <span data-ttu-id="3db97-211">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-211">Not valid</span></span>       | <span data-ttu-id="3db97-212">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="3db97-212">Violation of Rule #2.</span></span> <span data-ttu-id="3db97-213">Tid, udgifter og gebyrer på projekt P1 findes på både kontraktlinjer, CL1 og CL2.</span><span class="sxs-lookup"><span data-stu-id="3db97-213">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="3db97-214">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-214">C1</span></span>       | <span data-ttu-id="3db97-215">CL1</span><span class="sxs-lookup"><span data-stu-id="3db97-215">CL1</span></span>           | <span data-ttu-id="3db97-216">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-216">P1</span></span>      | <span data-ttu-id="3db97-217">Tom</span><span class="sxs-lookup"><span data-stu-id="3db97-217">Blank</span></span>               | <span data-ttu-id="3db97-218">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-218">Yes</span></span>          | <span data-ttu-id="3db97-219">Nr.</span><span class="sxs-lookup"><span data-stu-id="3db97-219">No</span></span>              | <span data-ttu-id="3db97-220">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-220">Yes</span></span>         | <span data-ttu-id="3db97-221">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-221">Not valid</span></span>       | <span data-ttu-id="3db97-222">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="3db97-222">Violation of Rule #2.</span></span> <span data-ttu-id="3db97-223">Tid og gebyrer på projekt P1 findes på både kontraktlinjer, CL1 og CL2.</span><span class="sxs-lookup"><span data-stu-id="3db97-223">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="3db97-224">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-224">C1</span></span>       | <span data-ttu-id="3db97-225">CL2</span><span class="sxs-lookup"><span data-stu-id="3db97-225">CL2</span></span>           | <span data-ttu-id="3db97-226">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-226">P1</span></span>      | <span data-ttu-id="3db97-227">Tom</span><span class="sxs-lookup"><span data-stu-id="3db97-227">Blank</span></span>               | <span data-ttu-id="3db97-228">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-228">Yes</span></span>          | <span data-ttu-id="3db97-229">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-229">Yes</span></span>             | <span data-ttu-id="3db97-230">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-230">Yes</span></span>         | <span data-ttu-id="3db97-231">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-231">Not valid</span></span>       | <span data-ttu-id="3db97-232">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="3db97-232">Violation of Rule #2.</span></span> <span data-ttu-id="3db97-233">Tid og gebyrer på projekt P1 findes på både kontraktlinjer, CL1 og CL2.</span><span class="sxs-lookup"><span data-stu-id="3db97-233">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="3db97-234">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-234">C1</span></span>       | <span data-ttu-id="3db97-235">CL1</span><span class="sxs-lookup"><span data-stu-id="3db97-235">CL1</span></span>           | <span data-ttu-id="3db97-236">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-236">P1</span></span>      | <span data-ttu-id="3db97-237">Tom</span><span class="sxs-lookup"><span data-stu-id="3db97-237">Blank</span></span>               | <span data-ttu-id="3db97-238">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-238">Yes</span></span>          | <span data-ttu-id="3db97-239">Nr.</span><span class="sxs-lookup"><span data-stu-id="3db97-239">No</span></span>              | <span data-ttu-id="3db97-240">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-240">Yes</span></span>         | <span data-ttu-id="3db97-241">Gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-241">Valid</span></span>           | <span data-ttu-id="3db97-242">Tid og gebyrer på projekt P1 er inkluderet i CL1.</span><span class="sxs-lookup"><span data-stu-id="3db97-242">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="3db97-243">Udgift til projekt P1 er inkluderet i CL2.</span><span class="sxs-lookup"><span data-stu-id="3db97-243">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="3db97-244">Der findes ingen overlapning i det, der medtages på hver kontraktlinje, og den er derfor gyldig.</span><span class="sxs-lookup"><span data-stu-id="3db97-244">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="3db97-245">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-245">C1</span></span>       | <span data-ttu-id="3db97-246">CL2</span><span class="sxs-lookup"><span data-stu-id="3db97-246">CL2</span></span>           | <span data-ttu-id="3db97-247">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-247">P1</span></span>      | <span data-ttu-id="3db97-248">Tom</span><span class="sxs-lookup"><span data-stu-id="3db97-248">Blank</span></span>               | <span data-ttu-id="3db97-249">Nr.</span><span class="sxs-lookup"><span data-stu-id="3db97-249">No</span></span>           | <span data-ttu-id="3db97-250">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-250">Yes</span></span>             | <span data-ttu-id="3db97-251">Nr.</span><span class="sxs-lookup"><span data-stu-id="3db97-251">No</span></span>          | <span data-ttu-id="3db97-252">Gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-252">Valid</span></span>           | <span data-ttu-id="3db97-253">Tid og gebyrer på projekt P1 er inkluderet i CL1.</span><span class="sxs-lookup"><span data-stu-id="3db97-253">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="3db97-254">Udgift til projekt P1 er inkluderet i CL2.</span><span class="sxs-lookup"><span data-stu-id="3db97-254">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="3db97-255">Der findes ingen overlapning i det, der medtages på hver kontraktlinje, og den er derfor gyldig.</span><span class="sxs-lookup"><span data-stu-id="3db97-255">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="3db97-256">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-256">C1</span></span>       | <span data-ttu-id="3db97-257">CL1</span><span class="sxs-lookup"><span data-stu-id="3db97-257">CL1</span></span>           | <span data-ttu-id="3db97-258">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-258">P1</span></span>      | <span data-ttu-id="3db97-259">Kun valgte opgaver</span><span class="sxs-lookup"><span data-stu-id="3db97-259">Selected tasks only</span></span> | <span data-ttu-id="3db97-260">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-260">Yes</span></span>          | <span data-ttu-id="3db97-261">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-261">Yes</span></span>             | <span data-ttu-id="3db97-262">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-262">Yes</span></span>         | <span data-ttu-id="3db97-263">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-263">Not valid</span></span>       | <span data-ttu-id="3db97-264">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="3db97-264">Violation of Rule #2.</span></span>   </br><span data-ttu-id="3db97-265">- C1 inkluderer tid, udgifter og gebyrer i et undersæt af opgaver på projektet P1.</span><span class="sxs-lookup"><span data-stu-id="3db97-265">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="3db97-266">- CL2 inkluderer tid, udgifter og gebyrer for hele projekt P1 og overlapper derfor med det, der er medtaget i C1.</span><span class="sxs-lookup"><span data-stu-id="3db97-266">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="3db97-267">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-267">C1</span></span>       | <span data-ttu-id="3db97-268">CL2</span><span class="sxs-lookup"><span data-stu-id="3db97-268">CL2</span></span>           | <span data-ttu-id="3db97-269">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-269">P1</span></span>      | <span data-ttu-id="3db97-270">Tom</span><span class="sxs-lookup"><span data-stu-id="3db97-270">Blank</span></span>               | <span data-ttu-id="3db97-271">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-271">Yes</span></span>          | <span data-ttu-id="3db97-272">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-272">Yes</span></span>             | <span data-ttu-id="3db97-273">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-273">Yes</span></span>         | <span data-ttu-id="3db97-274">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-274">Not valid</span></span>       | <span data-ttu-id="3db97-275">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="3db97-275">Violation of Rule #2.</span></span>   </br><span data-ttu-id="3db97-276">- C1 inkluderer tid, udgifter og gebyrer i et undersæt af opgaver på projektet P1.</span><span class="sxs-lookup"><span data-stu-id="3db97-276">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="3db97-277">- CL2 inkluderer tid, udgifter og gebyrer for hele projekt P1 og overlapper derfor med det, der er medtaget i C1.</span><span class="sxs-lookup"><span data-stu-id="3db97-277">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="3db97-278">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-278">C1</span></span>       | <span data-ttu-id="3db97-279">CL1</span><span class="sxs-lookup"><span data-stu-id="3db97-279">CL1</span></span>           | <span data-ttu-id="3db97-280">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-280">P1</span></span>      | <span data-ttu-id="3db97-281">Kun valgte opgaver</span><span class="sxs-lookup"><span data-stu-id="3db97-281">Selected tasks only</span></span> | <span data-ttu-id="3db97-282">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-282">Yes</span></span>          | <span data-ttu-id="3db97-283">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-283">Yes</span></span>             | <span data-ttu-id="3db97-284">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-284">Yes</span></span>         | <span data-ttu-id="3db97-285">Gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-285">Valid</span></span>           | <span data-ttu-id="3db97-286">I henhold til regel nr. 3</span><span class="sxs-lookup"><span data-stu-id="3db97-286">Per Rule #3</span></span></br><span data-ttu-id="3db97-287">- C1 inkluderer tid, udgifter og gebyrer i et undersæt af opgaver på projektet P1.</span><span class="sxs-lookup"><span data-stu-id="3db97-287">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="3db97-288">- CL2 inkluderer tid, udgifter og gebyrer for et undersæt af opgaver på projekt P1.</span><span class="sxs-lookup"><span data-stu-id="3db97-288">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="3db97-289">Den eneste yderligere validering findes i undersættet af opgaver i CL1, som adskiller sig fra undersættet med opgaver i CL2 for at sikre, at der ikke er nogen overlapninger.</span><span class="sxs-lookup"><span data-stu-id="3db97-289">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="3db97-290">Denne validering udføres af systemet, når opgaver tilknyttes.</span><span class="sxs-lookup"><span data-stu-id="3db97-290">This validation   is completed by the system when tasks are associated.</span></span> |
-| <span data-ttu-id="3db97-291">C1</span><span class="sxs-lookup"><span data-stu-id="3db97-291">C1</span></span>       | <span data-ttu-id="3db97-292">CL2</span><span class="sxs-lookup"><span data-stu-id="3db97-292">CL2</span></span>           | <span data-ttu-id="3db97-293">P1</span><span class="sxs-lookup"><span data-stu-id="3db97-293">P1</span></span>      | <span data-ttu-id="3db97-294">Kun valgte opgaver</span><span class="sxs-lookup"><span data-stu-id="3db97-294">Selected tasks only</span></span> | <span data-ttu-id="3db97-295">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-295">Yes</span></span>          | <span data-ttu-id="3db97-296">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-296">Yes</span></span>             | <span data-ttu-id="3db97-297">Ja</span><span class="sxs-lookup"><span data-stu-id="3db97-297">Yes</span></span>         | <span data-ttu-id="3db97-298">Gyldig</span><span class="sxs-lookup"><span data-stu-id="3db97-298">Valid</span></span>           | <span data-ttu-id="3db97-299">I henhold til regel nr. 3</span><span class="sxs-lookup"><span data-stu-id="3db97-299">Per Rule #3</span></span></br><span data-ttu-id="3db97-300">- C1 inkluderer tid, udgifter og gebyrer i et undersæt af opgaver på projektet P1.</span><span class="sxs-lookup"><span data-stu-id="3db97-300">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="3db97-301">- CL2 inkluderer tid, udgifter og gebyrer for et undersæt af opgaver på projekt P1.</span><span class="sxs-lookup"><span data-stu-id="3db97-301">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="3db97-302">Den eneste yderligere validering findes i undersættet af opgaver i CL1, som adskiller sig fra undersættet med opgaver i CL2 for at sikre, at der ikke er nogen overlapninger.</span><span class="sxs-lookup"><span data-stu-id="3db97-302">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="3db97-303">Denne validering udføres af systemet, når opgaver tilknyttes.</span><span class="sxs-lookup"><span data-stu-id="3db97-303">This validation   is completed by the system when tasks are associated.</span></span> |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p><span data-ttu-id="ac213-190">
+                    <strong>Kontrakt</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-190">
+                    <strong>Contract</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="ac213-191">
+                    <strong>Kontraktlinje</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-191">
+                    <strong>Contract line</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="ac213-192">
+                    <strong>Project</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-192">
+                    <strong>Project</strong>
+                </span></span></p>
+            </td>
+            <td width="67" valign="top">
+                <p><span data-ttu-id="ac213-193">
+                    <strong>Inkluderede opgaver</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-193">
+                    <strong>Included tasks</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="ac213-194">
+                    <strong>Medtag tid</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-194">
+                    <strong>Include Time</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="ac213-195">
+                    <strong>Medtag udgift</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-195">
+                    <strong>Include Expense</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="ac213-196">
+                    <strong>Medtag materialer</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-196">
+                    <strong>Include Materials</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="ac213-197">
+                    <strong>Inkluder</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-197">
+                    <strong>Include</strong>
+                </span></span></p>
+                <p><span data-ttu-id="ac213-198">
+                    <strong>Gebyr</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-198">
+                    <strong>Fee</strong>
+                </span></span></p>
+            </td>
+            <td width="53" valign="top">
+                <p><span data-ttu-id="ac213-199">
+                    <strong>Gyldig/ikke gyldig</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-199">
+                    <strong>Valid/ Not valid</strong>
+                </span></span></p>
+            </td>
+            <td width="250" valign="top">
+                <p><span data-ttu-id="ac213-200">
+                    <strong>Årsag</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ac213-200">
+                    <strong>Reason</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-201">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-201">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-202">CL1</span><span class="sxs-lookup"><span data-stu-id="ac213-202">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-203">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-203">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-204">Tom</span><span class="sxs-lookup"><span data-stu-id="ac213-204">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-205">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-205">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-206">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-206">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-207">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-207">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-208">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-208">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-209">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="ac213-209">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-210">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="ac213-210">Violation of Rule #2.</span></span> <span data-ttu-id="ac213-211">Tid, udgifter, materialer og gebyrer på P1-projektet medtages på både tilbudslinjerne CL1 og CL2.</span><span class="sxs-lookup"><span data-stu-id="ac213-211">Time, Expense, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-212">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-212">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-213">CL2</span><span class="sxs-lookup"><span data-stu-id="ac213-213">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-214">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-214">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-215">Tom</span><span class="sxs-lookup"><span data-stu-id="ac213-215">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-216">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-216">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-217">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-217">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-218">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-218">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-219">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-219">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-220">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-220">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-221">CL1</span><span class="sxs-lookup"><span data-stu-id="ac213-221">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-222">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-222">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-223">Tom</span><span class="sxs-lookup"><span data-stu-id="ac213-223">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-224">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-224">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-225">Nr.</span><span class="sxs-lookup"><span data-stu-id="ac213-225">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-226">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-226">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-227">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-227">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-228">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="ac213-228">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-229">Overtrædelse af regel #2.</span><span class="sxs-lookup"><span data-stu-id="ac213-229">Violation of Rule #2.</span></span> <span data-ttu-id="ac213-230">Tid, materialer og gebyrer på P1-projektet medtages på både tilbudslinjerne CL1 og CL2.</span><span class="sxs-lookup"><span data-stu-id="ac213-230">Time, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-231">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-231">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-232">CL2</span><span class="sxs-lookup"><span data-stu-id="ac213-232">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-233">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-233">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-234">Tom</span><span class="sxs-lookup"><span data-stu-id="ac213-234">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-235">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-235">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-236">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-236">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-237">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-237">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-238">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-238">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-239">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-239">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-240">CL1</span><span class="sxs-lookup"><span data-stu-id="ac213-240">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-241">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-241">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-242">Tom</span><span class="sxs-lookup"><span data-stu-id="ac213-242">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-243">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-243">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-244">Nr.</span><span class="sxs-lookup"><span data-stu-id="ac213-244">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-245">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-245">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-246">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-246">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-247">Gyldig</span><span class="sxs-lookup"><span data-stu-id="ac213-247">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-248">Tid, materialer og gebyrer på P1-projektet medtages på CL1.</span><span class="sxs-lookup"><span data-stu-id="ac213-248">Time, Materials, and Fees on P1 project are included on CL1.</span></span>
+                </p>
+                <ul>
+                    <li>
+<span data-ttu-id="ac213-249">Udgift til P1-projekt er inkluderet i CL2.</span><span class="sxs-lookup"><span data-stu-id="ac213-249">Expense on P1 project is included on CL2.</span></span>
+                    </li>
+                </ul>
+                <p>
+<span data-ttu-id="ac213-250">Der er ingen overlapningen i det, der inkluderes på de enkelte kontraktlinjer, og derfor er det gyldigt.</span><span class="sxs-lookup"><span data-stu-id="ac213-250">No overlap in what is being included on each Contract line and therefore valid.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-251">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-251">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-252">CL2</span><span class="sxs-lookup"><span data-stu-id="ac213-252">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-253">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-253">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-254">Tom</span><span class="sxs-lookup"><span data-stu-id="ac213-254">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-255">Nr.</span><span class="sxs-lookup"><span data-stu-id="ac213-255">No</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-256">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-256">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-257">Nr.</span><span class="sxs-lookup"><span data-stu-id="ac213-257">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-258">Nr.</span><span class="sxs-lookup"><span data-stu-id="ac213-258">No</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-259">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-259">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-260">CL1</span><span class="sxs-lookup"><span data-stu-id="ac213-260">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-261">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-261">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-262">Kun valgte opgaver</span><span class="sxs-lookup"><span data-stu-id="ac213-262">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-263">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-263">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-264">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-264">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-265">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-265">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-266">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-266">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-267">Ikke gyldig</span><span class="sxs-lookup"><span data-stu-id="ac213-267">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-268">Overtrædelse af regel nr. 2</span><span class="sxs-lookup"><span data-stu-id="ac213-268">Violation of Rule #2</span></span> </p>
+                <p>
+<span data-ttu-id="ac213-269">C1 omfatter tid, materialer, udgifter og gebyrer på et undersæt af opgaver på projekt P1.</span><span class="sxs-lookup"><span data-stu-id="ac213-269">C1 includes Time, Materials, Expenses and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="ac213-270">CL2 inkluderer tid, materialer, udgifter og gebyrer for hele projekt P1 og overlapper derfor med det, der er medtaget i C1.</span><span class="sxs-lookup"><span data-stu-id="ac213-270">CL2 includes Time, Materials, Expenses and Fees for the whole project P1 and therefore overlaps with what is included on C1.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-271">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-271">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-272">CL2</span><span class="sxs-lookup"><span data-stu-id="ac213-272">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-273">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-273">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-274">Tom</span><span class="sxs-lookup"><span data-stu-id="ac213-274">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-275">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-275">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-276">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-276">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-277">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-277">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-278">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-278">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-279">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-279">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-280">CL1</span><span class="sxs-lookup"><span data-stu-id="ac213-280">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-281">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-281">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-282">Kun valgte opgaver</span><span class="sxs-lookup"><span data-stu-id="ac213-282">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-283">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-283">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-284">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-284">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-285">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-285">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-286">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-286">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-287">Gyldig</span><span class="sxs-lookup"><span data-stu-id="ac213-287">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ac213-288">I henhold til regel nr. 3</span><span class="sxs-lookup"><span data-stu-id="ac213-288">Per Rule #3</span></span> </p>
+                <p>
+<span data-ttu-id="ac213-289">C1 omfatter tid, udgifter, materialer og gebyrer på et undersæt af opgaver på projekt P1.</span><span class="sxs-lookup"><span data-stu-id="ac213-289">C1 includes Time, Expenses, Materials, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="ac213-290">CL2 omfatter tid, udgifter, materialer og gebyrer for et undersæt af opgaver på projekt P1.</span><span class="sxs-lookup"><span data-stu-id="ac213-290">CL2 includes Time, Expenses, Materials, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="ac213-291">Den eneste yderligere validering er omkring det undersæt af opgaver på CL1, som er forskellig fra undersættet af opgaver i CL2 for at sikre, at der ikke er nogen overlapning.</span><span class="sxs-lookup"><span data-stu-id="ac213-291">The only additional validation is around the subset of tasks on CL1 is different from the subset of tasks on CL2 to ensure that there are no overlaps there.</span></span> <span data-ttu-id="ac213-292">Dette gøres af systemet, når opgaverne er tilknyttet.</span><span class="sxs-lookup"><span data-stu-id="ac213-292">This is done by the system when tasks are associated.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ac213-293">C1</span><span class="sxs-lookup"><span data-stu-id="ac213-293">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="ac213-294">CL2</span><span class="sxs-lookup"><span data-stu-id="ac213-294">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-295">P1</span><span class="sxs-lookup"><span data-stu-id="ac213-295">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="ac213-296">Kun valgte opgaver</span><span class="sxs-lookup"><span data-stu-id="ac213-296">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-297">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-297">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="ac213-298">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-298">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-299">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-299">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="ac213-300">Ja</span><span class="sxs-lookup"><span data-stu-id="ac213-300">Yes</span></span> </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
