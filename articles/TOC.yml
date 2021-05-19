@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Konfigurer integration af Project Operations for hver juridisk enhed
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Konfigurer integration med dobbeltskrivning
+          items:
+            - name: Oversigt over integration med dobbeltskrivning
+              href: environment/resource-dual-write-overview.md
+            - name: Tilknytningsversioner i Project Operations med dobbeltskrivning
+              href: environment/resource-dual-write-maps.md
+            - name: Installation og konfiguration af dataintegration i Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integration af projektestimater og faktiske tal
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integration af projektfaktura
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integration af udgiftsstyring
+              href: environment/resource-dual-write-expense.md
+            - name: Integration af leverandørfaktura
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheder
       items:
         - name: April 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Definer projektkalendere
           href: project-management/define-project-calendars.md
+        - name: Planlægningstilstande
+          href: project-management/scheduling-modes.md
         - name: Opdater et projekt
           href: project-management/update-project.md
         - name: Kopiér et projekt
@@ -404,6 +422,12 @@
           items:
             - name: Opret og bekræft rettelseskladder
               href: actuals/create-confirm-correction-journals.md
+    - name: Indkøb
+      items:
+        - name: Konfigurer ikke-lagerførte materialer og afventende leverandørfakturaer
+          href: procurement/configure-materials-nonstocked.md
+        - name: Indkøb ikke-lagerførte materialer til projekter ved hjælp af afventende leverandørfakturaer
+          href: procurement/pending-vendor-invoices.md
     - name: Fakturering
       items:
         - name: Oversigt over faktureringsprocessen
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurer projektbaseret automatisering af faktura
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Administrer forslag til projektfakturaer
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projektregnskab
       items:
         - name: Standarder for økonomiske dimensioner
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Definer projektkalendere
           href: project-management/define-project-calendars.md
+        - name: Planlægningstilstande
+          hreF: project-management/scheduling-modes.md
         - name: Opdater et projekt
           href: project-management/update-project.md
         - name: Kopiér et projekt
@@ -848,6 +876,8 @@
   items:
     - name: Nyheder
       items:
+        - name: Nyheder april 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheder marts 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Nyheder januar 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
@@ -871,9 +901,9 @@
     - name: Konfigurer og anvend samtidighedsbetaling af leverandører ("pay-when-paid")
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Periodisering af projektomkostninger på indkøbskvitteringer
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Projektfakturering
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Ydeevne af forslag til projektfaktura
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektkontrakter
@@ -998,6 +1028,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 31. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-31.md
         - name: 'Nyheder eller ændringer i den 30. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-30.md
         - name: 'Nyheder eller ændringer i opdateringsudgivelse 29.5 hotfix, V3'
@@ -1327,7 +1359,7 @@
             - name: Se tidsforbrug for ressource
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Vejledning til projektleder
           items:
             - name: Vejledning til projektleder (Project Service)
