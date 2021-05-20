@@ -1,9 +1,9 @@
 ---
 title: Definer projektkalendere
-description: Dette emne indeholder oplysninger om, hvordan du bruger en projektkalender til at spore projektplanlægningen.
+description: Dette emne giver oplysninger om, hvordan du anvender en kalenderskabelon på et projekt til at spore projektplanen.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286961"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981293"
 ---
 # <a name="define-project-calendars"></a>Definer projektkalendere
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Du opretter en projektplan ved at oprette en projektkalenderskabelon, der definerer antallet af arbejdstimer pr. dag og eventuelle lukketider. Du opretter en projektkalenderskabelon ved at knytte en arbejdsskabelon til feltet **Kalenderskabelon** for projektet. Følg disse trin for at oprette en arbejdsskabelon.
+Hvis du vil oprette og administrere et projekt, skal du anvende en kalenderskabelon på projektet. I kalenderskabelonen defineres følgende projektattributter:
 
-1. I venstre navigationsrude skal du vælge **Ressourcer**. 
-2. På listesiden **Ressourcer** skal du åbne en brugerpost og derefter vælge **Vis arbejdstimer**.
+- Arbejdstider, herunder start- og sluttid
+- Arbejdsdage
+- Kalenderundtagelser, f.eks. ikke-arbejdsdage
 
-  > [!NOTE]
-  > Sørg for at tillade pop op-vinduer på browsersiden. Her kan du se de arbejdstimer, der er angivet for ressourcen.
-  
-3. På fanen **Månedsvisning** skal du vælge **Konfigurer**. Der vises en liste med tre valgmuligheder: 
+Den kalenderskabelon, der anvendes på et projekt, er en kopi af den kalenderskabelon, der er defineret i organisationens indstillinger.
 
-  - Ny ugeplan
-  - Arbejdsplan for én dag
-  - Fri
+> [!NOTE]
+> Hvis du ændrer kalenderskabelonen, overføres disse ændringer ikke til projektets arbejdstider. Hvis du vil ændre projektets arbejdstimer, skal der anvendes en ny skabelon.
 
-4. Vælg **Ny ugeplan**, og angiv derefter indstillingerne for denne ressourceplanlægning. Du kan angive en tilbagevendende ugentlig tidsplan, parametre for daglige timer, lukketider og meget mere.
-5. Angiv datointervallet, vælg **Gem**, og vælg derefter **Luk**. 
-6. Gå tilbage til listesiden **Ressourcer**, og vælg den ressource, du vil angive arbejdstimer for. 
-7. Vælg **Angiv kalender som** for at angive arbejdsskabelonen. 
-8. I dialogboksen **Arbejdsskabelon** skal du angive et navn for arbejdsskabelonen og derefter vælge **Anvend.** 
+Hvis du vil oprette en kalenderskabelon for din organisation, er der to nøglekrav:
+
+- Definér skabelonens ønskede arbejdstimer ved hjælp af en ny eller eksisterende ressource, der kan reserveres.
+- Opret en ny kalenderskabelon, og knyt skabelonen til den ressource, der kan reserveres.
+
+**Definér arbejdstimerne for skabelonen**
+
+1. Gå til **Ressourcer** \> **Ressourcer**.
+2. Opret en ny ressource, der skal refereres til i kalenderskabelonen, eller vælg en eksisterende ressource.
+3. Vælg fanen **Arbejdstimer** for ressourcen, og fuldfør instruktionerne i [Angiv arbejdstimer for en ressource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) for at konfigurere kalenderreglerne.
+
+**Opret en ny kalenderskabelon**
+
+1. Gå til **Indstillinger** \> **Kalenderskabelon**.
+2. Vælg **Ny**, og angiv et navn, en beskrivelse og en skabelonressource.
+
+> [!NOTE]
+> Når der refereres til en ressource i en kalenderskabelon, knyttes der en kopi af ressourcens kalender til kalenderskabelonen. Hvis arbejdstimerne i den kopierede skabelon ændres, vil disse ændringer ikke blive overført til kalenderskabelonen.
 
 Du kan nu knytte arbejdsskabelonen til en skabelon for projektkalenderen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

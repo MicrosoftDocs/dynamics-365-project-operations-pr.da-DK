@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bae7acf2abf174b6e59d159521ffd1f465e311a0
-ms.sourcegitcommit: 3c60ac7543cc05d93a5d4ce87a3c7854fb9a203b
+ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "5854378"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981371"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Opdater udgivelsesplan for Project Service 3.x
 
@@ -39,36 +39,36 @@ ms.locfileid: "5854378"
 
 | Løsning  | Seneste version |
 |-------|----|
-| Project Service Automation    | 3.10.51.61 |
+| Project Service Automation    | 3.10.52.77 |
 | Indstillinger for tilføjelsesprogrammet Project Service Automation til skrivebordet                | 3.15          |
 
-Du kan finde oplysninger om opdateringer af Project Service ved at gå til [frigivelsesplaner for Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
+Du kan finde oplysninger om opdateringer af Project Service ved at gå til [frigivelsesplaner for Dynamics 365](/dynamics365/release-plans/). 
 
 | Station  | Land/område | Aktuelle version | Næste version |  Planlagt dato
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Første frigivelse</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 23. april 2021
+| | <i>Første frigivelse</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 28. maj 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Sydamerika</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
-| | <i>Canada</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
-| | <i>Indien</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
-| | <i>Frankrig</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
-| | <i>De Forenede Arabiske Emirater</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
-| | <i>Sydafrika</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
-| | <i>Tyskland</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
-| | <i>Schweiz</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. april 2021
+| | <i>Sydamerika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>Canada</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>Indien</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>Frankrig</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>De Forenede Arabiske Emirater</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>Sydafrika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>Tyskland</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>Schweiz</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. april 2021
-| | <i>Asien og Stillehavsområdet</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. april 2021
-| | <i>Storbritannien</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. april 2021
-| | <i>Oceanien</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. april 2021
+| | <i>Japan</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
+| | <i>Asien og Stillehavsområdet</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
+| | <i>Storbritannien</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
+| | <i>Oceanien</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 16. april 2021
+| | <i>Europa</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 14. maj 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Nordamerika</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 23. april 2021
+| | <i>Nordamerika</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21. maj 2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30. april 2021
-| | <i>Dedikerede skalerbare grupper</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30. april 2021
+| | <i>Government Community Cloud</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21. maj 2021
+| | <i>Dedikerede skalerbare grupper</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 28. maj 2021
 
 >[!Note]
 > - Datoer i alle områder undtagen Government Community Cloud (GCC) angiver tidspunktet for den næste automatiske opdatering. Datoer i GCC angiver versionstilgængelighed, og på nuværende tidspunkt opdateres disse områder ikke automatisk.
