@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275036"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950302"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Administrere projekter og reservationer i din kalender (Project Service)
 
@@ -52,7 +52,7 @@ Få vist private aftaler, reservationer til projektarbejde og tildelinger af arb
   
 - Du skal have legitimationsoplysninger som [!INCLUDE[pn_office_365](../includes/pn-office-365.md)]-organisationsadministrator eller -systemadministrator.  
   
-- Din administrator skal konfigurere mailserverprofilen, og de enkelte brugere skal konfigurere deres postkasse. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Opsæt mailbehandling via synkronisering på serversiden](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Din administrator skal konfigurere mailserverprofilen, og de enkelte brugere skal konfigurere deres postkasse. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Opsæt mailbehandling via synkronisering på serversiden](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Slå synkronisering til for din organisationen (administratoropgave)  
   

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288041"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950842"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations januar 2021 for lagerbaserede/produktionsbaserede scenarier
 
@@ -144,7 +144,7 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 | Rejser og udgifter                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | I Project Operations kan tid med interne opgaver i Dataverse ikke oprettes eller godkendes.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Konfigurer intern fakturering
 description: Dette emne indeholder oplysninger om og eksempler på, hvordan du kan konfigurere intern fakturering for projekter.
 author: sigitac
 manager: tfehr
-ms.date: 11/20/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287546"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949672"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurer intern fakturering
 
@@ -25,7 +25,7 @@ Benyt følgende fremgangsmåde for at konfigurere interne fakturaer for projekte
 
 I følgende eksempel er Contoso Robotics USA (USPM) den juridiske låneenhed, og Contoso Robotics UK (GBPM) er den juridiske udlånsenhed. 
 
-1. **Konfigurer internt regnskab mellem juridiske enheder**. Alle par af juridiske låne- og udlånsenheder skal konfigureres i finanskladden [Internt regnskab](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Konfigurer internt regnskab mellem juridiske enheder**. Alle par af juridiske låne- og udlånsenheder skal konfigureres i finanskladden [Internt regnskab](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. I Dynamics 365 Finance skal du gå til **Finanskladde** > **Opsætning af bogføring** > **Internt regnskab**. Opret en post med følgende oplysninger:
 
@@ -37,17 +37,17 @@ I følgende eksempel er Contoso Robotics USA (USPM) den juridiske låneenhed, og
      1. Vælg den juridiske enhed **GBPM** i Finance.
      2. Gå til **Debitor** > **Kunde** > **Alle kunder**. Opret en ny post for den juridiske enhed **USPM**.
      3. Udvid **Navn**, filtrer posterne efter **Type**, og vælg **Juridiske enheder**. 
-     4. Find og vælg kundeposten for **Contoso Robotics USA (USPM)**.
+     4. Søg efter og vælg kundeposten for **Contoso Robotics USA (USPM)**.
      5. Vælg **Brug match**. 
-     6. Vælg kundegruppen, og gem derefter posten.
+     6. Vælg kundegruppen **50 - Interne kunder**, og gem derefter posten.
      7. Vælg den juridiske enhed **USPM**.
      8. Gå til **Kreditor** > **Leverandører** > **Alle leverandører**. Opret en ny post for den juridiske enhed **GBPM**.
      9. Udvid **Navn**, filtrer poster efter **Type**, og vælg **Juridiske enheder**. 
-     10. Find og vælg kundeposten for **Contoso Robotics UK (GBPM)**.
+     10. Søg efter og vælg kundeposten for **Contoso Robotics UK (GBPM)**.
      11. Vælg **Brug match**, vælg leverandørgruppen, og gem derefter posten.
      12. I leverandørposten skal du vælge **Generelt** > **Opsætning** > **Intern**.
      13. På fanen **Handelsforhold** skal du angive **Aktiv** til **Ja**.
-     14. Vælg leverandøren **GBPM** og i **Min firmapost** skal du vælge den kundepost, du har oprettet tidligere i proceduren.
+     14. Angiv feltet **Kundevirksomhed** til **GBPM**, og vælg i **Min firmapost** den kundepost, som du oprettede tidligere i proceduren.
 
 3. **Konfigurer interne indstillinger i parametre for projektstyring og regnskab**. 
 
@@ -59,7 +59,7 @@ I følgende eksempel er Contoso Robotics USA (USPM) den juridiske låneenhed, og
     6. I gruppen **Ved udlån af ressourcer** skal du vælge **...** > **Ny**. 
     7. I gitteret skal du vælge følgende oplysninger:
 
-          - **Juridiske låneenhed** = **GBPM**
+          - **Juridiske låneenhed** = **USPM**
           - **Periodiser omsætning** = **Ja**
           - **Standardtimeseddelskategori** = **Standard – time**
           - **Standard udgiftskategori** = **Standard – udgift**
@@ -71,30 +71,30 @@ I følgende eksempel er Contoso Robotics USA (USPM) den juridiske låneenhed, og
      3. På fanen **Omkostningskonti** i **Type af finanskonto** skal du vælge **Intern omkostning**. Opret en ny post med følgende oplysninger:
       
         - **Juridiske udlånsenhed** = **GBPM**
-        - **Hovedkonto** = Vælg hovedkontoen til interne omkostninger
+        - **Hovedkonto** = Vælg hovedkontoen til interne omkostninger. Denne opsætning er obligatorisk. Konfigurationen bruges til interne flow i Finance, men ikke i projektrelaterede interne flow. Denne indstilling har ingen downstream-effekt. 
         
      4. Vælg den juridiske udlånsenhed **GBPM**. 
      5. Gå til **Projektstyring og regnskab** > **Opsætning** > **Bogføring** > **Opsætning af bogføring i hovedbogen**. 
      6. På fanen **Omsætningskonti** i **Type af finanskonto** skal du vælge **Intern omsætning**. Opret en ny post med følgende oplysninger:
 
         - **Juridiske låneenhed** = **USPM**
-        - **Hovedkonto** = Vælg hovedkontoen til intern omsætning 
+        - **Hovedkonto** = Vælg hovedkontoen til intern omsætning. Denne opsætning er obligatorisk. Konfigurationen bruges til interne flow i Finance, men ikke i projektrelaterede interne flow. Denne indstilling har ingen downstream-effekt. 
 
 5. **Konfigurer overførselspriser for arbejde**. Den interne overførselspris er konfigureret i Project Operations på Dataverse. Konfigurer [omkostningssatser for arbejdskraft](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) og [faktureringssats for arbejdskraft](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) for de interne faktureringer. Overførselspriser understøttes ikke ved interne udgiftstransaktioner. Den interne enhedssalgspris angives altid til den samme værdi som kostprisen for ressourceenheden.
 
-      Udviklerressourceomkostningerne i Contoso Robotcs UK er 88 GBP pr. time. Contoso Robotics UK fakturerer Contoso Robotics USA 120 USD for hver time, denne ressource arbejdede på amerikanske projekter. Contoso Robotics USA vil fakturere kunden Adventure Works 200 USD for det arbejde, der udføres af udviklerressourcen i Contoso Robotics UK.
+      Udviklerressourceomkostningen i Contoso Robotics UK koster 88 GBP i timen. Contoso Robotics UK fakturerer Contoso Robotics USA 120 USD pr. time, som denne ressource arbejdede på US-projekter. Contoso Robotics USA fakturerer kunden Adventure Works 200 USD for det arbejde, der er udført af Contoso Robotics UK's udviklerressource.
 
-      1. I Project Operations på Dataverse skal du gå til **Salg** > **Prislister**. Opret en ny kostprisliste kaldet **Omkostningssatser for Contoso Robotics UK.** 
+      1. I Project Operations på Dataverse skal du gå til **Salg** > **Prislister**. Opret en ny omkostningsprisliste med navnet **Omkostningssats for Contoso Robotics UK**. 
       2. I kostprislisten skal du oprette en post med følgende oplysninger:
          - **Rolle** = **Udvikler**
          - **Omkostning** = **88 GBP**
-      3. Gå til **Indstillinger** > **Organisationsenheder**, og knyt denne kostprisliste til organisationsenheden **Contoso Robotics UK**.
-      4. Gå til **Salg** > **Prislister**. Opret en kostprisliste kaldet **Omkostningssatser for Contoso Robotics USA**. 
+      3. Gå til **Indstillinger** > **Afdeling**, og vedhæft denne omkostningsprisliste til afdelingen **Contoso Robotics UK**.
+      4. Gå til **Salg** > **Prislister**. Opret en omkostningsprisliste med navnet **Omkostningssats for Contoso Robotics USA**. 
       5. I kostprislisten skal du oprette en post med følgende oplysninger:
           - **Rolle** = **Udvikler**
           - **Ressourcevirksomhed** = **Contoso Robotics UK**
           - **Omkostning** = **120 USD**
-      6. Gå til **Indstillinger** > **Organisationsenheder**, og knyt kostprislisten for **Omkostningssatser for Contoso Robotics USA** til organisationsenheden **Contoso Robotics USA**.
+      6. Gå til **Indstillinger** > **Afdeling**, og vedhæft omkostningsprislisten for **Omkostningssats for Contoso Robotics USA** til afdelingen **Contoso Robotics USA**.
       7. Gå til **Salg** > **Prislister**. Opret en salgspris liste med navnet **Faktureringssatser for Adventure Works**. 
       8. I salgsprislisten skal du oprette en post med følgende oplysninger:
           - **Rolle** = **Udvikler**

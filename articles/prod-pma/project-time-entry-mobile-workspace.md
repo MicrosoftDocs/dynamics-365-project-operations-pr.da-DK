@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288867"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950167"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilt arbejdsområde for tidsregistrering på projekter
 
@@ -48,7 +48,7 @@ Derudover kan brugere i det mobile arbejdsområde for **Tidsregistrering på pro
 Forudsætningerne er forskellige, afhængigt af den version af Microsoft Dynamics 365, der er installeret i din organisation.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Forudsætninger, hvis du bruger Dynamics 365 Finance
-Hvis Finance er blevet udrullet i din organisation, skal systemadministrator publicere det mobile arbejdsområde for **Tidsregistrering på projekter**. Du kan finde en vejledning i [Publicer et mobilt arbejdsområde](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Hvis Finance er blevet udrullet i din organisation, skal systemadministrator publicere det mobile arbejdsområde for **Tidsregistrering på projekter**. Du kan finde en vejledning i [Publicer et mobilt arbejdsområde](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Forudsætninger, hvis du bruger version 1611 sammen med platformsopdatering 3 eller nyere
 Hvis version 1611 med platformsopdatering 3 eller nyere er blevet udrullet i din organisation, skal følgende forudsætninger fuldføres af systemadministratoren. 
@@ -68,17 +68,17 @@ Hvis version 1611 med platformsopdatering 3 eller nyere er blevet udrullet i din
 <td>Systemadministrator</td>
 <td>KB 4018050 er et hotfix til X++-opdateringen eller metadata, der indeholder det mobile arbejdsområde <strong>Tidsregistrering på projekter</strong>. Hvis du vil implementere KB 4018050, skal systemadministratoren udføre disse trin.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Hent hotfixet til metadata fra Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hotfixet til metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opret en installerbare pakke</a>, som indeholder modellerne <strong>ApplicationSuite</strong> og <strong>ProjectMobile</strong>, og overfør derefter den installerbare pakke til LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Anvend den installerbare pakke</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Hent hotfixet til metadata fra Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hotfixet til metadata</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opret en installerbare pakke</a>, som indeholder modellerne <strong>ApplicationSuite</strong> og <strong>ProjectMobile</strong>, og overfør derefter den installerbare pakke til LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Anvend den installerbare pakke</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicer det mobile arbejdsområde for <strong>Tidsregistrering på projekter</strong>.</td>
 <td>Systemadministrator</td>
-<td>Se <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicer et mobilt arbejdsområde</a>.</td>
+<td>Se <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicer et mobilt arbejdsområde</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Hent og installer Finance and Operations-mobilappen:
 2.  Vælg **Tidsregistrering**. Kalenderdatoerne for den aktuelle uge vises.
 3.  Vælg **Handlinger** &gt; **Ny registrering** for en angivet dato.
 4.  Angiv antallet af timer, der skal registreres.
-5.  Vælg projektet for tidsregistreringen. På en liste vises de projekter, der er indlæst i appen til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Vælg projektet for tidsregistreringen. På en liste vises de projekter, der er indlæst i appen til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Hvis projektet ikke findes på listen, skal du vælge **Søg**. Søg efter navn, eller skift for at søge efter projektnavn eller kunde.
-7.  Vælg en kategori. På en liste vises de kategorier, der er indlæst i appen til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Vælg en kategori. På en liste vises de kategorier, der er indlæst i appen til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Hvis kategorien ikke findes på listen, skal du vælge **Søg**. Søg efter kategori, eller skift til at søge efter kategorinavn.
-9.  Vælg en aktivitet. På en liste vises de aktiviteter, der er indlæst i appen til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Vælg en aktivitet. På en liste vises de aktiviteter, der er indlæst i appen til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Hvis aktiviteten ikke findes på listen, skal du vælge **Søg**. Søg efter aktivitetsnummer, eller skift til at søge efter formål.
 
 11. Vælg linjeegenskaben.

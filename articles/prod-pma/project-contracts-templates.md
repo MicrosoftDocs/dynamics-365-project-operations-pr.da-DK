@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289587"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950392"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance 
 
@@ -109,8 +109,8 @@ Når integrationsløsningen for Project Service Automation til Finance anvendes,
 ## <a name="prerequisites-and-mapping-setup"></a>Opsætning af forudsætninger og tilknytning
 
 - Inden synkroniseringen mellem projektkontrakter og projekter kan ske, skal du synkronisere kontiene.
-- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_afdelinger** til **msdyn\_navn \[Navn\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_projekter** til **msdynce\_projektnummer \[Projektnummer\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_afdelinger** til **msdyn\_navn \[Navn\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](/powerapps/administrator/data-integrator).
+- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_projekter** til **msdynce\_projektnummer \[Projektnummer\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](/powerapps/administrator/data-integrator).
 - **SourceDataID** for projektkontrakter og projekter kan opdateres til en anden værdi eller fjernes fra tilknytningen. Standardskabelons værdi er **Project Service Automation**.
 - Tilknytningen **Betalingsbetingelser** skal opdateres, så den afspejler gyldige betalingsbetingelser i Finance. Du kan også fjerne tilknytningen fra projektopgaven. Tilknytningens standardværdi indeholder standardværdier for demonstrationsdata. I følgende tabel vises værdierne i Project Service Automation.
 
@@ -131,7 +131,7 @@ Brug Microsoft Power Query til Excel til at filtrere data, hvis følgende beting
 Hvis du skal bruge Power Query, skal du følge disse retningslinjer:
 
 - Skabelonen for projekter og kontrakter (PSA til Fin og Ops) har et standardfilter, der kun indeholder salgsordrer af typen **Arbejdsenhed (msdyn\_ordretype = 192350001)**. Dette filter er med til at sikre, at der ikke oprettes projektkontrakter for salgsordrer i Finance. Hvis du opretter din egen skabelon, skal du tilføje dette filter.
-- Opret et Power Query-filter, der kun omfatter de kontraktorganisationer, der skal synkroniseres med den juridiske enhed i integrationsforbindelsessættet. F.eks. bør de projektkontrakter, som du har med den kontraktlige afdeling af Contoso US, synkroniseres med USSI's juridiske enhed, men de projektkontrakter, som du har med den kontraktlige afdeling af Contoso Global, skal synkroniseres med USMF's juridiske enhed. Hvis du ikke tilføjer dette filter til din opgavetilknytning, synkroniseres alle projektkontrakter med den juridiske enhed, der er defineret for forbindelsessættet, uanset kontraktafdelingen.
+- Opret et Power Query-filter, der kun omfatter de kontraktorganisationer, der skal synkroniseres med den juridiske enhed i integrationsforbindelsessættet. Projektkontrakter, som du eksempelvis har indgået med kontraktafdelingen i Contoso US bør synkroniseres med den juridiske enhed USSI, men projektkontrakter, som du har indgået med kontraktafdelingen i Contoso Global, bør synkroniseres med den juridiske enhed USMF. Hvis du ikke tilføjer dette filter til din opgavetilknytning, synkroniseres alle projektkontrakter med den juridiske enhed, der er defineret for forbindelsessættet, uanset kontraktafdelingen.
 
 ## <a name="template-mapping-in-data-integration"></a>Skabelon for tilknytning i dataintegration
 

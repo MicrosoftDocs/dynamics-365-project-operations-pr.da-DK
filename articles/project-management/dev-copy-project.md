@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286916"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949807"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Udarbejd projektskabeloner med Kopier projekt
 
@@ -44,7 +44,7 @@ Der er tre inputparametre:
 - **{"RydTeamsOgTildelinger":sand}**: Tre standardfunktionsmåder for Project til internettet og fjerner alle tildelinger og teammedlemmer.
 - **{"fjernNavngivneRessourcer": sand}** Standardfunktionsmåden for Project Operations og vil gendanne tildelinger til generiske ressourcer.
 
-Du kan finde flere oplysninger om handlinger under [Anvend WEB-API-handlinger](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Du kan finde flere oplysninger om handlinger under [Anvend WEB-API-handlinger](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Angiv de felter, der skal kopieres 
 Når handlingen kaldes, kigger **Kopier projekt** på projektvisningen **Kopier projektkolonner** for at afgøre, hvilke felter der skal kopieres, når projektet kopieres.

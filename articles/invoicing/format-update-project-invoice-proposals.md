@@ -3,17 +3,17 @@ title: Administrer forslag til projektfakturaer
 description: Dette emne indeholder oplysninger om behandling af kundeorienterede fakturaer med Project Operations for ressource-/ikke-lagerbaserede scenarier.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275846"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950707"
 ---
 # <a name="manage-project-invoice-proposals"></a>Administrer forslag til projektfakturaer
 
@@ -80,7 +80,8 @@ Værdierne for **Momsgruppe** og **Varemomsgruppe** vises som standard under ind
     - **Kunde** vil som standard altid være kundens fakturerede momsgruppe.
     - **Søg** søger på tværs af alle ovennævnte objekter i denne liste og vælger den første tilgængelige værdi. Søgningen starter med objektet **Projekt**, derefter objektet **Projektkontrakt** og dernæst objektet **Kunde**.
 
-- **Fastprismilepæl for varemomsgruppe** bruges som standard til værdien i feltet **Varemomsgruppe**.
+- **Momsgruppe for fastprismilepæle** bruges som standardværdien i feltet **Varemomsgruppe** for faktureringsmilepælen. Revisoren kan gennemse og ændre denne værdi på siden **Acontotransaktioner**. Systemet bruger værdien fra acontotransaktionen, når der oprettes en projektfakturaforslagslinje.
+ 
 
 ### <a name="financial-dimensions"></a>Økonomiske dimensioner
 
@@ -132,7 +133,7 @@ Siden **Formater fakturaforslag** gør det muligt at vise brugerdefinerede grupp
 
 I udskriftsstyring bruges forskellige rapportfiler til at udskrive, angive destinationer og tilpasse teksten i fakturaens sidefod. Udskriftsstyring kan konfigureres på modulniveau, men disse indstillinger kan tilsidesættes for et bestemt kunde-, kontrakt- eller fakturaforslag. Du kan få adgang til denne funktion på siden **Projektfakturaforslag** ved at vælge **Udskriv** > **Udskriftsstyring**.
 
-Konfiguration af udskrivningsstyring vises som en trævisning, hvor de tilgængelige dokumenter, der skal justeres, vises på de enkelte nodeniveauer. Du kan tildele brugerdefinerede udskrifter på dokumentniveauet for modulet, kunden, kontrakten eller fakturaforslaget. Hvis du vil ændre udskriften af det oprindelige dokument, skal du udvide den ønskede node og vælge **Oprindeligt element**. I feltet **Rapportformat** skal du vælge det rapportformat, der skal bruges til udskrivning. Du kan bruge brugerdefinerede rapportformater ved hjælp af [rammen for dokumentstyring for virksomheder](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Konfiguration af udskrivningsstyring vises som en trævisning, hvor de tilgængelige dokumenter, der skal justeres, vises på de enkelte nodeniveauer. Du kan tildele brugerdefinerede udskrifter på dokumentniveauet for modulet, kunden, kontrakten eller fakturaforslaget. Hvis du vil ændre udskriften af det oprindelige dokument, skal du udvide den ønskede node og vælge **Oprindeligt element**. I feltet **Rapportformat** skal du vælge det rapportformat, der skal bruges til udskrivning. Du kan bruge brugerdefinerede rapportformater ved hjælp af [rammen for dokumentstyring for virksomheder](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Bogfør fakturaforslag
 

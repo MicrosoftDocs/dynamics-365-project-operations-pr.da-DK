@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281156"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949582"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Nyheder eller ændringer i den tidlige første frigivelsesbølge i 2021 til Project Service Automation v3
 
@@ -30,7 +30,7 @@ ms.locfileid: "5281156"
 
 ## <a name="project-service-automation-early-access-wave-1-2021-v3"></a>Den tidlige første frigivelsesbølge i 2021 til Project Service Automation v3
 
-Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
 Dette emne indeholder en liste over de nye eller ændrede funktioner og løsninger, der findes i den tidlige første frigivelsesbølge i 2021 til Project Service Automation v3. Denne version har et build-nummer V3.10.49.3 og er generelt tilgængelig via egen opdatering i februar 2021.
 

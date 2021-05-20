@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282281"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951382"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Logge på Project Service Automation
 
@@ -39,7 +39,7 @@ Når du logger på Dynamics 365-apps, skal du have følgende oplysninger fra din
   
 - Din adgangskode  
   
-  Du har sikkert modtaget disse oplysninger i en e-mail fra din administrator. Hvis du ikke har alle oplysninger, eller hvis du har problemer med at logge på, skal du se [Find din administrator eller supportmedarbejder](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Du har sikkert modtaget disse oplysninger i en e-mail fra din administrator. Hvis du ikke har alle oplysninger, eller hvis du har problemer med at logge på, skal du se [Find din administrator eller supportmedarbejder](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Angive personlige indstillinger for at tillade e-mail  
  Du skal konfigurere dine mailindstillinger til at tillade andre at sende mails på dine vegne, så [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kan sende mailbeskeder for dig, når du skal godkende tid og udgifter eller tilmelde dig projekter.  

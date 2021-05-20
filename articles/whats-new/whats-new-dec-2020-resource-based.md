@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291927"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951022"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder december 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -108,7 +108,7 @@ Følgende funktioner er omfattet af denne udgivelse:
 | Rejser og udgifter                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Arbejdsprocessen for automatisk bogføring af udgiftsrapporter er fuldført, men fakturaen er ikke bogført                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

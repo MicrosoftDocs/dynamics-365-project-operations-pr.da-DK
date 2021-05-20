@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283361"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951517"
 ---
 # <a name="dashboards"></a>Dashboards
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation indeholder to systemdashboards: **Praksi
 
 ## <a name="practice-manager"></a>Praksischef 
 
-Dashboardet **Praksischef** giver praksischefer en mulighed for med grafisk dashboard at spore omkostninger, salg, bruttoavance og tidsforbrug. Det giver også praksischeferne mulighed for at opdele oplysningerne i forskellige dimensioner, f.eks. kunde-, projekt- eller ressourcerolle. Du kan finde flere oplysninger om, hvordan du opretter og tilpasser dashboards, i [Oprette eller redigere dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Dashboardet **Praksischef** giver praksischefer en mulighed for med grafisk dashboard at spore omkostninger, salg, bruttoavance og tidsforbrug. Det giver også praksischeferne mulighed for at opdele oplysningerne i forskellige dimensioner, f.eks. kunde-, projekt- eller ressourcerolle. Du kan finde flere oplysninger om, hvordan du opretter og tilpasser dashboards, i [Oprette eller redigere dashboards](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Personalechef 
 

@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275081"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950572"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation af eksempeldata til programmet Project Service
 
@@ -136,7 +136,7 @@ Demodatapakken kræver seks brugere. For at pakken skal blive installeret korrek
     - Brugers Fullname="Molly Clark" som regnskabschef   
     - Brugers Fullname= "Spencer Low" som praksis- og projektleder  
     - Brugers Fullname="Veronica Quek" som teammedlem   
-    - Brugers Fullname="William Contoso"
+    - Brugers fulde navn ="William Contoso"
   
 2. Hvad angår import af demonstrationsdata, skal du tildele de seks brugere over Administrator-rollen, så eksempelposterne importeres korrekt. 
 
@@ -149,7 +149,7 @@ Demodatapakken kræver seks brugere. For at pakken skal blive installeret korrek
 
 5. Den første brugers kalender (i mærket **userstocreateandconfigure**) bruges til at angive arbejdstimerne for alle reserverbare ressourcer ved import af demonstrationsdata. Naviger til **Indstillinger** > **Sikkerhed** > **Brugere**, søge efter brugeren "Spencer Low", og åbn indstillingen "Arbejdstimer". Rediger de eksisterende arbejdstimer ved at vælge indstillingen **Hele den gentagne ugeplan fra start til slut**. Sørg for, at **Arbejdstimer er indstillet til 8 AM - 5 PM (9 timer), mandag til fredag og med tidszonen indstillet til Pacific Time (USA og Canada)**. Dette er nødvendigt for at sikre, at området med projektplanen og tidsplanen vises som forventet.
 
-**Anbefaling:** Overvej at oprette en sikkerhedskopi af din organisation nu, som du kan bruge, hvis du får brug for at vende tilbage til udgangspunktet, hvis noget går galt under installationen af eksempeldataene. Du kan finde flere oplysninger under [Sikkerhedskopiering og gendannelse af forekomster](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Anbefaling:** Overvej at oprette en sikkerhedskopi af din organisation nu, som du kan bruge, hvis du får brug for at vende tilbage til udgangspunktet, hvis noget går galt under installationen af eksempeldataene. Du kan finde flere oplysninger under [Sikkerhedskopiering og gendannelse af forekomster](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Køre Package Deployer
 

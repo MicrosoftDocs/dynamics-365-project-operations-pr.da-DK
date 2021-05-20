@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 07a68cdedd095b7aecdc02e58df251ed34a4e769
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 552cf8515b6a858437d9ef0f0cbc56f1bd103878
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279941"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950077"
 ---
 # <a name="booking-statuses"></a>Reservationsstatusser
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Du kan bruge den indbyggede funktion i Universal Resource Scheduling til Dynamics 365 Field Service til at konfigurere reservationsstatusser for organisationen. For yderligere oplysninger om hvordan du fuldfører denne konfiguration, se [Konfiguration af reservationsstatusser](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+Du kan bruge den indbyggede funktion i Universal Resource Scheduling til Dynamics 365 Field Service til at konfigurere reservationsstatusser for organisationen. For yderligere oplysninger om hvordan du fuldfører denne konfiguration, se [Konfiguration af reservationsstatusser](/dynamics365/field-service/set-up-booking-statuses).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

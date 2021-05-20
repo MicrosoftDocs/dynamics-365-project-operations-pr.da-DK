@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283271"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951472"
 ---
 # <a name="reporting-home-page"></a>Startside for rapportering
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283271"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation giver projektbaserede organisationer mulighed for effektivt at administrere deres aktiviteter. På et hvilket som helst projekt skal teammedlemmerne administrere salgsmuligheden, tilbuddet og planlægge arbejdet, give projekter ressourcer, administrere arbejdet i henhold til planen, fakturere arbejdet og derefter udføre arbejdet for at fuldføre projektet. Muligheden for at rapportere om operationer er vigtig for at bestemme organisationens tilstand og udføre eventuelle korrigerende handlinger, der er påkrævet. PSA bruger Microsoft Dynamics 365-rapporteringsmetoder og -teknologier til al rapportering. Du kan finde flere oplysninger om indstillinger for rapportering i [Vejledning til rapportskrivning i Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation giver projektbaserede organisationer mulighed for effektivt at administrere deres aktiviteter. På et hvilket som helst projekt skal teammedlemmerne administrere salgsmuligheden, tilbuddet og planlægge arbejdet, give projekter ressourcer, administrere arbejdet i henhold til planen, fakturere arbejdet og derefter udføre arbejdet for at fuldføre projektet. Muligheden for at rapportere om operationer er vigtig for at bestemme organisationens tilstand og udføre eventuelle korrigerende handlinger, der er påkrævet. PSA bruger Microsoft Dynamics 365-rapporteringsmetoder og -teknologier til al rapportering. Du kan finde flere oplysninger om indstillinger for rapportering i [Vejledning til rapportskrivning i Dynamics 365 Customer Engagement (on-premises), version 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Guiden Rapport
 
-I guiden Rapport kan brugere, der ikke er udviklere, oprette simple rapporter. Eftersom appen er bygget på en eksisterende platform, er oplevelsen den samme som den oplevelse, der er dokumenteret i [Oprette eller redigere en rapport ved hjælp af guiden Rapport](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Men du vil bruge de Project Service Automation-specifikke objekter.
+I guiden Rapport kan brugere, der ikke er udviklere, oprette simple rapporter. Eftersom appen er bygget på en eksisterende platform, er oplevelsen den samme som den oplevelse, der er dokumenteret i [Oprette eller redigere en rapport ved hjælp af guiden Rapport](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Men du vil bruge de Project Service Automation-specifikke objekter.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Tilpassede rapporter i SQL Server Reporting Services
 
-Hvis din virksomhed kræver en bestemt rapport, der ikke kan oprettes ved hjælp af guiden Rapport, kan du oprette en brugerdefineret rapport. Microsoft Visual Studio skal være installeret sammen med de nødvendige Microsoft SQL Server Data Tools og Report Authoring-udvidelser. Du kan finde flere oplysninger om værktøjer og versioner i [Rapportskrivningsmiljø ved hjælp af SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Du kan finde oplysninger om, hvordan du opretter en brugerdefineret rapport i [Sådan oprettes en ny rapport ved hjælp af SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+Hvis din virksomhed kræver en bestemt rapport, der ikke kan oprettes ved hjælp af guiden Rapport, kan du oprette en brugerdefineret rapport. Microsoft Visual Studio skal være installeret sammen med de nødvendige Microsoft SQL Server Data Tools og Report Authoring-udvidelser. Du kan finde flere oplysninger om værktøjer og versioner i [Rapportskrivningsmiljø ved hjælp af SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Du kan finde oplysninger om, hvordan du opretter en brugerdefineret rapport i [Sådan oprettes en ny rapport ved hjælp af SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>Power BI Indsigt-apps
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276881"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950527"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
@@ -36,7 +36,7 @@ Benyt følgende fremgangsmåde for at aktivere den automatiserede klargøring af
 
 ## <a name="provision-a-project-operations-environment"></a>Klargør et Project Operations-miljø
 
-1. Åbn en udrulning af et [demonstrationsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandkasse-/produktionsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) i Dynamics 365 Finance. 
+1. Åbn en udrulning af et Dynamics 365 Finance[-demonstrationsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandkasse-/produktionsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Gennemgå guiden **Miljøklargøring**. 
 
 > [!IMPORTANT]

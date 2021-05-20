@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499889"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950879"
 ---
 # <a name="mobile-expense-app"></a>Mobilappen for udgifter
 
@@ -72,16 +72,16 @@ Hvis version 1611 med platformsopdatering 3 eller nyere er blevet udrullet i din
 <td>Systemadministrator</td>
 <td>KB 4019015 er et hotfix til X++-opdateringen eller metadata, der indeholder det mobile arbejdsområde <strong>Udgiftsstyring</strong>. Hvis du vil implementere KB 4019015, skal systemadministratoren udføre disse trin.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Hent opdateringer fra Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hotfixet til metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opret en installerbare pakke</a>, som indeholder modellerne <strong>ApplicationSuite</strong> og <strong>ExpenseMobile</strong>, og overfør derefter den installerbare pakke til LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Anvend den installerbare pakke</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Hent opdateringer fra Lifecycle Services</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hotfixet til metadata</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opret en installerbare pakke</a>, som indeholder modellerne <strong>ApplicationSuite</strong> og <strong>ExpenseMobile</strong>, og overfør derefter den installerbare pakke til LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Anvend den installerbare pakke</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Udgiv det mobile arbejdsområde for <strong>Udgiftsstyring</strong>.</td>
 <td>Systemadministrator</td>
-<td>Se <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicer et mobilt arbejdsområde</a>.</td>
+<td>Se <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicer et mobilt arbejdsområde</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 
 1. Åbn arbejdsområdet for **Udgiftsstyring** på din mobilenhed.
 2. Vælg **Hurtig udgiftsregistrering**.
-3. Vælg udgiftskategorien. Du får vist en liste over de udgiftskategorier, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din kategori ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter udgiftskategori, eller skift til at søge efter udgiftstype.
+3. Vælg udgiftskategorien. Du får vist en liste over de udgiftskategorier, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din kategori ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter udgiftskategori, eller skift til at søge efter udgiftstype.
 4. Angiv transaktionsdatoen for udgiften.
 5. Valgfrit: Angiv forhandleren for udgiften.
 6. Angiv udgiftsbeløbet.
-7. Vælg udgiftsvalutaen. Du får vist en liste over de valutakoder, der er indlæst i din app til offlinebrug. Som standard indlæses 400 valutaer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din valuta ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter valuta, eller skift til at søge efter navn.
+7. Vælg udgiftsvalutaen. Du får vist en liste over de valutakoder, der er indlæst i din app til offlinebrug. Som standard indlæses 400 valutaer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din valuta ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter valuta, eller skift til at søge efter navn.
 8. Vælg **Tag et billede** eller **Vælg et billede**.
 9. Følg et af disse trin:
 
@@ -159,11 +159,11 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 7. Vælg en eller flere udgifter på listen.
 8. Vælg **Udført**.
 9. Hvis du vil tilføje en ny udgift til udgiftsrapporten, skal du vælge **Ny udgift**.
-10. Vælg udgiftskategorien. Du får vist en liste over de udgiftskategorier, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din kategori ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter udgiftskategori, eller skift til at søge efter udgiftstype.
+10. Vælg udgiftskategorien. Du får vist en liste over de udgiftskategorier, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din kategori ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter udgiftskategori, eller skift til at søge efter udgiftstype.
 11. Valgfrit: Angiv forhandleren for udgiften.
 12. Angiv transaktionsdatoen for udgiften.
 13. Angiv udgiftsbeløbet.
-14. Vælg udgiftsvalutaen. Du får vist en liste over de valutakoder, der er indlæst i din app til offlinebrug. Som standard indlæses 400 valutaer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din valuta ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter valuta, eller skift til at søge efter navn.
+14. Vælg udgiftsvalutaen. Du får vist en liste over de valutakoder, der er indlæst i din app til offlinebrug. Som standard indlæses 400 valutaer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din valuta ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter valuta, eller skift til at søge efter navn.
 15. Vælg **Udført**.
 16. Hvis du vil tilføje flere detaljer til udgiften, skal du vælge **Tilføj flere detaljer**. Hvilke felter der er tilgængelige, afhænger af konfigurationen af udgiftsstyring for din virksomhed.
 17. Hvis virksomhedens politik er at kræve en kvittering for udgiften, skal du vælge **Kvitteringer** og derefter følge disse trin:
@@ -209,12 +209,12 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 
         - Hvis du valgte **Tidligere gæster**, skal du benytte følgende fremgangsmåde:
 
-            1. Vælg en eller flere tidligere gæster på listen. Du får vist en liste over tidligere gæster, som du har tilføjet til de forrige udgiftsrapporter, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din tidligere gæst findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter navn, eller skift for at søge efter organisation, land eller titel.
+            1. Vælg en eller flere tidligere gæster på listen. Du får vist en liste over tidligere gæster, som du har tilføjet til de forrige udgiftsrapporter, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din tidligere gæst findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter navn, eller skift for at søge efter organisation, land eller titel.
             2. Vælg **Udført**.
 
         - Hvis du valgte **Kollegaer**, skal du benytte følgende fremgangsmåde:
 
-            1. Vælg en eller flere kollegaer på listen. Du får vist en liste over de kollegaer, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din kollega ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter navn, eller skift for at søge efter virksomhed eller titel.
+            1. Vælg en eller flere kollegaer på listen. Du får vist en liste over de kollegaer, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din kollega ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter navn, eller skift for at søge efter virksomhed eller titel.
             2. Vælg **Udført**.
 
     3. Vælg knappen **Tilbage** for at vende tilbage til udgiftsdetaljerne.
@@ -223,7 +223,7 @@ Hent og installer mobil-appen Dynamics 365 Unified Ops:
 
     1. Vælg den første dato, der skal specificeres.
     2. Vælg **Tilføj specifikation**.
-    3. Vælg underkategorien for udgiftsspecifikationen. Du får vist en liste over de underkategorier for udgiften, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din underkategori ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter underkategorien for udgiftens navn.
+    3. Vælg underkategorien for udgiftsspecifikationen. Du får vist en liste over de underkategorier for udgiften, der er indlæst i din app til offlinebrug. Som standard indlæses 50 elementer, men en udvikler kan ændre dette nummer. Du kan som udvikler finde flere oplysninger i [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Hvis din underkategori ikke findes på listen, skal du vælge **Søg** for at foretage en online søgning. Søg efter underkategorien for udgiftens navn.
     4. Angiv transaktionsbeløbet for specifikationen.
     5. Rediger posteringsdatoen, hvis det er nødvendigt.
     6. Vælg **Udført**.

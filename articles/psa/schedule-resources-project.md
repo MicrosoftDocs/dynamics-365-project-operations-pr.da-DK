@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282641"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951427"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planlægge ressourcer til et projekt (Project Service)
 
@@ -35,7 +35,7 @@ Du kan kontrollere ressourcetilgængelighed for at få et generelt overblik over
   
 Planlægningsområdet viser en liste over ressourcer og deres tilgængelighed. Vælg en visningstilstand for at få vist tilgængelighed efter **timer**, **dag**, **uge** eller **måned**.  
   
-Før du bruger planlægningsområdet, er det vigtigt at konfigurere det. Du kan finde flere oplysninger under [Konfigurering af planlægningsområdet (Field Service eller Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Før du bruger planlægningsområdet, er det vigtigt at konfigurere det. Du kan finde flere oplysninger under [Konfigurering af planlægningsområdet (Field Service eller Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Hvis du bruger en ældre version, kan du finde oplysninger om ressourcetilgængelighed under [Få vist ressourcetilgængelighed](../psa/view-resource-availability.md).  
 

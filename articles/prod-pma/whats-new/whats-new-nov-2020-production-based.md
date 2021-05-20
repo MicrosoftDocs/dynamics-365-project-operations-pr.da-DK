@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287996"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950752"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Nyheder november 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
 
@@ -25,7 +25,7 @@ Du kan finde oplysninger om de programrettelser, der er inkluderet i denne opdat
 
 ## <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
 
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Dynamics 365 Finance and Operations-apps under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til Dynamics 365 Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

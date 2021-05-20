@@ -1,6 +1,6 @@
 ---
-title: Oprette en arbejdstidsskabelon
-description: Sådan opretter du en arbejdstimeskabelon i Project Service
+title: Opret en arbejdstidsskabelon
+description: Dette emner beskriver, hvordan du opretter en arbejdstimeskabelon i Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285026"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981248"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Oprette en arbejdstimeskabelon (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Før du kan oprette projektplaner, skal du oprette en projektkalender, der definerer antallet af arbejdstimer pr. dag i tidsplanen og eventuelle lukketider. Dette gøres med en arbejdstimeskabelon, som indeholder oplysninger om arbejdstimer pr. dag, fridage og andre lukketider.  
-  
- Når du opretter et projekt, kan du knytte en arbejdsskabelon til projektkalenderen for at anvende tidsplanen for projektet.  
-  
- Der er to måder, du kan oprette en arbejdstimeskabelon på:  
-  
--   Opret en arbejdstimeskabelon baseret på en ressourcekalender.  
-  
--   Opret en ny arbejdstidsskabelon.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Sådan opretter du en arbejdstimeskabelon baseret på en ressourcekalender  
-  
-1.  Gå til **Project Service > Ressourcer**.  
-  
-2.  Vælg den ressource, du vil basere arbejdstiden på.  
-  
-3.  Klik på **Gem kalender som**, angiv et navn for arbejdstimeskabelonen, og klik derefter på **Gem**.  
-  
-4.  Klik på **Gem og luk**, når du er færdig med at ændre indstillinger.  
-  
-5.  Klik på knappen **Gem** i nederste højre hjørne af skærmen.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Sådan opretter du en ny arbejdstidsskabelon  
-  
-1.  Gå til **Project Service > Arbejdstimeskabeloner**.  
-  
-2.  Klik på **Ny**.  
-  
-3.  Angive et navn til arbejdstimeskabelonen.  
-  
-4.  Vælg en ressource, som arbejdstimerne skal baseres på, og klik derefter på **Gem**.  
-  
+Hvis du vil oprette og administrere et projekt, skal du anvende en kalenderskabelon på projektet. I kalenderskabelonen defineres følgende projektattributter:
+
+- Arbejdstider, herunder start- og sluttid
+- Arbejdsdage
+- Kalenderundtagelser, f.eks. ikke-arbejdsdage
+
+Den kalenderskabelon, der anvendes på et projekt, er en kopi af den kalenderskabelon, der er defineret i organisationens indstillinger.
+
+> [!NOTE]
+> Hvis du ændrer kalenderskabelonen, overføres disse ændringer ikke til projektets arbejdstider. Hvis du vil ændre projektets arbejdstimer, skal der anvendes en ny skabelon.
+
+Hvis du vil oprette en kalenderskabelon for din organisation, er der to nøglekrav:
+
+- Definér skabelonens ønskede arbejdstimer ved hjælp af en ny eller eksisterende ressource, der kan reserveres.
+- Opret en ny kalenderskabelon, og knyt skabelonen til den ressource, der kan reserveres.
+
+**Definér arbejdstimerne for skabelonen**
+
+1. Gå til **Ressourcer** \> **Ressourcer**.
+2. Opret en ny ressource, der skal refereres til i kalenderskabelonen, eller vælg en eksisterende ressource.
+3. Vælg fanen **Arbejdstimer** for ressourcen, og fuldfør instruktionerne i [Angiv arbejdstimer for en ressource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) for at konfigurere kalenderreglerne.
+
+**Opret en ny kalenderskabelon**
+
+1. Gå til **Indstillinger** \> **Kalenderskabelon**.
+2. Vælg **Ny**, og angiv et navn, en beskrivelse og en skabelonressource.
+
+
+> [!NOTE]
+> Når der refereres til en ressource i en kalenderskabelon, knyttes der en kopi af ressourcens kalender til kalenderskabelonen. Hvis arbejdstimerne i den kopierede skabelon ændres, vil disse ændringer ikke blive overført til kalenderskabelonen.
+
+
 ### <a name="see-also"></a>Se også  
- [Konfigurere ressourcer](../psa/set-up-resources.md)
+ [Konfigurer ressourcer](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
