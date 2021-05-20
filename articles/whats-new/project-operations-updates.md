@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877528"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948232"
 ---
 # <a name="project-operations-updates"></a>Opdateringer til Project Operations
 
@@ -49,23 +49,23 @@ Opdateringer til Project Operations på Dataverse-miljø er tilgængelige hver m
 | Station   | Land/område        | Aktuelle version | Næste version | Generelt tilgængelige |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Første frigivelse |  4.9.0.221       | TBD     | 23-apr-21           |
+|   &nbsp;  | Første frigivelse |  4.9.0.221       | TBD     | 30-apr-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Sydamerika |  4.9.0.221       | TBD     | 23-apr-21           |
-|    &nbsp; | Canada        |  4.9.0.221       | TBD     | 23-apr-21           |
-|   &nbsp;  | Indien         |  4.9.0.221       | TBD     | 23-apr-21           |
-|   &nbsp;  | Frankrig         |  4.9.0.221       | TBD     | 23-apr-21           |
-|   &nbsp;  | De Forenede Arabiske Emirater         |  4.9.0.221       | TBD     | 23-apr-21           |
-|   &nbsp;  | Sydafrika         |  4.9.0.221       | TBD     | 23-apr-21           |
+|   &nbsp;  | Sydamerika |  4.9.0.221       | TBD     | 30-apr-21           |
+|    &nbsp; | Canada        |  4.9.0.221       | TBD     | 30-apr-21           |
+|   &nbsp;  | Indien         |  4.9.0.221       | TBD     | 30-apr-21           |
+|   &nbsp;  | Frankrig         |  4.9.0.221       | TBD     | 30-apr-21           |
+|   &nbsp;  | De Forenede Arabiske Emirater         |  4.9.0.221       | TBD     | 30-apr-21           |
+|   &nbsp;  | Sydafrika         |  4.9.0.221       | TBD     | 30-apr-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 30-apr-21           |
-|   &nbsp;  | Asien og Stillehavsområdet  |  4.9.0.221       | TBD     | 30-apr-21           |
-|   &nbsp;  | Storbritannien |  4.9.0.221       | TBD     | 30-apr-21           |
-|   &nbsp;  | Oceanien       |  4.9.0.221       | TBD     | 30-apr-21           |
+|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 7. maj 2021           |
+|   &nbsp;  | Asien og Stillehavsområdet  |  4.9.0.221       | TBD     | 7. maj 2021           |
+|   &nbsp;  | Storbritannien |  4.9.0.221       | TBD     | 7. maj 2021           |
+|   &nbsp;  | Oceanien       |  4.9.0.221       | TBD     | 7. maj 2021           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.8.0.92       | 4.9.0.221     | 16-apr-21           |
+|   &nbsp;  | Europa        |  4.9.0.221       | TBD     | 14. maj 2021           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Nordamerika |  4.8.0.92       | 4.9.0.221     | 23-apr-21           |
+|   &nbsp;  | Nordamerika |  4.9.0.221       | TBD     | 21. maj 2021           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Udgivelsesplan for Projektstyring og regnskab i Finance and Operations-programmiljøet
 
@@ -73,15 +73,15 @@ Opdateringer til Projektstyring og regnskab frigives otte gange om året.
 
 | Understøttet udgivelse | Generelt tilgængelig (egen opdatering) |
 | --- | --- |
+| 10.0.18 | 16. april 2021 |
 | 10.0.17 | 19. marts 2021 |
 | 10.0.16 | 22. januar 2021 |
 
 
-Målrettede frigivelsesdatoer kan ændres. Du kan finde flere oplysninger i [Tilgængelighed af serviceopdatering](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Målrettede frigivelsesdatoer kan ændres. Du kan finde flere oplysninger i [Tilgængelighed af serviceopdatering](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Målrettede udgivelsesdatoer | Generelt tilgængelig (opdateret på egen hånd) |
 | --- | --- |
-| 10.0.18 | 16. april 2021 |
 | 10.0.19 | 18. juni 2021 |
 | 10.0.20 | 16. juli 2021 |
 

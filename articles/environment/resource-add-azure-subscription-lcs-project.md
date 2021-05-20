@@ -3,17 +3,17 @@ title: Tilføj et Azure-abonnement til et LCS-projekt
 description: Dette emne indeholder oplysninger om, hvordan du opretter forbindelse mellem Azure-abonnementet og et LCS-projekt.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289902"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880531"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Tilføj et Azure-abonnement til et LCS-projekt
 
@@ -62,7 +62,7 @@ Autorisationen er nu fuldført.
 3. I feltet **Konfigurer til at bruge Azure Resource Manager** skal du vælge **Ja**.
 4. Kontroller, at Azures abonnement-AAD-lejerdomæne stemmer overens med det domæne, som ejer Azure-abonnementet, du bruger, og vælg **Næste**.
 5. På skærmen **Microsoft Azure-opsætning** skal du vælge **Næste** for at bekræfte. Hvis du modtager en fejl på skærmen, kan du gå tilbage til sektionen [Giv Dynamics Deployment Services adgang til Azure-abonnementet](#provide) i dette emne og sikre dig, at du har fuldført alle trinene.
-6. Hent Azure-administrationscertifikatet ned i en lokal mappe på computeren, og overfør det derefter til Azure Management Portal ved at gå til **Indstillinger** > **Administrationscertifikater**. Dette certifikat vil give LCS mulighed for at kommunikere med Azure på dine vegne. Du kan springe dette trin over, hvis brugeren har adgang til abonnementet.
+6. Hent Azure Management Certificate til en lokal mappe på din computer. Bed din Azure-abonnementsadministrator om at overføre certifikatet til Azure Management Portal ved at vælge abonnementet og gå til **Indstillinger** > **Administrationscertifikater**. Med dette certifikat kan LCS kommunikere med Azure på dine vegne. Du kan springe dette trin over, hvis brugeren har adgang til abonnementet.
 7. Vælg **Næste**.
 8. Vælg det Azure-område, det skal udrulles i, og vælg et datacenter, der ligger tæt på det sted, hvor du vil bruge dette system.
 9.  Vælg **Opret forbindelse**.

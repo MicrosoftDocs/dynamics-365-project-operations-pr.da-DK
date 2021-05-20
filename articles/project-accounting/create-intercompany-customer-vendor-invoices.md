@@ -3,17 +3,17 @@ title: Opret interne kunde- og leverandørfakturaer
 description: Dette emne indeholder oplysninger om, hvordan du opretter interne kunde- og leverandørfakturaer.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287456"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948382"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Opret interne kunde- og leverandørfakturaer
 
@@ -25,7 +25,9 @@ Projektbogholderen for den juridiske udlånsenhed kan konfigurere en batchproces
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Opret en intern kundefaktura manuelt til projekttransaktioner 
 
-Brug denne procedure for at oprette en intern kundefaktura manuelt til projekttransaktioner. Søg efter timer, der er bogført af arbejdere på projekter i de juridiske låneenheder, og for udgifter, der er afholdt af din juridiske enhed på vegne af juridiske udlånsenheder. Du kan søge efter navn på juridiske enheder, projektkontraktnummer, projektnummer, datointerval eller en kombination af disse. Vælg de transaktioner, der skal tilføjes en intern faktura, i søgeresultaterne.
+Brug denne procedure for at oprette en intern kundefaktura manuelt til projekttransaktioner. Søg efter timer, der er bogført af arbejdere på projekter i de juridiske låneenheder, og for udgifter, der er afholdt af din juridiske enhed på vegne af juridiske udlånsenheder. Du kan søge efter navn på juridiske enheder, projektkontraktnummer, projektnummer, datointerval eller en kombination af disse. Vælg de transaktioner, der skal tilføjes en intern faktura, i søgeresultaterne. 
+
+Følgende trin skal udføres i den juridiske udlånsenhed. 
 
 1. I Dynamics 365 Finance skal du gå til **Projektstyring og regnskab** > **Projektfakturaer** > **Interne kundefakturaer**. På listesiden **Interne kundefakturaer** skal du på i handlingsruden vælge **Ny.**
 2. På siden **Opret intern faktura** skal du i feltet **Juridisk enhed** vælge en juridisk låneenhed.
@@ -35,9 +37,9 @@ Brug denne procedure for at oprette en intern kundefaktura manuelt til projekttr
 6. Vælg de transaktioner, der skal inkluderes i det interne fakturaforslag, i søgeresultaterne, og vælg derefter **OK**.
 7. På siden **Intern kundefaktura** vises de interne projekttransaktioner, som du har valgt i søgeresultaterne. Benyt følgende fremgangsmåde for at ændre transaktionerne, før du sender fakturaen til den juridiske låneenhed:
   
-    1. Åbn siden **Opret fakturaforslag**. Vælg flere interne transaktioner for den aktuelle faktura, og vælg derefter **Tilføj linje**.
+    1. På siden **Intern kundefaktura** skal du åbne fakturadetaljerne og derefter vælge **Tilføj linje**.
     2. Du kan fjerne en linje ved at markere den og derefter vælge **Fjern**.
-    3. Få vist kommentarer, årsager, økonomiske dimensioner og andre oplysninger om en valgt linje i oversigtspanelet **Fakturalinjer**.
+    3. Få vist kommentarer, årsager, økonomiske dimensioner og andre oplysninger om en valgt linje i fakturalinjedetaljer.
     
 8. For at bogføre den interne kundefaktura skal du i handlingsruden vælge **Bogfør**.
 
@@ -52,7 +54,7 @@ Du kan oprette flere interne fakturaer på samme tid for alle juridiske låneenh
 2. På siden **Opret interne kundefaktura** skal du i feltet **Virksomhed** vælge en juridisk låneenhed, der skal faktureres. Hvis du ikke vælger en virksomhed, vises alle de transaktioner, der opfylder søgekriterierne, for alle juridiske låneenheder.
 3. I **Opret en faktura pr.** skal du vælge, om du vil oprette en faktura for interne transaktioner, der er baseret på et projekt, eller som er baseret på en juridisk låneenhed.
 4. Valgfrit: For at vælge et bestemt projekt og en bestemt projektkontrakt, der skal oprettes interne fakturaer for, skal du klikke på **Vælg**. På siden **Forespørgsel** skal du i feltet **Kriterier** vælge den projektkontrakt, det projektnummer eller begge og derefter vælge **OK**.
-5. Under fanen **Batch** kan du konfigurere en batchproces for tilbagevendende interne fakturaer. Du kan finde flere oplysninger under [Indsend et job til batchbehandling fra en formular](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Under fanen **Batch** kan du konfigurere en batchproces for tilbagevendende interne fakturaer. Du kan finde flere oplysninger under [Indsend et job til batchbehandling fra en formular](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. For at bogføre de interne fakturaer skal du i handlingsruden vælge **Bogfør**.
 
 > [!NOTE]

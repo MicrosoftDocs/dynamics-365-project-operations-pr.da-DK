@@ -3,17 +3,17 @@ title: Opret interne transaktioner
 description: Dette emne indeholder oplysninger om, hvordan du opretter interne transaktioner.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287411"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880441"
 ---
 # <a name="create-intercompany-transactions"></a>Opret interne transaktioner
 
@@ -62,7 +62,7 @@ Freja Jacobsen, som er beskæftiget i GBPM, registrerer 10 timers arbejde på et
     4. Angiv valutaen til **USD**.
     5. Gem posten.
 3. Gå til **Salg** > **Projektkontrakter**, og opret en ny projektkontrakt for Adventure Works.
-    1. Angiv den ejende virksomhed til **USPM**, og den ordregivende enhed til **Contoso Robotics US**.
+    1. Angiv det ejende firma til **USPM** og den kontraherende enhed til **Contoso Robotics US**.
     2. Vælg Adventure Works som kunde.
     3. Vælg en produktprisliste, og gem posten.
     4. På fanen **Kontraktlinjer** skal du pårette en ny kontraktlinje. Angiv et navn, og vælg **Tid og materialer** som faktureringsmetode.
@@ -94,7 +94,7 @@ Freja Jacobsen, som er beskæftiget i GBPM, registrerer 10 timers arbejde på et
     Dette ikke-fakturerede salg er nu klar til fakturering. Fakturaen for kunden Adventure Works kan bogføres økonomisk, når det er nødvendigt.
 
 10. Log på som **GBPM**-bogholder. Åbn Finance-forekomsten med Project Operations, og åbn virksomheden **GBPM**. 
-11. Gå til **Projektstyring og regnskab** > **Periodisk** > **Project Operations på Customer Engagement** > **Importer fra midlertidig lagring**, og vælg at køre den periodiske proces for at udfylde integrationskladden til Project Operations.
+11. Gå til **Projektstyring og regnskab** > **Periodisk** > **Integration af Project Operations** > **Import fra midlertidig lagringstabel**, og kør den periodiske proces for at udfylde integrationskladden i Project Operations.
 12. Gå til **Projektstyring og regnskab** > **Kladder** > **Integrationskladde til Project Operations**, og gennemse linjerne. Følgende kladdelinjer oprettes i systemet.
 
     | **Transaktionstype** | **Pris** | **Transaktionsvaluta** | **Beløb** |

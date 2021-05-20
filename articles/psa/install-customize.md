@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284306"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947917"
 ---
 # <a name="install-and-customize-project-service"></a>Installere og tilpasse (Project Service)
 
@@ -34,20 +34,20 @@ Funktioner [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-aut
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Installere Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] er en foretrukket løsning. Du kan købe løsningen på flere måder. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Få din organisation og dine brugere i gang](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] er en foretrukket løsning. Du kan købe løsningen på flere måder. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Få din organisation og dine brugere i gang](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Tilpas formularer og rapporter i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Hvis du vil tilpasse en af formularerne, dashboards og rapporter for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], kan du finde flere oplysninger på følgende links:  
   
-- [Komme i gang med oprettelse og tilpasning af apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Komme i gang med oprettelse og tilpasning af apps](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Oprette og designe formularer](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Oprette og designe formularer](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Oprette og redigere dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Oprette og redigere dashboards](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Oprette og redigere processer](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Oprette og redigere processer](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Introduktion til rapportering og analyser](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Introduktion til rapportering og analyser](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Se også  
  [Administratorvejledning](../psa/admin-guide.md)   

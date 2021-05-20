@@ -3,18 +3,18 @@ title: Nyheder april 2021 - Project Operations for ressource-/ikke-lagerbaserede
 description: Dette emne giver oplysninger om kvaliteten af de opdateringer, der er tilgængelige i april 2021-udgivelsen af Project Operations for ressource-/ikke-lagerbaserede scenarier.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867986"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935467"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder april 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -33,8 +33,26 @@ Følgende funktioner er omfattet af denne udgivelse:
   - Estimering og prisfastsættelse af ikke-lagerførte materialer under et projekts salgscyklus. Du kan finde flere oplysninger i [Konfiguration af omkostnings- og salgspriser for katalogprodukter – lille](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Sporing af brugen af ikke-lagerførte materialer under projektlevering. Du kan finde flere oplysninger i [Registrér materialeforbrug på projekter og projektopgaver](../material/material-usage-log.md).
   - Fakturering af anvendte ikke-lagerførte materialeomkostninger. Du kan finde flere oplysninger under [Administrer faktureringsefterslæb](../proforma-invoicing/manage-billing-backlog.md).
+  - Du kan finde oplysninger om, hvordan du konfigurerer denne funktion, under [Konfigurer ikke-lagerførte materialer og afventende leverandørfakturaer](../procurement/configure-materials-nonstocked.md)
 - Opgavebaseret fakturering: Tilføjet muligheden for at knytte projektopgaver til projektkontraktlinjer og dermed underlægge dem samme faktureringsmetode, fakturahyppighed og kunder som dem på kontraktlinjen. Denne tilknytning sikrer, at nøjagtig fakturering, regnskab, estimeret omsætning og genkendelse fungerer i overensstemmelse med denne opsætning på projektopgaver.
 - Nye API'er i Dynamics 365 Dataverse gør det muligt at oprette, opdatere og slette handlinger med **Planlægningsobjekter**. Du kan finde flere oplysninger under [Brug planlægnings-API'er til at udføre handlinger med planlægningsobjekter](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Opdateringer af Project Operations med dobbeltskrivning-tilknytninger
+
+På følgende liste vises de dobbeltskrivning-tilknytninger, der er blevet ændret eller tilføjet i frigivelsen til Project Operations fra april 2021.
+
+| **Objekttilknytning** | **Opdateret version** | **Kommentarer** |
+| --- | --- | --- |
+| Integration af faktiske oplysninger i Project Operations (msdyn\_faktiske) | 1.0.0.14 | Tilknytning ændret for at synkronisere faktiske projektmaterialer. |
+| Integrationsobjekt for udgiftsestimater i Project Operations (msdyn\_estimeredelinjer) | 1.0.0.2 | Tilføjede synkronisering af projektkontraktlinjer i Finance and Operations- apps til opgavebaseret faktureringssupport. |
+| Integrationsobjekt for timeestimater i Project Operations (msdyn\_ressourcetildelinger) | 1.0.0.5 | Tilføjede synkronisering af projektkontraktlinjer i Finance and Operations- apps til opgavebaseret faktureringssupport. |
+| Integrationstabellen for materialeestimater i Project Operations (msdyn\_estimerlinjer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af materialeestimat fra Dataverse til Finance and Operations-apps. |
+| Integrationsobjekt for eksport af projektleverandørfaktura i Project Operations (msdyn\_projektleverandørfakturaer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af leverandørfakturaoverskrifter fra Finance and Operations-apps til Dataverse. |
+| Integrationsobjekt for eksport af projektleverandørfakturalinje i Project Operations (msdyn\_projektleverandørlinjer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af leverandørfakturalinjer fra Finance and Operations-apps til Dataverse. |
+
+Du bør altid køre den nyeste version af tilknytningen i dit miljø og aktivere alle relaterede tabeltilknytninger, når du opdaterer versionen af din Project Operations Dataverse-løsning og Finance and Operations-løsning. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen i kolonnen **Version** på siden **Dobbeltskrivning**. Du kan aktivere en ny version af tilknytningen ved at vælge **Versioner af tabeltilknytning**, vælge den nyeste version og derefter gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Hvis du støder på et problem, når du starter tilknytningen, skal du følge instruktionerne i afsnittet [Problem med manglende tabelkolonner på tilknytninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i fejlfindingsvejledningen til dobbeltskrivning.
 
 ## <a name="quality-updates"></a>Kvalitetsopdateringer
 
@@ -67,7 +85,7 @@ Følgende funktioner er omfattet af denne udgivelse:
 
 | **Funktionsområde** | **Referencenummer** | **Kvalitetsopdatering** |
 | --- | --- | --- |
-| Projektstyring og regnskab | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminering af tilbageført estimat fungerer ikke i **Periodisk**.  |
+| Projektstyring og regnskab | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Omvendt estimateudelukkelse fungerer ikke i afsnittet **Periodisk**.  |
 | Projektstyring og regnskab | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Funktionen **Regnskabsmæssig justering** skaber et problem med konti i hovedbogen, hvor **Tillad ikke manuel registrering** er valgt. |
 | Projektstyring og regnskab | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Tilføjede forretningslogik til behandling af rettelsesfakturaer, herunder forskudsbeløb eller anvendte forskudsbeløb. |
 | Projektstyring og regnskab | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Bogføring af salgsværdien af igangværende arbejde i intern projektfakturering vælge en uventet konto. |

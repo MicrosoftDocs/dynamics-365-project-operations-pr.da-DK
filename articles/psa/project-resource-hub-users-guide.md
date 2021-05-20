@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283766"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948129"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Brugervejledning til Projektressourcehub
 
@@ -48,7 +48,7 @@ Der findes to versioner af [!INCLUDE[pn_dyn_365_project_service_auto](../include
 ## <a name="install-the-mobile-app"></a>Installere mobilappen
 Før du kan begynde at bruge appen Projektressourcehub, skal du installere mobilappen på enheden. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installere Dynamics 365-app til telefoner og tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installere Dynamics 365-app til telefoner og tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Grundlæggende navigation
 1.  Når du logger på mobilappen, kan du se siden MyApps med en liste over de apps, som du kan få adgang til. 
@@ -99,7 +99,7 @@ Angiv dine udgifter mindst en gang ugentlig – eller med den hyppighed, der er 
 5. Fortsæt med at angive udgifter for ugen. Når du er færdig, og alt ser korrekt ud, skal du trykke på **Send**. En leder skal gennemse og godkende dine udgifter.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Generelle oplysninger om brugen af mobilappen 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grundlæggende vejledning i brug på mobilenheder](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grundlæggende vejledning i brug på mobilenheder](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>Se også  
  [Oversigt over Project Service](../psa/overview.md)   

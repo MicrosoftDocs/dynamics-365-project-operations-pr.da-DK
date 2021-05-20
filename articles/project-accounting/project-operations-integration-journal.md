@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287231"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948323"
 ---
 # <a name="integration-journal-in-project-operations"></a>Kladde til integration i Project Operations
 
@@ -38,7 +38,7 @@ Systemet grupperer kladdelinjerne i separate kladder på basis af den valgte væ
 Kladdelinjer oprettes på baggrund af de faktiske projektoplysninger. Følgende liste indeholder nogle af de mere bemærkelsesværdige regler for standarder og transformation:
 
   - Hver enkelt faktisk projekttransaktion indeholder en linje i integrationskladden til Project Operations. Omkostnings- og ikke-fakturerede salgstransaktioner for faktureringstypen tid og materialer vises på separate linjer.
-  - Feltet **Dato** repræsenterer datoen for transaktionen. Feltet **Regnskabsdato** repræsenterer den dato, hvor transaktionen registreres i hovedbogen. Hvis regnskabsdatoen er i en [afsluttet regnskabsperiode](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), og den pågældende parameter **Automatisk indstiller regnskabsdato til den åbne hovedbogsperiode** angives under fanen **Finans** på siden med **Parametrene for projektstyring og regnskab**, vil systemet tilpasse regnskabsdatoen for transaktionen til den første dato i den næste åbne hovedbogsperiode.
+  - Feltet **Dato** repræsenterer datoen for transaktionen. Feltet **Regnskabsdato** repræsenterer den dato, hvor transaktionen registreres i hovedbogen. Hvis regnskabsdatoen er i en [afsluttet regnskabsperiode](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), og den pågældende parameter **Automatisk indstiller regnskabsdato til den åbne hovedbogsperiode** angives under fanen **Finans** på siden med **Parametrene for projektstyring og regnskab**, vil systemet tilpasse regnskabsdatoen for transaktionen til den første dato i den næste åbne hovedbogsperiode.
   - Feltet **Bilag** viser bilagsnummeret for alle faktiske transaktioner. Bilagsnummerserien defineres under fanen **Nummerserier** på siden **Parametre for projektstyring og regnskab**. Hver linje tildeles et nyt nummer. Når bilaget er bogført, kan du se, hvordan omkostninger og ikke-faktureret salgstransaktion relateres, ved at vælge **Relaterede bilag** på siden **Bilagstransaktion**.
   - Feltet **Kategori** repræsenterer en projekttransaktioner og standarder, der er baseret på transaktionskategorien for den relaterede faktiske projektværdi.
     - Hvis **Transaktionskategorien** er angivet i projektets faktiske værdi, og der findes en relateret **Projektkategori** i en bestemt juridisk enhed, bruges denne projektkategori som standard.
