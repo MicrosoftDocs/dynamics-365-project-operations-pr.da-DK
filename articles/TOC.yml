@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheder
       items:
+        - name: Maj 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marts 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurer udgiftskategorier
               href: expense/set-up-expense-categories.md
+            - name: Konfiguration af kilometertal ved hjælp af niveauer for kilometertal
+              href: expense/set-up-mileage.md
         - name: Personlige udgifter
           href: expense/personal-expenses-expense-report.md
         - name: Interne udgifter
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
+        - name: Nyheder i maj 2021 – lille udrulning
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nyheder i april 2021 – lille udrulning
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Nyheder i marts 2021 – lille udrulning
@@ -1028,6 +1034,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 32. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-32.md
         - name: 'Nyheder eller ændringer i den 31. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-31.md
         - name: 'Nyheder eller ændringer i den 30. opdateringsudgivelse, v3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Brugertilpasning af ugentlige tidsregistreringer
               href: psa/time-entry-extensibility-v3.md
+            - name: Godkendelsessæt
+              href: psa/approval-set.md
     - name: Ofte stillede spørgsmål og fejlfinding (3.x)
       items:
         - name: Hvorfor er standardprisen for faktiske omkostningsudgifter nul?
