@@ -2,11 +2,9 @@
 title: Indkøbsordrer for et projekt
 description: I denne artikel beskrives de forskellige metoder, du kan bruge til at oprette indkøbsordrer til et projekt. Den anvendte metode afhænger af formålet med indkøbsordren, og hvornår de indkøbte varerne forbruges samt tilskrives et projekt.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c3ce2d0c0fb3cecf22157db5cb37eb744027d0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289182"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999349"
 ---
 # <a name="purchase-orders-for-a-project"></a>Indkøbsordrer for et projekt
 

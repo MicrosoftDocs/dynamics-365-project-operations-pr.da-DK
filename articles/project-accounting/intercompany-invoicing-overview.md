@@ -2,18 +2,16 @@
 title: Oversigt over intern fakturering
 description: Dette emne indeholder oplysninger om og eksempler på intern fakturering for projekter.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287321"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002634"
 ---
 # <a name="intercompany-invoicing-overview"></a>Oversigt over intern fakturering
 
@@ -21,7 +19,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 Din organisation kan have flere afdelinger, datterselskaber og andre juridiske enheder, som overfører produkter og tjenester til hinanden i forbindelse med projekter. Den juridiske enhed, der leverer servicen eller produktet, kaldes *den juridiske udlånsenhed*. Den juridiske enhed, der modtager servicen eller produktet, kaldes *den juridiske låneenhed*.
 
-I følgende illustration vises et typisk scenarie, hvor to juridiske enheder, Contoso Robotics USA (den juridiske låneenhed) og Contoso Robotics UK (den juridiske udlånsenhed) deler ressourcer for at levere et projekt til kunden, Adventure Works. I dette scenario er der indgået aftale med Contoso Robotics USA om at levere arbejdet til Adventure Works.
+I følgende illustration vises et typisk scenario, hvor to juridiske enheder, Contoso Robotics USA (den låntagende juridiske enhed) og Contoso Robotics UK (den udlånende juridiske enhed) deler ressourcer med henblik på at levere et projekt til kunden, Adventure works. I dette scenario får Contoso Robotics USA til opgave at levere arbejdet til Adventure Works.
 
 ![Intern fakturering](./media/IntercompanyScenario.png) 
 

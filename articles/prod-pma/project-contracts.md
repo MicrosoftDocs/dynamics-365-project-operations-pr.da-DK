@@ -2,11 +2,9 @@
 title: Projektkontrakter
 description: Dette emne giver eksempler på de projektkontrakter, som du kan oprette til forskellige typer projekter og finansieringskilder, og hvordan du kan administrere kontrakter og fakturere projektkunder.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a794ec38ac07c1418f9e95b741941a83492bb3d5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289542"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999754"
 ---
 # <a name="project-contracts"></a>Projektkontrakter
 
@@ -100,7 +98,7 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -118,8 +116,8 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -138,8 +136,8 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>50 %</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -155,7 +153,7 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>

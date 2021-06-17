@@ -2,11 +2,9 @@
 title: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer prisfastsættelsesdimensioner ved hjælp af brugertilpassede felter.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274856"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004704"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
 
@@ -75,12 +73,12 @@ Der findes to typer prisdimensioner:
   
 | Rolle        | Afdeling    |Arbejdssted      |Standardtitel      |Arbejdstimer for ressource      |  Markere|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|På stedet            |                    |Overtid                 |15     |
-|             | Contoso India|Lokal             |                    |Overtid                 |10     |
-|             | Contoso USA   |Lokal             |                    |Overtid                 |20     |
+|             | Contoso Indien|På stedet            |                    |Overtid                 |15     |
+|             | Contoso Indien|Lokal             |                    |Overtid                 |10     |
+|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressource fra Contoso India, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prisfastsættelsesprogrammet grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
+Hvis en ressource fra Contoso Indien, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prisfastsættelsesprogrammet grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gælder for Omkostning 
 Hvis denne indstilles til **Ja**, angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde omkostnings- og avancetaksterne.

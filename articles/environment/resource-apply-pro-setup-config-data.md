@@ -2,18 +2,16 @@
 title: Konfigurer og anvend konfigurationsdata i Common Data Service
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer og anvender demonstrationskonfiguration og konfigurationsdata i Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289812"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001284"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurer og anvend konfigurationsdata i Common Data Service 
 
@@ -33,7 +31,7 @@ Før du begynder at konfigurere data i Common Data Service (CDS), skal følgende
 
 ## <a name="install-setup-and-configuration-data"></a>Installer konfiguration og konfigurationsdata
 
-1. Hent, fjern blokeringen af, og udpak [Installations- og konfigurationsdatapakken](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Hent, fjern blokeringen af, og udpak [Installations- og konfigurationsdatapakken](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Naviger til den zippede mappe og kør den eksekverbare fil *DataMigrationUtility*.
 3. På side 1 af konfigurationsguiden til migration af Common Data Service (CMT) skal du vælge **Importer data** og derefter vælge **Fortsæt**.
 
@@ -57,13 +55,20 @@ Før du begynder at konfigurere data i Common Data Service (CDS), skal følgende
 ![Importér data](./media/5ImportData.png)
 
 10. Importen kører i cirka to til ti minutter, afhængigt af netværkshastigheden. Afslut CMT-guiden, når importen er fuldført. 
-11. Kontrollér, om der er data i organisationen i følgende 19 objekter:
+11. Kontrollér, om der er data i organisationen i følgende 26 objekter:
 
   - Valuta
+  - Kontoplan
+  - Regnskabskalender
+  - Typer af valutakurser
+  - Betalingsdag
+  - Betalingsplan
+  - Betalingsbetingelse
   - Afdeling
-  - Kontaktperson
+  - Kontakt
   - Momsgruppe
   - Kundegruppe
+  - Leverandørgruppe
   - Enhed
   - Enhedsgruppe
   - Prisliste
