@@ -2,18 +2,16 @@
 title: Anvend demonstrationskonfiguration og konfigurationsdata - lille
 description: Dette emne indeholder oplysninger om, hvordan du anvender demonstrationskonfiguration og konfigurationsdata i forbindelse med Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290127"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997144"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Anvend demonstrationskonfiguration og konfigurationsdata for Project Operations - lille 
 
@@ -28,8 +26,8 @@ Før du går i gang med konfigurationen, skal du have et Common Data Service-mil
 
 ## <a name="instructions"></a>Vejledninger
 
-1. Hent [Masterdatapakken](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Naviger til mappen *ProjOpsDemoDataSetupAndMaster - Integreret CMT*, og kør den eksekverbare fil *DataMigrationUtility*.
+1. Hent [Masterdatapakken](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Naviger til mappen *ProjOpsSampleSetupData – kun CE-CMT*, og kør den eksekverbare fil *DataMigrationUtility*.
 3. På side 1 af konfigurationsguiden til migration af Common Data Service (CMT) skal du vælge **Importer data** og derefter vælge **Fortsæt**.
 
     ![Konfigurationsoverførsel](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ Før du går i gang med konfigurationen, skal du have et Common Data Service-mil
    ![Log på konfiguration](./media/2ConfigurationSignin.png)
 
 7. På side 3 skal du på lejeren vælge, hvilken organisation du vil importere demonstrationsdataene til, på listen over organisationer og derefter vælge **Login**.
-8. På side 4 skal du vælge zip-filen *MasterAndSetupData* fra den udpakkede mappe *ProjOpsDemoDataSetupAndMaster - integreret CMT*.
+8. På side 4 skal du vælge zip-filen *SampleSetupAndConfigData* fra den udpakkede mappe *ProjOpsSampleSetupData – kun CE-CMT*.
 
    ![Zip-fil](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ Før du går i gang med konfigurationen, skal du have et Common Data Service-mil
    ![Importér data](./media/5ImportData.png)
 
 10. Importen kører i cirka to til ti minutter, afhængigt af netværkshastigheden. Afslut CMT-guiden, når den er fuldført. 
-11. Kontrollér, om der er data i organisationen i følgende 20 objekter:
+11. Kontrollér, om der er data i organisationen i følgende 18 objekter:
 
     -   Valuta
     -   Konto

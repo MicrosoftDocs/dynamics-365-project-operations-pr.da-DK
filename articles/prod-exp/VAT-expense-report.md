@@ -2,11 +2,9 @@
 title: Momsinddrivelse
 description: I dette emne forklares det, hvordan du kan opkræve refusioner for momstransaktioner.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271889"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993589"
 ---
 # <a name="vat-recovery"></a>Momsinddrivelse 
 
@@ -41,25 +39,25 @@ Når forudsætningerne er fuldført, skal medarbejderne følge disse trin for at
 4. Send momsopkrævningsdata til tredjepartsleverandøren for at anmode om internationale opkrævninger.
 5. Behandl udgifter for indenlandsk momsopkrævning.
 
-Følgende sektioner indeholder eksempler på, hvordan Contosos medarbejdere fuldfører hvert trin.
+I følgende afsnit er der eksempler på, hvordan medarbejderne i Contoso fuldfører de enkelte trin.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>I en udgiftsrapport skal du angive momsoplysninger om kreditkorttransaktioner for at identificere de berettigede momsrefusioner
 
-Birgitte, er en sælger hos Contoso, der er baseret i USA, og som for nylig er vendt tilbage fra en salgsrejse til Storbritannien. I løbet af turen har hun haft personlige udgifter til måltider, som hun har trukket på sit kreditkort. Birgitte skal nu oprette en udgiftsrapport for at afstemme sine udgifterne.
+Birgitte, en sælger fra Contoso med base i USA, er for nylig kommet tilbage fra en forretningsrejse til Storbritannien. I løbet af turen har hun haft personlige udgifter til måltider, som hun har trukket på sit kreditkort. Birgitte skal nu oprette en udgiftsrapport for at afstemme sine udgifterne.
 
 Når Birgitte angiver oplysninger i hendes udgiftsrapport, vælger hun **Storbritannien** i feltet **Land/område** på siden **Rediger udgiftsrapport**. Listen over momsgrupper filtreres derefter, så der kun vises de grupper, der gælder for Storbritannien. Birgitte vælger momsgruppen **Storbritannien 001** og vælger derefter varemomsgruppen **Måltider**. Derefter tilføjer hun en ny transaktion til inddrivelse. Da der kun er én momsgruppe og varemomsgruppe for indgivelse i Storbritannien, udfyldes disse oplysninger automatisk i Birgittes udgiftsrapport.
 
-Ifølge Contosos politik skal der være en kvittering for alle udgifter. Så når Birgitte gemmer sin udgiftsrapport, modtager hun en meddelelse om, at hun skal tilknytte en kvittering for hver enkelt transaktion, hun har angivet i udgiftsrapporten. Birgitte bekræfter, at hun har vedhæftet et digitalt billede af hver enkelt transaktioner til udgiftsrapporten og indsender derefter sin rapport til godkendelse. Hun indsender derefter papirkvitteringerne til administrationsteamet, som behandler dem. Dette team sender momsinddrivelsesdataene til den tredjepartsleverandør, der indgiver internationale momsopkrævning for Contoso.
+Alle udgifter skal have en tilsvarende kvittering ifølge Contoso's politik. Så når Birgitte gemmer sin udgiftsrapport, modtager hun en meddelelse om, at hun skal tilknytte en kvittering for hver enkelt transaktion, hun har angivet i udgiftsrapporten. Birgitte bekræfter, at hun har vedhæftet et digitalt billede af hver enkelt transaktioner til udgiftsrapporten og indsender derefter sin rapport til godkendelse. Hun indsender derefter papirkvitteringerne til administrationsteamet, som behandler dem. Dette team sender momsinddrivelsesdata til den tredjepartsleverandør, der indsender inddrivelser af international moms for Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Sørg for, at alle momsoplysninger er komplette, og bogfør derefter udgiftsrapporten
 
-Jane, som er kreditorkoordinatoren for Contoso, skal angive de eventuelle momsoplysninger, der mangler i en udgiftsrapport, før rapporten kan bogføres. Hun åbner siden **Udgiftsrapportdetaljer** og ser Birgittes godkendte udgiftsrapport. Jane åbner derefter udgiftsrapporten for at få vist detaljer om transaktionerne. Hun kan se, at Birgitte ikke har angivet en varemomsgruppe for en af transaktionerne. Da disse oplysninger ikke er angivet, kan Jane ikke bogføre udgiftsrapporten. Jane kigger derfor på siden **Momskonfiguration** i udgiftsstyring og finder den rette varemomsgruppe for landet/området og transaktionstypen. Jane kan nu bogføre udgiftsrapporten i finanskladden.
+Mette, kreditorkoordinatoren for Contoso, skal angive alle momsoplysninger, der mangler i en udgiftsrapport, før rapporten kan bogføres. Hun åbner siden **Udgiftsrapportdetaljer** og ser Birgittes godkendte udgiftsrapport. Jane åbner derefter udgiftsrapporten for at få vist detaljer om transaktionerne. Hun kan se, at Birgitte ikke har angivet en varemomsgruppe for en af transaktionerne. Da disse oplysninger ikke er angivet, kan Jane ikke bogføre udgiftsrapporten. Jane kigger derfor på siden **Momskonfiguration** i udgiftsstyring og finder den rette varemomsgruppe for landet/området og transaktionstypen. Jane kan nu bogføre udgiftsrapporten i finanskladden.
 
 Når Jane bogfører udgiftsrapporten, oprettes der et arbejdselement for opkrævning af moms. Dette arbejdselement tildeles et medlem af administrationsteamet. Jane modtager en meddelelse, der bekræfter, at bogføringen blev gennemført. Denne meddelelse viser også antallet af momstransaktioner, der er identificeret til opkrævning.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Behandl udgifter, der er berettiget til international momsopkrævning
 
-Jens, som er et medlem af Contosos administrationsteam, er ansvarlig for at bekræfte, at alle de nødvendige oplysninger til momsopkrævning er inkluderet i udgiftsrapporter. Han åbner siden **Momsopkrævning af udgift** og vælger den udgiftsrapport, som Birgitte har indsendt. Jens bekræfter, at alle de nødvendige kvitteringer er tilknyttet, og at de korrekte momsgrupper og varemomskoder er angivet.
+Bent, som er medlem af Contoso's administrationsbehandlingsteam, er ansvarlig for at bekræfte, at alle de nødvendige oplysninger om momsinddrivelse er inkluderet i udgiftsrapporter. Han åbner siden **Momsopkrævning af udgift** og vælger den udgiftsrapport, som Birgitte har indsendt. Jens bekræfter, at alle de nødvendige kvitteringer er tilknyttet, og at de korrekte momsgrupper og varemomskoder er angivet.
 
 Når Jens modtager papirkvitteringerne fra Birgitte, afstemmer han papirkvitteringerne i forhold til de digitale kvitteringer og ændrer derefter statussen for udgiftsrapporten til **Klar til opkrævning**.
 

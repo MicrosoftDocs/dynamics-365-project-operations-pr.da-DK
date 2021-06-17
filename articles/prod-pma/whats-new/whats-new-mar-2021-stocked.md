@@ -2,19 +2,17 @@
 title: Nyheder eller ændringer i Project Operations, marts 2021, for lagerbaserede/produktionsbaserede scenarier
 description: Dette emne giver oplysninger om kvaliteten af de opdateringer, der er tilgængelige i marts 2021-udgivelsen af Project Operations for lager-/produktionsbaserede scenarier.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701921"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997009"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations, marts 2021, for lagerbaserede/produktionsbaserede scenarier
 
@@ -123,7 +121,7 @@ Følgende funktioner er omfattet af denne udgivelse:
 | Projektstyring og regnskab | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Den forældede klassemetode for arbejdsopgavehierarki (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, frarådes.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates.md). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

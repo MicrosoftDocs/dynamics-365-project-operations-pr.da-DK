@@ -2,8 +2,6 @@
 title: Oprette en projektreservation fra planlægningsområdet
 description: Denne emne indeholder oplysninger om, hvordan du kan oprette en projektreservation fra planlægningsområdet.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d815210ee78f3c728c0722e03bab2f790c953ee
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286106"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992959"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Oprette en projektreservation fra planlægningsområdet
 

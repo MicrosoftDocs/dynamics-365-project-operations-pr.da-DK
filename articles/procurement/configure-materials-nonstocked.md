@@ -2,19 +2,17 @@
 title: Konfigurer ikke-lagerførte materialer og afventende leverandørfakturaer
 description: Dette emne beskriver, hvordan du kan aktivere ikke-lagerførte materialer og afventende leverandørfakturaer.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880633"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993904"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurer ikke-lagerførte materialer og afventende leverandørfakturaer
 
@@ -61,11 +59,11 @@ Hvis du bruger standarddemonstrationsdata, skal du måske også stoppe og gensta
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivér arbejdsprocessen for at oprette konti baseret på et leverandørobjekt
 
-Løsningen til organisering af dobbeltskrivning leverer [Masterintegration af leverandører](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Som en forudsætning for denne funktion skal der oprettes leverandørdata i objektet **Konti**. Aktivér en arbejdsproces for skabelonen for at oprette leverandører i tabellen **Konti** som beskrevet under [Skift mellem leverandørdesign](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Løsningen til organisering af dobbeltskrivning leverer [Masterintegration af leverandører](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Som en forudsætning for denne funktion skal der oprettes leverandørdata i objektet **Konti**. Aktivér en arbejdsproces for skabelonen for at oprette leverandører i tabellen **Konti** som beskrevet under [Skift mellem leverandørdesign](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Angiv produkter, der skal oprettes som aktive
 
-Ikke-lagerførte materialer skal konfigureres som **Frigivne produkter** i Finance. Løsningen til organisering af dobbeltskrivning indeholder en standardintegration af [Integration af udgivne produkter i Dataverse-produktkataloget](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Produkter fra Finance synkroniseres som standard med Dataverse i kladdetilstand. Hvis du vil synkronisere produktet med en aktiv tilstand, så det direkte kan bruges i materialebrugsdokumenter eller afventende leverandørfakturaer, skal du gå til **System** > **Administration** > **Systemadministration** > **Systemindstillinger** og i fanen **Salg** for **Opret produkter i aktiv tilstand** angive **Ja**.
+Ikke-lagerførte materialer skal konfigureres som **Frigivne produkter** i Finance. Løsningen til organisering af dobbeltskrivning indeholder en standardintegration af [Integration af udgivne produkter i Dataverse-produktkataloget](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Produkter fra Finance synkroniseres som standard med Dataverse i kladdetilstand. Hvis du vil synkronisere produktet med en aktiv tilstand, så det direkte kan bruges i materialebrugsdokumenter eller afventende leverandørfakturaer, skal du gå til **System** > **Administration** > **Systemadministration** > **Systemindstillinger** og i fanen **Salg** for **Opret produkter i aktiv tilstand** angive **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurer forudsætninger i Finance
 
