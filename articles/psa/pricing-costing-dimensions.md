@@ -2,12 +2,10 @@
 title: Startside med dimensioner for prisfastsættelse og efterkalkulation
 description: Dette emne indeholder en oversigt over prisdimensioner.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284126"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009249"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startside med dimensioner for prisfastsættelse og efterkalkulation
 
@@ -67,16 +65,16 @@ I følgende eksempel vises de fakturarater, der er konfigureret på baggrund af 
 
 | Rolle        | Afdeling    |Enhed      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Udvikler   | Contoso USA  |Hour | 200|USD     |
-| Udvikler   | Contoso India |Hour|   112|USD     |
+| Udvikler   | Contoso US  |Time | 200|USD     |
+| Udvikler   | Contoso Indien |Time|   112|USD     |
 
 
 **Eksempel på omkostningssatser**
 
 | Lønområde     | Afdeling    |Enhed      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso USA  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso US  |Time | 145|USD     |
+| My company_Band2 | Contoso Indien |Time|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

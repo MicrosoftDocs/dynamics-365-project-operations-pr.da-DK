@@ -2,8 +2,6 @@
 title: Projektomkostninger og -omsætning
 description: Dette emne indeholder oplysninger om estimering af projektomkostninger og -omsætning.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8afa297190406c7fab8237e16c56cfe232a220af
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283946"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009159"
 ---
 # <a name="project-costs-and-revenue"></a>Projektomkostninger og -omsætning
 

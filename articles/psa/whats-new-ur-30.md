@@ -2,8 +2,6 @@
 title: Nyheder eller ændringer i opdateringsudgivelse 30, V3, til Project Service Automation
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 30, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/01/2021
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1169ee13c42e982cb30a40d92df660f8933786a9
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 3b6b7dba9c2a22587d27006b9972c950fbb454f2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852841"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010419"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-30-v3"></a>Nyheder eller ændringer i opdateringsudgivelse 30, V3, til Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution.md).
 
 I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Project Service Automation V3, 30. opdateringsudgivelse. Denne version har buildnummer V3.10.51.61 og er generelt tilgængelig via en opdatering, du selv har udført i april 2021.
 

@@ -2,11 +2,9 @@
 title: Oprette et nyt projekt
 description: Dette emne indeholder oplysninger om, hvordan du opretter et nyt projekt.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270716"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006234"
 ---
 # <a name="create-a-new-project"></a>Oprette et nyt projekt
 
@@ -55,7 +53,7 @@ En projektleder kan bruge funktionen projektressource til at oprette de roller, 
 
 [![Eksempel på en rolle](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenarie:** Contoso blev hyret til at fuldføre et tids- og materialeprojekt, der har et godkendt projektcharter. Den underordnede projektleder fuldfører stadig omfanget af projektet. Den ressourceansvarlige identificerer i øjeblikket bestemte ressourcer, der skal reserveres til at arbejde på det nye projekt. På grund af projektets vigtigste karakter anmoder projektsponsor om, at en af rollerne er den overordnede projektleder. Den ressourceansvarlige skal erhverve den nye ressource og definere rollen i systemet i tilfælde af, at den underordnede projektleder kræver ressourceoplysningerne i forbindelse med projektplanlægningen.
+**Scenarie:** Contoso blev hyret til at udarbejde et tids- og materialeprojekt, der har et godkendt projektcharter. Den underordnede projektleder fuldfører stadig omfanget af projektet. Den ressourceansvarlige identificerer i øjeblikket bestemte ressourcer, der skal reserveres til at arbejde på det nye projekt. På grund af projektets vigtigste karakter anmoder projektsponsor om, at en af rollerne er den overordnede projektleder. Den ressourceansvarlige skal erhverve den nye ressource og definere rollen i systemet i tilfælde af, at den underordnede projektleder kræver ressourceoplysningerne i forbindelse med projektplanlægningen.
 
 I følgende trin vises, hvordan den ressourceansvarlige kan konfigurere den overordnede projektleders rolle og knytte ressourceegenskaber til den. Senere kan rollen bruges til at søge efter tilgængelige ressourcer, der matcher de nødvendige ressourcekompetencer.
 

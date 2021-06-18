@@ -2,8 +2,6 @@
 title: Nyheder eller ændringer i opdateringsudgivelse 20, V3, til Project Service Automation
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige i opdateringsudgivelse 20 til Project Service Automation, V3
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 124dad5438f9489d1ddbc952cecaee977b6b7f01
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 5562b1de1d655328cfbb22e46c7fed53525507b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949087"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006504"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Opdateringsudgivelse 20 til Project Service Automation, V3
 
