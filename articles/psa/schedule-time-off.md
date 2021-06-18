@@ -2,8 +2,6 @@
 title: Planlægge fridage
 description: Sådan planlægger du fridage i Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,45 +16,45 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2a78a80c3841bae1a7dc923ee1f60d7e571f2041
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 674de58fcbe2b5d52f68e772b2f5bb240f416652
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282596"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008439"
 ---
-# <a name="schedule-time-off-project-service"></a><span data-ttu-id="d8a98-103">Planlægge fridage (Project Service)</span><span class="sxs-lookup"><span data-stu-id="d8a98-103">Schedule time off (Project Service)</span></span>
+# <a name="schedule-time-off-project-service"></a><span data-ttu-id="bc1cd-103">Planlægge fridage (Project Service)</span><span class="sxs-lookup"><span data-stu-id="bc1cd-103">Schedule time off (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="d8a98-104">Planlæg din ferie eller orlov på næsten på samme måde, som du angiver tid for et projekt.</span><span class="sxs-lookup"><span data-stu-id="d8a98-104">Schedule your vacation time or leave of absence in much the same way as you enter time for a project.</span></span>  
+<span data-ttu-id="bc1cd-104">Planlæg din ferie eller orlov på næsten på samme måde, som du angiver tid for et projekt.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-104">Schedule your vacation time or leave of absence in much the same way as you enter time for a project.</span></span>  
   
- <span data-ttu-id="d8a98-105">Hvis du bruger webappen:</span><span class="sxs-lookup"><span data-stu-id="d8a98-105">If you’re using the web app:</span></span>  
+ <span data-ttu-id="bc1cd-105">Hvis du bruger webappen:</span><span class="sxs-lookup"><span data-stu-id="bc1cd-105">If you’re using the web app:</span></span>  
   
-1.  <span data-ttu-id="d8a98-106">Gå til **Project Service > Tidsregistreringer**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-106">Go to **Project Service > Time Entries**.</span></span> <span data-ttu-id="d8a98-107">Dette åbner kalenderen.</span><span class="sxs-lookup"><span data-stu-id="d8a98-107">This brings up your calendar.</span></span>  
+1.  <span data-ttu-id="bc1cd-106">Gå til **Project Service > Tidsregistreringer**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-106">Go to **Project Service > Time Entries**.</span></span> <span data-ttu-id="bc1cd-107">Dette åbner kalenderen.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-107">This brings up your calendar.</span></span>  
   
-2.  <span data-ttu-id="d8a98-108">For at se din kalender for den forrige eller næste uge skal du klikke på **Forrige** eller **Næste**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-108">To see your calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="d8a98-109">Klik på **I dag** for at vende tilbage til den aktuelle uge.</span><span class="sxs-lookup"><span data-stu-id="d8a98-109">Click **Today** to get back to the current week.</span></span>  
+2.  <span data-ttu-id="bc1cd-108">For at se din kalender for den forrige eller næste uge skal du klikke på **Forrige** eller **Næste**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-108">To see your calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="bc1cd-109">Klik på **I dag** for at vende tilbage til den aktuelle uge.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-109">Click **Today** to get back to the current week.</span></span>  
   
-3.  <span data-ttu-id="d8a98-110">Hvis du vil angive tid, skal du enten klikke på **Ny** eller dobbeltklikke på kalenderen under den dag, du vil angive tid for.</span><span class="sxs-lookup"><span data-stu-id="d8a98-110">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+3.  <span data-ttu-id="bc1cd-110">Hvis du vil angive tid, skal du enten klikke på **Ny** eller dobbeltklikke på kalenderen under den dag, du vil angive tid for.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-110">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-4.  <span data-ttu-id="d8a98-111">Udfyld felterne i formularen **Tidsregistrering**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-111">Fill in the fields in the **Time Entry** form.</span></span>  
+4.  <span data-ttu-id="bc1cd-111">Udfyld felterne i formularen **Tidsregistrering**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-111">Fill in the fields in the **Time Entry** form.</span></span>  
   
-5.  <span data-ttu-id="d8a98-112">I **Type** skal du vælge **Ferie** eller **Fravær**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-112">In **Type**, select **Vacation** or **Absence**.</span></span>  
+5.  <span data-ttu-id="bc1cd-112">I **Type** skal du vælge **Ferie** eller **Fravær**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-112">In **Type**, select **Vacation** or **Absence**.</span></span>  
   
-6.  <span data-ttu-id="d8a98-113">Klik på **Gem**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-113">Click **Save**.</span></span>  
+6.  <span data-ttu-id="bc1cd-113">Klik på **Gem**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-113">Click **Save**.</span></span>  
   
-7.  <span data-ttu-id="d8a98-114">Fortsæt med at angive tid for ugen.</span><span class="sxs-lookup"><span data-stu-id="d8a98-114">Continue entering time for the week.</span></span> <span data-ttu-id="d8a98-115">Når du er færdig, og alt ser korrekt ud, skal du klikke på **Send**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-115">When you’re done and everything looks correct, click **Submit**.</span></span> <span data-ttu-id="d8a98-116">En leder skal gennemse og godkende din ferie eller dit fravær.</span><span class="sxs-lookup"><span data-stu-id="d8a98-116">A manager will review and approve your time off.</span></span>  
+7.  <span data-ttu-id="bc1cd-114">Fortsæt med at angive tid for ugen.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-114">Continue entering time for the week.</span></span> <span data-ttu-id="bc1cd-115">Når du er færdig, og alt ser korrekt ud, skal du klikke på **Send**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-115">When you’re done and everything looks correct, click **Submit**.</span></span> <span data-ttu-id="bc1cd-116">En leder skal gennemse og godkende din ferie eller dit fravær.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-116">A manager will review and approve your time off.</span></span>  
   
-8.  <span data-ttu-id="d8a98-117">Hvis du vil ændre en angivelse, som du allerede har sendt, skal du vælge den i din kalender og derefter klikke på **Tilbagekald**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-117">If you want to change an entry that you already submitted, select the entry in your calendar, and then click **Recall**.</span></span>  
+8.  <span data-ttu-id="bc1cd-117">Hvis du vil ændre en angivelse, som du allerede har sendt, skal du vælge den i din kalender og derefter klikke på **Tilbagekald**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-117">If you want to change an entry that you already submitted, select the entry in your calendar, and then click **Recall**.</span></span>  
   
-9. <span data-ttu-id="d8a98-118">Hvis du vil kopiere alle poster fra forrige uge til den aktuelle uge, skal du klikke på **Kopier fra** og vælge den uge på timesedlen, du vil kopiere.</span><span class="sxs-lookup"><span data-stu-id="d8a98-118">If you want to copy all the entries from a previous week to the current week, click **Copy From** and select the timesheet week you want to copy.</span></span>  
+9. <span data-ttu-id="bc1cd-118">Hvis du vil kopiere alle poster fra forrige uge til den aktuelle uge, skal du klikke på **Kopier fra** og vælge den uge på timesedlen, du vil kopiere.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-118">If you want to copy all the entries from a previous week to the current week, click **Copy From** and select the timesheet week you want to copy.</span></span>  
   
-10. <span data-ttu-id="d8a98-119">Hvis du hellere vil se en liste over, hvad du arbejder med, skal du klikke på **Gitter**.</span><span class="sxs-lookup"><span data-stu-id="d8a98-119">If you’d rather see a list of what you’re working on, click **Grid**.</span></span>  
+10. <span data-ttu-id="bc1cd-119">Hvis du hellere vil se en liste over, hvad du arbejder med, skal du klikke på **Gitter**.</span><span class="sxs-lookup"><span data-stu-id="bc1cd-119">If you’d rather see a list of what you’re working on, click **Grid**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="d8a98-120">Se også</span><span class="sxs-lookup"><span data-stu-id="d8a98-120">See Also</span></span>  
- [<span data-ttu-id="d8a98-121">Tids-, udgifts- og samarbejdsvejledning</span><span class="sxs-lookup"><span data-stu-id="d8a98-121">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="bc1cd-120">Se også</span><span class="sxs-lookup"><span data-stu-id="bc1cd-120">See Also</span></span>  
+ [<span data-ttu-id="bc1cd-121">Tids-, udgifts- og samarbejdsvejledning</span><span class="sxs-lookup"><span data-stu-id="bc1cd-121">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
