@@ -2,8 +2,6 @@
 title: Scenarier med flere valutaer (version 3.x)
 description: Denne emne indeholder oplysninger om scenarier med flere valutaer.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291702"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014784"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarier med flere valutaer
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 har to koncepter for valutaer:
 - **Transaktionsvaluta** – Den valuta, som en transaktion foretages i. 
 - **Grundvaluta** – Valutaen i Dynamics 365-forekomsten. Denne valuta konfigureres, når en Dynamics 365-forekomst klargøres. Den kan ikke ændres.
 
-Contoso US solgte f.eks. 100 t-shirts til en kunde i Storbritannien for 15 pund sterling (GBP) hver. I følgende tabel vises, hvordan denne transaktion registreres i objektet Ordreprodukt.
+Contoso USA solgte f.eks. 100 t-shirts til en kunde i Storbritannien for 15 pund sterling (GBP) pr. styk. I følgende tabel vises, hvordan denne transaktion registreres i objektet Ordreprodukt.
 
 | Produkt | Antal | Pris pr. enhed | Valuta | Beløb | Valutakurs | Pris pr. enhed (basis)| Beløb (basis)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -72,7 +70,7 @@ I dette afsnit beskrives et eksempel på et projekt, som Contoso UK leverer til 
 
 1. GBP og japanske yen (JPY) er konfigureret under **Indstillinger** \> **Forretningsstyring** \> **Valutaer**. 
 2. Der er konfigureret en kundekonto med navnet **Fabrikam -Japan**, og JPY er valgt som valuta for firmaet.
-3. En organisationsenhed med navnet **Contoso UK** er konfigureret, og GBP er valgt som valuta.
+3. En afdeling med navnet **Contoso UK** er konfigureret, og GBP er valgt som valuta.
 4. Der oprettes en projektkontrakt, hvor **Contoso UK** angives som kontraktenheden, og **Fabrikam – Japan** er angivet som kunden.
 5. Der oprettes projektkontraktlinjer på baggrund af faktureringsordningerne for de forskellige transaktionsklasser i projektet, f.eks. fakturering for tid i forhold til fakturering af udgifter.
 6. Der oprettes et projekt, hvor **Contoso UK** angives som kontraktenheden. Projektet oprettes og knyttes til projektkontraktlinjerne.
