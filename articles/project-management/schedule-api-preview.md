@@ -2,18 +2,16 @@
 title: Brug planlægnings-API'er til at udføre handlinger med planlægningsobjekter
 description: Dette emne indeholder oplysninger om og eksempler på, hvordan du bruger planlægnings-API'er.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950797"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116790"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Brug planlægnings-API'er til at udføre handlinger med planlægningsobjekter
 
@@ -268,7 +266,6 @@ Her følger en liste over begrænsninger og kendte problemer:
 - Hver bruger kan kun have op til 10 åbne **OperationSet**.
 - Project Operations understøtter i øjeblikket maksimalt 500 opgaver i alt på et projekt.
 - Status for fejl i **OperationSet** og fejllogfiler er ikke tilgængelige i øjeblikket.
-- Planlægnings-API'er findes i offentlige forhåndsversioner. Brugen af disse API'er i et produktionsmiljø understøttes ikke af Microsoft.
 - [Begrænsninger og grænser for projekter og opgaver](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Fejlhåndtering

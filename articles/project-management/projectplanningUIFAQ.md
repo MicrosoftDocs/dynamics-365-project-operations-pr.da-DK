@@ -2,19 +2,17 @@
 title: Fejlfinding i forbindelse med arbejde i opgavegitteret
 description: Dette emne indeholder oplysninger om de nødvendige fejlfindingsoplysninger, når du arbejder i opgavegitteret.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286556"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213393"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Fejlfinding i forbindelse med arbejde i opgavegitteret 
 
@@ -57,7 +55,7 @@ Project Operations kræver, at en projektparameter refererer til PEX-slutpunktet
  ![Feltet PEX-slutpunkt på projektparameteren](media/projectparameter.png)
 
 1. Tilføj feltet **PEX-slutpunkt** til siden **Projektparametre**.
-2. Opdater feltet med følgende værdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Opdater feltet med følgende værdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Fjern feltet fra siden **Projektparametre**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Rettigheder til projekt til internettet
