@@ -2,12 +2,10 @@
 title: Opret brugerdefinerede løsninger til prisfastsættelsesdimensioner
 description: I dette emne beskrives det, hvordan du kan oprette en brugerdefineret løsning, når du opretter brugerdefinerede prisfastsættelsesdimensioner.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,53 +15,53 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d8117d6f6bcedc97264401fc941470f34efb1ae
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284981"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012309"
 ---
-# <a name="create-custom-solutions-for-pricing-dimensions"></a><span data-ttu-id="f2e41-103">Opret brugerdefinerede løsninger til prisfastsættelsesdimensioner</span><span class="sxs-lookup"><span data-stu-id="f2e41-103">Create custom solutions for pricing dimensions</span></span>
+# <a name="create-custom-solutions-for-pricing-dimensions"></a><span data-ttu-id="0b95f-103">Opret brugerdefinerede løsninger til prisfastsættelsesdimensioner</span><span class="sxs-lookup"><span data-stu-id="0b95f-103">Create custom solutions for pricing dimensions</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
-> <span data-ttu-id="f2e41-104">Alle ændringer af brugerdefineret prisfastsættelsesdimensioner bør være i en separat løsning.</span><span class="sxs-lookup"><span data-stu-id="f2e41-104">All custom pricing dimension changes should be in a separate solution.</span></span> <span data-ttu-id="f2e41-105">Denne vigtige bedste praksis giver større fleksibilitet i fremtiden til at opdatere eller fjerne ændringer efter behov, hjælper dig med at genbruge dit arbejde og gør det nemmere at overføre disse ændringer til en anden forekomst.</span><span class="sxs-lookup"><span data-stu-id="f2e41-105">This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance.</span></span> <span data-ttu-id="f2e41-106">Når du har foretaget de nødvendige ændringer, skal du eksportere løsningen som en **Administreret løsning** og importere den i andre forekomster for at genbruge din prisfastsættelse.</span><span class="sxs-lookup"><span data-stu-id="f2e41-106">After you make the required changes, export this solution as a **Managed solution**, and import it into other instances to reuse your pricing setup.</span></span>
+> <span data-ttu-id="0b95f-104">Alle ændringer af brugerdefineret prisfastsættelsesdimensioner bør være i en separat løsning.</span><span class="sxs-lookup"><span data-stu-id="0b95f-104">All custom pricing dimension changes should be in a separate solution.</span></span> <span data-ttu-id="0b95f-105">Denne vigtige bedste praksis giver større fleksibilitet i fremtiden til at opdatere eller fjerne ændringer efter behov, hjælper dig med at genbruge dit arbejde og gør det nemmere at overføre disse ændringer til en anden forekomst.</span><span class="sxs-lookup"><span data-stu-id="0b95f-105">This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance.</span></span> <span data-ttu-id="0b95f-106">Når du har foretaget de nødvendige ændringer, skal du eksportere løsningen som en **Administreret løsning** og importere den i andre forekomster for at genbruge din prisfastsættelse.</span><span class="sxs-lookup"><span data-stu-id="0b95f-106">After you make the required changes, export this solution as a **Managed solution**, and import it into other instances to reuse your pricing setup.</span></span>
 
-1. <span data-ttu-id="f2e41-107">Vælg **Indstillinger** > **Løsninger**, og vælg derefter **Ny**.</span><span class="sxs-lookup"><span data-stu-id="f2e41-107">Select **Settings** > **Solutions**, and then select **New**.</span></span> 
-2. <span data-ttu-id="f2e41-108">Navngiv løsningen **\<your organization name> prisfastsættelsesdimensioner**, angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.</span><span class="sxs-lookup"><span data-stu-id="f2e41-108">Name the solution, **\<your organization name> pricing dimensions**, enter the remaining required information, and then select **Save**.</span></span>
+1. <span data-ttu-id="0b95f-107">Vælg **Indstillinger** > **Løsninger**, og vælg derefter **Ny**.</span><span class="sxs-lookup"><span data-stu-id="0b95f-107">Select **Settings** > **Solutions**, and then select **New**.</span></span> 
+2. <span data-ttu-id="0b95f-108">Navngiv løsningen **\<your organization name> prisfastsættelsesdimensioner**, angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.</span><span class="sxs-lookup"><span data-stu-id="0b95f-108">Name the solution, **\<your organization name> pricing dimensions**, enter the remaining required information, and then select **Save**.</span></span>
 
 > ![Oprettelse af en brugerdefineret løsning til prisdimensioner](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a><span data-ttu-id="f2e41-110">Tilføj alle nødvendige objekter og relaterede komponenter i løsningen til prisfastsættelsesdimensionen</span><span class="sxs-lookup"><span data-stu-id="f2e41-110">Add all required entities and related components to the Pricing dimension solution</span></span>
-<span data-ttu-id="f2e41-111">Du skal føje følgende Project Service-objekter til din prissætningsløsning.</span><span class="sxs-lookup"><span data-stu-id="f2e41-111">You will need to add the following Project Service entities to your pricing solution.</span></span> <span data-ttu-id="f2e41-112">Fuldfør trinnene i denne fremgangsmåde for at foretage nogle vigtige skemaændringer i prisfastsættelsesløsningen, så enhederne bliver opmærksomme på de nye prisfastsættelsesdimensioner.</span><span class="sxs-lookup"><span data-stu-id="f2e41-112">Complete the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.</span></span>
+## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a><span data-ttu-id="0b95f-110">Tilføj alle nødvendige objekter og relaterede komponenter i løsningen til prisfastsættelsesdimensionen</span><span class="sxs-lookup"><span data-stu-id="0b95f-110">Add all required entities and related components to the Pricing dimension solution</span></span>
+<span data-ttu-id="0b95f-111">Du skal føje følgende Project Service-objekter til din prissætningsløsning.</span><span class="sxs-lookup"><span data-stu-id="0b95f-111">You will need to add the following Project Service entities to your pricing solution.</span></span> <span data-ttu-id="0b95f-112">Fuldfør trinnene i denne fremgangsmåde for at foretage nogle vigtige skemaændringer i prisfastsættelsesløsningen, så enhederne bliver opmærksomme på de nye prisfastsættelsesdimensioner.</span><span class="sxs-lookup"><span data-stu-id="0b95f-112">Complete the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.</span></span>
 
-1. <span data-ttu-id="f2e41-113">Vælg **Indstillinger** > **Løsninger** og dobbeltklik derefter på **\<your organization name> prisfastsættelsesdimensioner**.</span><span class="sxs-lookup"><span data-stu-id="f2e41-113">Select **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.</span></span> 
-2. <span data-ttu-id="f2e41-114">Vælg **Tilføj eksisterende** > **Objekter** i venstre navigationsrude i løsningsoversigten.</span><span class="sxs-lookup"><span data-stu-id="f2e41-114">In Solution Explorer, on the left navigation pane, select **Add Existing** > **Entities**.</span></span>
-3. <span data-ttu-id="f2e41-115">Vælg følgende objekter i dialogboksen **Løsningskomponenter**:</span><span class="sxs-lookup"><span data-stu-id="f2e41-115">In the **Solution Components** dialog box, select the following entities:</span></span>
+1. <span data-ttu-id="0b95f-113">Vælg **Indstillinger** > **Løsninger** og dobbeltklik derefter på **\<your organization name> prisfastsættelsesdimensioner**.</span><span class="sxs-lookup"><span data-stu-id="0b95f-113">Select **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="0b95f-114">Vælg **Tilføj eksisterende** > **Objekter** i venstre navigationsrude i løsningsoversigten.</span><span class="sxs-lookup"><span data-stu-id="0b95f-114">In Solution Explorer, on the left navigation pane, select **Add Existing** > **Entities**.</span></span>
+3. <span data-ttu-id="0b95f-115">Vælg følgende objekter i dialogboksen **Løsningskomponenter**:</span><span class="sxs-lookup"><span data-stu-id="0b95f-115">In the **Solution Components** dialog box, select the following entities:</span></span>
 
-- <span data-ttu-id="f2e41-116">Faktisk</span><span class="sxs-lookup"><span data-stu-id="f2e41-116">Actual</span></span>
-- <span data-ttu-id="f2e41-117">Reserverbar ressource</span><span class="sxs-lookup"><span data-stu-id="f2e41-117">Bookable Resource</span></span>
-- <span data-ttu-id="f2e41-118">Estimatlinje</span><span class="sxs-lookup"><span data-stu-id="f2e41-118">Estimate Line</span></span>
-- <span data-ttu-id="f2e41-119">Projektopgave</span><span class="sxs-lookup"><span data-stu-id="f2e41-119">Project Task</span></span>
-- <span data-ttu-id="f2e41-120">Fakturalinjedetalje</span><span class="sxs-lookup"><span data-stu-id="f2e41-120">Invoice Line Detail</span></span>
-- <span data-ttu-id="f2e41-121">Kladdelinje</span><span class="sxs-lookup"><span data-stu-id="f2e41-121">Journal Line</span></span>
-- <span data-ttu-id="f2e41-122">Projektkontraktlinjedetalje</span><span class="sxs-lookup"><span data-stu-id="f2e41-122">Project Contract Line Detail</span></span>
-- <span data-ttu-id="f2e41-123">Medlem af projektteam</span><span class="sxs-lookup"><span data-stu-id="f2e41-123">Project Team Member</span></span>
-- <span data-ttu-id="f2e41-124">Tilbudslinjedetaljer</span><span class="sxs-lookup"><span data-stu-id="f2e41-124">Quote Line Detail</span></span>
-- <span data-ttu-id="f2e41-125">Rolleprisavance</span><span class="sxs-lookup"><span data-stu-id="f2e41-125">Role Price Markup</span></span>
-- <span data-ttu-id="f2e41-126">Rollepris</span><span class="sxs-lookup"><span data-stu-id="f2e41-126">Role Price</span></span> 
-- <span data-ttu-id="f2e41-127">Tidsregistrering</span><span class="sxs-lookup"><span data-stu-id="f2e41-127">Time Entry</span></span> 
+- <span data-ttu-id="0b95f-116">Faktisk</span><span class="sxs-lookup"><span data-stu-id="0b95f-116">Actual</span></span>
+- <span data-ttu-id="0b95f-117">Reserverbar ressource</span><span class="sxs-lookup"><span data-stu-id="0b95f-117">Bookable Resource</span></span>
+- <span data-ttu-id="0b95f-118">Estimatlinje</span><span class="sxs-lookup"><span data-stu-id="0b95f-118">Estimate Line</span></span>
+- <span data-ttu-id="0b95f-119">Projektopgave</span><span class="sxs-lookup"><span data-stu-id="0b95f-119">Project Task</span></span>
+- <span data-ttu-id="0b95f-120">Fakturalinjedetalje</span><span class="sxs-lookup"><span data-stu-id="0b95f-120">Invoice Line Detail</span></span>
+- <span data-ttu-id="0b95f-121">Kladdelinje</span><span class="sxs-lookup"><span data-stu-id="0b95f-121">Journal Line</span></span>
+- <span data-ttu-id="0b95f-122">Projektkontraktlinjedetalje</span><span class="sxs-lookup"><span data-stu-id="0b95f-122">Project Contract Line Detail</span></span>
+- <span data-ttu-id="0b95f-123">Medlem af projektteam</span><span class="sxs-lookup"><span data-stu-id="0b95f-123">Project Team Member</span></span>
+- <span data-ttu-id="0b95f-124">Tilbudslinjedetaljer</span><span class="sxs-lookup"><span data-stu-id="0b95f-124">Quote Line Detail</span></span>
+- <span data-ttu-id="0b95f-125">Rolleprisavance</span><span class="sxs-lookup"><span data-stu-id="0b95f-125">Role Price Markup</span></span>
+- <span data-ttu-id="0b95f-126">Rollepris</span><span class="sxs-lookup"><span data-stu-id="0b95f-126">Role Price</span></span> 
+- <span data-ttu-id="0b95f-127">Tidsregistrering</span><span class="sxs-lookup"><span data-stu-id="0b95f-127">Time Entry</span></span> 
 
 > ![Tilføje eksisterende objekter i prisdimensionsløsningen](media/Existing-entities-to-PD-solution.png)
 
 > ![Vælge løsningskomponenter](media/Dimension-Components.png)
 
 > [!NOTE]
-> <span data-ttu-id="f2e41-130">Sørg for at inkludere alle formularer og visninger for hvert af de valgte objekter.</span><span class="sxs-lookup"><span data-stu-id="f2e41-130">Make sure to include all forms and views for each of the entities selected.</span></span>
+> <span data-ttu-id="0b95f-130">Sørg for at inkludere alle formularer og visninger for hvert af de valgte objekter.</span><span class="sxs-lookup"><span data-stu-id="0b95f-130">Make sure to include all forms and views for each of the entities selected.</span></span>
 
-4. <span data-ttu-id="f2e41-131">Vælg **Nej**, når du bliver bedt om at inkludere afhængige objekter for de valgte objekter.</span><span class="sxs-lookup"><span data-stu-id="f2e41-131">When prompted to include any dependent entities for the selected entities, select **No**.</span></span>
+4. <span data-ttu-id="0b95f-131">Vælg **Nej**, når du bliver bedt om at inkludere afhængige objekter for de valgte objekter.</span><span class="sxs-lookup"><span data-stu-id="0b95f-131">When prompted to include any dependent entities for the selected entities, select **No**.</span></span>
 
 > ![Inkluder ikke alle relaterede komponenter](media/Do-not-include-required.png)
 
