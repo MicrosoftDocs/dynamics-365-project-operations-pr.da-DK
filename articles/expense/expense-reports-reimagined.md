@@ -2,7 +2,7 @@
 title: Nye udgiftsrapporter
 description: Dette emne beskriver den nydesignede og genskabte oplevelse af indtastning af udgiftsrapporter.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995344"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6250997"
 ---
 # <a name="expense-reports-reimagined"></a>Nye udgiftsrapporter
 
@@ -26,13 +26,13 @@ Registreringer i udgiftsrapporten er blevet ændret for at forenkle processen og
 
 - Et nyt arbejdsområde til udgiftsstyring, som giver dig mulighed for at få adgang til din stedfortræders udgifter.
 - En ny oplevelse, der matcher kvittering for at forbedre visningen af kvitteringer på overskriftsniveau og forenkle processen med tilknytning af kvitteringer til udgiftslinjer.
-- Et nyt skrivebeskyttet gitter, som du kan bruge til at få vist mange flere udgiftslinjer og flere kolonner med data. Du kan nu se alle specificerede og opdelte linjer sammen med deres overordnede udgifter.
+- Et nyt skrivebeskyttet gitter, der giver dig mulighed for at få vist mange flere udgiftslinjer og andre kolonner med data. Du kan nu se alle specificerede og opdelte linjer sammen med deres overordnede udgifter.
 - En forenklet rude til redigering af udgifter.
 - Nydesignede meddelelser for fejl, advarsler og politikker for at give den korrekte kontekst og forståelse for problemet, og hvordan det løses. Vi har fjernet nogle af de meddelelser, der blev vist, før brugerne kunne udføre deres opgaver og løse problemerne.
 - En ny side til angivelse af obligatoriske felter, valgfrie felter og de felter, der ikke skal inkluderes. På denne side kan du reducere antallet af felter, der skal angives.
 - Et nyt udseende for udgiftsrapporter, så rapporterne ikke længere ser ud, som om de er designet til regnskabspersonalet.
 
-Hvis du vil slå den nye oplevelse til, skal du bruge arbejdsområdet **Funktionsstyring** til at aktivere funktionen **Nyt design af udgiftsrapporter**. Når du aktiverer denne funktion, udføres følgende handlinger:
+Hvis du vil slå den nye oplevelse til, skal du bruge arbejdsområdet **Funktionsadministration** til at slå funktionen til for **Nyt arbejdsområde for udgiftsrapporter**. Når du aktiverer denne funktion, udføres følgende handlinger:
 
 - Det eksisterende arbejdsområde for udgifter erstattes med det nye arbejdsområde.
 - Der tilføjes et nyt menupunkt for synligheden af udgiftsfeltet.
@@ -45,7 +45,7 @@ Hvis du vil slå den nye oplevelse til, skal du bruge arbejdsområdet **Funktion
 
 | Ny funktion | Beskrivelse |
 |---|----|
-| Synlighed for udgiftsfelt | Du kan bruge en ny konfigurationsside til at angive, hvilke felter der skal deaktiveres i en organisation, hvilke felter der skal være obligatoriske, og hvilke felter der skal anbefales. |
+| Synlighed for udgiftsfelt | På en ny konfigurationsside kan du angive, hvilke felter der skal deaktiveres for en organisation. Du kan også angive, hvilke felter der skal være obligatoriske, og hvilke felter der anbefales. |
 | Obligatoriske felter | Med den nye simple konfiguration kan du gøre nogle af felterne obligatoriske, uden at du skal bruge politikstrukturen. |
 | Valgfrie felter | Der tilføjes endnu en side i forbindelse med valgfrie felter. På denne måde vil medarbejderne ikke opfatte det, som om de skal angive felterne, men der er stadig adgang til felterne. |
 | Tilføj ikke-tilknyttede kvitteringer | Muligheden for at tilføje ikke-tilknyttede kvitteringer til udgiftsrapport er mere synlig i arbejdsområdet og i udgiftsrapporten. |
@@ -57,13 +57,14 @@ Hvis du vil slå den nye oplevelse til, skal du bruge arbejdsområdet **Funktion
 | Beregning af valutakurs | Der tilføjes en beregner til valutakurs, som giver dig mulighed for at beregne valutakursen for transaktioner med udlæg med flere valutaer. |
 | Gem og tilføj nye udgiftslinjer | Knapperne **Gem** og **Ny** er tilgængelige, når der angives nye udgifter, så du hurtigt kan angive udgiftslinjer. |
 | Bedre synlighed til opdelte og specificerede linjer | De specificerede og opdelte linjer tilføjes direkte til listen over udgifter for at øge synligheden og hjælpe dig med hurtigt at finde ud af, om der er opstået fejl. |
+| Få vist detaljer om underkategorier i specificerede linjer | I specificerede linjer for en overordnet udgift vises underkategorisetiketterne i udgiftsrapporten, hvilke kan hjælpe dig med hurtigt at gennemse de detaljerede detaljer.|
 | Vis kvitteringer under specifikation | Kvitteringer kan vises under specifikation. |
 | Valg af kontaktforskud | Vælg en eller flere kontantforskud for at gennemføre en enkelt udgiftstransaktion. |
 | Kontantforskudssaldi | Gennemse saldoen for kontantforskud i realtid, når du opretter en udgiftspost, i forhold til godkendte og betalte kontantforskud. |
 
 Den første version er fokuseret på scenarier med udgiftsposter. Et scenarie med gennemgang eller godkendelse af en udgiftsrapport vil fortsat bruge den eksisterende udgiftsregistreringsside.
 
-Følgende funktioner understøttes ikke i det nye udgiftsarbejdsområde:
+Følgende funktioner understøttes ikke i det nye arbejdsområde for udgiftsrapporter, men de er planlagt til nye versioner: 
 
 - Rejserekvisitionsintegration
 - Udgiftsregistrering pr. dag

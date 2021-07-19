@@ -2,7 +2,7 @@
 title: Ydeevne af forslag til projektfaktura
 description: Dette emne indeholder oplysninger om forslag til forbedring af ydeevne for forslag til projektfakturaer.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999484"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269783"
 ---
 # <a name="project-invoice-proposal-performance"></a>Ydeevne af forslag til projektfaktura
 
@@ -44,4 +44,6 @@ Fuldfør følgende trin for at deaktivere funktionen til forbedring af ydeevnen 
 3.  Opdater browseren.
 
 > [!NOTE]
-> Ydeevnen for fakturaforslag kan ikke anvendes, når faktureringsregler er aktiveret, eller der kører batchprocesser.
+> Ydeevnen for fakturaforslag kan ikke anvendes, når faktureringsregler er aktiveret.
+> 
+> Under batchprocessen for at oprette fakturaforslag opdeler antallet af underopgaver opgaverne til et maksimumantal baseret på af antallet af kontrakter med fakturerbare transaktioner, uanset hvad du har angivet. Hvis du f.eks. angiver **3** for antallet af underopgaver for oprettelse af fakturaforslag i batchjob, og der kun findes to kontrakter med fakturerbare transaktioner, oprettes der kun to underopgaver.

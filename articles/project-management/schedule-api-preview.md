@@ -1,19 +1,19 @@
 ---
-title: Brug planlægnings-API'er til at udføre handlinger med planlægningsobjekter
-description: Dette emne indeholder oplysninger om og eksempler på, hvordan du bruger planlægnings-API'er.
+title: Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter
+description: Dette emne indeholder oplysninger og eksempler på brug af projektplanlægnings-API'er.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116790"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293220"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Brug planlægnings-API'er til at udføre handlinger med planlægningsobjekter
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
@@ -22,9 +22,9 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 ## <a name="scheduling-entities"></a>Planlægningsobjekter
 
-Med planlægnings-API'er kan du oprette, opdatere og slette handlinger med **Planlægningsobjekter**. Disse objekter administreres via planlægningsprogrammet i Projekt til internettet. Handlinger til oprettelse, opdatering og sletning med **Planlægningsobjekter** var i tidligere udgivelser til Dynamics 365 Project Operations begrænset.
+Projektplanlægnings-API'er gør det muligt at oprette, opdatere og slette handlinger med **Planlægningsobjekter**. Disse objekter administreres via planlægningsprogrammet i Projekt til internettet. Handlinger til oprettelse, opdatering og sletning med **Planlægningsobjekter** var i tidligere udgivelser til Dynamics 365 Project Operations begrænset.
 
-I følgende tabel vises en fuldstændig liste over **Planlægningsobjekterne**.
+Følgende tabel indeholder en fuldstændig liste over projektplanlægningsobjekterne.
 
 | Enhedsnavn  | Objektets logiske navn |
 | --- | --- |
@@ -39,19 +39,19 @@ I følgende tabel vises en fuldstændig liste over **Planlægningsobjekterne**.
 
 OperationSet er et arbejdsenhedsmønster, der kan bruges, når flere forespørgsler, der påvirker tidsplanen, skal behandles i en transaktion.
 
-## <a name="schedule-apis"></a>Planlæg API'er
+## <a name="project-schedule-apis"></a>Projektplanlægnings-API'er
 
-Nedenfor vises en liste over aktuelle planlægnings-API'er.
+Følgende er en liste over aktuelle projektplanlægnings-API'er.
 
 - **msdyn_CreateProjectV1**: Denne API kan bruges til at oprette et projekt. Projekt- og standardprojektbucket oprettes med det samme.
 - **msdyn_CreateTeamMemberV1**: Denne API kan bruges til at oprette et projektteammedlem. Teammedlemsposten oprettes med det samme.
 - **msdyn_CreateOperationSetV1**: Denne API kan bruges til at planlægge flere forespørgsler, der skal udføres i en transaktion.
-- **msdyn_PSSCreateV1**: Denne API kan bruges til at oprette et objekt. Objektet kan være et af de planlægningsobjekter, der understøtter oprettelseshandlingen.
-- **msdyn_PSSUpdateV1**: Denne API kan bruges til at opdatere et objekt. Objektet kan være et af de planlægningsobjekter, der understøtter opdateringshandlingen.
-- **msdyn_PSSDeleteV1**: Denne API kan bruges til at slette et objekt. Objektet kan være et af de planlægningsobjekter, der understøtter slettehandlingen.
+- **msdyn_PSSCreateV1**: Denne API kan bruges til at oprette et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter oprettelseshandlingen.
+- **msdyn_PSSUpdateV1**: Denne API kan bruges til at opdatere et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter opdateringshandlingen.
+- **msdyn_PSSDeleteV1**: Denne API kan bruges til at slette et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter slettehandlingen.
 - **msdyn_ExecuteOperationSetV1**: Denne API bruges til at udføre alle handlinger i det givne operationssæt.
 
-## <a name="using-schedule-apis-with-operationset"></a>Brug planlægnings-API'er med OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Brug af projektplanlægnings-API'er med handlingssæt
 
 Da poster med både **CreateProjectV1** og **CreateTeamMemberV1** oprettes med det samme, kan disse API'er ikke bruges direkte i **OperationSet**. Du kan dog bruge API'en til at oprette de krævede poster, et **OperationSet** og derefter bruge disse forudoprettede poster i **OperationSet**.
 
@@ -257,7 +257,7 @@ I følgende tabeller defineres de felter, der er begrænset fra **Opret** og **R
 ## <a name="limitations-and-known-issues"></a>Begrænsninger og kendte problemer
 Her følger en liste over begrænsninger og kendte problemer:
 
-- Planlægnings-API'er kan kun bruges af **Brugere med Microsoft Project-licens.** De kan ikke bruges af:
+- Projektplanlægnings-Api'er kan kun bruges af **Brugere med Microsoft Project-licens**. De kan ikke bruges af:
     - Programbrugere
     - Systembrugere
     - Integrationsbrugere
@@ -271,7 +271,7 @@ Her følger en liste over begrænsninger og kendte problemer:
 ## <a name="error-handling"></a>Fejlhåndtering
 
    - Hvis du vil gennemse de fejl, der er genereret i operationssæt, skal du gå til **Indstillinger** \> **Integration af planlægning** \> **Operationssæt**.
-   - Hvis du vil gennemse de fejl, der er genereret fra tjenesten Project Service, skal du gå til **Indstillinger** \> **Integration af planlægning** \> **PSS-fejllogfiler**.
+   - Hvis du vil gennemse de fejl, der er genereret fra projektplanlægningstjenesten, skal du gå til **Indstillinger** \> **Planlægning af integration** \> **PSS-fejllogfiler**.
 
 ## <a name="sample-scenario"></a>Eksempelscenarie
 
