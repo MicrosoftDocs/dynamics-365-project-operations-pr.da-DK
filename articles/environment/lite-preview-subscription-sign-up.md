@@ -2,93 +2,70 @@
 title: Tilmelding til et prøveversionsabonnement - lille
 description: Dette emne indeholder oplysninger om, hvordan du abonnere på og udruller den lille udrulning af Project Operations - aftale til proformafakturering.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997414"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334775"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="cd90c-103">Tilmelding til et prøveversionsabonnement - lille</span><span class="sxs-lookup"><span data-stu-id="cd90c-103">Sign up for a preview subscription - lite</span></span> 
+# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="541e3-103">Tilmelding til et prøveversionsabonnement - lille</span><span class="sxs-lookup"><span data-stu-id="541e3-103">Sign up for a preview subscription - lite</span></span> 
 
-<span data-ttu-id="cd90c-104">I dette emne beskrives det, hvordan du abonnerer på partnertilbuddet om en forhåndsversion og udruller Dynamics 365 Project Operations lille udrulning – aftale til proformafakturering.</span><span class="sxs-lookup"><span data-stu-id="cd90c-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
+<span data-ttu-id="541e3-104">I dette emne forklares det, hvordan du abonnerer på prøvetilbuddet og udruller Dynamics 365 Project Operations lille udrulning – aftale om proformafakturering.</span><span class="sxs-lookup"><span data-stu-id="541e3-104">This topic explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cd90c-105">Denne proces ændres i de kommende versioner af Project Operations.</span><span class="sxs-lookup"><span data-stu-id="cd90c-105">This process will change in upcoming releases of Project Operations.</span></span>
+> <span data-ttu-id="541e3-105">Denne proces ændres i de kommende versioner af Project Operations.</span><span class="sxs-lookup"><span data-stu-id="541e3-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="cd90c-106">Forudsætninger</span><span class="sxs-lookup"><span data-stu-id="cd90c-106">Prerequisites</span></span>
-
-- <span data-ttu-id="cd90c-107">Du modtager en mail, der inviterer dig til at deltage i prøveversionen.</span><span class="sxs-lookup"><span data-stu-id="cd90c-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="cd90c-108">Du kan anmode om en prøveversion på [Webstedet for Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="cd90c-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="cd90c-109">Den bruger, der udruller prøveversionen, skal have globale Azure-lejer administratorrettigheder.</span><span class="sxs-lookup"><span data-stu-id="cd90c-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="cd90c-110">Gennemse alle vilkår og betingelser.</span><span class="sxs-lookup"><span data-stu-id="cd90c-110">Review all terms and conditions.</span></span>
-
-## <a name="subscribe"></a><span data-ttu-id="cd90c-111">Abonner</span><span class="sxs-lookup"><span data-stu-id="cd90c-111">Subscribe</span></span>
-
-<span data-ttu-id="cd90c-112">Når du modtager en godkendelse af din [anmodning om prøveversion](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), modtager du to tilbud fra Microsoft via email.</span><span class="sxs-lookup"><span data-stu-id="cd90c-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="cd90c-113">Disse tilbud giver dig mulighed for at udrulle prøveversionen af Project Operations:</span><span class="sxs-lookup"><span data-stu-id="cd90c-113">These offers allow you to deploy the Project Operations Preview:</span></span>
-
-- <span data-ttu-id="cd90c-114">Dynamics 365 Project Operations (CRM) - prøveversion</span><span class="sxs-lookup"><span data-stu-id="cd90c-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="cd90c-115">Prøveversion - Office 365 Project Operations</span><span class="sxs-lookup"><span data-stu-id="cd90c-115">Office 365 Project Operations - Preview Trial</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="541e3-106">Forudsætninger</span><span class="sxs-lookup"><span data-stu-id="541e3-106">Prerequisites</span></span>
+- <span data-ttu-id="541e3-107">Den bruger, der udruller prøveversionen, skal have globale Azure-lejer administratorrettigheder.</span><span class="sxs-lookup"><span data-stu-id="541e3-107">The user who deploys the preview must have Azure tenant global administrator rights.</span></span> <span data-ttu-id="541e3-108">Du kan oprette en lejer under indløsningen af første tilbud.</span><span class="sxs-lookup"><span data-stu-id="541e3-108">You can create a tenant during the first offer redemption.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cd90c-116">Kun én person, lejeradministratoren, i en organisation skal udføre denne opgave.</span><span class="sxs-lookup"><span data-stu-id="cd90c-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="cd90c-117">Hvis du ikke abonnerer på denne udgivelse, skal du vente, til din organisation er blevet tilmeldt, og du har modtaget dine brugerlegitimationsoplysninger.</span><span class="sxs-lookup"><span data-stu-id="cd90c-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="541e3-109">Kun én person, lejeradministratoren, i en organisation skal udføre denne opgave.</span><span class="sxs-lookup"><span data-stu-id="541e3-109">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="541e3-110">Hvis du ikke abonnerer på denne udgivelse, skal du vente, til din organisation er blevet tilmeldt, og du har modtaget dine brugerlegitimationsoplysninger.</span><span class="sxs-lookup"><span data-stu-id="541e3-110">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> 
+> <span data-ttu-id="541e3-111">Prøveversioner er til engangsbrug i lejeren.</span><span class="sxs-lookup"><span data-stu-id="541e3-111">Trials are single use in the tenant.</span></span> <span data-ttu-id="541e3-112">Du kan kun køre en prøveversion én gang.</span><span class="sxs-lookup"><span data-stu-id="541e3-112">You can only run a trial one time.</span></span> <span data-ttu-id="541e3-113">Det anbefales, at du opretter en ny lejer med henblik på prøveversionen.</span><span class="sxs-lookup"><span data-stu-id="541e3-113">We recommend that you create a new tenant for the purpose of the trial.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="cd90c-118">Dynamics 365 Project Operations (CRM) - prøveversion</span><span class="sxs-lookup"><span data-stu-id="cd90c-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-trial"></a><span data-ttu-id="541e3-114">Dynamics 365 Project Operations-prøveversion</span><span class="sxs-lookup"><span data-stu-id="541e3-114">Dynamics 365 Project Operations trial</span></span> 
 
-<span data-ttu-id="cd90c-119">Før du går i gang, skal du sikre dig, at du er logget på en browser med brugerens arbejdskonto i lejeren, hvor du vil installere prøveversionen af Project Operations.</span><span class="sxs-lookup"><span data-stu-id="cd90c-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="541e3-115">Før du går i gang, skal du sikre dig, at du er logget på en browser med brugerens arbejdskonto i lejeren, hvor du vil installere prøveversionen af Project Operations.</span><span class="sxs-lookup"><span data-stu-id="541e3-115">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="cd90c-120">Indløs den første tilbudskode, **Dynamics 365 Project Operations (CRM) - prøveversion** ved at indsætte den i browserens URL.</span><span class="sxs-lookup"><span data-stu-id="cd90c-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="541e3-116">Gå til [Project Operations-prøveversion](https://aka.ms/try-po) for at indløse den første tilbudskode, **Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="541e3-116">Go to [Project Operations Trial](https://aka.ms/try-po) to redeem the first offer code, **Dynamics 365 Project Operations**.</span></span>
+2. <span data-ttu-id="541e3-117">Bekræft din ordre..</span><span class="sxs-lookup"><span data-stu-id="541e3-117">Confirm your order.</span></span>
 
-![Accepter tilbud](./media/16RedeemFirstOfferNew.png)
+  <span data-ttu-id="541e3-118">Du kan se, at bekræftelsestilbuddet blev gennemført korrekt.</span><span class="sxs-lookup"><span data-stu-id="541e3-118">You'll see the confirmation offer was successfully redeemed.</span></span>
 
-2. <span data-ttu-id="cd90c-122">Bekræft din ordre..</span><span class="sxs-lookup"><span data-stu-id="cd90c-122">Confirm your order.</span></span>
-<span data-ttu-id="cd90c-123">![Kontrollér ordren](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="cd90c-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
-
-<span data-ttu-id="cd90c-124">Du får en bekræftelse på, at tilbuddet blev indløst.</span><span class="sxs-lookup"><span data-stu-id="cd90c-124">You'll see confirmation offer was successfully redeemed.</span></span>
-
-![Bekræftelse](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="cd90c-126">Prøveversion - Office 365 Project Operations</span><span class="sxs-lookup"><span data-stu-id="cd90c-126">Office 365 Project Operations - Preview Trial</span></span>
-
-<span data-ttu-id="cd90c-127">Gentag de samme trin som ved den første tilbudskode.</span><span class="sxs-lookup"><span data-stu-id="cd90c-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="cd90c-128">Sørg for at tilføje den anden tilbudskode ved at anvende den samme brugerkonto, som blev brugt sammen med den første tilbudskode.</span><span class="sxs-lookup"><span data-stu-id="cd90c-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
-
-## <a name="assign-licenses"></a><span data-ttu-id="cd90c-129">Tildel licenser</span><span class="sxs-lookup"><span data-stu-id="cd90c-129">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="541e3-119">Tildele licenser</span><span class="sxs-lookup"><span data-stu-id="541e3-119">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cd90c-130">Du skal have administratoradgang til din organisations Microsoft 365-portal for at fuldføre følgende trin.</span><span class="sxs-lookup"><span data-stu-id="cd90c-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="541e3-120">Du skal have administratoradgang til din organisations Microsoft 365-portal for at fuldføre følgende trin.</span><span class="sxs-lookup"><span data-stu-id="541e3-120">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
 
-1. <span data-ttu-id="cd90c-131">Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenser til brugerne.</span><span class="sxs-lookup"><span data-stu-id="cd90c-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="541e3-121">Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenser til brugerne.</span><span class="sxs-lookup"><span data-stu-id="541e3-121">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+2. <span data-ttu-id="541e3-122">På siden **Aktive brugere** skal du vælge de brugere, du vil tildele en licens til.</span><span class="sxs-lookup"><span data-stu-id="541e3-122">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+3. <span data-ttu-id="541e3-123">Kontrollér, at **Dynamics 365 Project Operations**-licensen er valgt.</span><span class="sxs-lookup"><span data-stu-id="541e3-123">Verify that the **Dynamics 365 Project Operations** license is selected.</span></span> 
+4. <span data-ttu-id="541e3-124">Vælg **Gem ændringer**.</span><span class="sxs-lookup"><span data-stu-id="541e3-124">Select **Save changes**.</span></span>
 
-![Startside for Administration](./media/14AdminPortal.png)
+## <a name="create-a-new-dataverse-environment"></a><span data-ttu-id="541e3-125">Opret et nyt Dataverse-miljø</span><span class="sxs-lookup"><span data-stu-id="541e3-125">Create a new Dataverse environment</span></span>
 
-2. <span data-ttu-id="cd90c-133">På siden **Aktive brugere** skal du vælge de brugere, du vil tildele en licens til.</span><span class="sxs-lookup"><span data-stu-id="cd90c-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+1. <span data-ttu-id="541e3-126">Klargør et nyt Project Operations Dataverse-udrulningsmiljø ved at følge vejledningen i emnet [Dataverse-udrulningsmodel](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="541e3-126">Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md).</span></span> <span data-ttu-id="541e3-127">Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.</span><span class="sxs-lookup"><span data-stu-id="541e3-127">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
 
-![Tildel licenser](./media/15AssignLicenses.png)
+  ![Nyt miljø](./media/19CreateEnvironment.png)
 
-3. <span data-ttu-id="cd90c-135">Kontrollér, at licenserne til **Dynamics 365 Project Operations (CRM) forhåndsversion** og **Office 365 Project Operations – forhåndsversion** er valgt.</span><span class="sxs-lookup"><span data-stu-id="cd90c-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
-4. <span data-ttu-id="cd90c-136">Vælg **Gem ændringer**.</span><span class="sxs-lookup"><span data-stu-id="cd90c-136">Select **Save changes**.</span></span>
+2. <span data-ttu-id="541e3-129">Vælg indstillingen **Aktivér Dynamics 365-apps**, og lad **Udrul automatisk disse apps** være tom.</span><span class="sxs-lookup"><span data-stu-id="541e3-129">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="541e3-130">Vælg **Gem** for at oprette miljøet.</span><span class="sxs-lookup"><span data-stu-id="541e3-130">Select **Save** to create the environment.</span></span>
 
-## <a name="create-a-new-cds-environment"></a><span data-ttu-id="cd90c-137">Opret et CDS-miljø</span><span class="sxs-lookup"><span data-stu-id="cd90c-137">Create a new CDS environment</span></span>
+  ![Tilføj database](./media/20CreateEnvironment1.png)
 
-1. <span data-ttu-id="cd90c-138">Klargør et nyt CDS-udrulningsmiljø for Project Operations ved at følge vejledningen i emnet [CDS-udrulningsmodel](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="cd90c-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="cd90c-139">Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.</span><span class="sxs-lookup"><span data-stu-id="cd90c-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
-<span data-ttu-id="cd90c-140">![Nyt miljø](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="cd90c-140">![New environment](./media/19CreateEnvironment.png)</span></span>
-
-2. <span data-ttu-id="cd90c-141">Vælg indstillingen **Aktivér Dynamics 365-apps**, og lad **Udrul automatisk disse apps** være tom.</span><span class="sxs-lookup"><span data-stu-id="cd90c-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
-3. <span data-ttu-id="cd90c-142">Vælg **Gem** for at oprette miljøet.</span><span class="sxs-lookup"><span data-stu-id="cd90c-142">Select **Save** to create the environment.</span></span>
-
-![Tilføj database](./media/20CreateEnvironment1.png)
-
-4. <span data-ttu-id="cd90c-144">Når miljøet er oprettet, skal du installere **Microsoft Dynamics 365 Project Operations**-løsningen.</span><span class="sxs-lookup"><span data-stu-id="cd90c-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+4. <span data-ttu-id="541e3-132">Når miljøet er oprettet, skal du installere **Microsoft Dynamics 365 Project Operations**-løsningen.</span><span class="sxs-lookup"><span data-stu-id="541e3-132">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
 
 ![Installer løsningen](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="cd90c-146">Installer en CDS-konfiguration og konfigurer demonstrationsdata</span><span class="sxs-lookup"><span data-stu-id="cd90c-146">Install a CDS configuration and setup demo data</span></span>
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="541e3-134">Installer en CDS-konfiguration og konfigurer demonstrationsdata</span><span class="sxs-lookup"><span data-stu-id="541e3-134">Install a CDS configuration and setup demo data</span></span>
 
-<span data-ttu-id="cd90c-147">Installer CDS-konfigurationen, og konfigurer demonstrationsdata ved at følge vejledningen i emnet [Anvend demonstrationskonfiguration og konfigurationsdata](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="cd90c-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
+<span data-ttu-id="541e3-135">Installer CDS-konfigurationen, og konfigurer demonstrationsdata ved at følge vejledningen i emnet [Anvend demonstrationskonfiguration og konfigurationsdata](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="541e3-135">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
