@@ -12,7 +12,7 @@
       items:
         - name: Udrulningsoversigt til Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: environment/project-operations-integrated-deployment-overview.md
-        - name: Tilmelding til et prøveversionsabonnement
+        - name: Tilmelding til et forhåndsversionsabonnement
           href: environment/resource-sign-up-preview-subscription.md
         - name: Naviger i Project Operations
           href: environment/navigate-project-operations.md
@@ -250,7 +250,7 @@
           items:
             - name: Opret et arbejdsopgavehierarki
               href: project-management/create-wbs.md
-            - name: Opret tildelinger
+            - name: Oprette tildelinger
               href: project-management/create-assignments.md
         - name: Økonomiske estimater på projekter
           items:
@@ -340,7 +340,7 @@
           items:
             - name: Oversigt over ressourceafstemning
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrer tidszoner
+            - name: Administrere tidszoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Tidsforbrug for ressource
           items:
@@ -350,7 +350,7 @@
       items:
         - name: Tidsoversigt
           href: time/time-entry-overview.md
-        - name: Opret tidsregistreringer
+        - name: Oprette tidsregistreringer
           items:
             - name: Brugergrænsefladen til tidsregistrering
               href: time/ui-behavior-time.md
@@ -510,7 +510,7 @@
       items:
         - name: Oversigt over lille udrulning
           href: pro/project-operations-overview-lite.md
-        - name: Tilmelding til et prøveversionsabonnement - lille
+        - name: Tilmelding til et forhåndsversionsabonnement - lille
           href: environment/lite-preview-subscription-sign-up.md
         - name: Udrul Project Operations - lille
           href: environment/lite-deployment.md
@@ -736,7 +736,7 @@
           items:
             - name: Opret et arbejdsopgavehierarki
               href: project-management/create-wbs.md
-            - name: Opret tildelinger
+            - name: Oprette tildelinger
               href: project-management/create-assignments.md
         - name: Økonomiske estimater på projekter
           items:
@@ -826,17 +826,27 @@
           items:
             - name: Oversigt over ressourceafstemning
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrer tidszoner
+            - name: Administrere tidszoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Tidsforbrug for ressource
           items:
             - name: Oversigt over tidsforbrug for ressource
               href: resource-management/resource-utilization-overview.md
+    - name: Administration af underleverandører i Project Operations
+      items:
+        - name: Administrer oversigt over underleverandører
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Nøglekoncepter i underleverandører
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Administrere leverandører og projektprislister
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 'Underleverandører som ressource, de kan reserveres'
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Tid
       items:
         - name: Tidsoversigt
           href: time/time-entry-overview.md
-        - name: Opret tidsregistreringer
+        - name: Oprette tidsregistreringer
           items:
             - name: Brugergrænsefladen til tidsregistrering
               href: time/ui-behavior-time.md
@@ -1050,6 +1060,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 34. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-34.md
         - name: 'Nyheder eller ændringer i den 33. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-33.md
         - name: 'Nyheder eller ændringer i den 32.5. opdateringsudgivelse, v3'
@@ -1288,7 +1300,7 @@
               href: psa/reports-working-project-service-data-model.md
         - name: Tidsregistreringer
           items:
-            - name: Opret tidsregistreringer
+            - name: Oprette tidsregistreringer
               href: psa/time-entries.md
             - name: Kalender for tidsregistreringer
               href: psa/time-entry-calendar.md
