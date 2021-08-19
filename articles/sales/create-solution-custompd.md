@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010329"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992199"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Opret en løsning til brugerdefinerede prisfastsættelsesdimensioner
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010329"
 2.  Navngiv løsningen *<your organization name> prisfastsættelsesdimensioner*.
 3. Angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.
 
-  ![Oprettelse af en løsning til brugerdefinerede prisfastsættelsesdimensioner](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Oprettelse af en løsning til brugerdefinerede prisfastsættelsesdimensioner.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tilføj alle nødvendige objekter og relaterede komponenter i løsningen til prisfastsættelsesdimensionen
 
@@ -49,19 +49,19 @@ Tilføj følgende Project Service-objekter til din prisfastsættelsesløsning fo
    - **Rollepris**
    - **Tidsregistrering**
  
-   ![Tilføj eksisterende løsning for brugertilpasset prisfastsættelsesdimension](./media/Existing-entities-to-PD-solution.png)
+   ![Tilføj eksisterende løsning til objekter med brugertilpasset prisfastsættelsesdimension.](./media/Existing-entities-to-PD-solution.png)
  
  4. Gennemgå for hvert objekt de komponenter, der tilføjes, og den endelige liste over enhedsaktiver for hver enhed. 
 
    >[!NOTE]
    > Inkluder alle formularer og visninger for hvert af de valgte objekter.
 
-  ![Objekter tilføjet](./media/solution-component-selection.png)
+  ![Objekter tilføjet.](./media/solution-component-selection.png)
 
 
 5.  Når du bliver bedt om at medtage eventuelle afhængige objekter for de valgte objekter, skal du vælge **Nej, medtag ikke de påkrævede komponenter.**
 
-    ![Herunder afhængige enheder](./media/Do-not-include-required.png)
+    ![Herunder afhængige objekter.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998944"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992424"
 ---
 # <a name="create-custom-fields-and-entities"></a>Oprette brugerdefinerede felter og objekter 
 
@@ -43,7 +43,7 @@ En prisdimension kan være en grupperet indstilling eller et objekt. Begge skal 
 2. Vælg **Objekter** i venstre navigationsrude i løsningsoversigten.
 3. Klik på **Nyt** for at oprette et nyt objekt med navnet **Standardtitel**. Angiv de resterende nødvendige oplysninger, og klik derefter på **Gem**.
 
-> ![Definition af standardtitelobjekt](media/Standard-Title-entity-definition.png)
+> ![Definition af standardtitelobjekt.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensioner baseret på grupperet indstilling 
@@ -54,9 +54,9 @@ Du kan oprette to dimensioner, der er baseret på grupperet indstilling. Brug **
 2. Vælg **Grupperede indstillinger** i venstre navigationsrude i løsningsoversigten. 
 3. Klik på **Ny** for at oprette en ny grupperet indstilling, angiv de resterende nødvendige oplysninger, og klik derefter på **Gem**.
 
-> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdssted for ressource ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdssted for ressource..](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdstimer for ressource ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdstimer for ressource..](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Oprette data til objektbaserede dimensioner
@@ -68,7 +68,7 @@ Du kan oprette data til objektbaserede dimensioner manuelt eller ved hjælp af M
 3. Luk formularen. 
 4. Gentag trin 1-3 for at oprette endnu en standardtitel til "Seniorsystemtekniker".
 
-> ![Eksempeldata til objektet Standardtitel ](media/ST-data.png)
+> ![Eksempeldata til objektet Standardtitel.](media/ST-data.png)
 
 
 

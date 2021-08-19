@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009924"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989544"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilt arbejdsområde for tidsregistrering på projekter
 
@@ -94,7 +94,7 @@ Hent og installer Finance and Operations-mobilappen:
 3.  Første gang, du logger på, bliver du bedt om at angive dit brugernavn og din adgangskode. Angiv dine legitimationsoplysninger.
 4.  Når du har logget på, vises de tilgængelige arbejdsområder for virksomheden. Bemærk, at hvis systemadministratoren udgiver et nyt arbejdsområde på et senere tidspunkt, skal du opdatere listen over mobile arbejdsområder.
 
-[![Træk ned for at opdatere](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Træk ned for at opdatere.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Angiv tid ved at bruge det mobile arbejdsområde for tidsregistrering på projekter
 1.  Vælg arbejdsområdet **Tidsregistrering på projekter** på din mobilenhed.

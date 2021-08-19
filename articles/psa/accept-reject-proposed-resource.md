@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992514"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Acceptere eller afvise en foreslået projektressource
 
@@ -33,14 +33,14 @@ Denne emne indeholder oplysninger om, hvordan du godkender eller afviser en fore
 
 Når en ressourcestyring foreslår, at en navngivet ressource skal udfylde den generiske ressourceanmodning for et projekt, opdateres feltet **Anmodningsstatus** for det generiske teammedlem til **Skal gennemses**. Anmodningen sendes til projektlederen til godkendelse eller afvisning.
 
-![Generisk teammedlem med et forslag](media/RM-how-to-19.png)
+![Generisk teammedlem med et forslag.](media/RM-how-to-19.png)
 
 Gitteret under fanen **Foreslåede ressourcer** på siden **Medlem af projektteam** viser den foreslåede ressources aktuelle reservationer. Når forslaget er accepteret, opdateres gitteret, så det afspejler denne reservation. 
 
 Hvis du vil acceptere den foreslåede ressource og reservere ressourcen i dit team, skal du klikke på **Acceptér forslag**.  
 Hvis du vil afvise forslaget, skal du klikke på **Afvis ressource**.
 
-![Acceptere et ressourceforslag](media/RM-how-to-20.png) 
+![Accept af et ressourceforslag.](media/RM-how-to-20.png) 
 
 På samme måde, som når du direkte opfylder en generisk ressourceanmodning med en navngivet ressource, erstattes den generiske ressource, og de tildelte opgaver opdateres med det navngivne teammedlem.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008664"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990489"
 ---
 # <a name="skills-and-proficiency-models"></a>Færdigheds- og kompetencemodeller
 
@@ -33,7 +33,7 @@ Færdigheder er ressourceegenskaber, der deles mellem Dynamics 365 Project Servi
 
 Hvis du vil bevare lageret af færdigheder i Project Service Automation, skal du gå til **Ressourcer** \> **Resourcefærdigheder**. 
 
-> ![Ressourcefærdigheder](media/Resource-Management-image84.png)
+> ![Ressourcefærdigheder.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Brug af kompetencemodeller til klassificering af ressourcer
 
@@ -43,7 +43,7 @@ Færdigheder til ressourcer klassificeres af kompetencemodeller. De enkelte klas
 2. I den nye klassificeringsmodel skal du angive den mindste klassificeringsværdi, den højeste klassificeringsværdi og det objekt, der klassificeres.
 3. I undergitteret **Klassificeringsværdier** kan du definere de forskellige klassificeringsværdier fra minimum til maksimum.
 
-> ![Minimum- og maksimumklassificeringer defineret](media/Resource-Management-image85.png)
+> ![Definerede minimum- og maksimumklassificeringer.](media/Resource-Management-image85.png)
 
 Disse klassificeringsværdier vises i filtrene **Resourcekrav**, **Planlægningsområde** og **Planlægningsassistent**.
 

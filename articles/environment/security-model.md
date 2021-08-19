@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002230"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991479"
 ---
 # <a name="security-model"></a>Sikkerhedsmodel
 
@@ -58,7 +58,7 @@ Project Operations opretter ikke en gruppe gennem implicit handling, og gør det
 
 Søgning efter gruppemedlemmer i dialogen **Gruppestyring** er begrænset til dem, der er angivet som en del af miljøets sikkerhedsgruppe. Du kan finde flere oplysninger under [Kontroller brugeradgang til miljøer: sikkerhedsgrupper og licenser](/power-platform/admin/control-user-access).
 
-![Gruppetilstand](./media/groupsmode.png)
+![Gruppetilstand.](./media/groupsmode.png)
 
 1. Projektet oprettes og ejes af brugeren, der opretter det.
 2. Projektejeren opdateres til teamet.

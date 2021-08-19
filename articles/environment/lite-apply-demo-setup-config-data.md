@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997144"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993279"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Anvend demonstrationskonfiguration og konfigurationsdata for Project Operations - lille 
 
@@ -30,24 +30,24 @@ Før du går i gang med konfigurationen, skal du have et Common Data Service-mil
 2. Naviger til mappen *ProjOpsSampleSetupData – kun CE-CMT*, og kør den eksekverbare fil *DataMigrationUtility*.
 3. På side 1 af konfigurationsguiden til migration af Common Data Service (CMT) skal du vælge **Importer data** og derefter vælge **Fortsæt**.
 
-    ![Konfigurationsoverførsel](./media/1ConfigurationMigration.png)
+    ![Konfigurationsmigrering.](./media/1ConfigurationMigration.png)
 
 4. På side 2 i CMT-guiden skal du vælge **Microsoft 365** som **Udrulningstypen**.
 5. Marker afkrydsningsfelterne **Vis en liste over tilgængelige organisationer** og **Vis avancerede**.
 6. Vælg lejerens område, angiv dine legitimationsoplysninger, og vælg derefter **Logon**.
 
-   ![Log på konfiguration](./media/2ConfigurationSignin.png)
+   ![Logon for konfiguration.](./media/2ConfigurationSignin.png)
 
 7. På side 3 skal du på lejeren vælge, hvilken organisation du vil importere demonstrationsdataene til, på listen over organisationer og derefter vælge **Login**.
 8. På side 4 skal du vælge zip-filen *SampleSetupAndConfigData* fra den udpakkede mappe *ProjOpsSampleSetupData – kun CE-CMT*.
 
-   ![Zip-fil](./media/3ZipFile.png)
+   ![Zip-fil.](./media/3ZipFile.png)
 
-   ![Vælg en fil](./media/4SelectAFile.png)
+   ![Vælg en fil.](./media/4SelectAFile.png)
 
 9. Når zip-filen er valgt, skal du vælge **Importér data**.
 
-   ![Importér data](./media/5ImportData.png)
+   ![Importér data.](./media/5ImportData.png)
 
 10. Importen kører i cirka to til ti minutter, afhængigt af netværkshastigheden. Afslut CMT-guiden, når den er fuldført. 
 11. Kontrollér, om der er data i organisationen i følgende 18 objekter:
@@ -71,7 +71,7 @@ Før du går i gang med konfigurationen, skal du have et Common Data Service-mil
     -   Tilknytning for reserverbar ressourcekategori
     -   Egenskab for reserverbar ressource
 
-    ![Fuldført import](./media/6CompleteImport.png)
+    ![Fuldført import.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

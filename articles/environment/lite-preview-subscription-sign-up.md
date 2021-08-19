@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334775"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991524"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tilmelding til et prøveversionsabonnement - lille 
 
@@ -52,16 +52,16 @@ Før du går i gang, skal du sikre dig, at du er logget på en browser med bruge
 
 1. Klargør et nyt Project Operations Dataverse-udrulningsmiljø ved at følge vejledningen i emnet [Dataverse-udrulningsmodel](lite-deployment.md). Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.
 
-  ![Nyt miljø](./media/19CreateEnvironment.png)
+  ![Nyt miljø.](./media/19CreateEnvironment.png)
 
 2. Vælg indstillingen **Aktivér Dynamics 365-apps**, og lad **Udrul automatisk disse apps** være tom.  
 3. Vælg **Gem** for at oprette miljøet.
 
-  ![Tilføj database](./media/20CreateEnvironment1.png)
+  ![Tilføj database.](./media/20CreateEnvironment1.png)
 
 4. Når miljøet er oprettet, skal du installere **Microsoft Dynamics 365 Project Operations**-løsningen. 
 
-![Installer løsningen](./media/21InstallSolution.png)
+![Installer løsningen.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installer en CDS-konfiguration og konfigurer demonstrationsdata
 

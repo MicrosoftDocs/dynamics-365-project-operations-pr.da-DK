@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012579"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991026"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurer regnskab for fakturerbare projekter
 
@@ -101,23 +101,23 @@ Benyt følgende fremgangsmåde for at oprette en ny projektomkostnings- og indt�
 
 Tid og materialer – ingen IGVA
 
-![Omkostnings- og omsætningsprofil: tid og materialer - ingen IGVA](media/time-material-no-wip.png)
+![Omkostnings- og omsætningsprofil: tid og materialer – ingen IGVA.](media/time-material-no-wip.png)
 
 Tid og materialer – IGVA (omsætning)
 
-![Omkostnings- og omsætningsprofil: tid og materialer - IGVA](media/time-material-with-wip.png)
+![Omkostnings- og omsætningsprofil: tid og materialer – IGVA.](media/time-material-with-wip.png)
 
 Fast pris – ingen IGVA
 
-![Omkostnings- og omsætningsprofil: fast pris - ingen IGVA](media/fixed-price-no-wip.png)
+![Omkostnings- og omsætningsprofil: fast pris – ingen IGVA.](media/fixed-price-no-wip.png)
 
-Fast pris – afsluttet kontrakt
+Fast pris – fuldført kontrakt
 
-![Omkostnings- og omsætningsprofil: fast pris - afsluttet kontrakt](media/fixed-price-completed-contract.png)
+![Omkostnings- og omsætningsprofil: fast pris – fuldført kontrakt.](media/fixed-price-completed-contract.png)
 
-Fast pris – færdiggørelsesprocent
+Fast pris – fuldførelsesprocent
 
-![Omkostnings- og omsætningsprofil: fast pris - færdiggørelsesprocent](media/fixed-price-completed-percentage.png)
+![Omkostnings- og omsætningsprofil: fast pris – fuldførelsesprocent.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Eksempel på regnskabshændelser for eksempler på projektomkostnings- og indtægtsprofiler.
