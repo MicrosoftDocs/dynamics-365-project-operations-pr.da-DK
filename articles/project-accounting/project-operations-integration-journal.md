@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304249"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987924"
 ---
 # <a name="integration-journal-in-project-operations"></a>Kladde til integration i Project Operations
 
@@ -19,7 +19,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 Poster med tidsforbrug og udgifter opretter **Faktiske** transaktioner, som repræsenterer den operationelle visning af udfært arbejde i forhold til et projekt. Dynamics 365 Project Operations giver revisorer et værktøj til at revidere transaktioner og om nødvendigt justering af regnskabsattributter. Når gennemgangen og justeringerne er fuldført, bogføres transaktionerne i projektets underfinanskladde og finanskladde. En revisor kan udføre disse aktiviteter ved hjælp af kladden til **Integration af Project Operations** (**Dynamics 365 Finance** > **Projektstyring og regnskab** > **Kladder** > **Integration af Project Operations**).
 
-![Flow for integration af kladde](./media/IntegrationJournal.png)
+![Flow for integration af kladde.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Opret poster i kladden til integration af Project Operations
 

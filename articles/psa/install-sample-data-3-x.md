@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007269"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985539"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation af eksempeldata til programmet Project Service
 
@@ -86,7 +86,7 @@ Du skal sørge for, at computeren fortsat kan have forbindelse til et netværk, 
 Computerens pauseskærm skal være slået fra. I modsat fald kan sessionslegitimationsoplysningerne for installationen gå tabt, når pauseskærmen aktiveres (medmindre du holder sessionen aktiv under hele forløbet).
 
 > [!div class="mx-imgBorder"]
-> ![Skærmbillede af indstillinger for pauseskærm med pauseskærmen slået fra](media/sample-data-1.png)
+> ![Skærmbillede af indstillinger for pauseskærm med pauseskærmen slået fra.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Hente og pakke ud
 
@@ -142,7 +142,7 @@ Demodatapakken kræver seks brugere. For at pakken skal blive installeret korrek
 3. Åbn **PkgFolder**, og find og åbn derefter **ImportUserMapFile.xml**. Opdater **New=** felterne til mailadresserne på de tilsvarende brugere i systemet.
 
    > [!div class="mx-imgBorder"]
-   > ![Skærmbillede af UserMapFile](media/sample-data-7.png)
+   > ![Skærmbillede af UserMapFile.](media/sample-data-7.png)
 
 4. Hvis "Spencer Low" full name-brugeren har et andet bruger-id end **"spencerl"**, skal du opdatere endnu en fil. Åbn **DemoDataPreImportConfig.xml**, og find mærket **userstocreateandconfigure**. Opdater **\<login\>**-mærket med loginId'et (der skelnes mellem store og små bogstaver). 
 
@@ -172,7 +172,7 @@ Demodatapakken kræver seks brugere. For at pakken skal blive installeret korrek
 5. Vælg **Næste**, indtil du ser dialogen **Opsætning af demodata**.
 
    > [!div class="mx-imgBorder"]
-   > ![Skærmbillede af vinduet med status for installation af demodata](media/sample-data-3.png)
+   > ![Skærmbillede af vinduet med status for installation af demodata.](media/sample-data-3.png)
 
 6. Før du fortsætter, skal du lægge mærke til, at installation af eksempeldata kan tage op til én time (normalt ~ 10 minutter). Du skal først sikre, at computeren forbliver tændt og har forbindelse til et netværk under hele installationen, og, at din session forbliver aktiv.   
 
@@ -191,10 +191,10 @@ Når eksempeldataene er helt indlæst, skal du logge på som brugeren Spencer Lo
 - Hvis programmet Field Service er installeret, skal du gå til **Project Service** > **Indstillinger** > **Prislister**. Bekræft, der er angivet fakturasatser og omkostningssatser. Gå til **Field Service** > **Indstillinger** > **Prislister**, og se, at fakturasatser og omkostningssatser er angivet, med den rette valuta for hvert land/område, i datasættet.
 
   > [!div class="mx-imgBorder"]
-  > ![Skærmbillede af aktive prislister](media/sample-data-4.png)
+  > ![Skærmbillede af aktive prislister.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Skærmbillede af aktive organisationsenheder](media/sample-data-5.png)
+  > ![Skærmbillede af aktive organisationsenheder.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tekniske bemærkninger
 
@@ -295,7 +295,7 @@ Hvis du vil ændre arbejdstimerne for reserverbare eksempelressourcer, skal du g
 Vælg en bruger (f.eks. Spencer Low), og skift Spencers arbejdstimer til de timer, du vil anvende til flere brugere. Gå til **Universal Resource Scheduling** > **Indstillinger** > **Arbejdstidsskabeloner**, og rediger posten **Standardarbejdssskabelon**. I feltet **Skabelonressource** skal du vælge en bruger med arbejdstimer, som du vil anvende på andre ressourcer. Gå til **Universal Resource Scheduling** > **Planlægning** > **Ressourcer** > **Aktive reserverbare ressourcer**. Vælg de ressourcer, du vil ændre, og vælg derefter **Angiv kalender**. På rullelisten **Arbejdsskabelon** skal du vælge skabelonen **Standardarbejdstime** eller en anden skabelon med den korrekte skabelonressource. Når du skifter til planlægningsområdet, bør du kunne se ressourcerne, der nu har opdaterede arbejdstimer.
 
 > [!div class="mx-imgBorder"]
-> ![Skærmbillede af aktive reserverbare ressourcer](media/sample-data-6.png)
+> ![Skærmbillede af aktive reserverbare ressourcer.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

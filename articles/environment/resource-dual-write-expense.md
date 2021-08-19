@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999979"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986574"
 ---
 # <a name="expense-management-integration"></a>Integration af udgiftsstyring
 
@@ -28,7 +28,7 @@ I en fuld udgiftsudrulning oprettes og vedligeholdes udgiftskategorier i Finance
 2. I Finance skal du gå til **Udgiftsstyring** > **Opsætning** > **Delte kategorier** og vælge en delt kategori med en transaktionsklasse kaldet **Udgift**. Angiv parameteren **Kan bruges i udgifter** til **Sand**, og definer den udgiftstype, der skal bruges.
 3. Brug denne delte kategoripost til at oprette en ny udgiftskategori ved at gå til **Udgiftsstyring** > **Opsætning** > **Udgiftskategorier** og vælge **Ny**. Når posten gemmes, bruger dobbeltskrivning-tabeltilknytningen **Eksportobjekt for integration af projektudgiftskategorier i Project Operations(msdyn\_expensecategories)** til at synkronisere denne post med Dataverse.
 
-  ![Integration af udgiftskategorier](./media/DW6ExpenseCategories.png)
+  ![Integration af udgiftskategorier.](./media/DW6ExpenseCategories.png)
 
 Udgiftskategorier i Finance and Operations-apps er virksomhedsspecifikke eller juridiske enhedsspecifikke. Der findes separate tilsvarende poster, der er specifikke for juridiske enheder, i Dataverse. Når en projektleder estimerer udgifter, kan vedkommende ikke vælge udgiftskategorier, der er oprettet for et projekt, som ejes af en anden virksomhed end den virksomhed, der ejer det projekt, vedkommende arbejder på. 
 
@@ -40,7 +40,7 @@ Udgiftsrapporter oprettes og godkendes i Finance and Operations-apps. Du kan fin
   - Dobbeltskrivning synkroniseres med Dataverse ved hjælp af tabeltilknytningen **Integrationsobjekt for eksport af projektudgifter i Project Operations (msdyn\_udgifter)**.
   - Momsunderkonto, underkonto for leverandør og anden økonomisk bogføring registreres som gældende på tidspunktet for bogføringen af udgiftsrapporten.
 
-  ![Integration af udgiftsrapporter](./media/DW6ExpenseReports.png)
+  ![Integration af udgiftsrapporter.](./media/DW6ExpenseReports.png)
 
 Når en post skrives til objektet **Udgift** i Dataverse, udløser systemet den automatiserede godkendelsesproces for posten. Den automatiserede godkendelsesprocesstatus kan gennemses i Dataverse, hvis det er nødvendigt, ved at gå til **Avancerede indstillinger** > **System** > **Systemjob**. Når godkendelsen er fuldført, oprettes der udgiftstransaktionsklasseposter i objektet **Faktiske værdier**.
 

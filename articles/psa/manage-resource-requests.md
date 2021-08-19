@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985134"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrere anmodninger om ressourcer (Project Service)
 
@@ -43,7 +43,7 @@ Kundechefer og projektledere anmoder jævnligt om ressourcer til deres projekter
   
    -   Klik på **Filter** for at åbne ruden **Filter**, hvor du kan filtrere resultaterne efter afdeling, rolle, færdighed eller andre attributter.  
   
-       ![Skærmbilledet Anmodninger om ressourcer til Project Service](../psa/media/project-service-resource-request-screen.png "Skærmbilledet Anmodninger om ressourcer til Project Service")  
+       ![Skærmbilledet Anmodninger om ressourcer til Project Service.](../psa/media/project-service-resource-request-screen.png "Skærmbilledet Anmodninger om ressourcer til Project Service")  
   
 3. I kalenderen for ressourcen, du vil reservere, skal du vælge tidsperioden for at reservere ressourcen. Klik derefter på enten **Reservér** for at reservere ressourcen eller **Foreslå reservation** at foreslå reservationen og få anmoderen til at godkende den. Når du reserverer en ressource, kan du foretage en foreløbig eller definitiv reservation.  
   

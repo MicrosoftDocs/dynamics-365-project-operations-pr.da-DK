@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987519"
 ---
 # <a name="business-transactions"></a>Forretningstransaktioner
 
@@ -88,7 +88,7 @@ Tilsammen hjælper Transaktionsoprindelse og Transaktionsforbindelse dig med at 
 
 I følgende eksempel vises den typiske behandling af Transaktionsoprindelse i en PSA-projektlivscyklus.
 
-> ![Behandling af tidsregistreringer i en Project Service-livscyklus](media/basic-guide-17.png)
+> ![Behandling af tidsregistreringer i en Project Service-livscyklus.](media/basic-guide-17.png)
  
 1. Afsendelse af en tidsregistrering medfører, at der oprettes to kladdelinjer: den ene for omkostning og den anden for ikke-faktureret salg.
 2. Eventuel godkendelse af en tidsregistrering medfører, at der oprettes to faktiske værdier: den ene for omkostning og den anden for ikke-faktureret salg.

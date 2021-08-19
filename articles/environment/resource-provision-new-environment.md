@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995479"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988554"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
@@ -52,12 +52,12 @@ Benyt følgende fremgangsmåde for at aktivere den automatiserede klargøring af
 
 6. Vælg miljøtypen til din udrulning. En abonnementsbaseret prøveversion giver dig mulighed for at installere et CDS-miljø i 30 dage. 
 
-![Udrulningsindstillinger](./media/1DeploymentSettings.png)
+![Indstillinger for udrulning.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Vælg **Accepter** for at bekræfte servicebetingelserne, og vælg derefter **Udfør** for at vende tilbage til udrulningsindstillingerne.
 
-![Samtykke til udrulning](./media/2DeploymentConsent.png)
+![Samtykke til udrulning.](./media/2DeploymentConsent.png)
 
 7. Valgfrit - Anvend demodata på miljøet. Gå til **Avancerede indstillinger**, vælg **Tilpas SQL-databasekonfiguration**, og angiv **Angiv et datasæt for applikationsdatabase** til **Demo**.
 
@@ -67,7 +67,7 @@ Benyt følgende fremgangsmåde for at aktivere den automatiserede klargøring af
 
 9. Du kan kontrollere, at miljøet er blevet udrullet korrekt ved at vælge **Logon** og logge på miljøet.
 
-![Detaljer for -miljø](./media/3EnvironmentDetails.png)
+![Oplysninger om miljø.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Anvend opdateringer på Finance-miljøet
 
@@ -77,19 +77,19 @@ Det kan være nødvendigt at anvende kvalitetsopdateringer i dit Finance-miljø 
 
 1. I LCS skal du på siden **Miljødetaljer** i sektionen **Tilgængelige opdateringer** vælge **Vis opdatering**.
 
-![Vis opdateringer](./media/5ViewUpdates.png)
+![Vis opdateringer.](./media/5ViewUpdates.png)
 
 2. På siden **Binære opdateringer** skal du vælge **Gem pakke**.
 
-![Gem pakke](./media/6SavePackage.png)
+![Gem pakke.](./media/6SavePackage.png)
 
 3. Klik på **Vælg alle** og vælg derefter **Gem pakke**.
 
-![Gennemse og gem opdateringer](./media/7ReviewAndSaveUpdates.png)
+![Gennemse og gem opdateringer.](./media/7ReviewAndSaveUpdates.png)
 
 4. Angiv et navn for og en beskrivelse af pakken, og vælg derefter **Gem**. Afhængigt af internetforbindelsen kan denne proces tage et stykke tid.
 
-![Overfør pakken til aktivbiblioteket](./media/8UploadPackageToAssetsLibrary.png)
+![Overfør pakken til aktivbiblioteket.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Når pakken er blevet gemt, skal du vælge **Udført** og gemme denne pakke i aktivbiblioteket i dit LCS-projekt.
 
@@ -97,15 +97,15 @@ Det kan tage op til mere end 15 minutter at gemme og validere pakken.
 
 6. Hvis du vil anvende opdateringen, skal du gå til siden med **Miljødetaljer** i LCS og vælge **Vedligehold** > **Anvend opdateringer**.
 
-![Vedligehold miljøer](./media/9MaintainEnvironment.png)
+![Vedligehold miljøer.](./media/9MaintainEnvironment.png)
 
 7. Vælg den pakke, du har oprettet, på listen over opdateringer, og vælg **Anvend**.
 
-![Anvend opdateringer](./media/10ApplyUpdates.png)
+![Anvend opdateringer.](./media/10ApplyUpdates.png)
 
 Det vil tage et stykke tid at vedligeholde miljøet. Når installationen er fuldført, vil miljøet vende tilbage til en udrullet tilstand.
 
-![Udrullet miljø](./media/11EnvironmentDeployed.png)
+![Udrullet miljø.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Opret en forbindelse til dobbelt skrivning 
 
@@ -113,41 +113,41 @@ Det vil tage et stykke tid at vedligeholde miljøet. Når installationen er fuld
 2. Under **Common Data Service-miljøoplysninger** skal du vælge **Forbind til CDS for Apps**.
 3. Når forbindelsen er oprettet, skal du vælge **Forbind til CDS for Apps** igen. Du bliver omdirigeret til dobbelt skrivning i Finance.
 
-![Link til CDS](./media/12LinktoCDS.png)
+![Link til CDS.](./media/12LinktoCDS.png)
 
 4. Vælg **Anvend løsning** for at få adgang til de objekter, der skal tilknyttes i integrationen.
 
-![Anvend løsninger](./media/13ApplySolutions.png)
+![Anvend løsninger.](./media/13ApplySolutions.png)
 
 5. Vælg begge løsninger, **Dynamics 365 Finance and Operations - dobbeltskrivning af objekttilknytningdobbelt** og **Dynamics 365 Project Operations - dobbeltskrivning af objekttilknytningdobbelt**, og vælg derefter **Anvend**.
 
-![Bekræft løsninger](./media/14ConfirmSolutions.png)
+![Bekræft løsninger.](./media/14ConfirmSolutions.png)
 
 Når løsningerne er anvendt, anvendes dobbelt skrivningsobjekter på miljøet.
 
-![Anvendelse af løsninger](./media/15ApplyingSolutions.png)
+![Anvendelse af løsninger.](./media/15ApplyingSolutions.png)
 
 Når objekterne er anvendt, vises alle tilgængelige tilknytninger i miljøet.
 
-![Dobbelt skrivningstilknytninger](./media/15DWMappings.png)
+![Tilknytninger for dobbeltskrivning.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Opdater dataobjekterne efter opdateringen
 
 1. I Finance skal du gå til arbejdsområdet **Dataadministration**.
 
-![Arbejdsområde for Dataadministration](./media/16DataManagement.png)
+![Arbejdsområdet Dataadministration.](./media/16DataManagement.png)
 
 2. Vælg feltet **Strukturparametre**.
 
-![Strukturparametre](./media/17FrameworkParameters.png)
+![Strukturparametre.](./media/17FrameworkParameters.png)
 
 3. På siden **Objektindstillinger** skal du vælge **Opdater objektliste**.
 
-![Opdater objektliste](./media/18RefreshEntityList.png)
+![Opdater objektliste.](./media/18RefreshEntityList.png)
 
 Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført.
 
-![Opdater bekræftelse](./media/19RefreshConfirmation.png)
+![Opdater bekræftelse.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Opdater sikkerhedsindstillingerne for Project Operations på Dataverse
 
@@ -188,17 +188,17 @@ Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført
 4. Hvis du vil opdatere objektet, skal du vælge tilknytningens navn og derefter vælge **Opdater objekter**. 
 
 
-![Opdater tilknytning](./media/20RefreshMapping.png)
+![Opdater tilknytning.](./media/20RefreshMapping.png)
 
 5. Kør tilknytningen, når opdateringen er fuldført. Før du aktiverer næste tilknytning, skal du kontrollere, at tilknytningen i tabellen er i tilstanden **Kører**. Det kan tage et stykke tid at køre tilknytningerne med et større antal forudsætninger.
 
 Hvis du vil køre en tilknytning med forudsætninger, skal du aktivere funktionen **Vis relaterede objekttilknytninger**. Hvis tabellen indikerer, at **Indledende synkronisering af forudsætning** er **Nej**, skal du kontrollere, at flaget for den **Indledende synkronisering** er **Slået fra** i alle de påkrævede tilknytninger, før du kører programmet.
 
-![Kør tilknytning](./media/21RunMap.png)
+![Kør tilknytning.](./media/21RunMap.png)
 
 6. Valider, at alle projektrelaterede tilknytninger er i kørselstilstand.
 
-![Alle tilknytninger kører](./media/22AllMapsRunning.png)
+![Alle tilknytninger kører.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Anvend konfigurationsdata i CDS for Project Operations (valgfrit)

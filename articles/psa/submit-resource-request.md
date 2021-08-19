@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013164"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984955"
 ---
 # <a name="submitting-a-resource-request"></a>Sende en ressourceanmodning
 
@@ -34,7 +34,7 @@ Du kan sende et genereret ressourcekrav som en ressourceanmodning. Anmodningen s
 1. I PSA (Project Service Automation) skal du på siden **Projekter** klikke på fanen **Team** for at få vist en liste over reserverbare ressourcer. 
 2. Vælg den generiske ressource, der har et ressourcekrav, på listen, og klik derefter på **Send anmodning**.
 
-![Sende en ressourceanmodning](media/RM-how-to-18.png)
+![Indsendelse af en ressourceanmodning.](media/RM-how-to-18.png)
 
 Anmodningstatussen for det generiske teammedlem ændres til **Sendt**.
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002251"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986484"
 ---
 # <a name="vendor-invoice-integration"></a>Integration af leverandørfaktura
 
@@ -36,7 +36,7 @@ I Project Operations bogføres projektrelaterede leverandørfakturaer ved hjælp
 
 Momsunderkonto, underkonto for leverandør og anden økonomisk bogføring registreres som gældende i Dynamics 365 Finance, når leverandørfakturaen bogføres.
 
-![Integration af leverandørfaktura](media/DW7VendorInvoice.png)
+![Integration af leverandørfaktura.](media/DW7VendorInvoice.png)
 
 Når der skrives poster til et objekt for **Leverandørfaktura** i Dataverse, starter en automatisk godkendelsesproces for posterne. Den automatiserede godkendelsesprocesstatus kan gennemses i Dataverse, hvis det er nødvendigt, ved at gå til **Avancerede indstillinger** > **System** > **Systemjob**. Når godkendelsen er fuldført, opretter systemet materialetransaktionsklasseposter i objektet **Faktiske værdier**.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006234"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985944"
 ---
 # <a name="create-a-new-project"></a>Oprette et nyt projekt
 
@@ -51,7 +51,7 @@ Du kan også tildele kategorierne for en ressource, efterhånden som du har brug
 
 En projektleder kan bruge funktionen projektressource til at oprette de roller, der kræves for projektet. Roller kan bruges, hvis bekræftede ressourcer stadig ikke er kendte, når ressourcerne reserveres. Roller kan reserveres midlertidigt som planlagte ressourcer, så du kan fortsætte med projektplanlægningsfaserne.
 
-[![Eksempel på en rolle](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Eksempel på en rolle.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenarie:** Contoso blev hyret til at udarbejde et tids- og materialeprojekt, der har et godkendt projektcharter. Den underordnede projektleder fuldfører stadig omfanget af projektet. Den ressourceansvarlige identificerer i øjeblikket bestemte ressourcer, der skal reserveres til at arbejde på det nye projekt. På grund af projektets vigtigste karakter anmoder projektsponsor om, at en af rollerne er den overordnede projektleder. Den ressourceansvarlige skal erhverve den nye ressource og definere rollen i systemet i tilfælde af, at den underordnede projektleder kræver ressourceoplysningerne i forbindelse med projektplanlægningen.
 

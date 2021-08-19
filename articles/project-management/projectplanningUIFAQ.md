@@ -2,17 +2,17 @@
 title: Fejlfinding i forbindelse med arbejde i opgavegitteret
 description: Dette emne indeholder oplysninger om de nødvendige fejlfindingsoplysninger, når du arbejder i opgavegitteret.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213393"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989094"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Fejlfinding i forbindelse med arbejde i opgavegitteret 
 
@@ -24,7 +24,7 @@ Dette emne beskriver, hvordan du kan løse de problemer, du eventuelt støder p�
 
 Project Operations kræver aktivering af tredjepartscookies med henblik på at gengive arbejdsopgavehierarkiet. Når tredjepartscookies ikke er aktiveret, kan du i stedet for at få vist opgaver se en tom side, når du vælger fanen **Opgaver** på siden **Projekt**.
 
-![Der vises en tom fane, når tredjepartscookies er aktiveret](media/blankschedule.png)
+![Der vises en tom fane, når tredjepartscookies ikke er aktiveret.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Løsning
@@ -52,11 +52,22 @@ I Microsoft Edge eller Google Chrome-browsere beskriver følgende procedurer det
 Project Operations kræver, at en projektparameter refererer til PEX-slutpunktet. Dette slutpunkt er nødvendigt for at kommunikere med den service, der bruges til at gengive arbejdsopgavehierarkiet. Hvis parameteren ikke er aktiveret, modtager du fejlmeddelelsen "Projektparameteren er ikke gyldig". 
 
 ### <a name="workaround"></a>Løsning
- ![Feltet PEX-slutpunkt på projektparameteren](media/projectparameter.png)
 
 1. Tilføj feltet **PEX-slutpunkt** til siden **Projektparametre**.
-2. Opdater feltet med følgende værdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Fjern feltet fra siden **Projektparametre**.
+2. Identificer den produkttype, du bruger. Denne værdi bruges, når PEX-slutpunktet er angivet. Ved hentning er produkttypen allerede defineret i PEX-slutpunktet. Behold denne værdi. 
+   
+    ![Feltet PEX-slutpunkt på projektparameteren.](media/pex-endpoint.png)
+
+3. Opdater feltet med følgende værdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Produkttype                         | Parametertype |
+   |--------------------------------------|----------------|
+   | Project for the Web på standardafdeling   | type=0         |
+   | Project for the Web på CDS-navngivet afdeling | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Fjern feltet fra siden **Projektparametre**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Rettigheder til projekt til internettet
 
@@ -67,7 +78,7 @@ Project Operations er afhængig af en ekstern planlægningstjeneste. Tjenesten k
 
 1. Gå til **Indstilling > Sikkerhed > Brugere > Applikationsbruger**.  
 
-   ![Applikationslæser](media/applicationuser.jpg)
+   ![Applikationslæser.](media/applicationuser.jpg)
    
 2. Dobbeltklik på applikationsbrugerposten for at kontrollere følgende:
 
@@ -76,7 +87,7 @@ Project Operations er afhængig af en ekstern planlægningstjeneste. Tjenesten k
  
 3. Hvis denne bruger ikke findes, kan du oprette en ny brugerpost. Vælg **Nye brugere**. Rediger postformularen til **Applikationsbruger**, og tilføj derefter **Applikations-ID'et**.
 
-   ![Detaljer om applikationsbruger](media/applicationuserdetails.jpg)
+   ![Oplysninger om applikationsbruger.](media/applicationuserdetails.jpg)
 
 4. Kontrollér, at brugeren er blevet tildelt den korrekte licens, og at tjenesten er aktiveret under detaljer om licensens serviceplaner.
 5. Kontrollér, at brugeren kan åbne project.microsoft.com.

@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997729"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988689"
 ---
 # <a name="manage-time-zones"></a>Administrer tidszoner
 
@@ -32,13 +32,13 @@ Hvis du vil have præcise og forudsigelige resultater, når du bruger **Forlæng
 
 - Brugeren skal konfigurere enhedens tidszone, så den stemmer overens med den tidszone, der er angivet i systemets **Indstillinger for personlig tilpasning**.
  
-  ![Tidszoneindstillinger i Windows 10](media/reconcile-assignments-03.png)
+  ![Tidszoneindstillinger i Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Tidszoneindstillinger i tilpasningsindstillinger](media/reconcile-assignments-04.png)
+  ![Tidszoneindstillinger i tilpasningsindstillinger.](media/reconcile-assignments-04.png)
  
 - Den reserverbare ressource skal have mindst ét minuts arbejdstid, som overlapper med de profiler, der bruges til at definere den ønskede udvidelse. Følgende ressourcer kan f.eks. have arbejdstid mellem kl. 9:00 og 19:00. 
 
-  ![Sammenligning af ressourceprofiler](media/reconcile-assignments-05.png)
+  ![Sammenligning af ressourceprofiler.](media/reconcile-assignments-05.png)
 
 Følgende tabel viser:
 
@@ -47,25 +47,25 @@ Følgende tabel viser:
 - Ressource B: Denne ressource er placeret i en anden tidszone end projektet og starter kl. 7:00 i deres tidszone. Reservationerne starter dog kl. 9:00, som er det tidligste starttidspunkt for tildelingsprofilen.
 - Ressourcer C og D: Ressourcerne er placeret i forskellige tidszoner, som både varierer i forhold til hinanden og projektet, og deres reservationer starter tidligst de respektive ledige starttider.
 
-|Objekt  |Kalender  |
+|Enhed  |Kalender  |
 |-|-|
-|Projektkalenderskabelon   | ![projektkalender](media/reconcile-assignments-06.png) |
-|Ressource A  | ![Kalender for ressource A](media/reconcile-assignments-06.png) |
-|Ressource B  |  ![Kalender for ressource B](media/reconcile-assignments-07.png) |
-|Ressource C  |  ![Kalender for ressource C](media/reconcile-assignments-08.png) |
-|Ressource D  | ![Kalender for ressource D](media/reconcile-assignments-09.png)  |
+|Projektkalenderskabelon   | ![Projektkalender.](media/reconcile-assignments-06.png) |
+|Ressource A  | ![Kalender for ressource A.](media/reconcile-assignments-06.png) |
+|Ressource B  |  ![Kalender for ressource B.](media/reconcile-assignments-07.png) |
+|Ressource C  |  ![Kalender for ressource C.](media/reconcile-assignments-08.png) |
+|Ressource D  | ![Kalender for ressource D.](media/reconcile-assignments-09.png)  |
  
 Når du navigerer til visningen **Afstemning**, vises ressourcetildelingerne og de manglende tilknyttede reservationer.
 
-![Afstemningsvisning før udvidelse](media/reconcile-assignments-10.png)
+![Afstemningsvisning før udvidelse.](media/reconcile-assignments-10.png)
 
 Når funktionen til forlængelse af reservation er blevet brugt for de enkelte ressourcer, forlænges reservationerne for hver ressource, da hver ressources arbejdstid overlappede med underskudsprofilerne.
 
-![Afstemningsvisning efter reservationsudvidelse](media/reconcile-assignments-11.png) 
+![Afstemningsvisning efter reservationsudvidelse.](media/reconcile-assignments-11.png) 
 
 Bemærk, hvis du kigger nærmere på detaljerne for reservationerne, kan du se forskelle på starttidspunkterne for reservationerne. Reservationernes startdato er ikke tidligere end starttidspunktet for tildelingsprofilen og kan ikke være før ressourcens tilgængelige starttidspunkt.
 
-![Nye reservationer af ressourcerne i planlægningsområdet](media/reconcile-assignments-12.png)
+![Nye reservationer af ressourcerne i planlægningsområdet.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
