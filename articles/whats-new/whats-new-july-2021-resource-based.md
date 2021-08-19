@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008039"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433511"
 
 Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
 
-   - Project Operations i Microsoft Dataverse-miljø version 4.12.0.148.
+   - Project Operations i Microsoft Dataverse-miljø version 4.12.0.148 or 4.12.0.152.
    - Projektstyring og regnskab i Dynamics 365 Finance-miljø version 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funktioner omfattet af denne udgivelse
@@ -79,7 +79,7 @@ Hvis du støder på problemer, når du begynder at tilknytte, skal du følge ins
 | Generelt                       | 2296857              | Sporing af status for langvarige job.                                                                                                                                                                        |
 | Generelt                       | 2253682              | Løsningen Project Operations med dobbelt skrivning bør ikke installeres, når dobbeltskrivningskernen installeres i et miljø uden løsningen til organisering af dobbelt skrivning.                                                |
 | Generelt                       | 2316420              | Klargøring af kernen i Project Service mislykkes, hvis programmets brugers afdeling ændres.                                                                                                                     |
-
+| Generelt                       | 2376405              | Løst problem med udgiverstyret opdatering (kvalitetsopdatering er tilgængelig i version 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab på Dynamics 365 Finance
 
 | Funktionsområde                      | Referencenummer | Kvalitetsopdatering                                                                                                                                                                                                                                                                                                                |

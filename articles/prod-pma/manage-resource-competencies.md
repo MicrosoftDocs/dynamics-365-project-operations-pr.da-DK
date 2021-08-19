@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999034"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007409"
 ---
 # <a name="manage-resource-competencies"></a>Administrer ressourcekompetencer
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999034"
 
 Ressourcekompetencer er en vigtig del af ressourceadministrationen. Kompetencer kan bruges som en basislinje til at afgøre, hvilke ressourcer der har den korrekte balance mellem færdigheder, uddannelse, certificering og projekterfaring. Du bør konfigurere disse oplysninger for hver ressource og opdatere dem med jævne mellemrum. På denne måde kan du maksimere kapaciteterne, når bestemte ressourcekompetencer matches under tildeling af projektressourcer.
 
-[![Eksempler på færdigheder, certificeringer, uddannelser og projekterfaring](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Eksempler på færdigheder, certificeringer, uddannelser og projekterfaring.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 I følgende procedurer forklares det, hvordan du kan konfigurere nogle af kompetencerne for en ressource.
 

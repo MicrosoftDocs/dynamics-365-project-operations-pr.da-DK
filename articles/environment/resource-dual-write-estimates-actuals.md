@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000024"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006284"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektestimater og integration af faktiske tal
 
@@ -30,7 +30,7 @@ Oprettelse af estimater kræver en gyldig regnskabskonfiguration for projektet. 
 
 Arbejdsestimats oprettes af projektlederen eller Resource Manager, som også tildeler en generisk eller navngivet ressource til projektopgaven. Ressourcetildelingsposter kan gennemses under fanen **Ressourcetildelinger** på siden **Projektdetaljer** i Dataverse. Ressourcetildelingsposter i Dataverse opretter timeprognoseposter i Finance and Operations-apps ved hjælp af **Integrationsobjektet for timeestimater i Project Operations (msdyn\_resourceassignments)**.
 
-   ![Integration af arbejdsestimater](./Media/DW4LaborEstimates.png)
+   ![Integration af arbejdsestimater.](./Media/DW4LaborEstimates.png)
 
 Med dobbeltskrivning synkroniseres ressourcetildelingsposter med den midlertidige tabel (**ProjCDSEstisymmetriHoursImport**), og derefter bruges forretningslogik til at oprette og opdatere timeprognoseposter (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Projektrevisoren gennemgår prognosetimeposter, der er oprettet i Finance and Op
 
 Udgiftsestimater oprettes af projektlederen under fanen **Udgiftsestimater** på siden **Projektdetaljer** i Dataverse. Udgiftsestimatposter gemmes i objektet **Estimatlinje** i Dataverse. Disse estimerede poster har transaktionsklasse, **Udgifter** og synkroniseres med udgiftsprognoseposter i Finance and Operations-apps ved hjælp af objektet **Integrationsobjekt til udgiftsestimater i Project Operations (msdyn\_estimatelines)**.
 
-   ![Integration af udgiftsestimater](./Media/DW4ExpenseEstimates.png)
+   ![Integration af udgiftsestimater.](./Media/DW4ExpenseEstimates.png)
 
 Med dobbeltskrivning synkroniseres udgiftsestimatposter med den midlertidige tabel **ProjCDSEstimateExpenseImport**, og derefter bruges forretningslogik til at oprette og opdatere udgiftsprognoseposter (**ProjForecastCost**). Estimatlinjer lagrer salgsestimat- og omkostningsestimatposter hver for sig. Forretningslogikken i Finance and Operations-apps udfylder en enkelt udgiftsprognosepost ved hjælp af denne detalje i den midlertidige tabel.
 
@@ -50,7 +50,7 @@ Projektrevisoren kan gennemgå udgiftsprognoseposter i Finance and Operations-ap
 
 Materialeestimater oprettes af projektlederen under fanen **Materialeestimater** på siden **Projektdetaljer** i Dataverse. Materialeestimatposter gemmes i objektet **Estimatlinje** i Dataverse. Disse estimerede poster har transaktionsklassen **Materiale** og synkroniseres med vareprognoseposter i Finance and Operations-apps ved hjælp af objektet **Projektintegrationstabel for materialeestimater (msdyn\_estimatelines)**.
 
-   ![Integration af materialeestimater](./Media/DW4MaterialEstimates.png)
+   ![Integration af materialeestimater.](./Media/DW4MaterialEstimates.png)
 
 Med dobbeltskrivning synkroniseres materialeestimatposter med den midlertidige tabel **ProjForecastSalesImpor**, og derefter bruges forretningslogik til at oprette og opdatere vareprognoseposter (**ForecastSales**). Estimatlinjer lagrer salgsestimat- og omkostningsestimatposter hver for sig. Forretningslogikken i Finance and Operations-apps udfylder en enkelt vareprognosepost ved hjælp af denne detalje i den midlertidige tabel.
 
@@ -60,7 +60,7 @@ Projektrevisoren kan gennemgå vareprognoseposter i Finance and Operations-apps 
 
 De faktiske projektværdier oprettes i Dataverse på baggrund af tid, udgifter, materialer og faktureringsaktiviteter. Alle driftsattributter for disse transaktioner, herunder mængde, kostpris, salgspris og projekt, registreres i dette Dataverse-objekt. Du kan finde yderligere oplysninger under [Faktiske værdier](../actuals/actuals-overview.md). Faktiske poster synkroniseres med Finance and Operations-apps ved hjælp af dobbeltskrivning-tabeltilknytningen **Integration af faktiske værdier i Project Operations (msdyn\_actuals)** til downstream-regnskab.
 
-   ![Integration af faktiske værdier](./Media/DW4Actuals.png)
+   ![Integration af faktiske værdier.](./Media/DW4Actuals.png)
 
 Tabeltilknytningen **Integration af faktiske værdier i Project Operations** synkroniserer alle posterne fra objektet **Faktiske værdier** i Dataverse med attributten **Spring synkronisering over (kun intern brug)** angivet til **Falsk**. Attributværdien angives automatisk i Dataverse, når posten oprettes. Eksempler på, hvor attributten er angivet til **Sand**, er:
 

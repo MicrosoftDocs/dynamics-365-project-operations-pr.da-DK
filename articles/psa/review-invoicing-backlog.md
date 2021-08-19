@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008529"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006958"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Gennemse ordrebeholdning for fakturering vedrørende projekter og projektkontrakter
 
@@ -40,7 +40,7 @@ Ikke-fakturerede faktiske salgsværdier repræsenterer ordrer til fakturering, o
 
 Hvis du vil gennemgå ordrebeholdning for fakturering af tid og materiale, skal du gå til **Salg** \> **Fakturering** \> **Ordrebeholdning for fakturering af tid og materiale**. Markér alle de ikke-fakturerede faktiske salgstal, der er klar til at blive faktureret, og vælg derefter **Klar til fakturering**. Faktureringsstatussen for disse faktiske tal ændres til **Klar til fakturering**.
 
-![Ordrebeholdning for fakturering af tid og materiale](media/TMBacklog.png)
+![Efterslæb af fakturering af tid og materialer.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Gennemgå ordrebeholdning for produktfakturering
 
@@ -48,7 +48,7 @@ Når en projektkontrakt har produktbaserede kontraktlinjer i PSA, betragtes diss
 
 Hvis du vil gennemse ordrebeholdningen for produktfakturering, skal du gå til **Salg** \> **Fakturering** \> **Ordrebeholdning for produktfakturering**. Markér alle produktbaserede kontraktlinjer, der er klar til at blive faktureret, og vælg derefter **Klar til fakturering**. Faktureringsstatussen for disse linjer ændres til **Klar til fakturering**.
 
-![Ordrebeholdning for produktfakturering](media/ProductBacklog.png)
+![Efterslæb af produktfakturering.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Gennemse faktureringsmilepæle for fastpriskontrakter
 
@@ -56,7 +56,7 @@ Hver projektkontraktlinje, der har en fastpris-faktureringsmetode, skal definere
 
 Hvis du vil gennemse faktureringsmilepæle, skal du gå til **Salg** \> **Fakturering** \> **Milepæle for fast pris**. Markér de milepæle, der er klar til at blive faktureret, og vælg derefter **Klar til fakturering**. Faktureringsstatussen for disse milepæle ændres til **Klar til fakturering**.
 
-![Milepæle for fast pris](media/FPBacklog.png)
+![Milepæle for fast pris.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

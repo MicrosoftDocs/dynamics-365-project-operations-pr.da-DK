@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998494"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008579"
 ---
 # <a name="product-based-quote-lines"></a>Produktbaserede tilbudslinjer.
 
@@ -58,7 +58,7 @@ Hvis du angiver dette felt til **Tilsidesæt prisfastsættelse**, angives der ik
 
 Når du har installeret PSA, angives standardsalgspriserne på de produktbaserede linjer i et tilbud. Feltet **Prisfastsættelse** indstilles derefter til **Tilsidesæt prisfastsættelse**, så du kan redigere standardprisen i tilbudslinjerne.
 
-> ![Indstilling af tilsidesæt prisfastsættelse](media/basic-guide-10.png)
+> ![Indstilling af tilsidesæt prisfastsættelse.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Mængdefaktorer for produkter
 
@@ -78,7 +78,7 @@ Dynamics 365 kan f.eks. have følgende egenskaber:
 
 Egenskaberne **Antal brugere** og **Antal måneder** kan mærkes som mængdefaktorer ved at redigere egenskaberne for produktlinjen. 
 
-> ![Mærkning af Antal brugere og Antal måneder som kvalitetsfaktorer](media/basic-guide-11.png)
+> ![Mærkning af Antal brugere og Antal måneder som kvalitetsfaktorer.](media/basic-guide-11.png)
  
 
 

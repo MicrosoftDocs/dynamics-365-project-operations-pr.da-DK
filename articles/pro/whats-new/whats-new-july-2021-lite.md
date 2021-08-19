@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433646"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009209"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Nyheder i juli 2021 – Project Operations lille udrulning
 
@@ -20,7 +20,7 @@ _Gælder for: Lille udrulning - aftale til proformafakturering_
 
 Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
 
-  - Project Operations på Dataverse-miljø version 4.12.0.148.
+  - Project Operations på Dataverse-miljø version 4.12.0.148 or 4.12.0.152.
 
 ## <a name="quality-updates"></a>Kvalitetsopdateringer
 | **Funktionsområde**              | **Referencenummer** | **Kvalitetsopdatering**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 | Generelt                       | 2296857              | Sporing af status for langvarige job.                                                                                                                                                                        |
 | Generelt                       | 2253682              | Løsningen Project Operations med dobbelt skrivning bør ikke installeres, når dobbeltskrivningskernen installeres i et miljø uden løsningen til organisering af dobbelt skrivning.                                                |
 | Generelt                       | 2316420              | Klargøring af kernen i Project Service mislykkes, hvis programmets brugers afdeling ændres.                                                                                                                     |
+| Generelt                       | 2376405              | Løst problem med udgiverstyret opdatering (kvalitetsopdatering er tilgængelig i version 4.12.0.152)                                                                                                                     |

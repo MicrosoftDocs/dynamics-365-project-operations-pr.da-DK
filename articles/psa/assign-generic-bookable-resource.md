@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009384"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007094"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Tildele en opgave generiske reserverbare ressourcer og oprette ressourcekrav 
 
@@ -33,21 +33,21 @@ Udover at reservere og tildele navngivne eller faktiske ressourcer for projektet
 
 1. I Project Service Automation (PSA) skal du åbne **Projekt**-siden og bruge fanen **Tidsplan** til at angive navnet på den generiske ressource i cellen **Ressource** i tidsplanen. Du kan også klikke på ikonet **Ressource** i cellen for at åbne ressourcevælgeren og derefter angive navnet på den generiske ressource, du vil oprette.
 
-![Oprette og tildele et generisk teammedlem](media/RM-how-to-9.png)
+![Oprettelse og tildeling af et generisk teammedlem.](media/RM-how-to-9.png)
 
 Derved åbnes panelet **Hurtig oprettelse: Medlem af projektteam**. 
 
 2. Angiv rollen og organisationsenheden for det generiske ressourceteammedlem, og klik derefter på **Gem**.
 
-![Hurtig oprettelse af generisk teammedlem](media/RM-how-to-10.png)
+![Hurtig oprettelse af generisk teammedlem.](media/RM-how-to-10.png)
 
 3. Når du har oprettet det nye generiske ressourceteammedlem, tildeles det opgaven. Du kan fortsætte med at tildele den pågældende generiske ressource til andre opgaver i opgaveplanlægningen.
 
-![Tildeling af eksisterende generisk teammedlem til opgaver](media/RM-how-to-11.png)
+![Tildeling af eksisterende generisk teammedlem til opgaver.](media/RM-how-to-11.png)
 
 4. Når du har tildelt den generiske ressource, kan du oprette et ressourcekrav og opfylde det ved at reservere eller sende en ressourceanmodning direkte til en ressourceansvarlig.
 
-![Generering af et krav til et generisk teammedlem](media/RM-how-to-12.png)
+![Generering af et krav til et generisk teammedlem.](media/RM-how-to-12.png)
 
 Udover at kunne bruge ressourcevælgeren som nævnt ovenfor i teammedlemsgitteret kan du tilføje generiske ressourcer direkte. Ressourcerne tilføjes med et ressourcekrav, der er baseret på de start- og slutdatoer og den fordelingsmetode, der er angivet i panelet **Hurtig oprettelse: Medlem af projektteam**.
 
@@ -55,7 +55,7 @@ Du kan se en forskel, hvis du tilføjer det generiske teammedlem direkte og dere
 
 Du kan også klikke på linket **Ressourcekrav** i teamgitteret for at åbne kravet og tilføje færdigheder, foretrukne ressourcer osv.
 
-![Ressourcekrav](media/RM-how-to-13.png)
+![Ressourcekrav.](media/RM-how-to-13.png)
 
 
 

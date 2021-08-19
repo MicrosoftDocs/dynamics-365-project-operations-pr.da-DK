@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369684"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007499"
 ---
 # <a name="project-management-and-accounting-overview"></a>Oversigt over projektstyring og regnskab
 
@@ -34,14 +34,14 @@ Et projekt er en gruppe aktiviteter, der er udviklet til at levere en tjeneste, 
 ## <a name="projects-across-industries"></a>Projekter på tværs af brancher
 Funktionaliteten for projektstyring og regnskab kan bruges i flere brancher, som vist i følgende illustration.
 
-[![Projekter på tværs af brancher](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekter på tværs af brancher.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 I et callcenter kan en billet bruges til at beskrive det sæt handlinger, der kræves for at løse et kald. Konsulentfirmaer, f.eks. administrative organisationer eller tekniske rådgivningsorganisationer, anser deres aktiviteter for at være projekter. Inden for marketing repræsenterer en kampagne en række arbejde, som skal leveres. I projektbaseret produktion relaterer en produktionsordre sig til de forskellige arbejdsopgaver, der skal udføres for at fremstille nogle færdigvarer. Uanset hvad de kaldes, omfatter disse projekter ressourcer, planer og omkostninger, og funktionaliteten for projektstyring og regnskab kan hjælpe med at planlægge, udføre og analysere disse projekter.
 
 ## <a name="project-phases"></a>Projektfaser
 Selvom følgende procesforløb er rettet mod eksterne projekter eller projekter, der er fuldført for en eller flere kunder, gælder funktionaliteten også for interne projekter, der udelukkende er omkostningsbaserede. 
 
-![3 projektfaser](./media/3-stages-of-a-project.png) 
+![3 projektfaser.](./media/3-stages-of-a-project.png) 
 
 Som vist i den foregående illustration, kan projektstyring og regnskab inddeles i tre faser:
 
@@ -50,7 +50,7 @@ Som vist i den foregående illustration, kan projektstyring og regnskab inddeles
 3.  Analyser
 
 ## <a name="initiate-the-project"></a>Opstart af projektet
-I forbindelse med opstarten af projektet indtræder der flere nøgleprocesser. Du kan bruge et projekttilbud til at kommunikere den anslåede arbejdstid, udgifterne og materialerne til kunden. Du kan registrere faktureringsvilkårene, begrænsningerne og aftalerne i en projektkontrakt. Du kan bruge et arbejdsopgavehierarki til at planlægge og vurdere arbejdet. Du kan konfigurere prognoser og budgetter for at styre projektafviklingen. I følgende illustration vises strukturen for et projekt.[![projektstruktur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+I forbindelse med opstarten af projektet indtræder der flere nøgleprocesser. Du kan bruge et projekttilbud til at kommunikere den anslåede arbejdstid, udgifterne og materialerne til kunden. Du kan registrere faktureringsvilkårene, begrænsningerne og aftalerne i en projektkontrakt. Du kan bruge et arbejdsopgavehierarki til at planlægge og vurdere arbejdet. Du kan konfigurere prognoser og budgetter for at styre projektafviklingen. I følgende illustration vises strukturen for et projekt.[![projektstruktur.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Opret projekttilbud
 
