@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998044"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998229"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Bruge planlægningsområdet til at reservere projektressourcer
 
@@ -34,23 +34,23 @@ Før du kan reservere fra planlægningsområdet, skal du oprette eller generere 
 1. Hvis ruden **Krav til reservationer** nederst på siden er skjult, skal du markere kontrolelementet for udvidelse for at åbne den.
 2. I ruden **Krav til reservationer** på fanen **Projekt** skal du vælge det krav, der skal reserveres.
 
-    ![Krav er valgt på fanen Projekt](media/Resource-Management-image73.png)
+    ![Valgte krav på fanen Projekt.](media/Resource-Management-image73.png)
 
 3. Vælg **Find tilgængelighed** for at filtrere de reserverbare ressourcer og få vist de tilgængelige ressourcer. 
 4. Vælg en eller flere ressourcer i planlægningsområdet. 
 5. I ruden **Opret ressourcereservation** til højre på siden skal du angive reservationsoplysningerne og derefter vælge **Reservér og afslut.**
 
-    ![Opret ruden Ressourcereservation for den valgte reserverbare ressource](media/Resource-Management-image74.png)
+    ![Opret ruden Ressourcereservation for den valgte reserverbare ressource.](media/Resource-Management-image74.png)
 
 6. Når kravet er valgt i ruden **Opret ressourcereservation**, skal du vælge en eller flere celler i en ressource for at oprette reservationen.
 
-    ![Flere celler valgt til en ressource](media/Resource-Management-image75.png)
+    ![Flere valgte celler for en ressource.](media/Resource-Management-image75.png)
 
 7. Vælg **Reservér**.
 
 Kravet opfyldes ved hjælp af den valgte ressource. Bemærk, at i ruden **Krav til reservationer** er kravet blevet opdateret, og ressourcen vises som reserveret til projektet.
 
-![Ressource reserveret til projektet](media/Resource-Management-image76.png)
+![Reserveret ressource til projektet.](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

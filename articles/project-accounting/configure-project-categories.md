@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995164"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997104"
 ---
 # <a name="configure-project-categories"></a>Konfigurer projektkategorier
 
@@ -23,7 +23,7 @@ I følgende diagram illustreres korrelationen mellem transaktionskategorier, del
 
 Transaktionskategorier er den grundlæggende gruppering for projekttransaktioner. I denne gruppering findes der et sæt delte kategorier, som kan deles på tværs af programmer og moduler. Mere dybdegående er projektkategorier det mest detaljerede niveau for kategorier. Projektkategorier er specifikke for en juridisk enhed, et modul og program.
 
-![Korrelationen mellem transaktionskategorier, delte kategorier og projektkategorier](media/project-categories.png)
+![Korrelationen mellem transaktionskategorier, delte kategorier og projektkategorier.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Transaktionskategorier
 

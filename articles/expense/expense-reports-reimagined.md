@@ -2,7 +2,7 @@
 title: Nye udgiftsrapporter
 description: Dette emne beskriver den nydesignede og genskabte oplevelse af indtastning af udgiftsrapporter.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250997"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997824"
 ---
 # <a name="expense-reports-reimagined"></a>Nye udgiftsrapporter
 
@@ -57,12 +57,13 @@ Hvis du vil slå den nye oplevelse til, skal du bruge arbejdsområdet **Funktion
 | Beregning af valutakurs | Der tilføjes en beregner til valutakurs, som giver dig mulighed for at beregne valutakursen for transaktioner med udlæg med flere valutaer. |
 | Gem og tilføj nye udgiftslinjer | Knapperne **Gem** og **Ny** er tilgængelige, når der angives nye udgifter, så du hurtigt kan angive udgiftslinjer. |
 | Bedre synlighed til opdelte og specificerede linjer | De specificerede og opdelte linjer tilføjes direkte til listen over udgifter for at øge synligheden og hjælpe dig med hurtigt at finde ud af, om der er opstået fejl. |
-| Få vist detaljer om underkategorier i specificerede linjer | I specificerede linjer for en overordnet udgift vises underkategorisetiketterne i udgiftsrapporten, hvilke kan hjælpe dig med hurtigt at gennemse de detaljerede detaljer.|
+| Få vist detaljer om underkategorier i specificerede linjer | Specificerede linjer i en overordnet udgift viser underkategorietiketterne i udgiftsrapporten. Med opdelingen kan du hurtigt gennemse de specifikke detaljer.|
 | Vis kvitteringer under specifikation | Kvitteringer kan vises under specifikation. |
 | Valg af kontaktforskud | Vælg en eller flere kontantforskud for at gennemføre en enkelt udgiftstransaktion. |
 | Kontantforskudssaldi | Gennemse saldoen for kontantforskud i realtid, når du opretter en udgiftspost, i forhold til godkendte og betalte kontantforskud. |
 
 Den første version er fokuseret på scenarier med udgiftsposter. Et scenarie med gennemgang eller godkendelse af en udgiftsrapport vil fortsat bruge den eksisterende udgiftsregistreringsside.
+
 
 Følgende funktioner understøttes ikke i det nye arbejdsområde for udgiftsrapporter, men de er planlagt til nye versioner: 
 

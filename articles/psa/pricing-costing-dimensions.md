@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368874"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998454"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startside med dimensioner for prisfastsættelse og efterkalkulation
 
@@ -41,7 +41,7 @@ Som følge af disse attributters typiske karakteristika for arbejdet og de perso
 
 PSA-leverancer med et standardsæt af prisdimensioner. Du kan få vist disse ved at gå til **Project Service** > **Parametre**. I parameterposten på fanen **Beløbsbaserede prisdimensioner** skal du kontrollere, at rollen **msdyn_resourcecategory** og ressourceafdelingen, **msdyn_organizationalunit** har felterne **Gælder for Salg** og **Gælder for Omkostning** angivet til **Ja**. Det giver dig mulighed for at konfigurere prisen og omkostningerne for de enkelte kombinationer af rolle og afdeling.
 
-![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret](media/PS-OOB-parameters.png)
+![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Hvis du har brugt standardfelterne for både rolle og afdeling som prisdimensioner før version 3 af PSA, er der ingen bemærkelsesværdige ændringer. Du kan fortsætte med at bruge Project Service, som du plejer. 
