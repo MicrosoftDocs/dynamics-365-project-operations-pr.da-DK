@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998404"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995169"
 ---
 # <a name="sales-estimates-and-projects"></a>Salgsestimater og projekter
 
@@ -35,11 +35,11 @@ Under salgsprocessen kan du oprette salgsestimater ved at knytte et projekt til 
 
 Når du opretter en projektbaseret tilbudslinje, kan du oprette et nyt projekt eller tilknytte et eksisterende projekt på siden **Tilbudslinje**. 
 
-> ![Tilbudslinjeformular](media/project-8.png)
+> ![Tilbudslinjeformular.](media/project-8.png)
  
 Når du opretter et nyt projekt ud fra oplysningerne i tilbudslinjen, kan du drage fordel af projektskabeloner. Projektskabeloner er modelprojekter, der repræsenterer standardprojektplaner og økonomiske estimater, som er typiske i en organisation. De kan også repræsentere kopier af projektplaner og estimater fra tidligere projekter.
 
-> ![Tilbudslinjedetaljer](media/project-9.png)
+> ![Tilbudslinjedetaljer.](media/project-9.png)
   
 Når du opretter projektet fra tilbuddet, knyttes det automatisk til tilbudslinjen.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995439"
 ---
 # <a name="quotes-and-quote-lines"></a>Tilbud og tilbudslinjer
 
@@ -84,7 +84,7 @@ Professionelle serviceorganisationer udarbejder typisk et tilbud og fakturerer d
 
 En eller flere af disse transaktionsklassificeringer kan tilknyttes den enkelte tilbudslinje. Når et tilbud er vundet, overføres tilknytningen mellem transaktions klassificering og tilbudslinje til kontraktlinjen.
  
-> ![Skærmbillede af tilknytning af transaktionstyper til tilbuds- og kontraktlinjer](media/basic-guide-5.png)
+> ![Skærmbillede af tilknytning af transaktionstyper til tilbuds- og kontraktlinjer.](media/basic-guide-5.png)
   
 Et tilbud kan f.eks. indeholde følgende to tilbudslinjer: 
 - Konsulentarbejde, der benytter en metode til fakturering af tid og materiale, hvor klassificeringer af tids- og vederlagstransaktioner er gældende. For eksempel faktureres alle tids- og vederlagstransaktioner for eksempelprojektet **Dynamics AX Implementering** til kunden baseret på den tid og de materialer, der er brugt. 

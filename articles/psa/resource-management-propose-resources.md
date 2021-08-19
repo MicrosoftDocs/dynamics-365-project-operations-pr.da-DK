@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997954"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995034"
 ---
 # <a name="propose-project-resources"></a>Foreslå projektressourcer
 
@@ -32,17 +32,17 @@ Personalechefer kan foreslå en ressource til projektlederen ved hjælp af en re
 1. Vælg **Find ressourcer** i anmodningsgitteret eller i selve anmodningen.
 2. På siden **Planlægningsassistent** skal du vælge ressourcen og derefter i ruden **Opret ressourcereservation** i feltet **Reservationsstatus** vælge **Reservér**.
 
-    ![Foreslået ressource valgt](media/Resource-Management-image62.png)
+    ![Foreslået ressource er valgt.](media/Resource-Management-image62.png)
 
 Følgende statusopdateringer forekommer:
 
 - På siden **Planlægningsassistent** opdateres statusindikatorerne for at indikere, at reservationen er foreslået, ikke definitivt reserveret.
 
-    ![Statusindikatorer for foreslået reservation på siden Planlægningsassistent](media/Resource-Management-image63.png)
+    ![Statusindikatorer for foreslået reservation på siden Planlægningsassistent.](media/Resource-Management-image63.png)
 
 - På ressourceanmodningen ændres status til **Skal gennemses**.
 
-    ![Ressourceanmodningsstatus ændret til Skal gennemses.](media/Resource-Management-image64.png)
+    ![Ressourceanmodningsstatus er ændret til Skal gennemses.](media/Resource-Management-image64.png)
 
 - På fanen **Team** for projektet er det generiske teammedlems værdi for **Anmodningsstatus** ændret til **Skal gennemses**.
 
@@ -70,7 +70,7 @@ Følgende formler bruges til at beregne forbrug:
 
 Du kan finde visningen **Ressourceforbrug** i ruden **Ressourcer.**
 
-![Visningen Ressourceforbrug](media/Resource-Management-image65.png)
+![Visning af tidsforbrug for ressource.](media/Resource-Management-image65.png)
 
 Hver celle i gitteret repræsenterer den fakturerbare udnyttelsesprocent for ressourcen i en periode, f.eks. en dag, uge eller måned. Følgende formler bruges til farvning af cellerne:
 
@@ -84,7 +84,7 @@ Gitteret kræver, at du angiver et mål-tidsforbrug for enten rolle eller den en
 
 Derudover skal der tildeles en standardrolle til hver af de pågældende reserverbare ressourcer. Gå til **Ressourcer** \> **Ressourcer**. På fanen **Project Service** skal du kontrollere, at der er defineret en ressourcerolle, og at feltet **Er standard** herfor er angivet til **Ja**. Du kan tilføje flere roller, hvor **Er standard =** nej. Den rolle, hvor **Er standard = Ja**, bruges til at evaluere ressourcens tidsforbrug i forhold til destinationen for den pågældende rolle.
 
-![Standardrollesæt](media/Resource-Management-image67.png)
+![Standardrollesæt.](media/Resource-Management-image67.png)
 
 På fanen **Project Service** kan du også angive en individuel mål-tidsforbrug for ressourcen. I beregningen af tidsforbruget bruger derefter denne mål-tidsforbrug til at evaluere ressourcens mål i stedet for målet for ressourcens standardrolle.
 
@@ -96,21 +96,21 @@ Det er vigtigt, at personalechefer kan få vist tilgængeligheden af ressourcer 
 
 Ressourcens arbejdstimer bruges som udgangspunkt for beregning af tilgængeligheden af en ressource. Ressourcereservationer forbruger ressourcernes kapacitet.
 
-![Planlægningsområde](media/Resource-Management-image68.png)
+![Planlægningsområde.](media/Resource-Management-image68.png)
 
 I planlægningsområdet bruges farver og skygge til at vise reservationer, tilgængelighed og overreservationer samt statussen for reservationer. En indstilling i indstillingerne for planlægningsområdet giver dig mulighed for at få vist en forklaring.
 
 Hvis der vises en højrepil ud for en enkeltstående ressource i planlægningsområdet, kan ressourcen udvides til at få vist oplysninger om det arbejde, som ressourcen er reserveret til.
 
-![Reserverbar ressource udvidet på planlægningsområdet](media/Resource-Management-image69.png)
+![Reserverbar ressource udvidet på planlægningsområdet.](media/Resource-Management-image69.png)
 
 Da Dynamics 365 Project Service Automation bruger Universal Resource Scheduling-programmet, og du også har Dynamics 365 Field Service installeret, kan du få vist oplysninger om ressourcereservationer for projekter, arbejdsordrer og andre objekter, som du har udvidet planlægningen til.
 
-![Oplysninger om ressourcereservationer for projekter og arbejdsordrer](media/Resource-Management-image70.png)
+![Oplysninger om ressourcereservationer for projekter og arbejdsordrer.](media/Resource-Management-image70.png)
 
 Hvis du vil have vist flere oplysninger om en enkelt ressource, skal du højreklikke på den for at åbne ressourcekortet.
 
-![Ressourcekort](media/Resource-Management-image71.png)
+![Ressourcekort.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

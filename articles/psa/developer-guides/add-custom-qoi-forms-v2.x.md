@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995214"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Tilføje nye brugerdefinerede objektformularer (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Benyt følgende fremgangsmåde for at oprette en brugerdefineret version af form
     - Eksportér formularen **Mine projektoplysninger** som en del af en ikke-administreret løsning, og slå derefter værdien af **formId** op i filen customization.xml for den eksporterede løsning.
     - Åbn formularen **Mine projektoplysninger** i formulareditoren, og søg derefter efter GUID (Globally Unique Identifier) ud for parameteren **fromId** i URL-adressen, som vist i følgende illustration.
 
-    ![Værdien af formId for den nye formular i URL-adressen.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Værdien af formId for den nye formular i URL-adressen..](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Opret en **msdyn\_ordertype**-tilknytning for værdien **formId** ved at redigere webressourcen msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Fjern koden fra ressourcen, og erstat den med følgende kode.
 
