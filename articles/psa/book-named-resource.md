@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013389"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000479"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservere navngivne ressourcer fra ressourcekrav
 
@@ -35,33 +35,33 @@ Du kan reservere en navngivet ressource til at erstatte en generisk ressource, d
 2. Vælg den generiske ressource, der har et ressourcekrav, på listen, og klik derefter på **Reservér**. Du kan også åbne ressourcekravet og derefter klikke på **Reservér**.
 
 
-![Reservation af et generisk teammedlem](media/RM-how-to-14.png)
+![Reservation af et generisk teammedlem.](media/RM-how-to-14.png)
 
 
 3. Vælg en navngivet ressource, der skal reserveres for projektteamet, på siden **Planlægningsassistent**, og klik derefter på **Reservér**.
 
-![Reservation af et generisk teammedlem ved hjælp af planlægningsassistent](media/RM-how-to-15.png)
+![Reservation af et generisk teammedlem ved hjælp af planlægningsassistent.](media/RM-how-to-15.png)
 
 Når reservationen er fuldført og opfyldt af en navngivet ressource, erstattes den generiske ressource med den navngivne ressource.
 
-![Navngivet teammedlem, der erstatter et generisk teammedlem](media/RM-how-to-16.png)
+![Navngivet teammedlem, der erstatter et generisk teammedlem.](media/RM-how-to-16.png)
 
 Tildelingerne i tidsplanen opdateres også med den navngivne ressource.
 
-![Navngivet teammedlem, der er tildelt projektopgaver](media/RM-how-to-17.png)
+![Navngivet teammedlem, der er tildelt projektopgaver.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Indfri en generisk ressource med flere navngivne ressourcer
 Indfrielse af et krav til en generisk ressource med flere navngivne ressourcer svarer til at tildele en enkelt navngivet ressource. Der er f.eks. en opgave med en varighed på fem dage og 120 timer. Denne opgave kan ikke udføres af én ressource, der fungerer som en normal ottetimers dag i en uge på fem dage. 
 
-![En opgave, der skal bruge 120 timers arbejde over fem dage](media/RM-how-to-21.png)
+![En opgave, der skal bruge 120 timers arbejde over fem dage.](media/RM-how-to-21.png)
 
 Kravet er på 120 timers robotteknik over fem dage, hvilket er 24 timer om dagen.
 
-![Krav pr. dag](media/RM-how-to-22.png)
+![Krav pr. dag.](media/RM-how-to-22.png)
 
 Dette er et eksempel på, hvornår der skal bruges flere navngivne ressourcer til at indfri en generisk ressourceanmodning. Du skal reservere flere ressourcer for at indfri kravet.
 
-![Reservation af flere ressourcer for at indfri kravet](media/RM-how-to-23.png)
+![Reservation af flere ressourcer for at indfri kravet.](media/RM-how-to-23.png)
 
 Den væsentligste forskel i dette scenarie er, at den generiske ressource forbliver i det team, der er tildelt opgaven, og teammedlemmer af den reserverede navngivne ressource er ikke tildelt som en del af stillingen. Projektlederen kan tildele det arbejde, der er relevant for de navngivne ressourcer. **Afstemning**-visningen kan hjælpe en projektleder med at fordele reservationer på tværs af flere ressourcer til opgavetildelinger. Dette sker ikke automatisk, da det i et hvilket som helst scenarie, der er mere kompliceret end det enkle eksempel overfor, f.eks. hvor du har et bundt opgaver, der udgør kravet, er projektlederens hensigt med tildelingen, der skal optages i systemet. Da systemet ikke kan forstå hensigten, er det sandsynligt, at antagelserne vil være anderledes end forventet, og der opstår et forkert eller uforudsigeligt resultat. Det forudsigelige resultat er, at den generiske ressource forbliver tildelt, indtil projektlederen bevidst opretter tildelinger med hjælp fra visningen **Afstemning**.
 

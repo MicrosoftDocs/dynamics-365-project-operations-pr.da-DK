@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009204"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000164"
 ---
 # <a name="product-catalog-pricing"></a>Prisfastsættelse i produktkatalog. 
 
@@ -44,7 +44,7 @@ Du kan føje produkter fra et produktkatalog til forskellige prislister. Prislis
 
 PSA understøtter forskellige afrundingsindstillinger, når priser er konfigureret som en funktion af listeprisen, standardomkostninger eller aktuelle omkostninger. Ud over at udnytte flere prisfastsættelsesmetoder og afrundingsindstillinger kan du knytte rabatlister til prislisteelementer. 
 
-> ![Tilføjelse af produkter fra et katalog til forskellige prislister](media/basic-guide-16.png)
+> ![Tilføjelse af produkter fra et katalog til forskellige prislister.](media/basic-guide-16.png)
 
 Når du opretter en ny brugerdefineret prisliste for et tilbud ved at vælge **Opret brugerdefineret prissætning** på siden **Projekttilbud**, opretter PSA en kopi af prislisten, og feltet **Objekt** i overskriften for den nye prisliste angives til **Salgsobjekt**. Navnet på den nye prisliste tilføjes sammen med navnet på tilbuddet og et tidsstempel. Du kan også bruge navnet på den nye prisliste og navnet på tilbuddet i brugerdefinerede arbejdsprocesser til at udløse yderligere gennemgang og godkendelse for tilbud, der bruger brugerdefineret prissætning.
 
