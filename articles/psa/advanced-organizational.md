@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009609"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005069"
 ---
 # <a name="organizational-units"></a>Organisationsenheder 
 
@@ -53,7 +53,7 @@ Organisationsenheden spiller to roller i PSA:
 - **Kontraktenhed** – organisationsenheden, der repræsenterer den virksomhedsgruppe eller division, som primært er ansvarlig for at vinde salg og administrere levering af arbejde og servicer til kunden. Kontraktenheden identificeres via feltet **Kontraktenhed** i overskriftssektionen på siderne **Salgsmulighed**, **Tilbud**, **Projektkontrakt** og **Projekt**.
 - **Ressourceenhed** – den organisationsenhed, som en ressource tilhører eller er tildelt til. Denne organisationsenhed kan levere sine ressourcer til bestemte roller i arbejdserklæringer (SOW'er) og projekter, der ejes af kontraktenheden.
 
-> ![Kontraktenheder og ressourceenheder](media/advanced-1.png)
+> ![Kontraktenheder og ressourceenheder.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Ofte stillede spørgsmål om organisationsenheder
 

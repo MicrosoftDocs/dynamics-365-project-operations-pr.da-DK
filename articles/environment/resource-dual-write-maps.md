@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025767"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003809"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioner af Project Operations med dobbeltskrivning
 
@@ -32,7 +32,7 @@ Følgende tilknytninger er nødvendige forudsætninger for løsningen Project Op
 
 1. Markér listet med tilknytninger, vælg tilknytningen for hovedbog **(msdyn\_ledgers)** med alle forudsætninger, og markér afkrydsningsfeltet **Oprindelig synkronisering**. I feltet **Master for oprindelig synkronisering** skal du vælge **Finance and Operations-apps** til både hovedbogstilknytning og alle nødvendige tilknytninger. Vælg **Kør**.
 
-![Synkronisering af tilknytning i hovedbog](media/DW6.png)
+![Synkronisering af tilknytning af hovedbog.](media/DW6.png)
 
 2. Benyt samme fremgangsmåde for alle de resterende tabeltilknytninger, der er angivet i ovenstående tabel. Markér ikke afkrydsningsfeltet **Oprindelig synkronisering**, når du kører disse tilknytninger.
 
@@ -65,7 +65,7 @@ Udfør følgende trin for at køre de viste tilknytninger.
 
 1. Aktivér projektressourcerollerne for tabeltilknytningen **alle firmaer (bookableresourcecategories)**, da denne tilknytning kræver den første synkronisering. I feltet **Master for indledende synkronisering** skal du vælge **Common Data Service**. 
 
- ![Synkronisering af tilknytning af ressourcerolletabel](media/6ResourceInitialSync.jpg)
+ ![Synkronisering af tilknytning af ressourcerolletabel.](media/6ResourceInitialSync.jpg)
 
  Vent, indtil statussen på tilknytningen er **Kører**, før du går videre til næste trin.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008799"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002414"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbejde med Project Service Automation-datamodellen
 
@@ -53,7 +53,7 @@ PSA føjer også nye tilbudsrelaterede objekter til Dynamics 365-datamodellen. H
 
 Andre objekter, som PSA føjer til tilbud, er **Projektprisliste for tilbudslinje**, **Ressourcekategori for tilbudslinje** og **Transaktionskategori for tidbudslinje**.
 
-![Diagram, der viser tilbud, tilbudslinje og projektrelationer](media/PS-Reporting-image2.png "Diagram, der viser tilbud, tilbudslinje og projektrelationer")
+![Diagram, der viser tilbud, tilbudslinje og projektrelationer.](media/PS-Reporting-image2.png "Diagram, der viser tilbud, tilbudslinje og projektrelationer")
 
 ## <a name="reporting-on-project-contracts"></a>Rapportering om projektkontrakter
 
@@ -69,7 +69,7 @@ PSA tilføjer også nye objekter, der er udviklet til projektkontrakter. Her er 
 
 Andre objekter, som PSA føjer til kontrakter, er **Projektprisliste for projektkontaktlinje**, **Ressourcekategori for projektkontraktlinje** og **Transaktionskategori for projektkontraktlinje**.
 
-![Diagram, der viser ordre, ordrelinje og projektrelationer](media/PS-Reporting-image3.png "Diagram, der viser ordre, ordrelinje og projektrelationer")
+![Diagram, der viser ordre, ordrelinje og projektrelationer.](media/PS-Reporting-image3.png "Diagram, der viser ordre, ordrelinje og projektrelationer")
 
 ## <a name="reporting-on-projects"></a>Rapportering om projekter
 
@@ -81,7 +81,7 @@ Objektet **Projekter** og de tilhørende objekter er eksklusive for PSA. **Proje
 - **Ressourcekrav** – Dette objekt indeholder kravene til alle generiske ressourceteammedlemmer.
 - **Estimat** og **Estimatlinje** – Disse objekter har en overskrift/linjerelation og indeholder udgiftsestimater for projektet. Opgaveestimater gemmes i objektet **Ressourceestimat**.
 
-![Diagram, der viser ressource, krav og projektrelationer](media/PS-Reporting-image4.png "Diagram, der viser ressource, krav og projektrelationer")
+![Diagram, der viser ressource, krav og projektrelationer.](media/PS-Reporting-image4.png "Diagram, der viser ressource, krav og projektrelationer")
 
 ## <a name="reporting-on-resources"></a>Rapportering om ressourcer
 
@@ -92,7 +92,7 @@ Projektressourcer bruger objekterne **Reserverbare ressource** fra Universal Res
 - **Kategori af reserverbare ressourcer** – Dette objekt repræsenterer rollen for den reserverbare ressource.
 - **Reserverbare ressourcereservationer** – Dette objekt repræsenterer den tid, der er reserveret til projekterne for ressourcen. Hver reservation har både et overskriftsobjekt og linjeobjekter, og de enkelte linjer har en status, der repræsenterer statussen for reservationen.
 
-![Diagram, der viser relationer for reserverbare ressourceegenskaber](media/PS-Reporting-image5.png "Diagram, der viser relationer for reserverbare ressourceegenskaber")
+![Diagram, der viser relationer for reserverbare ressourceegenskaber.](media/PS-Reporting-image5.png "Diagram, der viser relationer for reserverbare ressourceegenskaber")
 
 ## <a name="reporting-on-actual-transactions"></a>Rapportering om faktiske transaktioner
 
@@ -120,7 +120,7 @@ Når du arbejder med objektet **Faktisk**, er det vigtigt, at du forstår, hvilk
 
 Objektet **Transaktionsoprindelse** registrerer oprindelsen for posten **Faktisk**, og objektet **Transaktionsforbindelse** registrerer de relaterede poster for posten **Faktisk**. Derudover indeholder posten **Faktisk** referencer til projektet, projektkontrakten (ordren), den reserverbare ressource og kunden.
 
-![Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer](media/PS-Reporting-image6.png "Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer")
+![Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer.](media/PS-Reporting-image6.png "Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

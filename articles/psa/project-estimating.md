@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009159"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002549"
 ---
 # <a name="project-costs-and-revenue"></a>Projektomkostninger og -omsætning
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009159"
 
 Projektestimater giver en økonomisk visning af det arbejde, der er estimeret og planlagt i projektplanen. Fanen **Estimater** på siden **Projekter** indeholder en konsekvensberegning over omkostninger og omsætning for det arbejde, du planlægger. Den indeholder også oplysninger om mange foruddefinerede dimensioner. 
 
-> ![Fanen Estimater](media/project-5.png)
+> ![Fanen Estimater.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Omkostnings- og salgstal for projektet
 
@@ -66,13 +66,13 @@ Hvis systemet ikke finder en pris for rollen, skal salgsprisen som standard vær
 
 Fanen **Estimater** indeholder en gittervisning, der viser estimatlinjer. Gitteret indeholder kolonner for enheden, den samlede kostpris og den samlede salgspris, som vist i følgende illustration. 
 
-> ![Gittervisning på fanen Estimater](media/project-6.png)
+> ![Gittervisning på fanen Estimater.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visning med tidsfaser af projektestimater
 
 I visningen med tidsfaser for projektestimater vises estimatdataene fra gittervisningen på tværs af tidslinjen i en tidsskala, du vælger. Estimatdataene er som standard pivoteret i dimensionen **Rolle.**
 
-> ![Visning med tidsfaser af projektestimater](media/project-7.png)
+> ![Visning med tidsfaser af projektestimater.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Fordeling af indsatsestimat baseret på opgavetilstand
 

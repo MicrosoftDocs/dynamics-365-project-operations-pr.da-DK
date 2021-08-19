@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008304"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002324"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfiguration af brugerdefinerede felter som prisfastsættelsesdimensioner 
 
@@ -41,11 +41,11 @@ Hvis et felt skal blive til en prisdimension, skal det være:
 - Oprettet som et felt i objekterne **Rollepris** og **Rolleprisavance**. Du finder flere oplysninger om, hvordan du gør dette, i [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](field-references.md).
 - Oprettet som en række i tabellen **Prisdimension**. Du kan f.eks. tilføje rækker med prisdimensioner som vist i følgende grafik. 
 
-![Beløbsbaserede prisdimensionsrækker](media/Amt-based-PD.png)
+![Beløbsbaserede prisdimensionsrækker.](media/Amt-based-PD.png)
 
 Bemærk, at Arbejdstimer for ressource (**msdyn_resourceworkhours**) er blevet tilføjet som en avancebaseret dimension og er blevet føjet til gitteret på fanen **Avancebaserede prisdimensioner**.
 
-![Avancebaserede prisdimensionsrækker](media/Markup-based-PD.png)
+![Avancebaserede prisdimensionsrækker.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Eventuelle ændringer af prisdimensionsdata i denne tabel, eksisterende eller nye, overføres kun til forretningslogikken for prisfastsættelse i Project Service, når cachen er opdateret. Det kan tage op til 10 minutter at opdatere cachen. Tillad denne tid for at se ændringerne i standardlogikken for priser, som bliver resultatet efter ændringer i prisdimensionsdataene.

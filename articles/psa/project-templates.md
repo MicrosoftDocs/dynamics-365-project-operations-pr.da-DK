@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998269"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002504"
 ---
 # <a name="project-templates"></a>Projektskabeloner 
 
@@ -47,7 +47,7 @@ Du kan oprette et projekt på baggrund af en projektskabelon på flere måder:
 
 - Når du opretter et projekt fra tilbuddet, kan du vælge en projektskabelon i dialogboksen **Hurtig oprettelse: Projekt**
 
-> ![Dialogboksen Hurtig oprettelse: Projekt](media/project-11.png)
+> ![Dialogboksen Hurtig oprettelse: Projekt.](media/project-11.png)
 
 - Når du opretter et projekt ved at vælge **Nyt projekt** vises siden **Projekt**, før posten gemmes. I feltet **Vælg en skabelon** skal du vælge en af de foruddefinerede projektskabeloner i organisationen.
 - Brug **Opret projekt fra en skabelon** på siden **Skabelonobjekt**.

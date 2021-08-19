@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369369"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005384"
 ---
 # <a name="intercompany-invoicing-overview"></a>Oversigt over intern fakturering
 
@@ -22,7 +22,7 @@ Din organisation kan have flere afdelinger, datterselskaber og andre juridiske e
 
 I følgende illustration vises et typisk scenario, hvor to juridiske enheder, Contoso Robotics USA (den låntagende juridiske enhed) og Contoso Robotics UK (den udlånende juridiske enhed) deler ressourcer med henblik på at levere et projekt til kunden, Adventure works. I dette scenario får Contoso Robotics USA til opgave at levere arbejdet til Adventure Works.
 
-![Intern fakturering](./media/IntercompanyScenario.png) 
+![Intern fakturering.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations bruger følgende flow til at behandle interne transaktioner:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations bruger følgende flow til at behandle interne tr
 
 I følgende diagram illustreres den interne fakturering i sin sammenhæng med regnskabshændelser og de forventede posteringer i finanskladden.
 
-![Internt flow](./media/IntercompanyFlow.png)
+![Internt flow.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Flere ressourcer
 

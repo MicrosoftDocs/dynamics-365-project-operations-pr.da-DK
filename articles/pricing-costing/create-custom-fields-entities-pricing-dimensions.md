@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000519"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003629"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Opret brugerdefinerede felter og objekter som dimensioner for prisfastsættelse
 
@@ -44,7 +44,7 @@ Benyt følgende fremgangsmåde for at oprette objektbaserede dimensioner:
 3. Vælg **Nyt** for at oprette et nyt objekt med navnet **Standardtitel**. 
 4. Angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.
 
-> ![Definition af standardtitelobjekt](media/Standard-Title-entity-definition.png)
+> ![Definition af standardtitelobjekt.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensioner baseret på grupperet indstilling 
 Du kan oprette to dimensioner, der er baseret på grupperet indstilling. 
@@ -54,11 +54,11 @@ Du kan oprette to dimensioner, der er baseret på grupperet indstilling.
 
 Følgende grafik indeholder en oversigt over dimensionen **Ressourcens arbejdslokation**. 
 
-> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdssted for ressource](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdssted for ressource.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Følgende grafik indeholder en oversigt over dimensionen **Ressourcens arbejdstid**. 
 
-> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdstimer for ressource](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdstimer for ressource.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Gå til **Indstillinger** > **Løsninger** og dobbeltklik på **\<your organization name> prisfastsættelsesdimensioner**. 
 2. Vælg **Grupperede indstillinger** i venstre navigationsrude i løsningsoversigten. 
@@ -74,7 +74,7 @@ Du kan oprette data til objektbaserede dimensioner manuelt eller ved hjælp af M
 4. Luk siden. 
 5. Gentag trin 1-3 for at oprette endnu en standardtitel til "Seniorsystemtekniker".
 
-> ![Eksempeldata til objektet Standardtitel](media/ST-data.png)
+> ![Eksempeldata til objektet Standardtitel.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
