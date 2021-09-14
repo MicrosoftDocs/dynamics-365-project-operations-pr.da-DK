@@ -4,6 +4,8 @@
   items:
     - name: Vælg din udrulningstype
       href: environment/determine-deployment-type.md
+    - name: Tilmeld dig prøveversioner af Project Operations
+      href: environment/admin-trials.md
     - name: Opdateringer til Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheder
       items:
+        - name: August 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Juni 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -350,7 +354,7 @@
       items:
         - name: Tidsoversigt
           href: time/time-entry-overview.md
-        - name: Oprette tidsregistreringer
+        - name: Opret tidsregistreringer
           items:
             - name: Brugergrænsefladen til tidsregistrering
               href: time/ui-behavior-time.md
@@ -418,6 +422,8 @@
       items:
         - name: Godkendelsesoversigt
           href: approvals/approvals-overview.md
+        - name: Godkendelsessæt
+          href: approvals/approval-sets.md
         - name: Bemærkninger til udvikler
           items:
             - name: Udviklers bemærkninger til godkendelser
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
+        - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheder i august 2021 – lille udrulning
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Nyheder i juli 2021 – lille udrulning
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Nyheder i juni 2021 – lille udrulning
@@ -834,19 +844,33 @@
               href: resource-management/resource-utilization-overview.md
     - name: Administration af underleverandører i Project Operations
       items:
-        - name: Administrer oversigt over underleverandører
+        - name: Administration af underleverandører i Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Underleverandør i oktober 2021 for tidlig adgang
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Nøglekoncepter i underleverandører
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Administrere leverandører og projektprislister
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 'Underleverandører som ressource, de kan reserveres'
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Overskriftsdetaljer for underleverandører
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Underleverandørlinjer for tid
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Underleverandørlinjer for udgifter
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Underleverandørlinjer for produkter
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressourcer til underleverandørlinjer
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milepæle for underleverandørlinjer
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Tid
       items:
         - name: Tidsoversigt
           href: time/time-entry-overview.md
-        - name: Oprette tidsregistreringer
+        - name: Opret tidsregistreringer
           items:
             - name: Brugergrænsefladen til tidsregistrering
               href: time/ui-behavior-time.md
@@ -868,6 +892,8 @@
       items:
         - name: Godkendelsesoversigt
           href: approvals/approvals-overview.md
+        - name: Godkendelsessæt
+          href: approvals/approval-sets.md
         - name: Bemærkninger til udvikler
           items:
             - name: Udviklers bemærkninger til godkendelser
@@ -1060,6 +1086,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 35. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-35.md
         - name: 'Nyheder eller ændringer i den 34. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-34.md
         - name: 'Nyheder eller ændringer i den 33. opdateringsudgivelse, v3'
@@ -1300,17 +1328,17 @@
               href: psa/reports-working-project-service-data-model.md
         - name: Tidsregistreringer
           items:
-            - name: Oprette tidsregistreringer
+            - name: Opret tidsregistreringer
               href: psa/time-entries.md
             - name: Kalender for tidsregistreringer
               href: psa/time-entry-calendar.md
             - name: Brugertilpasning af ugentlige tidsregistreringer
               href: psa/time-entry-extensibility-v3.md
-            - name: Godkendelsessæt
+            - name: Godkendelsessæt i Project Service Automation
               href: psa/approval-set.md
     - name: Ofte stillede spørgsmål og fejlfinding (3.x)
       items:
-        - name: Hvorfor er standardprisen for faktiske omkostningsudgifter nul?
+        - name: Hvorfor er standardindstillingen for prisen for faktiske omkostningsudgifter nul?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Hvorfor anvendes en standardpris på nul for faktiske salgsudgifter?
           href: psa/FAQ-zero-price-expense-sales-actuals.md

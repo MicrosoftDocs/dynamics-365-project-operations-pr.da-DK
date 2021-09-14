@@ -1,17 +1,17 @@
 ---
 title: Administration af underleverandører i Project Operations
-description: Dette emne giver et overblik over den komplette proces for administration af underleverandører i Microsoft Dynamics 365 Project Operations.
+description: Dette emne giver et overblik over den komplette proces for projektbaserede organisationers sædvanlige administration af underentrepriser.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ffceb0886fdc841ea01a099243cf4eeb43e5374a18414576f3639a3e50857fd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994224"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323589"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Administration af underleverandører i Project Operations
 
@@ -19,16 +19,34 @@ ms.locfileid: "6994224"
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Underleverancer i Microsoft Dynamics 365 Project Operations understøtter følgende forretningsprocesforløb.
+Dette emne giver et overblik over den komplette proces for projektbaserede organisationers normale administration af underentrepriser. Underentrepriser for tjenester følger typisk forretningsprocesforløbet, der vises i følgende diagram.
 
 ![Procesflow for underleverancer](../media/SubcontractingProcessFlow.png)
 
-Her er en trinvis beskrivelse af processen for underleverancer.
+Følgende liste giver en trinvis beskrivelse af processen for Underentrepriser.
 
 1. Projektlederen opretter en underleverance med en leverandør. De prislister, der er tilknyttet kreditorposten, bruges som standard til underleverancen. Leverandørkontoen har relationstypen **Kreditor** eller **Leverandør**.
-2. Projektlederen kan specificere alle køb som linjeelementer i underleverancen. Underleverancelinjer kan indeholde tid, udgifter eller produkter. Den transaktionsklasse, der vælges på hver underleverancelinje, bestemmer, hvad linjen er beregnet til.
+2. Projektlederen kan specificere alle køb som linjeelementer i underleverancen. Underleverancelinjer kan indeholde tid, udgifter eller produkter. Transaktionsklassen for underentrepriselinjen, bestemmer, hvad linjen er beregnet til.
 3. Administratoren af leverandørkontoen og projektlederen kan gentage valget for hele underleverancen. Prisfastsættelse kan justeres i købsprislister, der er tilknyttet underleverancen.
-4. Hvis underleverancelinjen er til tiden på dette tidspunkt eller senere i processen, knytter kreditorkontoadministratoren kontakter til hver underleverancelinje. Denne tilknytning indeholder oplysninger til den projektleder, der arbejder med underleverancen. Når en kontaktperson er knyttet til en underleverancelinje, oprettes der automatisk en reserverbar ressource ud fra kontaktpersonen, hvis der ikke allerede findes en reserverbar ressource.
-5. Faktureringsmetoden på hver underleverancelinje kan være **Fast pris** eller **Tid og materiale**. I forbindelse med underleverancelinjer med faste priser kan du oprette en milepælsbaseret faktureringsplan.
+4. Hvis underentrepriselinjen på dette tidspunkt eller senere i processen omhandler tid, knytter administratoren af leverandørkontoen leverandørkontakter til hver underentrepriselinje. Denne tilknytning indeholder oplysninger til den projektleder, der arbejder med underleverancen. Når en leverandørkontakt er knyttet til en underentrepriselinje, opretter systemet automatisk en reserverbar ressource ud fra kontaktpersonen, hvis der ikke allerede findes en reserverbar ressource.
+5. Faktureringsmetoden på hver underleverancelinje kan være **Fast pris** eller **Tid og materiale**. Der konfigureres en milepælsbaseret faktureringsplan for underentrepriselinjer med faste priser.
+6.  Når underentreprisen er konfigureret, og forhandlingen er færdig, bekræftes det. Bekræftede underentrepriser kan ikke redigeres, men hvis der sker ændringer, kan en underentreprise "genåbnes for redigeringer", hvilket ændrer statussen fra **Bekræftet** til **Kladde**, og forhandlinger kan genåbnes. 
+7.  Når du opretter et generisk teammedlem på et projekt, kan teammedlemmet knyttes til en underentrepriselinje. Dette angiver behovet for at udstyre det generiske teammedlem med underentreprisekapacitet.
+8.  Navngivne teammedlemmer kan enten oprettes direkte på et projekt eller ved at reservere dem ved hjælp af ressourceplanlægningsoplevelsen. Hvis et navngivet projektteammedlem er en kontraktansat medarbejder, er det muligt at knytte dette til en underentrepriselinje. Derved hentes den tilgængelige kapacitet ned på en underentrepriselinje.
+9.  Underentrepriselinjeressourcer kan registrere tid, udgifter og materialeforbrug på projekter og projektopgaver og derefter indsende det til godkendelse. Dette samme gør sig gældende for medarbejdere. Når en kontraktansat medarbejder registrerer tid, kan vedkommende vælge en bestemt underentreprise og underentrepriselinje.
+10. Når en underleverandør har godkendt tid, registreres de faktiske projektomkostninger på baggrund af indkøbsprisen for den kontraktansatte medarbejder eller den rolle, som de har spillet på projektet.
+11. Leverandørfakturaer og linjeelementer i en leverandørfaktura kan registreres i systemet for det arbejde, der udføres af leverandørressourcer eller produkter, der er leveret af leverandøren. Fakturalinjer for leverandører skal være specifikke for et projekt og for en transaktionsklasse såsom for tid, udgifter, produkt/materiale, milepæl eller gebyr. Leverandørfakturalinjer kan også henvise til en underentrepriselinje.
+12. Systemet knytter automatisk alle faktiske omkostninger, der svarer til underentrepriselinjen og projektet, sammen med leverandørfakturaen. Dette vil fremme en trevejsoverensstemmelses- og verifikationsproces.
+13. Projektlederen kan derefter gennemse de automatisk matchede faktiske projektværdier, fjerne eller tilføje andre faktiske projektomkostninger og fuldføre verifikationsprocessen.
+14. Når verifikationsprocessen er fuldført på alle linjer, markeres leverandørfakturaen som **Klar til betaling**. I dette trin kan leverandørfakturaen og -linjerne overføres til et regnskabs- eller faktureringssystem for at behandle betalingen til leverandøren. Tidligere registrerede projektomkostninger tilbageføres, og faktiske omkostninger fra leverandørfakturalinjerne registreres i projektet.
+
+## <a name="quantity-based-subcontract-lines-and-work-based-subcontract-lines"></a>Mængdebaserede underentrepriselinjer og arbejdsbaserede underentrepriselinjer
+
+En underentrepriselinje kan være mængdebaseret eller arbejdsbaseret. 
+
+Når en underentrepriselinje er **mængdebaseret**, kan det antal, der købes på underentrepriselinjen for tid, udgifter eller materialer, bruges på et hvilket som helst projekt.
+
+Når en underentrepriselinje er **arbejdsbaseret**, knyttes underentrepriselinjen til et arbejdsprojekt, der repræsenteres af en node i projektplanen. Værdien af underentrepriselinjen er summen af alle de komponenter, der kræves for at levere det pågældende arbejdsprojekt. Disse er udformede som detaljer om underentrepriselinjer og kan være en samling tid, udgifter eller materialer. For en arbejdsbaseret underentrepriselinje er underentrepriselinjen også dedikeret til et enkelt projekt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

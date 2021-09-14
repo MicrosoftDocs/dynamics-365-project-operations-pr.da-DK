@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024776"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474485"
 ---
 # <a name="project-operations-updates"></a>Opdateringer til Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations består af to komponenter:
 - Projektstyring og regnskab i Dynamics 365 Finance-miljø indeholder funktioner til udgiftsstyring, projektregnskab og indtægtsføring. Finance and Operations-programmiljøet bruges i Project Operations for ressource/ikke-lagerbaserede scenarier og Project Operations for lagerbaserede/produktionsbaserede scenarier.
 
 ## <a name="project-operations-release-notes"></a>Produktbemærkninger til Project Operations
-- De seneste produktbemærkninger til Project Operations for [Ressource-/ikke-lagerbaserede](whats-new-july-2021-resource-based.md) scenarie.
-- De seneste produktbemærkninger til Project Operations for scenarie med [lille udrulning](../pro/whats-new/whats-new-july-2021-lite.md) .
+- De seneste produktbemærkninger til Project Operations for [Ressource-/ikke-lagerbaserede](whats-new-august-2021-resource-based.md) scenarie.
+- De seneste produktbemærkninger til Project Operations for scenarie med [lille udrulning](../pro/whats-new/whats-new-august-2021-lite.md) .
 - De seneste produktbemærkninger til Project Operations for scenariet [lagerført/produktion](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Seneste version af Project Operations
 
 | Project Operations på Dataverse-miljø | Projektstyring og regnskab i Finance and Operations-programmiljøer | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 For ressource-/ikke-lagerbasere scenarier i Project Operations anbefales det, at du bruger Dual Write version 2.2.2.83 eller nyere.
 
@@ -47,27 +47,24 @@ Opdateringer til Project Operations på Dataverse-miljø er tilgængelige hver m
 | Station | Land/område | Aktuelt versionsnummer | Automatiske opdateringer til Lite-udrulning | Automatiske opdateringer til ressource-/ikke-lagerbaseret udrulning | Næste versionsnummer | Næste version er almindeligt tilgængelig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Første frigivelse         |  4.13.0.152     | Afsluttet           | 13. august 2021     | TBD                 | 27. august 2021     |
+|   &nbsp;  | Første frigivelse         |  4.14.0.99      | Afsluttet           | 10. september 2021  | TBD                 | 01. oktober 2021    |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sydamerika         |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
-|    &nbsp; | Canada                |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
-|   &nbsp;  | Indien                 |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
-|   &nbsp;  | Frankrig                |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
-|   &nbsp;  | De Forenede Arabiske Emirater  |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
-|   &nbsp;  | Sydafrika          |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
+|   &nbsp;  | Sydamerika         |  4.14.0.152     | 10. september 2021 | 17. september 2021  | TBD                 | 01. oktober 2021    |
+|    &nbsp; | Canada                |  4.14.0.152     | 10. september 2021 | 17. september 2021  | TBD                 | 01. oktober 2021    |
+|   &nbsp;  | Indien                 |  4.14.0.152     | 10. september 2021 | 17. september 2021  | TBD                 | 01. oktober 2021    |
+|   &nbsp;  | Frankrig                |  4.14.0.152     | 10. september 2021 | 17. september 2021  | TBD                 | 01. oktober 2021    |
+|   &nbsp;  | De Forenede Arabiske Emirater  |  4.14.0.152     | 10. september 2021 | 17. september 2021  | TBD                 | 01. oktober 2021    |
+|   &nbsp;  | Sydafrika          |  4.14.0.152     | 10. september 2021 | 17. september 2021  | TBD                 | 01. oktober 2021    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.12.0.152     | Fuldført*          | Afsluttet            | 4.13.0.152          | 13. august 2021     |
-|   &nbsp;  | Asien og Stillehavsområdet          |  4.12.0.152     | Fuldført*          | Afsluttet            | 4.13.0.152          | 13. august 2021     |
-|   &nbsp;  | Storbritannien         |  4.12.0.152     | Fuldført*          | Afsluttet            | 4.13.0.152          | 13. august 2021     |
-|   &nbsp;  | Oceanien               |  4.12.0.152     | Fuldført*          | Afsluttet            | 4.13.0.152          | 13. august 2021     |
+|   &nbsp;  | Japan                 |  4.13.0.152     | Afsluttet           | Afsluttet            | 4.14.0.152          | 10. september 2021  |
+|   &nbsp;  | Asien og Stillehavsområdet          |  4.13.0.152     | Afsluttet           | Afsluttet            | 4.14.0.152          | 10. september 2021  |
+|   &nbsp;  | Storbritannien         |  4.13.0.152     | Afsluttet           | Afsluttet            | 4.14.0.152          | 10. september 2021  |
+|   &nbsp;  | Oceanien               |  4.13.0.152     | Afsluttet           | Afsluttet            | 4.14.0.152          | 10. september 2021  |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Afsluttet           | Afsluttet            | 4.13.0.152          | 20. august 2021     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Afsluttet           | 03. september 2021  | 4.14.0.152          | 17. september 2021  |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.12.0.152     | 13. august 2021    | 20. august 2021     | 4.13.0.152          | 27. august 2021     |
+|   &nbsp;  | Nordamerika         |  4.13.0.152     | 03. september 2021 | 10. september 2021  | 4.14.0.152          | 24. september 2021  |
 
-
-> [!NOTE]
-> Automatisk installation er fuldført for version 4.12.0.148. Der er ikke planlagt automatisk installation af den opdaterede version fra juli 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Udgivelsesplan for Projektstyring og regnskab i Finance and Operations-programmiljøet
 

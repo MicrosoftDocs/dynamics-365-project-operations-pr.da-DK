@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001649"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440770"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Administrer flere kunder i projekttilbud - lille
 
@@ -37,7 +37,7 @@ Du kan oprette, opdatere eller slette en tilbudskunde under fanen **Tilbudskunde
 
 | **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
-| Konto | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Viser alle aktive firmaer. Dette felt er låst, når posten er oprettet. Hvis du vil opdatere den, skal du slette posten og oprette den igen. Hvis du har registreret faktiske oplysninger, eller hvis tilbudskundeposten er en primær kunde, får du tilladelse til at slette posten. | Tilbudskunder kopieres på samme måde som tilbudslinjekunder, når der oprettes en tilbudslinje. Tilbudskunder kopieres også over til projektkontraktkunderne, når et tilbud er vundet. |
+| Konto | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Viser alle aktive firmaer. Dette felt er låst, når posten er oprettet. Hvis du vil opdatere den, skal du slette posten og oprette den igen. Hvis du har registreret faktiske værdier, eller hvis tilbudskundeposten er en primær kunde, kan du ikke slette posten. | Tilbudskunder kopieres på samme måde som tilbudslinjekunder, når der oprettes en tilbudslinje. Tilbudskunder kopieres også over til projektkontraktkunderne, når et tilbud er vundet. |
 | Procentdel for opdeling af fakturering | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Repræsenterer den procentdel af hver ikke-faktureret salgstransaktion, der skal tilknyttes denne tilbudskunde. | Kopieret til nye tilbudslinjer og til projektkontraktkunder. |
 | Faktura til Kontaktnavn | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Dette er et tekstfelt, der bruges til at identificere fakturakontaktpersonen for denne kunde. Disse hentes som standard fra den relaterede firmapost | Kopieret til projektkontraktkunder, når et tilbud er vundet, og tilbage igen til feltet Faktureres til kontraktnavn på den faktura, der er genereret for denne kunde. |
 | Fakturering til navn | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Dette tekstfelt bruges til at identificere fakturakontaktpersonen for denne kunde. | Kopieret til projektkontraktkunderne, når et tilbud er vundet, og tilbage igen til feltet **Faktureres til kontraktnavn** på den faktura, der er genereret for denne kunde. |
