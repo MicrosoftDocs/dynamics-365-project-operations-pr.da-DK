@@ -2,16 +2,16 @@
 title: Tilmeld dig prøveversioner af Project Operations
 description: Dette emne indeholder oplysninger om, hvordan du udruller en prøveversion af Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418450"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599206"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Tilmeld dig prøveversioner af Project Operations 
 
@@ -85,15 +85,9 @@ Inden du begynder, skal du logge på en browser med brugerkontoen i den lejer, h
 
    Når klargøring er startet, omdirigeres du til miljølisten i Power Platform Administration. Mens klargøring er i gang, er tilstanden for dit miljø **PreparingInstance**.
  
-  Når klargøringen er fuldført, er tilstanden for dit miljø **Klar**.
+  Når klargøring er fuldført, er tilstanden for miljøet **Klar**. Klargøring af miljøet omfatter udrulning af demodata.
  
-4.  Når klargøringen er fuldført, skal du vælge den pågældende URL-adresse for Microsoft Dataverse og URL-adresserne for Finance and Operations-apps for at validere udrulningen.
-
-## <a name="demo-data-installation"></a>Installation af demonstrationsdata
-
-Brug følgende links for at få adgang til demodatapakker til både ikke-lagerbaserede materialer og små udrulningsscenarier. 
-- [Support til demonstrationsdata for ikke-lagerførte materialer](resource-apply-pro-setup-config-data.md)
-- [Lille demonstrationsdata](lite-apply-demo-setup-config-data.md)
+4.  Vælg den respektive URL-adresse for Microsoft Dataverse og for Finance and Operations- apps for at validere udrulningen.
 
 ## <a name="configuring-dual-write"></a>Konfiguration af dobbeltskrivning
 I forbindelse med udrulninger af ikke-lagerførte materiale skal du konfigurere dine tilknytninger med dobbeltskrivning. Du kan finde flere oplysninger i [versioner af tilknytning af dobbeltskrivning i Project Operations](resource-dual-write-maps.md).

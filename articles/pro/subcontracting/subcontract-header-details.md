@@ -2,16 +2,16 @@
 title: Detaljer på hovedsiden for underentrepriser
 description: I emne forklares funktionaliteten på hovedsiden for underentrepriser i Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323634"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501319"
 ---
 # <a name="header-details-for-subcontracts"></a>Detaljer på hovedsiden for underentrepriser
 
@@ -28,26 +28,24 @@ Udfør disse trin for at oprette en underentreprise.
 1. I navigationsruden skal du vælge **Underentrepriser**, og på siden **Underentreprise** skal du vælge **Ny**.
 2. Angiv de nødvendige oplysninger, og vælg derefter **Gem**.
 
-    Følgende tabel indeholder oplysninger om felterne på hovedsiden for underentrepriser.
+    Følgende tabel indeholder oplysninger om felterne på siden for **Overskrift for underentreprise**.
 
-    | **Felt** | **Beskrivelse** |
-    | --- | --- | 
-    | Navn | Navnet på underentreprisen. |
-    | Beskrivelse | En kort beskrivelse af de tjenester og produkter, der købes på baggrund af underentreprisen. |
-    | Leverandør | Navnet på den virksomhed, som produkterne og tjenesterne købes fra. Denne firmapost har relationstypen **Leverandør** eller **Forsyningsvirksomhed**. |
-    | Underentreprisedato | Datoen for oprettelse af underentreprisen. |
-    | Statusårsag | Statussen for underentreprisen. |
-    | Valuta | Den valuta, som produkter og tjenester købes i. Værdien i dette felt hentes som standard fra leverandørkontoen, men den kan ændres. Projektprislister, der bruges til prisfastsættelse af produkter og tjenester i underentreprisen, skal være i denne valuta. Prislister i andre valutaer kan ikke knyttes til underentreprisen. De påløbne omkostninger for underentreprisens produkter og tjenester registreres i denne valuta på projektet. |
-    | Kontraktenhed | Den afdeling af virksomheden, der indgår en købskontrakt eller en underentreprise med leverandøren. |
-    | Betalingsbetingelser | Betalingsbetingelserne på de leverandørfakturaer, der er udstedt for denne underentreprise. Værdien i dette felt hentes som standard fra leverandørens firmapost. |
-    | Betalingsadresse | Den adresse, hvortil betalingen for leverandørfakturaer sendes. Værdien i dette felt hentes som standard fra leverandørens firmapost. |
-    | Faktureringsnavn | Navnet på den person eller afdeling i leverandørens virksomhed, som skal sende fakturaen. Værdien i dette felt hentes som standard fra leverandørens firmapost og bruges som navnet på den primære kontaktperson på de leverandørfakturaer, der er oprettet for denne underentreprise. |
-    | Faktureringsadresse | Den adresse, der bruges på fakturaer fra denne leverandør. Værdien i dette felt hentes som standard fra leverandørens firmapost. Denne adresse bruges også som afsenderadressen på de leverandørfakturaer, der er oprettet for denne underentreprise. |
-    | Subtotal | Hvis en underentreprise ikke har nogen linjer, skal du indtaste en værdi i dette felt, der angiver ordrens delsum før moms. Hvis underentreprisen har linjer, er dette felt skrivebeskyttet. Det viste beløb er delsummen fra alle linjer i underentreprisen. |
-    | Samlet moms | Hvis en underentreprise ikke har nogen linjer, skal du indtaste en værdi i dette felt, der angiver momsen for denne underentreprise. Hvis underentreprisen har linjer, er dette felt skrivebeskyttet. Det viste beløb er summen af momsbeløber fra alle linjer i underentreprisen. |
-    | Samlet beløb |  I dette beregnede felt vises det samlede beløb for underentreprisen inklusive moms.  |
-    | Dato bekræftet | Datoen, hvor underentreprisen blev bekræftet.  |
-    | Anmodet af | Værdien i dette felt henter som standard til navnet på den bruger, der opretter underentreprisen. Denne værdi kan ændres af den person, der har oprettet underentreprisen, for at angive, hvem vedkommende opretter underentreprisen for.  |
-    | Kreditorkontochef | Navnet på den primære kontaktperson for leverandørkontoen. Værdien i dette felt hentes som standard fra leverandørens firmapost. Denne feltværdi kan ændres af brugeren, så brugeren kan vælge en anden kontaktperson som administrator af underentreprisens leverandørkonto. Mailbeskeder og prisforhandlinger kan konfigureres og fremsendes af denne kontakt. |
-
-
+    | Felt | Beskrivelse |Funktionspåvirkninger |
+    |---|------|---| 
+    | Navn | Navnet på underentreprisen. | I alle rullelister for underentrepriser vises navnet på underentreprisen i første kolonne for at hjælpe dig med at identificere underentreprisen. | 
+    | Beskrivelse | En kort beskrivelse af de tjenester og produkter, der købes på baggrund af underentreprisen. | Intet |
+    | Leverandør | Navnet på den virksomhed, som produkterne og tjenesterne købes fra. Denne firmapost har relationstypen **Leverandør** eller **Forsyningsvirksomhed**. | På baggrund af den valgte leverandør angives automatiske standardværdier for følgende felter:<br/> **• Valuta** </br> **• Prislister** </br> **• Betalingsbetingelser**</br> **• Betalingsadresse**</br> **• Faktureringsadresse**</br> **• Faktureringsnavn** </br>**• Account Manager for leverandør**|
+    | Underentreprisedato | Den dato, hvor underentreprisen oprettes. | Datoen for underentreprisen bruges til at vælge den rette købsprisliste fra enten de prislister, der er knyttet til den relaterede leverandør, eller fra projektparametrene. |
+    | Statusårsag | Statussen for underentreprisen. | Statussen bestemmer, hvor underentreprisen befinder sig i forretningsprocessen, og om den kan redigeres. <br/>Værdierne omfatter:<br>• **Kladde**: Underentreprisen kan redigeres. Du kan kun redigere underentrepriser med statussen **Kladde**.<br/>• **Bekræftet**: Forhandlingen med leverandøren er afsluttet, og underentreprisen godkendes til levering. <br/>• **Lukket**: Underentreprisen er blevet leveret.<br/>• **Annulleret**: Underentreprisen blev annulleret, og der er ikke planlagt levering.  | 
+    | Valuta | Den valuta, som produkter og tjenester købes i. Standardværdien angives automatisk fra leverandørens konto, men den kan ændres. | Underentreprisens valuta bruges til at vælge købsprislisten fra enten de prislister, der er knyttet til den relaterede leverandør, eller fra projektparametrene. Prislister i en anden valuta kan ikke knyttes til underentreprisen. Den tid, de udgifter og det materiale, som leverandørressourcerne leverer fra denne underentreprisen, registreres i denne valuta i projektet. Når underentrepriseposten er gemt, kan valutaen for underentreprisen ikke ændres.|
+    | Kontraktenhed | Den afdeling af virksomheden, der indgår en købskontrakt eller en underentreprise med leverandøren. | Intet |
+    | Betalingsbetingelser | Betalingsbetingelserne på leverandørfakturaer, der er udstedt på denne underentreprise. Standardværdien angives automatisk fra leverandørens firmapost. | Betalingsbetingelser fra underentreprisen kopieres til alle leverandørfakturaer, der er relateret til denne underentreprise. Betalingsbetingelserne kan opdateres, hvis underentreprisen har statussen **Kladde**. | 
+    | Betalingsadresse | Adressen på den leverandør, som betalinger skal sendes til. Standardværdien angives automatisk fra leverandørens firmapost. | Betalingsadressen fra underentreprisen kopieres som betalingsadresse til alle de leverandørfakturaer, der er oprettet for denne underentreprise. Betalingsadressen kan opdateres, hvis underentreprisen har statussen **Kladde**.|
+    | Faktureringsnavn | Navnet på den person eller afdeling i leverandørens virksomhed, som skal sende fakturaen. Standardværdien angives automatisk fra leverandørens firmapost. | Værdien **Faktureringsnavn** fra underentreprisen kopieres til alle leverandørfakturaer, der er relateret til denne underentreprise. Dette felt kan opdateres, hvis underentreprisen har statussen **Kladde**.|
+    | Faktura til Adresse | Den adresse, der bruges på fakturaer fra leverandøren. Standardværdien angives automatisk fra leverandørens firmapost. | Denne adresse er adressen for "faktura fra" på de leverandørfakturaer, der oprettes for denne underentreprise. |
+    | Subtotal | Hvis der ikke er nogen linjer for en underentreprise, skal du angive delsummen for ordren eksklusiv moms. Hvis underentreprisen har linjer, er dette felt skrivebeskyttet. Det viste beløb er delsummen for alle linjer på underentreprisen. | Intet |
+    | Samlet moms | Hvis der ikke er nogen linjer for en underentreprise, skal du angive den samlede moms for denne underentreprise. Hvis underentreprisen har linjer, er dette felt skrivebeskyttet. Det viste beløb er summen af momsbeløbet for alle linjer på underentreprisen. | Intet |
+    | Samlet beløb | I dette beregnede felt vises det samlede beløb for underentreprisen inklusive moms. | Intet |
+    | Dato bekræftet | Datoen, hvor underentreprisen blev bekræftet. | Intet |
+    | Anmodet af | Som standard angives dette felt til navnet på den bruger, der opretter underentreprisen. Men den person, der har oprettet underentreprisen, kan ændre værdien for at angive den person, som vedkommende opretter underentreprisen på vegne af. | Intet |
+    | Kreditorkontochef | Navnet på den primære kontaktperson for leverandørkontoen. Standardværdien angives automatisk fra leverandørens firmapost. Du kan vælge en anden kontaktperson som account manager for leverandøren af underentreprisen. | Du kan konfigurere mailbeskeder for at give kontaktpersonen besked, når der foretages ændringer af underentreprisen som følge af prisforhandlinger. |

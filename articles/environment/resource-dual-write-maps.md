@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003809"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547102"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioner af Project Operations med dobbeltskrivning
 
@@ -49,8 +49,8 @@ Følgende tilknytninger er nødvendige for en løsning med Project Operations. V
 | Integrationstabellen for materialeestimater i Project Operations (msdyn\_estimerlinjer) | 1.0.0.0 | Kræves ikke til klargøring. |
 | Forslag til projektfakturaer V2 (fakturaer) | 1.0.0.3 | Kræves ikke til klargøring. |
 | Integration af faktiske oplysninger i Project Operations (msdyn_actuals) | 1.0.0.14 | Kræves ikke til klargøring. |
-| Integration af kontraktlinjemilepæle i Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Kræves ikke til klargøring. |
-| Integrationsobjekt for udgiftsestimater i Project Operations (msdyn_estimateslines) | 1.0.0.2 | Kræves ikke til klargøring. |
+| Milepæle for integration af kontraktlinje i Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Kræves ikke til klargøring. |
+| Integrationsobjekt til Project Operations for udgiftsestimater (msdyn_estimatelines) | 1.0.0.2 | Kræves ikke til klargøring. |
 | Integrationsobjekt for timeestimater i Project Operations (msdyn_resourceassignments) | 1.0.0.5 | Kræves ikke til klargøring. |
 | Integrationsobjekt for eksport af projektudgiftskategorier i Project Operations (msdyn_expensecategories) | 1.0.0.1 | Kræves ikke til klargøring. |
 | Integrationsobjekt for eksport af projektudgifter i Project Operations (msdyn_expenses) | 1.0.0.2 | Kræves ikke til klargøring. |

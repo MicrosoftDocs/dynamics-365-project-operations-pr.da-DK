@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheder
       items:
+        - name: Oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: August 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -292,7 +296,7 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
-            - name: Brug projektplanlægnings-API'er (offentlig forhåndsversion)
+            - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
     - name: Ressourcestyring
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Indkøb ikke-lagerførte materialer til projekter ved hjælp af afventende leverandørfakturaer
           href: procurement/pending-vendor-invoices.md
+        - name: Bestil ikke-lagermateriale til projekter ved hjælp af projektkøbsordrer
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Tilbageholdelse af leverandører
+          items:
+            - name: Oversigt over tilbageholdelse af leverandører
+              href: procurement/vendor-retention-overview.md
+            - name: Konfigurere leverandørtilbageholdelse
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturering
       items:
         - name: Oversigt over faktureringsprocessen
@@ -528,6 +540,10 @@
       items:
         - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheder i oktober 2021 – lille udrulning
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Nyheder i september 2021 – lille udrulning
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Nyheder i august 2021 – lille udrulning
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Nyheder i juli 2021 – lille udrulning
@@ -784,7 +800,7 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
-            - name: Brug projektplanlægnings-API'er (offentlig forhåndsversion)
+            - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
     - name: Ressourcestyring
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Underleverandørlinjer for tid
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Underleverandørlinjer for udgifter
+        - name: Underleverandørlinjer for udgiftskategorier
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Underleverandørlinjer for produkter
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 36. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-36.md
         - name: 'Nyheder eller ændringer i den 35. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-35.md
         - name: 'Nyheder eller ændringer i den 34. opdateringsudgivelse, v3'

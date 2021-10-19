@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323859"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547237"
 ---
 # <a name="subcontract-lines-for-time"></a>Underentrepriselinjer for tid
 
@@ -30,23 +30,22 @@ For at oprette en underentrepriselinje for tid i Project Operations skal du fuld
 
   Følgende tabel indeholder oplysninger om felterne på siden **Underentrepriselinje** og siden **Hurtig oprettelse**.
 
-| **Felt** | **Beskrivelse** |
-| --- | --- |
-| Navn | Navnet på underentrepriselinjen. |
-| Beskrivelse | En kort beskrivelse af de tjenester, der købes på underentrepriselinjen. | 
-| Linjetype | Dette felt er en standardværdi.  |
-| Faktureringsmetode | Vælg faktureringsmetoden. Afhængigt af faktureringsmetoden for den refererede underentrepriselinje stilles en milepælsbaseret fakturaplan til rådighed for fastprisfaktureringsmetoden. |
-| Transaktionsklasse | Dette felt er en standardværdi, der angiver, om underentrepriselinjen bruges til at registrere et køb af tid fra underleverandør. |
-| Rolle | Rollen for de underleverandørressourcer, hvis tid købes. Den rolle, der er tildelt til underentrepriseressourcerne, bestemmer omkostningerne ved købet. |
-| Ønsket start | Den dato, hvor underentrepriseressourcerne skal bruges til at begynde at arbejde. Den anmodede start bruges også til at vælge en projektprisliste blandt de projektprislister, der er knyttet til underentreprisen. Omkostningerne for rollen på underentrepriselinjen hentes derefter som standard fra den pågældende prisliste. |
-| Anmodet afslutning | Den dato, hvor tildeling af underentrepriseressourcerne slutter. Denne dato bruges til at vise advarsler, når en projektleder trækker på denne kapacitet til ressourcekrav, der opstår efter denne dato. |
-| Bestilt antal | Antallet af rolletimer, der købes fra leverandøren. Denne værdi bruges til at vise advarsler, når en projektleder overtrækker fra denne kapacitet til ressourcekrav. |
-| Enhedsgruppe | Denne feltværdi bruges som standard for tidsenhedsgruppen og kan ikke ændres.  |
-| Enhed | Dette felt bruges som standard til basisenheden for timer fra tidsenhedsgruppen. Du kan ændre denne værdi for at købe en hvilken som helst enhed af tidsenhedsgruppen såsom dag eller uge. Kombinationen af rolle og kategori bruges til at beregne enhedsprisen for underentrepriselinjen. |
-| Enhedspris | Enhedsprisen angives som standard på baggrund af en kombination af rolle og enhed fra den projektprisliste, som gælder for den ønskede startdato for underentrepriselinjen. Når den gældende projektprisliste har konfigureret prisen i en anden enhed end enheden på underentrepriselinjen, bruger systemet enhedskonverteringen til at beregne enhedsprisen. |
-| Subtotal | Dette er et skrivebeskyttet felt, som beregnes automatisk som **Mængde x enhedsprisen**, hvis der angives både mængde- og enhedsprisværdier. Hvis enten mængde eller enhedspris er tomme, eller de begge er tomme, kan du angive en værdi manuelt i feltet. |
-| Moms |  Angiv omsætningsskattebeløbet. |
-| Samlet beløb | Det samlede beløb på underentrepriselinjen, når moms er indregnet. |
-
+| **Felt** | **Beskrivelse** | **Funktionspåvirkning** |
+| --- | --- | --- |
+| Navn | Navnet på underentrepriselinjen for at hjælpe med identifikationen. | Dette vises som den første kolonne i alle opslag baseret på underentrepriselinjer. |
+| Beskrivelse | En kort beskrivelse af de tjenester, der købes på underentrepriselinjen. |Intet |
+| Linjetype |   Dette felts standardværdi er **Mængdebaseret**.| Intet |
+| Faktureringsmetode | Dette er en grupperet indstilling, der repræsenterer de to primære kontraktmodeller, som understøttes af Project Operations: **Fast pris** og **Tid og materialer**. | På grundlag af den valgte faktureringsmetode gøres en milepælsbaseret fakturaplan tilgængelig for underentrepriselinjer med faktureringsmetoden Fast pris. |
+| Transaktionsklasse | Standardværdien er **Tid**. | Dette angiver, at underentrepriselinjen bruges til at registrere et køb af underentreprisens tid. |
+| Rolle | Vælg rollen for de underentrepriseressourcer, hvor tid købes. | Den rolle, der udføres af underentrepriseressourcerne, bestemmer omkostningerne ved købet. |
+| Ønsket start | Angiv den dato, hvor underentrepriseressourcerne skal bruges for at begynde at arbejde. | Dette bruges til at vælge en projektprisliste fra de projektprislister, der er knyttet til underentreprisen. Omkostningerne for rollen på underentrepriselinjen kommer fra den pågældende prisliste. |
+| Anmodet afslutning | Angiv den dato, hvor underentreprisens ressourcetildeling slutter. | Den bruges til at vise advarsler, når en projektleder trækker på kapaciteten i forbindelse med ressourcekrav, der opstår efter denne dato. |
+| Bestilt antal | Angiv antallet af timer for den rolle, der købes fra leverandøren. | Den bruges til at vise advarsler, når en projektleder overforbruger denne kapacitet for ressourcekrav. |
+| Enhedsgruppe | Standardværdien er **Tidsenhedsgruppe**, som ikke kan ændres. | Intet|
+| Enhed | Standarden for dette felt er basisenheden for timer fra **Tidsenhedsgruppen**. Du kan ændre denne værdi for at købe en hvilken som helst enhed af **Tidsenhedsgruppen** såsom dag eller uge. | Kombinationen af **Rolle** og **Enhed** bruges som standarden eller beregnes for enhedsprisen for underentrepriselinjen. |
+| Enhedspris | Standardenhedsprisen bruger kombinationen af **Rolle** og **Enhed** fra de projektprislister, der er anvendelige for datoen for **Anmodet start** på underentrepriselinjen. | Når den gældende projektprisliste har konfigureret prisen i en anden enhed end enheden på underentrepriselinjen, bruger systemet enhedskonverteringen til at beregne enhedsprisen. |
+| Subtotal |    Dette er et skrivebeskyttet felt, der beregnes som Mængde X Enhedspris, hvis der angives både mængde- og enhedsprisværdier. Hvis enten mængde eller enhedspris er tomme, eller de begge er tomme, kan du angive en værdi manuelt i feltet. | Intet|
+| Moms |   Angiv omsætningsskattebeløbet. |Intet |
+| Samlet beløb | Det samlede beløb på underentrepriselinjen inklusive moms. Denne værdi beregnes som delsum + salgsmoms.|Intet |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
