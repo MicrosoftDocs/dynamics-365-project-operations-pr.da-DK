@@ -2,16 +2,16 @@
 title: Opret et arbejdsopgavehierarki
 description: I dette emne forklares det, hvordan du kan oprette et arbejdsopgavehierarki (WBS), inklusive basiskontrolelementerne i den nye planlægningsgrænseflade.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998724"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655410"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opret et arbejdsopgavehierarki (WBS)
 
@@ -117,5 +117,26 @@ Opgavetilstanden påvirker ikke de opdateringer, der er foretaget af start- og s
 
 Gitteret **Planlægning** er fuldt tilgængeligt og kan bruges sammen med skærmlæsere, f.eks. Oplæser, JAWS eller NVDA. Du kan flytte gennem gitterområdet ved hjælp af piletasterne (som i Microsoft Excel), du kan bruge tabulatortasten til at gennemblade de interaktive brugergrænsefladeelementer, og du kan bruge pil ned-tasten, tasten ENTER eller mellemrumstasten til at åbne og aktivere rullemenuerne.
 
+## <a name="project-limitations"></a>Projektbegrænsninger 
+Du skal være opmærksom på følgende begrænsninger, hvis du bruger arbejdsopgavehierarkiet i Project Operations. Disse grænseværdier gælder for projekter og opgaver. Du kan finde flere oplysninger under [Grænseværdier og grænser for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Felt**                                          |  **Grænse**           |
+|----------------------------------------------------|----------------------|
+| Det maksimale samlede antal opgaver for et projekt                  | 500                  |
+| Den maksimale samlede varighed af et projekt               | 3.650 dage (10 år) |
+| Det maksimale samlede antal ressourcer for et projekt              | 150                  |
+| Det maksimale samlede antal links (kun efterfølger) for et projekt | 600                  |
+| Det maksimale samlede antal brugertilpassede felter for et projekt          | 10                   |
+
+**Opgavebegrænsninger**
+
+| **Felt**                               |   **Grænse**           |
+|-----------------------------------------|-----------------------|
+| Det maksimale hierarkiniveau                 | 10 niveauer             |
+| Det maksimale antal links (efterfølger + forgænger) | 20                    |
+| Den maksimale varighed af bladopgaver           | 1250 dage             |
+| Den maksimale varighed af en opsummeringsopgave      | 3.650 dage (10 år)  |
+| Det maksimale antal ressourcer, der kan tildeles en opgave    | 20 ressourcer          |
+| Understøttet datointerval for en opgave         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

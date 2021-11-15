@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integration af leverandørfaktura
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Afinstaller Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
         - name: Oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
+            - name: Projektplanlægningens API-ydeevne
+              href: project-management/project-schedule-api-performance.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
+            - name: Projektplanlægningens API-ydeevne
+              href: project-management/project-schedule-api-performance.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -1102,6 +1108,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 37. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-37.md
         - name: 'Nyheder eller ændringer i den 36. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-36.md
         - name: 'Nyheder eller ændringer i den 35. opdateringsudgivelse, v3'
