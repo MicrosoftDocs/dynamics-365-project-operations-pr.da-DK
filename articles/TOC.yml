@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
+        - name: November 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: September 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Projektplanlægningens API-ydeevne
               href: project-management/project-schedule-api-performance.md
+            - name: Projektplanlægningslogfiler
+              href: project-management/schedule-api-logs.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -544,6 +548,8 @@
       items:
         - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheder i november 2021 – lille udrulning
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Nyheder i oktober 2021 – lille udrulning
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Nyheder i september 2021 – lille udrulning
@@ -952,6 +958,10 @@
   items:
     - name: Nyheder
       items:
+        - name: Nyheder oktober 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Nyheder september 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Nyheder juli 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Nyheder maj 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
@@ -1108,6 +1118,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 37.5. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Nyheder eller ændringer i den 37. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-37.md
         - name: 'Nyheder eller ændringer i den 36. opdateringsudgivelse, v3'

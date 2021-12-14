@@ -2,7 +2,7 @@
 title: Hent en kvittering ved hjælp af optisk tegngenkendelse
 description: Dette emne indeholder oplysninger om behandling af kvitteringer ved hjælp af optisk tegngenkendelse (OCR).
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007724"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798033"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Hent en kvittering ved hjælp af optisk tegngenkendelse
 
@@ -85,7 +85,18 @@ Nej, Microsoft har udviklet en generel maskinel indlæringsmodel til sin tjenest
 
 **Hvor er denne funktion tilgængelig og behandlet?**
 
-USA understøttes i øjeblikket.
+Tilgængeligheden af denne funktion i forskellige områder er angivet i følgende tabel. Hvis dit område ikke understøttes i øjeblikket, skal du indsende en anmodning om at prioritere tilgængeligheden af OCR-tjenesten i dit område. 
+
+| Land/område | Understøttet                         |
+|--------|-----------------------------------|
+| USA    | Ja                               |
+| CAN    | Ja                               |
+| Storbritannien     | Ja                               |
+| AUS    | Ja                               |
+| EU     | Delvist. Kun engelske kvitteringer. |
+| Asien   | Nr.                                |
+| Japan  | Nr.                                |
+| Afrika | Nr.                                |
 
 **Hvor forsvinder mine kvitteringer hen?**
 
