@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Opdateringer til Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Fjernede eller udfasede funktioner
+      items:
+        - name: Fjernede eller udfasede funktioner i Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations for ressource-/ikke-lagerbaserede scenarier
   items:
     - name: Start her
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
+        - name: December 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Konfiguration af kilometertal ved hjælp af niveauer for kilometertal
               href: expense/set-up-mileage.md
+        - name: Udgiftsspecificering
+          href: prod-exp/expense-itemization.md
         - name: Personlige udgifter
           href: expense/personal-expenses-expense-report.md
         - name: Interne udgifter
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Administrer omsætningsestimater
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Fejlfinding
+      items:
+        - name: Salgsproces for projekt
+          items:
+            - name: 'Fejl i valutauoverensstemmelse ved oprettelse af en projekt-, kontrakt- eller tilbudsressource eller en reserverbar ressource'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Lille udrulning - aftale til proformafakturering
   items:
     - name: Start her
@@ -548,6 +562,8 @@
       items:
         - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheder i december 2021 – lille udrulning
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Nyheder i november 2021 – lille udrulning
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Nyheder i oktober 2021 – lille udrulning
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Milepæle for underleverandørlinjer
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Medlemmer af underleverandørs projektteam
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Projektteammedlemmers indstillinger for underleverandør
+          href: pro/subcontracting/subcon-options.md
+        - name: Omkostningsestimering af tildelinger af ressourcer fra underleverandør
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurer planlægningsområde for at vise kontraktmedarbejdere og underleverandørkapacitet
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bemanding af et projekt med kontraktmedarbejdere og underleverandørkapacitet
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrering af tid, udgifter og materialeforbrug for komponenter fra underleverandører'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Stillingsskifts tilstand i en underentreprise
+          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Tidsoversigt
@@ -1082,7 +1112,7 @@
           href: expense/configure-expense-management-parameters.md
         - name: Konfigurer integration af kreditkort
           href: expense/set-up-credit-card-integration.md
-        - name: Konfigurer udgiftskategorier
+        - name: Konfiguration af udgiftskategorier
           href: expense/set-up-expense-categories.md
     - name: Personlige udgifter
       href: expense/personal-expenses-expense-report.md
@@ -1118,6 +1148,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 38. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-38.md
         - name: 'Nyheder eller ændringer i den 37.5. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Nyheder eller ændringer i den 37. opdateringsudgivelse, v3'
@@ -1204,9 +1236,11 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Rapporteringsvejledning
           href: psa/implementation-guides/reporting-guide.md
+    - name: Opgrader fra Project Service Automation til Project Operations – lille
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Opgradering af Project Service Automation (appversion 3.x)
       items:
-        - name: Opgrader Project Service Automation
+        - name: Opgraderings af Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: Overvejelser vedrørende opgradering - version 2.x eller 1.x til version 3
           href: psa/upgrade-v3.md

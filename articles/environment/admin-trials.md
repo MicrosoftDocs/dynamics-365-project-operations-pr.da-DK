@@ -2,16 +2,16 @@
 title: Tilmeld dig prøveversioner af Project Operations
 description: Dette emne indeholder oplysninger om, hvordan du udruller en prøveversion af Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599206"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901610"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Tilmeld dig prøveversioner af Project Operations 
 
@@ -90,7 +90,8 @@ Inden du begynder, skal du logge på en browser med brugerkontoen i den lejer, h
 4.  Vælg den respektive URL-adresse for Microsoft Dataverse og for Finance and Operations- apps for at validere udrulningen.
 
 ## <a name="configuring-dual-write"></a>Konfiguration af dobbeltskrivning
-I forbindelse med udrulninger af ikke-lagerførte materiale skal du konfigurere dine tilknytninger med dobbeltskrivning. Du kan finde flere oplysninger i [versioner af tilknytning af dobbeltskrivning i Project Operations](resource-dual-write-maps.md).
+- Hvis du vil konfigurere sikkerhedsroller for dobbelt skrivning, skal du se [Opdatering af sikkerhedsindstillinger for Project Operations i Dataverse](resource-provision-new-environment.md).
+- Hvis du vil konfigurere tilknytninger med dobbelt skrivning, skal du se [Kør tilknytninger af dobbelt skrivning i Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Tildele licenser
 

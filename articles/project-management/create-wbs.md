@@ -2,16 +2,16 @@
 title: Opret et arbejdsopgavehierarki
 description: I dette emne forklares det, hvordan du kan oprette et arbejdsopgavehierarki (WBS), inklusive basiskontrolelementerne i den nye planlægningsgrænseflade.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655410"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928608"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opret et arbejdsopgavehierarki (WBS)
 
@@ -95,7 +95,7 @@ Som en administrator kan du definere brugerdefinerede felter i opgaveobjektet. F
 
 ## <a name="staffing-attributes"></a>Bemandingsattributter
 
-Der kan opnås adgang til medarbejderattributter via feltet **Ressourcer** i tidsplanen. Du kan enten søge efter en eksisterende ressource eller vælge **Opret** og i ruden **Hurtig oprettelse** tilføje et medlem af projektteamet som en ny ressource.
+Der kan opnås adgang til medarbejderattributter via feltet **Ressourcer** i tidsplanen. Du kan enten søge efter en eksisterende ressource eller vælge **Opret** og i ruden **Hurtig oprettelse** tilføje et medlem af projektteamet som en ny ressource.  Når du søger efter en ressource ved hjælp af ressourcevælgeren i opgavegitteret, i områdevisningen eller i gantt, returnerer søgningen enten eksisterende medlemmer af projektteams eller aktive ressourcer, der kan reserveres.
 
 Felterne **Rolle**, **Ressourceenhed** og **Navn på stilling** bruges til at beskrive personalekravene for opgaven. Disse medarbejderattributter sammen med opgaveplanlægning bruges til at finde tilgængelige ressourcer til udførelse af denne opgave.
 
@@ -127,6 +127,7 @@ Du skal være opmærksom på følgende begrænsninger, hvis du bruger arbejdsopg
 | Det maksimale samlede antal ressourcer for et projekt              | 150                  |
 | Det maksimale samlede antal links (kun efterfølger) for et projekt | 600                  |
 | Det maksimale samlede antal brugertilpassede felter for et projekt          | 10                   |
+| Maksimalt antal kontrollisteelementer pr. opgave                   | 20                   |
 
 **Opgavebegrænsninger**
 

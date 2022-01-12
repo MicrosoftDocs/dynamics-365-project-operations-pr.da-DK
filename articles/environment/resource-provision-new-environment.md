@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501409"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928654"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
@@ -159,7 +159,6 @@ Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført
       - **Regnskabskalender**
       - **Hovedbog**
       - **Firma**
-      - **Type af valutakurs**
       - **Udgift**
 
 5. Når sikkerhedsrollen er blevet opdateret, skal du gå til **Indstillinger** > **Sikkerhed** > **Teams** og vælge standardteamet i teamvisningen **Lokal virksomhedsejer**.

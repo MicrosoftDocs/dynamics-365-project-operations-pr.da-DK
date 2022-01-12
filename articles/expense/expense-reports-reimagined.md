@@ -1,8 +1,8 @@
 ---
-title: Nye udgiftsrapporter
+title: Nydesignede udgiftsrapporter (indeholder video)
 description: Dette emne beskriver den nydesignede og genskabte oplevelse af indtastning af udgiftsrapporter.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997824"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941024"
 ---
 # <a name="expense-reports-reimagined"></a>Nye udgiftsrapporter
 
@@ -58,6 +58,7 @@ Hvis du vil slå den nye oplevelse til, skal du bruge arbejdsområdet **Funktion
 | Gem og tilføj nye udgiftslinjer | Knapperne **Gem** og **Ny** er tilgængelige, når der angives nye udgifter, så du hurtigt kan angive udgiftslinjer. |
 | Bedre synlighed til opdelte og specificerede linjer | De specificerede og opdelte linjer tilføjes direkte til listen over udgifter for at øge synligheden og hjælpe dig med hurtigt at finde ud af, om der er opstået fejl. |
 | Få vist detaljer om underkategorier i specificerede linjer | Specificerede linjer i en overordnet udgift viser underkategorietiketterne i udgiftsrapporten. Med opdelingen kan du hurtigt gennemse de specifikke detaljer.|
+|Specificér hurtigt tilbagevendende udgifter | I det nydesignede arbejdsområde for udgifter kan du hurtigt specificere tilbagevendende udgifter ved at tilføje underkategorien, startdatoen og mængden. Mængden henviser til antal gange, som beløbet gentages over en løbende periode. |
 | Vis kvitteringer under specifikation | Kvitteringer kan vises under specifikation. |
 | Valg af kontaktforskud | Vælg en eller flere kontantforskud for at gennemføre en enkelt udgiftstransaktion. |
 | Kontantforskudssaldi | Gennemse saldoen for kontantforskud i realtid, når du opretter en udgiftspost, i forhold til godkendte og betalte kontantforskud. |
