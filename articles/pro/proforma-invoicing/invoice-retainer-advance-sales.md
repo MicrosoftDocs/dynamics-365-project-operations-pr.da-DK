@@ -2,16 +2,18 @@
 title: Fakturer et forskudshonorar eller et forskud
 description: Dette emne indeholder oplysninger om, hvordan du fakturerer et forskudshonorar eller et forskud i Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997464"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596185"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturer et forskudshonorar eller et forskud
 
@@ -49,6 +51,3 @@ Dette kan ses i gitteret **Anvendte forskudshonorarer og forskud** på siden **F
 | Anvendt beløb | Gitteret **Anvendte forskudshonorarer og forskud** på siden **Projektfaktura**  | Dette skrivebeskyttede felt indeholder den beregnede værdi, som opsummerer, hvor meget af forskudshonoraret eller forskuddet, der er blevet brugt. | Dette felt kan vises for kunden på den udskrevne faktura for at angive den del af forskudshonoraret eller forskuddet, der allerede er blevet brugt. |
 | Samlet beløb | Gitteret **Anvendte forskudshonorarer og forskud** på siden **Projektfaktura**  | Dette redigerbare felt indeholder beløbet for det forskudshonorar eller forskud, der bruges på denne projektfaktura. Dette beløb kan ikke være højere, end det beløb, der er disponibelt i forskuddet. Systemet beregner automatisk dette som differencen mellem felterne **Beløb** og **Brugt beløb** i gitteret. Du kan reducere dette beløb for at bruge mindre end det, der er tilgængeligt, men du kan ikke forøge beløbet for at bruge mere end det, der er tilgængeligt. | Dette felt kan vises for kunden på den udskrevne faktura for at angive den del af forskudshonoraret eller forskuddet, der blev brugt på fakturaen. |
 | Saldobeløb for forskudshonorar. | Gitteret **Anvendte forskudshonorarer og forskud** på siden **Projektfaktura**  | Dette skrivebeskyttede felt indeholder værdien for, hvor meget af forskudshonoraret eller forskuddet der er tilbage, når fakturaen er bekræftet. | Dette felt kan vises for kunden på den udskrevne faktura for at angive den del af forskudshonoraret eller forskuddet, der vil være tilbage, når fakturaen er bekræftet og betalt. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

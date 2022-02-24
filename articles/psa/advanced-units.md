@@ -2,6 +2,8 @@
 title: Enhedsgrupper og enheder
 description: Dette emne indeholder oplysninger om enhedsgrupper og enheder.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987564"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145576"
 ---
 # <a name="unit-groups-and-units"></a>Enhedsgrupper og enheder
 
@@ -44,7 +46,7 @@ Hvis du f.eks. i en **Tid**-enhedsgruppe konfigurerer **Time** som første enhed
 
 I følgende billede vises et eksempel på en opsætning af enheden **Dag** , hvor feltet **Antal** viser det antal timer, der er på en dag, og **Uge**, hvor feltet **Antal** indeholder antallet af dage i en uge.
 
-> ![Enhedsgruppe: siden Oplysninger.](media/advanced-2.png)
+> ![Enhedsgruppe: siden Oplysninger](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Brug af enheder og enhedsgrupper
 
@@ -84,9 +86,9 @@ I følgende eksempel vises, hvordan PSA bruger enhedsgruppe, enheder og konverte
     - **Standardtidsenhed**: dag 
     - **Valuta**: GBP
 
-| Rolle      | Enhedsgruppe | Enhed | Afdeling | Pris   |
+| Rolle      | Enhedsgruppe | Enhed | Afdeling: | Pris   |
 |-----------|------------|------|---------------------|---------|
-| Udvikler | Tid       | Dag  | Contoso UK          | 800 GBP |
+| Udvikler | Tidspunkt       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Tidsregistrering
 
@@ -110,6 +112,3 @@ Nej. Estimeret tidsplan er i øjeblikket begrænset til timer og kan ikke ændre
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kan enheder og enhedsgrupper redigeres, slettes og tilføjes?
 Ja. Med undtagelse af enhedsgruppen **Tid** og enheden **Time** kan alle enheder slettes eller redigeres, og der kan tilføjes nye enheder. I PSA kan enhedsgruppen **Tid** og enheden **Time** ikke slettes. De kan dog opdateres med en oversat tekst til feltet **Navn**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

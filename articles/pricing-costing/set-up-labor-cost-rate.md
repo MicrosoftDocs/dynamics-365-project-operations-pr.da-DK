@@ -2,16 +2,18 @@
 title: Konfigurer satser for arbejdskraftomkostninger
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer satser for arbejdskraftomkostninger i Project Operations
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986169"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180590"
 ---
 # <a name="set-up-labor-cost-rates"></a>Konfigurer satser for arbejdskraftomkostninger
 
@@ -38,7 +40,7 @@ Følgende tabel indeholder nogle af de felter, der er vigtige, når du opretter 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Overførsel af priser og omkostninger for ressourcer uden for din afdeling eller juridiske enhed
 
-I projektbaserede virksomheder er det almindeligt at anvende medarbejdere fra andre juridiske enheder eller afdelinger på projekter. Et projekt kan udføres af en bestemt juridisk enhed, men medarbejdere eller konsulenter, der arbejder på projektet, kan komme fra samme juridiske enhed eller en anden eller måske en kombination af begge. I Dynamics 365 Project Operations er den juridiske enhed, der ejer leveringen af projektet, den **ejende virksomhed**, og den division, der ejer leveringen, er **Kontraktenheden**. Andre juridiske enheder, der leverer ressourcer, kaldes **Ressourcevirksomheder**, og de afdelinger, der leverer ressourcer, kaldes **Ressourceenheder**. I de fleste lande er virksomheder forpligtet til at sikre, at den juridiske ressourceenhed eller afdeling opkræver betaling ved den ejende virksomhed og kontraktenheden for at bruge ressourcerne.
+I projektbaserede virksomheder er det almindeligt at anvende medarbejdere fra andre juridiske enheder eller afdelinger på projekter. Et projekt kan udføres af en bestemt juridisk enhed, men medarbejdere eller konsulenter, der arbejder på projektet, kan komme fra samme juridiske enhed eller en anden eller måske en kombination af begge. I Dynamics 365 Project Operations er den juridiske enhed, der ejer leveringen af projektet, den **Ejende virksomhed**, og den afdeling, der ejer leveringen, er **Kontraktenheden**. Andre juridiske enheder, der leverer ressourcer, kaldes **Ressourcevirksomheder**, og de afdelinger, der leverer ressourcer, kaldes **Ressourceenheder**. I de fleste lande er virksomheder forpligtet til at sikre, at den juridiske ressourceenhed eller afdeling opkræver betaling ved den ejende virksomhed og kontraktenheden for at bruge ressourcerne.
 
 Fabrikam-koncernen skal f.eks. sikre, at Fabrikam Robotics i Indien har forhandlet en omkostningssatstabel med Fabrikam Robotics i USA eller Fabrikam Robotics i Storbritannien.
 
@@ -82,6 +84,3 @@ På kostprislisten for Fabrikam i Storbritannien-Robotics kan omkostningssatser 
 | Udvikler | Fabrikam i Storbritannien | 115 GBP |
 
 Kostprislisten kan levere satser for arbejdskraft i flere valutaer. Når der genereres et omkostningsestimat for projektet, konverterer Project Operations disse omkostningssatser til projektvalutaen og viser dem til brugeren. Når en tidsregistrering godkendes, og der oprettes et faktisk omkostningsbeløb, prisfastsættes den faktiske omkostning i den valuta, der gælder for den tilsvarende rolleprislinje på kostprislisten. Faktiske omkostninger for tid på et enkelt projekt kan registreres i flere valutaer. Når Project Operations akkumulerer eller opsummerer de faktiske omkostninger til arbejdskraft på projektniveau, konverteres alle omkostninger til arbejdskraft til projektvalutaen, som brugeren kan få vist.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

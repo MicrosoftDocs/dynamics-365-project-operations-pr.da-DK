@@ -2,6 +2,8 @@
 title: Avanceret tilbudsafgivning, prisfastsættelse og fakturering
 description: Dette emne indeholder oplysninger om tilbudsafgivning, fakturering og prisfastsættelse i Project Service Automation.
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4e589c83b8d9b0946f331b5ad03f4946fcddf6813a1529fb65d9b86f8ebf3a07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ef2698b52bd5a89a10ff0be6aff3d98e6917e95c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985629"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149176"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Avanceret vejledning til bestilling, prisfastsættelse og fakturering
 
@@ -50,6 +52,3 @@ Det PDF-link, der tidligere var i dette emne, er blevet fjernet, og indholdet er
 
 > [!NOTE]
 > Denne emne fjernes i en fremtidig dokumentationsopdatering. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

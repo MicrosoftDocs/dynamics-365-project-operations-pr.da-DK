@@ -2,9 +2,11 @@
 title: Opret estimater på en tilbudslinje
 description: Dette emne indeholder oplysninger om, hvordan du opretter et estimat på en tilbudslinje i et projekt.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996429"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122921"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Opret estimater på en tilbudslinje
 
@@ -86,6 +88,3 @@ Hvis du har tilføjet et brugerdefineret felt på tilbudslinjedetaljen og ønske
 7. Vælg **OK** for at lukke dialogboksen, og vælg derefter **Opdater trin**.
 8. Gentag trin 1 til 7 for den anden plug-in.
 9. Luk PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

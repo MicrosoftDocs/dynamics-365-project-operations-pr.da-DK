@@ -1,19 +1,21 @@
 ---
-title: Administrer en projektbaseret proformafaktura
-description: Dette emne indeholder oplysninger om, hvordan du administrerer og arbejder med projektbaserede proformafakturaer.
+title: Administrer en proformafaktura
+description: Dette emne indeholder oplysninger om, hvordan du administrerer og arbejder med proformafakturaer.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cba74c14f6d039dce0650f25ee04cbe35ec8f668b774cdaaa3bbf1aab99cb44d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989319"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181445"
 ---
-# <a name="manage-a-proforma-project-based-invoice"></a>Administrer en projektbaseret proformafaktura
+# <a name="manage-a-proforma-invoice"></a>Administrer en proformafaktura
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
@@ -26,117 +28,110 @@ I Dynamics 365 Project Operations er proformafakturaer bygget som en udvidelse t
 
 Følgende oplysninger er tilgængelige i forbindelse med en overskrift til en proformafaktura i Project Operations.
 
-| Felt | Lokation | Beskrivelse |
-| --- | --- | --- | 
-| **Faktura-id** | Fanen **Oversigt** | App-id'et, der genereres automatisk, når en proformafaktura oprettes. Et skrivebeskyttet felt, der er låst mod redigering. Dette felt bruges som reference for hver proformafaktura. |
-| **Navn** | Fanen **Oversigt** | Angiv navnet på standardprojektkontrakten. Dette felt kan redigeres. | 
-| **Valuta** | Fanen **Oversigt** | Angiv valutaen for standardprojektkontrakten. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Prisliste** | Fanen **Oversigt** | Angiv prislisten for standardprojektkontrakten. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Salgsmulighed** | Fanen **Oversigt** | Referencen til den sammenkædede salgsmulighed. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Kontrakt** | Fanen **Oversigt** | Referencen til den sammenkædede projektkontrakt. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Kunde** | Fanen **Oversigt** | Referencen til den sammenkædede projektkontrakt. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Beskrivelse** | Fanen **Oversigt** | Det tekstfelt, der beskriver fakturaen. Dette felt kan redigeres. | 
-| **Faktureres til** og relaterede felter | **Fanen Oversigt** | Standard angives fra projektkontraktkunden. Dette felt kan redigeres.  | 
-| **Status** | Fanen **Oversigt** | Angiver følgende indstillinger: **Aktiv**, **Lukket**, **Betalt** og **Annulleret** og kan redigeres. Ikke-understøttede statusser for Project Operations omfatter **Lukkede** og **Annullerede**. </br> Status angives til **Aktiv**, når fakturaen oprettes. </br>Statussen bør angives til kun at blive **Betalt**, når fakturaen er bekræftet.  | 
-| **Projektfakturastatus** | Fanen **Oversigt** | Angiver følgende indstillinger: **Kladde**, **Under revision** og **Bekræftet** og kan redigeres. Fakturaen kan redigeres både i statusserne **Kladde** og **Gennemgås**. Fakturaen kan ikke redigeres, når den er bekræftet. | 
-| **Detaljebeløb** | Fanen **Oversigt** | Summen af beløbene på alle fakturalinjerne efter forskud og fradrag. Et skrivebeskyttet felt, der er låst mod redigering.  Dette felt bruges til at beregne det endelige beløb. | 
-| **Rabat (%)** | Fanen **Oversigt** | Du kan redigere feltet, hvis du vil angive en rabatprocent. Dette felt understøttes ikke af funktionaliteten Project Operations. Dette felt understøttes ikke.|  
-| **Rabatbeløb** | Fanen **Oversigt** | Du kan redigere feltet, hvis du vil angive rabatbeløbet. Dette felt understøttes ikke af funktionaliteten Project Operations. Dette felt understøttes ikke. |  
-| **Beløb før fragt** | **Fanen Oversigt** | Det samlede fakturabeløb, efter at rabatter er anvendt. Et skrivebeskyttet felt, der er låst mod redigering. Dette felt bruges til at beregne det endelige beløb.  | 
-| **Fragtbeløb** | Fanen **Oversigt** | Du kan redigere feltet, hvis du vil angive fragtbeløbet. Dette felt understøttes ikke af funktionaliteten Project Operations. Dette felt understøttes ikke. |
-| **Samlet moms** | Fanen **Oversigt** | Den samlede moms fra alle fakturalinjer på fakturaen. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Samlet beløb** | Fanen **Oversigt** | Summen af beløbet efter rabatter og moms. Summen er det beløb, som kunden skal betale. | 
+| Felt | Lokation | Beskrivelse | Downstream-virkning |
+| --- | --- | --- | --- |
+| **Faktura-id** | Fanen **Oversigt** | App-id'et, der genereres automatisk, når en proformafaktura oprettes. Et skrivebeskyttet felt, der er låst mod redigering. | Dette felt bruges som reference for hver proformafaktura. |
+| **Navn** | Fanen **Oversigt** | Angiv navnet på standardprojektkontrakten. Dette felt kan redigeres af brugeren. | &nbsp;  |
+| **Valuta** | Fanen **Oversigt** | Angiv valutaen for standardprojektkontrakten. Et skrivebeskyttet felt, der er låst mod redigering. |&nbsp; |
+| **Prisliste** | Fanen **Oversigt** | Angiv prislisten for standardprojektkontrakten. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Salgsmulighed** | Fanen **Oversigt** | Referencen til den sammenkædede salgsmulighed. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp;  |
+| **Kontrakt** | Fanen **Oversigt** | Referencen til den sammenkædede projektkontrakt. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Kunde** | Fanen **Oversigt** | Referencen til den sammenkædede projektkontrakt. Et skrivebeskyttet felt, der er låst mod redigering. |&nbsp;  |
+| **Beskrivelse** | Fanen **Oversigt** | Det tekstfelt, der beskriver fakturaen. Dette felt kan redigeres af brugeren. | &nbsp; |
+| **Faktureres til** og relaterede felter | **Fanen Oversigt** | Standard angives fra projektkontraktkunden. Dette felt kan redigeres af brugeren.  | &nbsp; |
+| **Status** | Fanen **Oversigt** | Angiver følgende indstillinger: **Aktiv**, **Lukket**, **Betalt** og **Annulleret** og kan redigeres af brugeren. | Ikke-understøttede statusser for Project Operations omfatter **Lukkede** og **Annullerede**. </br> Status angives til **Aktiv**, når fakturaen oprettes. </br>Statussen bør angives til kun at blive **Betalt**, når fakturaen er bekræftet. |
+| **Projektfakturastatus** | Fanen **Oversigt** | Angiver følgende indstillinger: **Kladde**, **Gennemgås** og **Bekræftet** og kan redigeres af brugeren. | Fakturaen kan redigeres både i statusserne **Kladde** og **Gennemgås**. Fakturaen kan ikke redigeres, når den er bekræftet. |
+| **Detaljebeløb** | Fanen **Oversigt** | Summen af beløbene på alle fakturalinjerne efter forskud og fradrag. Et skrivebeskyttet felt, der er låst mod redigering. | Dette felt bruges til at beregne det endelige beløb. |
+| **Rabat (%)** | Fanen **Oversigt** | Du kan redigere feltet, hvis du vil angive en rabatprocent. Dette felt understøttes ikke af funktionaliteten Project Operations. | Dette felt understøttes ikke. |
+| **Rabatbeløb** | Fanen **Oversigt** | Du kan redigere feltet, hvis du vil angive rabatbeløbet. Dette felt understøttes ikke af funktionaliteten Project Operations. | Dette felt understøttes ikke. |
+| **Beløb før fragt** | **Fanen Oversigt** | Det samlede fakturabeløb, efter at rabatter er anvendt. Et skrivebeskyttet felt, der er låst mod redigering. | Dette felt bruges til at beregne det endelige beløb. |
+| **Fragtbeløb** | Fanen **Oversigt** | Du kan redigere feltet, hvis du vil angive fragtbeløbet. Dette felt understøttes ikke af funktionaliteten Project Operations. | Dette felt understøttes ikke. |
+| **Samlet moms** | Fanen **Oversigt** | Den samlede moms fra alle fakturalinjer på fakturaen. Et skrivebeskyttet felt, der er låst mod redigering. | Ingen. |
+| **Samlet beløb** | Fanen **Oversigt** | Summen af beløbet efter rabatter og moms. | Summen er det beløb, som kunden skal betale. |
 
 ## <a name="project-based-invoice-lines"></a>Projektbaserede fakturalinjer
 
 I Project Operations er der altid én fakturalinje for hver projektkontraktlinje. Fakturalinjen oprettes, selvom der ikke er faktiske værdier. Følgende oplysninger er tilgængelige på en proformafakturalinje.
 
-| Felt | Lokation | Beskrivelse | 
-| --- | --- | --- |
-| **Faktura-id** | Fanen **Generelt** | Referencen til faktura-id'et. Et skrivebeskyttet felt, der er låst mod redigering. Du kan bruge linket til faktura-id'et til at navigere tilbage til fakturaens overskrift. | 
-| **Navn** | Fanen **Generelt** | Navnet på den fakturalinje, der som standard angives ud fra kontraktlinjenavnet. Dette felt kan redigeres. |
-| **Project** | Fanen **Generelt** | Projektet på den relaterede projektkontraktlinje. Et skrivebeskyttet felt, der er låst mod redigering. Projektlinket kan bruges til at navigere til projektet. | 
-| **Faktureringsmetode** | Fanen **Generelt** | Faktureringsmetoden på den relaterede projektkontraktlinje. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Kontraktlinjebeløb** | Fanen **Generelt** | Kontraktbeløber på den relaterede projektkontraktlinje. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Faktureret indtil dato** | Fanen **Generelt** | Summen af beløb for alle fakturalinjedetaljer på denne faktura. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Beløb** | Fanen **Generelt** | Summen af beløb for alle fakturernare fakturalinjedetaljer på denne faktura. Et skrivebeskyttet felt, der er låst mod redigering. Dette felt bruges til at beregne det endelige beløb i overskriften til fakturaen. | 
-| **Moms** | Fanen **Generelt** | Summen af momsbeløb for alle fakturalinjedetaljer på denne fakturalinje. Et skrivebeskyttet felt, der er låst mod redigering. Dette felt bruges til at beregne det endelige momsbeløb i overskriften til fakturaen. | 
-| **Samlet beløb** | Fanen **Generelt** | Summen af de samlede momsbeløb (**moms+beløb**) for alle fakturerbare fakturalinjedetaljer på denne fakturalinje. Et skrivebeskyttet felt, der er låst mod redigering. Dette felt bruges til at beregne det endelige beløb i overskriften til fakturaen. |
+| Felt | Lokation | Beskrivelse | Downstream-virkning |
+| --- | --- | --- | --- |
+| **Faktura-id** | Fanen **Generelt** | Referencen til faktura-id'et. Et skrivebeskyttet felt, der er låst mod redigering. | Du kan bruge linket til faktura-id'et til at navigere tilbage til fakturaens overskrift. |
+| **Navn** | Fanen **Generelt** | Navnet på den fakturalinje, der som standard angives ud fra kontraktlinjenavnet. Dette felt kan redigeres af brugeren. | &nbsp; |
+| **Project** | Fanen **Generelt** | Projektet på den relaterede projektkontraktlinje. Et skrivebeskyttet felt, der er låst mod redigering. | Projektlinket kan bruges til at navigere til projektet. |
+| **Faktureringsmetode** | Fanen **Generelt** | Faktureringsmetoden på den relaterede projektkontraktlinje. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Kontraktlinjebeløb** | Fanen **Generelt** | Kontraktbeløber på den relaterede projektkontraktlinje. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Faktureret indtil dato** | Fanen **Generelt** | Summen af beløb for alle fakturalinjedetaljer på denne faktura. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Beløb** | Fanen **Generelt** | Summen af beløb for alle fakturernare fakturalinjedetaljer på denne faktura. Et skrivebeskyttet felt, der er låst mod redigering. | Dette felt bruges til at beregne det endelige beløb i overskriften til fakturaen. |
+| **Moms** | Fanen **Generelt** | Summen af momsbeløb for alle fakturalinjedetaljer på denne fakturalinje. Et skrivebeskyttet felt, der er låst mod redigering. | Dette felt bruges til at beregne det endelige momsbeløb i overskriften til fakturaen. |
+| **Samlet beløb** | Fanen **Generelt** | Summen af de samlede momsbeløb (**moms+beløb**) for alle fakturerbare fakturalinjedetaljer på denne fakturalinje. Et skrivebeskyttet felt, der er låst mod redigering. | Dette felt bruges til at beregne det endelige beløb i overskriften til fakturaen. |
 
 ## <a name="invoice-line-details"></a>Fakturalinjedetaljer
 
 Hver fakturalinje i en projektfaktura inkluderer oplysninger om fakturalinjer. Disse linjedetaljer er relateret til de ikke-fakturerede faktiske salgsværdier og milepæle, der vedrører den kontraktlinje, der henvises til på fakturalinjen. Alle disse transaktioner er markeret som **Klar til fakturering**.
 
-For en linje i en **Faktura for tid og materialer** grupperes fakturalinjedetaljer i **Fakturerbar**, **Ikke-fakturerbar** og **Gratis** på siden **Fakturalinje**. **Fakturerbare fakturalinje**-detaljer føjes til fakturalinjetotalen. **Gratis** og **Ikke-fakturerbare faktiske værdier** føjes ikke til fakturalinjetotalen.
+For linjen i **Faktura for tid og materialer** er fakturalinjedetaljer grupperet i **Fakturerbar**, **Ikke-fakturerbar** og **Gratis** på siden **Fakturalinje**. **Fakturerbare fakturalinje**-detaljer føjes til fakturalinjetotalen. **Gratis** og **Ikke-fakturerbare faktiske værdier** føjes ikke til fakturalinjetotalen.
 
-For en linje i en **Fastprisfaktura**, oprettes fakturalinjedetaljer ud fra milepæle, der er markeret som **Klar til fakturering** på den relaterede kontraktlinje. Når fakturalinjedetaljerne er oprettet fra en milepæl, bliver faktureringsstatussen for milepælen opdateret til **Kundefaktura er oprettet**.
+For fakturalinjen for linjen i **Faktura med fast pris** oprettes der fakturalinjedetaljer fra milepæle, der er markeret som **Klar til fakturering** på den relaterede kontraktlinje. Når fakturalinjedetaljerne er oprettet fra en milepæl, bliver faktureringsstatussen for milepælen opdateret til **Kundefaktura er oprettet**.
 
 ### <a name="edit-invoice-line-details"></a>Rediger fakturalinjedetaljer
 
 Følgende felter er tilgængelige på fakturalinjedetaljen, der er understøttet af en ikke-faktureret faktisk salgsværdi.
 
-| Felt | Beskrivelse |
-| --- | --- | 
-| **Fakturalinje** | En referencen til **Fakturalinje-id'et**. Dette felt er skrivebeskyttet og låst mod redigering. Linket kan bruges til at navigere tilbage til fakturaens overskrift. | 
-| **Beskrivelse** | En beskrivelse af fakturalinjedetaljen. Du kan som standard angive dette i feltet **Interne kommentarer** på **Tidsregistrering** og fra feltet **Beskrivelse** i **Udgiftsregistrering**. Feltet kan redigeres.| 
-| **Ekstern beskrivelse** | En beskrivelse af fakturalinjedetaljen. Du kan som standard angive dette i feltet **Eksterne kommentarer** på **Tidsregistrering** og feltet **Beskrivelse** i **Udgiftsregistrering**. Feltet kan redigeres. Denne beskrivelse kan bruges til at angive, hvad der skal stå på den udskrevne faktura, som skal sendes til kunden. I Project Operations indeholder en proformafaktura ikke alle de nødvendige funktioner til konfiguration af udskriftsindstillinger for en faktura. | 
-| **Startdato** | Dette er et skrivebeskyttet felt, der som standard angives fra den faktiske kilde. |
-| **Project** | Dette er et skrivebeskyttet felt, der som standard angives fra den faktiske kilde til projektet på den relaterede kontraktlinje. |  
-| **Opgave** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Transaktionskategori** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Rolle** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |  
-| **Reserverbar ressource** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Ressourcevirksomhed** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Ressourceenhed** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Antal** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |  
-| **Enhedsplan** | Hvis der er oplysninger om fakturalinjen for tid, angives dette altid til tid, og den kan ikke redigeres. For udgifter angives dette som standard fra kilden til de faktiske udgifter. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Enhed** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |  
-| **Pris** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Valuta** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Beløb** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Skat** | Angives som standard fra de faktiske værdikilder. Feltet kan redigeres.| 
-| **Samlet beløb** | Et beregnet felt, der er beregnet som **Beløb+moms**. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Faktureringstype** | Angives som standard fra de faktiske værdikilder. Feltet kan redigeres. Hvis du vælger **Fakturerbar**, tilføjes linjen til totalen på fakturalinjen. **Gratis** og **Ikke-fakturerbar** udelades fra fakturalinjetotalen.| 
-| **Vælg produkt** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Produkt** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Produktnavn** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |  
-| **Beskrivelse rekvirering** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Transaktionstype** | Dette er et skrivebeskyttet felt, der som standard angives fra den faktiske kilde for **Faktureret salg**. |  
-| **Transaktionsklasse** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | 
+| Felt | Beskrivelse | Downstream-virkning |
+| --- | --- | --- |
+| **Fakturalinje** | En referencen til **Fakturalinje-id'et**. Et skrivebeskyttet felt, der er låst mod redigering. | Linket kan bruges til at navigere tilbage til fakturaens overskrift. |
+| **Beskrivelse** | En beskrivelse af fakturalinjedetaljen. Du kan som standard angive dette i feltet **Interne kommentarer** på **Tidsregistrering** og fra feltet **Beskrivelse** i **Udgiftsregistrering**. Feltet kan redigeres af brugeren.| &nbsp; |
+| **Ekstern beskrivelse** | En beskrivelse af fakturalinjedetaljen. Du kan som standard angive dette i feltet **Eksterne kommentarer** på **Tidsregistrering** og feltet **Beskrivelse** i **Udgiftsregistrering**. Feltet kan redigeres af brugeren. | Denne beskrivelse kan bruges til at angive, hvad der skal stå på den udskrevne faktura, som skal sendes til kunden. I Project Operations indeholder en proformafaktura ikke alle de nødvendige funktioner til konfiguration af udskriftsindstillinger for en faktura. |
+| **Startdato** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde. |
+| **Project** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Angives som standard for projektet på den relaterede kontraktlinje. |
+| **Opgave** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde. På en rulleliste vises alle de opgaver, der er knyttet til den relaterede projektkontraktlinje.  |
+| **Transaktionskategori** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk kilde. |
+| **Rolle** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde. |
+| **Reserverbar ressource** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk kilde. |
+| **Ressourcevirksomhed** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde. |
+| **Ressourceenhed** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde. |
+| **Antal** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde. |
+| **Enhedsplan** | Hvis der er oplysninger om fakturalinjen for tid, angives dette altid til tid, og den kan ikke redigeres. For udgifter angives dette som standard fra kilden til de faktiske udgifter. Et skrivebeskyttet felt, der er låst mod redigering. | Angives som standard til **Tid** på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdi. |
+| **Enhed** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde |
+| **Pris** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Feltet kan redigeres på en ny fakturalinjedetalje, der ikke er understøttet af en faktisk værdikilde. Hvis der ikke angives en værdi, angives den som standard, når den er blevet **Gemt**. |
+| **Valuta** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Angives som standard fra fakturaoverskriften, når der oprettes en ny fakturadetalje, som ikke understøttes af faktiske værdier.  Et skrivebeskyttet felt, der er låst mod redigering. |
+| **Beløb** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Beregnes som **Antal \* Pris** ved oprettelse af en ny fakturadetalje uden understøttelse af en faktisk værdi. Den beregnes efter at være blevet **Gemt**. Et skrivebeskyttet felt, der er låst mod redigering. |
+| **Moms** | Angives som standard fra de faktiske værdikilder. Feltet kan redigeres af brugeren | Feltet kan redigeres af brugeren, når der oprettes en ny fakturalinjedetalje, som ikke understøttes en faktisk værdi. |
+| **Samlet beløb** | Et beregnet felt, der er beregnet som **Beløb+moms**. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Faktureringstype** | Angives som standard fra de faktiske værdikilder. Feltet kan redigeres af brugeren. | Hvis du vælger **Fakturerbar**, tilføjes linjen til totalen på fakturalinjen. **Gratis** og **Ikke-fakturerbar** udelades fra fakturalinjetotalen. |
+| **Transaktionstype** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Angives som standard til **Faktureret salg** og låses, når der oprettes en ny **Fakturalinjedetalje**, som ikke er understøttet af en faktisk værdi.  |
+| **Transaktionsklasse** | Angives som standard fra de faktiske værdikilder. Et skrivebeskyttet felt, der er låst mod redigering. | Angives som standard afhængigt af, om brugeren vælger at oprette en fakturalinjedetalje med **Tid**, **Udgift** eller **Gebyr**, mens der også oprettes en ny **Fakturalinjedetalje**, som ikke er understøttet af en faktisk værdi. Låst mod redigering. |
 
-Følgende felter er tilgængelige på en fakturalinjedetalje, der er understøttet af en milepæl.
+Følgende felter er tilgængelige på en fakturalinjedetalje, der er understøttet af en milepæl:
 
-| Felt | Beskrivelse |
-| --- | --- | 
-| **Fakturalinje** | Reference til **Fakturalinje-id'et**. Et skrivebeskyttet felt, der er låst mod redigering. Linket kan bruges til at navigere tilbage til fakturaens overskrift.  | 
-| **Beskrivelse** | Beskrivelse af fakturalinjedetaljen. Angives som standard ud fra beskrivelsen af kildemilepælen. | 
-|**Ekstern beskrivelse** | Beskrivelse af de fakturalinjedetaljer, der som standard angives i beskrivelsen af kildemilepælen. Dette felt kan bruges til at angive, hvad der skal stå på den udskrevne faktura, som skal sendes til kunden. En proformafaktura i Project Operations indeholder ikke alle de nødvendige funktioner til konfiguration af udskriftsindstillinger for en faktura. | 
-| **Startdato** | Angives som standard fra datoen for **Milepælen** på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Project** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Opgave** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Transaktionskategori** | Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Rolle** | Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Reserverbar ressource** | Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Ressourceenhed** | Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Enhedsplan** | Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Enhed** | Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Pris** | Angives som standard ud fra beløbet på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Valuta** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Beløb** | Angives som standard ud fra beløbet på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Moms** | Angives som standard ud fra momsbeløbet på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Samlet beløb** | Angives som standard ud fra det udvidede beløb på kildemilepælen. Feltet kan redigeres. | 
-| **Faktureringstype** | Angives altid som standard til **Fakturerbar**. Et skrivebeskyttet felt, der er låst mod redigering. |
-| **Transaktionstype** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | 
-| **Transaktionsklasse** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | 
+| Felt | Beskrivelse | Downstream-virkning |
+| --- | --- | --- |
+| **Fakturalinje** | Reference til **Fakturalinje-id'et**. Et skrivebeskyttet felt, der er låst mod redigering. | Linket kan bruges til at navigere tilbage til fakturaens overskrift. |
+| **Beskrivelse** | Beskrivelse af fakturalinjedetaljen. Angives som standard ud fra beskrivelsen af kildemilepælen. | &nbsp; |
+|**Ekstern beskrivelse** | Beskrivelse af de fakturalinjedetaljer, der som standard angives i beskrivelsen af kildemilepælen. | Dette felt kan bruges til at angive, hvad der skal stå på den udskrevne faktura, som skal sendes til kunden. En proformafaktura i Project Operations indeholder ikke alle de nødvendige funktioner til konfiguration af udskriftsindstillinger for en faktura. |
+| **Startdato** | Angives som standard fra datoen for **Milepælen** på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Project** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Opgave** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Transaktionskategori** | Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Rolle** | Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Reserverbar ressource** | Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Ressourceenhed** | Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Enhedsplan** | Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Enhed** | Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Pris** | Angives som standard ud fra beløbet på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Valuta** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. |&nbsp; |
+| **Beløb** | Angives som standard ud fra beløbet på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Moms** | Angives som standard ud fra momsbeløbet på kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Samlet beløb** | Angives som standard ud fra det udvidede beløb på kildemilepælen. Feltet kan redigeres af brugeren | &nbsp; |
+| **Faktureringstype** | Angives altid som standard til **Fakturerbar**. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Transaktionstype** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
+| **Transaktionsklasse** | Angives som standard fra kildemilepælen. Et skrivebeskyttet felt, der er låst mod redigering. | &nbsp; |
 
 ## <a name="refresh-invoice-transactions"></a>Opdater fakturatransaktioner
 
 Hvis du har faktiske værdier, der indgik, efter at du har oprettet fakturaen, kan du inkludere disse faktiske værdier på fakturaen.
 
 1. I **Visning af faktureringsefterslæb** skal du markere dataene som **Klar til fakturering**.   
-2. Åbn kladdeproformafakturaen, og på båndet **Handlinger** skal du vælge **Opdatér fakturalinjetransaktioner**.
+2. Åbn kladden for at oprette en proformafaktura, og klik på **Handlinger** på båndet og derefter på **Opdater fakturalinjetransaktioner**.
 
-  Der oprettes fakturalinjedetaljer for alle faktiske tal, der er forældet og markeret som **Klar til fakturering**, men som ikke findes på fakturaen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+  Dermed oprettes fakturalinjedetaljer for eventuelle faktiske værdier, der har en tidligere dato og er markeret som **Klar til fakturering**, men som ikke er inkluderet i fakturaen.

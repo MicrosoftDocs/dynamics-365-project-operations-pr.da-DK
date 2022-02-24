@@ -2,10 +2,12 @@
 title: Bruge en transaktionskategori som en prisdimension
 description: Dette emne indeholder oplysninger om, hvordan du bruger en transaktionskategori som en prisdimension.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988844"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150751"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Bruge en transaktionskategori som en prisdimension
 
@@ -51,6 +53,3 @@ Den følgende tabel er en omfattende liste over standardformularer og -visninger
 2. På siden **Parameter** skal du på fanen **Beløbsbaserede prisdimensioner** lægge mærke til, at gitteret på fanen viser posterne i objektet **Prisdimensioner**.
 3. Føj **Transaktionskategorien** til denne liste, og angiv felterne **Gælder for Omkostning** og **Gælder for Salg** til **Ja**.
 4. I feltet **Dimensionstype** skal du vælge **Beløbsbaseret** og derefter vælge den prioritet for **Transaktionskategori**, der er relateret til omkostning og salg.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

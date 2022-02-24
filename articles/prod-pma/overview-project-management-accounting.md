@@ -2,26 +2,28 @@
 title: Oversigt over projektstyring og regnskab
 description: Funktionerne til projektstyring og regnskab kan bruges i flere brancher til at levere en tjeneste, fremstille et produkt eller opnå et resultat.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007499"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074315"
 ---
 # <a name="project-management-and-accounting-overview"></a>Oversigt over projektstyring og regnskab
 
@@ -34,14 +36,14 @@ Et projekt er en gruppe aktiviteter, der er udviklet til at levere en tjeneste, 
 ## <a name="projects-across-industries"></a>Projekter på tværs af brancher
 Funktionaliteten for projektstyring og regnskab kan bruges i flere brancher, som vist i følgende illustration.
 
-[![Projekter på tværs af brancher.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekter på tværs af brancher](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 I et callcenter kan en billet bruges til at beskrive det sæt handlinger, der kræves for at løse et kald. Konsulentfirmaer, f.eks. administrative organisationer eller tekniske rådgivningsorganisationer, anser deres aktiviteter for at være projekter. Inden for marketing repræsenterer en kampagne en række arbejde, som skal leveres. I projektbaseret produktion relaterer en produktionsordre sig til de forskellige arbejdsopgaver, der skal udføres for at fremstille nogle færdigvarer. Uanset hvad de kaldes, omfatter disse projekter ressourcer, planer og omkostninger, og funktionaliteten for projektstyring og regnskab kan hjælpe med at planlægge, udføre og analysere disse projekter.
 
 ## <a name="project-phases"></a>Projektfaser
 Selvom følgende procesforløb er rettet mod eksterne projekter eller projekter, der er fuldført for en eller flere kunder, gælder funktionaliteten også for interne projekter, der udelukkende er omkostningsbaserede. 
 
-![3 projektfaser.](./media/3-stages-of-a-project.png) 
+![3 projektfaser](./media/3-stages-of-a-project.png) 
 
 Som vist i den foregående illustration, kan projektstyring og regnskab inddeles i tre faser:
 
@@ -50,7 +52,7 @@ Som vist i den foregående illustration, kan projektstyring og regnskab inddeles
 3.  Analyser
 
 ## <a name="initiate-the-project"></a>Opstart af projektet
-I forbindelse med opstarten af projektet indtræder der flere nøgleprocesser. Du kan bruge et projekttilbud til at kommunikere den anslåede arbejdstid, udgifterne og materialerne til kunden. Du kan registrere faktureringsvilkårene, begrænsningerne og aftalerne i en projektkontrakt. Du kan bruge et arbejdsopgavehierarki til at planlægge og vurdere arbejdet. Du kan konfigurere prognoser og budgetter for at styre projektafviklingen. I følgende illustration vises strukturen for et projekt.[![projektstruktur.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+I forbindelse med opstarten af projektet indtræder der flere nøgleprocesser. Du kan bruge et projekttilbud til at kommunikere den anslåede arbejdstid, udgifterne og materialerne til kunden. Du kan registrere faktureringsvilkårene, begrænsningerne og aftalerne i en projektkontrakt. Du kan bruge et arbejdsopgavehierarki til at planlægge og vurdere arbejdet. Du kan konfigurere prognoser og budgetter for at styre projektafviklingen. I følgende illustration vises strukturen for et projekt.[![projektstruktur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Opret projekttilbud
 
@@ -225,7 +227,7 @@ Projekttypen bestemmer, hvilken faktureringsprocedure der skal anvendes. Der er 
 Før du opretter en kundefaktura for et projekt, kan du oprette en foreløbig faktura eller et fakturaforslag. I et fakturaforslag kan du vælge projekttransaktioner, der skal inkluderes i en projektfaktura. Du kan derefter gennemse fakturaoplysningerne, inden du bogfører projektfakturaen og sender den til kunden eller en anden finansieringskilde. 
 
 
-Du finder flere oplysninger om, hvordan du behandler projektfakturaer i [Projektfakturering](/dynamics365/finance/accounts-payable/project-invoicing).
+Du finder flere oplysninger om, hvordan du behandler projektfakturaer i [Projektfakturering](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Beregn omkostningerne for at fuldføre et projekt
@@ -298,7 +300,7 @@ Afhængigt af din konfiguration kan du udarbejde en prognose for likviditetstilg
 -   **Projektdato:** 5. marts 2012.
 -   **Fakturadato:** 31. marts 2012. Denne dato bestemmes ud fra fakturafrekvensen. I dette eksempel skal du angive fakturafrekvensen til den aktuelle måned. Alle transaktioner, der bogføres i marts måned, faktureres derfor den sidste dag i måneden.
 -   **Forfaldsdato:** 14. april 2012. Denne dato bestemmes ud fra de betalingsbetingelser, der blev angivet for projektet. I dette eksempel har du valgt betalingsbetingelser på 14 dage. Der føjes derfor 14 dage til fakturadatoen, som skal forfalde den 14. april 2012.
--   **Forventet salgsbetalingsdato:** 27. april 2012. Denne dato beregnes ved at tilføje antallet af dage i feltet **Generelle bufferdage** på siden **Projektstyring og regnskabsparametre** til antallet af dage i feltet **Individuelle bufferdage** på siden **Projektkontrakter** og derefter tilføje totalen til antallet af dage i feltet **Forfaldsdato**. I dette eksempel har du angivet **3** i feltet **Generelle bufferdage** og **10** i feltet **Individuelle bufferdage**. Der føjes derfor 13 dage til forfaldsdatoen, som er sammenfaldende med en forventet salgsbetalingsdato, der er angivet som den 27. april 2012.
+-   **Forventet salgsbetalingsdato:** 27. april 2012. Denne dato beregnes ved at tilføje antallet af dage i feltet **Generelle bufferdage** på siden **Projektstyring og regnskabsparametre** til antallet af dage i feltet **Enkelte bufferdage** på siden **Projektkontrakter** og derefter tilføje totalen til antallet af dage i feltet **Forfaldsdato**. I dette eksempel har du angivet **3** i feltet **Generelle bufferdage** og **10** i feltet **Individuelle bufferdage**. Der føjes derfor 13 dage til forfaldsdatoen, som er sammenfaldende med en forventet salgsbetalingsdato, der er angivet som den 27. april 2012.
 
 De generelle bufferdage kan enten erstatte de enkelte bufferdage eller blive tilføjet til de enkelte bufferdage:
 
@@ -379,7 +381,7 @@ På siden **Omkostningsstyring** under fanen **Afvigelse** kan du se en sammenli
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Få vist de samlede budgetterede beløb
 
-Hvis **Det samlede budget** er valgt som metode for omkostningsstyring på siden **Projektstyring og regnskabsparametre**, beregner siden **Omkostningsstyring** de faktiske omkostninger og projektets samlede omkostninger for at hjælpe dig med at identificere eventuelle forskelle mellem de to. På siden **Omkostningsstyring** kan du i kolonnerne i den nederste rude på fanen **Generelt** specifikt se beløbene, som beregnes på følgende måder:
+Hvis **Det samlede budget** er valgt som metode for omkostningsstyring på siden **Projektstyring og regnskabsparametre**, beregner siden **Omkostningsstyring** de faktiske omkostninger og projektets samlede omkostninger for at hjælpe dig med at identificere eventuelle forskelle mellem de to. Beløbene i kolonnerne i den nederste rude på siden **Omkostningsstyring** under fanen **Generelt** beregnes mere specifikt på følgende måder:
 
 -   **Samlede budgetterede omkostninger** – Det samlede budgetterede beløb for den valgte omkostningslinje.
 -   **Faktisk omkostning** – De samlede omkostninger, der er påløbet for projektet dags dato for de valgte omkostningslinjer.
@@ -416,7 +418,7 @@ På siden **Tidsforbrug i timer** kan du, udover den samlede procent af tidsforb
 
 -   **Ikke-inkluderede timer** – Disse timer indgår ikke i tidsforbrugssatsen angivet i timer.
 -   **Inkluderede timer** – Disse timer beregnes ved at tilføje tidsforbruget i timer og direkte tid. Disse timer inkluderes i tidsforbrugsgraden.
--   **Belastet tid** – Hvis du beregner en faktureringsgrad, er disse timer de samme som ikke-fakturerbare timer. Hvis du beregner en effektivitetsgrad, er disse timer de samme som ikke-produktive timer.
+-   **Direkte tid** – Hvis du beregner en faktureringsgrad, er disse timer de samme som ikke-fakturerbare timer. Hvis du beregner en effektivitetsgrad, er disse timer de samme som ikke-produktive timer.
 -   **Tidsforbrug i timer** – Hvis du beregner en faktureringsgrad, er disse timer de samme som fakturerbare timer. Hvis du beregner en effektivitetsgrad, er disse timer de samme som produktive timer.
 
 Når du beregner tidsforbrugsgraden for en arbejder, kan du bruge normtimer eller inkluderede timer. Hvis du bruger inkluderede timer, skal du sikre dig, at arbejdere registrerer al arbejdstid i timeseddelperioderne, da beregningen udtrykkes som en procentdel af de timer, der er angivet. Når du beregner den timelige tidsforbrugssats for et projekt, en projektkontrakt, en kundepost eller en kategori, skal du bruge inkluderede timer i beregningen.
@@ -438,6 +440,3 @@ Når opgørelsen er beregnet, kan du se følgende oplysninger under de forskelli
 -   **Forbrug** – Oplysninger om forbrug af timer, varer, udgifter og løntransaktioner.
 -   **Faktura** – Oplysninger om fakturaer og acontofakturering.
 -   **Timesats** – Timesatserne for timer, der bogføres på indtægts- og omkostningskonti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

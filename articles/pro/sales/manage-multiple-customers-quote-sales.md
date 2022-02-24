@@ -2,16 +2,18 @@
 title: Administrer flere kunder i projekttilbud - lille
 description: Dette emne indeholder oplysninger om, hvordan du kan arbejde med tilbud med flere kunder, som skal finansiere projektet. (Sales)
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
-ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440770"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181583"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Administrer flere kunder i projekttilbud - lille
 
@@ -37,7 +39,7 @@ Du kan oprette, opdatere eller slette en tilbudskunde under fanen **Tilbudskunde
 
 | **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
-| Konto | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Viser alle aktive firmaer. Dette felt er låst, når posten er oprettet. Hvis du vil opdatere den, skal du slette posten og oprette den igen. Hvis du har registreret faktiske værdier, eller hvis tilbudskundeposten er en primær kunde, kan du ikke slette posten. | Tilbudskunder kopieres på samme måde som tilbudslinjekunder, når der oprettes en tilbudslinje. Tilbudskunder kopieres også over til projektkontraktkunderne, når et tilbud er vundet. |
+| Konto | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Viser alle aktive firmaer. Dette felt er låst, når posten er oprettet. Hvis du vil opdatere den, skal du slette posten og oprette den igen. Hvis du har registreret faktiske oplysninger, eller hvis tilbudskundeposten er en primær kunde, får du tilladelse til at slette posten. | Tilbudskunder kopieres på samme måde som tilbudslinjekunder, når der oprettes en tilbudslinje. Tilbudskunder kopieres også over til projektkontraktkunderne, når et tilbud er vundet. |
 | Procentdel for opdeling af fakturering | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Repræsenterer den procentdel af hver ikke-faktureret salgstransaktion, der skal tilknyttes denne tilbudskunde. | Kopieret til nye tilbudslinjer og til projektkontraktkunder. |
 | Faktura til Kontaktnavn | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Dette er et tekstfelt, der bruges til at identificere fakturakontaktpersonen for denne kunde. Disse hentes som standard fra den relaterede firmapost | Kopieret til projektkontraktkunder, når et tilbud er vundet, og tilbage igen til feltet Faktureres til kontraktnavn på den faktura, der er genereret for denne kunde. |
 | Fakturering til navn | Redigerbart gitter under fanen **Tilbudskunder** og formularerne **Primær** og **Hurtig oprettelse** for en tilbudskunde. | Dette tekstfelt bruges til at identificere fakturakontaktpersonen for denne kunde. | Kopieret til projektkontraktkunderne, når et tilbud er vundet, og tilbage igen til feltet **Faktureres til kontraktnavn** på den faktura, der er genereret for denne kunde. |
@@ -50,6 +52,3 @@ Du kan oprette, opdatere eller slette en tilbudskunde under fanen **Tilbudskunde
 Du kan redigere procenter for opdeling af fakturering ved hjælp af redigeringsoplevelsen på det indbyggede gitter. Når procentsatsen for faktureringsopdeling ikke samlet set udgør 100 %, opstår der en fejl. Når du har opdateret procenter for opdeling af fakturering, skal du opdatere siden for at fjerne fejlen.
 
 Du kan også vælge **Fordel ligeligt** på tilbudskunders undergitter. Denne handling tildeler faktureringsopdelinger til alle tilbudskunder. Hvis der er en afrundingsfaktor, vil den blive tilføjet til den afrundede kunde. En af tilbudskunderne er altid mærket som den afrundede kunde. Dette betyder, at tilbudskundeposten har flaget for **Afrunding** angivet til **Ja**. Dette er som regel den primære kunde for tilbuddet, men det kan ændres.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

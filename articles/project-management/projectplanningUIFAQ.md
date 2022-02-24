@@ -2,38 +2,34 @@
 title: Fejlfinding i forbindelse med arbejde i opgavegitteret
 description: Dette emne indeholder oplysninger om de nødvendige fejlfindingsoplysninger, når du arbejder i opgavegitteret.
 author: ruhercul
-ms.date: 09/22/2021
+manager: tfehr
+ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
+ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547192"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031530"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Fejlfinding i forbindelse med arbejde i opgavegitteret 
 
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-_**Gælder for:** Project Operations til ressource/ikke-lagerbaserede scenarier, Lille udrulning – aftale om proformafakturaren, Project for the web_
+Dette emne beskriver, hvordan du kan løse de problemer, du eventuelt støder på, når du arbejder med omkostningsstyring.
 
-Det opgavegitter, der bruges i Dynamics 365 Project Operations, er en værtsbaseret iFrame i Microsoft Dataverse. Som følge af denne brug skal der specifikke krav være opfyldte for at sikre, at godkendelse og autorisation fungerer korrekt. I dette emne beskrives de almindelige problemer, der kan påvirke muligheden for at gengive gitteret eller administrere opgaver i arbejdsopgavehierarkiet (WBS).
+## <a name="enable-cookies"></a>Aktiver cookies
 
-Almindelige problemer omfatter:
+Project Operations kræver aktivering af tredjepartscookies med henblik på at gengive arbejdsopgavehierarkiet. Når tredjepartscookies ikke er aktiveret, kan du i stedet for at få vist opgaver se en tom side, når du vælger fanen **Opgaver** på siden **Projekt**.
 
-- Fanen **Opgave** i opgavegitteret er tom.
-- Når du åbner projektet, indlæses projektet ikke, og brugergrænsefladen sidder fast på skalaen.
-- Administration af rettigheder for **Project for the Web**.
-- Ændringer gemmes ikke, når du opretter, opdaterer eller sletter en opgave.
+![Der vises en tom fane, når tredjepartscookies er aktiveret](media/blankschedule.png)
 
-## <a name="issue-the-task-tab-is-empty"></a>Problem: Fanen Opgaver er tom
 
-### <a name="mitigation-1-enable-cookies"></a>Afhjælpning 1: Aktivering af cookies
-
-Project Operations kræver, at tredjepartscookies aktiveres for at gengive arbejdsopgavehierarkiet. Når tredjepartscookies ikke er aktiveret, kan du i stedet for at få vist opgaver se en tom side, når du vælger fanen **Opgaver** på siden **Projekt**.
-
+### <a name="workaround"></a>Løsning
 I Microsoft Edge eller Google Chrome-browsere beskriver følgende procedurer det, hvordan du kan opdatere din browserindstilling for at aktivere tredjepartscookies.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -42,7 +38,6 @@ I Microsoft Edge eller Google Chrome-browsere beskriver følgende procedurer det
 2. I øverste højre hjørne skal du vælge **ellipsen** (...) og dernæst vælge **Indstillinger**.
 3. Under **Cookies og sidetilladelser** skal du vælge **Cookies og websitedata**.
 4. Slå **Blokering af tredjepartscookies** fra.
-5. Opdater browseren. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -50,101 +45,64 @@ I Microsoft Edge eller Google Chrome-browsere beskriver følgende procedurer det
 2. Vælg de tre vertikale prikker i øverste højre hjørne, og vælg derefter **Indstillinger**.
 3. Under **Sikkerhed og privatliv** skal du vælge **Cookies og websitedata**.
 4. Vælg **Tillad alle cookies**.
-5. Opdater browseren. 
 
-> [!NOTE]
+> [!IMPORTANT]
 > Hvis du blokerer tredjepartscookies, blokeres alle cookies og websitedata fra andre websteder, også selvom websitet er tilladt på din undtagelsesliste.
 
-### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Afhjælpning 2: Validér, at PEX-slutpunktet er blevet konfigureret korrekt
+## <a name="pex-endpoint"></a>PEX-slutpunkt
 
-Project Operations kræver, at en projektparameter refererer til PEX-slutpunktet. Dette slutpunkt er nødvendigt for at kommunikere med den tjeneste, der bruges til at gengive arbejdsopgavehierarkiet. Hvis parameteren ikke er aktiveret, modtager du fejlmeddelelsen "Projektparameteren er ikke gyldig". Hvis du vil opdatere PEX-slutpunktet, skal du udføre følgende trin.
+Project Operations kræver, at en projektparameter refererer til PEX-slutpunktet. Dette slutpunkt er nødvendigt for at kommunikere med den service, der bruges til at gengive arbejdsopgavehierarkiet. Hvis parameteren ikke er aktiveret, modtager du fejlmeddelelsen "Projektparameteren er ikke gyldig". 
+
+### <a name="workaround"></a>Løsning
+ ![Feltet PEX-slutpunkt på projektparameteren](media/projectparameter.png)
 
 1. Tilføj feltet **PEX-slutpunkt** til siden **Projektparametre**.
-2. Identificer den produkttype, du bruger. Denne værdi bruges, når PEX-slutpunktet er angivet. Ved hentning er produkttypen allerede defineret i PEX-slutpunktet. Behold denne værdi.
-3. Opdater feltet med følgende værdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. I følgende tabel findes den typeparameter, der skal bruges på grundlag af produkttypen.
+2. Opdater feltet med følgende værdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+3. Fjern feltet fra siden **Projektparametre**.
 
-      | **Produkttype**                     | **Parametertype** |
-      |--------------------------------------|--------------------|
-      | Project for the Web på standardafdeling   | type=0             |
-      | Project for the Web på CDS-navngivet afdeling | type=1             |
-      | Project Operations                   | type=2             |
+## <a name="privileges-for-project-for-the-web"></a>Rettigheder til projekt til internettet
 
-4. Fjern feltet fra siden **Projektparametre**.
+Project Operations er afhængig af en ekstern planlægningstjeneste. Tjenesten kræver, at en bruger har fået tildelt flere roller og kan læse og skrive til objekter, der er relateret til arbejdsopgavehierarkiet. Disse objekter omfatter projektopgaver, ressourcetildelinger og opgaveafhængigheder. Hvis en bruger ikke kan få vist arbejdsopgavehierarki under fanen **Opgaver**, skyldes det sandsynligvis, at projekter til Project Operations ikke er aktiveret. En bruger modtager måske enten en sikkerhedsrolle eller en fejl, der er relateret til en nægtelse af adgang.
 
-## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projektet indlæses ikke, og brugergrænsefladen sidder fast på skalaen
 
-Med henblik på godkendelse skal pop op-vinduer aktiveres, for at opgavegitteret kan indlæses. Hvis pop op-vinduer ikke er aktiverede, bliver skærmen stående på indlæsningspineren. I følgende grafik vises URL-adressen med en blokeret pop op-etikette i adresselinjen, hvilket resulterer i, at skalaen bliver ved med at forsøge at indlæse siden. 
+## <a name="workaround"></a>Løsning
 
-   ![Fastlåst skala og blokering af pop op-vindue.](media/popupsblocked.png)
+1. Gå til **Indstilling > Sikkerhed > Brugere > Applikationsbruger**.  
 
-### <a name="mitigation-1-enable-pop-ups"></a>Afhjælpning 1: Aktivering af pop op-vinduer
-
-Når dit projekt sidder fast på skalaen, er det muligt, at pop op-vinduer ikke er aktiveret.
-
-#### <a name="microsoft-edge"></a>Microsoft Edge
-
-Du kan aktivere pop op-vinduer i Edge-browseren på to måder.
-
-1. Vælg meddelelsen i øverste højre hjørne af Edge-browseren.
-2. Vælg **Tillad altid pop op-vinduer og omdiriger fra** det pågældende Dataverse-miljø.
- 
-     ![Blokerede pop op-vinduer.](media/enablepopups.png)
-
-Du kan også fuldføre følgende trin:
-
-1. Åbn din Edge-browser.
-2. Vælg **ellipsen** (...) i øverste højre hjørne, og vælg derefter **Indstillinger** > **Sidetilladelser** > **Pop op-vinduer og omdirigeringer**.
-3. Slå **Pop op-vinduer og omdirigeringer** fra for at blokere pop op-vinduer, eller slå dem til for at tillade pop op-vinduer på enheden.
-4. Når du har aktiveret pop op-vinduer, skal du opdatere browseren. 
-
-#### <a name="google-chrome"></a>Google Chrome
-1. Åbn din Chrome-browser.
-2. Naviger til en side, hvor pop op-vinduer er blokerede.
-3. Vælg **Blokering af pop op-vinduer** på adresselinjen.
-4. Vælg linket til det pop op-vindue, som du vil have vist.
-5. Når du har aktiveret pop op-vinduer, skal du opdatere browseren. 
-
-> [!NOTE]
-> Hvis du altid vil se pop op-vinduer for webstedet, skal du vælge **Tillad altid pop op-vinduer og omdirigeringer fra [websted]** og derefter vælge **Udført**.
-
-## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: Administration af rettigheder for Project for the Web
-
-Project Operations er afhængig af en ekstern planlægningstjeneste. Tjenesten kræver, at en bruger har fået tildelt flere roller, som giver brugeren mulighed for at læse og skrive til objekter, der er relateret til WBS. Disse objekter omfatter projektopgaver, ressourcetildelinger og opgaveafhængigheder. Hvis en bruger ikke kan få gengivet WBS'et, når de navigerer til fanen **Opgaver**, skyldes det sandsynligvis, at **Projekt** i **Project Operations** ikke er blevet aktiveret. En bruger modtager måske enten en sikkerhedsrolle eller en fejl, der er relateret til en nægtelse af adgang.
-
-### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Afhjælpning 1: Validér sikkerhedsrollerne for programbrugere og slutbrugere
-
-1. Gå til **Indstilling** > **Sikkerhed** > **Brugere** > **Applikationsbruger**.  
-
-   ![Applikationslæser.](media/applicationuser.jpg)
+   ![Applikationslæser](media/applicationuser.jpg)
    
 2. Dobbeltklik på applikationsbrugerposten for at kontrollere følgende:
 
-     - Brugeren har adgang til projektet. Det kan du gøre ved at kontrollere, at brugeren har sikkerhedsrollen **Projektadministrator**.
-     - Microsoft Project-applikationsbrugeren findes og er konfigureret korrekt.
+ - Brugeren har adgang til projektet. Denne verificering foretages typisk ved at sikre, at brugeren har sikkerhedsrollen **Projektleder**.
+ - Microsoft Project-applikationsbrugeren findes og er konfigureret korrekt.
  
-3. Hvis denne bruger ikke findes, skal du oprette en ny brugerpost. 
-4. Vælg **Nye brugere**, rediger adgangsformularen til **Applikationsbruger**, og tilføj derefter **Applikations-id**.
+3. Hvis denne bruger ikke findes, kan du oprette en ny brugerpost. Vælg **Nye brugere**. Rediger postformularen til **Applikationsbruger**, og tilføj derefter **Applikations-ID'et**.
 
-   ![Oplysninger om applikationsbruger.](media/applicationuserdetails.jpg)
+   ![Detaljer om applikationsbruger](media/applicationuserdetails.jpg)
 
+4. Kontrollér, at brugeren er blevet tildelt den korrekte licens, og at tjenesten er aktiveret under detaljer om licensens serviceplaner.
+5. Kontrollér, at brugeren kan åbne project.microsoft.com.
+6. Kontrollér via projektparametrene, at systemet peger på det rigtige projektslutpunkt.
+7. Kontroller, at projektapplikationsbrugeren er oprettet.
+8. Anvend følgende sikkerhedsroller på brugeren:
 
-## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Problem 4: Ændringer gemmes ikke, når du opretter, opdaterer eller sletter en opgave
+  - Dataverse-bruger
+  - Systemet Project Operations
+  - Projektsystem
 
-Når du foretager en eller flere opdateringer af WBS, mislykkes ændringerne, og de gemmes ikke. Der opstår en fejl i planlægningsgitteret med meddelelsen, der lyder som følger: "Den seneste ændring, du har foretaget, kunne ikke gemmes".
+## <a name="error-when-updating-the-work-breakdown-structure"></a>Fejl under opdatering af arbejdsopgavehierarkiet
 
-### <a name="mitigation-1-validate-the-license-assignment"></a>Afhjælpning 1: Validér licenstildelingen
+Når der foretages en eller flere opdateringer af arbejdsopgavehierarkiet, mislykkes ændringerne i sidste ende, og de gemmes ikke. Der opstår en fejl i planlægningsgitteret med teksten "Den seneste ændring, du har foretaget, kunne ikke gemmes".
 
-1. Kontrollér, at brugeren er blevet tildelt den korrekte licens, og at tjenesten er aktiveret under detaljer om licensens serviceplaner.  
-2. Kontrollér, at brugeren kan åbne **project.microsoft.com**.
-    
-### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Afhjælpning 2: Valideringskonfiguration af projektapplikationsbrugeren
-1. Kontroller, at projektapplikationsbrugeren er blevet oprettet.
-2. Anvend følgende sikkerhedsroller på brugeren:
+### <a name="workaround"></a>Løsning
+
+1. Kontrollér, at brugeren er blevet tildelt den korrekte licens, og at tjenesten er aktiveret under detaljer om licensens serviceplaner.
+2. Kontrollér, at brugeren kan åbne project.microsoft.com.
+3. Kontrollér, at systemet peger på det rigtige projektslutpunkt.
+4. Kontroller, at projektapplikationsbrugeren er blevet oprettet.
+5. Anvend følgende sikkerhedsroller på brugeren:
   
   - Dataverse-bruger eller basisbruger
   - Systemet Project Operations
   - Projektsystem
-  - Project Operations med dobbelt skrivningssystem. Denne rolle kræves i forbindelse med det ressourcebaserede/ikke-lagerbaserede udrulningsscenarie for Project Operations.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+  - Dobbeltskrivningssystemet til Project Operations (denne rolle er nødvendig, hvis du installerer det ressourcebaserede/ikke-lagerbaserede scenario for Project Operations.)

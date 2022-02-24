@@ -1,23 +1,25 @@
 ---
-title: Administrer efterslæbet af projektfakturering
-description: Dette emne indeholder oplysninger om de forskellige visninger, der kan bruges, når du administrerer faktureringsloggen på projekter.
+title: Administrer faktureringsefterslæbet - lille
+description: Dette emne indeholder oplysninger om de forskellige visninger, der er tilgængelige til brug i forbindelse med administration af faktureringsefterslæbet.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988284"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176964"
 ---
-# <a name="manage-project-billing-backlog"></a>Administrer efterslæbet af projektfakturering 
+# <a name="manage-the-billing-backlog---lite"></a>Administrer faktureringsefterslæbet - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Dynamics 365 Project Operations har visninger dedikeret til at hjælpe med at administrere efterslæbet af fakturering. Hvis du vil administrere faktureringsefterslæbet, skal du vælge de tilsvarende links i området **Salg** under **Fakturering**. 
+Dynamics 365 Project Operations har dedikerede visninger, der kan hjælpe dig med at administrere faktureringsefterslæbet. Hvis du vil administrere faktureringsefterslæbet, skal du vælge de tilsvarende links i området **Salg** under **Fakturering**. 
 
 Følgende visninger er tilgængelige:
 
@@ -58,6 +60,3 @@ Ikke-fakturerede faktiske salgstal med en status angivet til **Må ikke overskri
 Hvis der er tale om en faktureringsmetode for tid og materialer i forbindelse med kontraktlinjer med flere kunder, oprettes der en ikke-faktureret faktisk salgsværdi for hver kunde på kontraktlinjen i henhold til den faktureringsprocentsats, der er defineret for hver enkelt kunde. Visningen **Faktureringsefterslæb for tid og materialer** kan du se de enkelte kundespecifikke ikke-fakturerede faktiske salgsværdier. Hver af disse ikke-fakturerede faktiske salgsposter kan særskilt markeres som **Klar til fakturering** fra denne visning.
 
 En ikke-faktureret faktisk salgsværdi i en kladdefaktura vises i denne visning med en faktureringsstatus **Kundefaktura oprettet**. Når kladdefakturaen er bekræftet, opdateres faktureringsstatussen for denne post til **Kundefaktura er bogført**. Opdater ikke denne statusværdi ved hjælp af brugerdefineret kode. Project Operations fungerer ikke korrekt, når disse statusværdier opdateres med brugerdefineret kode.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

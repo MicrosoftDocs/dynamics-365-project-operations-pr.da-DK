@@ -2,16 +2,18 @@
 title: Administrer status, som ikke må¨overskrides, og valideringer
 description: Dette emne oplysninger om de kontroller for grænse, der ikke må overskrides, som udføres i Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003494"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129986"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Administrer status, som ikke må¨overskrides, og valideringer 
 
@@ -19,7 +21,7 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 ## <a name="not-to-exceed-on-approvals"></a>Grænse, der ikke må overskrides i forbindelse med godkendelser
 
-Når der indsendes en tids-, udgifts- eller materialeforbrugspost, oprettes der en godkendelsespost. Hvis godkendelsen kan faktureres og tilknyttes en kontraktlinje for tid og materialer, gennemfører systemet en valideringskontrol af grænsen, der ikke må overskrides, på følgende niveauer:
+Når der sendes en tids- eller udgiftspost, oprettes der en godkendelsespost. Hvis godkendelsen kan faktureres og tilknyttes en kontraktlinje for tid og materialer, gennemfører systemet en valideringskontrol af grænsen, der ikke må overskrides, på følgende niveauer:
 
   - Kontrol i forhold til den konfigurerede grænse for kunden på projektkontraktlinjen
   - Kontrol i forhold til den konfigurerede grænse på kontraktlinjen
@@ -32,11 +34,11 @@ Hvis kontrollen består, får godkendelsen en valideringsstatus som **Vellykket*
 
 Hvis kontrollen ikke består, får godkendelsen en valideringsstatus som **Mislykket**. Valideringsdetaljerne for grænsen, der ikke må overskrides, informerer brugeren om, på hvilket niveau valideringen mislykkedes.
 
-Når den indsendte tids-, udgifts- eller materialeforbrugspost betragtes som ikke-fakturerbar, angives valideringsstatus, der ikke må overskrides, til **Ikke relevant** og valideringsdetaljerne er lig med **Ikke relevant**.
+Når den indsendte tids- eller udgiftspost betragtes som ikke-fakturerbar, angives valideringsstatussen for grænsen, der ikke må overskrides, til **Ikke tilgængelig**, og valideringsdetaljerne er overensstemmende med **Ikke tilgængelig**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Grænse, der ikke må overskrides, for ikke-fakturerede faktiske salgsværdier
 
-Når der godkendes en tid-, omkostnings- eller materialeforbrugspost, oprettes de faktiske omkostningsposter og ikke-fakturerede salgsposter. Hvis de ikke-fakturerede faktiske salgsværdier, der oprettes, kan faktureres og tilknyttes en kontraktlinje for tid og materialer, udfører programmet en valideringskontrol af grænsen, der ikke må overskrides, på følgende niveauer:
+Når en tids- eller udgiftspost godkendes, oprettes der poster for omkostninger og ikke-fakturerede faktiske salgsværdier. Hvis de ikke-fakturerede faktiske salgsværdier, der oprettes, kan faktureres og tilknyttes en kontraktlinje for tid og materialer, udfører programmet en valideringskontrol af grænsen, der ikke må overskrides, på følgende niveauer:
 
   - Kontrol i forhold til den konfigurerede grænse for kunden i projektkontraktlinjen
   - Kontrol i forhold til den konfigurerede grænse på kontraktlinjen
@@ -53,9 +55,9 @@ Når den ikke-fakturerede faktiske salgsværdi betragtes som ikke-fakturerbar el
 
 ## <a name="reset-the-not-to-exceed-status"></a>Nulstil må ikke overskrides-status
 
-Du kan udføre en massenulstilling af må ikke overskrides-status. Projektledere kan justere den validering, der ikke må overskrides, til at prioritere fakturering af et bestemt arbejds-, tids-, udgifts- eller materialeforbrug i forhold til andre, der allerede er fastlagt ud fra det tilgængelige beløb, som ikke må overskrides.
+Du kan udføre en massenulstilling af må ikke overskrides-status. Dette gør det muligt for projektledere at justere må ikke overskrides-valideringen for at prioritere fakturering af en bestemt mængde arbejde, tid eller udgifter frem for andre, der allerede er bundet i det tilgængelige beløb, der ikke må overskrides.
 
-Når må ikke overskrides-statussen er blevet nulstillet på ikke-fakturerede faktiske salgsværdier, reduceres det bundne beløb. Projektlederen kan vælge en anden brødtekst med arbejds-, tids-, udgifts- eller materialeforbrug, der tidligere fejlede valideringen, som ikke må overskrides, og kan foretage en ny vurdering. Med reduktionen af det tilpligtede beløb vil disse faktiske værdier nu bestå den validering, som hjælper projektlederen med at få større indflydelse på og kontrol over de fakturerbare transaktioner for den pågældende periode.
+Når må ikke overskrides-statussen er blevet nulstillet på ikke-fakturerede faktiske salgsværdier, reduceres det bundne beløb. Projektlederen kan vælge en anden brødtekst, tid eller udgifter, hvor valideringskontrollen for må ikke overskrides tidligere mislykkes og revurdere dem. Med reduktionen i det bundne beløb vil disse faktiske værdier nu bestå valideringen. Dette hjælper projektlederen med at udøve større indflydelse på og kontrol over de fakturerbare transaktioner for den pågældende periode.
 
 Hvis du vil nulstille må ikke overskrides-statussen, skal du vælge en eller flere faktiske værdier i visningen **Efterslæb for fakturering af tid og materialer** eller **Faktiske værdier** og derefter vælge **Nulstil må ikke overskrides-status**.
 
@@ -71,6 +73,3 @@ Du kan udføre en massereevaluering af må ikke overskrides-status. Revurdering 
 Hvis du vil reevaluere må ikke overskrides-statussen, skal du vælge en eller flere faktiske værdier i visningen **Efterslæb for fakturering af tid og materialer** eller **Faktiske værdier** og vælge **Reevaluer må ikke overskrides-status**.
 
 Alle de relevante valgte faktiske værdier med en grænse, der ikke må overskrides, vil blive evalueret i forhold til opsætningen af grænsen, der ikke må overskrides. Faktiske værdier, der er relevante for reevalueringen af må ikke overskrides-statussen, er ikke-fakturerede faktiske salgsværdier, der ikke er blevet faktureret og ikke fremgår af en kladdefaktura, og som er markeret som fakturerbare. Alle andre valgte faktiske værdier, der er markeret.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

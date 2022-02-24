@@ -2,9 +2,11 @@
 title: Overfør projektbudgetter ved afslutning af regnskabsåret
 description: Denne artikel indeholder oplysninger om, hvordan du kan overføre resterende budgetbeløb til fremtidige år og oprette detaljer om budgetregistrering.
 author: Yowelle
+manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074305"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Overfør projektbudgetter ved afslutning af regnskabsåret
 
@@ -96,6 +98,3 @@ Når du behandler de resterende budgetbeløb, kan du oprette transaktioner i fin
 5. For hvert projekt, du vil behandle, skal du vælge indstillingen i starten af linjen for projektet. 
 6. Vælg **Behandl** for at overføre de resterende budgetbeløb for de valgte projekter til det valgte regnskabsår.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

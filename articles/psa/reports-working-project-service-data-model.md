@@ -2,6 +2,8 @@
 title: Arbejde med Project Service Automation-datamodellen
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med datamodellen.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002414"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147646"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbejde med Project Service Automation-datamodellen
 
@@ -53,7 +55,7 @@ PSA føjer også nye tilbudsrelaterede objekter til Dynamics 365-datamodellen. H
 
 Andre objekter, som PSA føjer til tilbud, er **Projektprisliste for tilbudslinje**, **Ressourcekategori for tilbudslinje** og **Transaktionskategori for tidbudslinje**.
 
-![Diagram, der viser tilbud, tilbudslinje og projektrelationer.](media/PS-Reporting-image2.png "Diagram, der viser tilbud, tilbudslinje og projektrelationer")
+![Diagram, der viser tilbud, tilbudslinje og projektrelationer](media/PS-Reporting-image2.png "Diagram, der viser tilbud, tilbudslinje og projektrelationer")
 
 ## <a name="reporting-on-project-contracts"></a>Rapportering om projektkontrakter
 
@@ -69,7 +71,7 @@ PSA tilføjer også nye objekter, der er udviklet til projektkontrakter. Her er 
 
 Andre objekter, som PSA føjer til kontrakter, er **Projektprisliste for projektkontaktlinje**, **Ressourcekategori for projektkontraktlinje** og **Transaktionskategori for projektkontraktlinje**.
 
-![Diagram, der viser ordre, ordrelinje og projektrelationer.](media/PS-Reporting-image3.png "Diagram, der viser ordre, ordrelinje og projektrelationer")
+![Diagram, der viser ordre, ordrelinje og projektrelationer](media/PS-Reporting-image3.png "Diagram, der viser ordre, ordrelinje og projektrelationer")
 
 ## <a name="reporting-on-projects"></a>Rapportering om projekter
 
@@ -81,18 +83,18 @@ Objektet **Projekter** og de tilhørende objekter er eksklusive for PSA. **Proje
 - **Ressourcekrav** – Dette objekt indeholder kravene til alle generiske ressourceteammedlemmer.
 - **Estimat** og **Estimatlinje** – Disse objekter har en overskrift/linjerelation og indeholder udgiftsestimater for projektet. Opgaveestimater gemmes i objektet **Ressourceestimat**.
 
-![Diagram, der viser ressource, krav og projektrelationer.](media/PS-Reporting-image4.png "Diagram, der viser ressource, krav og projektrelationer")
+![Diagram, der viser ressource, krav og projektrelationer](media/PS-Reporting-image4.png "Diagram, der viser ressource, krav og projektrelationer")
 
 ## <a name="reporting-on-resources"></a>Rapportering om ressourcer
 
-Projektressourcer bruger objekterne **Reserverbare ressource** fra Universal Resource Scheduling (URS), der deles med andre apps, f.eks. Microsoft Dynamics 365 Field Service. Her er en liste over de objekter, du måske skal bruge, når du rapporterer om projektressourcer:
+Projektressourcer bruger de **Reserverbare ressource**-objekter fra Universal Resource Scheduling (URS), der deles med andre apps, f.eks. Microsoft Dynamics 365 Field Service. Her er en liste over de objekter, du måske skal bruge, når du rapporterer om projektressourcer:
 
 - **Reserverbar ressource** – Dette objekt repræsenterer den bruger, kontaktperson, standardressource, firmagruppe eller udstyr, der bruges i projektteamet.
 - **Egenskaber for reserverbare ressourcer** – Dette objekt omfatter færdigheder, certificeringer eller uddannelse af ressourcen. Egenskaberne kan have klassificeringsværdier, der er defineret af klassificeringsmodellen.
 - **Kategori af reserverbare ressourcer** – Dette objekt repræsenterer rollen for den reserverbare ressource.
 - **Reserverbare ressourcereservationer** – Dette objekt repræsenterer den tid, der er reserveret til projekterne for ressourcen. Hver reservation har både et overskriftsobjekt og linjeobjekter, og de enkelte linjer har en status, der repræsenterer statussen for reservationen.
 
-![Diagram, der viser relationer for reserverbare ressourceegenskaber.](media/PS-Reporting-image5.png "Diagram, der viser relationer for reserverbare ressourceegenskaber")
+![Diagram, der viser relationer for reserverbare ressourceegenskaber](media/PS-Reporting-image5.png "Diagram, der viser relationer for reserverbare ressourceegenskaber")
 
 ## <a name="reporting-on-actual-transactions"></a>Rapportering om faktiske transaktioner
 
@@ -120,7 +122,4 @@ Når du arbejder med objektet **Faktisk**, er det vigtigt, at du forstår, hvilk
 
 Objektet **Transaktionsoprindelse** registrerer oprindelsen for posten **Faktisk**, og objektet **Transaktionsforbindelse** registrerer de relaterede poster for posten **Faktisk**. Derudover indeholder posten **Faktisk** referencer til projektet, projektkontrakten (ordren), den reserverbare ressource og kunden.
 
-![Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer.](media/PS-Reporting-image6.png "Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer](media/PS-Reporting-image6.png "Diagram, der viser transaktionsforbindelse, oprindelse og faktiske relationer")

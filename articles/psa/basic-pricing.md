@@ -2,6 +2,8 @@
 title: Projektprissætning
 description: Denne emne indeholder oplysninger om, hvordan prissætning fungerer i Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000569"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148906"
 ---
 # <a name="project-pricing"></a>Projektprissætning 
 
@@ -46,7 +48,7 @@ Objektet Prisliste indeholder tre relaterede tabeller, der gemmer priser:
   - **Transaktionskategoripris** – Denne tabel indeholder priser efter transaktionskategori og bruges til at konfigurere priser for udgiftskategorier.
   - **Prislisteelementer** – Denne tabel indeholder priser på katalogprodukter.
 
-> ![Konfiguration af priser ved hjælp af en prisliste.](media/basic-guide-12.png)
+> ![Konfiguration af priser ved hjælp af en prisliste](media/basic-guide-12.png)
  
 Prislisten er en satstabel. En satstabel er en kombination af objektet Prisliste og relaterede rækker i tabellerne Rollepris, Transaktionskategoripris og Prislisteelementer.
 
@@ -58,7 +60,7 @@ HR-tid er normalt baseret på den rolle, som en ressource udfylder på et bestem
 
 **Tid**-enhedsgruppen oprettes, når PSA installeres. Den har standardenheden **Time**. Du kan ikke slette, omdøbe eller redigere attributterne for enhedsgruppen **Tid** eller enheden **Time**. Men du kan føje andre enheder til enhedsgruppen **Tid**. Hvis du prøver at slette enhedsgruppen **Tid** eller enheden **Time**, kan der opstå fejl i PSA-forretningslogikken.
 
-> ![Konfiguration af priser efter rolle.](media/basic-guide-13.png)
+> ![Konfiguration af priser efter rolle](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transaktionskategorier og udgiftskategorier
 
@@ -68,7 +70,7 @@ Rejser og andre udgifter, som projektkonsulenter påfører, faktureres normalt t
 - **Avance som procentdel** – Procentdelen over de faktiske omkostninger faktureres til kunden. 
 - **Pris pr. enhed** – Der angives en faktureringspris for hver enhed af udgiftskategorien. Det beløb, som kunden faktureres på baggrund af det antal udgiftsenheder, som konsulenten rapporterer. Kørsel bruger prissætningsmetoden pris pr. enhed. Udgiftskategorien for kørsel kan f.eks. konfigureres til 30 amerikanske dollar (USD) pr. dag eller 2 USD pr. mile. Når en konsulent rapporterer kørsel på et projekt, beregnes det beløb, der skal faktureres, på basis af den afstand, som konsulenten har rapporteret.
 
-> ![Konfiguration af prissætning for udgiftskategorier.](media/basic-guide-14.png)
+> ![Konfiguration af prissætning for udgiftskategorier](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prissætning og tilsidesættelse af projektsalg
 
@@ -114,7 +116,7 @@ Det er dog muligt at bruge en masterprisliste i et tilbud. Du kan også kopiere 
 
 Når du opretter en tilpasset liste over projektpriser, kopieres kun projektkomponenterne for prislisten. Med andre ord vil en ny prisliste, der er oprettet som en kopi af den eksisterende projektprisliste, der er knyttet til tilbuddet, kun have tilknyttede rollepriser og transaktionskategoripriser.
 
-> ![Visning og konfiguration af tilpasset prissætning for en projektkontrakt.](media/basic-guide-15.png)
+> ![Visning og konfiguration af tilpasset prissætning for en projektkontrakt](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Sporing af omkostninger
 
@@ -129,6 +131,3 @@ Ligesom fakturasatser konfigureres omkostningssatser for HR også ved hjælp af 
     1. Den kostprisliste, der er knyttet til afdelingen.
     2. Den kostprisliste, der er knyttet til projektstyringsparametre. Da kostprislister i mange forskellige valutaer kan knyttes til projektstyringsparametre, sker der et PSA-valutamatch mellem valutaen i kontraktafdelingen for projektet, kontrakten eller tilbuddet og valutaen på kostprislisten .
     3. I forbindelse med udgifter gælder prissætningsmetoderne til kostprisen og avancen ikke for kostprislister. Selvom disse prissætningsmetoder bruges på kostprislistelinjer til at konfigurere omkostninger for transaktionskategorier, ignoreres de i systemet, og der angives ingen standardkostpris.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

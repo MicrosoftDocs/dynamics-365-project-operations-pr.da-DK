@@ -2,16 +2,18 @@
 title: Konfigurer prislister
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer kost- og salgsprislister.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009479"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180185"
 ---
 # <a name="set-up-price-lists"></a>Konfigurer prislister
 
@@ -38,6 +40,3 @@ Følgende tabel indeholder felterne på fanen **Generelt** for en prisliste og e
 | Valuta | Fanen **Generelt** og formularerne til **Hurtig oprettelse** | Dette felt bruges til at angive standardvalutaen for de enkelte linjer i rollen, kategorien eller prislisteelementet, der er relateret til prislisten. | På prislisterne for **Salg**, roller, kategorier eller prislisteelementer kan der ikke oprettes en anden valuta end denne valuta. På prislister med **Omkostninger** kan du oprette en rolleprislinje i alle valutaer. Den valuta, der er defineret her, bruges som standard. Den brugeropsætning, der er relateret til rollepriser, kan tilsidesætte denne værdi for at give mulighed for opsætning af satser for arbejdskraftomkostninger i en hvilken som helst valuta. Kategoriomkostningssatser og prislisteelementomkostninger kan kun oprettes i den valuta, der er defineret her. |
 | Tidsenhed | Fanen **Generelt** og formularerne til **Hurtig oprettelse** | Dette felt bruges til at angive standardtidsenheden for de enkelte rollelinjer, der er relateret til prislisten. | Værdien i dette felt bruges kun i forbindelse med opsætning af en relateret rollepris. På prislister med **Omkostninger** og **Salg** kan du oprette en rolleprislinje i alle tidsenheder. Tidsenheden, der er defineret her, bruges som standard. Den brugeropsætning, der er relateret til rollepriser, kan tilsidesætte denne værdi for at give mulighed for opsætning af satser for arbejdskraftomkostninger og fakturering i en hvilken som helst tidsenhed. |
 | Beskrivelse | Fanen **Generelt** og formularerne til **Hurtig oprettelse** | Dette tekstfelt giver dig mulighed for at give en beskrivelse af prislisten på flere linjer. | Dette felt vises i de **Tilknyttede** visninger på prislisten i forskellige objekter, der har relaterede prislister. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

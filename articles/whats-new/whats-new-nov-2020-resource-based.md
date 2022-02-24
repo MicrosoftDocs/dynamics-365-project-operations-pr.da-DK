@@ -2,16 +2,18 @@
 title: Nyheder november 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 description: Dette emne indeholder oplysninger om de kvalitetsopdateringer, der er tilgængelige i udgivelsen i november 2020 af Project Operations for ressource/ikke-lagerbaserede scenarier.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007949"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367258"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder november 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -65,7 +67,4 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 | Projektregnskab  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Det er ikke muligt at aktivere funktionen for flere kontraktlinjer uden integration af CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.

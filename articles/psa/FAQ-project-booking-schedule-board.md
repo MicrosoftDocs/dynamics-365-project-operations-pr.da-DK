@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987609"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992959"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Oprette en projektreservation fra planlægningsområdet
 
@@ -43,7 +43,7 @@ Du kan oprette en generisk ressource og tildele den en eller flere opgaver i et 
 
 1.  I planlægningsområdet vises denne ressource under fanen **Åbn Krav**. Det kan være nødvendigt at bruge kolonnefiltre på gitteret, hvis du har mange åbne krav. 
 
-    ![Åbn fanen Krav i planlægningsområdet.](media/FAQ-Project-Booking-Schedule-Board-1.png "Skærmbillede af reservations- og tildelingstabel")
+    ![Åbn fanen Krav i planlægningsområdet](media/FAQ-Project-Booking-Schedule-Board-1.png "Skærmbillede af reservations- og tildelingstabel")
 
 2. Vælg kravet. Fanen **Find tilgængelighed** vises over den valgte række.
  
@@ -53,7 +53,7 @@ Du kan oprette en generisk ressource og tildele den en eller flere opgaver i et 
 
     Hvis du vælger **Reservér**, reserveres ressourcen til projektteamet.
 
-![Panelet Opret ressourcereservation.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panelet Opret ressourcereservation](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Reservere fra det primære krav
@@ -62,7 +62,7 @@ Når du opretter et projekt i Project Service, oprettes der automatisk et ressou
 
 1. Du kan reservere en ressource med det primære krav ved i planlægningsområdet at vælge fanen **Projekt**. Hvis du har mange projekter, skal du muligvis bruge kolonnefilteret i kolonnen **Projekt**.
 
-   ![Kolonnefiltre i planlægningsområdet.](media/FAQ-Project-Booking-Schedule-Board-2.png "Skærmbillede af reservations- og tildelingstabel")
+   ![Kolonnefiltre i planlægningsområdet](media/FAQ-Project-Booking-Schedule-Board-2.png "Skærmbillede af reservations- og tildelingstabel")
 
 2. Vælg det krav, der kun har projektnavnet som navn og har en varighed på nul (0).
 

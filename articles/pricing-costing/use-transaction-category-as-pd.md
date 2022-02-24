@@ -2,16 +2,18 @@
 title: Anvend en transaktionskategori som en prisfastsættelsesdimension
 description: Dette emne indeholder oplysninger om, hvordan du bruger feltet Transaktionskategori som en prisfastsættelsesdimension.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996114"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513972"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Anvend en transaktionskategori som en prisfastsættelsesdimension
 
@@ -48,6 +50,3 @@ I følgende tabel vises alle indbyggede formularer og visninger efter objekt. Du
 2. På siden **Parametre** skal du på fanen **Beløbsbaserede prisfastsættelsesdimensioner** godkende, at gitteret viser posterne i objektet **Prisfastsættelsesdimensioner**.
 3. Tilføj **Transaktionskategorien** til denne liste, og angiv felterne **Gælder for Omkostning** og **Gælder for Salg** til **Ja**.
 4. I feltet **Dimensionstype** skal du vælge **Beløbsbaseret** og derefter vælge den prioritet for **Transaktionskategori**, da det er relateret til omkostning og salg.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Importer et estimat til en projektbaseret kontraktlinje - lille
 description: Dette emne indeholder oplysninger om, hvordan du importerer økonomiske estimater fra et projekt til en kontraktlinje.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997239"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177459"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importer et estimat til en projektbaseret kontraktlinje - lille
 
@@ -58,6 +60,3 @@ Når brugeren vælger at opsummere efter **Transaktionsklasse**, **Kategori** og
 | Opgave A | Flybilletter | 10/1/2020 | 4 | 400 | 1600 |
 | Opgave B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Opgave C | Hotel | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

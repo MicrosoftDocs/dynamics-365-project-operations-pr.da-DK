@@ -1,258 +1,38 @@
 ---
-title: Korrigerende projektbaserede fakturaer
-description: Dette emne indeholder oplysninger om, hvordan du opretter og bekræfter korrigerende projektbaserede fakturaer i Project Operations.
+title: Rettede fakturaer
+description: Dette emne indeholder oplysninger om rettede fakturaer.
 author: rumant
-ms.date: 03/29/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 1ebfec053a59bbadd261d4333f6737cf16292e81
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997149"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122381"
 ---
-# <a name="corrective-project-based-invoices"></a>Korrigerende projektbaserede fakturaer
+# <a name="corrected-invoices"></a>Rettede fakturaer
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-En bekræftet projektfaktura kan rettes for at behandle ændringer eller kreditter i henhold til forhandlinger mellem kunden og projektlederen.
+Bekræftede fakturaer kan redigeres. Når en rediger en bekræftet faktura, oprettes der en ny kladde for den rettede faktura. Da det er en forudsætning, at du vil tilbageføre alle transaktioner og antal fra den oprindelige faktura, inkluderer denne rettede faktura alle transaktioner fra den oprindelige faktura, og alle antal på fakturaen angives til nul (0).
 
-Hvis du vil foretage ændringer af en bekræftet faktura, skal du åbne den bekræftede faktura og vælge **Ret denne faktura**. 
+Når der ikke skal rettes i nogen transaktioner, kan du fjerne dem fra rettelsesfakturakladden. Hvis du vil tilbageføre eller returnere en delmængde, kan du redigere feltet Antal i linjedetaljen. Hvis du åbner fakturalinjedetaljen, kan du se det oprindelige fakturaantal. Du kan derefter redigere det aktuelle fakturaantal, så det er mindre eller større end det oprindelige fakturaantal.
 
-> [!NOTE]
-> Dette valg er ikke tilgængeligt, medmindre en projektfaktura er bekræftet, eller den projektbaserede faktura har forskud eller forskudshonorarer eller afstemninger af forskud eller forskudshonorarer.
+Når du bekræfter en rettelsesfaktura, tilbageføres det oprindeligt fakturerede salgstal, og der oprettes et nyt faktureret faktisk salgstal. Hvis mængden blev reduceret, medfører differencen, at der også oprettes et nyt ikke-faktureret faktisk salgstal. Hvis det oprindelige fakturerede salg f.eks. var otte timer, og linjedetaljen i den rettede faktura har et reduceret antal på seks timer, tilbageføres den oprindeligt fakturerede salgslinje, og der oprettes to nye faktiske salgstal:
 
-Der oprettes en ny kladdefaktura ud fra den bekræftede faktura. Alle fakturalinjedetaljer fra den tidligere bekræftede faktura kopieres til den nye kladde. Her følger nogle af de vigtigste punkter om linjedetaljerne i den nye rettede faktura:
-
-- Alle mængder opdateres til nul. Dynamics 365 Project Operations antager, at alle fakturerede elementer er fuldt krediteret. Hvis det er nødvendigt, kan du opdatere mængderne manuelt, så det afspejler det antal, der er ved at blive faktureret, og ikke det antal, der krediteres. På baggrund af det antal, du angiver, beregner programmet det krediterede antal. Beløbet afspejles i de faktiske tal, der oprettes, når den rettede faktura bekræftes. Hvis du foretager ændringer i momsbeløbet, skal du angive det korrekte momsbeløb og ikke det momsbeløb, der krediteres.
-- Rettelser i relation til milepæle behandles altid som komplette kreditter.
-
-
-> [!IMPORTANT]
-> Hvis det drejer sig om fakturalinjedetaljer, der er rettelser til andre allerede fakturerede opkrævninger, angives feltet **Korrektion** til **Ja**. For så vidt angår fakturaer med korrigerede fakturalinjedetaljer, angives feltet **Indeholder rettelser** til **Ja**.
-
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktiske tal, der blev oprettet, da en korrigerende faktura blev bekræftet
-
-I følgende tabel vises de faktiske værdier, der oprettes, når en korrigerende faktura bekræftes.
-
-<table border="0" cellspacing="0" cellpadding="0">
-    <tbody>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-                    <strong>Scenarie</strong>
-                </p>
-            </td>
-            <td width="808" valign="top">
-                <p>
-                    <strong>De faktiske oplysninger, der blev oprettet i forbindelse med bekræftelse</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af den fulde kredit for en tidligere faktureret tidstransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførelse af faktureret salg for tiden og beløbet på den oprindelige fakturalinjedetalje for tid.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi for tiden og beløbet på den oprindelige fakturalinjedetalje for tid.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturering af den delvise kredit på en tidstransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførelse af faktureret salg for tiden og beløbet faktureret på den oprindelige fakturalinjedetalje for tid.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for de pågældende timer og beløb på det redigerede fakturalinjeniveau, en tilbageførsel heraf og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbar for de resterende timer og beløb, efter at de rettede tal på fakturalinjedetaljen er blevet trukket fra.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af den fulde kredit for en tidligere faktureret udgiftstransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførelse af faktureret salg for antallet og beløbet på den oprindelige fakturalinjedetalje for udgiften.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi salg for antallet og beløbet på den oprindelige fakturalinjedetalje for udgiften.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturering af den delvise kredit for en tidligere faktureret udgiftstransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførelse af faktureret salg for antallet og beløbet faktureret på den oprindelige fakturalinjedetalje for en udgift.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for antallet og beløbet på den rettede fakturalinjedetalje, en tilbageførsel heraf og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbar for det resterende antal og beløb, efter at de rettede tal på fakturalinjedetaljen er blevet trukket fra.
-                </p>
-            </td>
-        </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af den fulde kredit for en tidligere faktureret materialetransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et faktureret salg for mængden og beløbet på den oprindelige fakturalinjedetaljer for materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny faktisk værdi for ikke-faktureret salg for mængden og beløbet på den oprindelige fakturalinjedetaljer for materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturering af den delvise kredit på en materialetransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et faktureret salg for den fakturerede mængde og beløb på den oprindelige fakturalinjedetaljer for materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny faktisk værdi for ikke-faktureret salg, der kan faktureres for mængden og beløbet på den redigerede fakturalinjedetalje, en tilbageførsel heraf, og et tilsvarende faktureret faktisk salg.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbar for det resterende antal og beløb, efter at de rettede tal på fakturalinjedetaljen er blevet trukket fra.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af den fulde kredit for en tidligere faktureret gebyrtransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførelse af faktureret salg for antallet og beløbet på den oprindelige fakturalinjedetalje for gebyret.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi salg for antallet og beløbet på den oprindelige fakturalinjedetalje for gebyret.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af den delvise kredit for en tidligere faktureret gebyrtransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførelse af faktureret salg for antallet og beløbet faktureret på den oprindelige fakturalinjedetalje for gebyr.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for antallet og beløbet på den redigerede rettede fakturalinjedetalje, en tilbageførsel heraf og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Fakturering af den fulde kredit for en tidligere faktureret milepæl.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførelse af faktureret salg for beløbet på den oprindelige fakturalinjedetalje for milepælen.
-                </p>
-                <p>
-Fakturastatussen for milepælen opdateres fra <b>Bogført kundefaktura</b> til <b>Klar til fakturering</b>.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Fakturering af den delvise kredit for en tidligere faktureret milepæl.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Dette scenarie understøttes ikke.
-                </p>
-            </td>
-        </tr>       
-    </tbody>
-</table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- Et faktureret faktisk salgstal for seks timer.
+- Et ikke-faktureret faktisk salgstal for de resterende to timer. Denne transaktion kan enten faktureres senere eller markeres som ikke-fakturerbar, afhængigt af forhandlingerne med kunden.

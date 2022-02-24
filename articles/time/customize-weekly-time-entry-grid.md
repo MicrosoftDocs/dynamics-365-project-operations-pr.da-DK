@@ -2,22 +2,24 @@
 title: Forlængelse af tidsregistreringer
 description: Dette emne indeholder oplysninger om, hvordan udviklere kan forlænge tidsregistreringskontrolelementet.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993324"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124631"
 ---
 # <a name="extending-time-entries"></a>Forlængelse af tidsregistreringer
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations indeholder et brugerdefineret kontrolelement for tidsregistrering, der kan udvides. Dette kontrolelement indeholder følgende funktioner:
+Dynamics 365 Project Operations indeholder et brugerdefineret tidsregistreringskontrolelement, som kan forlænges. Dette kontrolelement indeholder følgende funktioner:
 
 - Angivelse af tid horisontalt over en uge
 - Totaler efter dag, række eller uge
@@ -142,6 +144,3 @@ Brug plug-in-valideringer for alle valideringer, der kræver mere kontekst, end 
 
 ### <a name="copying-time-entries"></a>Kopiering af tidsregistreringer
 Brug visningen **Kopier kolonner med tidsregistreringer** for at definere listen over de felter, der skal kopieres i forbindelse med tidsregistreringer. **Dato** og **Varighed** er obligatoriske felter og skal ikke fjernes fra visningen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

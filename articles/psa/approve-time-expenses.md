@@ -2,6 +2,8 @@
 title: Godkende tid og udgifter
 description: Sådan godkender du tid og udgifter i Project Service
 author: revathiMuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c4ea0393b961d444a65c3ea50287b922ff95a322645844927ce9379fdb7e6b1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4c1ec99ea0951d24939463d33c64f72fce44ba5b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005024"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145441"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Godkende tid og udgifter (Project Service)
 
@@ -45,6 +47,3 @@ Når konsulenter angiver deres tid og udgifter for et projekt, skal du godkende 
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

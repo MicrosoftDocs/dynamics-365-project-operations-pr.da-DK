@@ -2,6 +2,8 @@
 title: Reservere navngivne reserverbare ressourcer til et projektteam og tildele opgaver
 description: Dette emne indeholder oplysninger om, hvordan du reserverer navngivne ressourcer til projektteams og tildeler dem til opgaver.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8a49b6ae8423cb99c710e40704475b4a71d3724
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998634"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145351"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Reservere navngivne reserverbare ressourcer til et projektteam og tildele opgaver 
 
@@ -34,38 +36,35 @@ Du kan føje en navngivet ressource til projektteamet ved at reservere den direk
 1. Gå til **Projekter** i Project Service Automation, og vælg det åbne projekt, du skal reservere for.
 2. Klik på **Ny** under fanen **Team** på siden **Projekt**. 
 
-![Tilføjelse af et teammedlem fra fanen Team.](media/RM-how-to-1.png)
+![Tilføjelse af et teammedlem fra fanen Team](media/RM-how-to-1.png)
 
 3. Vælg den reserverbare ressource i dialogboksen **Hurtig oprettelse af projektteammedlem**. Feltet **Rolle** udfyldes med ressourcens standardrolle, hvis der er tildelt en sådan. Du kan ændre rollen, hvis det er nødvendigt. 
 4. Vælg den fra- og til-dato, som ressourcen skal bruge, og vælg derefter fordelingsmetoden for ressourcens kapacitet. 
 5. Hvis teammedlemmet skal være projektgodkender, skal du vælge **Ja** i feltet **Projektgodkender**. Det betyder, at teammedlemmet kan godkende indsendte tids- og udgiftsposter for dette projekt. 
 6. Klik på **Gem**.
 
-![Tilføjelse af et teammedlem i formularen Hurtig oprettelse.](media/RM-how-to-2.png)
+![Tilføje et teammedlem i formularen Hurtig oprettelse](media/RM-how-to-2.png)
 
 
 Du kan nu tildele den reserverede ressource opgaver på projektet. Klik på fanen **Planlæg** på siden **Projekt** for at tildele den nye ressource opgaver. Den ressourcevælger, der åbnes i feltet **Ressourcer** i opgavegitteret, viser de teammedlemmer, du kan vælge.
 
-![Tildeling af et teammedlem til en opgave på fanen Planlæg.](media/RM-how-to-3.png)
+![Tildeling af en opgave for et teammedlem under fanen Planlæg](media/RM-how-to-3.png)
 
 I version 3 til Project Service Automation (PSA) er ressourcereservationer og opgavetildelinger ikke tæt sammenkoblet. Det betyder, at når du bruger ressourcevælgeren i tidsplanen, kan du tildele teammedlemmer opgaver for flere timer, end deres reservationer dækker på projektet.
 Du kan se forskellene mellem teammedlemmernes reservationer og tildelinger under fanen **Team** eller under fanen **Ressourceafstemning**. Du kan også afstemme forskellene mellem reservationer og tildelinger for ressourcer på et mere detaljeret niveau.
 
-![Fanen Ressourceafstemning.](media/RM-how-to-4.png)
+![Fanen Ressourceafstemning](media/RM-how-to-4.png)
 
 Du kan også bruge ressource vælgeren under fanen **Planlæg** til at søge efter og vælge de reserverbare ressourcer, der ikke allerede er en del af projektteamet. Disse vises i ressourcevælgeren som **Andre ressourcer**.
 
-![Tildeling af en arbejder, der ikke er medlem af et team, til en opgave.](media/RM-how-to-5.png)
+![Tildeling af en opgave for en ressource, der ikke er medlem af et team](media/RM-how-to-5.png)
 
 Når du gør dette, føjes ressourcen til projektteamet og tildeles opgaven, men der oprettes ikke nogen reservationer.
 
-![Teammedlemmer med tildelinger uden reservationer.](media/RM-how-to-6.png)
+![Teammedlemmer med tildelinger uden reservationer](media/RM-how-to-6.png)
 
 Du kan bruge fanen **Afstemning** til at udvide reservationsfunktionen eller **Planlægningsområde** til at reservere ressourcens kapacitet til projektet.
 
-![Udvidelse af reservationer for et teammedlem på fanen Ressourceafstemning.](media/RM-how-to-7.png)
+![Udvide reservationer for et teammedlem under fanen Ressourceafstemning](media/RM-how-to-7.png)
 
 Når et teammedlem er reserveret på projektet, kan du bruge vedligeholdelse af reservationer eller planlægningsområdet til direkte at administrere deres reservationer.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

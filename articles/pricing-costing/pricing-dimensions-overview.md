@@ -2,18 +2,19 @@
 title: Oversigt over dimensioner for prisfastsættelse
 description: Dette emne indeholder oplysninger om prisfastsættelsesdimensioner i Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001964"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650178"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversigt over dimensioner for prisfastsættelse
 
@@ -33,7 +34,7 @@ Derfor findes der to typer værdier for prisfastsættelsesdimensioner:
 
 Dynamics 365 Project Operations leveres med et standardsæt prisfastsættelsesdimensioner. Du kan få vist disse prisfastsættelsesdimensioner ved at gå til **Project Operations** > **Parametre**. I parameterposten på fanen **Beløbsbaserede prisdimensioner** skal du kontrollere, at rollen **msdyn_resourcecategory** og ressourceafdelingen, **msdyn_organizationalunit** har felterne **Gælder for Salg** og **Gælder for Omkostning** angivet til **Ja**. Ved at aktivere disse felter får du mulighed for at konfigurere prisen og omkostningerne for de enkelte kombinationer af rolle og afdeling.
 
-![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret.](media/PS-OOB-parameters.png)
+![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret](media/PS-OOB-parameters.png)
 
 Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer ved hjælp af ekstra attributter, kan du oprette brugerdefinerede felter, objekter og dimensioner. Du kan finde flere oplysninger i følgende emner. 
   
@@ -42,8 +43,8 @@ Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer
 
 1. [Opret en løsning til brugerdefinerede prisfastsættelsesdimensioner](../sales/create-solution-custompd.md)
 2. [Opret brugerdefinerede felter og objekter](create-custom-fields-entities-pricing-dimensions.md)
-3. [Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter ](add-custom-fields-price-setup-transactional-entities.md)
-4. [Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner ](set-up-custom-fields-pricing-dimensions.md)
+3. [Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter](add-custom-fields-price-setup-transactional-entities.md)
+4. [Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner](set-up-custom-fields-pricing-dimensions.md)
 5. [Opdatere plug-in-attributter, så de indeholder nye prisfastsættelsesdimensioner](update-plugin-attributes-pd.md)
 
 
@@ -60,16 +61,13 @@ I følgende eksempel vises de fakturarater, der er konfigureret på baggrund af 
 
 | Rolle        | Afdeling    |Enhed      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Udvikler   | Contoso US  |Time | 200|USD     |
-| Udvikler   | Contoso Indien |Time|   112|USD     |
+| Udvikler   | Contoso USA  |Hour | 200|USD     |
+| Udvikler   | Contoso India |Hour|   112|USD     |
 
 
 **Eksempel på omkostningssatser**
 
 | Lønområde     | Afdeling    |Enhed      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Time | 145|USD     |
-| My company_Band2 | Contoso Indien |Time|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso USA  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |

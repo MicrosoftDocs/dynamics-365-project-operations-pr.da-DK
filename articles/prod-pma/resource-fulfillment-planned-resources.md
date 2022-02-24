@@ -2,9 +2,11 @@
 title: Ressourceopfyldelse for planlagte ressourcer
 description: Dette emne indeholder oplysninger om planlagte ressourcer til et projekt.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989499"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074343"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Ressourceopfyldelse for planlagte ressourcer
 
@@ -38,6 +40,3 @@ En projektleder kan planlægge nødvendige ressource roller for et projekt. Den 
 7. Vælg en arbejder, og vælg derefter **Tildel**.
 8. Kontroller, at linjen for **Softwareudvikler 1** er blevet fjernet for projektet **XYZ-opgradering af projektfase 2**.
 9. Under fanen **Projektteam og planlægning** skal du for projektet **XYZ-opgraderingsfase 2** kontrollere, at den arbejder, du har valgt i forrige trin, er blevet tilføjet som **Softwareudvikler**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

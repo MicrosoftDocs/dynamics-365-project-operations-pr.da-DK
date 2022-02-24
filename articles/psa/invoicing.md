@@ -2,10 +2,12 @@
 title: Fakturering i Project Service Automation
 description: Dette emne indeholder oplysninger om fakturering.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985494"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151381"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
 
@@ -50,7 +52,7 @@ Følg dette trin for at oprette en faktura for en bestemt projektkontrakt.
 
 - Åbn siden med listen **Projektkontrakter**, åbn en projektkontrakt, og vælg derefter **Opret faktura**.
 
-    ![Oprettelse af projektfakturaer for en bestemt projektkontrakt.](media/CreateProjectInvoicesOneByOne.png)
+    ![Oprettelse af projektfakturaer for en bestemt projektkontrakt](media/CreateProjectInvoicesOneByOne.png)
 
     Der genereres en faktura for alle transaktioner for den valgte projektkontrakt, der har statussen **Klar til fakturering**. Disse transaktioner omfatter tid, udgifter, milepæle og produktbaserede kontraktlinjer.
 
@@ -115,6 +117,3 @@ Når du bekræfter en rettelsesfaktura, tilbageføres det oprindeligt fakturered
 
 - Et faktureret faktisk salgstal for seks timer.
 - Et ikke-faktureret faktisk salgstal for de resterende to timer. Denne transaktion kan enten faktureres senere eller markeres som ikke-fakturerbar, afhængigt af forhandlingerne med kunden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

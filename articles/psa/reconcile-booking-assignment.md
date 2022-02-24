@@ -2,6 +2,8 @@
 title: Afstemme reservationer og tildelinger
 description: Dette emne indeholder oplysninger om faktiske værdier.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995124"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147916"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Afstemme reservationer og tildelinger
 
@@ -51,11 +53,11 @@ Når feltet **Tidsskala** er angivet til et niveau, der er højere end **Dag**, 
 
 Når du får vist tiden på højere niveauer, har fanen **Afstemning** en celleindikator, der giver dig besked om, at der er forskelle på lavere tidsniveauer. I den følgende illustration vises der f.eks. en celleindikator i cellen for oktober 2018 for den ressource, der hedder Elisabeth Larsen. Du kan derfor se, at selvom ressourcens reservationer og tildelinger er ens, når de samles på niveauet **Måned**, matcher de ikke på lavere niveauer.
 
-![Uoverensstemmende reservationer og tildelinger på månedsniveau.](media/reconcile-assignments-01.JPG)
+![Uoverensstemmende reservationer og tildelinger på månedsniveau](media/reconcile-assignments-01.JPG)
 
 Dobbeltklik på en celle for at zoome ind på det næste lavere niveau og få vist forskellen. Hvis du f.eks. dobbeltklikker på forskellen for oktober 2018 for Elisabeth Larsen, kan du gå ned på niveauet **Uge**. Du kan derefter se, at ressourcen har reservationer på 16 timer, men ingen tildelinger, i de første to uger af oktober og 16 timers tildelinger, men ikke reservationer, i 3. uge af oktober.
 
-![Uoverensstemmende reservationer og tildelinger på ugeniveau.](media/reconcile-assignments-02.JPG)
+![Uoverensstemmende reservationer og tildelinger på ugeniveau](media/reconcile-assignments-02.JPG)
 
 Du kan højreklikke på en celle for at zoome ud på det næste højere niveau. Du kan også slå celleindikatoren fra ved at klikke på knappen **Indstillinger**. 
 
@@ -68,13 +70,13 @@ For at sikre præcise og forudsigelige resultater i forbindelse med anvendelsen 
 
 - Brugeren skal konfigurere enhedens tidszone, så den stemmer overens med den tidszone, der er angivet i systemets tilpasningsindstillinger.
  
-  ![Tidszoneindstillinger i Windows 10.](media/reconcile-assignments-03.png)
+  ![Tidszoneindstillinger i Windows 10](media/reconcile-assignments-03.png)
 
-  ![Tidszoneindstillinger i tilpasningsindstillinger.](media/reconcile-assignments-04.png)
+  ![Tidszoneindstillinger i tilpasningsindstillinger](media/reconcile-assignments-04.png)
  
 - Den reserverbare ressource skal have mindst ét minuts arbejdstid, som overlapper med de profiler, der bruges til at definere den ønskede udvidelse. F.eks. viser følgende eksempel, hvordan du gennemser ressourcer med arbejdstimer, der ligger mellem kl. 9:00 og 19:00. 
 
-  ![Sammenligning af ressourceprofiler.](media/reconcile-assignments-05.png)
+  ![Sammenligning af ressourceprofiler](media/reconcile-assignments-05.png)
 
 Følgende tabel viser:
 
@@ -83,22 +85,19 @@ Følgende tabel viser:
 - Ressourcer B: Denne ressource er placeret i en anden tidszone end projektet og starter derfor kl. 19:00 i deres tidszone. Reservationerne starter dog kl. 9:00, som er det tidligste starttidspunkt for tildelingsprofilen.
 - Ressourcer C og D: Disse ressourcer er ligeledes placeret i forskellige tidszoner, som både adskiller sig fra hinanden og projektet, og deres reservationer starter tidligst på deres respektive ledige starttider.
 
-|Enhed  |Kalender  |
+|Objekt  |Kalender  |
 |-|-|
-|Projektkalenderskabelon   | ![Projektkalender.](media/reconcile-assignments-06.png) |
-|Ressource A  | ![Kalender for ressource A.](media/reconcile-assignments-06.png) |
-|Ressource B  |  ![Kalender for ressource B.](media/reconcile-assignments-07.png) |
-|Ressource C  |  ![Kalender for ressource C.](media/reconcile-assignments-08.png) |
-|Ressource D  | ![Kalender for ressource D.](media/reconcile-assignments-09.png)  |
+|Projektkalenderskabelon   | ![projektkalender](media/reconcile-assignments-06.png) |
+|Ressource A  | ![Kalender for ressource A](media/reconcile-assignments-06.png) |
+|Ressource B  |  ![Kalender for ressource B](media/reconcile-assignments-07.png) |
+|Ressource C  |  ![Kalender for ressource C](media/reconcile-assignments-08.png) |
+|Ressource D  | ![Kalender for ressource D](media/reconcile-assignments-09.png)  |
  
 Når du navigerer til afstemningsvisningen, vises ressourcetildelingerne og de tilknyttede reservationsunderskud.
- ![Afstemningsvisning før udvidelse.](media/reconcile-assignments-10.png)
+ ![Afstemningsvisning før udvidelse](media/reconcile-assignments-10.png)
 
 Når funktionen til udvidelse af reservationer er blevet udført for de enkelte ressourcer, udvides reservationerne for hver ressource. Dette skyldes, at de enkelte ressourcers arbejdstimer overlapper med profilerne for underskuddet.
- ![Afstemningsvisning efter reservationsudvidelse.](media/reconcile-assignments-11.png) 
+ ![Afstemningsvisning efter reservationsudvidelse](media/reconcile-assignments-11.png) 
 
 Du kan dog få vist de nærmere detaljer for reservationen, hvoraf forskellene i starttidspunkterne for reservationerne fremgår. Reservationerne starter tidligst på starttidspunktet for tildelingsprofilen og ikke førend ressourcens tilgængelige starttidspunkt.
- ![Nye reservationer af ressourcerne i planlægningsområdet.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Nye reservationer af ressourcerne i planlægningsområdet](media/reconcile-assignments-12.png)

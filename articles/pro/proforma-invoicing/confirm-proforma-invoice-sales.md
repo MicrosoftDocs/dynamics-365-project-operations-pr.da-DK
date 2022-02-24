@@ -1,24 +1,26 @@
 ---
-title: Bekræft en proformafaktura på projektet
-description: Dette emne indeholder oplysninger om bekræftelse af proformafakturaer på projekter i Project Operations.
+title: Bekræft en proformafaktura - lille
+description: Dette emne indeholder oplysninger om, hvordan du bekræfter proformafakturaer i Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992964"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176514"
 ---
-# <a name="confirm-a-proforma-project-invoice"></a>Bekræft en proformafaktura på projektet 
+# <a name="confirm-a-proforma-invoice---lite"></a>Bekræft en proformafaktura - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
 
-Når en proforma-faktura er bekræftet, opdateres statussen for projektfakturaens til **Bekræftet**. Når en faktura er blevet bekræftet, bliver den skrivebeskyttet. Fremover kan fakturaen kun rettes, hvis rettelserne skyldes kundeanmodninger eller krediteringer.
+Når en proforma-faktura er bekræftet, opdateres statussen for projektfakturaens til **Bekræftet**. Når en faktura er blevet bekræftet, bliver den skrivebeskyttet. Fakturaen kan fremadrettet kun rettes i tilfælde af rettelser ansporet af kunden eller kreditter, eller når fakturaen er markeret som betalt.
 
 I følgende tabel vises de faktiske oplysninger, som systemet opretter. Disse faktiske oplysninger oprettes, når bestemte operationer udføres på kladdeprojektfakturaen, før den bekræftes.
 
@@ -229,70 +231,6 @@ En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for antal og bel�
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Fakturering af en materialetransaktion uden at redigere kladdefakturaen.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et ikke-faktureret salg for mængden og beløbet på den oprindelige materialeforbrugsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En faktureret faktisk salgsværdi for mængden og beløbet på den oprindelige materialeforbrugsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturering af en materialetransaktion, der er redigeret for at reducere mængden.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et ikke-faktureret salg for mængden og beløbet på den oprindelige tidsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for det pågældende antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der ikke er fakturerbar for det resterende antal og beløb efter at have fratrukket de rettede tal på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af en materialetransaktion, der er redigeret for at øge mængden.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et ikke-faktureret salg for mængden og beløbet på den oprindelige materialeforbrugsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for det pågældende antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Fakturering af et gebyr.
                 </p>
             </td>
@@ -335,6 +273,3 @@ Fakturering af en faktisk salgsværdi for produktlinjen med det antal og beløb,
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

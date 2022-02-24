@@ -2,16 +2,18 @@
 title: Administrer projektkontrakter
 description: Dette emne indeholder oplysninger om visning af projektbaserede kontrakter.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001829"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177324"
 ---
 # <a name="manage-project-contracts"></a>Administrer projektkontrakter
 
@@ -31,6 +33,3 @@ Du kan se en liste over alle projektkontrakter på listesiden **Kontrakter**.
 2. Vælg **Skift visning** (rullepilen ud for navnet på visningen) for at vælge andre filtrerede visninger. Du kan oprette dine egne visninger med brugerdefinerede filterkriterier.
 
 Der kan oprettes eller slettes kontrakter fra denne listeside eller detaljesider.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

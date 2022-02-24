@@ -2,17 +2,19 @@
 title: Nyheder december 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
 description: Dette emne indeholder oplysninger om de kvalitetsopdateringer, der er tilgængelige i udgivelsen i december 2020 af Project Operations for lager-/produktionsbaserede scenarier.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008804"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727942"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations december 2020 for lagerbaserede/produktionsbaserede scenarier
 
@@ -139,7 +141,4 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 
 ## <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
 
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Dynamics 365 Finance under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). En anden måde at lære om lovgivningsmæssige opdateringer på er at logge på Lifecycle Services (LCS) og se de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til problemsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til Dynamics 365 Finance under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). En anden måde at lære om lovgivningsmæssige opdateringer på er at logge på Lifecycle Services (LCS) og se de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til problemsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.

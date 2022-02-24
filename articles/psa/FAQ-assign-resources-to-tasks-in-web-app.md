@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987699"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993283"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hvordan tildeler jeg en reserverbar ressource til en opgave i webappen (Project Service-app v2.x)?
 
@@ -43,7 +43,7 @@ Med denne metode kan du føje en ressource til projektteamet og derefter tildele
 3.  Vælg **Fra** og **Til** datoerne.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skærmbillede af tilføjelse af teammedlem.](media/FAQ-Resources-to-Tasks2-1.png "Skærmbillede af tilføjelse af gruppemedlem")
+    > ![Skærmbillede af tilføjelse af gruppemedlem](media/FAQ-Resources-to-Tasks2-1.png "Skærmbillede af tilføjelse af gruppemedlem")
  
 4.  Vælg en af følgende allokeringsmetoder til reservation af ressourcen:
     - **Fuld kapacitet** reserverer ressourcens fulde kapacitet for de angivne fra- og til-datoer.
@@ -63,12 +63,12 @@ Med denne metode kan du føje en ressource til projektteamet og derefter tildele
     3. Vælg **OK**. Teammedlemmet tildeles nu til opgaven.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skærmbillede af tilføjelse af ressourcer med WBS.](media/FAQ-Resources-to-Tasks2-2.png "Skærmbillede af tilføjelse af ressourcer med WBS")
+    > ![Skærmbillede af tilføjelse af ressourcer med WBS](media/FAQ-Resources-to-Tasks2-2.png "Skærmbillede af tilføjelse af ressourcer med WBS")
  
 Du kan se den samlede mængde af ressourcens tildelte timer under Tildelte timer i teammedlemsgitteret. Den vil være mindre end eller lig med de reserverede timer for ressourcen. 
 
 > [!div class="mx-imgBorder"] 
-> ![Skærmbillede af tildelte timer for en ressource.](media/FAQ-Resources-to-Tasks2-3.png "Skærmbillede af tildelte timer for en ressource")
+> ![Skærmbillede af tildelte timer for en ressource](media/FAQ-Resources-to-Tasks2-3.png "Skærmbillede af tildelte timer for en ressource")
  
 Hvis den opgave, du forsøger at tildele til ressourcen, starter efter slutdatoen for ressourcereservationer, vises ressourcen ikke på rullelisten.
 
@@ -92,22 +92,22 @@ Denne metode sikrer, at ressourcer har tilstrækkelige reservationer for opgaver
 4. Vælg **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skærmbillede af anvendelse af WBS til at tilføje ressourcer.](media/FAQ-Resources-to-Tasks2-4.png "Skærmbillede af anvendelse af WBS til at tilføje ressourcer")
+    > ![Skærmbillede af anvendelse af WBS til at tilføje ressourcer](media/FAQ-Resources-to-Tasks2-4.png "Skærmbillede af anvendelse af WBS til at tilføje ressourcer")
  
 Når du har tildelt roller til opgaver i WBS, kan du vælge **Opret projektteam**. Project Service opretter det mindste antal generiske teammedlemmer baseret på roller, ressourceorganisationsenheder og projektkalender ved at sammenlægge de tildelte opgaver.
 
 > [!div class="mx-imgBorder"] 
-> ![Skærmbillede af oprettelse af projektteam.](media/FAQ-Resources-to-Tasks2-5.png "Skærmbillede af oprettelse af projektteam")
+> ![Skærmbillede af oprettelse af projektteam](media/FAQ-Resources-to-Tasks2-5.png "Skærmbillede af oprettelse af projektteam")
  
 I gitteret Teammedlem kan se du ressourcer af typen Generisk ressource med navnet på rollen og stillingen. Hvis der kræves to ressourcer til en rolle for at fuldføre arbejdet, opretter funktionen Opret team to teammedlemmer og bruger stillingsnavnet til at adskille dem.
 
 > [!div class="mx-imgBorder"] 
-> ![Skærmbillede af tilføjelse af to generiske ressourcer.](media/FAQ-Resources-to-Tasks2-6.png "Skærmbillede af tilføjelse af to generiske ressourcer")
+> ![Skærmbillede af tilføjelse af to generiske ressourcer](media/FAQ-Resources-to-Tasks2-6.png "Skærmbillede af tilføjelse af to generiske ressourcer")
  
 Du kan åbne sikkerhedskopiering af ressourcekrav for det generiske teammedlem ved at vælge linket under Ressourcekrav.
 
 > [!div class="mx-imgBorder"] 
-> ![Skærmbillede af åbning af det bagvedliggende ressourcekrav.](media/FAQ-Resources-to-Tasks2-7.png "Skærmbillede af åbning af det bagvedliggende ressourcekrav")
+> ![Skærmbillede af åbning af det bagvedliggende ressourcekrav](media/FAQ-Resources-to-Tasks2-7.png "Skærmbillede af åbning af det bagvedliggende ressourcekrav")
 
 Vælg **Reservér** for den generiske ressource, så du kan bruge planlægningsområdet til at finde og reservere en faktisk ressource. Du kan også sende kravet til en ressourceansvarlig til indfrielse ved at vælge **Send anmodning**.
 

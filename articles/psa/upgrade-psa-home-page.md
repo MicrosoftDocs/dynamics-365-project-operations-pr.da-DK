@@ -1,10 +1,11 @@
 ---
 title: Startside for opgradering
 description: Dette emne viser, hvor du kan finde vigtige oplysninger om de nye og ændrede funktioner i Dynamics 365 Project Service Automation og processen for opgradering til den nyeste version.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006734"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150076"
 ---
 # <a name="upgrade-home-page"></a>Startside for opgradering
 
@@ -64,6 +65,3 @@ Fra 1. marts 2020 vil kunder med Dynamics PSA ikke længere kunne oprette et nyt
 
 > [!NOTE]
 > For at få den bedste oplevelse, når du bruger ældre versioner af Field Service- og PSA-programmer, skal du gå til siden **Systemindstillinger** og for feltet **Brug kun den nye Unified Interface (anbefales)** skal du klikke på **Nej**, da disse versioner ikke er designet til at blive indlæst korrekt i UCI. Når du har slået UCI fra, kan du åbne og køre disse versioner af Field Service og PSA ved hjælp af den gamle webklient. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

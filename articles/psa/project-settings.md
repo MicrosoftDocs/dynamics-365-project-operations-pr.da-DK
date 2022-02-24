@@ -2,6 +2,8 @@
 title: Projektindstillinger
 description: Dette emne indeholder oplysninger om indstillinger for projektstyring.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996924"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148141"
 ---
 # <a name="project-settings"></a>Projektindstillinger
 
@@ -47,7 +49,7 @@ Du opretter en projektplan ved at oprette en projektkalenderskabelon, der define
   - Arbejdsplan for én dag
   - Fri
 
-> ![Konfigurer indstillinger.](media/project-13.png)
+> ![Konfigurer indstillinger](media/project-13.png)
 
 4. Vælg **Ny ugeplan**, og angiv derefter indstillingerne for denne ressourceplanlægning. Du kan angive en tilbagevendende ugentlig tidsplan, parametre for daglige timer, lukketider og meget mere.
 5. Angiv datointervallet, vælg **Gem**, og klik derefter på **Luk**. 
@@ -66,6 +68,3 @@ De enkelte organisationer skal konfigurere disse roller på siden **Aktive resso
 ## <a name="price-lists"></a>Prislister
 
 Prislisterne giver dig mulighed for at indstille kost- og salgspriser for ressourceroller, udgiftskategorier, produkter og andre elementer i en organisation. Inden du angiver økonomiske estimater for det arbejde, der skal leveres til et projekt, skal du oprette en sikkerhedskopi af omkostnings- og prisliste. I sektionen parametre skal du også konfigurere en standard omkostnings- og prisliste, der gælder for alle de projekter, der oprettes i organisationen. På siden **Aktive projektparametre** skal du sørge for at konfigurere en omkostnings- og prisliste.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

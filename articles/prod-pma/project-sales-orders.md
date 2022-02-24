@@ -2,9 +2,11 @@
 title: Projektsalgsordrer for tids- og materialeprojekter
 description: I dette emne gives en beskrivelse af, hvordan du kan oprette projektbaserede salgsordrer for tids- og materialeprojekter.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992829"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074157"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektsalgsordrer for tids- og materialeprojekter
 
@@ -39,6 +41,3 @@ Du kan oprette projektbaserede salgsordrer på to måder:
 - Gå til selve projektet. Vælg **Administrer > Vareopgaver > Salgsordre** i handlingsruden. Projektoplysningerne anvendes som standard for salgsordren fra projektet. Hvis projektkontrakten har mere end én finansieringskilde, skal du vælge den finansieringskilde, der skal bruges til at angive kunden til salgsordren. Hvis der kun er én finansieringskilde for projektet, angives kunden automatisk.
 - Gå til listesiden **Alle salgsordre**, og opret en ny salgsordre. Du skal vælge projektet for salgsordren. Når projektet er valgt, angives kunden fra finansieringskilden, ellers skal du vælge finansieringskilden, hvis projektkontrakten har flere finansieringskilder.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

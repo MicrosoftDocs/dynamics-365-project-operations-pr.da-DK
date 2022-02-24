@@ -2,17 +2,19 @@
 title: Opsætning af Project Operations og konfiguration af dataintegration
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer dobbeltskrivning-tilknytninger i Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986529"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938967"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Opsætning af Project Operations og konfiguration af dataintegration
 
@@ -24,7 +26,7 @@ Dette emne indeholder oplysninger om integration med dobbeltskrivning i Project 
 
 Projektkontrakter, kontraktlinjer og projekter oprettes i Dataverse og synkroniseres med Finance and Operations-apps med henblik på yderligere regnskab. Posterne i disse objekter kan kun oprettes og slettes i Dataverse. Der kan dog føjes regnskabsattributter, som f.eks. momsgruppestandarder og økonomiske dimensioner, til disse poster i Finance and Operations-appsene.
 
-  ![Begreber i projektkontraktintegration.](./media/1ProjectContract.jpg)
+  ![Koncepter for integrations af projektkontrakt](./media/1ProjectContract.jpg)
 
 Salgsaktivitetsemner, salgsmuligheder og tilbud spores i Dataverse og synkroniseres ikke med Finance and Operations-apps, da der ikke er knyttet noget downstream-regnskab til denne aktivitet.
 
@@ -51,7 +53,7 @@ Projektkontraktlinjer kan gennemses af projektrevisionen i Finance and Operation
 
 Projektkontraktlinjer, som bruger faktureringsmetoden med fast pris, faktureres via faktureringsmilepæle. Faktureringsmilepæle synkroniseres med acontoprojekttransaktioner i Finance and Operations-apps ved hjælp af tabeltilknytningen **Integration af kontraktlinjemilepæle i Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integration af faktureringsmilepæle.](./media/2Milestones.jpg)
+  ![Integration af faktureringsmilepæle](./media/2Milestones.jpg)
 
 Revisoren kan gennemse acontotransaktioner og justere regnskabsattributterne for disse transaktioner ved at gå til **Projektstyring og regnskab** > **Projektkontrakter** > **Vedligeholdelse** > **Acontotransaktioner** eller **Projektstyring og regnskab** > **Alle projekter** > **Vedligeholdelse** > **Acontotransaktioner**.
 
@@ -61,13 +63,13 @@ Når du lige opretter en faktureringsmilepæl for en bestemt projektkontraktlinj
 
 Projektopgaver synkroniseres med Finance and Operations-apps via tabeltilknytningen **Projektopgaver (msdyn\_projecttasks)**, men alene til referenceformål. Handlinger til oprettelse, opdatering og sletning understøttes ikke via Finance and Operations-applikationerne.
 
-  ![Integration af projektopgaver.](./media/3Tasks.jpg)
+  ![Integration af projektopgaver](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektressourcer
 
 Objektet **Projektressourceroller** synkroniseres med Finance and Operations-apps ved hjælp af tabeltilknytningen **Projektressourceroller for alle firmaer (bookableresourcecategories)**, men kun til referenceformål. Da ressourceroller i Dataverse ikke er virksomhedsspecifikke, opretter systemet automatisk respektive virksomhedsspecifikke ressourcerolleposter i Finance and Operations-apps for alle juridiske enheder, der er omfattet af integration med dobbeltskrivning.
 
-![Integration af ressourceroller.](./media/5Resources.jpg)
+![Integration af ressourceroller](./media/5Resources.jpg)
 
 Projektressourcer i Project Operations vedligeholdes i Dataverse og synkroniseres ikke med Finance and Operations-apps.
 
@@ -75,6 +77,6 @@ Projektressourcer i Project Operations vedligeholdes i Dataverse og synkronisere
 
 Transaktionskategorier vedligeholdes i Dataverse og synkroniseres med Finance and Operations-apps ved hjælp af tabeltilknytningen **Projekttransaktionskategorier (msdyn\_transactioncategories)**. Når transaktionskategoriposten er synkroniseret, oprette systemet automatisk fire delte kategoriposter. Hver post svarer til en transaktionstype i Finance and Operations-apps og knytter dem til transaktionskategoriposten.
 
-![Integration af transaktionskategorier.](./media/4TransactionCategories.jpg)
+![Integration af transaktionskategorier](./media/4TransactionCategories.jpg)
 
 Brugen af transaktionskategorier til estimater og faktiske værdier kræver, at projektrevisoren eller systemadministratoren opretter tilsvarende projektkategorier i alle juridiske enheder. Du kan finde flere oplysninger under [Konfiguration af produktkategorier](../project-accounting/configure-project-categories.md).

@@ -1,25 +1,29 @@
 ---
-title: Konfigurer automatisk fakturaoprettelse
-description: Dette emne indeholder oplysninger om konfiguration af automatisk oprettelse af proformafakturaer.
+title: Konfigurer automatisk fakturaoprettelse - lille
+description: Dette emne indeholder oplysninger om, hvordan du konfigurerer automatisk oprettelse af proformafakturaer.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997509"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176559"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Konfigurer automatisk fakturaoprettelse 
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurer automatisk fakturaoprettelse - lille
  
-_**Gælder for:** Lille udrulning - aftale om proformafakturering, Project Operations for ressource/ikke-lagerbaserede scenarier_
+_**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Du kan konfigurere automatisk fakturaoprettelse i Dynamics 365 Project Operations. Systemet opretter en proformafaktura i kladde, der er baseret på fakturaplanen for hver projektkontrakt og kontraktlinje. Fakturaplaner konfigureres på kontraktlinjeniveau. De enkelte linjer i en kontrakt kan have en særskilt fakturaplan, eller du kan inkludere den samme fakturaplan på alle kontraktlinjer.
+Du kan konfigurere automatisk oprettelse af faktura i Dynamics 365 Project Operations. Systemet opretter en proformafaktura i kladde, der er baseret på fakturaplanen for hver projektkontrakt og kontraktlinje. Fakturaplaner konfigureres på kontraktlinjeniveau. De enkelte linjer i en kontrakt kan have en særskilt fakturaplan, eller du kan inkludere den samme fakturaplan på alle kontraktlinjer.
 
-Når du opretter en faktura, opretter systemet altid mindst én faktura pr. projektkontrakt. I visse tilfælde kan der oprettes flere fakturaer. Hvis kontrakten f.eks. har flere kunder, oprettes samme antal fakturaer som det antal kunder, der har fakturerbare transaktioner, der skal faktureres på den pågældende projektkontrakt.
+Når du opretter en faktura, opretter systemet altid mindst én faktura pr. projektkontrakt. I visse tilfælde kan der oprettes flere fakturaer.
+
+Hvis kontrakten f.eks. har flere kunder, oprettes samme antal fakturaer som det antal kunder, der har fakturerbare transaktioner, der skal faktureres på den pågældende projektkontrakt.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Forstå, hvordan transaktioner medtages i en faktura 
 
@@ -87,6 +91,3 @@ Batchprocesjobbet til oprettelse af fakturaer er et tilbagevendende job. Hvis de
 
 > [!NOTE]
 > Batchfakturering i Project Operations køres kun for projektkontrakt linjer, der er konfigureret af fakturaplaner. Der skal være konfigureret målepæle for en kontraktlinje med en faktureringsmetode med fast pris. Der skal konfigureres en datobaseret fakturaplan for en projektkontraktlinje med en metode til fakturering af time og materiale.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

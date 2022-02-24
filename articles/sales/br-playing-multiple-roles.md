@@ -2,16 +2,18 @@
 title: Estimer projektsalg og -omkostninger, når en reserverbar ressource udfylder flere roller i et projekt
 description: I dette emne forklares det, hvordan du kan bruge prisfastsættelsesdimensioner til at understøtte prisfastsættelses- og omkostningsestimater for en ressource, der udfylder flere roller i et projekt.
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990129"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531397"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimer projektsalg og -omkostninger, når en reserverbar ressource udfylder flere roller i et projekt 
 
@@ -104,6 +106,3 @@ Når du udvider rækken for den pågældende teammedlemspost, kan du se de forsk
 ### <a name="estimates-grid"></a>Gitter til estimater 
 
 I gitteret **Estimater** prisfastsættes begge tildelinger for samme ressource forskelligt. Tildelingen for ressourcen på **Opgave A** er prisfastsat ved hjælp af attributværdien **Rolle** for **Konsulterende kundeemne**. Tildelingen for den samme ressource på **Opgave B** er prisfastsat ved hjælp af attributværdien **Rolle** for **Netværkstekniker**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

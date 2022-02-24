@@ -2,11 +2,12 @@
 title: Startside med dimensioner for prisfastsættelse og efterkalkulation
 description: Dette emne indeholder en oversigt over prisdimensioner.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998454"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151291"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startside med dimensioner for prisfastsættelse og efterkalkulation
 
@@ -41,7 +42,7 @@ Som følge af disse attributters typiske karakteristika for arbejdet og de perso
 
 PSA-leverancer med et standardsæt af prisdimensioner. Du kan få vist disse ved at gå til **Project Service** > **Parametre**. I parameterposten på fanen **Beløbsbaserede prisdimensioner** skal du kontrollere, at rollen **msdyn_resourcecategory** og ressourceafdelingen, **msdyn_organizationalunit** har felterne **Gælder for Salg** og **Gælder for Omkostning** angivet til **Ja**. Det giver dig mulighed for at konfigurere prisen og omkostningerne for de enkelte kombinationer af rolle og afdeling.
 
-![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret.](media/PS-OOB-parameters.png)
+![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Hvis du har brugt standardfelterne for både rolle og afdeling som prisdimensioner før version 3 af PSA, er der ingen bemærkelsesværdige ændringer. Du kan fortsætte med at bruge Project Service, som du plejer. 
@@ -66,16 +67,13 @@ I følgende eksempel vises de fakturarater, der er konfigureret på baggrund af 
 
 | Rolle        | Afdeling    |Enhed      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Udvikler   | Contoso US  |Time | 200|USD     |
-| Udvikler   | Contoso Indien |Time|   112|USD     |
+| Udvikler   | Contoso USA  |Hour | 200|USD     |
+| Udvikler   | Contoso India |Hour|   112|USD     |
 
 
 **Eksempel på omkostningssatser**
 
 | Lønområde     | Afdeling    |Enhed      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Time | 145|USD     |
-| My company_Band2 | Contoso Indien |Time|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso USA  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |

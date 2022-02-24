@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007139"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992827"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Se det fakturerbare tidsforbrug for ressourcer
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007139"
  
 Visningen **Tidsforbrug** på siden **Tidsforbrug for ressource i Project Service** viser fakturerbart tidsforbrug for hver reserverbar ressource. Da visningen er baseret på planlægningsområdet, finder du mange af de samme funktioner.
 
-> ![Skærmbillede af visningen Tidsforbrug.](media/FAQ-utilization-1.png)
+> ![Skærmbillede af visningen Tidsforbrug](media/FAQ-utilization-1.png)
  
 
 Beregningen af fakturerbart tidsforbrug fungerer på følgende måde:
@@ -48,7 +48,7 @@ Det tidsforbrug, der er målet, kan indstilles i enten ressourcens standardrolle
 2. Vælg en ressource for at åbne posten. 
 3. Under fanen **Project Service** kan du angive ressourcens mål-tidsforbrug.
 
-> ![Skærmbillede, hvor fanen Project Service bruges til at angive det tidsforbrug, der er målet.](media/FAQ-utilization-2.png)
+> ![Skærmbillede, hvor fanen Projektstyring bruges til at angive det tidsforbrug, der er målet](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Angive mål-tidsforbrug for en rolle
 
@@ -56,7 +56,7 @@ Det tidsforbrug, der er målet, kan indstilles i enten ressourcens standardrolle
 2. Vælg en rolle og åbn posten. 
 3. Indstil måltidsforbruget for rollen.
 
-> ![Skærmbillede, hvor Ressourceroller indstilles til det tidsforbrug, der er målet.](media/FAQ-utilization-3.png)
+> ![Skærmbillede, hvor Ressourceroller indstilles til det tidsforbrug, der er målet](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Beregne det fakturerbare tidsforbrug for en ressource?
 

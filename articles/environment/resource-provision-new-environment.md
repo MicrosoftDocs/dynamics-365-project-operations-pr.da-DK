@@ -2,17 +2,19 @@
 title: Klargør et nyt miljø
 description: Dette emne indeholder oplysninger om, hvordan du klargør et nyt Project Operations-miljø.
 author: sigitac
-ms.date: 09/13/2021
+manager: Annbe
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928654"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727783"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
@@ -29,16 +31,16 @@ Benyt følgende fremgangsmåde for at aktivere den automatiserede klargøring af
 1. Gå til [LCS](https://lcs.dynamics.com/v2), og vælg feltet **Administration af prøveversionsfunktion**.
 2. I listen **Prøveversionsfunktion** skal du vælge **Funktionen Project Operations** og dernæst vælge **Aktiver prøveversionsfunktion** for at aktivere Project Operations.
 
-   > [!NOTE]
-   > Dette trin udføres kun én gang pr. LCS-projekt.
+> [!NOTE]
+> Dette trin udføres kun én gang pr. LCS-projekt.
 
 ## <a name="provision-a-project-operations-environment"></a>Klargør et Project Operations-miljø
 
-1. Åbn en udrulning af et Dynamics 365 Finance[-demonstrationsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandkasse-/produktionsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Åbn en udrulning af et [demonstrationsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandkasse-/produktionsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) i Dynamics 365 Finance. 
 2. Gennemgå guiden **Miljøklargøring**. 
 
-   > [!IMPORTANT]
-   > Kontrollér, at den valgte programversion er 10.0.13 eller nyere.
+> [!IMPORTANT]
+> Kontrollér, at den valgte programversion er 10.0.13 eller nyere.
 
 3. Hvis du vil klargøre Project Operations, skal du vælge **Avancerede indstillinger** og vælge **Common Data Service**. 
 4. Aktiver **Common Data Service-indstillingen** ved at vælge **Ja** og derefter angive oplysninger i de påkrævede felter:
@@ -49,23 +51,25 @@ Benyt følgende fremgangsmåde for at aktivere den automatiserede klargøring af
   - Valuta
  
 5. I feltet **Common Data Service-skabelon** skal du vælge **Project Operations** 
+
 6. Vælg miljøtypen til din udrulning. En abonnementsbaseret prøveversion giver dig mulighed for at installere et CDS-miljø i 30 dage. 
 
-     ![Indstillinger for udrulning.](./media/1DeploymentSettings.png)
+![Udrulningsindstillinger](./media/1DeploymentSettings.png)
 
-    > [!IMPORTANT]
-    > Vælg **Accepter** for at bekræfte servicebetingelserne, og vælg derefter **Udfør** for at vende tilbage til udrulningsindstillingerne.
-    >
-    >![Samtykke til udrulning.](./media/2DeploymentConsent.png)
+> [!IMPORTANT]
+> Vælg **Accepter** for at bekræfte servicebetingelserne, og vælg derefter **Udfør** for at vende tilbage til udrulningsindstillingerne.
+
+![Samtykke til udrulning](./media/2DeploymentConsent.png)
 
 7. Valgfrit - Anvend demodata på miljøet. Gå til **Avancerede indstillinger**, vælg **Tilpas SQL-databasekonfiguration**, og angiv **Angiv et datasæt for applikationsdatabase** til **Demo**.
+
 8. Udfyld de resterende obligatoriske felter i guiden, og bekræft udrulningen. Den tid, det tager at klargøre miljøet, varierer, afhængigt af miljøtypen. Klargøringen kan tage op til seks timer.
 
-   Når udrulningen er fuldført, vises miljøet som **Udrullet**.
+  Når udrulningen er fuldført, vises miljøet som **Udrullet**.
 
 9. Du kan kontrollere, at miljøet er blevet udrullet korrekt ved at vælge **Logon** og logge på miljøet.
 
-    ![Oplysninger om miljø.](./media/3EnvironmentDetails.png)
+![Detaljer for -miljø](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Anvend opdateringer på Finance-miljøet
 
@@ -75,35 +79,35 @@ Det kan være nødvendigt at anvende kvalitetsopdateringer i dit Finance-miljø 
 
 1. I LCS skal du på siden **Miljødetaljer** i sektionen **Tilgængelige opdateringer** vælge **Vis opdatering**.
 
-    ![Vis opdateringer.](./media/5ViewUpdates.png)
+![Vis opdateringer](./media/5ViewUpdates.png)
 
 2. På siden **Binære opdateringer** skal du vælge **Gem pakke**.
 
-    ![Gem pakke.](./media/6SavePackage.png)
+![Gem pakke](./media/6SavePackage.png)
 
 3. Klik på **Vælg alle** og vælg derefter **Gem pakke**.
 
-    ![Gennemse og gem opdateringer.](./media/7ReviewAndSaveUpdates.png)
+![Gennemse og gem opdateringer](./media/7ReviewAndSaveUpdates.png)
 
 4. Angiv et navn for og en beskrivelse af pakken, og vælg derefter **Gem**. Afhængigt af internetforbindelsen kan denne proces tage et stykke tid.
 
-    ![Overfør pakken til aktivbiblioteket.](./media/8UploadPackageToAssetsLibrary.png)
+![Overfør pakken til aktivbiblioteket](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Når pakken er blevet gemt, skal du vælge **Udført** og gemme denne pakke i aktivbiblioteket i dit LCS-projekt.
 
-   Det kan tage op til mere end 15 minutter at gemme og validere pakken.
+Det kan tage op til mere end 15 minutter at gemme og validere pakken.
 
 6. Hvis du vil anvende opdateringen, skal du gå til siden med **Miljødetaljer** i LCS og vælge **Vedligehold** > **Anvend opdateringer**.
 
-    ![Vedligehold miljøer.](./media/9MaintainEnvironment.png)
+![Vedligehold miljøer](./media/9MaintainEnvironment.png)
 
 7. Vælg den pakke, du har oprettet, på listen over opdateringer, og vælg **Anvend**.
 
-    ![Anvend opdateringer.](./media/10ApplyUpdates.png)
+![Anvend opdateringer](./media/10ApplyUpdates.png)
 
-   Det vil tage et stykke tid at vedligeholde miljøet. Når installationen er fuldført, vil miljøet vende tilbage til en udrullet tilstand.
+Det vil tage et stykke tid at vedligeholde miljøet. Når installationen er fuldført, vil miljøet vende tilbage til en udrullet tilstand.
 
-    ![Udrullet miljø.](./media/11EnvironmentDeployed.png)
+![Udrullet miljø](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Opret en forbindelse til dobbelt skrivning 
 
@@ -111,55 +115,53 @@ Det kan være nødvendigt at anvende kvalitetsopdateringer i dit Finance-miljø 
 2. Under **Common Data Service-miljøoplysninger** skal du vælge **Forbind til CDS for Apps**.
 3. Når forbindelsen er oprettet, skal du vælge **Forbind til CDS for Apps** igen. Du bliver omdirigeret til dobbelt skrivning i Finance.
 
-    ![Link til CDS.](./media/12LinktoCDS.png)
+![Link til CDS](./media/12LinktoCDS.png)
 
 4. Vælg **Anvend løsning** for at få adgang til de objekter, der skal tilknyttes i integrationen.
 
-    ![Anvend løsninger.](./media/13ApplySolutions.png)
+![Anvend løsninger](./media/13ApplySolutions.png)
 
 5. Vælg begge løsninger, **Dynamics 365 Finance and Operations - dobbeltskrivning af objekttilknytningdobbelt** og **Dynamics 365 Project Operations - dobbeltskrivning af objekttilknytningdobbelt**, og vælg derefter **Anvend**.
 
-    ![Bekræft løsninger.](./media/14ConfirmSolutions.png)
+![Bekræft løsninger](./media/14ConfirmSolutions.png)
 
-    Når løsningerne er anvendt, anvendes dobbelt skrivningsobjekter på miljøet.
+Når løsningerne er anvendt, anvendes dobbelt skrivningsobjekter på miljøet.
 
-    ![Anvendelse af løsninger.](./media/15ApplyingSolutions.png)
+![Anvendelse af løsninger](./media/15ApplyingSolutions.png)
 
-    Når objekterne er anvendt, vises alle tilgængelige tilknytninger i miljøet.
+Når objekterne er anvendt, vises alle tilgængelige tilknytninger i miljøet.
 
-    ![Tilknytninger for dobbeltskrivning.](./media/15DWMappings.png)
+![Dobbelt skrivningstilknytninger](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Opdater dataobjekterne efter opdateringen
 
 1. I Finance skal du gå til arbejdsområdet **Dataadministration**.
 
-    ![Arbejdsområdet Dataadministration.](./media/16DataManagement.png)
+![Arbejdsområde for Dataadministration](./media/16DataManagement.png)
 
 2. Vælg feltet **Strukturparametre**.
 
-    ![Strukturparametre.](./media/17FrameworkParameters.png)
+![Strukturparametre](./media/17FrameworkParameters.png)
 
 3. På siden **Objektindstillinger** skal du vælge **Opdater objektliste**.
 
-    ![Opdater objektliste.](./media/18RefreshEntityList.png)
+![Opdater objektliste](./media/18RefreshEntityList.png)
 
 Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført.
 
-  ![Opdater bekræftelse.](./media/19RefreshConfirmation.png)
+![Opdater bekræftelse](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Opdater sikkerhedsindstillingerne for Project Operations på Dataverse
 
 1. Gå til Project Operations på dit Dataverse-miljø. 
 2. Gå til **Indstillinger** > **Sikkerhed** > **Sikkerhedsroller**. 
 3. På siden **Sikkerhedsroller** skal du fra listen med roller vælge **applikationsbruger med dobbeltskrivning** og vælge fanen **Brugerdefinerede objekter**.  
-4. Kontrollér, at rollen har tilladelserne **Læs** og **Tilføj til** for følgende objekter:
+4. Kontrollér, at rollen har tilladelserne **Læse** og **Tilføj til** for:
       
       - **Type af valutakurs**
       - **Kontoplan**
       - **Regnskabskalender**
       - **Hovedbog**
-      - **Firma**
-      - **Udgift**
 
 5. Når sikkerhedsrollen er blevet opdateret, skal du gå til **Indstillinger** > **Sikkerhed** > **Teams** og vælge standardteamet i teamvisningen **Lokal virksomhedsejer**.
 6. Vælg **Administrer roller**, og kontrollér, at sikkerhedsrettigheden **applikationsbruger med dobbeltskrivning** gælder for dette team.
@@ -168,10 +170,37 @@ Opdateringen tager ca. 20 minutter. Du modtager en besked, når den er fuldført
 
 1. I dit LCS-projekt skal du gå til siden **Miljødetaljer**.
 2. Under **Common Data Service-miljøoplysninger** skal du vælge **Forbind til CDS for Apps.** Når du har valgt forbindelsen, bliver du omdirigeret til listen over objekter i tilknytningerne.
-3. Start tilknytningerne. Du kan finde flere oplysninger i [Versioner af tilknytning af dobbeltskrivning i Project Operations](resource-dual-write-maps.md#project-operations-dual-write-maps)
-4. Valider, at alle projektrelaterede tilknytninger er i kørselstilstand.
+3. Start tilknytningerne som beskrevet i følgende tabel. Sørg for at følge rækkefølgen på listen.
 
-    ![Alle tilknytninger kører.](./media/22AllMapsRunning.png)
+| **Objekttilknytning** | **Opdater enhed** | **Første synkronisering** | **Master til første synkronisering** | **Kør forudsætninger** | **Forudsætning for første synkronisering** |
+| --- | --- | --- | --- | --- | --- |
+| **Projektressourceroller for alle firmaer (reserverbareressourcekategorier)** | Nr. | Ja | Common Data Service | Nr. | I\R |
+| **Juridiske enheder (cdm\_virksomheder)** | Nr. | Ja | Finance and Operations-apps | Nr. | I\R |
+| **Hovedbog (msdyn_ledgers)** | Nr. | Ja | Finance and Operations-apps | Ja | Ja, Finance and Operations-apps |
+| **Integration af faktiske oplysninger i Project Operations (msdyn\_faktiske oplysninger)** | Nr. | Nr. | I\R | Ja | Nr. |
+| **Projekkontraktlinjer (salgsordredetaljer)** | Nr. | Nr. | I\R | Nr. | Nr. |
+| **Integrationsobjekt for projekttransaktionsrelationer (msdyn\_transaktionsforbindelser)** | Nr. | Nr. | I\R | Nr. | I\R |
+| **Integration af kontraktlinjemilepæle i Project Operations (msdyn\_kontraktlinjeplanmedværdier)** | Nr. | Nr. | I\R | Nr. | I\R |
+| **Integrationsobjekt for udgiftsestimater i Project Operations (msdyn\_estimeredelinjer)** | Nr. | Nr. | I\R | Nr. | I\R |
+| **Integrationsobjekt for eksport af projektudgiftskategorier i Project Operations (msdyn\_udgiftskategorier)** | Nr. | Nr. | I\R | Nr. | I\R |
+| **Integrationsobjekt for eksport af projektudgifter i Project Operations (msdyn\_udgifter)** | Ja | Nr. | I\R | Nr. | I\R |
+| **Integrationsobjekt for timeestimater i Project Operations (msdyn\_ressourcetildelinger)** | Ja | Nr. | I\R | Nr. | I\R |
+
+
+4. Hvis du vil opdatere objektet, skal du vælge tilknytningens navn og derefter vælge **Opdater objekter**. 
+
+
+![Opdater tilknytning](./media/20RefreshMapping.png)
+
+5. Kør tilknytningen, når opdateringen er fuldført. Før du aktiverer næste tilknytning, skal du kontrollere, at tilknytningen i tabellen er i tilstanden **Kører**. Det kan tage et stykke tid at køre tilknytningerne med et større antal forudsætninger.
+
+Hvis du vil køre en tilknytning med forudsætninger, skal du aktivere funktionen **Vis relaterede objekttilknytninger**. Hvis tabellen indikerer, at **Indledende synkronisering af forudsætning** er **Nej**, skal du kontrollere, at flaget for den **Indledende synkronisering** er **Slået fra** i alle de påkrævede tilknytninger, før du kører programmet.
+
+![Kør tilknytning](./media/21RunMap.png)
+
+6. Valider, at alle projektrelaterede tilknytninger er i kørselstilstand.
+
+![Alle tilknytninger kører](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Anvend konfigurationsdata i CDS for Project Operations (valgfrit)
@@ -180,6 +209,3 @@ Hvis du har anvendt demodata i Finance-miljøet, skal du se [Konfigurere og anve
 
 
 Dit Project Operations-miljø er nu klargjort og konfigureret. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

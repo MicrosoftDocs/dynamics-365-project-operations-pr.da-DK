@@ -2,9 +2,11 @@
 title: Synkroniser projektopgaver direkte fra Project Service Automation til Finance and Operations
 description: Dette emne beskriver den skabelon og den underliggende opgave, der bruges til at synkronisere projektopgaver direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992784"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074154"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser projektopgaver direkte fra Project Service Automation til Finance and Operations
 
@@ -39,7 +41,7 @@ Integrationsløsningen for Project Service Automation til Finance bruger dataint
 
 I følgende illustration vises, hvordan dataene synkroniseres mellem Project Service Automation og Finance.
 
-[![Dataflow til integration af Project Service Automation med Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Dataflow til integration af Project Service Automation med Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Skabelon og opgave
 
@@ -80,7 +82,4 @@ Hvis du skal bruge Power Query, skal du følge denne retningslinje:
 
 I følgende illustration vises et eksempel på tilknytningerne mellem skabelonopgaver i dataintegration. I tilknytningen vises de feltoplysninger, der synkroniseres fra Project Service Automation til Finance.
 
-[![Skabelontilknytning.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Skabelontilknytning](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)

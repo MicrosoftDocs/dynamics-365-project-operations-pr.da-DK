@@ -2,17 +2,19 @@
 title: Produktbaserede kontraktlinjer for omkostninger - lille
 description: Dette emne indeholder oplysninger om oprettelse
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997329"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764452"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Produktbaserede kontraktlinjer for omkostninger - lille
 
@@ -28,6 +30,3 @@ Når der oprettes en produktbaseret kontraktlinje for et katalogprodukt, hentes 
 Med en enhedsomkostning på en produktbaseret kontraktlinje kan du have forskellige produktomkostninger ved hvert salg af en enhed. Selvom det ikke altid er nødvendigt, er der visse scenarier, hvor produktets omkostninger kan diskonteres for kunden af leverandøren. Overvej følgende scenarie:
 
 Fabrikam Robotics installerer robotarme i montagelinjerne hos Adatum Corporation. Fabrikam leverer installationstjenester, men robotarmene er fra Trey Research. Hvis installationen af robotarme i Adatum Corporation åbner en ny vertikalbranche for Trey Reserarch, kan de tilbyde Fabrikam en særlig rabat i denne aftale. I dette tilfælde opretter Fabrikam en produktbaseret kontraktlinje for Robotic Arms. Der angives en omkostning pr. enhed for denne kontrakt. Omkostningen er forskellig fra omkostningen ved robotarme fra Trey Research.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

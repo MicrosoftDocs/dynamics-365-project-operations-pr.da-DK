@@ -2,10 +2,12 @@
 title: Opret brugerdefinerede løsninger til prisfastsættelsesdimensioner
 description: I dette emne beskrives det, hvordan du kan oprette en brugerdefineret løsning, når du opretter brugerdefinerede prisfastsættelsesdimensioner.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995259"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144632"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Opret brugerdefinerede løsninger til prisfastsættelsesdimensioner
 
@@ -32,7 +34,7 @@ ms.locfileid: "6995259"
 1. Vælg **Indstillinger** > **Løsninger**, og vælg derefter **Ny**. 
 2. Navngiv løsningen **\<your organization name> prisfastsættelsesdimensioner**, angiv de resterende nødvendige oplysninger, og vælg derefter **Gem**.
 
-> ![Oprettelse af en brugerdefineret løsning til prisdimensioner.](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Oprettelse af en brugerdefineret løsning til prisdimensioner](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tilføj alle nødvendige objekter og relaterede komponenter i løsningen til prisfastsættelsesdimensionen
 Du skal føje følgende Project Service-objekter til din prissætningsløsning. Fuldfør trinnene i denne fremgangsmåde for at foretage nogle vigtige skemaændringer i prisfastsættelsesløsningen, så enhederne bliver opmærksomme på de nye prisfastsættelsesdimensioner.
@@ -54,18 +56,15 @@ Du skal føje følgende Project Service-objekter til din prissætningsløsning. 
 - Rollepris 
 - Tidsregistrering 
 
-> ![Tilføj eksisterende objekter i prisdimensionsløsningen.](media/Existing-entities-to-PD-solution.png)
+> ![Tilføje eksisterende objekter i prisdimensionsløsningen](media/Existing-entities-to-PD-solution.png)
 
-> ![Vælg løsningskomponenter.](media/Dimension-Components.png)
+> ![Vælge løsningskomponenter](media/Dimension-Components.png)
 
 > [!NOTE]
 > Sørg for at inkludere alle formularer og visninger for hvert af de valgte objekter.
 
 4. Vælg **Nej**, når du bliver bedt om at inkludere afhængige objekter for de valgte objekter.
 
-> ![Inkluder ikke alle relaterede komponenter.](media/Do-not-include-required.png)
+> ![Inkluder ikke alle relaterede komponenter](media/Do-not-include-required.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

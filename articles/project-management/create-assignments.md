@@ -2,16 +2,18 @@
 title: Opret ressourcetildelinger
 description: Dette emne indeholder oplysninger om oprettelse af generiske og navngivne ressourcetildelinger.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987879"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131741"
 ---
 # <a name="create-resource-assignments"></a>Opret ressourcetildelinger
 
@@ -40,6 +42,3 @@ Du kan bruge søgefeltet i **Ressourcevælger** til at søge i alle de aktive re
 1. Fra opgavegitteret, området eller tidslinjen skal du navigere til cellen **Tildelt til**.
 2. Begynd at skrive et navn i søgefeltet. Søgeresultaterne for navnet vises i **Resourcevælgeren** under **Andre ressourcer**.
 3. Vælg den ressource, som du vil tildele til opgaven, eller vælg navnet på ressourcen under **Andre teamressourcer**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

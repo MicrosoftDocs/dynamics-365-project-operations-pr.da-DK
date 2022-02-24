@@ -2,6 +2,8 @@
 title: Salgsprocesser
 description: Denne emne indeholder oplysninger om de grundlæggende salgsprocesser.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000524"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145171"
 ---
 # <a name="sales-processes"></a>Salgsprocesser
 
@@ -39,7 +41,7 @@ De salgsprocesser, der bruges i en projektbaseret organisation, adskiller sig fr
 
 I følgende illustration vises en typisk salgsproces i en projektbaseret organisation.
 
-> ![Salgsproces i en projektbaseret organisation.](media/basic-guide-1.png)
+> ![Salgsproces i en projektbaseret organisation](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Estimering af et salg
 Værdien af et salg kan estimeres på basis af de projekter, der tidligere er leveret, og kompleksiteten af projekter. I forbindelse med projekter, der omfatter udvidelser til tidligere projekter, eller projekter, hvor leverandørens ekspertise er stor, og velkendte arbejdsskabeloner bruges, kan du bruge en enklere estimeringsproces. Mere komplekse projekter har som regel en længere købsproces. Der er derfor flere faser i salgsestimeringsprocessen. I starten af processen bruger salgsteamet input fra kundechefer og små og fageksperter til at oprette et estimat på højt niveau for hver enkelt komponent af det arbejde, der er angivet i tilbuddet. Disse komponenter i arbejdet repræsenteres af tilbudslinjer. 
@@ -50,7 +52,7 @@ Du kan oprette flere tilbud til et projekt og gruppere dem under en enkelt objek
 
 Du kan også oprette alternative tilbud under én salgsmulighedsobjekttype eller konfigurere systemet, så der oprettes en projektkontrakt, når et tilbud er vundet. I dette tilfælde kan du vedhæfte et Word-dokument, der repræsenterer arbejdserklæringen i projektkontraktposten.
 
-![Lukning af et tilbud for at oprette en projektkontrakt.](media/basic-guide-2.png)
+![Lukning af et tilbud for at oprette en projektkontrakt](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfiguration af salgsprocessen
 Du kan bruge forretningsprocesforløb i Microsoft Dynamics 365 til at konfigurere salgsprocessen. Disse forløb giver salgsmedarbejderen en vejledning i en visuel grænseflade, som de kan bruge til at flytte tilbud fremad gennem de faser, der er typiske for din virksomhed.
@@ -66,7 +68,7 @@ Din virksomhed kan f.eks. indeholde følgende seks faser i salgsprocessen:
 
 Disse seks faser repræsenteres af vinkeltegn (\>), som du vælger at udvide i hver salgsmulighedsobjekttype, du opretter.
 
-![Konfiguration af forretningsproces i Dynamics 365.](media/basic-guide-3.png)
+![Konfiguration af forretningsproces i Dynamics 365](media/basic-guide-3.png)
  
 Din organisation bruger måske forskellige objekter til at repræsentere samme handel, mens den udvikles. Tidligt i salgsprocessen repræsenteres en handel af objektet Salgsmulighed. Efterhånden som tiden går, og flere detaljer opstår, kan du bruge estimaterne på øverste niveau til at oprette et eller flere tilbud. Hvis et af disse tilbud gennemses af interne interessenter og kundeinteressenter, repræsenterer tilbudsobjektet handlen. Når kunden har accepteret tilbuddet, repræsenterer en projektkontrakt eller en arbejdserklæring handlen. For at understøtte denne funktion er forretningsprocesforløb struktureret, så hver fase i processen er knyttet til en særskilt databasetabel.
 
@@ -77,7 +79,7 @@ Når du flytter handler gennem faserne, bliver du bedt om at oprette den rette o
 > [!NOTE]
 > PSA indeholder specifikke sider til salgsmuligheds-, tilbuds-, ordre- og fakturaobjekter. Du skal oprette salgsmuligheder, tilbud, ordrer og fakturaer til projektstyring ved hjælp af projektoplysningssiderne for disse objekter. Hvis du bruger en anden side til at oprette en post, kan du ikke åbne posten fra siden **Projektoplysninger**. Hvis du vil åbne en post på siden **Projektoplysninger**, skal du slette posten og genoprette den ved hjælp af siden **Projektoplysninger**. På siden **Projektoplysninger** sikrer forretningslogikken for hver af disse objekttyper, at feltet **Type** for posten er angivet korrekt, og at alle de obligatoriske koncepter er initialiseret korrekt.
 
-> ![Projektoplysninger for en ny ordre.](media/basic-guide-4.png)
+> ![Projektoplysninger for en ny ordre](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Forskelle mellem Project Service Automation og Sales
 Selvom salgsprocessen i PSA bruger de grundlæggende funktioner i salgsprocessen i Sales, er der nogle vigtige forskelle på grund af variationer i forretningspraksis for projektbaserede organisationer. Her er nogle eksempler:
@@ -91,6 +93,3 @@ I PSA kan du ikke spore ændringer, der er foretaget i et tilbud. Du skal i sted
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Sporing af kommentarer og godkendelser af tilbud og projektkontrakter
 Du kan administrere gennemgang og godkendelse af tilbud og projektkontrakter ved hjælp af postvæggen og indlæg. Din organisation kan oprette tilpassede arbejdsprocesser og plug-ins for at tildele, omdirigere, eskalere og administrere meddelelser om gennemsyn og godkendelse af arbejdselementer.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

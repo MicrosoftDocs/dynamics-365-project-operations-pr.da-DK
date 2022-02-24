@@ -2,17 +2,18 @@
 title: Oversigt over planlægningsassistent
 description: Dette emne indeholder oplysninger om, hvordan du kan arbejde med planlægningsassistenten for at reservere ressourcer.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074028"
 ---
 # <a name="schedule-assistant-overview"></a>Oversigt over planlægningsassistent
 
@@ -24,7 +25,7 @@ Når den identificerer passende ressourcer, kan Resource Manager eller projektle
 
 ## <a name="prerequisites"></a>Forudsætninger
 
-Planlægningsassistenten er en del af Universal Resource Scheduling-løsningen. Denne løsning er inkluderet og installeres sammen med Dynamics 365 Project Operations, Dynamics 365 Field Service og Dynamics 365 Customer Service.
+Planlægningsassistenten er en del af Universal Resource Scheduling-løsningen. Denne løsning er inkluderet og installeret sammen med Dynamics 365 Project Operations, Dynamics 365 Field Service og Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Matche krav og ressourcer
 
@@ -56,6 +57,3 @@ I filtreringsruden vises de arbejdsrelaterede indstillinger, herunder:
 -   Ressourcevirksomhed
 -   Ressourcetyper
 -   Foretrukne ressourcer
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

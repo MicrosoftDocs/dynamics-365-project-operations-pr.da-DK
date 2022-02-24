@@ -2,16 +2,18 @@
 title: Udarbejd projektskabeloner med Kopier projekt
 description: Dette emne indeholder oplysninger om, hvordan du opretter projektskabeloner ved hjælp af den brugerdefinerede handling Kopier projekt.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989239"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045002"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Udarbejd projektskabeloner med Kopier projekt
 
@@ -42,7 +44,7 @@ Der er tre inputparametre:
 - **{"RydTeamsOgTildelinger":sand}**: Tre standardfunktionsmåder for Project til internettet og fjerner alle tildelinger og teammedlemmer.
 - **{"fjernNavngivneRessourcer": sand}** Standardfunktionsmåden for Project Operations og vil gendanne tildelinger til generiske ressourcer.
 
-Du kan finde flere oplysninger om handlinger under [Anvend WEB-API-handlinger](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Du kan finde flere oplysninger om handlinger under [Anvend WEB-API-handlinger](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Angiv de felter, der skal kopieres 
 Når handlingen kaldes, kigger **Kopier projekt** på projektvisningen **Kopier projektkolonner** for at afgøre, hvilke felter der skal kopieres, når projektet kopieres.
@@ -110,6 +112,3 @@ I følgende eksempel vises det, hvordan du kan kalde den brugerdefinerede handli
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

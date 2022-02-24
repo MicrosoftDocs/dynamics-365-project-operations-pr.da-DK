@@ -2,16 +2,18 @@
 title: Administrer flere kunder i projektbaserede tilbudslinjer
 description: Dette emne indeholder oplysninger om, hvordan du administrerer flere kunder på projektbaserede tilbudslinjer.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992019"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118556"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Administrer flere kunder i projektbaserede tilbudslinjer
 
@@ -42,6 +44,3 @@ Følgende tabel viser de felter, findes i tilbudslinjekundeposten for en projekt
 Du kan redigere procentsatsen for opdeling af fakturering i linjen. Når procentsatsen for faktureringsopdeling ikke samlet set udgør 100 %, vises der en fejl. Når du har redigeret procentsatserne for opdeling af fakturering, skal du opdatere tilbudslinjesiden for at fjerne fejlen.
 
 Brug handlingen ligeligt fordelt på tilbudslinjekunders undergitter til at fordele faktureringsopdelinger til alle tilbudslinjekunder. Hvis der er en afrundingsfaktor, vil den blive tilføjet til den afrundede kunde. En af tilbudslinjekunderne vil altid være mærket som en afrundingskunde, hvilket vil sige, at afrundingsflaget er angivet til **Ja** for kundeposten i tilbudslinjen. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

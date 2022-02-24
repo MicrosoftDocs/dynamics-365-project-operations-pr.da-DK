@@ -2,9 +2,11 @@
 title: Konfigurer integration af kreditkort
 description: I dette emne forklares det, hvordan du kan arbejde med udgiftsrelaterede kreditkorttransaktioner.
 author: suvaidya
-ms.date: 11/17/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826249"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866676"
 ---
 # <a name="set-up-credit-card-integration"></a>Konfigurer integration af kreditkort
 
@@ -44,24 +46,16 @@ Hvis du vil importere kreditkorttransaktioner, skal du følge disse trin:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Gentildele kreditkorttransaktioner for fratrådte medarbejdere
 
-Når en medarbejderpost afsluttes, deaktiveres brugerens Active Directory-domæneservices-konto (AD DS). Der kan dog være aktive kreditkorttransaktioner, der stadig skal udgiftsføres og refunderes. På siden **Kreditkorttransaktioner** kan du gentildele medarbejderen til enhver kreditkorttransaktion, hvor den tilknyttede medarbejder er blevet afsluttet.
+Når en medarbejderpost er blevet afsluttet, deaktiveres brugerens Active Directory-domæneservices-konto (AD DS). Der kan dog være aktive kreditkorttransaktioner, der stadig skal udgiftsføres og refunderes. På siden **Kreditkorttransaktioner** kan du gentildele medarbejderen til enhver kreditkorttransaktion, hvor den tilknyttede medarbejder er blevet afsluttet.
 
 Vælg en eller flere kreditkorttransaktioner, og vælg derefter **Tildel transaktioner igen**. Du kan derefter vælge en anden medarbejder, som kreditkorttransaktionerne skal tildeles til. Når kreditkorttransaktionerne er blevet tildelt en anden, kan de vælges til en udgiftsrapport og betales via den sædvanlige proces for refusion af udgiftsrapporter.
 
 ## <a name="delete-credit-card-transactions"></a>Slet kreditkorttransaktioner 
 
-Når kreditkorttransaktioner er importeret, kan det undertiden være nødvendigt at slette visse transaktioner. Dette kan skyldes, at transaktionerne er dubletter, eller at dataene ikke er nøjagtige. Administratorer kan bruge funktionen **"Slet kreditkorttransaktioner"** til at vælge og slette kreditkorttransaktioner, der **ikke er knyttet til** en udgiftsrapport. 
+Når kreditkorttransaktioner er importeret, kan det undertiden være nødvendigt at slette visse transaktioner. Dette kan skyldes, at transaktionerne er dubletter, eller at dataene muligvis ikke er nøjagtige. Administratorer kan bruge funktionen **"Slet kreditkorttransaktioner"** til at vælge og slette kreditkorttransaktioner, der **ikke er knyttet til** en udgiftsrapport. 
 
 1. Gå til **Periodiske opgaver** > **Slet kreditkorttransaktioner**.
 2. Vælg **Filter**, og angiv oplysninger for at identificere de poster, der skal inkluderes.
 3. Vælg **OK** for at slette posterne. 
-
-## <a name="storing-credit-card-numbers"></a>Lagring af kreditkortnumre
-
-Der findes tre indstillinger for lagring af kreditkortnumre. Kreditkortnumre gemmes på siden **Parametre for udgiftsstyring**.
-
-- **Undgå indtastning af kortnummer** – Kreditkortnumre gemmes ikke.
-- **Hascardnumre (gemmer de sidste fire cifre)** – De sidste fire cifre i kreditkortnumre gemmes i et krypteret format.
-- **Gem kortnumre** – Kreditkortnumre gemmes i et ikke-krypteret format. Denne indstilling overholder ikke betalingskortindustriens (PCI) sikkerhedsstandard (DSS). For at sikre, at deres organisation overholder PCI DSS-regler, bør organisationsadministratorer derfor vælge enten ikke at gemme kreditkortnumre eller at gemme hashcardnumre.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

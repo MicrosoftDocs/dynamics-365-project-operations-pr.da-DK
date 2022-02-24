@@ -1,62 +1,40 @@
 ---
-title: Administrer faktureringsefterslæb
+title: Administrer faktureringsefterslæbet
 description: Dette emne indeholder oplysninger om, hvordan du kan få vist og arbejde med faktureringsefterslæbet i Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991074"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122336"
 ---
-# <a name="manage-billing-backlog"></a>Administrer faktureringsefterslæb
+# <a name="manage-the-billing-backlog"></a>Administrer faktureringsefterslæbet
 
-**Finder anvendelse på:** Project Operations til ressource-/ikke-lagerbaserede scenarier
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations har visninger dedikeret til at hjælpe med at administrere efterslæbet af fakturering. Hvis du vil administrere faktureringsefterslæbet, skal du vælge de tilsvarende links i området **Salg** under **Fakturering**. 
-
-Følgende visninger er tilgængelige:
-
-- Forskudshonorarer og Forskud
-- Forskudshonorarer og Forskud til rådighed
-- Milepæle for fast pris
-- Ordrebeholdning for fakturering af tid og materiale
-
-## <a name="retainers-and-advances"></a>Forskudshonorarer og Forskud
-
-Visningslisterne for **Forskud og forskudshonorarer** angiver forskud og forskudshonorarer på tværs af alle projektkontrakter. Når et forskudshonorar eller et forskud faktureres, bliver forskudsbeløbet tilgængeligt for brug.
-
-## <a name="available-retainers-and-advances"></a>Forskudshonorarer og Forskud til rådighed
-
-Visningslisterne for **Tilgængelige forskud og forskudshonorarer** angiver alle forskud og forskudshonorarer på tværs af alle projektkontrakter. Når et forskudshonorar eller et forskud faktureres, bliver forskudsbeløbet tilgængeligt for brug og tilføjes til listen. Når beløbet for forskud eller forskudshonorar er brugt fuldstændigt, fjernes den fra listen.
+Dynamics 365 Project Operations har to dedikerede visninger, som kan hjælpe dig med at arbejde med og administrere faktureringsefterslæbet. De er **Fast pris-milepæle** og **Faktureringsefterslæb for tid og materiale** Hvis du vil vælge en visning, skal du i området **Salg** i Project Operations vælge **Fakturering** i venstre navigationsside. Links til faktureringsefterslæbet gemmes der.
 
 ## <a name="fixed-price-milestones"></a>Milepæle for fast pris
 
-Visningslisterne **Fastprismilepæle** indeholder alle faste prismilepæle på tværs af alle projektkontraktlinjer. Fra denne visning kan en eller flere milepæle markeres som **Klar til fakturering** eller **Ikke klar til fakturering**. Hvis du markerer en milepæl som **Klar til fakturering**, bliver den tilgængelig for anvendelse i en kladdefaktura.
+Her vises alle fast pris-milepæle på tværs af alle projektkontraktlinjer i systemet. Enkelte eller flere milepæle kan markeres som **Klar til fakturering** eller **Ikke-klar til fakturering** fra denne visning. Når du markerer en milepæl som **Klar til fakturering**, bliver milepælen tilgængelig for en kladdefaktura.
 
-Når kontraktlinjer med flere kunder har en metode med fast pris, oprettes der en milepæl for hver kunde på kontraktlinjen. Du kan oprette en milepæl og derefter dele den op i individuelle kundespecifikke milepælsposter. Denne opdeling er intern og i overensstemmelse med procenten for opdeling af fakturaen, som er defineret for de enkelte kunder på kontraktlinjen. Visningen **Milepæle med fast pris** viser dig de enkelte kundespecifikke milepælsposter. Hver af disse milepælsposter kan særskilt markeres som **Klar til fakturering** fra denne visning. Når en eller flere af de relaterede milepælsopdelinger er markeret som **Klar til fakturering**, opdateres statussen for overskriften til **I gang** fra **Ikke påbegyndt**. Når alle milepælsopdelinger faktureres, opdateres statussen for overskriftsmilepælen til **Fuldført**.
+Når der er angivet en fast pris-faktureringsmetode for kontraktlinjer med flere kunder, oprettes der en milepæl for hver kunde på kontraktlinjen. Brugeren opretter en milepæl, og den pågældende milepæl opdeles i henhold til kunder = specifikke interne milepælsposter i henhold til den faktureringsprocentopdeling, der er defineret for de enkelte kunder på kontraktlinjen. I visningen **Fast pris-milepæle** kan du se de enkelte kundespecifikke milepælsposter. Hver af disse milepælsposter kan særskilt markeres som **Klar til fakturering** fra denne visning. Når en eller flere af de relaterede milepælsopdelinger er markeret som **Klar til fakturering**, konverteres overskriften til statussen **Igangværende** fra **Ikke påbegyndt**. Når alle milepælsopdelinger er blevet faktureret, bliver statussen for overskriftsmilepælen konverteret til **Fuldført**.
 
-En milepæl på en kladdefaktura vises i denne visning med en faktureringsstatus angivet til **Kundefaktura oprettet**. Når kladdefakturaen er blevet bekræftet, opdateres postens faktureringsstatus til **Kundefaktura er bogført**. 
-
-> [!NOTE] 
-> Opdater ikke denne statusværdi ved hjælp af brugerdefineret kode. Project Operations fungerer ikke korrekt, når disse statusværdier opdateres med brugerdefineret kode.
+En milepæl på en kladdefaktura vises i denne visning med en faktureringsstatus angivet til **Kundefaktura oprettet**. Når kladdefakturaen er bekræftet, opdateres faktureringsstatussen for denne post til **Faktura er bogført**. Det anbefales ikke at opdatere denne statusværdi ved hjælp af brugerdefineret kode. Project Operations fungerer ikke korrekt, hvis disse statusværdier opdateres med brugerdefineret kode.
 
 ## <a name="time-and-material-billing-backlog"></a>Ordrebeholdning for fakturering af tid og materiale
 
-Visningen **Faktureringsefterslæb for tid og materialer** viser alle de ikke-fakturerede faktiske salgstal på tværs af alle projektkontrakter i systemet, som ikke er faktureret. Enkelte eller flere ikke-fakturerede faktiske salgsværdier kan markeres som **Klar til fakturering** eller **Ikke-klar til fakturering** fra denne visning. Hvis du markerer en ikke-faktureret faktisk salgsværdi som **Klar til fakturering**, bliver den tilgængelig til brug i en kladdefaktura.
+I denne visning vises alle ikke-fakturerede faktiske salgsværdier, der ikke er blevet faktureret, på tværs af alle projektkontrakter i systemet. Enkelte eller flere ikke-fakturerede faktiske salgsværdier kan markeres som **Klar til fakturering** eller **Ikke-klar til fakturering** fra denne visning. Hvis du markerer en ikke-faktureret faktisk salgsværdi som **Klar til fakturering**, bliver den tilgængelig til brug i en kladdefaktura.
 
-Ikke-fakturerede faktiske salgstal med en status angivet til **Må ikke overskrides**, som er **Mislykket**, kan ikke markeres som **Klar til fakturering**. Hvis de faktiske tal skal markeres som **Klar til fakturering**, skal du nulstille statussen på andre faktiske tal på den kontraktlinje, der er bindende, og derefter evaluere statussen **Må ikke overskrides** igen.
+Ikke-fakturerede faktiske salgsværdier med en status med **Må ikke overskrides** angivet til **Mislykket** kan ikke markeres som **Klar til fakturering**. Hvis disse faktiske oplysninger skal markeres som sådanne, skal du nulstille statussen på andre faktiske oplysninger på den kontraktlinje, der er blevet bekræftet, og derefter evaluere statussen **Må ikke overskrides**.
 
-Hvis der er tale om en faktureringsmetode for tid og materialer i forbindelse med kontraktlinjer med flere kunder, oprettes der en ikke-faktureret faktisk salgsværdi for hver kunde på kontraktlinjen i henhold til den faktureringsprocentsats, der er defineret for hver enkelt kunde. Visningen **Faktureringsefterslæb for tid og materialer** kan du se de enkelte kundespecifikke ikke-fakturerede faktiske salgsværdier. Hver af disse ikke-fakturerede faktiske salgsposter kan særskilt markeres som **Klar til fakturering** fra denne visning.
+Hvis der er tale om kontraktlinjer med flere kunder med faktureringsmetoden tid og materialer, oprettes der en ikke-faktureret salgsværdi for hver kunde på kontraktlinjen, når tid og udgifter godkendes, i henhold til faktureringsprocentopdelingen, der er defineret for de enkelte kunder på kontraktlinjen. I visningen **Faktureringsefterslæb for tid og materiale** kan du se de enkelte kundespecifikke ikke-fakturerede faktiske salgsværdier. Hver af disse ikke-fakturerede faktiske salgsposter kan særskilt markeres som **Klar til fakturering** fra denne visning.
 
-En ikke-faktureret faktiske salgsværdi, som findes på en fakturakladde, fremgår i denne visning med faktureringsstatussen **Kundefaktura oprettet**. Når kladdefakturaen er bekræftet, opdateres faktureringsstatussen for denne post til **Kundefaktura er bogført**. 
-
-> [!NOTE] 
-> Opdater ikke denne statusværdi ved hjælp af brugerdefineret kode. Project Operations fungerer ikke korrekt, når disse statusværdier opdateres med brugerdefineret kode.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+En ikke-faktureret faktisk salgsværdi på en kladdefaktura vises i denne visning med en **Faktureringsstatus** angivet til **Kundefaktura oprettet**. Når kladdefakturaen er bekræftet, opdateres faktureringsstatussen for denne post til **Kundefaktura er bogført**. Det anbefales ikke at opdatere denne statusværdi, når den er i denne tilstand, ved hjælp af brugerdefineret kode. Project Operations fungerer ikke korrekt, når disse statusværdier opdateres med brugerdefineret kode.

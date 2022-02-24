@@ -2,10 +2,12 @@
 title: Oprette brugerdefinerede felter og objekter
 description: I dette emne beskrives det, hvordan du kan oprette grupperede indstillinger og objekter i din egen løsning i Power Apps-platformen.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992424"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144856"
 ---
 # <a name="create-custom-fields-and-entities"></a>Oprette brugerdefinerede felter og objekter 
 
@@ -43,7 +45,7 @@ En prisdimension kan være en grupperet indstilling eller et objekt. Begge skal 
 2. Vælg **Objekter** i venstre navigationsrude i løsningsoversigten.
 3. Klik på **Nyt** for at oprette et nyt objekt med navnet **Standardtitel**. Angiv de resterende nødvendige oplysninger, og klik derefter på **Gem**.
 
-> ![Definition af standardtitelobjekt.](media/Standard-Title-entity-definition.png)
+> ![Definition af standardtitelobjekt](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensioner baseret på grupperet indstilling 
@@ -54,9 +56,9 @@ Du kan oprette to dimensioner, der er baseret på grupperet indstilling. Brug **
 2. Vælg **Grupperede indstillinger** i venstre navigationsrude i løsningsoversigten. 
 3. Klik på **Ny** for at oprette en ny grupperet indstilling, angiv de resterende nødvendige oplysninger, og klik derefter på **Gem**.
 
-> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdssted for ressource..](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdssted for ressource ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdstimer for ressource..](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Prisdimension, der er baseret på grupperet indstilling, kaldet Arbejdstimer for ressource ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Oprette data til objektbaserede dimensioner
@@ -68,9 +70,6 @@ Du kan oprette data til objektbaserede dimensioner manuelt eller ved hjælp af M
 3. Luk formularen. 
 4. Gentag trin 1-3 for at oprette endnu en standardtitel til "Seniorsystemtekniker".
 
-> ![Eksempeldata til objektet Standardtitel.](media/ST-data.png)
+> ![Eksempeldata til objektet Standardtitel ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

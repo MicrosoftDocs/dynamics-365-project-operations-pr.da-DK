@@ -2,6 +2,8 @@
 title: Planlægge fridage
 description: Sådan planlægger du fridage i Project Service
 author: revathimuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76589470b1391226ea2a35143daf0b18b16286dfcd2829e748b0984397cb25ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c3f5dfe846c4accb485de5213e1635e65e77fc5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984593"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144316"
 ---
 # <a name="schedule-time-off-project-service"></a>Planlægge fridage (Project Service)
 
@@ -55,6 +57,3 @@ Planlæg din ferie eller orlov på næsten på samme måde, som du angiver tid f
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

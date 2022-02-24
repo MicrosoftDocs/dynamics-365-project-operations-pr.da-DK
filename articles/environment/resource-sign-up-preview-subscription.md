@@ -2,16 +2,18 @@
 title: Tilmeld dig abonnement på prøveversion af Project Operations for ressource/ikke-lagerførte scenarier
 description: Dette emne indeholder oplysninger om, hvordan du abonnerer på og udruller Project Operations for ressource-/ikke-lagerbaserede scenarier.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323409"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948457"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Tilmeld dig abonnement på prøveversion af Project Operations for ressource/ikke-lagerførte scenarier
 
@@ -19,41 +21,63 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-I dette emne forklares det, hvordan du abonnerer på prøvetilbuddet og udruller Project Operations-miljøet for ressource-/ikke-lagerbaserede scenarier.
+I dette emne gives en forklaring på, hvordan du abonnerer på prøveversion/partnertilbuddet og udruller Project Operations-miljø for ressource/ikke-lagerbaserede scenarier.
 
 ## <a name="prerequisites"></a>Forudsætninger
-- Den bruger, der udruller prøveversionen, skal have globale Azure-lejer administratorrettigheder. Du kan oprette en lejer under indløsningen af første tilbud. 
-- Hvis du vil udrulle et Finance-miljø, skal du have et gyldigt Azure-abonnement, der faktureres pr. miljø. Du kan bruge virksomhedens eksisterende abonnement eller bruge en [Azure-prøveversion](https://azure.microsoft.com/free/) til at komme i gang. CDS-miljøet er gratis i 30 dage.
+
+- Du modtager en email, der inviterer dig til at deltage i prøveversionen. Du kan anmode om en prøveversion på [Webstedet for Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- Den bruger, der udruller prøveversionen, skal have globale Azure-lejer administratorrettigheder.
+- Hvis du vil udrulle et Finance-miljø, skal du have et gyldigt Azure-abonnement, der faktureres pr. miljø. Du kan bruge virksomhedens eksisterende abonnement eller bruge en [Azure-prøveversion](https://azure.microsoft.com/en-us/free/) til at komme i gang. CDS-miljøet er gratis i 30 dage.
+
+## <a name="subscribe"></a>Abonner
+
+Når din [anmodning om prøveversion](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) er godkendt, modtager du tre tilbud fra Microsoft via email. Disse tilbud giver dig mulighed for at udrulle prøveversionen af Project Operations:
+
+- Dynamics 365 Project Operations (CRM) - prøveversion
+- Prøveversion - Office 365 Project Operations
+- Dynamics 365 Finance - prøveversion
 
 > [!IMPORTANT]
 > Kun én person, lejeradministratoren, i en organisation skal udføre denne opgave. Hvis du ikke abonnerer på denne udgivelse, skal du vente, til din organisation er blevet tilmeldt, og du har modtaget dine brugerlegitimationsoplysninger.
-> 
-> Prøveversioner er til engangsbrug i lejeren. Du kan kun køre en prøveversion én gang. Det anbefales, at du opretter en ny lejer med henblik på prøveversionen.
 
-
-### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) – prøveversion 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - prøveversion 
 
 Før du går i gang, skal du sikre dig, at du er logget på en browser med brugerens arbejdskonto i lejeren, hvor du vil installere prøveversionen af Project Operations.
 
-1. Indløs første tilbudskode **Dynamics 365 Project Operations** her [Project Operations-prøveversion](https://aka.ms/try-po).
+1. Indløs den første tilbudskode, **Dynamics 365 Project Operations (CRM) - prøveversion** ved at indsætte den i browserens URL.
+
+![Accepter tilbud](./media/16RedeemFirstOfferNew.png)
+
 2. Bekræft din ordre..
 
-  Du får vist en bekræftelse på, at tilbuddet blev indløst.
+![Bekræft ordren](./media/17ConfirmOrderNew.png)
+
+Du får vist en bekræftelse på, at tilbuddet blev indløst.
+
+![Bekræftelse](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Prøveversion - Office 365 Project Operations
+
+Gentag de samme trin som ved den første tilbudskode. Sørg for at tilføje den anden tilbudskode ved at anvende den samme brugerkonto, som blev brugt sammen med den første tilbudskode.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance-prøveversion
 
-Gå til [Prøveversion af Dynamics 365 til Finance](https://aka.ms/trypoche), og gentag trinnene fra forrige sektion med tilbuddet Tilmeld dig cloudværtsmiljøet.  
+Gentag de samme trin med det sidste tilbud fra velkomstmailen.
 
-## <a name="assign-licenses"></a>Tildele licenser
+## <a name="assign-licenses"></a>Tildel licenser
 
 > [!IMPORTANT]
 > Du skal have administratoradgang til din organisations Microsoft 365-portal for at fuldføre følgende trin.
 
 1. Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenser til brugerne.
 
+![Startside for Administration](./media/14AdminPortal.png)
+
 2. På siden **Aktive brugere** skal du vælge de brugere, du vil tildele en licens til.
 
-3. Kontrollér, at **Dynamics 365 Project Operations**-licensen er valgt, og vælg **Gem ændringer**.
+![Tildel licenser](./media/15AssignLicenses.png)
+
+3. Kontroller, at licensen **Dynamics 365 Project Operations (CRM) prøveversion** og **Office 365 Project Operations - prøveversion** er valgt, og vælg **Gem ændringer**.
 
 > [!NOTE]
 > Tilbuddet om prøveversionen af Finance behøver ikke at være tildelt en bruger.
@@ -73,7 +97,7 @@ Følg vejledningen i emnet [Klargør et nyt miljø](resource-provision-new-envir
 ## <a name="install-cds-setup-and-configuration-data"></a>Installer CDS-konfiguration og konfigurationsdata
 
 Installer CDS-konfiguration og konfigurationsdata som beskrevet i emnet [Konfigurer og anvend konfigurationsdata i Common Data Service](resource-apply-pro-setup-config-data.md).
-Fuldfør først dette trin, når demomiljøet Finance er udrullet, og demodataene er klar.
+Fuldfør kun dette trin, når demonstrationsmiljøet i Finance er udrullet, og demonstrationsdataene i FO er klar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

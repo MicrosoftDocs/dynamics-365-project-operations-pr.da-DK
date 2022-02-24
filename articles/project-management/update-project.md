@@ -1,23 +1,23 @@
 ---
-title: Opret og opdater et projekt
+title: Opdater et projekt
 description: Dette emne indeholder oplysninger om opdatering af projekter i Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678342"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993364"
 ---
-# <a name="create-and-update-a-project"></a>Opret og opdater et projekt
+# <a name="update-a-project"></a>Opdater et projekt
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Nedenfor vises en oversigt over de felter, der kan opdateres i et projekt, når det er oprettet. Dette omfatter også alle relevante konsekvenser, der er baseret på disse opdateringer.
+Nedenfor vises en oversigt over de felter, der kan opdateres i et projekt, efter at det er blevet oprettet, og eventuelle relevante konsekvenser af opdateringerne.
 
 ## <a name="project-detail-fields"></a>Felter med projektdetaljer
 
@@ -25,8 +25,8 @@ Nedenfor vises en oversigt over de felter, der kan opdateres i et projekt, når 
 - **Beskrivelse**: En oversigt over projektet.
 - **Kunde**: Den virksomhed, som projektet skal leveres til.
 - **Kalenderskabelon**: Projektets arbejdstid. Når feltet ændres, genberegnes hele planen.
-- **Valuta**: Valutaen for projektet. Standardværdien for dette felt er baseret på den valuta, der er defineret i den kontraherende afdeling. Når kontraktenheden opdateres, opdateres feltet også.
-- **Kontraktenhed**: Den organisationsenhed, der repræsenterer den virksomhedsgruppe eller division, som primært er ansvarlig for at vinde salg og administrere levering af arbejde og servicer til kunden.  Når projektlederens afdeling ikke er defineret, angives den værdi, der er defineret i projektparametrene, som standard i dette felt.
+- **Valuta**: Valutaen for projektet. Dette felts standardindstillinger er baseret på den valuta, der er defineret i kontraktenheden. Når kontraktenheden opdateres, opdateres feltet også.
+- **Kontraktenhed**: Den organisationsenhed, der repræsenterer den virksomhedsgruppe eller division, som primært er ansvarlig for at vinde salg og administrere levering af arbejde og servicer til kunden. 
 - **Projektleder**: Det medlem af projektteamet, der har tilladelse til at gennemse og godkende tidsregistreringer og udgifter.
 
 ## <a name="estimate-fields"></a>Estimatfelter

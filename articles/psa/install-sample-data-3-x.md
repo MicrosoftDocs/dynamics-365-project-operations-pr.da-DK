@@ -3,6 +3,7 @@ title: Installation af eksempeldata
 description: Dette emne indeholder oplysninger om installation af eksempeldata i Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985539"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144496"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation af eksempeldata til programmet Project Service
 
@@ -86,7 +87,7 @@ Du skal sørge for, at computeren fortsat kan have forbindelse til et netværk, 
 Computerens pauseskærm skal være slået fra. I modsat fald kan sessionslegitimationsoplysningerne for installationen gå tabt, når pauseskærmen aktiveres (medmindre du holder sessionen aktiv under hele forløbet).
 
 > [!div class="mx-imgBorder"]
-> ![Skærmbillede af indstillinger for pauseskærm med pauseskærmen slået fra.](media/sample-data-1.png)
+> ![Skærmbillede af indstillinger for pauseskærm med pauseskærmen slået fra](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Hente og pakke ud
 
@@ -135,20 +136,20 @@ Demodatapakken kræver seks brugere. For at pakken skal blive installeret korrek
     - Brugers Fullname="Molly Clark" som regnskabschef   
     - Brugers Fullname= "Spencer Low" som praksis- og projektleder  
     - Brugers Fullname="Veronica Quek" som teammedlem   
-    - Brugers fulde navn ="William Contoso"
+    - Brugers Fullname="William Contoso"
   
 2. Hvad angår import af demonstrationsdata, skal du tildele de seks brugere over Administrator-rollen, så eksempelposterne importeres korrekt. 
 
 3. Åbn **PkgFolder**, og find og åbn derefter **ImportUserMapFile.xml**. Opdater **New=** felterne til mailadresserne på de tilsvarende brugere i systemet.
 
    > [!div class="mx-imgBorder"]
-   > ![Skærmbillede af UserMapFile.](media/sample-data-7.png)
+   > ![Skærmbillede af UserMapFile](media/sample-data-7.png)
 
 4. Hvis "Spencer Low" full name-brugeren har et andet bruger-id end **"spencerl"**, skal du opdatere endnu en fil. Åbn **DemoDataPreImportConfig.xml**, og find mærket **userstocreateandconfigure**. Opdater **\<login\>**-mærket med loginId'et (der skelnes mellem store og små bogstaver). 
 
 5. Den første brugers kalender (i mærket **userstocreateandconfigure**) bruges til at angive arbejdstimerne for alle reserverbare ressourcer ved import af demonstrationsdata. Naviger til **Indstillinger** > **Sikkerhed** > **Brugere**, søge efter brugeren "Spencer Low", og åbn indstillingen "Arbejdstimer". Rediger de eksisterende arbejdstimer ved at vælge indstillingen **Hele den gentagne ugeplan fra start til slut**. Sørg for, at **Arbejdstimer er indstillet til 8 AM - 5 PM (9 timer), mandag til fredag og med tidszonen indstillet til Pacific Time (USA og Canada)**. Dette er nødvendigt for at sikre, at området med projektplanen og tidsplanen vises som forventet.
 
-**Anbefaling:** Overvej at oprette en sikkerhedskopi af din organisation nu, som du kan bruge, hvis du får brug for at vende tilbage til udgangspunktet, hvis noget går galt under installationen af eksempeldataene. Du kan finde flere oplysninger under [Sikkerhedskopiering og gendannelse af forekomster](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Anbefaling:** Overvej at oprette en sikkerhedskopi af din organisation nu, som du kan bruge, hvis du får brug for at vende tilbage til udgangspunktet, hvis noget går galt under installationen af eksempeldataene. Du kan finde flere oplysninger under [Sikkerhedskopiering og gendannelse af forekomster](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Køre Package Deployer
 
@@ -172,7 +173,7 @@ Demodatapakken kræver seks brugere. For at pakken skal blive installeret korrek
 5. Vælg **Næste**, indtil du ser dialogen **Opsætning af demodata**.
 
    > [!div class="mx-imgBorder"]
-   > ![Skærmbillede af vinduet med status for installation af demodata.](media/sample-data-3.png)
+   > ![Skærmbillede af vinduet med status for installation af demodata](media/sample-data-3.png)
 
 6. Før du fortsætter, skal du lægge mærke til, at installation af eksempeldata kan tage op til én time (normalt ~ 10 minutter). Du skal først sikre, at computeren forbliver tændt og har forbindelse til et netværk under hele installationen, og, at din session forbliver aktiv.   
 
@@ -191,10 +192,10 @@ Når eksempeldataene er helt indlæst, skal du logge på som brugeren Spencer Lo
 - Hvis programmet Field Service er installeret, skal du gå til **Project Service** > **Indstillinger** > **Prislister**. Bekræft, der er angivet fakturasatser og omkostningssatser. Gå til **Field Service** > **Indstillinger** > **Prislister**, og se, at fakturasatser og omkostningssatser er angivet, med den rette valuta for hvert land/område, i datasættet.
 
   > [!div class="mx-imgBorder"]
-  > ![Skærmbillede af aktive prislister.](media/sample-data-4.png)
+  > ![Skærmbillede af aktive prislister](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Skærmbillede af aktive organisationsenheder.](media/sample-data-5.png)
+  > ![Skærmbillede af aktive organisationsenheder](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tekniske bemærkninger
 
@@ -295,7 +296,4 @@ Hvis du vil ændre arbejdstimerne for reserverbare eksempelressourcer, skal du g
 Vælg en bruger (f.eks. Spencer Low), og skift Spencers arbejdstimer til de timer, du vil anvende til flere brugere. Gå til **Universal Resource Scheduling** > **Indstillinger** > **Arbejdstidsskabeloner**, og rediger posten **Standardarbejdssskabelon**. I feltet **Skabelonressource** skal du vælge en bruger med arbejdstimer, som du vil anvende på andre ressourcer. Gå til **Universal Resource Scheduling** > **Planlægning** > **Ressourcer** > **Aktive reserverbare ressourcer**. Vælg de ressourcer, du vil ændre, og vælg derefter **Angiv kalender**. På rullelisten **Arbejdsskabelon** skal du vælge skabelonen **Standardarbejdstime** eller en anden skabelon med den korrekte skabelonressource. Når du skifter til planlægningsområdet, bør du kunne se ressourcerne, der nu har opdaterede arbejdstimer.
 
 > [!div class="mx-imgBorder"]
-> ![Skærmbillede af aktive reserverbare ressourcer.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Skærmbillede af aktive reserverbare ressourcer](media/sample-data-6.png)

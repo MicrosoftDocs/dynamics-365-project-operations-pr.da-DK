@@ -2,9 +2,11 @@
 title: Synkroniser ressourcekapacitet
 description: Dette emne indeholder oplysninger om, hvordan du synkroniserer en ressources kapacitet på tværs af kalendere og projekter.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005609"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074150"
 ---
 # <a name="synchronize-resource-capacity"></a>Synkroniser ressourcekapacitet
 
@@ -29,7 +31,7 @@ ms.locfileid: "7005609"
 
 Processerne for ressourcesynkronisering er med til at sikre, at oplysninger til kalenderen og basiskalenderen når frem til projektets ressourceplanlægningen. Hvis kalenderen ændres, foretager processerne de påkrævede opdateringer i planlægningen af projektressourcer. Processerne er også med til at forbedre ydeevnen, da kalenderens ressourceoplysninger er blevet synkroniseret på forhånd. Opdateringer af oplysninger om ressourceplanlægning sker derfor hurtigere. Det anbefales, at du planlægger processerne som et batch i stedet for en ad gangen. I modsat fald er der risiko for, at en bruger glemmer de inkluderede datoer, da oplysningerne sidst blev synkroniseret. Hvis der ikke bruges inkluderede datoer, kan der opstå huller under datosynkroniseringen.
 
-![Synkronisering af kalendere.](./media/projectresourcing04-1024x471.jpg)
+![Synkronisering af kalendere](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Synkronisering af akkumulering af ressourcekapacitet
 
@@ -46,7 +48,4 @@ Vi anbefaler, at du bruger en batch . Indstillingerne er tilgængelige under syn
     | Startdato  | Angiv startdatoen for synkroniseringsprocessen for akkumuleringer af ressourcekapacitet. |
     | Slutdato    | Angiv slutdatoen for synkroniseringsprocessen for akkumuleringer af ressourcekapacitet. |
 
-[![Synkroniseringsproces.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Synkroniseringsproces](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)

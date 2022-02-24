@@ -2,16 +2,18 @@
 title: Tilføj et Azure-abonnement til et LCS-projekt
 description: Dette emne indeholder oplysninger om, hvordan du opretter forbindelse mellem Azure-abonnementet og et LCS-projekt.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986664"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880531"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Tilføj et Azure-abonnement til et LCS-projekt
 
@@ -23,35 +25,35 @@ Cloud-hostede miljøer skal installeres ved hjælp af et eksisterende Azure-abon
 
 1. I dit LCS-projekt skal du i sektionen **Miljøer** vælge **Microsoft Azure-indstillinger**.
 
-![Microsoft Azure-indstillinger.](./media/1MicrosoftAzureSettings.png)
+![Indstillinger for Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
 2. På siden **Projektindstillinger** skal du på fanen **Azure-forbindelser** vælge **Autoriser**. Det gør det muligt at udrulle miljøer på dette projekt.
 
-![Azure-forbindelser.](./media/2AzureConnectors.png)
+![Azure-forbindelser](./media/2AzureConnectors.png)
 
 3. Vælg **Autoriser** igen for at give administratorsamtykke.
 
-![Giv administratorsamtykke.](./media/3GrantAdminConsent.png)
+![Giv administratorsamtykke](./media/3GrantAdminConsent.png)
 
 4. Accepter anmodningen om tilladelse.
 
-![Accepter anmodning om tilladelse.](./media/4AcceptPermissionRequest.png)
+![Accepter anmodningen om tilladelse](./media/4AcceptPermissionRequest.png)
 
 Autorisationen er nu fuldført. 
 
-![Autorisation er fuldført.](./media/5AuthorizationComplete.png)
+![Autorisation er fuldført](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Give Dynamics Deployment Services adgang til dit Azure-abonnement
 
 1. Gå til [Microsoft Azure-fakturering](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade), og vælg dit abonnement. Dynamics Deployment Services skal have adgang til dette abonnement for at kunne udrulle miljøer.
 
-![Oplysninger om Azure-abonnement.](./media/6AzureSubscription.png)
+![Abonnementsoplysninger for Azure](./media/6AzureSubscription.png)
 
 2. Vælg **Adgangskontrol (IAM)** i navigationsruden, og vælg derefter **Tilføj rolletildeling**.
 3. Vælg **Bidragyderrolle** i skyderen på højre side, og find og vælg **Dynamics Deployment Services** på listen. 
 4. Vælg **Gem**.
 
-![Abonnementsadgang.](./media/7SubscriptionAccess.png)
+![Abonnementsadgang](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Tilføj en abonnementsforbindelse til et LCS-projekt
 

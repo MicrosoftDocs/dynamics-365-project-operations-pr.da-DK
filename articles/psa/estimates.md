@@ -2,6 +2,8 @@
 title: Vurderinger
 description: Dette emne indeholder oplysninger om estimater i Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992379"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151426"
 ---
 # <a name="estimates"></a>Vurderinger
 
@@ -83,27 +85,24 @@ Hvis du har tilføjet et brugerdefineret felt på tilbudslinjedetaljen og ønske
 1. Åbn PluginRegistrationTool, og opret forbindelse til din onlineforekomst.
 2. Vælg **Søg**, og søg efter den plug-in, der skal opdateres.
 
-    ![Dialogboks med søgetræ.](media/basic-guide-19.png)
+    ![Dialogboks med søgetræ](media/basic-guide-19.png)
 
 3. Vælg plug-in'en, og vælg derefter **Vælg** på hovedsiden.
 4. Vælg trinnet for plug-in'en, du vil opdatere, højreklik, og vælg derefter **Opdater**.
 
-    ![Valg af et trin i plug-in.](media/basic-guide-20.png)
+    ![Valg af et trin i plug-in'en](media/basic-guide-20.png)
 
-5. I dialogboksen **Opdater eksisterende trin** i feltet **Filtrering af attributter** skal du vælge ellipseknappen (**...**):
+5. Vælg ellipseknappen (**...**) i feltet **Filtreringsattributter** i dialogboksen **Opdater eksisterende trin**:
  
-    ![Dialogboksen Opdater eksisterende trin.](media/basic-guide-21.png)
+    ![Dialogboksen Opdater eksisterende trin](media/basic-guide-21.png)
 
 6. Markér afkrydsningsfelterne for de brugerdefinerede attributter i dialogboksen **Vælg attributter**.
 
-    ![Dialogboksen Vælg attributter.](media/basic-guide-22.png)
+    ![Dialogboksen Vælg attributter](media/basic-guide-22.png)
 
 7. Vælg **OK** for at lukke dialogboksen, og vælg derefter **Opdater trin**.
  
-    ![Knappen Opdater trin.](media/basic-guide-23.png)
+    ![Knappen Opdater trin](media/basic-guide-23.png)
 
 8. Gentag trin 1 til 7 for den anden plug-in.
 9. Luk PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

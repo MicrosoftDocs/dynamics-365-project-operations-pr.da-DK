@@ -1,6 +1,8 @@
 ---
 title: Opgradere overvejelser i forbindelse med arbejdsopgavehierarkiet
 description: Dette emne indeholder oplysninger om opgradering af arbejdsopgavehierarkiet fra Project Service Automation 2.x til 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992334"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149536"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Opgradere overvejelser i forbindelse med arbejdsopgavehierarkiet
 
@@ -32,20 +34,20 @@ Dette emne indeholder oplysninger om opgradering af arbejdsopgavehierarkiet fra 
 ## <a name="key-entities"></a>Nøgleobjekter
 Hvis du vil have et nøjagtigt arbejdsopgavehierarki, der allerede er indlæst med ressourcer, skal følgende objekter bruges:
 
-- [Projekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektopgave](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Ressourcetildelinger](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Projektopgaveafhængighed](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Reserverbare ressourcer](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektopgave](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Ressourcetildelinger](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Projektopgaveafhængighed](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Reserverbare ressourcer](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Hvis du vil definere en ressources indlæste arbejdsopgavehierarki, skal du udføre følgende trin:
 
-1. Oprette et nyt projekt. Du finder flere oplysninger om, hvordan du opretter et nyt projekt i [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Oprette en eller flere opgaver. Du finder flere oplysninger om, hvordan du opretter en opgave i [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definere opgaveafhængigheder. Du kan finde flere oplysninger i [Projektopgaveafhængighed](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Tildele projektteammedlemmer til projektet. Du kan finde flere oplysninger i [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Tildele projektteammedlemmer til opgaverne. Du kan finde flere oplysninger i [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Oprette et nyt projekt. Du finder flere oplysninger om, hvordan du opretter et nyt projekt i [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Oprette en eller flere opgaver. Du finder flere oplysninger om, hvordan du opretter en opgave i [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definere opgaveafhængigheder. Du kan finde flere oplysninger i [Projektopgaveafhængighed](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Tildele projektteammedlemmer til projektet. Du kan finde flere oplysninger i [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Tildele projektteammedlemmer til opgaverne. Du kan finde flere oplysninger i [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projektteamrelationer
 
@@ -94,6 +96,3 @@ Følgende relationer skal vedligeholdes korrekt for at sikre en vellykket opgrad
 
 - Alle projektopgaveafhængigheder skal være relateret til det samme projekt.
 - En opgave kan ikke have samme afhængighed refereret mere end én gang.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Forretningstransaktioner
 description: Dette emne indeholder oplysninger om forretningstransaktioner.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987519"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149896"
 ---
 # <a name="business-transactions"></a>Forretningstransaktioner
 
@@ -88,7 +90,7 @@ Tilsammen hjælper Transaktionsoprindelse og Transaktionsforbindelse dig med at 
 
 I følgende eksempel vises den typiske behandling af Transaktionsoprindelse i en PSA-projektlivscyklus.
 
-> ![Behandling af tidsregistreringer i en Project Service-livscyklus.](media/basic-guide-17.png)
+> ![Behandling af tidsregistreringer i en Project Service-livscyklus](media/basic-guide-17.png)
  
 1. Afsendelse af en tidsregistrering medfører, at der oprettes to kladdelinjer: den ene for omkostning og den anden for ikke-faktureret salg.
 2. Eventuel godkendelse af en tidsregistrering medfører, at der oprettes to faktiske værdier: den ene for omkostning og den anden for ikke-faktureret salg.
@@ -147,6 +149,3 @@ I følgende tabel vises posterne i objektet Transaktionsforbindelse for den fore
 | Rettelse af kladdefaktura       | GUID for fakturalinjetransaktion | Erstatning          | msdyn_invoicelinetransaction | GUID for faktureret salg            | Oprindelig           | msdyn_actual       |
 | Bekræft rettelse af faktura     | GUID for tilbageførsel af faktureret salg    | Tilbageførsel          | msdyn_actual                 | GUID for faktureret salg            | Oprindelig           | msdyn_actual       |
 | GUID for nyt faktisk ikke-faktureret salg | Erstatning                     | msdyn_actual       | GUID for faktureret salg            | Oprindelig                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

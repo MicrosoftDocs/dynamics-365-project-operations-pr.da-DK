@@ -2,16 +2,18 @@
 title: Færdigheder og certificeringer
 description: Dette emne indeholder oplysninger om, hvordan du tilføjer kvalifikations- og certificeringskarakteristika til ressourcer.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990174"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128861"
 ---
 # <a name="skills-and-certifications"></a>Færdigheder og certificeringer
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
@@ -41,5 +43,3 @@ Hvis du tilføjer karakteristika til ressourcekrav, kan du dokumentere den viden
 3. I undergitteret for **Færdigheder** skal du vælge **+ Tilføj ny karakteristika for krav**.
 4. Find og vælg de påkrævede karakteristika i ruden for hurtig oprettelse, og tilføj en **Bedømmelseværdi**.
 5. Vælg **Gem og luk**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

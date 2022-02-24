@@ -2,6 +2,8 @@
 title: Nyheder eller ændringer i opdateringsudgivelse 20, V3, til Project Service Automation
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige i opdateringsudgivelse 20 til Project Service Automation, V3
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993594"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147106"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Opdateringsudgivelse 20 til Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
+Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Project Service Automation V3, 20. opdateringsudgivelse. Denne version har buildnummer V 3.10.31.37 og er generelt tilgængelig via en opdatering, du selv har udført i juni 2020.
 
@@ -40,7 +42,7 @@ Følgende problemer er blevet løst:
 
 - Import af projektgruppemedlemmer med en fordelingsmetode, der kræver timer, resulterer i en utydelig fejlmeddelelse, når de angivne timer er nul.
 - Brugerne får vist en fejlmeddelelse om, at der er indsat et maksimum antal tegn i feltet **Beskrivelse** for en projektopgave.
-- Siden **Overfør tilføjelsesprogram til Microsoft Dynamics 365 Project Service Automation** omdirigerer til den engelske overførselsside, når brugerens sprogindstillinger er angivet til japansk.
+- Siden **overførsel af tilføjelsesprogram til Microsoft Dynamics 365 Project Service Automation** omdirigerer til den engelske overførelsesside, når brugerens sprogindstillinger er angivet til japansk.
 - Når der opstår en serverfejl, beholdes synkroniseringsnavnet på fanen **Planlægning** i formularen **Projekter** til tider.
 - Overflødige opgaveopdateringer sendes til serveren, når en opgave ændres.
 
@@ -60,6 +62,3 @@ Følgende problemer er blevet løst:
 - Listerne **Org enhedskostpris** tillader overlapninger i datoeffektiviteten.
 - Brugere har ikke tilladelse til at ændre **OrgUnit**, når ordretypen ikke er arbejdsbaseret, fordi den vil resultere i en undtagelsesfejl i null-referencen.
 - Når du forsøger at navigere fra formularen **Detaljer om tilbudslinjen** tilbage til fanen **Tilbud**, opdateres formularen, og fanen **Oversigt** vises.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

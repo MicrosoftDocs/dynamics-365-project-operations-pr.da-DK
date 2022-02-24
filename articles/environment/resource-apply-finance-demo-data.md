@@ -2,16 +2,18 @@
 title: Anvend demonstrationsdata på et skybaseret Finance-miljø
 description: Dette emne beskriver, hvordan du anvender demonstrationsdata fra Project Operations til et skybaseret Dynamics 365 Finance-miljø.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009659"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365231"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Anvend demonstrationsdata på et skybaseret Finance-miljø
 
@@ -22,40 +24,40 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 1. I dit LCS-projekt skal du åbne siden **Miljødetaljer**. Bemærk, at det indeholder de oplysninger, der skal bruges for at oprette forbindelse til miljøet ved hjælp af RDP (Fjernskrivebordsprotokol).
 
-![Oplysninger om miljø.](./media/1EnvironmentDetails.png)
+![Detaljer for -miljø](./media/1EnvironmentDetails.png)
 
 Det første sæt af fremhævede legitimationsoplysninger er legitimationsoplysninger til den lokale konto og indeholder et link til forbindelse til fjernskrivebord. Legitimationsoplysningerne omfatter administrators brugernavn og adgangskode for miljøet. Det andet sæt legitimationsoplysninger bruges til at logge på SQL Server i dette miljø.
 
 2. Opret fjernforbindelse til miljøet ved hjælp af linket i **Lokale Konti**, og brug **Legitimationsoplysningerne** for at autorisere.
 3. Gå til **Internet Information Services** > **Programgrupper** > **AOSService**, og stands tjenesten. Du er ved at stoppe tjenesten på dette tidspunkt, så du kan fortsætte med at erstatte SQL-databasen.
 
-![Stands AOS.](./media/2StopAOS.png)
+![Stands AOS](./media/2StopAOS.png)
 
 4. Gå til **Tjenester**, og stop følgende to elementer:
 
 - Microsoft Dynamics 365 Unified Operations: Batch Management Service
 - Microsoft Dynamics 365 Unified Operations: Data Import Export Framework
 
-![Stop tjenester.](./media/3StopServices.png)
+![Stop tjenester](./media/3StopServices.png)
 
 5. Åbn Microsoft SQL Server Management Studio. Log på med SQL Server-legitimationsoplysninger, og brug axdbadmin-brugeren og -adgangskoden fra siden med LCS-**Miljøoplysninger**.
 
-![SQL Server Management Studio.](./media/4SSMS.png)
+![SQL Server Management Studio](./media/4SSMS.png)
 
 6. I Object Explorer, **Databaser** og find **AXDB**. Du skal erstatte databasen med en ny database, der findes i [Downloadcenteret](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Kopier zip-filen til den VM, du har fjernforbindelse til, og udpak indholdet.
 8. I SQL Server Management Studio skal du højreklikke på **AxDB** og derefter vælge **Opgaver** > **Gendan** > **Database**.
 
-![Gendan database.](./media/5RestoreDatabase.png)
+![Gendan database](./media/5RestoreDatabase.png)
 
 9. Vælg **Kildeenhed**, og naviger til den fil, du har kopieret fra den zip-fil, som du kopierede.
 
-![Kildeenheder.](./media/6SourceDevice.png)
+![Kildeenheder](./media/6SourceDevice.png)
 
 10. Vælg **Indstillinger**, og vælg derefter **Overskriv den eksisterende database**, og **Luk eksisterende forbindelser til destinationsdatabasen**. 
 11. Vælg **OK**.
 
-![Gendan indstillinger.](./media/7RestoreSetting.png)
+![Gendan indstillinger](./media/7RestoreSetting.png)
 
 Du modtager en bekræftelse på, at AXDB-gendannelsen blev fuldført. Når du har modtaget denne bekræftelse, kan du lukke SQL Services Management Studio.
 
@@ -66,17 +68,14 @@ Du modtager en bekræftelse på, at AXDB-gendannelsen blev fuldført. Når du ha
 15. Kør .ext-filen ved hjælp af din brugeradresse i feltet **Mailadresse**. 
 16. Vælg **Send**.
 
-![Administrators brugerklargøring.](./media/8AdminUserProvisioning.png)
+![Administratorbrugerklargøring](./media/8AdminUserProvisioning.png)
 
 Dette tager et par minutter at fuldføre. Du bør modtage en bekræftelsesmeddelelse om, at administratorbrugeren blev opdateret korrekt.
 
 17. Endelig skal du køre kommandoprompt som administrator og nulstille IIS
 
-![Nulstilling af IIS.](./media/9IISReset.png)
+![Nulstil IIS](./media/9IISReset.png)
 
 18. Luk fjernskrivebordssessionen, og brug siden med LCS-**Miljødetaljer** til at logge på miljøet for at bekræfte, at den fungerer som forventet.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Finance and Operations](./media/10FinanceAndOperations.png)

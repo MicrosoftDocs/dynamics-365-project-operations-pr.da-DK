@@ -2,16 +2,18 @@
 title: Konfigurer automatisk fakturaoprettelse
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer systemet til at oprette fakturaer automatisk.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992649"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122426"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfigurer automatisk fakturaoprettelse
 
@@ -43,6 +45,3 @@ Batchprocesjobbet til oprettelse af fakturaer er et tilbagevendende job. Hvis de
 
 > [!NOTE]
 > Batchfakturering kører kun for projektkontrakt linjer, der er konfigureret af fakturaplaner. Der skal være konfigureret målepæle for en kontraktlinje med en faktureringsmetode med fast pris. Der skal konfigureres en datobaseret fakturaplan for en projektkontraktlinje med en metode til fakturering af time og materiale. Det samme gælder for en projektbaseret kontraktlinje.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

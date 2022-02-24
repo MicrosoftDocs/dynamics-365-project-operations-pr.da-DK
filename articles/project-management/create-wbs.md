@@ -2,16 +2,18 @@
 title: Opret et arbejdsopgavehierarki
 description: I dette emne forklares det, hvordan du kan oprette et arbejdsopgavehierarki (WBS), inklusive basiskontrolelementerne i den nye planlægningsgrænseflade.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928608"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841322"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opret et arbejdsopgavehierarki (WBS)
 
@@ -91,11 +93,9 @@ I tabellen nedenfor vises yderligere planlægningsattributter.
 | Navn | Navnet på opgaven. |
 | Id | Opgavens ID i arbejdsopgavehierarkiet. |
 
-Som en administrator kan du definere brugerdefinerede felter i opgaveobjektet. Felterne kan dog ikke vises i planlægningsgitteret. Hvis du vil se de brugerdefinerede felter, skal du tilføje dem til siden med detaljer for **Projektopgaven**.
-
 ## <a name="staffing-attributes"></a>Bemandingsattributter
 
-Der kan opnås adgang til medarbejderattributter via feltet **Ressourcer** i tidsplanen. Du kan enten søge efter en eksisterende ressource eller vælge **Opret** og i ruden **Hurtig oprettelse** tilføje et medlem af projektteamet som en ny ressource.  Når du søger efter en ressource ved hjælp af ressourcevælgeren i opgavegitteret, i områdevisningen eller i gantt, returnerer søgningen enten eksisterende medlemmer af projektteams eller aktive ressourcer, der kan reserveres.
+Der kan opnås adgang til medarbejderattributter via feltet **Ressourcer** i tidsplanen. Du kan enten søge efter en eksisterende ressource eller vælge **Opret** og i ruden **Hurtig oprettelse** tilføje et medlem af projektteamet som en ny ressource.
 
 Felterne **Rolle**, **Ressourceenhed** og **Navn på stilling** bruges til at beskrive personalekravene for opgaven. Disse medarbejderattributter sammen med opgaveplanlægning bruges til at finde tilgængelige ressourcer til udførelse af denne opgave.
 
@@ -116,28 +116,3 @@ Opgavetilstanden påvirker ikke de opdateringer, der er foretaget af start- og s
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hjælp til handicappede og tastaturgenveje
 
 Gitteret **Planlægning** er fuldt tilgængeligt og kan bruges sammen med skærmlæsere, f.eks. Oplæser, JAWS eller NVDA. Du kan flytte gennem gitterområdet ved hjælp af piletasterne (som i Microsoft Excel), du kan bruge tabulatortasten til at gennemblade de interaktive brugergrænsefladeelementer, og du kan bruge pil ned-tasten, tasten ENTER eller mellemrumstasten til at åbne og aktivere rullemenuerne.
-
-## <a name="project-limitations"></a>Projektbegrænsninger 
-Du skal være opmærksom på følgende begrænsninger, hvis du bruger arbejdsopgavehierarkiet i Project Operations. Disse grænseværdier gælder for projekter og opgaver. Du kan finde flere oplysninger under [Grænseværdier og grænser for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Felt**                                          |  **Grænse**           |
-|----------------------------------------------------|----------------------|
-| Det maksimale samlede antal opgaver for et projekt                  | 500                  |
-| Den maksimale samlede varighed af et projekt               | 3.650 dage (10 år) |
-| Det maksimale samlede antal ressourcer for et projekt              | 150                  |
-| Det maksimale samlede antal links (kun efterfølger) for et projekt | 600                  |
-| Det maksimale samlede antal brugertilpassede felter for et projekt          | 10                   |
-| Maksimalt antal kontrollisteelementer pr. opgave                   | 20                   |
-
-**Opgavebegrænsninger**
-
-| **Felt**                               |   **Grænse**           |
-|-----------------------------------------|-----------------------|
-| Det maksimale hierarkiniveau                 | 10 niveauer             |
-| Det maksimale antal links (efterfølger + forgænger) | 20                    |
-| Den maksimale varighed af bladopgaver           | 1250 dage             |
-| Den maksimale varighed af en opsummeringsopgave      | 3.650 dage (10 år)  |
-| Det maksimale antal ressourcer, der kan tildeles en opgave    | 20 ressourcer          |
-| Understøttet datointerval for en opgave         | 1/1/2000 - 31/12/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

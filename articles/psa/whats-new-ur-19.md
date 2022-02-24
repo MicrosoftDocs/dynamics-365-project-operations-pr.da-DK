@@ -2,6 +2,8 @@
 title: Nyheder eller ændringer i opdateringsudgivelse 19, V3, til Project Service Automation
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 19, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993639"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143599"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Opdateringsudgivelse 19 til Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
+Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 I dette emne vises de funktioner og rettelser, der er nye eller ændrede for PSA V3, 19. opdateringsudgivelse. Denne version har buildnummer V3.10.30.41 og er generelt tilgængelig via en opdatering, du selv har udført i maj 2020.
 
@@ -64,6 +66,3 @@ Følgende problemer er blevet løst:
 - Kunderne kan opleve forringet ydeevne, når de opretter et projekt, da **GetBookableResourceIdFromUser** henter alle kolonner med reserv rbare ressourcer i stedet for kun det primære id.
 - Objektet **TransactionType** mangler plug-in'en til opdatering før validering for at forhindre brugere i at angive **Enheder** og **UnitGroups**, der ikke er gyldige for transaktionstyper.
 - Trinnet **Fjern** virker ikke for import af tidsangivelse.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Bekræft en projektkontrakt
 description: Dette emne indeholder oplysninger om, hvordan du bekræfter en kontrakt i Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989814"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128276"
 ---
 # <a name="confirm-a-project-contract"></a>Bekræft en projektkontrakt
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-En projektkontrakt i Dynamics 365 Project Operations kan være aktiv med en årsag angivet til **Bekræftet** eller lukket med årsagen **Tabt**. Når du bekræfter en projektkontrakt, opdateres statussen fra **Kladde** til **Aktiv**, og statusårsagen angives til **Bekræftet**. En aktiv eller lukket kontrakt kan ikke redigeres eller genåbnes. 
+En projektkontrakt i Dynamics 365 Project Operations kan være aktiv med en årsag angivet til **Bekræftet** eller være lukket med en årsag angivet til **Tabt**. Når du bekræfter en projektkontrakt, opdateres statussen fra **Kladde** til **Aktiv**, og statusårsagen angives til **Bekræftet**. En aktiv eller lukket kontrakt kan ikke redigeres eller genåbnes. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Økonomisk indvirkning af at bekræfte en projektkontrakt
 
@@ -32,7 +34,4 @@ Når du lukker en projektkontrakt som tabt, opdateres kontraktstatussen til **Lu
 Hvis den projektkontrakt, der lukkes som værende tabt, refererer til et projekt på de enkelte linjer, bliver det pågældende projekt også markeret som lukket. De ressourcereservationer, der er gældende fra den pågældende dag og fremefter, annulleres. Alle ikke-fakturerede faktiske salgsværdier i projektkontrakten, som ikke allerede er blevet faktureret, tilbageføres.
 
 > [!NOTE]
-> I Dynamics 365 Project Operations vil lukning af en projektkontrakt som tabt ikke påvirke denne status for den tilknyttede salgsmulighed. Salgsmuligheden er stadig åben og skal lukkes manuelt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> I Dynamics 365 Project Operations påvirkes statussen for den tilknyttede salgsmulighed ikke ved, at du lukker et projekt som værende tabt. Salgsmuligheden er stadig åben og skal lukkes manuelt.

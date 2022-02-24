@@ -2,6 +2,8 @@
 title: Administrere projekter og reservationer i din Office 365-kalender
 description: Sådan administreres projekter og reservationer i din Office 365-kalender
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985315"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144451"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Administrere projekter og reservationer i din kalender (Project Service)
 
@@ -50,7 +52,7 @@ Få vist private aftaler, reservationer til projektarbejde og tildelinger af arb
   
 - Du skal have legitimationsoplysninger som [!INCLUDE[pn_office_365](../includes/pn-office-365.md)]-organisationsadministrator eller -systemadministrator.  
   
-- Din administrator skal konfigurere mailserverprofilen, og de enkelte brugere skal konfigurere deres postkasse. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Opsæt mailbehandling via synkronisering på serversiden](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Din administrator skal konfigurere mailserverprofilen, og de enkelte brugere skal konfigurere deres postkasse. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Opsæt mailbehandling via synkronisering på serversiden](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Slå synkronisering til for din organisationen (administratoropgave)  
   
@@ -89,6 +91,3 @@ Få vist private aftaler, reservationer til projektarbejde og tildelinger af arb
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

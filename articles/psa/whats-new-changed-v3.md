@@ -1,6 +1,8 @@
 ---
 title: Nyheder eller ændringer i Project Service Automation version 3
 description: Dette emne indeholder oplysninger om nyheder og ændringer i Project Service Automation version 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987069"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150661"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheder eller ændringer i Project Service Automation version 3
 
@@ -36,7 +38,7 @@ Emnet indeholder oplysninger om ændringerne af brugergrænseflade, funktioner o
 ## <a name="project-scheduling"></a>Projektplanlægning
 Projektplanen, som blev kendt som arbejdsopgavehierarkiet (WBS - work breakdown structure) i tidligere versioner, er blevet omdøbt til Tidsplan, og du får adgang til den ved at klikke på fanen **Tidsplan**. 
 
-![Projektplan.](media/psa-schedule-01.png)
+![Projektplan](media/psa-schedule-01.png)
 
 Planlægningen har nu en ny interaktionsoverflade, som er både moderne og tilgængelige. Det underliggende planlægningsprogram for Project Service Automation er dog ikke blevet ændret. Du kan bruge knapperne til kontrolelementer på båndet til tidsplanens gitter til at interagere med tidsplanen på en måde, der minder om den forrige version af Project Service Automation. Du kan ændre tidsplanen ved at benytte følgende fremgangsmåde:
 
@@ -95,22 +97,22 @@ Når du flytter tidsplanen for et eksisterende projekt fremad, sker der følgend
 ## <a name="estimates"></a>Vurderinger
 Estimater er opdelt i to faner, **Ressourcetildeling** og **Estimater**. Fanen **Ressourcetildeling** indeholder indsatsestimaterne og viser ressourcetildelingerne for opgaverne i en visning med tidsfaser. Du kan redigere estimaterne på baggrund af det, planlægningsprogrammet har genereret.
 
-![Fanen Ressourcetildelinger, der viser indsatsestimater og ressourcetildelinger for opgaver.](media/resource-assignments-tab-02.png)
+![Fanen Ressourcetildelinger, der viser indsatsestimater og ressourcetildelinger for opgaver](media/resource-assignments-tab-02.png)
 
 Under fanen **Estimater** vises omkostnings- og salgsbeløb for ressourcetildelinger. Beløbene er skrivebeskyttede. Fastsættelse af omkostnings- og salgspriser er nu baseret på teammedlemtildelinger i tidsplanen. Det betyder, at hvis du har en opgave uden tildeling, vises opgaven under den ikke-tildelte bucket. Det betyder også, at uden **rolle**, som er en standardprisdimension, er der ingen anslået omkostning eller intet anslået salg, hvis du har en kunde eller kontrakt/tilbud tilknyttet projektet. 
 
-![Fanen Estimater viser omkostnings- og salgsbeløb.](media/estimates-tab-03.png)
+![Fanen Estimater viser omkostnings- og salgsbeløb](media/estimates-tab-03.png)
   
 Kategori understøttes også i opgaver i tidsplanvisningen. Gruppering efter kategori i den tidsfaseinddelte visning af estimater vil give en bedre oplevelse, især hvis du også har udgiftsestimater i projektet. Udgiftsestimater indtastes ved hjælp af et gitter under en separat fane. 
 
 Udgiftsestimater kan angives i gitteret under fanen **Udgiftsestimater**. 
 
-![Fanen Udgiftsestimater, der viser gitteret for udgiftsestimater.](media/expense-estimates-tab-04.png)
+![Fanen Udgiftsestimater, der viser gitteret for udgiftsestimater](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Ressourcestyring
 I Project Service Automation version 3 med den nye Unified-klientbrugergrænseflade og ændringer i relationen mellem reservationer og tildelinger er bemanding af et projekt med generiske eller faktiske ressourcer ændret væsentligt fra version 2 og version 1. Begreberne reserverbare ressourcer, både **faktiske** og **generiske**, forbliver de samme ligesom teammedlemmer, krav, tildelinger og reservationer.   
 
-![Brug af ressourcevælgeren.](media/resource-management-05.png)
+![Brug af ressourcevælgeren](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Tildele en faktisk reserverbar ressource 
 I Project Service Automation version 3 er reservationer og tildeling af opgaver ikke så tæt forbundet som i de tidligere versioner af Project Service Automation. Du kan bruge teamgitteret til at reservere et **faktisk** teammedlem, meget lig in-market.
@@ -151,21 +153,21 @@ Denne sektion indeholder oplysninger om ændringerne i tid, udgifter og godkende
 ### <a name="landing-page"></a>Landingsside
 Oplevelsen med den brugerdefinerede tidsregistrering, der ikke kan udvides, er frarådet i version 3. I stedet er der nu en indbygget gitteroplevelse, som kan udvides. Du kan få adgang til tidsregistreringsfunktionaliteten ved at bruge webstedsoversigten til venstre. Med denne ændring kan du ikke længere angive tid for én uge ad gangen. I stedet skal du oprette en tidsregistrering for hver dag i gitteret. Når der er oprettet nogle få tidsregistreringer, kan brugerne masseoprette tidsregistreringer ved hjælp af funktionen **Kopiér**, der er forklaret senere i denne emne. 
 
-![Landingsside for tidsregistrering.](media/time-entry-landing-page-07.png)
+![Landingsside for tidsregistrering](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Oprette nye tidsregistreringer 
 Klik på **Ny** på båndet for at åbne en side til hurtig oprettelse for tidsregistrering, hvor du angiver varighed i minutter, timer eller dage. Det kan du gøre ved blot at begynde at skrive t, m eller d sammen med antallet.  
 
-![Hurtig oprettelse af tidsregistrering.](media/quick-create-time-entry-08.png)
+![Hurtig oprettelse af tidsregistrering](media/quick-create-time-entry-08.png)
 
 Opslagsfelter understøttes af systemvisninger. Når du f.eks. har angivet projektoplysninger, angives feltet **Projektopgave** som standard til visningen **Mine åbne projektopgaver**. Hvis du vil oprette tidsregistreringer for opgaver, der ikke er tildelt til brugeren, skal du klikke på **Skift visning** i opslaget og vælge **Alle aktive projektopgaver**. Når tidsregistreringen er oprettet og vises i gitteret, kan du redigere alle linjeværdier direkte i gitteret.  
 
 ### <a name="bulk-createcopy"></a>Masseoprette/-kopiere 
 Når der er oprettet nogle få registreringer, kan du bruge kopieringsfunktionen til at masseoprette flere tidsangivelser. Klik på **Kopiér** for at åbne dialogboksen **Kopiér**. I **Fra periode: Start dato** skal du angive det datointerval, som tidsperioder skal kopieres fra. I **Til periode: Startdato** skal du angive den dato, der skal oprettes tidsregistreringer for. Klik på **Kopiér** for at kopiere tidsregistreringsposterne til den tilsvarende dag i ugen, der er angivet i **Til periode**. Tidsregistreringen for mandag i sidste uge kopieres f.eks. til mandag i den uge, der er angivet i **Til periode**. 
 
-![Massekopiér tidsregistreringer.](media/bulk-copy-time-entry-09.png)
+![Massekopiere tidsregistreringer](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Importér data 
+### <a name="import-data"></a>Importere data 
 Tildelinger og udveksling følger det samme brugergrænseflademønster, hvilket gør det muligt for brugeren at angive det datointerval, som reservationer skal importeres fra. Du skal derefter udtrykkeligt vælge de reservationer, der skal kopieres til **Kladde**-tidsregistreringer. I version 3 kan du ikke længere se mønsteret med **Foreslået** tidsregistreringer i gitteret og kalenderen.  
 
 ### <a name="change-in-calendar-control"></a>Ændring i kalenderkontrolelement
@@ -179,7 +181,7 @@ I version 3 er vi flyttet væk fra det brugerdefinerede kalenderkontrolelement o
 
 **Hent data i brugerdefinerede felter i tidsregistrering og udgiftspost, og overfør dem via objekter, der understøtter indsendelses- og godkendelsesflow** – den typiske behandling af tidsregistreringer vises i følgende diagram.
 
-![Proces for tidsregistreringsflow.](media/process-time-entries-10.png)
+![Processen for tidsregistreringsflowet](media/process-time-entries-10.png)
 
 Hvis virksomhedens krav fastsætter, at tidsregistreringer og udgiftsposter skal registrere brugerdefinerede prisdimensioner og overføre de værdier, der er angivet for en tidsregistrering og en udgiftspost i den brugerdefinerede prisdimension via alle objekterne i den forrige grafik, skal du [Konfigurere brugerdefinerede felter som prisfastsættelsesdimensioner](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ I version 1 og 2 blev opsætningen af fakturerbarhed for roller og kategorier fo
 
 Fra og med version 3 udføres konfiguration af indstillinger for fakturerbarhed efter rolle og udgiftskategori på tilbuds- eller kontraktlinjeniveau. Prisopsætning er adskilt fra opsætning af fakturerbarhed. Du kan finde **Fakturerbare roller** og **Fakturerbare kategorier** som faner på siderne **Tilbudslinje** og **Kontraktlinje**, uden at det er nødvendigt at bruge det øverste navigationsområde.
 
-![Fakturerbare roller.](media/chargeable-12.png)
+![Fakturerbare roller](media/chargeable-12.png)
  
 Konfigurationen af Fakturerbare roller og Fakturerbare kategorier bruges også standardgitterkontrolelementet, der kan redigeres. For de enkelte roller og kategorier forbliver de understøttede indstillinger for faktureringstype under tilbuds- og kontraktfasen uændret i forhold til tidligere versioner som **Fakturerbar** og **Ikke-fakturerbar**. **Gratis** er ikke en understøttet type i tilbuds- eller kontraktfasen. **Gratis** understøttes kun i forbindelse med tids- eller udgiftsgodkendelse.  
  
@@ -247,14 +249,11 @@ Fra og med version 3 er oprettelse og brug af en brugerdefineret projektprislist
   
 Følgende grafik er før oprettelse af brugerdefinerede prislister.
 
-![Før brugerdefinerede prislister.](media/before-custom-price-lists-13.png)
+![Før brugerdefinerede prislister](media/before-custom-price-lists-13.png)
 
 Følgende grafik er efter oprettelse af brugerdefinerede prislister.
 
-![Efter brugerdefinerede prislister.](media/after-custom-price-lists-14.png)
+![Efter brugerdefinerede prislister](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Når du klikker på **Opret brugerdefineret prissætning**, kan der være en kort forsinkelse, før den brugerdefinerede prisliste er oprettet. Det anbefales, at du opdaterer gitteret i stedet for at klikke flere gange. Der er oprettet en brugerdefineret prisliste, hvis navnet på den tilknyttede prisliste har tilbudsnavnet eller projektkontraktnavnet tilføjet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

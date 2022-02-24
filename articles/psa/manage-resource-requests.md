@@ -2,6 +2,8 @@
 title: Administrere anmodninger om ressourcer
 description: Sådan administrerer du anmodninger om ressourcer i Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985134"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149851"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrere anmodninger om ressourcer (Project Service)
 
@@ -43,12 +45,9 @@ Kundechefer og projektledere anmoder jævnligt om ressourcer til deres projekter
   
    -   Klik på **Filter** for at åbne ruden **Filter**, hvor du kan filtrere resultaterne efter afdeling, rolle, færdighed eller andre attributter.  
   
-       ![Skærmbilledet Anmodninger om ressourcer til Project Service.](../psa/media/project-service-resource-request-screen.png "Skærmbilledet Anmodninger om ressourcer til Project Service")  
+       ![Skærmbilledet Anmodninger om ressourcer til Project Service](../psa/media/project-service-resource-request-screen.png "Skærmbilledet Anmodninger om ressourcer til Project Service")  
   
 3. I kalenderen for ressourcen, du vil reservere, skal du vælge tidsperioden for at reservere ressourcen. Klik derefter på enten **Reservér** for at reservere ressourcen eller **Foreslå reservation** at foreslå reservationen og få anmoderen til at godkende den. Når du reserverer en ressource, kan du foretage en foreløbig eller definitiv reservation.  
   
 ### <a name="see-also"></a>Se også  
  [Ressourcestyringsvejledning](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

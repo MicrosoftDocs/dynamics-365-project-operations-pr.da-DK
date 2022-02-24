@@ -1,100 +1,39 @@
 ---
-title: Bekræft en projektbaseret proformafaktura
-description: Dette emne indeholder oplysninger om bekræftelse af en projektbaseret proformafaktura.
+title: Bekræft en proformafaktura
+description: Dette emne indeholder oplysninger om, hvordan du bekræfter en proformafaktura.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 88dccb63247fe6937240921de7bc7a30a3737dad3f62c6c441d732c046aaddc3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fa1e6c17fbda76a283c2ec68760a00e846decf83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985854"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128096"
 ---
-# <a name="confirm-a-proforma-project-based-invoice"></a>Bekræft en projektbaseret proformafaktura
+# <a name="confirm-a-proforma-invoice"></a>Bekræft en proformafaktura
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Når en proforma-faktura er bekræftet, opdateres statussen for projektfakturaens til **Bekræftet**. Når en faktura er blevet bekræftet, bliver den skrivebeskyttet. Fremover kan fakturaen kun rettes, hvis rettelserne skyldes kundeanmodninger eller krediteringer.
+Når en proforma-faktura er bekræftet, opdateres statussen for projektfakturaens til **Bekræftet**. Når en faktura er blevet bekræftet, bliver den skrivebeskyttet. Fakturaen kan fremadrettet kun rettes i tilfælde af rettelser ansporet af kunden eller kreditter, eller når den er markeret som betalt.
 
 I følgende tabel vises de faktiske oplysninger, som systemet opretter. Disse faktiske oplysninger oprettes, når bestemte operationer udføres på kladdeprojektfakturaen, før den bekræftes.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="216" valign="top">
+            <td width="416" valign="top">
                 <p>
                     <strong>Scenarie</strong>
                 </p>
             </td>
-            <td width="808" valign="top">
+            <td width="608" valign="top">
                 <p>
                     <strong>De faktiske oplysninger, der blev oprettet i forbindelse med bekræftelse</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af et forskud eller et forskudshonorar </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturering af faktisk salgsværdi af typen <strong>Forskudshonorar</strong> oprettes for det pålydende beløb for forskuddet eller forskudshonoraret.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Et ikke-faktureret salg med et negativt beløb for forskuddet eller forskudshonoraret, der skal bruges til afstemning.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Efter at have afstemt et forskudshonorar eller et forskud på en faktura fuldt ud.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Tilbageførsel af en ikke-faktureret faktisk salgsværdi i form af et forskudshonorar eller et forskud, der blev oprettet med henblik på afstemning. Dette beløb er positivt, da det skal annullere det negative beløb, der blev oprettet, da forskudshonoraret eller forskuddet blev faktureret.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturering af en faktisk salgsværdi svarende til beløbet på den pågældende faktura.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Efter delvist at have afstemt et forskudshonorar eller et forskud på en faktura.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Tilbageførsel af en ikke-faktureret faktisk salgsværdi i form af et forskudshonorar eller et forskud, der blev oprettet med henblik på afstemning. Dette beløb er positivt, da det skal annullere det negative beløb, der blev oprettet, da forskudshonoraret eller forskuddet blev faktureret.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturering af en faktisk salgsværdi svarende til beløbet på den pågældende faktura.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En negativ ikke-faktureret faktisk salgsværdi lydende på det resterende beløb for forskudshonoraret eller forskuddet skal anvendes til afstemningen af fremtidige fakturaer.
                 </p>
             </td>
         </tr>
@@ -132,14 +71,14 @@ Tilbageførelse af tiden og beløbet for ikke-faktureret salg på den oprindelig
         <tr>
             <td width="408" valign="top">
                 <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for de pågældende timer og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
+En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for de pågældende timer og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Et nyt ikke-faktureret faktisk salg, der ikke er fakturerbar for de resterende timer og beløb, efter at de korrigerede tal er blevet trukket fra på den redigerede fakturalinjedetalje, en tilbageførelse af faktiske salg og et tilsvarende faktureret faktisk salg.
+En ny ikke-faktureret faktisk salgsværdi, der ikke er fakturerbar for de resterende timer og beløb efter at have fratrukket de rettede tal på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
                 </p>
             </td>
         </tr>
@@ -196,7 +135,7 @@ Tilbageførelse af antallet og beløbet for ikke-faktureret salg på den oprinde
         <tr>
             <td width="408" valign="top">
                 <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for det pågældende antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
+En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for det pågældende antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier. 
                 </p>
             </td>
         </tr>
@@ -222,71 +161,7 @@ Tilbageførelse af antallet og beløbet for ikke-faktureret salg på den oprinde
         <tr>
             <td width="408" valign="top">
                 <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier. 
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af en materialetransaktion uden at redigere kladdefakturaen.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et ikke-faktureret salg for mængden og beløbet på den oprindelige materialeforbrugsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En faktureret faktisk salgsværdi for mængden og beløbet på den oprindelige materialeforbrugsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturering af en materialetransaktion, der er redigeret for at reducere mængden.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et ikke-faktureret salg for mængden og beløbet på den oprindelige tidsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for det pågældende antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der ikke er fakturerbar for det resterende antal og beløb efter at have fratrukket de rettede tal på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturering af en materialetransaktion, der er redigeret for at øge mængden.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En tilbageførsel af et ikke-faktureret salg for mængden og beløbet på den oprindelige materialeforbrugsgodkendelse.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for det pågældende antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
+En ny ikke-faktureret faktisk salgsværdi, der er fakturerbart for antal og beløb på det redigerede fakturalinjeniveau, en tilbageførsel af de ikke-fakturerede faktiske salgsværdier og en tilsvarende fakturering af faktiske salgsværdier.
                 </p>
             </td>
         </tr>
@@ -321,8 +196,5 @@ Fakturering af en faktisk salgsværdi for milepælsbeløbet på den oprindelige 
                 </p>
             </td>
         </tr>
-       
     </tbody>
 </table>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

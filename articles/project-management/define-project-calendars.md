@@ -2,9 +2,11 @@
 title: Definer projektkalendere
 description: Dette emne giver oplysninger om, hvordan du anvender en kalenderskabelon på et projekt til at spore projektplanen.
 author: ruhercul
+manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487633"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981293"
 ---
 # <a name="define-project-calendars"></a>Definer projektkalendere
 
@@ -46,7 +48,7 @@ Hvis du vil oprette en kalenderskabelon for din organisation, er der to nøglekr
 
 1. Gå til **Ressourcer** \> **Ressourcer**.
 2. Opret en ny ressource, der skal refereres til i kalenderskabelonen, eller vælg en eksisterende ressource.
-3. Vælg fanen **Arbejdstimer** for ressourcen, og fuldfør instruktionerne i [Angiv arbejdstimer for en ressource](/dynamics365/field-service/set-work-hours-resource) for at konfigurere kalenderreglerne.
+3. Vælg fanen **Arbejdstimer** for ressourcen, og fuldfør instruktionerne i [Angiv arbejdstimer for en ressource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) for at konfigurere kalenderreglerne.
 
 **Opret en ny kalenderskabelon**
 

@@ -2,10 +2,12 @@
 title: Estimer projektsalg og -omkostninger, når en reserverbar ressource udfylder flere roller for et projekt
 description: Dette emne indeholder oplysninger om, hvordan prisfastsættelsesdimensioner kan bruges til at understøtte prisfastsættelse og omkostningsfastsættelse for en ressource, der udfylder flere roller i et projekt.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987474"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145036"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimer projektsalg og -omkostninger, når en reserverbar ressource udfylder flere roller for et projekt 
 
@@ -72,6 +74,3 @@ Når du udvider rækken for det pågældende teammedlems post, kan du se de fors
 Når du navigerer til gitteret **Estimater**, vil du bemærke, at tildelingerne til den samme ressource er prisfastsat forskelligt.
 Tildelingen for ressourcen på opgave A er prisfastsat ved hjælp af **Rolle**-attributværdien for **Konsulterende kundeemne**. Tildelingen for den samme ressource på opgave B er prisfastsat ved hjælp af **Rolle**-attributværdien for **Netværkstekniker**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Rediger reservationer
 description: Dette emne indeholder oplysninger om, hvordan du opdaterer og foretager ændringer af reservationer.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008309"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841321"
 ---
 # <a name="edit-bookings"></a>Rediger reservationer
 
@@ -31,6 +33,3 @@ En projektleder kan fra gitteret **Teammedlem** fremhæve en specifik ressource 
 ## <a name="schedule-board"></a>Planlægningsområde
 
 I **Planlægningsområde** har ressourceadministratoren en oversigt over alle reservationer på tværs af en organisation. Fra denne visning kan ressourceadministratoren udvide, afkorte eller flytte eksisterende reservationer i stil med de muligheder, der findes i **Bevar reservationer**. Ressourceadministratoren kan også erstatte eksisterende ressourcer, der er tildelt en bestemt reservation, ved at højreklikke på reservationen og vælge **Erstat ressource**. Ressourceadministratorer kan også redigere eksisterende reservationer ved at højreklikke på reservationen og vælge **Rediger**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

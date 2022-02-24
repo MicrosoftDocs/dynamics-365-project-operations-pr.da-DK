@@ -1,25 +1,42 @@
 ---
-title: Proformafakturaer
-description: Dette emne indeholder oplysninger om proformafakturaer i Project Operations.
+title: Opret en manuel proformafaktura
+description: Dette emne indeholder oplysninger om, hvordan du opretter en proformafaktura.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995619"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128051"
 ---
-# <a name="proforma-invoices"></a>Proformafakturaer
+# <a name="create-a-manual-proforma-invoice"></a>Opret en manuel proformafaktura
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Proformafakturering er nyttig, fordi det giver projektledere et nyt niveau til godkendelse, før de opretter fakturaer til kunderne. Det første godkendelsesniveau fuldføres, når de tids-, udgifts- og materialeposter, som medlemmer af projektteamet sender, godkendes. Bekræftede proformafakturaer er tilgængelige i modulet Projektbogholderi i Project Operations. Projektrevisorer kan udføre flere opdateringer, f.eks. moms, regnskab og fakturalayout.
+Fakturering giver projektledere et to-trins-godkendelsesniveau, før de opretter fakturaer til kunderne. Det første godkendelsesniveau fuldføres, når de tids- og udgiftsposter, som medlemmer af projektteamet sender, godkendes.
 
+Dynamics 365 Project Operations er ikke designet til at generere kundefokuserede fakturaer af følgende årsager:
+
+- Den indeholder ikke skatteoplysninger.
+- Det er ikke muligt at konvertere andre valutaer til faktureringsvalutaen ved hjælp af korrekt konfigurerede valutakurser.
+- Det er ikke muligt at formatere fakturaer korrekt, så de kan udskrives.
+
+Du kan i stedet bruge et regnskabssystem til at oprette kundefokuserede fakturaer, der bruger oplysninger fra genererede fakturaforslag.
 
 ## <a name="creating-project-invoices"></a>Oprettelse af projektfakturaer
 
@@ -33,7 +50,7 @@ Følg dette trin for at oprette en faktura for en bestemt projektkontrakt.
 
 - Åbn siden med listen **Projektkontrakter**, åbn en projektkontrakt, og vælg derefter **Opret faktura**.
 
-    Der genereres en faktura for alle transaktioner for den valgte projektkontrakt, der har statussen **Klar til fakturering**. Transaktionerne omfatter tid, udgifter, materiale, milepæle og andre ikke-fakturerede salgskladdelinjer.
+    Der genereres en faktura for alle transaktioner for den valgte projektkontrakt, der har statussen **Klar til fakturering**. Disse transaktioner omfatter tid, udgifter, milepæle og produktbaserede kontraktlinjer.
 
 Følg disse trin for at oprette flere fakturaer samlet.
 
@@ -43,7 +60,7 @@ Følg disse trin for at oprette flere fakturaer samlet.
 
 2. Vælg **OK** for at lukke meddelelsesfeltet.
 
-    Der genereres en faktura for alle transaktioner på en kontraktlinje, der har statussen **Klar til fakturering**. Transaktionerne omfatter tid, udgifter, materiale, milepæle og andre ikke-fakturerede salgskladdelinjer.
+    Der genereres en faktura for alle transaktioner på en kontraktlinje, der har statussen **Klar til fakturering**. Disse transaktioner omfatter tid, udgifter, milepæle og produktbaserede kontraktlinjer.
 
 3. Hvis du vil have vist de fakturaer, der er genereret, skal du gå til **Salg** \> **Fakturering** \> **Fakturaer**. Der vises én faktura for hver projektkontrakt.
 
@@ -76,10 +93,11 @@ Batchprocesjobbet til oprettelse af fakturaer er et tilbagevendende job. Hvis de
  
 ### <a name="edit-a-draft-invoice"></a>Rediger en fakturakladde
 
-Når du opretter en kladde til en projektfaktura, medtages alle ikke-fakturerede salgstransaktioner, der blev oprettet, da tids-, udgifts- og materialeforbrugsposterne blev godkendt, på fakturaen. Du kan foretage følgende justeringer, mens fakturaen stadig er i kladdefasen:
+Når du opretter en kladde til en projektfaktura, medtages alle ikke-fakturerede salgstransaktioner, der blev oprettet, da tids-og udgiftsposterne blev godkendt, på fakturaen. Du kan foretage følgende justeringer, mens fakturaen stadig er i kladdefasen:
 
 - Slette eller redigere oplysninger om fakturalinjer.
 - Redigere og justere antal og faktureringstype.
+- Tilføje tid, udgifter og gebyrer direkte som transaktioner på fakturaen. Du kan bruge denne funktion, hvis fakturalinjen er knyttet til en kontraktlinje, der tillader disse transaktionsklasser.
 
 Vælg **Bekræft** for at bekræfte en faktura. Handlingen Bekræft er en envejshandling. Når du vælger **Bekræft**, bliver fakturaen skrivebeskyttet i systemet, og der oprettes fakturerede faktiske salgstal ud fra hver fakturalinjedetalje for hver fakturalinje. Hvis fakturalinjedetaljen refererer til et ikke-faktureret faktisk salgstal, vil systemet også tilbageføre det ikke-fakturerede faktiske salgstal. Alle de fakturalinjedetaljer, der er oprettet ud fra en tids- eller udgiftspost, refererer til et ikke-faktureret faktisk salgstal. Integrationssystemer for generelle hovedbøger kan bruge denne tilbageførsel til at tilbageføre igangværende projektarbejde (WIP) til regnskabsmæssig brug.
 
@@ -93,6 +111,3 @@ Når du bekræfter en rettelsesfaktura, tilbageføres det oprindeligt fakturered
 
 - Et faktureret faktisk salgstal for seks timer.
 - Et ikke-faktureret faktisk salgstal for de resterende to timer. Denne transaktion kan enten faktureres senere eller markeres som ikke-fakturerbar, afhængigt af forhandlingerne med kunden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

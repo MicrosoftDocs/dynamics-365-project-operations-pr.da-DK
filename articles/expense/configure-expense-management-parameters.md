@@ -2,16 +2,18 @@
 title: Konfigurer parametre for udgiftsstyring
 description: Dette emne beskriver de parametre, der styrer den generelle funktionsmåde i Udgiftsstyring.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007769"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121031"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurer parametre for udgiftsstyring
 
@@ -81,6 +83,3 @@ Dette emne beskriver de parametre, der styrer den generelle funktionsmåde i Udg
 | Vis attestation mod korruption   | Vælg denne indstilling for at få vist teksten vedrørende bekæmpelse af korruption, når der oprettes en udgiftsrapport. Der kan derefter aktiveres bestemte udgiftskategorier, som kræver, at attestationen vedrørende bekæmpelse af korruption er valgt i udgiftsrapporten. Et gavekort, der er relateret til en offentlig officiel udgift, kan f.eks. kræve, at medarbejderen bekræfter, at udgiften overholder firmapolitikken, der er knyttet til offentlige embedsmænd. |
 | Meddelelse om bekæmpelse af korruption, der skal sendes til indsenderen | Angiv den tekst, der skal vises en medarbejder, som opretter en udgiftsrapport. Hvis du vil angive en sprogspecifik tekst, der skal vises på baggrund af brugersproget, skal du vælge **Oversættelser**. |
 | Meddelelse om bekæmpelse af korruption, der skal sendes til godkenderen  | Angiv den tekst, der skal vises godkenderen, når en udgiftsrapport bliver oprettet. Hvis du vil angive en sprogspecifik tekst, der skal vises på baggrund af brugersproget, skal du vælge **Oversættelser**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
