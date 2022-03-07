@@ -2,18 +2,16 @@
 title: Administrer flere kunder i projektkontrakter - lille
 description: Dette emne indeholder oplysninger om administration af flere kunder på projektkontrakter.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181310"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001739"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Administrer flere kunder i projektkontrakter - lille
 
@@ -52,3 +50,6 @@ Du kan oprette, opdatere eller slette en kontraktkunde under fanen **Kunder** p�
 Faktureringsopdelingsprocenter kan redigeres ved hjælp af oplevelsen med direkte redigering af gitteret. Når faktureringsopdelingsprocenterne ikke udgør 100 procent i alt, modtager du en fejlmeddelelse. Når du har redigeret faktureringsopdelingsprocenterne, skal du opdatere siden for at afvise fejlen.
 
 Du kan også vælge **Ligelig fordeling** i undergitteret **Kontraktkunder** for at allokere faktureringsopdelingen ligeligt for alle kontraktkunder. Hvis der er en afrundingsfaktor, vil den blive føjet til den afrundede kunde. En af kontraktkunderne er altid mærket som en **afrundings**-kunde, hvilket betyder, at afrundingsflaget er angivet til **Ja** for den pågældende kontraktkundepost. Det er som regel den primære kunde i kontrakten, men dette kan også ændres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

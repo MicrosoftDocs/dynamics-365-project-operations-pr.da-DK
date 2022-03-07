@@ -2,18 +2,16 @@
 title: Metoder til færdiggørelsesomkostninger
 description: Dette emne indeholder oplysninger om de metoder, der bruges til at beregne omkostningerne for at fuldføre et projekt.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: c6d3cd6056466be686f15c9f332c8274aeb0ac19
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531394"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013929"
 ---
 # <a name="cost-to-complete-methods"></a>Metoder til færdiggørelsesomkostninger
 
@@ -30,3 +28,6 @@ Når du opretter et estimat for et projekt, kan du på siden **Opret estimat** i
 | Som forrige estimat         | De samme estimeringsmetoder, der blev brugt i den foregående periode, bruges her. Denne metode kræver en prognosemodel, hvis den forrige periode krævede en prognosemodel.                                                                                                                                                                                                                                                                                                                           |
 | Angiv færdiggørelsesomkostninger til nul | Denne metode, der som regel bruges før det forkalkulerede projekt udelukkes, svarer til de samlede estimater med bogførte faktiske transaktioner og rydder kolonnen med **Færdiggørelsesomkostninger**. Når det er fuldført, er resultatet altid 100 procent. For hver omkostningslinje, du opretter, fjernes markeringen i afkrydsningsfeltet **Prognose**, og det samlede estimat kopieres fra det forrige omkostningsestimat. Det faktiske forbrug i estimatperioden trækkes fra færdiggørelsesomkostningerne for projektet.              |
 | Fra omkostningsskabelon           | Den metode til færdiggørelsesomkostninger, som er konfigureret i den omkostningsskabelon, der er knyttet til det valgte forkalkulerede projekt.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer prisfastsættelsesdimensioner ved hjælp af brugertilpassede felter.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650196"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003584"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner
 
@@ -44,11 +42,11 @@ Hvis et felt skal blive til en prisdimension, skal det være:
 
 - Oprettet som en række i tabellen **Prisdimension**. Du kan f.eks. tilføje rækker med prisdimensioner som vist i følgende grafik. 
 
-![Beløbsbaserede prisdimensionsrækker](media/Amt-based-PD.png)
+![Beløbsbaserede prisdimensionsrækker.](media/Amt-based-PD.png)
 
 Arbejdstimer for ressource (**msdyn_resourceworkhours**) tilføjes som en avancebaseret dimension og er blevet tilføjet gitteret på fanen **Avancebaserede prisdimensioner**.
 
-![Avancebaserede prisdimensionsrækker](media/Markup-based-PD.png)
+![Avancebaserede prisdimensionsrækker.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,12 +73,12 @@ Der findes to typer prisdimensioner:
   
 | Rolle        | Afdeling    |Arbejdssted      |Standardtitel      |Arbejdstimer for ressource      |  Markere|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|På stedet            |                    |Overtid                 |15     |
-|             | Contoso India|Lokal             |                    |Overtid                 |10     |
-|             | Contoso USA   |Lokal             |                    |Overtid                 |20     |
+|             | Contoso Indien|På stedet            |                    |Overtid                 |15     |
+|             | Contoso Indien|Lokal             |                    |Overtid                 |10     |
+|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressource fra Contoso India, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prisfastsættelsesprogrammet grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
+Hvis en ressource fra Contoso Indien, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prisfastsættelsesprogrammet grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gælder for Omkostning 
 Hvis denne indstilles til **Ja**, angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde omkostnings- og avancetaksterne.
@@ -96,3 +94,6 @@ Opsætning af dimensionsprioritet hjælper prisfastsættelse med at oprette en p
 
 - **Omkostningsprioritet**: Værdien for en dimensions omkostningsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af kostpriser. Værdien for **Omkostningsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Omkostning**.
 - **Salgsprioritet**: Værdien for en dimensions salgsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af salgspriser eller fakturasatser. Værdien for **Salgsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Salg**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Administrer flere kunder i projektbaserede kontraktlinjer
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med kontraktlinjer og kontrakter, der indeholder flere kunder.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181895"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992109"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Administrer flere kunder i projektbaserede kontraktlinjer
 
@@ -44,3 +42,6 @@ Nedenfor vises de felter på kontraktlinjens kundepost for en projektbaseret kon
 Faktureringsopdelingsprocenter kan redigeres i gitteret. Når faktureringsopdelingsprocenterne ikke udgør 100 procent i alt, opstår der en fejl. Når du har redigeret faktureringsopdelingsprocenterne, skal du opdatere siden for at fjerne fejlen.
 
 Du kan også vælge **Fordel ligeligt** på kontraktlinjekundens undergitter. Denne handling allokerer faktureringsopdelinger til alle kontraktlinje kunder ligeligt. Hvis der er en afrundingsfaktor, vil den blive føjet til den afrundede kunde. En kontraktlinjekunde er altid mærket som den **Afrundede** kunde, hvor **Afrundingsflaget** er angivet til **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

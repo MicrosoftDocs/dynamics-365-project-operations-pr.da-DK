@@ -2,11 +2,9 @@
 title: Integration med Microsoft Project Client
 description: Planlægning og vedligeholdelse af en projektplan kan være kompliceret, så projektlederne har brug for værktøjer, der hjælper dem med at administrere denne opgave. Integration med Microsoft Project Client understøtter oprettelse og administration af et projekts arbejdsopgavehierarki.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074233"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988014"
 ---
 # <a name="microsoft-project-client-integration"></a>Integration med Microsoft Project Client
 
@@ -127,3 +125,13 @@ Hvis du vil oprette et nyt arbejdsopgavehierarki ved hjælp af Microsoft Project
 8.  Vælg den **Kalender**, der skal bruges til ressourcer.
 
 11. Klik på **OK**.
+
+> [!NOTE]
+> Tilføjelsesprogrammet Projektklient understøtter ikke følgende tegn i projekt-id-formatet:
+> 
+>   - Underscore
+>   - Periode
+>   - Mellemrum
+>   - Skråstreg
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

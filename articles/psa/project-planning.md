@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6544381f611a6caa24e4d470a659ca0b869f3e63
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148231"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283811"
 ---
 # <a name="project-planning-home-page"></a>Startside for projektplanlægning
 
@@ -52,3 +52,6 @@ Følgende emner indeholder oplysninger, der kan hjælpe projektledere med at vur
 - [Projektskabeloner](project-templates.md)
 - [Projektfaser](project-stages.md)
 - [Projektindstillinger](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

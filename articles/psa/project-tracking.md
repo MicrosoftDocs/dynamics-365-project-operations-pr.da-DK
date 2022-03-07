@@ -2,8 +2,6 @@
 title: Projektstatus og -omkostningsforbrug
 description: Dette emne indeholder oplysninger om sporing af projektstatus og omkostningsforbrug.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148006"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987159"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektstatus og -omkostningsforbrug
 
@@ -98,3 +96,6 @@ Når du sporer data i visningerne **Indsatssporing** og **Omkostningssporing** v
 Feltet **Overordnet projektstatus** er et felt, der kan redigeres, og som viser projektets overordnede status. Den bruger farvekodning, f.eks. grøn, gul og rød, for at angive øget risiko. Feltet **Kommentarer** giver projektlederen mulighed for at komme med konkrete kommentarer til statussen. Feltet **Status opdateret den** kan ikke redigeres, og værdien er et tidsstempel, der angiver, hvornår statussen senest blev opdateret.
 
 Felterne **Planlægningsresultat** og **Omkostningsresultat** angives fra sporingsdatoen. Når afvigelsen fra tidsplanen og omkostningerne for rodnoden i visningen **Indsatssporing** er positiv, kan du angive disse felter til **Forud** Når afvigelsen fra tidsplanen og omkostningerne for rodnoden er negativ, kan du angive dem til **Bagud**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

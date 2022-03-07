@@ -2,18 +2,16 @@
 title: Bevar projektteamets medlemmer
 description: Denne emne indeholder oplysninger om reservation af navngivne ressourcer til projektteam og deres tildeling af opgaver.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997059"
 ---
 # <a name="maintain-team-members"></a>Bevar projektteamets medlemmer
 
@@ -21,7 +19,7 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Du kan tilføje en navngivet ressource til projektteamet ved at reservere den direkte til teamet.
 
-1. Gå til **Projekter** i Dynamics 365 Project Operations, og vælg det åbne projekt, du skal reservere for.
+1. I Dynamics 365 Project Operations skal du gå til **Projekter** og vælge det åbne projekt, som du skal reservere for.
 2. På siden **Projekt** skal du på fanen **Team** vælge **Nyt**. 
 3. Vælg den reserverbare ressource i dialogboksen **Hurtig oprettelse af projektteammedlem**. Feltet **Rolle** udfyldes med ressourcens standardrolle, hvis der er tildelt en sådan. Du kan ændre rollen. 
 4. Vælg den fra- og til-dato, som ressourcen skal bruge, og vælg derefter fordelingsmetoden for ressourcens kapacitet. 
@@ -42,3 +40,6 @@ Når du foretager et valg, tilføjes ressourcen til projektteamet og tildeles op
 Du kan bruge fanen **Afstemning** til at udvide reservationsfunktionen eller **Planlægningsområde** til at reservere ressourcens kapacitet til projektet.
 
 Når et teammedlem er reserveret på projektet, kan du bruge **Bevar reservationer** eller **Planlægningsområdet** til direkte at administrere deres reservationer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

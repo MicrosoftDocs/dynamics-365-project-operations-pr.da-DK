@@ -2,18 +2,16 @@
 title: Administrer forslag til projektfakturaer
 description: Dette emne indeholder oplysninger om behandling af kundeorienterede fakturaer med Project Operations for ressource-/ikke-lagerbaserede scenarier.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089224"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989904"
 ---
 # <a name="manage-project-invoice-proposals"></a>Administrer forslag til projektfakturaer
 
@@ -80,7 +78,8 @@ Værdierne for **Momsgruppe** og **Varemomsgruppe** vises som standard under ind
     - **Kunde** vil som standard altid være kundens fakturerede momsgruppe.
     - **Søg** søger på tværs af alle ovennævnte objekter i denne liste og vælger den første tilgængelige værdi. Søgningen starter med objektet **Projekt**, derefter objektet **Projektkontrakt** og dernæst objektet **Kunde**.
 
-- **Fastprismilepæl for varemomsgruppe** bruges som standard til værdien i feltet **Varemomsgruppe**.
+- **Momsgruppe for fastprismilepæle** bruges som standardværdien i feltet **Varemomsgruppe** for faktureringsmilepælen. Revisoren kan gennemse og ændre denne værdi på siden **Acontotransaktioner**. Systemet bruger værdien fra acontotransaktionen, når der oprettes en projektfakturaforslagslinje.
+ 
 
 ### <a name="financial-dimensions"></a>Økonomiske dimensioner
 
@@ -132,7 +131,7 @@ Siden **Formater fakturaforslag** gør det muligt at vise brugerdefinerede grupp
 
 I udskriftsstyring bruges forskellige rapportfiler til at udskrive, angive destinationer og tilpasse teksten i fakturaens sidefod. Udskriftsstyring kan konfigureres på modulniveau, men disse indstillinger kan tilsidesættes for et bestemt kunde-, kontrakt- eller fakturaforslag. Du kan få adgang til denne funktion på siden **Projektfakturaforslag** ved at vælge **Udskriv** > **Udskriftsstyring**.
 
-Konfiguration af udskrivningsstyring vises som en trævisning, hvor de tilgængelige dokumenter, der skal justeres, vises på de enkelte nodeniveauer. Du kan tildele brugerdefinerede udskrifter på dokumentniveauet for modulet, kunden, kontrakten eller fakturaforslaget. Hvis du vil ændre udskriften af det oprindelige dokument, skal du udvide den ønskede node og vælge **Oprindeligt element**. I feltet **Rapportformat** skal du vælge det rapportformat, der skal bruges til udskrivning. Du kan bruge brugerdefinerede rapportformater ved hjælp af [rammen for dokumentstyring for virksomheder](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Konfiguration af udskrivningsstyring vises som en trævisning, hvor de tilgængelige dokumenter, der skal justeres, vises på de enkelte nodeniveauer. Du kan tildele brugerdefinerede udskrifter på dokumentniveauet for modulet, kunden, kontrakten eller fakturaforslaget. Hvis du vil ændre udskriften af det oprindelige dokument, skal du udvide den ønskede node og vælge **Oprindeligt element**. I feltet **Rapportformat** skal du vælge det rapportformat, der skal bruges til udskrivning. Du kan bruge brugerdefinerede rapportformater ved hjælp af [rammen for dokumentstyring for virksomheder](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Bogfør fakturaforslag
 
@@ -143,3 +142,6 @@ Hvis du vil have vist fakturaen, før du bogfører den, skal du fjerne markering
 Ud over siden **Fakturaforslag** kan fakturaforslag også bogføres ved at køre det periodiske job **Bogfør fakturaforslag**. Du kan finde dette job ved at gå til **Projektstyring og regnskab** > **Periodisk** > **Projektfakturaer** > **Bogfør fakturaforslag**.
 
 På denne side vises alle de fakturaforslag, der er klar til at blive bogført. Du kan planlægge at bogføre fakturaforslag ved at vælge **Batch**. Angiv **Batchbehandlingsparameteren** til **Ja**, og angiv gentagelsen af batchbehandling ved at vælge **Gentagelse**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

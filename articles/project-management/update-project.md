@@ -2,16 +2,18 @@
 title: Opdater et projekt
 description: Dette emne indeholder oplysninger om opdatering af projekter i Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5c9cd0c7c6886bd454c5f2ef2ae7f20d1707293f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074027"
 ---
 # <a name="update-a-project"></a>Opdater et projekt
 
@@ -46,6 +48,3 @@ Nedenfor vises en oversigt over de felter, der kan opdateres i et projekt, efter
 - **Overordnet projektstatus**: Den overordnede projekttilstand, der er angivet af projektlederen.
 - **Kommentarer**: En kommentar om den aktuelle tilstand for projektet, som angives af projektlederen.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

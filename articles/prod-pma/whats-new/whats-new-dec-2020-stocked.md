@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727942"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950212"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations december 2020 for lagerbaserede/produktionsbaserede scenarier
 
@@ -141,4 +141,7 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 
 ## <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
 
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Dynamics 365 Finance under [Lovgivningsmæssige opdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). En anden måde at lære om lovgivningsmæssige opdateringer på er at logge på Lifecycle Services (LCS) og se de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til problemsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til Dynamics 365 Finance under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). En anden måde at lære om lovgivningsmæssige opdateringer på er at logge på Lifecycle Services (LCS) og se de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til problemsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

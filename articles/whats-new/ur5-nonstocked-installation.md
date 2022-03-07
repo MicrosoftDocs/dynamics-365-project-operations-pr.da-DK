@@ -2,19 +2,17 @@
 title: Opdater Project Operations i dit Finance-miljø
 description: Dette emne indeholder oplysninger om, hvordan du opdaterer Project Operations i dit Dynamics 365 Finance-miljø.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816618"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986754"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Opdater Project Operations i dit Finance-miljø
 
@@ -35,7 +33,7 @@ Dette emne indeholder oplysninger om, hvordan du opdaterer Dynamics 365 Project 
 4. Kontrollér, at miljøet kører. Start miljøet, hvis det ikke er startet.
 5. I afsnittet **Ny udgivelse** under **Tilgængelige opdateringer** skal du vælge **Se opdatering** for 10.0.15.
 
-![Knappen Se opdatering](media/view-update.png)
+![Knappen Vis opdatering.](media/view-update.png)
 
 6. På siden **Binære opdateringer** skal du vælge **Gem pakke**.
 7. På siden **Gennemse og gem opdateringer** skal du vælge **Gem pakke**.
@@ -49,11 +47,11 @@ Dette emne indeholder oplysninger om, hvordan du opdaterer Dynamics 365 Project 
 2. Markér den pakke, du har gemt tidligere, på listen, og vælg derefter **Anvend**.
 3. Vælg **Ja** for at bekræfte, at du vil installere pakken.
 
-![Dialogboksen Bekræft pakkeudrulning](media/confirm-package-deployment.png)
+![Dialogboksen Bekræft pakkeudrulning.](media/confirm-package-deployment.png)
 
 4. Vælg **Ja** for at bekræfte, at du vil opdatere applikationen.
 
-![Dialogboksen Bekræft opdatering af applikation](media/confirm-application-update.png)
+![Dialogboksen Bekræft opdatering af applikation.](media/confirm-application-update.png)
 
 Udrulningen og opdateringen af applikationen starter. 
 
@@ -86,7 +84,7 @@ Følgende opdateringer af sikkerhedsrettighederne for objekter er påkrævet som
 
 1. I dit Dataverse-miljø skal du gå til **Indstillinger**, og i gruppen **System** skal du vælge **Sikkerhed**.
 
-![Dataverse-miljøindstillinger](media/Picture21.png)
+![Indstillinger for Dataverse-miljø.](media/Picture21.png)
 
 2. Vælg **Sikkerhedsroller**.
 3. I listen med roller skal du vælge **applikationsbruger med dobbeltskrivning** og vælge fanen **Brugerdefinerede objekter**. 
@@ -123,5 +121,8 @@ Følgende opdateringer af sikkerhedsrettighederne for objekter er påkrævet som
 6. Markér listet med tilknytning, vælg tilknytningen **Hovedbog (msdyn_ledgers)** med alle forudsætninger, og markér afkrydsningsfeltet **Oprindelig synkronisering**. 
 7. I feltet **Master for oprindelig synkronisering** skal du vælge **Finance and Operations-applikationer** og derefter vælge **Kør**.
  
- ![Synkronisering af tilknytning i hovedbog](media/DW6.png)
+ ![Synkronisering af tilknytning af hovedbog.](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

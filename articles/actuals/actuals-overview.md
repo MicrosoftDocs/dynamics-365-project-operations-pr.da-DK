@@ -2,26 +2,24 @@
 title: Faktiske
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med faktiske værdier i Microsoft Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 9e046602a3005930c41ab8c50472d5b1a72303c6
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852537"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368604"
 ---
 # <a name="actuals"></a>Faktiske 
 

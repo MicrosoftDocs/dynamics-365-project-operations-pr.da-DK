@@ -2,8 +2,6 @@
 title: Nyheder eller ændringer i opdateringsudgivelse 22, V3, til Project Service Automation
 description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 22, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db4cbb9f9daadcb1911325f8bee987d5e480e1cf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004304"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Opdateringsudgivelse 22 til Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
 I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Project Service Automation V3, 22. opdateringsudgivelse. Denne version har buildnummer V 3.10.33.48 og er generelt tilgængelig via en opdatering, du selv har udført i juni 2020.
 
@@ -72,3 +70,6 @@ Følgende problemer er blevet løst:
 - Når du lukker tilbuddet som vundet, navigeres der ikke til den oprettede kontrakt, hvis et BPF, der er knyttet til tilbuddet, er i det sidste stadie.
 - Hvis du tilbagefører **Ikke-faktureret salg**, knyttes de til den oprindelige omkostning, når en tidsregistrering tilbagekaldes.
 - Når du har valgt knappen **Bekræft**, ændres fakturaens status ikke til **Bekræftet**, medmindre fakturaen opdateres.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

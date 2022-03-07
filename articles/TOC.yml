@@ -28,11 +28,13 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Udrul miljøer
           items:
+            - name: Udrul Project Operations Dataverse-appen manuelt med understøttelse af dual-write
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Klargør et nyt miljø
               href: environment/resource-provision-new-environment.md
             - name: Sikkerhedsmodel
               href: environment/security-model.md
-            - name: Konfigurer integration af Project Operations for hver juridisk enhed
+            - name: Konfigurer integration af Project Operations for hver juridiske enhed
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Konfigurer integration med dobbeltskrivning
           items:
@@ -52,6 +54,12 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheder
       items:
+        - name: Juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Juni 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: Maj 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marts 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -280,7 +288,7 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
-            - name: Brug planlægnings-API'er (offentlig forhåndsversion)
+            - name: Brug projektplanlægnings-API'er (offentlig forhåndsversion)
               href: project-management/schedule-api-preview.md
     - name: Ressourcestyring
       items:
@@ -374,6 +382,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurer udgiftskategorier
               href: expense/set-up-expense-categories.md
+            - name: Konfiguration af kilometertal ved hjælp af niveauer for kilometertal
+              href: expense/set-up-mileage.md
         - name: Personlige udgifter
           href: expense/personal-expenses-expense-report.md
         - name: Interne udgifter
@@ -432,8 +442,6 @@
       items:
         - name: Oversigt over faktureringsprocessen
           href: invoicing/post-project-invoices.md
-        - name: Administrer forslag til projektfakturaer
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proformafakturering
           items:
             - name: Administrer efterslæbet af projektbaseret fakturering
@@ -452,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurer projektbaseret automatisering af faktura
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Administrer forslag til projektfakturaer
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Kundefakturering
+          items:
+            - name: Administrer forslag til projektfakturaer
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Ret regnskab i forslag til projektfakturaer
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Intern fakturering
+          items:
+            - name: Oversigt over intern fakturering
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurer intern fakturering
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Opret interne transaktioner
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Opret interne kunde- og leverandørfakturaer
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projektregnskab
       items:
         - name: Standarder for økonomiske dimensioner
@@ -466,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Kladde til integration i Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Intern fakturering
-          items:
-            - name: Oversigt over intern fakturering
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfigurer intern fakturering
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Opret interne transaktioner
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Opret interne kunde- og kreditorfakturaer
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Indtægtsanerkendelse
       items:
         - name: Oversigt over indtægtsanerkendelse
@@ -508,6 +520,12 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
+        - name: Nyheder i juli 2021 – lille udrulning
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Nyheder i juni 2021 – lille udrulning
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: Nyheder i maj 2021 – lille udrulning
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nyheder i april 2021 – lille udrulning
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Nyheder i marts 2021 – lille udrulning
@@ -756,7 +774,7 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
-            - name: Brug planlægnings-API'er (offentlig forhåndsversion)
+            - name: Brug projektplanlægnings-API'er (offentlig forhåndsversion)
               href: project-management/schedule-api-preview.md
     - name: Ressourcestyring
       items:
@@ -876,6 +894,10 @@
   items:
     - name: Nyheder
       items:
+        - name: Nyheder juli 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Nyheder maj 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nyheder april 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheder marts 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
@@ -1028,6 +1050,12 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 33. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Nyheder eller ændringer i den 32.5. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Nyheder eller ændringer i den 32. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-32.md
         - name: 'Nyheder eller ændringer i den 31. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-31.md
         - name: 'Nyheder eller ændringer i den 30. opdateringsudgivelse, v3'
@@ -1266,6 +1294,8 @@
               href: psa/time-entry-calendar.md
             - name: Brugertilpasning af ugentlige tidsregistreringer
               href: psa/time-entry-extensibility-v3.md
+            - name: Godkendelsessæt
+              href: psa/approval-set.md
     - name: Ofte stillede spørgsmål og fejlfinding (3.x)
       items:
         - name: Hvorfor er standardprisen for faktiske omkostningsudgifter nul?

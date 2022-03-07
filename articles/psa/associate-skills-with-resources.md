@@ -3,7 +3,7 @@ title: Knytte færdigheder til ressourcer
 description: Sådan knytter du færdigheder til bestemte ressourcer i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c824a5cdbcf6c7654fc96155cd4fdfb232308738
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9b025f9856b60e97facf15b6f2edcc8a1e59874b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074290"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>Knytte færdigheder til ressourcer (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

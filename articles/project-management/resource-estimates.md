@@ -1,52 +1,39 @@
 ---
-title: Økonomiske estimater for ressourcetid på projekter
-description: Dette emne indeholder oplysninger om, hvordan økonomiske estimater for tid beregnes.
-author: rumant
+title: Ressourceestimater
+description: Dette emne indeholder oplysninger om, hvordan ressourceestimater beregnes i Project Operations.
+author: ruhercul
 manager: Annbe
-ms.date: 03/19/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.author: ruhercul
+ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701819"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286511"
 ---
-# <a name="financial-estimates-for-resource-time-on-projects"></a>Økonomiske estimater for ressourcetid på projekter
+# <a name="resource-estimates"></a>Ressourceestimater
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Økonomiske estimater for tid beregnes på baggrund af tre faktorer: 
-
-- Typen af generiske eller navngivne teammedlemmer, der er tildelt hver enkelt bladnodeopgave i projektplanen. 
-- Typen eller kompleksiteten af arbejdet.
-- Fordelingen af indsatsen for ressourcens tildeling på opgaven. 
-
-De første to faktorer påvirker enhedsomkostningen eller fakturasatsen for en ressources tildeling. Enhedsomkostningen eller fakturasatsen for en ressourcetildeling bestemmes af attributterne for den tildelte ressource. Disse attributter omfatter den afdeling, som ressourcen tilhører, og ressourcens standardrolle. Du kan også tilføje brugerdefinerede attributter for ressourcen, der er relevante for din virksomhed, såsom standardtitel eller erfaringsniveauet, og få dem til at påvirke enhedsomkostningen eller fakturasatsen for tildelingen.
-Ud over ressourcens attributter kan arbejdsattributter såsom opgaven også påvirke enhedens faktureringssats eller omkostningssatsen for tildelingen. Hvis visse opgaver f.eks. er mere komplekse, resulterer ressourcens tildeling til disse specifikke opgaver i en højere enhedsomkostninger eller faktureringssats end opgaver, der er mindre komplekse.   
-
-Den tredje faktor angiver antallet af timer til denne sats. I de tilfælde, hvor en opgave dækker to prisperioder, er det sandsynligt, at omkostningsfastsættelsen og prisfastsættelsen for første del af ressourcetildelingen for den pågældende opgave er forskellig fra den anden del af opgaven. Den anslåede indsats på de enkelte ressourcetildelinger er en kompleks værdi, der lagres med den daglige distribution af indsats pr. dag.
-
-Du kan finde en detaljeret vejledning om, hvordan du konfigurerer brugerdefinerede attributter for arbejde og ressourcer som prisfastsættelses- og kostprisdimension, i [Oversigt over prisfastsættelsesdimensioner](../pricing-costing/pricing-dimensions-overview.md).
-
-Det økonomiske estimat for hver ressourcetildeling beregnes som **sats/time for tildelingerne ganges med antallet af timer.**  På samme måde som den anslåede indsats er det økonomiske estimat for omkostninger og omsætning for hver ressourcetildeling en kompleks værdi, der lagres med den daglige distribution af pengebeløb pr. dag. 
-
-## <a name="summarizing-financial-estimates-for-time"></a>Opsummering af økonomiske estimater for tid
-Et økonomisk estimat for tid på en bladnodeopgave er summen af de økonomiske estimater for alle ressourcetildelinger for den pågældende opgave.
-
-Et økonomisk estimat for tid på en hovedopgave eller en overordnet opgave er summen af de økonomiske estimater for alle de tilhørende underordnede opgaver. Dette er den anslåede arbejdsomkostning for projektet. 
+Ressourceestimater hentes fra faseinddelt tidsforbrug, der er defineret i arbejdsopgavehierarkiet sammen med de gældende dimensioner for prisfastsættelse. Beregningen er som regel **pris/time for hver rolle x timer.** Tidsfaseinddelt arbejdsindsats for de enkelte ressourcer gemmes i posten for ressourcetildelingen. Prisfastsættelsen gemmes i en foruddefineret prisliste. Enhedsomregning anvendes på baggrund af den gældende prisliste.
 
 ![Ressourceestimater](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Standarder for kostpris og omkostningsvaluta
 
-Standardkostprisværdien kommer fra de prislister, der er knyttet til den kontraherende enhed i projektet. Et projekts omkostningsvaluta er altid valutaen for den kontraherende enhed, der indgår i projektet. På en ressourcetildeling gemmes det økonomiske omkostningsestimat i projektets omkostningsvaluta. Nogle gange er den valuta, som omkostningssatsen er angivet i på prislisten, en anden end projektets omkostningsvaluta. I disse tilfælde konverterer programmet den valuta, som kostprisen er konfigureret i for projektets valuta. I gitteret **Estimater** vises og opsummeres alle omkostningsestimater i projektets omkostningsvaluta. 
+Kostpriser hentes som standard fra afdelingen.
 
 ## <a name="default-bill-rate-and-sales-currency"></a>Standarder for faktureringshyppighed og salgsvaluta
 
-Standardsalgsprisen kommer fra de projektprislister, der er knyttet til den relaterede projektkontrakt, hvis aftalen er vundet, eller fra det relaterede projekttilbud, hvis handlen stadig er i før-salgsfasen. Projektets salgsvaluta er altid projekttilbuddets eller projektkontraktens valuta. På en ressourcetildeling gemmes det økonomiske salgsestimat i projektets salgsvaluta. I modsætning til omkostninger kan den salgspris, der er konfigureret på prislisten, aldrig være en anden end projektets salgsvaluta. Der er ingen scenarier, hvor valutakonvertering er nødvendig. I gitteret **Estimater** vises og opsummeres alle salgsestimater i projektets salgsvaluta. 
+Salgspriser anvendes én gang pr. handel. Hierarkiet for standardprislisten er som følger:
+
+1. Organisation
+2. Kunde
+3. Tilbud/kontrakt
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

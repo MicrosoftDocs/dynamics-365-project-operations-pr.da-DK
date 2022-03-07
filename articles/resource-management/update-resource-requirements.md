@@ -2,18 +2,16 @@
 title: Redigere et ressourcekrav
 description: Dette emne indeholder oplysninger om, hvordan du opdater ressourcekravsoplysninger.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128771"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999759"
 ---
 # <a name="edit-a-resource-requirement"></a>Redigere et ressourcekrav
 
@@ -37,3 +35,5 @@ Som projektleder skal du udføre følgende trin for at redigere et teammedlems r
 ## <a name="edit-resource-assignment-contours"></a>Rediger profiler for ressourcetildeling
 
 Ud over at redigere oplysningerne om ressourcekravene kan en projektleder opdatere de enkelte profiler for ressourcekravet ved hjælp af funktionen **Angiv mønster**. Når **Angiv mønster** er valgt, åbnes en side, hvor du kan få vist profilerne i henhold til dag, uge eller måned. Hver enkelt profil kan justeres i forhold til starttidspunktet, sluttidspunktet og den samlede indsats i en given periode.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

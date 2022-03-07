@@ -2,24 +2,22 @@
 title: Udrulningsoversigt til Project Operations for ressource-/ikke-lagerbaserede scenarier
 description: Dette emne indeholder oplysninger om udrulningstypen Project Operations for ressource/ikke-lagerbaserede scenarier.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: ca8c0894dff1a74b532f8262278fb20400f097c5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365433"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001239"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Udrulningsoversigt til Project Operations for ressource-/ikke-lagerbaserede scenarier
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Udrulningstypen Dynamics 365 Project Operations for ressource/ikke-lagerbaserede scenarier har følgende funktioner for projektbaserede virksomheder:
+Udrulningstypen Dynamics 365 Project Operations for ressource-/ikke-lagerbaserede scenarier har følgende funktioner for projektbaserede virksomheder:
 
 - Projektplanlægning ved hjælp af Microsoft Project til internettet
 - Flerdimensionel prisfastsættelse og omkostningsfastsættelse for arbejdsressourcer
@@ -43,3 +41,6 @@ Denne udrulning bør vælges, hvis Project Operations forventes at anvende hele 
 - Kræver et avanceret program for moms i virksomhedsklasse og valutakurser for at oprette kundeorienterede fakturaer til projekter.
 - Et system for projektregnskab og indtægtsføring, som overholder de internationale standarder for regnskabsaflæggelse.
 - Programmerne Finance or Supply Chain Management og integration af projektbaserede transaktioner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

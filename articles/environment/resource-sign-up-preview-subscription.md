@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948457"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642944"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Tilmeld dig abonnement på prøveversion af Project Operations for ressource/ikke-lagerførte scenarier
 
@@ -92,12 +92,9 @@ Fuldfør denne opgave ved at følge trinnene i emnet [Tilføj et Azure-abonnemen
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Udrul Finance-demonstrationsmiljøet med Project Operations for ressource/ikke-lagerførte scenarier
 
-Følg vejledningen i emnet [Klargør et nyt miljø](resource-provision-new-environment.md) for at fuldføre udrulningen. Brug [demonstrationsmiljøets](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) udrulningstype til prøveversionen. 
+Følg vejledningen i emnet [Klargør et nyt miljø](resource-provision-new-environment.md) for at fuldføre udrulningen. Brug [demonstrationsmiljøets](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) udrulningstype til prøveversionen. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Installer CDS-konfiguration og konfigurationsdata
 
 Installer CDS-konfiguration og konfigurationsdata som beskrevet i emnet [Konfigurer og anvend konfigurationsdata i Common Data Service](resource-apply-pro-setup-config-data.md).
 Fuldfør kun dette trin, når demonstrationsmiljøet i Finance er udrullet, og demonstrationsdataene i FO er klar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

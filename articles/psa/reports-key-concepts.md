@@ -2,8 +2,6 @@
 title: Nøglekoncepter
 description: Dette emne indeholder oplysninger om nøglebegreberne for ressourcestyring i Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147736"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995079"
 ---
 # <a name="key-concepts"></a>Nøglekoncepter
 
@@ -48,3 +46,6 @@ I den følgende tabel defineres nøglebegreber, der bruges i Dynamics 365 Projec
 | Omrids                    | Opgave, krav eller tildelingstimer, efterhånden som de opdeles i en daglig fordeling. En opgave på fem dage, 40 timer, kan f.eks. oprettes som otte timer om dagen i løbet af fem dage. |
 | Visningen Afstemning        | En visning, der viser reservationer og tildelinger for hvert enkelt projektteammedlem. Denne visning giver projektlederne mulighed for at se, om der er uoverensstemmelse mellem reservationer og tildelinger, så de kan foretage korrigerende handlinger, hvis der forekommer uoverensstemmelser. |
 | Arbejdstimer                 | Et objekt, der bruges til at identificere ressourcekapacitet, arbejdstimer og fritid. Dette objekt kaldes også ressourcekalenderen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

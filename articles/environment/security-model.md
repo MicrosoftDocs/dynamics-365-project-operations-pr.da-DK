@@ -2,18 +2,16 @@
 title: Sikkerhedsmodellen
 description: Dette emne indeholder oplysninger om sikkerhedsmodellen i Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991479"
 ---
 # <a name="security-model"></a>Sikkerhedsmodel
 
@@ -58,9 +56,9 @@ Grupper gør det muligt at arbejde sammen om tilladelserne for projektet og unde
 
 Project Operations opretter ikke en gruppe gennem implicit handling, og gør det kun, når der udtrykkeligt trykkes på grupper.
 
-Søgning efter gruppemedlemmer i dialogen **Gruppestyring** er begrænset til dem, der er angivet som en del af miljøets sikkerhedsgruppe. Du kan finde flere oplysninger under [Kontroller brugeradgang til miljøer: sikkerhedsgrupper og licenser](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Søgning efter gruppemedlemmer i dialogen **Gruppestyring** er begrænset til dem, der er angivet som en del af miljøets sikkerhedsgruppe. Du kan finde flere oplysninger under [Kontroller brugeradgang til miljøer: sikkerhedsgrupper og licenser](/power-platform/admin/control-user-access).
 
-![Gruppetilstand](./media/groupsmode.png)
+![Gruppetilstand.](./media/groupsmode.png)
 
 1. Projektet oprettes og ejes af brugeren, der opretter det.
 2. Projektejeren opdateres til teamet.
@@ -70,7 +68,7 @@ Søgning efter gruppemedlemmer i dialogen **Gruppestyring** er begrænset til de
 ## <a name="deployment-recommendation"></a>Anbefaling af installation
 Da Office Gruppens samarbejdsmodel udvikler sig, vil funktionaliteten blive tilføjet for at give mere detaljeret kontrol over tid. Kunder, der anvender Project Operations i dag, opfordres til at fokusere på en traditionel Microsoft Dynamics 365-sikkerhedsmodel.
 
-Du kan finde flere oplysninger under [Sikkerhed i Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Du kan finde flere oplysninger under [Sikkerhed i Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Sikkerhed i Project Operations og Microsoft Dynamics 365 Finance
 Project Operations omfatter følgende roller:
@@ -78,6 +76,9 @@ Project Operations omfatter følgende roller:
 - Projektleder
 - Projektbogholder
 
-Du kan finde flere oplysninger om sikkerhed i Finance under [Rollebaseret sikkerhed](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Du kan finde flere oplysninger om sikkerhed i Finance under [Rollebaseret sikkerhed](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

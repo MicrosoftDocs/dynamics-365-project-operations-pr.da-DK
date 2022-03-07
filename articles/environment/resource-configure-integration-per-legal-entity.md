@@ -2,24 +2,22 @@
 title: Konfigurer integration af Project Operations for de enkelte juridiske enheder
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer integrationen af juridiske enheder i Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122876"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999399"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurer integration af Project Operations for de enkelte juridiske enheder 
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Dette emne gennemgår de trin, der er nødvendige for at konfigurere Dynamics 365 Project Operations pr. juridisk enhed.
+Dette emne gennemgår de trin, der kræves for at konfigurere Dynamics 365 Project Operations for hver juridiske enhed.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Aktiver funktionsnøgler i Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ De enkelte juridiske objekter, der bruger lagerbaserede/produktionsordrescenarie
   - **Standardfaktureringstyper**: Project Operations bruger et fast sæt faktureringstypestandarder, der skal knyttes til linjeegenskaber i Finance. Opret en post for hver faktureringstype: **Ikke angivet**, **Fakturerbar**, **Ikke-fakturerbar**, **Gratis** og **Ikke tilgængelig**.
   - **Standardprojektkategorier**: Vælg de standardprojektkategorier, der skal bruges for de enkelte transaktionstyper. Disse standardindstillinger bruges i **Integrationskladden i Project Operations** og i estimater, hvor der ikke er angivet nogen transaktionskategori for projektets faktiske værdi.
   - **Prognoser**: Vælg den prognosemodel, der skal bruges til estimater for tid og udgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

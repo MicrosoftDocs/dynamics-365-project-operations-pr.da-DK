@@ -2,24 +2,22 @@
 title: Konfigurer hyppigheden for fakturering af arbejdstid - lille
 description: Dette emne indeholder oplysninger om konfiguration af faktureringssatser for arbejdskraft i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181174"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007589"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Konfigurer hyppigheden for fakturering af arbejdstid - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Hver prisliste har et sæt rollepriser eller satser for arbejdskraft, der er gældende for den kontekst og ikrafttrædelsesdato, der er inkluderet i prislistens overskrift. Faktureringssatser for tid i Dynamics 365 Project Operations kan kun konfigureres i én valuta, som er den valuta, der er angivet i prislistens overskrift.
+Hver prisliste har et sæt rollepriser eller satser for arbejdskraft, der er gældende for den kontekst og ikrafttrædelsesdato, der er inkluderet i prislistens overskrift. Fakturapriser for tid i Dynamics 365 Project Operations kan kun konfigureres i én valuta, som er valutaen i prislisteoverskriften.
 
 1. Hvis du vil konfigurere faktureringssatser for arbejdskraft for en salgsprisliste, skal du oprette en prisliste, der er baseret på prislistens overskrift. 
 2. På fanen **Rollepriser** skal du i undergitteret vælge **+ Ny rollepris**. 
@@ -55,3 +53,6 @@ En udvikler fra Fabrikam i Indien, som arbejder på et projekt fra USA, fakturer
     | Udvikler | Fabrikam i USA | 150 $ |
 
 3. Knyt salgsprislisten **Faktureringssatser for Fabrikam i USA** til projektets prisliste for projektkontrakten eller til et bestemt firma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

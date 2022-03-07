@@ -2,8 +2,6 @@
 title: Tilbagekalde godkendte tids- eller udgiftsposter
 description: Dette emne indeholder oplysninger om, hvordan du kan tilbagekalde en tidligere godkendt tids- eller udgiftstransaktion.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147827"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998179"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Tilbagekalde godkendte tids- eller udgiftsposter
 
@@ -107,3 +105,6 @@ I den følgende illustration vises de ændringer, der sker for godkendte tidsreg
 I den følgende illustration vises de ændringer, der sker for godkendte udgiftsposter, når de tilbagekaldes.
 
 ![Tilstandsovergange for udgiftsposter](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

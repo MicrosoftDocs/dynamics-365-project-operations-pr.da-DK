@@ -2,11 +2,9 @@
 title: Konfigurer og anvend betal ved betaling for betalinger til leverandører
 description: I dette emne forklares det, hvordan du kan oprette vilkår for betal ved betaling ("PWP"), så du kan frigive delvise leverandørbetalinger på grundlag af kundebetalinger.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074151"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008849"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurer og anvend betal ved betaling for betalinger til leverandører
 
@@ -80,3 +78,6 @@ Når en leverandør er færdig med at arbejde på et projekt og sender dig en fa
 2. På siden **Leverandørfakturaer med betal ved betaling** skal du i søgefeltet angive værdier for at finde den leverandørfaktura, som du vil gennemse, og derefter vælge **Søg**.
 3. I oversigtspanelet **Leverandørfakturalinjer** skal du markere de linjer, som du vil ændre.
 4. Hvis vilkårene for **Betal ved betaling** er opfyldt for fakturalinjen, skal du vælge **Frigiv leverandørbetaling**. Markeringen i **Betal ved betaling** fjernes, og værdien i feltet **Klar til betaling** ændres til **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

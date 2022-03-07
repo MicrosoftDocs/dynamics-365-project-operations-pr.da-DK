@@ -1,8 +1,6 @@
 ---
 title: Nyheder eller ændringer i Project Service Automation version 3
 description: Dette emne indeholder oplysninger om nyheder og ændringer i Project Service Automation version 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150661"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006999"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheder eller ændringer i Project Service Automation version 3
 
@@ -257,3 +255,6 @@ Følgende grafik er efter oprettelse af brugerdefinerede prislister.
 
 > [!NOTE]
 > Når du klikker på **Opret brugerdefineret prissætning**, kan der være en kort forsinkelse, før den brugerdefinerede prisliste er oprettet. Det anbefales, at du opdaterer gitteret i stedet for at klikke flere gange. Der er oprettet en brugerdefineret prisliste, hvis navnet på den tilknyttede prisliste har tilbudsnavnet eller projektkontraktnavnet tilføjet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Prisfastsættelse i produktkatalog.
 description: Dette emne indeholder oplysninger om, hvordan prisfastsættelse i produktkataloget Dynamics 365 Project Service Automation fungerer i (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000164"
 ---
 # <a name="product-catalog-pricing"></a>Prisfastsættelse i produktkatalog. 
 
@@ -46,7 +44,7 @@ Du kan føje produkter fra et produktkatalog til forskellige prislister. Prislis
 
 PSA understøtter forskellige afrundingsindstillinger, når priser er konfigureret som en funktion af listeprisen, standardomkostninger eller aktuelle omkostninger. Ud over at udnytte flere prisfastsættelsesmetoder og afrundingsindstillinger kan du knytte rabatlister til prislisteelementer. 
 
-> ![Tilføjelse af produkter fra et katalog til forskellige prislister](media/basic-guide-16.png)
+> ![Tilføjelse af produkter fra et katalog til forskellige prislister.](media/basic-guide-16.png)
 
 Når du opretter en ny brugerdefineret prisliste for et tilbud ved at vælge **Opret brugerdefineret prissætning** på siden **Projekttilbud**, opretter PSA en kopi af prislisten, og feltet **Objekt** i overskriften for den nye prisliste angives til **Salgsobjekt**. Navnet på den nye prisliste tilføjes sammen med navnet på tilbuddet og et tidsstempel. Du kan også bruge navnet på den nye prisliste og navnet på tilbuddet i brugerdefinerede arbejdsprocesser til at udløse yderligere gennemgang og godkendelse for tilbud, der bruger brugerdefineret prissætning.
 
@@ -64,3 +62,6 @@ For objekterne for salgsmulighed, tilbud og projektkontrakt bruges følgende ræ
 Som standard viser feltet **Produkt** på tilbudslinjen en liste over alle de aktive produkter i tilbuddets produktprisliste. Hvis et produkt er blevet deaktiveret, eller hvis det er et kladdeprodukt, vises det ikke på listen, heller ikke selvom det er på prislisten. 
 
 Produktkataloglinjer tilføjes som fakturalinjer i den første faktura, der oprettes for en projektkontrakt. På en kladdefaktura kan de pågældende fakturalinjer slettes. Hvis det er tilfældet, vil linjerne blive vist på en efterfølgende faktura, indtil de faktureres, eller indtil fakturaen er sendt til kunden. I PSA kan du ikke fakturere et delvist antal på en produktfakturalinje. Når produktlinjerne fra projektkontrakten faktureres, oprettes der faktiske oplysninger. Disse faktiske tal er dog ikke kædet sammen med det relaterede projektobjekt. Det vil sige, at produktbaserede projektkontraktlinjer er uafhængige af projektbaseret brug. PSA sporer ikke materialeforbrug på projekter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

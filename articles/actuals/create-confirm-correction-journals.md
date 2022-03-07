@@ -2,11 +2,9 @@
 title: Opret og bekræft rettelseskladder
 description: Dette emne indeholder oplysninger om, hvordan du opretter og bekræfter en rettelseskladde.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127738"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986709"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Opret og bekræft rettelseskladder
 
@@ -89,3 +87,6 @@ Benyt følgende fremgangsmåde for at rette en eller flere udgiftsposter.
 8. På projektsiden skal du under fanen **Faktiske værdier** gennemse **Oversigt over faktiske tilknytninger**. De oprindelige poster og de rettede poster vises på listen. I følgende illustration vises de oprindelige beløb for udgiftsposter og de tilsvarende korrigerede udgiftsposter. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

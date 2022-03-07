@@ -2,18 +2,16 @@
 title: Udgiftspost (lille)
 description: Dette emne indeholder oplysninger om, hvordan du kan arbejde med udgiftsposter i en lille udrulning.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 48bf86a5cee475708f93462dc154e21b36240023f0a94cf31c49e9a096951736
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007814"
 ---
 # <a name="expense-entry-lite"></a>Udgiftspost (lille)
 
@@ -55,3 +53,6 @@ Udgifter, der endnu ikke er indsendt, kan slettes. Hvis du vil slette en udgift,
 ## <a name="see-also"></a>Se også
 
 - [Godkendelsesoversigt](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

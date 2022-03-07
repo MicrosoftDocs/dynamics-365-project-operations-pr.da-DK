@@ -1,12 +1,10 @@
 ---
 title: Undermoduler og enhedsgrupper
-description: Dette emne indeholder oplysninger om, hvordan du opretter enheder og enhedsgrupper i Dynamics 365 Project Operations.
+description: Dette emne indeholder oplysninger om, hvordan du opretter undermoduler og enhedsgrupper i Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999534"
 ---
 # <a name="units-and-unit-groups"></a>Undermoduler og enhedsgrupper
 
@@ -46,3 +44,6 @@ Hvis du vil udføre trinnene i dette emne, skal du sørge for, at du er tildelt 
 3. I feltet **Antal** skal du angive det antal, som enheden skal indeholde. Hvis f.eks. en boks indeholder to styk, skal du angive "2". 
 4. I feltet **Basisenhed** skal du vælge en basisenhed for at oprette den mindste måleenhed for enheden. Du kan f. eks. vælge "stk.".
 5. Vælg **Gem**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

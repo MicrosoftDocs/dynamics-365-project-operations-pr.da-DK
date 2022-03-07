@@ -2,11 +2,9 @@
 title: Mobilappen Project Timesheet
 description: Dette emne indeholder oplysninger om Microsoft Dynamics 365 Project Timesheet-mobilprogrammet. Mobilappen til Project Timesheet gør brugerne i stand til at sende og godkende timesedler for projekter på deres mobilenheder.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074345"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997194"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilappen Project Timesheet
 
@@ -96,3 +94,6 @@ Klik på **Indsend** for at sende timesedlen til godkendelsesarbejdsgangen.
 ## <a name="review-timesheets"></a>Gennemse timesedler
 
 Der findes en liste over de timesedler, der skal gennemgås, i menuen. Denne indstilling er kun tilgængelig, hvis du er angivet som godkender af arbejdsproces. Både overskrifts- og linjegodkendelser understøttes. Godkendelse på linjeniveau giver mulighed for at markere en eller flere linjer til godkendelse. Når du har gennemgået oplysningerne i timesedlen, skal du klikke på **Godkend**, **Deleger** eller **Vend tilbage** for at fortsætte arbejdsprocessen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

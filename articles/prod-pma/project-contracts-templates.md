@@ -2,11 +2,9 @@
 title: Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance
 description: Dette emne beskriver den skabelon og underliggende opgaver, der bruges til at synkronisere kontrakter og projekter direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764812"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999799"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance 
 
@@ -109,14 +107,14 @@ Når integrationsløsningen for Project Service Automation til Finance anvendes,
 ## <a name="prerequisites-and-mapping-setup"></a>Opsætning af forudsætninger og tilknytning
 
 - Inden synkroniseringen mellem projektkontrakter og projekter kan ske, skal du synkronisere kontiene.
-- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_afdelinger** til **msdyn\_navn \[Navn\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_projekter** til **msdynce\_projektnummer \[Projektnummer\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_afdelinger** til **msdyn\_navn \[Navn\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](/powerapps/administrator/data-integrator).
+- I dit forbindelsessæt skal du tilføje en tilknytning for integrationsnøglefeltet for **msdyn\_projekter** til **msdynce\_projektnummer \[Projektnummer\]**. Du skal måske først tilføje et projekt til forbindelsessættet. Du kan finde flere oplysninger under [integration af data i Common Data Service til apps](/powerapps/administrator/data-integrator).
 - **SourceDataID** for projektkontrakter og projekter kan opdateres til en anden værdi eller fjernes fra tilknytningen. Standardskabelons værdi er **Project Service Automation**.
 - Tilknytningen **Betalingsbetingelser** skal opdateres, så den afspejler gyldige betalingsbetingelser i Finance. Du kan også fjerne tilknytningen fra projektopgaven. Tilknytningens standardværdi indeholder standardværdier for demonstrationsdata. I følgende tabel vises værdierne i Project Service Automation.
 
     | Value | Beskrivelse   |
     |-------|---------------|
-    | 0     | Netto 30 dage        |
+    | 1     | Netto 30 dage        |
     | 2     | 2% 10, netto 30 dage |
     | 3     | Netto 45 dage        |
     | 4     | Netto 60 dage        |
@@ -131,7 +129,7 @@ Brug Microsoft Power Query til Excel til at filtrere data, hvis følgende beting
 Hvis du skal bruge Power Query, skal du følge disse retningslinjer:
 
 - Skabelonen for projekter og kontrakter (PSA til Fin og Ops) har et standardfilter, der kun indeholder salgsordrer af typen **Arbejdsenhed (msdyn\_ordretype = 192350001)**. Dette filter er med til at sikre, at der ikke oprettes projektkontrakter for salgsordrer i Finance. Hvis du opretter din egen skabelon, skal du tilføje dette filter.
-- Opret et Power Query-filter, der kun omfatter de kontraktorganisationer, der skal synkroniseres med den juridiske enhed i integrationsforbindelsessættet. F.eks. bør de projektkontrakter, som du har med den kontraktlige afdeling af Contoso US, synkroniseres med USSI's juridiske enhed, men de projektkontrakter, som du har med den kontraktlige afdeling af Contoso Global, skal synkroniseres med USMF's juridiske enhed. Hvis du ikke tilføjer dette filter til din opgavetilknytning, synkroniseres alle projektkontrakter med den juridiske enhed, der er defineret for forbindelsessættet, uanset kontraktafdelingen.
+- Opret et Power Query-filter, der kun omfatter de kontraktorganisationer, der skal synkroniseres med den juridiske enhed i integrationsforbindelsessættet. Projektkontrakter, som du eksempelvis har indgået med kontraktafdelingen i Contoso US bør synkroniseres med den juridiske enhed USSI, men projektkontrakter, som du har indgået med kontraktafdelingen i Contoso Global, bør synkroniseres med den juridiske enhed USMF. Hvis du ikke tilføjer dette filter til din opgavetilknytning, synkroniseres alle projektkontrakter med den juridiske enhed, der er defineret for forbindelsessættet, uanset kontraktafdelingen.
 
 ## <a name="template-mapping-in-data-integration"></a>Skabelon for tilknytning i dataintegration
 
@@ -153,3 +151,6 @@ I følgende illustrationer vises eksempler på tilknytninger mellem skabelonopga
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Tilknytning af projektkontraktlinjers milepæle i skabelonen for projekter og kontrakter (PSA 3.x til Dynamics) - v2:
 
 [![Tilknytning af milepæl for projektkontraktlinje med version to-skabelon](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

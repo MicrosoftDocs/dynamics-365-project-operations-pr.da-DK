@@ -2,8 +2,6 @@
 title: Projektomkostninger og -omsætning
 description: Dette emne indeholder oplysninger om estimering af projektomkostninger og -omsætning.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148321"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002549"
 ---
 # <a name="project-costs-and-revenue"></a>Projektomkostninger og -omsætning
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148321"
 
 Projektestimater giver en økonomisk visning af det arbejde, der er estimeret og planlagt i projektplanen. Fanen **Estimater** på siden **Projekter** indeholder en konsekvensberegning over omkostninger og omsætning for det arbejde, du planlægger. Den indeholder også oplysninger om mange foruddefinerede dimensioner. 
 
-> ![Fanen Estimater](media/project-5.png)
+> ![Fanen Estimater.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Omkostnings- og salgstal for projektet
 
@@ -68,13 +66,13 @@ Hvis systemet ikke finder en pris for rollen, skal salgsprisen som standard vær
 
 Fanen **Estimater** indeholder en gittervisning, der viser estimatlinjer. Gitteret indeholder kolonner for enheden, den samlede kostpris og den samlede salgspris, som vist i følgende illustration. 
 
-> ![Gittervisning på fanen Estimater](media/project-6.png)
+> ![Gittervisning på fanen Estimater.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visning med tidsfaser af projektestimater
 
 I visningen med tidsfaser for projektestimater vises estimatdataene fra gittervisningen på tværs af tidslinjen i en tidsskala, du vælger. Estimatdataene er som standard pivoteret i dimensionen **Rolle.**
 
-> ![Visning med tidsfaser af projektestimater](media/project-7.png)
+> ![Visning med tidsfaser af projektestimater.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Fordeling af indsatsestimat baseret på opgavetilstand
 
@@ -97,3 +95,6 @@ I både gittervisningen og visningen med tidsfaser kan du vælge, hvilke felter 
 ## <a name="expense-estimates"></a>Udgiftsestimater
 
 Du kan bruge knappen **Tilføj et nyt udgiftsestimat** i gittervisningen til at registrere eventuelle udgifter, der opstår i projektet, men som ikke er direkte relateret til arbejdskraften. Du kan registrere udgiftsestimater for en bestemt opgave eller for hele projektet. Vælg udgiftskategorier og den foreløbige dato for, hvornår du forventer at betale udgiften. Hvis den tilknyttede kostpris- og salgsprisliste har standardpriser (eller hvis avanceprocentsatser er defineret for udgiftskategorier), bliver de automatisk angivet i estimatlinjen ved tilknytning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

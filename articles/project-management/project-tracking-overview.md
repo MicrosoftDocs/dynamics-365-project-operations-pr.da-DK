@@ -2,18 +2,16 @@
 title: Sporing af indsats på et projekt
 description: Dette emne indeholder oplysninger om, hvordan du sporer projektindsats og arbejdets fremgang.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: 3fdf7787f0144dace84852a0442406085bdc1639
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5710933"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010869"
 ---
 # <a name="project-effort-tracking"></a>Sporing af indsats på et projekt
 

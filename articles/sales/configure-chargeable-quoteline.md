@@ -2,18 +2,16 @@
 title: Konfigurer de fakturerbare komponenter i en projektbaseret tilbudslinje
 description: Dette emne indeholder oplysninger om inkluderede, fakturerbare og ikke-fakturerbare komponenter på projektbaserede tilbudslinjer.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642536"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003989"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfigurer de fakturerbare komponenter i en projektbaseret tilbudslinje
 
@@ -53,3 +51,6 @@ Et estimat eller faktisk værdi for en udgift anses kun for at være fakturerbar
 | Nr. | Ja | Kan ikke angives | Ikke-fakturerbar | Fakturering af en faktisk værdi for tid: Ikke tilgængelig </br>Faktureringstype på en faktisk værdi for en udgift: Ikke-fakturerbar |
 | Ja | Nr. | Fakturerbar | Kan ikke angives | Fakturering af en faktisk værdi for tid: Fakturerbar </br>Faktureringstype på en faktisk værdi for en udgift: Ikke tilgængelig |
 | Ja | Nr. | Ikke-fakturerbar | Kan ikke angives | Fakturering af en faktisk værdi for tid: Ikke-fakturerbar </br> Faktureringstype på en faktisk værdi for en udgift: Ikke tilgængelig |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

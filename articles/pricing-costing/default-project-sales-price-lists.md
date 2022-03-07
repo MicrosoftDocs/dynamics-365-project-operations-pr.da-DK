@@ -2,18 +2,16 @@
 title: Standardprislister
 description: Dette emne indeholder oplysninger om standarder for salgs- og omkostningsprislister i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130931"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989859"
 ---
 # <a name="default-price-lists"></a>Standardprislister
 
@@ -57,3 +55,6 @@ Kostprislister hentes ikke som standard for nogen objekter i Project Operations.
 5. Systemet ser dernæst på ikrafttrædelsesdatoen for de prislister, der stemmer overens med datoen for den indgående estimatlinje eller faktiske linje. 
 6. Hvis der er flere prislister, som er gældende på datoen for det indgående estimat eller faktiske oplysning, vælges den senest oprettede prisliste.
 7. Hvis der ikke er tilknyttet kostprislister til projektparametrene, som stemmer overens med valutaen og ikrafttrædelsesdatoen, anvendes som standard en omkostningssats på nul (0) på den indgående estimatlinje eller den faktiske linje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

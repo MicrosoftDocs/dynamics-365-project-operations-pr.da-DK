@@ -2,8 +2,6 @@
 title: Oprette tidsregistreringer
 description: Dette emne indeholder oplysninger om, hvordan du opretter tidsregistreringer.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149671"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990399"
 ---
 # <a name="create-time-entries"></a>Oprette tidsregistreringer
 
@@ -70,3 +68,6 @@ Du kan importere data fra projektreservationer og tildelinger. Når du importere
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funktioner for gruppering efter, sortering, søgning og filtrering
 
 Du kan gruppere og filtrere tidsregistreringer efter de dimensioner, der er angivet i kolonnerne. I feltet **Gruppér efter** skal du vælge den dimension, der skal bruges til at filtrere tidsregistreringer. Du kan også sortere tidsregistreringsposterne i stigende eller faldende rækkefølge ved hjælp af sorteringspilen på kolonneoverskrifterne. Du kan også få vist eller skjule poster ved at vælge knappen **Filtrer** på kolonneoverskrifterne og derefter i boksen **Søg** angive den tekst, der skal bruges til at søge efter tidsregistreringer ud fra projektnavn, projektopgave, tidsregistrering eller ressourcen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

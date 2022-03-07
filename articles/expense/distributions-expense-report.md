@@ -2,18 +2,16 @@
 title: Fordelinger i en udgiftsrapport
 description: Når du angiver udgifter i en udgiftsrapport, kan du distribuere dem på tværs af flere projekter, juridiske enheder eller firmaer i organisationen.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120941"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006239"
 ---
 # <a name="distributions-on-an-expense-report"></a>Fordelinger i en udgiftsrapport
 
@@ -30,3 +28,6 @@ Da Birgitte arbejdede på to separate projekter, mens hun var i Frankfurt, distr
 | Pris på togbillet   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Hotel        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Måltider        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149626"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282056"
 ---
-# <a name="customize-weekly-time-entry"></a>Tilpas ugentlige tidsregistreringer 
+# <a name="customize-weekly-time-entry"></a>Brugertilpasning af ugentlige tidsregistreringer 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -132,3 +132,6 @@ Du skal bruge plug-in-valideringer for alle valideringer, der kræver mere konte
 
 > [!IMPORTANT] 
 > Et kendt problem på TBX-siderne forhindrer i øjeblikket brugere i at rette oplysninger og igen markere Udført, når en opdatering ikke lykkes for en plug-in-validering. Du kan løse problemet ved at konfigurere valideringer af forretningsregler, for at denne situation for så vidt muligt undgås.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

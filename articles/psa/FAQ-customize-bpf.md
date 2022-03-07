@@ -1,6 +1,8 @@
 ---
 title: Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
 description: En oversigt over, hvordan jeg kan tilpasse forretningsprocesforløbet Projektfaser.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0f95677c56b745bf7900ad503596c93f1e722281
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993139"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286151"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
 

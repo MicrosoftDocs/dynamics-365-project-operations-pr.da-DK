@@ -2,18 +2,16 @@
 title: Oprettelse af et ad hoc-forskud på en kontrakt
 description: Dette emne indeholder oplysninger om, hvordan du opretter et forskud på en kontrakt efter behov.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4595946"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999129"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Oprettelse af et ad hoc-forskud på en kontrakt
 
@@ -39,3 +37,6 @@ Benyt følgende fremgangsmåde for at fakturere et forskud til kunden.
     | **Fakturastatus** | Dette er en indstilling, der angiver, om dette forskud tilføjes til en kladdefaktura for denne kunde. De mulige værdier er:</br>- **Ikke klar til fakturering**</br>- **Klar til fakturering** | Når et forskud eller en forudbetaling er markeret som **Klar til fakturering**, tilføjes den som en linjetid på en kladdefaktura. Det er kun et fuldt faktureret forskud, der kan bruges til afstemning med projektomkostninger for den næste faktureringsperiode. |
 
 4. Vælg **Gem og luk** i dialogboksen for hurtig oprettelse for at registrere forskuddet eller forudbetalingen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

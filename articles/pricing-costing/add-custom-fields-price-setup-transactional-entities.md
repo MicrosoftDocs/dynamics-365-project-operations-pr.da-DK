@@ -2,11 +2,9 @@
 title: Tilføj krævede brugerdefinerede felter til prisopsætning og transaktionsobjekter
 description: Dette emne indeholder oplysninger om, hvordan du tilføjer nødvendige brugerdefinerede feltreferencer til objekter og til formularer og visninger.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590894"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006149"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Tilføj krævede brugerdefinerede felter til prisopsætning og transaktionsobjekter
 
@@ -49,7 +47,7 @@ Når en brugerdefineret prisdimension er baseret på grupperet indstilling, skal
 > [!IMPORTANT]
 > Når du føjer et felt til mere end ét objekt, skal du bruge samme feltnavn på tværs af alle objekterne. 
 
-> ![Føje arbejdssted for ressource til rollepris](media/RWL-Field.png)
+> ![Tilføjelse af arbejdssted for ressource til rollepris.](media/RWL-Field.png)
 
 I salgs- og estimatfaserne for et projekt bruges estimater af den arbejdsindsats, der kræves til at udføre **lokalt** arbejde og arbejde **på stedet** inden for **Ordinær arbejdstid** og **Overarbejde** til at estimere værdien af tilbuddet/projektet. Felterne **Arbejdssted for ressource** og **Arbejdstid for ressource** føjes til estimatobjekterne **Tilbudslinjedetaljer**, **Kontraktlinjedetaljer**, **Medlem af projektteam** og **Estimatlinje**.
 
@@ -61,7 +59,7 @@ I salgs- og estimatfaserne for et projekt bruges estimater af den arbejdsindsats
 6. Gentag trin 1-5 for at føje dette felt til objekterne **Projektkontraktlinjedetalje**, **Medlem af projektteam** og **Estimatlinje**.
 7. Gentag trin 1-6 for den grupperede indstilling **Arbejdstimer for ressource**. 
 
-> ![Føje arbejdssted for ressource til estimatlinje](media/RWL-Default-Value.png)
+> ![Tilføjelse af arbejdssted for ressource til estimatlinje.](media/RWL-Default-Value.png)
 
 I forbindelse med levering og fakturering skal fuldført arbejde prissættes korrekt for at kunne vælge, om det blev udført **lokalt** eller **på stedet**, og om det blev udført inden for den **ordinære arbejdstid** eller som **overarbejde** under Projektets faktiske værdier. Felterne **Arbejdssted for ressource** og **Arbejdstimer for ressource** skal føjes til objekterne **Tidsregistrering**, **Faktisk**, **Fakturalinjedetalje** og **Kladdelinje**.
 
@@ -73,7 +71,7 @@ I forbindelse med levering og fakturering skal fuldført arbejde prissættes kor
 6. Gentag trin 1-5 for at føje dette felt til objekterne **Faktisk**, **Fakturalinjedetalje** og **Kladdelinje**.
 7. Gentag trin 1-6 for den grupperede indstilling **Arbejdstimer for ressource**. 
 
-> ![Føje arbejdssted for ressource til tidsregistrering](media/RWL-time-entry.png)
+> ![Tilføjelse af arbejdssted for ressource til tidsregistrering.](media/RWL-time-entry.png)
 
 Derved er de nødvendige skemaændringer fuldført for brugerdefinerede dimensioner, der er baseret på grupperede indstillinger.
 
@@ -86,7 +84,7 @@ Når den brugerdefinerede prisdimension er et objekt, skal du tilføje 1:N-relat
 3. Udvid objektet **Standardtitel**, og vælg **1:N-relationer**.
 4. Vælg **Ny** for at oprette en ny 1:N-relation med navnet **Standardtitel til reserverbar ressource**. Angiv de nødvendige oplysninger, og vælg derefter **Gem**.
 
-> ![Tilføjelse af standardtitel som et referencefelt til en ressource, der kan reserveres](media/ST-BR.png)
+> ![Tilføjelse af standardtitel som et referencefelt til en ressource, der kan reserveres.](media/ST-BR.png)
 
 Standardtitlen skal også tilføjes til objekterne for prisfastsættelse, **Rollepris** og **Rolleprisavance**. Dette udfyldes også ved brug af 1:N-relationer mellem objekterne **Standardtitel** og **Rollepris** og objekterne **Standardtitel** og **Rolleprisavance**.
 
@@ -104,13 +102,13 @@ I salgs- og estimatfaserne for projektet er det nødvendigt at prissætte tilbud
 
 5. Gentag trin 1-5 for at oprette 1:N-relationer fra **Standardtitel** til **Tilbudslinjedetaljer**, **Projektkontraktlinjedetaljer**, **Medlem af projektteam** og **Estimatlinje**.
 
-> ![Tilføjelse af standardtitel som et referencefelt til en estimatlinje](media/ST-Estimate-Line.png)
+> ![Tilføjelse af standardtitel som et referencefelt til en estimatlinje.](media/ST-Estimate-Line.png)
 
   I faserne levering og fakturering skal det arbejde, der er udført af hver enkelt standardtitel, være præcist prissat under Projektets faktiske værdier. Det betyder, at der skal være 1:N-relationer fra **Standardtitel** til objekterne **Tidsregistrering**, **Faktisk**, **Fakturalinjedetaljer** og **Kladdelinje**.
 
 6. Gentag trin 1-6 for at oprette 1:N-relationer fra **Standardtitel** til objekterne **Tidsregistrering**, **Faktisk**, **Fakturalinjedetalje** og **Kladdelinje**.
 
-> ![Tilføjelse af standardtitel som et referencefelt til tidsregistrering](media/ST-Mapping.png)
+> ![Tilføjelse af standardtitel som et referencefelt til tidsregistrering.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfigurer dimensionsværdierne som standard ved hjælp af tilknytningsfunktionerne i platformen
 I forbindelse med tidsregistrering ville det være en hjælp at have systemet til som standard at angive standardtitlen på tidsregistreringen fra den reserverbare ressource, der registrerer tidsposten. Benyt følgende fremgangsmåde for at føje felttilknytninger i 1:N-relationen fra **Reserverbar ressource** til **Tidsregistrering**.
@@ -120,7 +118,7 @@ I forbindelse med tidsregistrering ville det være en hjælp at have systemet ti
 3. Dobbeltklik på **Reserverbar ressource til tidsregistrering**. På siden **Relation** skal du vælge **Brug felttilknytninger**. 
 4. Vælg **Ny** for at oprette en ny felttilknytning mellem feltet **Standardtitel** på objektet **Reserverbar ressource** til referencefeltet **Standardtitel** på objektet **Tidsregistrering**. 
 
-> ![Konfigurer felttilknytninger for at give mulighed for at anvende standardtitel som standard fra reserverbar ressource til tidsregistrering](media/ST-Mapping2.png)
+> ![Konfigurer felttilknytninger for at give mulighed for at anvende standardtitel som standard fra reserverbar ressource til tidsregistrering.](media/ST-Mapping2.png)
 
 Derved er de nødvendige skemaændringer fuldført for brugerdefinerede dimensioner, der er baseret på objekter.
 
@@ -146,3 +144,6 @@ Følgende tabel indeholder en omfattende liste over standardformularer og -visni
 |  Faktisk|• Oplysninger<br>• Aktive faktiske|• Visning for tilknyttet faktisk|
 
 Det kan også være nødvendigt at tilføje brugerdefinerede felter i forretningsregler, afhængigt af hvad du har defineret. Et standardeksempel gælder forretningsreglen **Redigerbarhed af Tidsregistrering baseret på status**. Denne regel definerer, hvilke felter der skal låses, når tidsregistreringen befinder sig i en status, der ikke kan redigeres, f.eks. **Godkendt**. Føj felter til denne forretningsregel, så felterne låses mod redigering, når tidsregistreringen befinder sig i en status, der ikke er **Kladde** eller **Returneret**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

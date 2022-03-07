@@ -2,11 +2,9 @@
 title: Administrer delegering
 description: Dette emne indeholder oplysninger om, hvordan en udgiftsstedfortræder kan oprette og administrere udgiftsrapporter for en anden medarbejder.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122696"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997779"
 ---
 # <a name="manage-delegation"></a>Administrer delegering
 En udgiftsstedfortræder kan oprette og administrere udgiftsrapporter for en anden medarbejder.
@@ -39,3 +37,6 @@ Hvis funktionen for funktionsnøglen **Aktiver listesiden for udgiftsstedfortræ
 En stedfortræder kan hurtigt filtrere og søge efter eksisterende udgiftsrapporter, der er uddelegeret til dem. Stedfortræderen kan også hurtigt oprette en ny udgiftsrapport til andre brugere ved at vælge **Ny udgiftsrapport**.
 
 Stedfortrædere kan oprette og administrere udgiftsrapporter for andre medarbejdere ved at gå til **Udgiftsstyring** > **Mine udgifter** > **Udgiftsrapporter** og vælge **Åbn anden brugers udgifter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

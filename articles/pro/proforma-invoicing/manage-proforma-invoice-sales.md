@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181535"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274015"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Administrer en proformafaktura - lille
 
@@ -144,3 +144,6 @@ Hvis du har faktiske værdier, der indgik, efter at du har oprettet fakturaen, k
 I Project Operations kan du oprette fakturalinjer for produkter, der ikke er gælder for et andet projekt eller for alle projekter, sammen med projektbaserede fakturalinjer. Disse fakturalinjer oprettes som produktbaserede kontraktlinjer, og når de er markeret som klar til fakturering, tilføjes de som produktbaserede fakturalinjer.
 
 Når du har tilføjet produktbaserede fakturalinjer, kan de ikke ændres. De kan dog slettes fra proformafakturakladden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

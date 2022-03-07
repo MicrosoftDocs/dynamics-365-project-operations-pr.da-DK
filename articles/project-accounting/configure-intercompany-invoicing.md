@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595450"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287546"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurer intern fakturering
 
@@ -101,3 +101,6 @@ I følgende eksempel er Contoso Robotics USA (USPM) den juridiske låneenhed, og
           - **Ressourcevirksomhed** = **Contoso Robotics UK**
           - **Faktureringssats** = **200 USD**
       9. Gå til **Salg** > **Projektkontrakter**, og knyt prislisten for **Faktureringssatser for Adventure Works** sammen med projektkontraktens projektprisliste for Adventure Works.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

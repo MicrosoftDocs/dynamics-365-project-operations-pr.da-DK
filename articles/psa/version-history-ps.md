@@ -2,10 +2,9 @@
 title: Opdater udgivelsesplan for Project Service 3.x
 description: Dette emne indeholder oplysninger om de tilgængelige og kommende udgivelser af Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 12/07/2020
+ms.date: 10/17/2020
 ms.reviewer: kfend
-ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -24,55 +23,49 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: c56da47b5084ffdae8cc5af66d2f2dba395a7a7c
+ms.sourcegitcommit: 57e223bf6e211e4afc748b75dcbf06a25b752155
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981371"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4074400"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Opdater udgivelsesplan for Project Service 3.x
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 ## <a name="latest-version-availability"></a>Tilgængelighed af seneste version
 
 | Løsning  | Seneste version |
 |-------|----|
-| Project Service Automation    | 3.10.52.77 |
+| Project Service Automation    |  3.10.42.43  |
 | Indstillinger for tilføjelsesprogrammet Project Service Automation til skrivebordet                | 3.15          |
 
-Du kan finde oplysninger om opdateringer af Project Service ved at gå til [frigivelsesplaner for Dynamics 365](/dynamics365/release-plans/). 
+Du kan finde oplysninger om opdateringer af Project Service ved at gå til [frigivelsesplaner for Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 | Station  | Land/område | Aktuelle version | Næste version |  Planlagt dato
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Første frigivelse</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 28. maj 2021
+| | <i>Første frigivelse</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 23. oktober 2020
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Sydamerika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
-| | <i>Canada</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
-| | <i>Indien</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
-| | <i>Frankrig</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
-| | <i>De Forenede Arabiske Emirater</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
-| | <i>Sydafrika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
-| | <i>Tyskland</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
-| | <i>Schweiz</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. juni 2021
+| | <i>Sydamerika</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 30. oktober 2020
+| | <i>Canada</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 30. oktober 2020 
+| | <i>Indien</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 30. oktober 2020
+| | <i>Frankrig</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 30. oktober 2020
+| | <i>De Forenede Arabiske Emirater</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 30. oktober 2020
+| | <i>Sydafrika</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 30. oktober 2020
+| | <i>Tyskland</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | 30. oktober 2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
-| | <i>Asien og Stillehavsområdet</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
-| | <i>Storbritannien</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
-| | <i>Oceanien</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. maj 2021
+| | <i>Japan</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9. oktober 2020 
+| | <i>Asien og Stillehavsområdet</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9. oktober 2020
+| | <i>Storbritannien</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9. oktober 2020
+| | <i>Oceanien</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9. oktober 2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 14. maj 2021
+| | <i>Europa</i> |[3.10.42.43](whats-new-ur-24.md) | TBD | 13. november 2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Nordamerika</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21. maj 2021
+| | <i>Nordamerika</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 23. oktober 2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21. maj 2021
-| | <i>Dedikerede skalerbare grupper</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 28. maj 2021
+| | <i>Government Community Cloud</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 30. oktober 2020
+| | <i>Dedikerede skalerbare grupper</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 30. oktober 2020
 
 >[!Note]
 > - Datoer i alle områder undtagen Government Community Cloud (GCC) angiver tidspunktet for den næste automatiske opdatering. Datoer i GCC angiver versionstilgængelighed, og på nuværende tidspunkt opdateres disse områder ikke automatisk.
 > - For alle andre områder er de fleste opdateringer fuldført på den planlagte aften, men der kan udføres mere tidskrævende opdateringer i løbet af de mørke timer i weekenden, der er angivet i kolonnen **Planlagt dato**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

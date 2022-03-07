@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650042"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274721"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Deaktivering af en prisdimension
 
@@ -45,3 +45,6 @@ Denne fejlmeddelelse angiver, at der findes prisposter, der tidligere var konfig
 
 
 Når du deaktiverer **Standardtitel** som prisfastsættelsesdimension, og prisfastsættelsesfunktionen søger efter en pris, bruger den kun værdien **Afdeling** fra inputkonteksten. Hvis **Afdeling** i inputkonteksten er "Contoso US", er resultatet ikke-deterministisk, da begge rækker stemmer overens. Hvis du vil undgå dette scenario, validerer systemet, at kombinationen af dimensioner er entydig, når du opretter **Rollepris**-poster. Hvis dimensionen er blevet deaktiveret, efter at **Rollepris**-posterne er oprettet, kan denne begrænsning blive overtrådt. Det er derfor nødvendigt, at du sletter alle rækker med **Rollepris** og **Rolleprisavance**, der har den pågældende dimensionsværdi udfyldt, før du deaktiverer en dimension.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

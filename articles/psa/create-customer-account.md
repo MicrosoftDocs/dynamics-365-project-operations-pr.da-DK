@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb4ba934c444b3447f42c78b4dd1244185bb2f7e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 13d309ac8200c114624cec69fa124d6af766cba8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144811"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290487"
 ---
 # <a name="create-a-customer-account-project-service"></a>Oprette en debitorkonto (Project Service)
 
@@ -47,3 +47,6 @@ Opret en konto for hver enkelt kunde, du arbejder med, uanset om du afgiver tilb
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til kundechefer](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

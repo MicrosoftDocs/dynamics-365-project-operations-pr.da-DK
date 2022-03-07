@@ -2,11 +2,9 @@
 title: Konfigurer en salgsprisliste
 description: Dette emne indeholder oplysninger om salgsprislister til prisfastsættelse af projekter.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176244"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997599"
 ---
 # <a name="set-up-a-sales-price-list"></a>Konfigurer en salgsprisliste
 
@@ -59,3 +57,6 @@ I en projektkontrakt bruges følgende prioriteret rækkefølge til automatisk at
 Når en projektprisliste angives som standard, validerer systemet, om valutaen stemmer overens med kundens valuta, og at de standardprislister, der er angivet, har en kontekst af **Salg**.
 
 Du kan knytte flere projektprislister til objekterne Kunde, Salgsmulighed, Tilbud og Projektkontrakt. Denne funktion understøtter datospecifikke standardpriser for en længerevarende projektkontrakt, hvor der kan kræves mere end én prisliste for at tage højde for prisopdateringer, der opstår på grund af inflation. Men hvis de prislister, du knytter til kunde-, salgsmuligheds-, tilbuds- eller projektkontraktobjektet, har et overlappende datointerval, kan standardpriserne være forkerte. Du skal derfor sikre dig, at de projektprislister, der har overlappende datointerval, ikke er knyttet til disse objekter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

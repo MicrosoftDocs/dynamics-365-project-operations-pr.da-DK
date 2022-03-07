@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074310"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Bekræft, opdater og fremsend et projekttilbud
 
@@ -57,6 +57,3 @@ Hvis du vil ændre et eksisterende projekttilbud, skal tilbuddets status være *
 
 > [!NOTE]
 > Du kan ikke redigere et projekttilbud, når statussen er ændret til **Sendt**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

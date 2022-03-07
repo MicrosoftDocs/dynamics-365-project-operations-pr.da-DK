@@ -2,11 +2,9 @@
 title: Opdatere plug-in-attributter, så de indeholder nye prisdimensioner
 description: Dette emne indeholder oplysninger om opdatering af plug-in-attributter til prisdimensioner.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147061"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988779"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Opdatere plug-in-attributter, så de indeholder nye prisdimensioner
 
@@ -44,27 +42,30 @@ I følgende trin forklares, hvordan du kan registrere plug-ins.
 1. Åbn **PluginRegistrationTool** og opret forbindelse til din online-forekomst.
 2. Klik på **Søg**, og søg efter den plug-in, der skal opdateres.
 
- ![Skærmbillede af søgetræet](media/PRT-1.png)
+ ![Skærmbillede af søgetræet.](media/PRT-1.png)
 
 3. Når plug-in'en er fundet, skal du markere den og derefter klikke på **Vælg i hovedformular**.
 
 4. Vælg trinnet for den plug-in, du vil opdatere, højreklik, og vælg derefter **Opdater**.
 
- ![Skærmbilledet af plug-in'en, der skal opdateres](media/PRT-2.png)
+ ![Skærmbilledet af plug-in, der skal opdateres.](media/PRT-2.png)
  
 5. I opdateringsvinduet skal du klikke på ellipseknappen (**...**) i filtreringsattributterne.
 
- ![Skærmbillede af opdatering af oplysningerne om konfiguration af eksisterende trin](media/PRT-3.png)
+ ![Skærmbillede af opdateringen af oplysninger om konfiguration af eksisterende trin.](media/PRT-3.png)
  
 6. Markér afkrydsningsfelterne for prisattributter.
 
- ![Skærmbillede, der viser det markerede afkrydsningsfelt for prisattributter](media/PRT-4.png)
+ ![Skærmbillede, der viser det markerede afkrydsningsfelt for prisattributter.](media/PRT-4.png)
 
 7. Klik på **OK** for at lukke siden, og vælg derefter **Opdater trin**.
 
- ![Skærmbillede, der viser knappen "Opdater trin"](media/PRT-5.png)
+ ![Skærmbillede, der viser knappen "Opdater trin".](media/PRT-5.png)
  
 8. Gentag denne proces for den anden plug-in, **PreOperationQuoteLineDetail – Opdatering af msdyn_quotelinetransaction**.
 
 9. Luk Plug-in Registration Tool.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

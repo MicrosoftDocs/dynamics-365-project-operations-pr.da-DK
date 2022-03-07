@@ -2,18 +2,16 @@
 title: Opret et arbejdsopgavehierarki
 description: I dette emne forklares det, hvordan du kan oprette et arbejdsopgavehierarki (WBS), inklusive basiskontrolelementerne i den nye planlægningsgrænseflade.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841322"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998724"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opret et arbejdsopgavehierarki (WBS)
 
@@ -93,6 +91,8 @@ I tabellen nedenfor vises yderligere planlægningsattributter.
 | Navn | Navnet på opgaven. |
 | Id | Opgavens ID i arbejdsopgavehierarkiet. |
 
+Som en administrator kan du definere brugerdefinerede felter i opgaveobjektet. Felterne kan dog ikke vises i planlægningsgitteret. Hvis du vil se de brugerdefinerede felter, skal du tilføje dem til siden med detaljer for **Projektopgaven**.
+
 ## <a name="staffing-attributes"></a>Bemandingsattributter
 
 Der kan opnås adgang til medarbejderattributter via feltet **Ressourcer** i tidsplanen. Du kan enten søge efter en eksisterende ressource eller vælge **Opret** og i ruden **Hurtig oprettelse** tilføje et medlem af projektteamet som en ny ressource.
@@ -116,3 +116,6 @@ Opgavetilstanden påvirker ikke de opdateringer, der er foretaget af start- og s
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hjælp til handicappede og tastaturgenveje
 
 Gitteret **Planlægning** er fuldt tilgængeligt og kan bruges sammen med skærmlæsere, f.eks. Oplæser, JAWS eller NVDA. Du kan flytte gennem gitterområdet ved hjælp af piletasterne (som i Microsoft Excel), du kan bruge tabulatortasten til at gennemblade de interaktive brugergrænsefladeelementer, og du kan bruge pil ned-tasten, tasten ENTER eller mellemrumstasten til at åbne og aktivere rullemenuerne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

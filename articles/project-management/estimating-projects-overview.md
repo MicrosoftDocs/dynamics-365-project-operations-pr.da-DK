@@ -1,41 +1,31 @@
 ---
-title: Begreber for økonomiske estimater
-description: Dette emne indeholder oplysninger om økonomiske estimater for projekter i Project Operations.
-author: rumant
+title: Oversigt over estimerede projekter
+description: Dette emne indeholder oplysninger om estimeringer i Dynamics 365 Project Operations.
+author: ruhercul
 manager: AnnBe
-ms.date: 03/22/2021
+ms.date: 10/06/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.author: ruhercul
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701729"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131561"
 ---
-# <a name="financial-estimation-concepts"></a>Begreber for økonomiske estimater
+# <a name="estimate-projects-overview"></a>Oversigt over estimerede projekter
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-I Dynamics 365 Project Operations kan du økonomisk estimere dine projekter i to faser: 
-1. I før-salgsfasen, før handlen vindes. 
-2. I udførelsesfasen, efter at projektkontrakten er oprettet. 
-
-Du kan oprette et økonomisk estimat for projektbaseret arbejde ved hjælp af en af følgende tre sider:
-- Siden **Tilbudslinje** ved hjælp af oplysninger om tilbudslinjen.  
-- Siden **Projektkontraktlinje** ved hjælp af oplysninger om kontraktlinjer. 
-- Siden **Projekt** ved hjælp af fanesiderne **Opgaver** eller **Udgiftsestimater**.
-
-## <a name="use-a-project-quote-to-create-an-estimate"></a>Brug et projekttilbud til at oprette et estimat
 I et projektbaseret tilbud kan du bruge objektet **Tilbudslinjedetaljer** til at estimere det arbejde, der kræves for at levere et projekt. Du kan derefter dele dette estimat med kunden.
 
 Der kan være fra nul til adskillige tilbudslinjedetaljer i projektbaserede tilbudslinjer. Tilbudslinjedetaljer bruges til at estimere tid, udgifter eller gebyrer. Microsoft Dynamics 365 Project Operations tillader ikke materialeestimater på tilbudslinjedetaljer. Disse kaldes transaktionsklasser. Estimerede momsbeløb kan også angives på en transaktionsklasse.
 
 Udover transaktionsklasser har tilbudslinjedetaljer en transaktionstype. Der understøttes to transaktionstyper for tilbudslinjedetaljer: **Omkostning** og **Projektkontrakt**.
 
-## <a name="use-a-project-contract-to-create-an-estimate"></a>Brug en projektkontrakt til at oprette et estimat
+## <a name="estimate-by-using-a-contract"></a>Estimere ved hjælp af en kontrakt
 
 Hvis du brugte et tilbud, da du oprettede en projektbaseret kontrakt, kopieres det estimat, som du har for hver tilbudslinje i tilbuddet, til projektkontrakten. Strukturen i en projektkontrakt er ligesom strukturen i et projekttilbud, der indeholder linjer, linjedetaljer og fakturaplaner.
 
@@ -45,19 +35,25 @@ Kontraktlinjedetaljer kan bruges til at estimere tid, udgifter eller gebyrer. Es
 
 Materialeestimater er ikke tilladte på kontraktlinjedetaljer.
 
-## <a name="use-a-project-to-create-an-estimate"></a>Brug et projekt til at oprette et estimat 
+De processer, der understøttes i en projektkontrakt, er oprettelse og bekræftelse af fakturaer. Oprettelse af faktura opretter en kladde af en projektbaseret faktura, der omfatter alle ikke-fakturerede faktiske salg til dags dato.
 
-Du kan estimere tid og udgifter på projekter. Project Operations understøtter ikke estimater over materialer eller gebyrer for projekter.
+Bekræftelse gør kontrakten skrivebeskyttet og ændrer dens status fra **Kladde** til **Bekræftet**. Når du har udført denne handling, kan du ikke fortryde den. Da denne handling er permanent, er det en god ide at bevare kontrakten i **Kladde**-status.
+
+De eneste forskelle mellem kladdekontrakter og bekræftede kontrakter er deres status, og det faktum, at kladdekontrakter kan redigeres, mens bekræftede kontrakter ikke kan. Det er muligt at oprette fakturaer og spore faktiske oplysninger på både kladdekontrakter og bekræftede kontrakter.
+
+Project Operations understøtter ikke ændring af ordrer på kontrakter eller projekter.
+
+## <a name="estimating-projects"></a>Estimering af projekter
+
+Du kan estimere tid og udgifter på projekter. Project Operations tillader ikke estimater af materialer eller gebyrer på projekter.
 
 Der genereres tidsestimater, når du opretter en opgave og identificerer attributterne for en generisk ressource, der kræves til at udføre opgaven. Tidsestimater genereres ud fra planlagte opgaver. Tidsestimater oprettes ikke, hvis du opretter generiske teammedlemmer uden for konteksten af tidsplanen.
 
-Udgiftsestimater angives i gitteret på siden **Udgiftsestimater**.
+Udgiftsestimater angives i gitteret på siden **Estimater**.
 
-Oprettelse af et estimat for et projekt betragtes som den bedste praksis, da du kan udarbejde detaljerede estimater over arbejde eller tid og udgifter for de enkelte opgaver i projektplanen. Du kan derefter bruge dette detaljerede estimat til at oprette estimater for hver tilbudslinje og udarbejde et mere troværdigt tilbud til kunden. Når du importerer eller opretter et detaljeret estimat på tilbudslinjen ved hjælp af projektplanen, importerer Project Operations salgsværdierne og omkostningsværdierne i disse estimater. Efter importen kan du se rentabilitets-, avance- og levedygtighedsmålepunkter i projekttilbuddet.
+## <a name="understanding-estimation"></a>Om estimering
 
-## <a name="understanding-estimates"></a>Forståelse for estimater
-
-Brug følgende tabel som vejledning til at forstå forretningslogikken i estimatfasen.
+Brug følgende tabel som vejledning til at forstå forretningslogikken i estimeringsfasen.
 
 | Scenarie                                                                                                                                                                                                                                                                                                                                          | Objektpost                                                                                                                                                                                                       | Transaktionstype | Transaktionsklasse | Yderligere oplysninger                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
@@ -83,6 +79,3 @@ Hvis du har tilføjet et brugerdefineret felt på tilbudslinjedetaljen og ønske
 7. Vælg **OK** for at lukke dialogboksen, og vælg derefter **Opdater trin**.
 8. Gentag trin 1 til 7 for den anden plug-in.
 9. Luk **PluginRegistrationTool**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

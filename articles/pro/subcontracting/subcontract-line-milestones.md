@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558495"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323769"
 ---
 # <a name="subcontract-line-milestones"></a>Milepæle for underentrepriselinje
 
@@ -50,15 +50,15 @@ Fastprismilepæle på en underentrepriselinje kan oprettes manuelt, når de ikke
 3. På fanen **Milepæle for underentrepriselinjer** skal du i undergitteret vælge **+Ny milepæl for underentrepriselinje**.
 4. På siden **Ny milepæl for underentrepriselinje** skal du angive de krævede oplysninger på baggrund af følgende tabel.
 
-    | Felt | Beskrivelse |Funktionspåvirkning|
-    | --- | --- |----------------------|
-    | Navn på milepæl | Navnet på milepælen. |Dette vises som den første kolonne i alle opslag baseret på milepæle for underentrepriselinjer. På den leverandørfakturalinje, der oprettes på baggrund af denne milepæl, bruges navnet på milepælen for underentrepriselinjen også som standardnavn på leverandørens fakturalinje.|
-    | Beskrivelse | En beskrivelsen af milepælen. |På den leverandørfakturalinje, der oprettes på baggrund af denne milepæl, bruges beskrivelsen af milepælen for underentrepriselinjen også som beskrivelsen af leverandørens fakturalinje.|
-    | Milepælsdato | Den dato, hvor den automatiske fakturaoprettelsesproces skal søge efter statussen for denne milepæl for tage den i betragtning i forbindelse med fakturering.| Denne værdi bruges som standarddatoen for leverandørens fakturalinje, når der faktureres for denne underentrepriselinje. |
-    | Beløb | Beløbet eller værdien af den milepæl, der vil blive faktureret kunden. |Denne værdi bruges som standardværdien på leverandørens fakturalinje, når der faktureres for denne underentrepriselinje. |
-    | Skat | Det momsbeløb, der anvendes på milepælen.| Denne værdi bruges som standardmomsværdien på leverandørens fakturalinje, når der faktureres for denne underentrepriselinje. |
-    | Beløb efter moms | Dette skrivebeskyttede felt beregnes som Beløb + Moms.|Denne værdi bruges som standarden på leverandørens fakturalinje, når der faktureres for denne underentrepriselinje. |
-    | Fakturastatus | Når milepælen oprettes, angives denne status altid til **Ikke klar til fakturering**.|  Når statussen er **Klar til fakturering**, medtager oprettelsen af leverandørfakturaen denne milepæl på leverandørfakturaen. |
+    | Felt | Beskrivelse |
+    | --- | --- |
+    | Navn på milepæl | Navnet på milepælen. |
+    | Beskrivelse | En beskrivelsen af milepælen.  |
+    | Milepælsdato | Den dato, hvor den automatiske fakturaoprettelsesproces skal søge efter statussen for denne milepæl for tage den i betragtning i forbindelse med fakturering. Denne værdi medtages på fakturalinjen for leverandøren, når denne underentreprise faktureres. |
+    | Beløb | Beløbet eller værdien af den milepæl, der vil blive faktureret kunden. Denne værdi medtages på fakturalinjen for leverandøren, når denne underentreprise faktureres. |
+    | Skat | Det momsbeløb, der anvendes på milepælen. Denne værdi medtages på fakturalinjen for leverandøren, når denne underentreprise faktureres. |
+    | Beløb efter moms | Dette skrivebeskyttede felt beregnes som Beløb + Moms. Denne værdi medtages på fakturalinjen for leverandøren, når denne underentreprise faktureres. |
+    | Fakturastatus | Når milepælen oprettes, angives denne status altid til **Ikke klar til fakturering**.  Når statussen er **Klar til fakturering**, medtager oprettelsen af leverandørfakturaen denne milepæl på leverandørfakturaen. |
 
 5. Vælg **Gem og luk**.
 

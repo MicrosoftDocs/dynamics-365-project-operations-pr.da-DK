@@ -2,12 +2,10 @@
 title: Konfiguration af brugerdefinerede felter som prisfastsættelsesdimensioner
 description: Dette emne indeholder oplysninger om konfiguration af brugerdefinerede prisfastsættelsesdimensioner.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150346"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002324"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfiguration af brugerdefinerede felter som prisfastsættelsesdimensioner 
 
@@ -43,11 +41,11 @@ Hvis et felt skal blive til en prisdimension, skal det være:
 - Oprettet som et felt i objekterne **Rollepris** og **Rolleprisavance**. Du finder flere oplysninger om, hvordan du gør dette, i [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](field-references.md).
 - Oprettet som en række i tabellen **Prisdimension**. Du kan f.eks. tilføje rækker med prisdimensioner som vist i følgende grafik. 
 
-![Beløbsbaserede prisdimensionsrækker](media/Amt-based-PD.png)
+![Beløbsbaserede prisdimensionsrækker.](media/Amt-based-PD.png)
 
 Bemærk, at Arbejdstimer for ressource (**msdyn_resourceworkhours**) er blevet tilføjet som en avancebaseret dimension og er blevet føjet til gitteret på fanen **Avancebaserede prisdimensioner**.
 
-![Avancebaserede prisdimensionsrækker](media/Markup-based-PD.png)
+![Avancebaserede prisdimensionsrækker.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Eventuelle ændringer af prisdimensionsdata i denne tabel, eksisterende eller nye, overføres kun til forretningslogikken for prisfastsættelse i Project Service, når cachen er opdateret. Det kan tage op til 10 minutter at opdatere cachen. Tillad denne tid for at se ændringerne i standardlogikken for priser, som bliver resultatet efter ændringer i prisdimensionsdataene.
@@ -73,12 +71,12 @@ Der findes to typer prisdimensioner:
   
 | Rolle        | Afdeling    |Arbejdssted      |Standardtitel      |Arbejdstimer for ressource      |  Markere|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|På stedet            |                    |Overtid                 |15     |
-|             | Contoso India|Lokal             |                    |Overtid                 |10     |
-|             | Contoso USA   |Lokal             |                    |Overtid                 |20     |
+|             | Contoso Indien|På stedet            |                    |Overtid                 |15     |
+|             | Contoso Indien|Lokal             |                    |Overtid                 |10     |
+|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressource fra Contoso India, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prissætningsfunktionen i Project Service grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
+Hvis en ressource fra Contoso Indien, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prisfastsættelsesprogrammet i Project Service grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gælder for Omkostning 
 Hvis denne indstilles til **Ja**, angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde omkostnings- og avancetaksterne.
@@ -94,3 +92,6 @@ Når dimensionsprioriteten er angivet, kan Project Service bruges til at oprette
 
 - **Omkostningsprioritet**: Værdien for en dimensions omkostningsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af kostpriser. Værdien for **Omkostningsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Omkostning**.
 - **Salgsprioritet**: Værdien for en dimensions salgsprioritet angiver den pågældende dimensions vægtning, når den matches i forhold til opsætningen af salgspriser eller fakturasatser. Værdien for **Salgsprioritet** skal være entydig på tværs af dimensioner, der **Gælder for Salg**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

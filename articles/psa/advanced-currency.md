@@ -3,7 +3,7 @@ title: Scenarier med flere valutaer (version 3.x)
 description: Denne emne indeholder oplysninger om scenarier med flere valutaer.
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145666"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074282"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarier med flere valutaer
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

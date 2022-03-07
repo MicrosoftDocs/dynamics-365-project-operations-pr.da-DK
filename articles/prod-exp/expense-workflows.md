@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36ab1edc4769013684fa9248e6c5eac025637bbd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074326"
 ---
 # <a name="set-up-expense-management-workflows"></a>Konfigurer arbejdsprocesser for udgiftsstyring
+
+[!include [banner](../includes/banner.md)]
 
 Du kan konfigurere en arbejdsproces, der bruges til at gennemse og godkende dokumenter for rejser og udgifter. Du kan definere arbejdsprocesser for dokumenter såsom udgiftsrapporter, rejserekvisitioner og anmodninger om kontantforskud.
 
@@ -50,6 +52,3 @@ I følgende tabel vises de arbejdsprocestyper, som du kan oprette i **Udgift**.
 |      <strong>Anmodning om kontantforskud</strong>      |         Opret godkendelsesarbejdsprocesser for anmodninger om kontantforskud.          |
 |        <strong>Moms- og skatteinddrivelse</strong>        | Opret godkendelsesarbejdsprocesser for inddrivelse af moms.  |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

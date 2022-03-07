@@ -2,18 +2,16 @@
 title: Opdatering af plug-in-attributter med nye prisfastsættelsesdimensioner
 description: Dette emne indeholder oplysninger om, hvordan du opdaterer plug-in-attributter til prisfastsættelsesdimensioner.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988329"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Opdater plug-in-attributter med nye prisfastsættelsesdimensioner
 
@@ -52,3 +50,6 @@ Udfør følgende trin for at opdatere og registrere plug-ins igen.
 7. Vælg **OK** for at lukke siden, og vælg derefter **Opdater trin**.
 8. Gentag trin 2-7 for den anden plug-in **PreOperationQuoteLineDetail**. For denne plug-in skal du opdatere trinnet **Opdatering af msdyn_quotelinetransaction**.
 9. Luk **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

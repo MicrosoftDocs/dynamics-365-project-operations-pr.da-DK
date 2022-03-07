@@ -2,11 +2,9 @@
 title: Implementer brugerdefinerede felter til Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 description: Dette emne indeholder almindelige mønstre for anvendelse af udvidelser til at implementere brugerdefinerede felter.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270986"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003018"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementer brugerdefinerede felter til Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 
@@ -54,7 +52,7 @@ Egenskaben **FieldBaseType** i objektet **TsTimesheetCustom** bestemmer, hvilken
 | Typer af værdi | Skriv              | Noter |
 |-------------|-------------------|-------|
 | 0           | Streng (og enum) | Feltet vises som et tekstfelt. |
-| 0           | Integer           | Værdien vises som et tal uden decimaler. |
+| 1           | Integer           | Værdien vises som et tal uden decimaler. |
 | 2           | Reelle tal              | Værdien vises som et tal med decimaler.<p>Hvis du vil have vist den reelle værdi som en valuta i appen, skal du bruge egenskaben **fieldExtenededType**. Du kan bruge egenskaben **numberOfDecimals** til at angive det antal decimaler, der skal vises.</p> |
 | 3           | Date              | Datoformater bestemmes af brugerens indstilling for **Dato, klokkeslæt og talformat**, der er angivet under **Præference for sprog og land/område** under **Brugerindstillinger**. |
 | 4           | Boolean           | |

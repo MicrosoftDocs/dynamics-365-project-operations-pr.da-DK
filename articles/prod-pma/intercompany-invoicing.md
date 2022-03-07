@@ -2,11 +2,9 @@
 title: Intern fakturering
 description: Denne artikel indeholder oplysninger om og eksempler på intern fakturering af projekter.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270761"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995799"
 ---
 # <a name="intercompany-invoicing"></a>Intern fakturering
 
@@ -35,7 +33,7 @@ Din organisation kan have flere afdelinger, datterselskaber og andre juridiske e
 
 I følgende illustration vises et typisk scenarie, hvor to juridiske objekter, SI FR (den juridiske låneenhed) og SI USA (den juridiske udlånsenhed) deler ressourcer for at levere et projekt til kunde A. I dette scenario er SI FR forpligtet i henhold til kontrakt til at levere arbejdet til kunde A. 
 
-[![Eksempel på intern fakturering](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Eksempel på intern fakturering.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Målet er at gøre omkostningskontrol, indtægtsføring, moms og overførselspris for interne projekttransaktioner mere fleksibelt og effektivt. Derudover leveres følgende egenskaber:
 

@@ -2,92 +2,70 @@
 title: Tilmelding til et prøveversionsabonnement - lille
 description: Dette emne indeholder oplysninger om, hvordan du abonnere på og udruller den lille udrulning af Project Operations - aftale til proformafakturering.
 author: sigitac
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175884"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991524"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tilmelding til et prøveversionsabonnement - lille 
 
-Dette emne forklarer, hvordan du abonnere på prøveversionen af partnertilbuddet og udruller den lille udrulning af Dynamics 365 Project Operations - aftale til proformafakturering.
+I dette emne forklares det, hvordan du abonnerer på prøvetilbuddet og udruller Dynamics 365 Project Operations lille udrulning – aftale om proformafakturering.
 
 > [!NOTE]
 > Denne proces ændres i de kommende versioner af Project Operations.
 
 ## <a name="prerequisites"></a>Forudsætninger
-
-- Du modtager en mail, der inviterer dig til at deltage i prøveversionen. Du kan anmode om en prøveversion på [Webstedet for Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Den bruger, der udruller prøveversionen, skal have globale Azure-lejer administratorrettigheder.
-- Gennemse alle vilkår og betingelser.
-
-## <a name="subscribe"></a>Abonner
-
-Når du modtager en godkendelse af din [anmodning om prøveversion](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), modtager du to tilbud fra Microsoft via email. Disse tilbud giver dig mulighed for at udrulle prøveversionen af Project Operations:
-
-- Dynamics 365 Project Operations (CRM) - prøveversion
-- Prøveversion - Office 365 Project Operations
+- Den bruger, der udruller prøveversionen, skal have globale Azure-lejer administratorrettigheder. Du kan oprette en lejer under indløsningen af første tilbud.
 
 > [!IMPORTANT]
 > Kun én person, lejeradministratoren, i en organisation skal udføre denne opgave. Hvis du ikke abonnerer på denne udgivelse, skal du vente, til din organisation er blevet tilmeldt, og du har modtaget dine brugerlegitimationsoplysninger.
+> 
+> Prøveversioner er til engangsbrug i lejeren. Du kan kun køre en prøveversion én gang. Det anbefales, at du opretter en ny lejer med henblik på prøveversionen.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - prøveversion 
+### <a name="dynamics-365-project-operations-trial"></a>Dynamics 365 Project Operations-prøveversion 
 
 Før du går i gang, skal du sikre dig, at du er logget på en browser med brugerens arbejdskonto i lejeren, hvor du vil installere prøveversionen af Project Operations.
 
-1. Indløser den første tilbudskode, **Dynamics 365 Project Operations (CRM) - prøveversion** ved at indsætte den i browserens URL-adresse.
-
-![Accepter tilbud](./media/16RedeemFirstOfferNew.png)
-
+1. Gå til [Project Operations-prøveversion](https://aka.ms/try-po) for at indløse den første tilbudskode, **Dynamics 365 Project Operations**.
 2. Bekræft din ordre..
-![Kontrollér ordren](./media/17ConfirmOrderNew.png)
 
-Du får en bekræftelse på, at tilbuddet blev indløst.
+  Du kan se, at bekræftelsestilbuddet blev gennemført korrekt.
 
-![Bekræftelse](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Prøveversion - Office 365 Project Operations
-
-Gentag de samme trin som ved den første tilbudskode. Sørg for at tilføje den anden tilbudskode ved at anvende den samme brugerkonto, som blev brugt sammen med den første tilbudskode.
-
-## <a name="assign-licenses"></a>Tildel licenser
+## <a name="assign-licenses"></a>Tildele licenser
 
 > [!IMPORTANT]
 > Du skal have administratoradgang til din organisations Microsoft 365-portal for at fuldføre følgende trin.
 
 
 1. Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenser til brugerne.
-
-![Startside for Administration](./media/14AdminPortal.png)
-
 2. På siden **Aktive brugere** skal du vælge de brugere, du vil tildele en licens til.
-
-![Tildel licenser](./media/15AssignLicenses.png)
-
-3. Kontroller, at licenserne **Dynamics 365 Project Operations (CRM) prøveversion** og **Office 365 Project Operations - prøveversion** er valgt. 
+3. Kontrollér, at **Dynamics 365 Project Operations**-licensen er valgt. 
 4. Vælg **Gem ændringer**.
 
-## <a name="create-a-new-cds-environment"></a>Opret et CDS-miljø
+## <a name="create-a-new-dataverse-environment"></a>Opret et nyt Dataverse-miljø
 
-1. Klargør et nyt CDS-udrulningsmiljø for Project Operations ved at følge vejledningen i emnet [CDS-udrulningsmodel](lite-deployment.md). Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.
-![Nyt miljø](./media/19CreateEnvironment.png)
+1. Klargør et nyt Project Operations Dataverse-udrulningsmiljø ved at følge vejledningen i emnet [Dataverse-udrulningsmodel](lite-deployment.md). Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.
+
+  ![Nyt miljø.](./media/19CreateEnvironment.png)
 
 2. Vælg indstillingen **Aktivér Dynamics 365-apps**, og lad **Udrul automatisk disse apps** være tom.  
 3. Vælg **Gem** for at oprette miljøet.
 
-![Tilføj database](./media/20CreateEnvironment1.png)
+  ![Tilføj database.](./media/20CreateEnvironment1.png)
 
-4. Når miljøet er oprettet, skal du installere løsningen **Microsoft Dynamics 365 Project Operations**. 
+4. Når miljøet er oprettet, skal du installere **Microsoft Dynamics 365 Project Operations**-løsningen. 
 
-![Installer løsningen](./media/21InstallSolution.png)
+![Installer løsningen.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installer en CDS-konfiguration og konfigurer demonstrationsdata
 
 Installer CDS-konfigurationen, og konfigurer demonstrationsdata ved at følge vejledningen i emnet [Anvend demonstrationskonfiguration og konfigurationsdata](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

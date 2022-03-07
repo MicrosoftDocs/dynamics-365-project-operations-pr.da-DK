@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 40ac37c1070e1c4da01e96bbc4248977b2b6d284
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290847"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Annullere tidligere godkendte tids- eller udgiftsposter
 
@@ -62,3 +62,6 @@ Et projekt påvirkes også økonomisk, når en godkendelse annulleres. Først op
 Dernæst oprettes der tilbageførselsposter i tabellen med faktiske oplysninger. For at oprette tilbageførselsposter kopieres feltværdierne fra de oprindelige faktiske oplysninger i systemet. De eneste værdier, der ikke kopieres over, er antalsværdier. Disse værdier omgøres i stedet. Tilbageførte faktiske værdier oprettes for både faktiske **Omkostninger** og **Ikke-faktureret salg**. Feltet **Justeringsstatus** i de tilbageførte faktiske oplysninger angives til **Ikke-justerbar**, og faktureringsstatussen angives til **Annulleret**.
 
 Når disse ændringer er foretaget, vil det beløb, der er registreret som brugt på projektet, og omsætningens ordrebeholdning på projektet ikke længere medtage de beløb, som disse faktiske værdier repræsenterer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

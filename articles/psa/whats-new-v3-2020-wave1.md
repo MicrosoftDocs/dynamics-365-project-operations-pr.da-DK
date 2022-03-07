@@ -1,8 +1,6 @@
 ---
 title: Nyheder eller ændringer i Project Service Automation version 3.x, bølge 1 2020
 description: Dette emne indeholder oplysninger om nyheder og ændringer i Project Service Automation version 3, bølge 1 2020.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150931"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002099"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Nyheder eller ændringer i Project Service Automation version 3, bølge 1 2020
 
@@ -43,3 +41,6 @@ Hvis du har brugerdefinerede app-moduler, der omfatter alle formularer for objek
 
 ### <a name="currently-extended-time-entry-changes"></a>Aktuelle ændringer i udvidet tidsregistrering
 Hvis du vil minimere virkningen for aktuelle brugere af tidsregistreringen, er denne rolleændring det eneste kernekrav, der er nødvendigt for at fortsætte med at bruge tidsregistrering. Hvis du har oprettet brugerdefinerede visninger eller separate tidsregistreringsoplevelser, skal du i felterne **Indstillinger for tidsregistrering** angive de korrekte PSA-værdier.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

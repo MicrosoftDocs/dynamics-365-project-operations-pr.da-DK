@@ -2,8 +2,6 @@
 title: Tilbud og tilbudslinjer
 description: Dette emne indeholder oplysninger om tilbud og tilbudslinjer.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145108"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995439"
 ---
 # <a name="quotes-and-quote-lines"></a>Tilbud og tilbudslinjer
 
@@ -86,7 +84,7 @@ Professionelle serviceorganisationer udarbejder typisk et tilbud og fakturerer d
 
 En eller flere af disse transaktionsklassificeringer kan tilknyttes den enkelte tilbudslinje. Når et tilbud er vundet, overføres tilknytningen mellem transaktions klassificering og tilbudslinje til kontraktlinjen.
  
-> ![Skærmbillede af tilknytning af transaktionstyper til tilbuds- og kontraktlinjer](media/basic-guide-5.png)
+> ![Skærmbillede af tilknytning af transaktionstyper til tilbuds- og kontraktlinjer.](media/basic-guide-5.png)
   
 Et tilbud kan f.eks. indeholde følgende to tilbudslinjer: 
 - Konsulentarbejde, der benytter en metode til fakturering af tid og materiale, hvor klassificeringer af tids- og vederlagstransaktioner er gældende. For eksempel faktureres alle tids- og vederlagstransaktioner for eksempelprojektet **Dynamics AX Implementering** til kunden baseret på den tid og de materialer, der er brugt. 
@@ -131,3 +129,6 @@ I forbindelse med en tilbudslinje med fast pris kan du bruge gitteret **Fakturat
 - Hvis du vil oprette faktureringsmilepæle, der er fordelt ligeligt, skal du vælge en fakturahyppighed, angive faktureringsstartdatoen på tilbudslinjen og vælge **Ønsket fuldførelse** for tilbuddet i sektionen **Oversigt** i overskriften til tilbuddet. Vælg **Generer periodiske milepæle** for at oprette ligeligt opdelte milepæle baseret på den valgte fakturahyppighed. 
 - Hvis du vil oprette en faktureringsmilepæl med en engangssum, skal du oprette en milepæl og derefter angive værdien for tilbudslinjen som beløbet for milepælen.
 - Hvis du vil oprette faktureringsmilepæle, der er baseret på bestemte opgaver i projektplanen, skal du oprette en milepæl og knytte den til projektets tidsplanelement i brugergrænsefladen til faktureringsmilepælen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

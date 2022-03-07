@@ -2,27 +2,25 @@
 title: Oversigt over ressourceafstemning
 description: Dette emne indeholder oplysninger, der kan hjælpe dig med at sikre, at ressourcereservationer og tildelinger for projekter stemmer overens.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 5c48589e745dbf6e3a51ae749b9b45491d26406e
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849617"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368199"
 ---
 # <a name="resource-reconciliation-overview"></a>Oversigt over ressourceafstemning
 
@@ -48,3 +46,6 @@ Hvis du har opgavetildelinger for en ressource men ingen reservationer, skal du 
 Reservationer, der oprettes via handlingen **Udvid reservation**, er knyttet til det primære projektkrav. Når en udvidelse startes, kan det specifikke krav, der skal udvides, ikke bestemmes, da ressourcen kan være knyttet til mere end ét krav til projektet.
 
 Projektlederen eller ressourceadministratoren kan derefter bruge planlægningsområdet til at administrere de situationer, hvor en ressource overreserveres i forhold til dens kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: Lukke et tilbud
 description: Dette emne indeholder oplysninger om, hvordan du lukker tilbud i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124676"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993414"
 ---
 # <a name="close-a-quote"></a>Lukke et tilbud
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Et projekttilbud kan lukkes som vundet eller tabt. Da funktionerne Aktivér og Revider ikke understøttes i tilbud i Microsoft Dynamics 365 Project Operations, kan du lukke et tilbud i kladdeform.
+Et projekttilbud kan lukkes som vundet eller tabt. Da funktionerne Aktiver og Revider ikke er understøttet for tilbud i Microsoft Dynamics 365 Project Operations, kan du lukke en tilbudskladde.
 
 ## <a name="close-a-quote-as-won"></a>Luk et tilbud som vundet
 
@@ -43,3 +41,6 @@ Hvis det projekttilbud, der er lukket som tabt, er et projekt, der refereres til
 
 > [!NOTE]
 > Hvis du lukker et tilbud som vundet eller tabt i Project Operations, påvirkes statussen for salgsmuligheden ikke, og den vil være åben, indtil den lukkes manuelt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

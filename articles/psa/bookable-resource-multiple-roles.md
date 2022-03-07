@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0f779cf7e247157d6cae2ae7c4c5644201cb7714
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145036"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290982"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimer projektsalg og -omkostninger, når en reserverbar ressource udfylder flere roller for et projekt 
 
@@ -74,3 +74,6 @@ Når du udvider rækken for det pågældende teammedlems post, kan du se de fors
 Når du navigerer til gitteret **Estimater**, vil du bemærke, at tildelingerne til den samme ressource er prisfastsat forskelligt.
 Tildelingen for ressourcen på opgave A er prisfastsat ved hjælp af **Rolle**-attributværdien for **Konsulterende kundeemne**. Tildelingen for den samme ressource på opgave B er prisfastsat ved hjælp af **Rolle**-attributværdien for **Netværkstekniker**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

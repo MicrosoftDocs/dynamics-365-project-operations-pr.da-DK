@@ -2,11 +2,9 @@
 title: Definer udgiftspolitikker
 description: Du kan definere de udgiftspolitikker, som dine medarbejder skal følge, når de angiver og indsender udgiftsrapporter og rejserekvisitioner.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986349"
 ---
 # <a name="define-expense-policies"></a>Definer udgiftspolitikker
 
@@ -53,3 +51,6 @@ Her er et par forslag, der kan hjælpe dig med at oprette nye politikker for udg
 ## <a name="when-to-evaluate-policies"></a>Tidspunkt for evaluering af politikker
 
 I parametre for udgiftsstyring kan du vælge at evaluere politikker for udgiftsstyring, når en linje gemmes, eller når der indsendes en udgiftsrapport. Hvis du vælger at evaluere, når en linje gemmes, får brugerne tidligere indsigt i, hvad de skal gøre for at fuldføre deres udgiftsrapporter på én gang. Ellers kan du forsinke evalueringen af politikker og spare tid ved at validere den til slut i forbindelse med indsendelsen til arbejdsprocessen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

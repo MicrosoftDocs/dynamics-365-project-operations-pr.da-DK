@@ -8,18 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
+ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642041"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4174258"
 ---
 # <a name="navigate-project-operations"></a>Naviger i Project Operations
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Operations for ressource/ikke-lagerførte scenarier består af to komponenter: 
 

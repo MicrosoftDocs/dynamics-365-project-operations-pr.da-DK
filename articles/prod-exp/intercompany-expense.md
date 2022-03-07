@@ -1,27 +1,25 @@
 ---
 title: Interne udgifter
 description: Dette emne indeholder oplysninger om, hvordan du kan bruge interne udgifter til at tildele en medarbejders udgifter til den juridiske enhed, som arbejdet er udført for.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271526"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001199"
 ---
 # <a name="intercompany-expenses"></a>Interne udgifter
 
@@ -36,5 +34,17 @@ Før en medarbejder kan oprette og indsende interne udgifter, skal du aktivere d
 Før du kan bruge momsgrupper, der er knyttet til den juridiske låneenhed (kilde) i stedet for den juridiske udlånsenhed (destination), i udgiftsrapporten skal du aktivere funktionaliteten i opsætningen af moms i finanskladden. Når parameteren **Juridisk enhed for intern momsbogføring** angives til **Kilde**, og **Anvend regler for moms** angives til **Nej**, bruges momskombination for den juridiske låneenhed. Når den samme parameter er angivet til **Destination**, bruges momskombinationen for den juridiske låneenhed. For juridiske enheder i USA, hvor parameteren er angivet til **Kilde**, skal feltet **Salgsmoms** også konfigureres på den nye side for **Finanskonteringsgrupper**. Regnskabsprogrammet bruger oplysningerne fra dette felt i forbindelse med momsrelateret regnskabspostering.   
 Funktionsmåden er den samme for de udgiftslinjer, der bogføres med eller uden et projekt.  
 
+## <a name="new-expense-expression-builder"></a>Ny udtrykgenerator for udgifter
+
+Den nye udtryksgenerator for udgifter løser problemer med interne udgiftsscenarier, der bruger projekter. Denne funktion sikrer, at udgiftspolitikken valideres korrekt i forhold til det projekt, der er valgt på udgiftslinjen, når du opretter en intern udgift, og at udgiftsrapporten kan sendes korrekt.
+
+Hvis udtryksgeneratoren for udgifter skal fungere, skal den være aktiveret. Derudover skal den udgiftspolitik, der har et projekt-id, konfigureres.
+
+Hvis du allerede har konfigureret politikker, der validerer projekt-id'et på udgiftslinjen, skal disse politikker være udgået. Du kan derefter aktivere funktionen og omkonfigurere politikkerne.
+
+Benyt følgende fremgangsmåde for at aktivere disse funktioner.
+
+1. Gå til **Arbejdspladser** \> **Funktionsstyring**.
+2. Vælg **Ny udtryksgenerator for udgifter, der skal løse problemer med interne udgiftsscenarier, der bruger projekter** på listen. Vælg derefter **Aktivér nu**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144451"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950302"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Administrere projekter og reservationer i din kalender (Project Service)
 
@@ -52,7 +52,7 @@ Få vist private aftaler, reservationer til projektarbejde og tildelinger af arb
   
 - Du skal have legitimationsoplysninger som [!INCLUDE[pn_office_365](../includes/pn-office-365.md)]-organisationsadministrator eller -systemadministrator.  
   
-- Din administrator skal konfigurere mailserverprofilen, og de enkelte brugere skal konfigurere deres postkasse. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Opsæt mailbehandling via synkronisering på serversiden](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Din administrator skal konfigurere mailserverprofilen, og de enkelte brugere skal konfigurere deres postkasse. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Opsæt mailbehandling via synkronisering på serversiden](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Slå synkronisering til for din organisationen (administratoropgave)  
   
@@ -91,3 +91,6 @@ Få vist private aftaler, reservationer til projektarbejde og tildelinger af arb
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

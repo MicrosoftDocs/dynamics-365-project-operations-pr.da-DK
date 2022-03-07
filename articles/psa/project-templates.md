@@ -2,8 +2,6 @@
 title: Projektskabeloner
 description: Dette emne indeholder oplysninger om, hvordan du kan bruge projektskabeloner til hurtig opsætning af projekter.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148051"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002504"
 ---
 # <a name="project-templates"></a>Projektskabeloner 
 
@@ -49,7 +47,7 @@ Du kan oprette et projekt på baggrund af en projektskabelon på flere måder:
 
 - Når du opretter et projekt fra tilbuddet, kan du vælge en projektskabelon i dialogboksen **Hurtig oprettelse: Projekt**
 
-> ![Dialogboksen Hurtig oprettelse: Projekt](media/project-11.png)
+> ![Dialogboksen Hurtig oprettelse: Projekt.](media/project-11.png)
 
 - Når du opretter et projekt ved at vælge **Nyt projekt** vises siden **Projekt**, før posten gemmes. I feltet **Vælg en skabelon** skal du vælge en af de foruddefinerede projektskabeloner i organisationen.
 - Brug **Opret projekt fra en skabelon** på siden **Skabelonobjekt**.
@@ -69,3 +67,6 @@ Når du kopierer på tværs af projektestimatlinjer, opdateres prislisterne. Hva
 ### <a name="copying-a-project-team"></a>Kopiere et projektteam
 
 Når et projektteam kopieres fra en projektskabelon til et projekt, kopieres standardressourcerne sammen med de færdigheder og kompetencer, der er defineret i skabelonen. Standardressourcetildelinger bevares også, som de var, i projektskabelonen. Navngivne ressourcer understøttes ikke i projektskabeloner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

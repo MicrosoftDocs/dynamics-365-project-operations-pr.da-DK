@@ -2,18 +2,16 @@
 title: Kopier projektbaserede salgsmuligheder
 description: Dette emne indeholder oplysninger om kopiering af projektbaserede salgsmuligheder i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181625"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999714"
 ---
 # <a name="copy-project-based-opportunities"></a>Kopier projektbaserede salgsmuligheder
 
@@ -34,3 +32,6 @@ Det er nemt at kopiere projektbaserede salgsmuligheder, så du kan oprette nye p
     | Kopiér prisfastsættelse | En værdi af typen ja/nej, der angiver, om prisfastsættelsen af salgsmuligheden skal kopieres fra kildesalgsmuligheden. | Hvis **Ja** er markeret, kopieres prislister fra kilden til destinationssalgsmuligheden. Hvis der er valgt **Nej** gendannes standarderne for prislisterne på baggrund af de nyeste prislister, der er konfigureret. |
 
 3. Vælg **OK**. Systemet opretter en kopi af projektsalgsmuligheden på baggrund af de valgte parametre, og den nye projektsalgsmulighed åbnes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

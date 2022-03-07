@@ -2,11 +2,9 @@
 title: Projektkontrakter
 description: Dette emne giver eksempler på de projektkontrakter, som du kan oprette til forskellige typer projekter og finansieringskilder, og hvordan du kan administrere kontrakter og fakturere projektkunder.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074303"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001019"
 ---
 # <a name="project-contracts"></a>Projektkontrakter
 
@@ -100,7 +98,7 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -118,8 +116,8 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -138,8 +136,8 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>50 %</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -155,7 +153,7 @@ Følgende tabel indeholder scenarier til administration af finansieringsallokeri
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -344,3 +342,6 @@ I løbet af den første måned registreres der i alt 800 konsulenttimer på proj
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

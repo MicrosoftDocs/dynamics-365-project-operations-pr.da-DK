@@ -2,18 +2,16 @@
 title: Konfigurer projektkategorier
 description: Dette emne indeholder oplysninger om opsætning af projektkategorier.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997104"
 ---
 # <a name="configure-project-categories"></a>Konfigurer projektkategorier
 
@@ -25,11 +23,11 @@ I følgende diagram illustreres korrelationen mellem transaktionskategorier, del
 
 Transaktionskategorier er den grundlæggende gruppering for projekttransaktioner. I denne gruppering findes der et sæt delte kategorier, som kan deles på tværs af programmer og moduler. Mere dybdegående er projektkategorier det mest detaljerede niveau for kategorier. Projektkategorier er specifikke for en juridisk enhed, et modul og program.
 
-![Korrelationen mellem transaktionskategorier, delte kategorier og projektkategorier](media/project-categories.png)
+![Korrelationen mellem transaktionskategorier, delte kategorier og projektkategorier.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Transaktionskategorier
 
-Transaktionskategorier repræsenterer den grundlæggende gruppering for projekttransaktioner og er ikke virksomheds- eller transaktionstypespecifikke. Contoso Robotics bruger f.eks. design-, rejse-, installations- og servicetransaktionskategorier til at gruppere projekttransaktioner.
+Transaktionskategorier repræsenterer den grundlæggende gruppering for projekttransaktioner og er ikke virksomheds- eller transaktionstypespecifikke. Contoso Robotics anvender f.eks. kategorierne Design, Rejser, Installation og Servicetransaktion til at gruppere projekttransaktioner.
 
 Transaktionskategorier defineres i Project Operations-modulet. 
 1. Gå til **Indstillinger** \> **Transaktionskategorier** for at åbne formularen. 
@@ -37,7 +35,7 @@ Transaktionskategorier defineres i Project Operations-modulet.
 
 ## <a name="shared-categories"></a>Delte kategorier
 
-I Dynamics 365 bruges begrebet Delte kategorier til at kategorisere udgifter i forskellige programmer, f.eks Dynamics 365 Finance, Dynamics 365 Supply Chain og Dynamics 365 Project Operations. For hver oprettet transaktionskategori opretter Project Operations automatisk fire relaterede delte kategorier: timer, udgifter, gebyrer og varer. Du kan gennemse og justere de delte kategorier ved at gå til **Projektstyring og regnskab** \> **Opsætning** \> **Kategorier** \> **Delte kategorier**.
+Dynamics 365 bruger begrebet Delte kategorier til at kategorisere udgifter i forskellige programmer, f.eks. Dynamics 365 Finance, Dynamics 365 Supply Chain og Dynamics 365 Project Operations. For hver oprettet transaktionskategori opretter Project Operations automatisk fire relaterede delte kategorier: timer, udgifter, gebyrer og varer. Du kan gennemse og justere de delte kategorier ved at gå til **Projektstyring og regnskab** \> **Opsætning** \> **Kategorier** \> **Delte kategorier**.
 
 ## <a name="project-categories"></a>Projektkategorier
 
@@ -53,3 +51,6 @@ Projektkategorier repræsenterer det mest detaljerede niveau for kategorikonfigu
 Kategorigrupper bruges til at dele egenskaber, primært posteringsprofiler, mellem relaterede projektkategorier. Der skal være mindst én kategorigruppe for hver enkelt transaktionstype, og hver enkelt projektkategori tildeles en gruppe.
 
 Bogføringsspecifikationerne i Project Operations er defineret i reglerne for projektomkostnings- og indtægtsprofil, projektkategorier og kategorigrupper. Du kan oprette kategorigrupper ved at gå til **Projektstyring og regnskab** \> **Opsætning** \> **Kategorier** \> **Kategorigrupper**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

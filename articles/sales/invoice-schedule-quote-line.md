@@ -2,18 +2,16 @@
 title: Fakturaplaner for projektbaserede tilbudslinjer
 description: Dette emne indeholder oplysninger om oprettelse af fakturaplaner og milepæle for tilbudslinjer.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180815"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988599"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Fakturaplaner for projektbaserede tilbudslinjer
 
@@ -68,3 +66,6 @@ Der kan også oprettes milepæle for fast pris manuelt, når de ikke er periodis
 | Fakturastatus | Hurtig oprettelse | Når der oprettes en milepæl, angives denne status altid til **Ikke klar til fakturering**. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
 | Linjebeløb | Hurtig oprettelse | Beløb eller værdi for den milepæl, der vil blive faktureret kunden. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
 | Moms | Hurtig oprettelse | Momsbeløb, der vil blive anvendt på milepælen. | Dette overføres til milepælen på projektkontraktlinjen og til fakturaen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
