@@ -2,22 +2,22 @@
 title: Naviger i Project Operations
 description: Dette emne indeholder oplysninger om, hvordan du får adgang til Project Operations fra Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
-ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4174258"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994584"
 ---
 # <a name="navigate-project-operations"></a>Naviger i Project Operations
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Operations for ressource/ikke-lagerførte scenarier består af to komponenter: 
 
@@ -28,11 +28,14 @@ Når du har klargjort Project Operations som beskrevet i dette emne, giver siden
 
 Brug miljønavnet i sektionen **Common Data Service-miljønavn** til at navigere til Project Operations på et CDS-miljø. 
 
-  ![Common Data Service-miljønavn](./media/environment-name.PNG)
+  ![Navn på Common Data Service-miljø.](./media/environment-name.PNG)
 
 Vælg **Login** > **Log på miljø** for at navigere til modulet **Projektstyring og regnskab** i Finance.  
 
-   ![Log på Finance](./media/environment-login.PNG)
+   ![Log på Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Du kan få adgang til Project Operations i Common Data Service og modulet **Projektstyring og regnskab** direkte ved hjælp af deres respektive URL-adresser. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

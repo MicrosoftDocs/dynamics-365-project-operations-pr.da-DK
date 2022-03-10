@@ -2,11 +2,9 @@
 title: Konfigurer arbejdsprocesser for udgiftsstyring
 description: Du kan konfigurere en arbejdsproces til at gennemse og godkende dokumenter for rejser og udgifter.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074326"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001244"
 ---
 # <a name="set-up-expense-management-workflows"></a>Konfigurer arbejdsprocesser for udgiftsstyring
-
-[!include [banner](../includes/banner.md)]
 
 Du kan konfigurere en arbejdsproces, der bruges til at gennemse og godkende dokumenter for rejser og udgifter. Du kan definere arbejdsprocesser for dokumenter såsom udgiftsrapporter, rejserekvisitioner og anmodninger om kontantforskud.
 
@@ -52,3 +48,6 @@ I følgende tabel vises de arbejdsprocestyper, som du kan oprette i **Udgift**.
 |      <strong>Anmodning om kontantforskud</strong>      |         Opret godkendelsesarbejdsprocesser for anmodninger om kontantforskud.          |
 |        <strong>Moms- og skatteinddrivelse</strong>        | Opret godkendelsesarbejdsprocesser for inddrivelse af moms.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

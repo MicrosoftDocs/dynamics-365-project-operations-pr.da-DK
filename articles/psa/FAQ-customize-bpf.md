@@ -1,8 +1,6 @@
 ---
 title: Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
 description: En oversigt over, hvordan jeg kan tilpasse forretningsprocesforløbet Projektfaser.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0f95677c56b745bf7900ad503596c93f1e722281
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286151"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002954"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
 
@@ -62,11 +60,11 @@ Hvis du ikke vil opgradere, kan du tilpasse forretningsprocesforløbet Projektfa
 1. Føj flere faser til standardkonfigurationen, samtidig med at du bevarer de engelske fasenavne for **Quote**, **Plan** og **Close**.
 
 
-![Skærmbillede af tilføjelse af faser til standardkonfiguration](media/FAQ-Customize-BPF-1.png)
+![Skærmbillede af tilføjelse af faser til standardkonfiguration.](media/FAQ-Customize-BPF-1.png)
  
 2. Opret dit eget forretningsprocesforløb, og gør det til det primære forretningsprocesforløb for projektobjektet, hvor du kan bruge de ønskede fasenavne. Men hvis du vil bruge de samme standardprojektfaser **Quote**, **Plan** og **Close**, skal du udføre nogle tilpasninger, der er baseret på dine brugerdefinerede fasenavne. Den mere komplekse logik er i den afsluttende del af projektet, som du kan stadig udløse ved blot at deaktivere projektposten.
 
-![BPF-tilpasning](media/FAQ-Customize-BPF-2.png)
+![BPF-tilpasning.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Yderligere info om appen Project Service version 2.4.4.30 eller tidligere på platform 9.0
 
@@ -82,11 +80,11 @@ Du kan oprette dit eget forretningsprocesforløb for projektobjektet ved at gør
 
 1. Gå til **Indstillinger** > **Procescenter**. Undlad at kopiere forretningsprocesforløbet Projektfaser, fordi det også kopierer virksomhedslogikken i Project Service.
 
-  ![Opret proces](media/FAQ-Customize-BPF-3.png)
+  ![Opret proces.](media/FAQ-Customize-BPF-3.png)
 
 2. Brug procesdesigneren til at oprette de ønskede fasenavne. Hvis du vil bruge de samme funktioner som til standardfaserne for **Quote**, **Plan** og **Close**, skal du oprette dem baseret på fasenavnene i dit brugerdefinerede forretningsprocesforløb.
 
-   ![Skærmbillede af procesdesigner, der bruges til at tilpasse BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Skærmbillede af procesdesigner, der bruges til at tilpasse BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. I procesdesigneren skal du klikke på **Ordreprocesforløb** for at gøre forretningsprocesforløbet til det primære forretningsprocesforløb for projektobjektet ved at flytte det op øverst på listen over forretningsprocesforløbet Projektfaser.
 
@@ -97,15 +95,15 @@ Du kan oprette dit eget forretningsprocesforløb for projektobjektet ved at gør
 
 4. Føj et nyt brugerdefineret felt til projektobjektet for at hente de brugerdefinerede faser i dit brugerdefinerede forretningsprocesforløb. Du skal tilføje forretningslogik (plug-in/arbejdsproces) for at opdatere dette felt, når fasen i det brugerdefinerede forretningsprocesforløb opdateres.
 
-   ![Skærmbillede af tilpasning af projektobjektet](media/FAQ-Customize-BPF-6-720.png)
+   ![Skærmbillede af tilpasning af projektobjekt.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Rediger diagrammet **Projekt efter fase** for at bruge det nye brugerdefinerede felt for faser.
 
-   ![Skærmbillede af brug af diagrammet Projekt efter fase](media/FAQ-Customize-BPF-7-720.png)
+   ![Skærmbillede af brug af diagrammet Projekt efter fase.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Rediger visninger for projektobjekt, så de medtager det nye brugerdefinerede felt for faser.
 
-   ![Skærmbillede af ændring af visninger i projektobjektet](media/FAQ-Customize-BPF-8-720.png)
+   ![Skærmbillede af ændring af visninger i projektobjektet.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

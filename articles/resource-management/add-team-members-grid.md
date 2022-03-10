@@ -2,24 +2,22 @@
 title: Tilføj teammedlemmer fra teammedlemsgitteret
 description: Dette emne indeholder oplysninger om, hvordan du kan administrere teammedlemsressourcer.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074050"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008399"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Tilføj teammedlemmer fra teammedlemsgitteret
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations indeholder et Resource manager-dashboard, der giver en visuel oversigt over ressourcebehov og tidsforbrug i hele organisationen. Du kan bruge diagrammerne på dette dashboard til at få vist følgende oplysninger:
+Dynamics 365 Project Operations indeholder et dashboard for Resource Manager, der giver en visuel oversigt over ressourcebehov og tidsforbrug i hele organisationen. Du kan bruge diagrammerne på dette dashboard til at få vist følgende oplysninger:
 
 - **Ressourcekrav**: Diagrammet **Aktive anmodninger om ressourcer** viser de ressourcer, der er sendt. Ressourcerne samles efter enten rolle eller projekt.
 - **Ikke sendt ressourcekrav**: Diagrammet **Ikke-tildelt ressourcekrav** viser alle de ressourcekrav, der ikke er blevet sendt. Dette diagram hjælper ressourceadministratoren med at vise de krav, der ikke er faste, og som muligvis kan sendes via en anmodning om ressourcer.
@@ -200,3 +198,6 @@ Når du får vist tiden på højere niveauer, har fanen **Afstemning** en indika
 Hvis du har opgavetildelinger for en ressource men ingen reservationer, skal du i formularen **Projekter** på fanen **Afstemning** vælge den manglende reservation og derefter vælge **Forlæng reservation**. Dialogboksen **Udvid reservation** vises og angiver den reservation, der skal bruges for at løse manglen på ressource. Dialogboksen viser også ressourcens eksisterende reservationer på tværs af alle projekter eller andre objekter, der kan planlægges. Hvis du vælger **OK** for at oprette reservationen for ressourcen, uanset den pågældende ressources tilgængelighed, kan det medføre overreservation.
 
 Projektlederen eller ressourceadministratoren kan derefter bruge planlægningsområdet til at administrere de situationer, hvor en ressource overreserveres i forhold til dens kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

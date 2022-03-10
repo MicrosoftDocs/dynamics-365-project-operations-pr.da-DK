@@ -2,18 +2,17 @@
 title: Oversigt over tidsforbrug for ressource
 description: Dette emne indeholder oplysninger om ressourceforbrug i Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401369"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002054"
 ---
 # <a name="resource-utilization-overview"></a>Oversigt over tidsforbrug for ressource
 
@@ -45,3 +44,6 @@ Derudover skal der tildeles en standardrolle til hver af de pågældende reserve
 På fanen **Project Service** kan du også angive en individuel mål-tidsforbrug for ressourcen. I beregningen af tidsforbruget bruger derefter denne mål-tidsforbrug til at evaluere ressourcens mål i stedet for målet for ressourcens standardrolle.
 
 Tidsforbrug vises kun for en ressource, hvis den pågældende ressource har godkendt fakturerbar tid i løbet af den periode, der vises i gitteret.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

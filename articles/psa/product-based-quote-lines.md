@@ -2,8 +2,6 @@
 title: Produktbaserede tilbudslinjer.
 description: Dette emne indeholder oplysninger om produktbaserede tilbudslinjer.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde88f5f2d00c09129c6a9363c09f6f6ad1dd90
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284081"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008579"
 ---
 # <a name="product-based-quote-lines"></a>Produktbaserede tilbudslinjer.
 
@@ -60,7 +58,7 @@ Hvis du angiver dette felt til **Tilsidesæt prisfastsættelse**, angives der ik
 
 Når du har installeret PSA, angives standardsalgspriserne på de produktbaserede linjer i et tilbud. Feltet **Prisfastsættelse** indstilles derefter til **Tilsidesæt prisfastsættelse**, så du kan redigere standardprisen i tilbudslinjerne.
 
-> ![Indstilling af tilsidesæt prisfastsættelse](media/basic-guide-10.png)
+> ![Indstilling af tilsidesæt prisfastsættelse.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Mængdefaktorer for produkter
 
@@ -80,7 +78,7 @@ Dynamics 365 kan f.eks. have følgende egenskaber:
 
 Egenskaberne **Antal brugere** og **Antal måneder** kan mærkes som mængdefaktorer ved at redigere egenskaberne for produktlinjen. 
 
-> ![Mærkning af Antal brugere og Antal måneder som kvalitetsfaktorer](media/basic-guide-11.png)
+> ![Mærkning af Antal brugere og Antal måneder som kvalitetsfaktorer.](media/basic-guide-11.png)
  
 
 

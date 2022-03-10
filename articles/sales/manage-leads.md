@@ -2,18 +2,16 @@
 title: Administrer kundeemner
 description: Dette emne indeholder oplysninger om styring af projektbaserede kundeemner.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 2ac6d03e8e070b62a2ffe689cccfc19bad1ee2bdc88dd65902f663b2d19ba655
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513827"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008174"
 ---
 # <a name="manage-leads"></a>Administrer kundeemner
 
@@ -55,7 +53,7 @@ De kundeemner, der har værdien **Type** angivet til **Arbejdsbaseret**, kaldes 
 - En kontaktpersonpost, der er knyttet til firmaet, baseret på værdierne i felterne **Fornavn** og **Efternavn** for kundeemnet.
 - En projektbaseret salgsmulighed, der har feltet **Type** angivet til **Arbejdsbaseret**.
 
-Du kan finde mere detaljerede oplysninger om kvalificering af kundeemner i [Kvalificer eller konverter kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Du kan finde mere detaljerede oplysninger om kvalificering af kundeemner i [Kvalificer eller konverter kundeemner](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kvalificering af kundeemne og juridiske enhedsoplysninger 
 
@@ -80,3 +78,6 @@ Forretningsprocessen for kundeemne til salgsmuligheder understøtter følgende f
 | Opstil tilbud | Salgsmulighed | Udarbejd salgsmuligheden for at tilføje flere oplysninger om det involverede arbejde, interessenter og konkurrenter. |
 | Afgiv tilbud | Salgsmulighed | Udarbejd forslaget, og få godkendelse fra det interne vurderingsteam. |
 | Luk | Salgsmulighed | Vind salgsmuligheden for lukke handlen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

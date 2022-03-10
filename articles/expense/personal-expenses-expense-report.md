@@ -2,19 +2,17 @@
 title: Arbejd med personlige udgifter i en udgiftsrapport
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med personlige udgifter, som medarbejdere afholder sig, mens de rejser i erhvervsmæssige øjemed.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727940"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993144"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Arbejd med personlige udgifter i en udgiftsrapport
 
@@ -28,3 +26,15 @@ Der er to metoder, som du kan bruge til at arbejde med en medarbejders personlig
   - **Betalt af virksomhed**: Din organisation betaler den fulde faktura for firmakreditkortet og debiterer derefter arbejderens konto for de personlige udgifter.
 
 Du kan vælge den metode, som din organisation bruger, på siden **Parametre for udgiftsstyring**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Aktivér funktionen til opdeling af udgifter, når der er defineret en værdi i et personligt beløbsfelt
+
+Funktionen **Aktivér omkostningsfordeling, når der er defineret en værdi i et personligt beløbsfelt** gælder kun for udgiftsrapporter, der er godkendt ved hjælp af en arbejdsproces på linjeniveau. Rapporter godkendes ved at gå til **Behandl udgiftsrapporter** > **Udgiftsrapporter, der er tildelt til mig** > **Åbn udgiftsrapport**. 
+
+Hvis du vil aktivere denne funktion, skal du gå til **Arbejdsområder** > **Funktionsadministration**, vælge **Aktiver funktionen til opdeling af udgifter, når der er defineret en værdi i et personligt beløbsfelt**, og vælg derefter **Aktivér nu**. 
+
+Når funktionen er aktiveret, opretter de udgiftslinjer, der bruger denne funktion, to linjer, når rapporten indsendes. Der oprettes to linjer, så godkenderen kan godkende hver linje separat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

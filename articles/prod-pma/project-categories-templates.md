@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999844"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001109"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synkroniser projekters udgiftskategorier mellem Finance and Operations og Project Service Automation
 
@@ -56,7 +56,7 @@ Hvis projekters udgiftskategorier er håndteret i Project Service Automation, fo
 
 I følgende illustration vises, hvordan dataene synkroniseres mellem Project Service Automation og Finance.
 
-[![Dataflow til integration af Project Service Automation med Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Dataflow til integration af Project Service Automation med Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Synkronisering af projekters udgiftskategorier mellem Finance og Project Service Automation
 
@@ -93,7 +93,7 @@ Når du synkroniserer med Project Service Automation, skal du bruge Microsoft Po
 
 I følgende illustration vises et eksempel på tilknytningen mellem skabelonopgaver i dataintegration. I tilknytningen vises de feltoplysninger, der synkroniseres fra Finance til Project Service Automation.
 
-[![Skabelontilknytning af projekters udgiftskategorier til Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Tilknytning af skabelon for projektudgiftskategorier til Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Synkronisering af projekters udgiftskategorier fra Project Service Automation til Finance
 
@@ -121,7 +121,7 @@ I følgende illustration vises et eksempel på tilknytningen mellem skabelonopga
 > [!NOTE]
 > I tilknytningen vises de feltoplysninger, der synkroniseres fra Project Service Automation til Finance.
 
-[![Skabelontilknytning for Project Service Automation til Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Tilknytning af skabelon for Project Service Automation til Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

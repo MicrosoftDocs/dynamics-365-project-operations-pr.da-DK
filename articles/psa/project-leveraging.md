@@ -2,8 +2,6 @@
 title: Salgsestimater og projekter
 description: Dette emne indeholder oplysninger om, hvordan du kan udnytte planlægning og estimater i salgsprocessen.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995169"
 ---
 # <a name="sales-estimates-and-projects"></a>Salgsestimater og projekter
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,11 +35,11 @@ Under salgsprocessen kan du oprette salgsestimater ved at knytte et projekt til 
 
 Når du opretter en projektbaseret tilbudslinje, kan du oprette et nyt projekt eller tilknytte et eksisterende projekt på siden **Tilbudslinje**. 
 
-> ![Tilbudslinjeformular](media/project-8.png)
+> ![Tilbudslinjeformular.](media/project-8.png)
  
 Når du opretter et nyt projekt ud fra oplysningerne i tilbudslinjen, kan du drage fordel af projektskabeloner. Projektskabeloner er modelprojekter, der repræsenterer standardprojektplaner og økonomiske estimater, som er typiske i en organisation. De kan også repræsentere kopier af projektplaner og estimater fra tidligere projekter.
 
-> ![Tilbudslinjedetaljer](media/project-9.png)
+> ![Tilbudslinjedetaljer.](media/project-9.png)
   
 Når du opretter projektet fra tilbuddet, knyttes det automatisk til tilbudslinjen.
 
@@ -52,3 +52,6 @@ Du kan definere en arbejdsindsats og planlægge estimater ved hjælp af felterne
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Import af estimater fra et projekt til et tilbud
 
 Når du har defineret projektestimater, kan du importere dem til tilbudslinjen. På siden **Tilbudslinjedetaljer** skal du vælge **Import fra estimater** på båndet for at opsummere projektestimater efter transaktionstype, rolle eller opgaveniveau.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Planlægningstilstande
 description: Dette emne indeholder oplysninger om planlægningstilstande.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981428"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987744"
 ---
 # <a name="scheduling-modes"></a>Planlægningstilstande
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations giver organisationer muligheden for at definere,
 Der findes tre planlægningstilstande i Project Operations:
 
   - Fast varighed (dette er standardtilstanden)
-  - Fast arbejde
+  - Fast indsats (*Arbejde*)
   - Faste enheder
 
 De værdier, der påvirkes af definitionen af en bestemt planlægningstilstand, bestemmes af følgende formel:
 
-  Indsats (*Arbejde*) = Varighed x Enheder
+  Indsats = Varighed x Enheder
 
 Når du definerer et projekts planlægningstilstand, angiver du en af disse værdier, som derefter ikke kan ændres. Fastholdelse af værdi som en konstant medfører, at den værdi skal prioriteres, hvilket giver systemet besked om, at den ikke skal ændres, når de to andre værdier ændres. Følgende tabel indeholder oplysninger om, hvordan det påvirker valget af en bestemt tilstand.
 

@@ -2,10 +2,9 @@
 title: Hvad er Dynamics 365 Project Service Automation?
 description: Introduktion til og oversigt over Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150526"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000254"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Hvad er Dynamics 365 Project Service Automation?
 
@@ -47,10 +46,10 @@ Ud over at hjælpe dig med at overvåge og kontrollere omkostninger for dit proj
 ## <a name="whats-new-in-psa"></a>Nyheder i PSA
 Vi er glade for i teamet at kunne fortælle om vores nyeste opdateringer! De spænder vidt lige fra forbedringer af brugergrænsefladen og fejlrettelser til tilføjelse af vigtige nye funktioner og muligheder. Du har stillet forslag, og vi har lyttet.
 
-Du kan se vores nyeste forbedringer og tilføjelser under [Produktbemærkninger fra oktober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index).
+Du kan se vores nyeste forbedringer og tilføjelser under [Produktbemærkninger fra oktober 2019](/dynamics365-release-plan/2019wave2/index).
 
 ### <a name="in-development"></a>Under udvikling
-Hvis du vil se, hvad, vi har planlagt for den nærmeste fremtid, kan du se [Dynamics 365: 2020-frigivelsesbølge, plan 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Hvis du vil se, hvad, vi har planlagt for den nærmeste fremtid, kan du se [Dynamics 365: 2020-frigivelsesbølge, plan 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Få hjælp til PSA-version 3.x
 Søger du efter ressourcer, der kan hjælpe dig med at planlægge implementeringen? Se disse retningslinjer, som du kan downloade.
@@ -80,9 +79,12 @@ Søger du efter ressourcer, der kan hjælpe dig med at planlægge implementering
 
  [Hvidbøger (appversion 2.x eller 1.x)](../psa/white-papers.md)
 
- [Noter til udviklere (appversion 2. x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Noter til udviklere (appversion 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Se en oversigtsvideo på 2 minutter
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

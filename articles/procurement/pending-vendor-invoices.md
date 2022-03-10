@@ -2,19 +2,17 @@
 title: Køb ikke-lagerførte materialer ved hjælp af en afventende leverandørfaktura
 description: I dette emne forklares det, hvordan afventende leverandørfakturaer registreres.
 author: sigitac
-manager: tfehr
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a706f419443dcdf92ce3b247d719943272907d0
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880632"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547282"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Køb ikke-lagerførte materialer ved hjælp af en afventende leverandørfaktura
 
@@ -22,7 +20,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 Når en virksomhed anskaffer ikke-lagerførte materialer til et projekt, kan omkostningerne straks registreres i forhold til projektet. 
 
-Som eksempel kan nævnes Contoso Robotics US, der udfører et udstyrsfornyelsesprojekt og har brug for softwarelicenser. Disse licenser indkøbes fra en tredjepartsleverandør.  Ved hjælp af Dynamics 365 Finance kan kreditormedarbejderen registrere et afventende fakturadokument for leverandøren, og tildele licensomkostningerne direkte på udstyrsfornyelsesprojektet. 
+Contoso Robotics USA er f.eks. i gang med at udføre et projekt til fornyelse af udstyr, og der skal bruges softwarelicenser. Disse licenser indkøbes fra en tredjepartsleverandør.  Ved hjælp af Dynamics 365 Finance kan kreditormedarbejderen registrere et afventende fakturadokument for leverandøren, og tildele licensomkostningerne direkte på udstyrsfornyelsesprojektet. 
 
 > [!IMPORTANT]
 > Før du bruger den funktion, der er beskrevet i dette emne, skal du gennemse og anvende de påkrævede konfigurationer. Du kan finde flere oplysninger i [Aktiver ikke-lagerførte materialer og afventende leverandørfakturaer](configure-materials-nonstocked.md). 
@@ -47,4 +45,5 @@ Afventende leverandørfakturaer kan registreres på siden **Afventende leverand�
     - Leverandørens saldobeløb.
     - Momsbeløbet.
     - Omkostningen i forhold til projektet registreres for indkøbsintegrationskontoen.
-    - Den faktiske projekttransaktion i Dataverse. Transaktionen behandles yderligere ved hjælp af [Integrationskladden til Project Operations](../project-accounting/project-operations-integration-journal.md). Når du bogfører denne kladde, flyttes beløbet fra indkøbsintegrationskontoen til projektomkostningskontoen.
+    - Projekttransaktionen med faktiske omkostninger i Dataverse.  Transaktionen behandles yderligere ved hjælp af [Integrationskladden til Project Operations](../project-accounting/project-operations-integration-journal.md). Når du bogfører denne kladde, flyttes beløbet fra indkøbsintegrationskontoen til projektomkostningskontoen. 
+    - Køb, der faktureres til projektkunden ved hjælp af tids- og materialefaktureringsmetoden. Derudover oprettes der ikke-fakturerede salgstransaktioner for indkøbene i Dataverse. Produktprislisten i Dataverse bruges til salgspriser og beløb for ikke-faktureret salgstransaktion.

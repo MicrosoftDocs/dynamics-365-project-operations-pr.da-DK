@@ -2,18 +2,16 @@
 title: Administrer efterslæbet af projektfakturering
 description: Dette emne indeholder oplysninger om de forskellige visninger, der kan bruges, når du administrerer faktureringsloggen på projekter.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988284"
 ---
 # <a name="manage-project-billing-backlog"></a>Administrer efterslæbet af projektfakturering 
 

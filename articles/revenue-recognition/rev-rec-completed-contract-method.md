@@ -2,18 +2,16 @@
 title: Administrer omsætningsestimater
 description: Dette emne indeholder oplysninger om, hvordan du arbejder med omsætningsestimater for projekter.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531393"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996519"
 ---
 # <a name="manage-revenue-estimates"></a>Administrer omsætningsestimater
 
@@ -90,3 +88,6 @@ I estimatetet ændres statussen til **Elimineret**.
 Brug denne side til at tilbageføre alle elimineringer med en bestemt estimatdato og med estimatstatussen **Elimineret**. Transaktionsstatussen ændres, når du har valgt de relevante felter.
 
 Derved ændres projektstatus også automatisk til **Igangværende**, hvis projektstadiet er angivet til afsluttet. Estimatstatus for projektperioden ændres tilbage til **Bogført**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Annullere tidligere godkendte tids- og udgiftsposter
 description: Dette emne indeholder oplysninger om, hvordan du kan annullere en godkendt projekttids- og udgiftstransaktion.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 40ac37c1070e1c4da01e96bbc4248977b2b6d284
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290847"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987429"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Annullere tidligere godkendte tids- eller udgiftsposter
 

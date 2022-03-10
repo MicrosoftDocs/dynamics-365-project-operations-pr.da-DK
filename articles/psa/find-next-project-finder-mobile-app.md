@@ -2,8 +2,6 @@
 title: Find dit næste projekt med Project Finder Mobile-appen
 description: Sådan finder du dit næste projekt med Project Finder Mobile-appen til Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5823ba6d17aea01f04b7b53eb02c886fff058730
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132644"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990760"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Find dit næste projekt med Project Finder Mobile-appen (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -38,12 +38,15 @@ Med Project Finder Mobile-appen på din [!INCLUDE[tn_iphone](../includes/tn-ipho
   
  Tryk på pilen til højre for det projekt, du er interesseret i, for at se flere detaljer og tilmelde dig.  
   
- ![Liste over projekter, der svarer til færdigheder i Project Finder-mobilappen](../psa/media/project-service-project-finder-list.png "Liste over projekter, der svarer til færdigheder i Project Finder-mobilappen")  
+ ![Liste over projekter, der svarer til færdigheder i Project Finder Mobile-appen.](../psa/media/project-service-project-finder-list.png "Liste over projekter, der svarer til færdigheder i Project Finder-mobilappen")  
   
 ## <a name="update-your-skills"></a>Opdater dine kompetencer  
  Tryk på profilknappen nederst til højre på skærmen for at opdatere dine færdigheder og kompetencer.  
   
- ![Knappen Profil Project Finder-mobilappen](../psa/media/project-service-project-finder-profile.png "Knappen Profil Project Finder-mobilappen")  
+ ![Knappen Profil i Project Finder Mobile-appen.](../psa/media/project-service-project-finder-profile.png "Knappen Profil Project Finder-mobilappen")  
   
 ### <a name="see-also"></a>Se også  
  [Tids-, udgifts- og samarbejdsvejledning](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

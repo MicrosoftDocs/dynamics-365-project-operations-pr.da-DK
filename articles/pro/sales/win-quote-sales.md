@@ -2,40 +2,42 @@
 title: Luk et tilbud - lille
 description: Dette emne indeholder oplysninger om, hvordan du lukker et tilbud i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ad206232d616cdbdc83e2a17b9177cfb98ffda9
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8ae5e14220ffecab5bcfa016d8d18e6ccfbc5b04be9a4e66cee26f8885125d31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175704"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994314"
 ---
 # <a name="close-a-quote---lite"></a>Luk et tilbud - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Et projekttilbud kan lukkes som vundet eller tabt. Operationerne Aktivér og Revider på tilbud understøttes ikke i Microsoft Dynamics 365 Project Operations, hvorfor et tilbud i kladdeform kan lukkes.
+Et projekttilbud kan lukkes som vundet eller tabt. Et kladdetilbud kan lukkes, fordi handlingerne Aktivér og Revider på tilbud ikke understøttes i Microsoft Dynamics 365 Project Operations.
 
 ## <a name="close-a-quote-as-won"></a>Luk et tilbud som vundet
 
-Hvis du lukker et projekttilbud som vundet, lukkes tilbuddet med statussen Lukket, og statusårsagen angives til Vundet. Når du lukker tilbuddet, skrivebeskyttes projektilbuddene, og der oprettes en kladde med et udkast til projektkontrakt med tilbudsoplysningerne. Da et lukket tilbud ikke kan genåbnes, vises der en bekræftelsesdialogboks i dialogboksen, før ændringerne er foretaget, da et lukket tilbud ikke kan åbnes igen, og ændringerne ikke kan fortrydes.
+Når du lukker et projekttilbud som Vundet, angives status til Lukket, og statusårsagen er Vundet. Når du lukker tilbuddet, skrivebeskyttes projektilbuddene, og der oprettes en kladde med et udkast til projektkontrakt med tilbudsoplysningerne. Da et lukket tilbud ikke kan åbnes igen, bekræfter en bekræftelsesdialog dine ændringer.
 
 Hvis tilbuddet er knyttet til en salgsmulighed, lukkes eventuelle andre projekttilbud på salgsmuligheden automatisk som tabt.
 
 ### <a name="financial-impact-of-closing-a-quote-as-won"></a>Økonomiske konsekvenser af at lukke et tilbud som vundet
 
-Hvis der har været faktiske oplysninger for den tid, der er registreret på et projekt, mens det stadig er knyttet til et kladdetilbud, registreres kun omkostningerne for tiden eller udgiften. Når et tilbud er lukket som vundet, vil programmet omstrukturere omkostningerne ved at tilbageføre de gamle faktiske omkostninger og oprette nye faktiske omkostninger. Programmet behandler de faktiske omkostninger baseret på faktureringsmetoden for den tilknyttede projektkontraktlinje. Hvis de faktiske omkostninger refererer til en tids- og materialekontraktlinje, oprettes der automatisk tilsvarende faktiske ikke-fakturerede salg for tidspunktet, hvor tilbuddet blev lukket, og projektkontrakten oprettes i systemet. Hvis der henvises til omkostningerne i forbindelse med en fastpriskontraktlinje, stopper programmet med at genbehandle de faktiske omkostninger på baggrund af reglerne for opdeling af fakturering for projektkontraktkunderne.
+Hvis der er faktiske oplysninger om tid på et projekt, mens der stadig er tilknyttet et kladdetilbud, registreres kun omkostningerne ved tid eller udgifter. Når et tilbud er lukket som vundet, vil programmet omstrukturere omkostningerne ved at tilbageføre de gamle faktiske omkostninger og oprette nye faktiske omkostninger. Programmet behandler de faktiske omkostninger baseret på faktureringsmetoden for den tilknyttede projektkontraktlinje. Hvis de faktiske omkostninger refererer til en tids- og materialekontraktlinje, oprettes der tilsvarende ikke-fakturerede faktiske salgsværdier for, hvornår tilbuddet lukkes, og projektkontrakten oprettes. Hvis de faktiske omkostninger refererer til en fastpriskontraktlinje, stopper programmet med at genbehandle de faktiske omkostninger, der er baseret på de opdelte faktureringsregler for projektkontraktkunderne.
 
 ## <a name="closing-a-quote-as-lost"></a>Lukning af et tilbud som tabt:
 
-Hvis du lukker et projekttilbud som tabt, angives status til Lukket, og statusårsag til Tabt. Hvis du lukker tilbuddet, bliver projekttilbuddet skrivebeskyttet. Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.
+Når du lukker et projekttilbud som Tabt, angives status til Lukket, og statusårsagen er Tabt. Hvis du lukker tilbuddet, bliver projekttilbuddet skrivebeskyttet. Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.
 
-Hvis det projekttilbud, der er lukket som tabt, er et projekt, der refereres til på nogen af sine linjer, er det projekt også markeret som lukket, og eventuelle ressourcereservationer fra den pågældende dag annulleres.
+Hvis det projekttilbud, der er lukket som Tabt, refererer til et projekt på en af dets linjer, markeres projektet også som Lukket. De ressourcereservationer, der er gældende fra den pågældende dag og fremefter, annulleres.
 
 > [!NOTE]
 > Hvis du lukker et tilbud som vundet eller tabt i Project Operations, påvirkes statussen for salgsmuligheden ikke, og den vil være åben, indtil den lukkes manuelt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

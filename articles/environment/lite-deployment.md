@@ -2,18 +2,16 @@
 title: Udrul Project Operations - lille
 description: Dette emne indeholder oplysninger om, hvordan du installerer den lille udrulning af Project Operations - aftale til proformafakturering.
 author: stsporen
-manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991569"
 ---
 # <a name="deploy-project-operations---lite"></a>Udrul Project Operations - lille
 

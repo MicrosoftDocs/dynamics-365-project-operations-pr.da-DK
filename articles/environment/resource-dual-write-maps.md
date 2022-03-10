@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025767"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547102"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioner af Project Operations med dobbeltskrivning
 
@@ -32,7 +32,7 @@ Følgende tilknytninger er nødvendige forudsætninger for løsningen Project Op
 
 1. Markér listet med tilknytninger, vælg tilknytningen for hovedbog **(msdyn\_ledgers)** med alle forudsætninger, og markér afkrydsningsfeltet **Oprindelig synkronisering**. I feltet **Master for oprindelig synkronisering** skal du vælge **Finance and Operations-apps** til både hovedbogstilknytning og alle nødvendige tilknytninger. Vælg **Kør**.
 
-![Synkronisering af tilknytning i hovedbog](media/DW6.png)
+![Synkronisering af tilknytning af hovedbog.](media/DW6.png)
 
 2. Benyt samme fremgangsmåde for alle de resterende tabeltilknytninger, der er angivet i ovenstående tabel. Markér ikke afkrydsningsfeltet **Oprindelig synkronisering**, når du kører disse tilknytninger.
 
@@ -49,8 +49,8 @@ Følgende tilknytninger er nødvendige for en løsning med Project Operations. V
 | Integrationstabellen for materialeestimater i Project Operations (msdyn\_estimerlinjer) | 1.0.0.0 | Kræves ikke til klargøring. |
 | Forslag til projektfakturaer V2 (fakturaer) | 1.0.0.3 | Kræves ikke til klargøring. |
 | Integration af faktiske oplysninger i Project Operations (msdyn_actuals) | 1.0.0.14 | Kræves ikke til klargøring. |
-| Integration af kontraktlinjemilepæle i Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Kræves ikke til klargøring. |
-| Integrationsobjekt for udgiftsestimater i Project Operations (msdyn_estimateslines) | 1.0.0.2 | Kræves ikke til klargøring. |
+| Milepæle for integration af kontraktlinje i Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Kræves ikke til klargøring. |
+| Integrationsobjekt til Project Operations for udgiftsestimater (msdyn_estimatelines) | 1.0.0.2 | Kræves ikke til klargøring. |
 | Integrationsobjekt for timeestimater i Project Operations (msdyn_resourceassignments) | 1.0.0.5 | Kræves ikke til klargøring. |
 | Integrationsobjekt for eksport af projektudgiftskategorier i Project Operations (msdyn_expensecategories) | 1.0.0.1 | Kræves ikke til klargøring. |
 | Integrationsobjekt for eksport af projektudgifter i Project Operations (msdyn_expenses) | 1.0.0.2 | Kræves ikke til klargøring. |
@@ -65,7 +65,7 @@ Udfør følgende trin for at køre de viste tilknytninger.
 
 1. Aktivér projektressourcerollerne for tabeltilknytningen **alle firmaer (bookableresourcecategories)**, da denne tilknytning kræver den første synkronisering. I feltet **Master for indledende synkronisering** skal du vælge **Common Data Service**. 
 
- ![Synkronisering af tilknytning af ressourcerolletabel](media/6ResourceInitialSync.jpg)
+ ![Synkronisering af tilknytning af ressourcerolletabel.](media/6ResourceInitialSync.jpg)
 
  Vent, indtil statussen på tilknytningen er **Kører**, før du går videre til næste trin.
 

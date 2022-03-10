@@ -2,11 +2,9 @@
 title: Administrer projektprislister i et tilbud
 description: Dette emne indeholder oplysninger om objektet Projektprislister.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177189"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003899"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Administrer projektprislister i et tilbud
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations udvider objektet Prisliste i Dynamics 365 Sales. 
+Dynamics 365 Project Operations udvider prislisteobjektet i Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Nøgleobjekter
 
@@ -120,3 +118,6 @@ Ligesom fakturasatser konfigureres omkostningssatser for HR også ved hjælp af 
     1. Den kostprisliste, der er knyttet til afdelingen.
     2. Den kostprisliste, der er knyttet til Project Operations-parametrene. Da kostprislister i mange forskellige valutaer kan knyttes til parametrene, gennemføres der et valutamatch mellem valutaen i kontraktafdelingen for projektet, kontrakten eller tilbuddet og valutaen på kostprislisten .
     3. I forbindelse med udgifter gælder prissætningsmetoderne til kostprisen og avancen ikke for kostprislister. Selvom disse prissætningsmetoder bruges på kostprislistelinjer til at konfigurere omkostninger for transaktionskategorier, ignoreres de i systemet, og der angives ingen standardkostpris.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

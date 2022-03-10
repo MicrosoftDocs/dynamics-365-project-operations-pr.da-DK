@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003018"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005744"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementer brugerdefinerede felter til Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 
@@ -153,13 +153,13 @@ For felter af typen **Dato** overfører denne egenskab datoværdien for feltet m
 
 Nedenfor vises et skærmbillede fra mobilappen til oprettelse af en timeseddelpostering. Den viser standardfelterne og et brugerdefineret felt i sektionen "Tidsregistrering", der kaldes "Teststreng", hvor en enum-værdi på "Anden mulighed" allerede er angivet.
 
-![Brugerdefineret felt til teststreng i appen](media/timesheet-entry.jpg)
+![Brugerdefineret felt for teststreng i appen.](media/timesheet-entry.jpg)
 
 
 
 Nedenfor vises et skærmbillede fra mobilapp'en, hvor brugeren vælger en af de enum-indstillinger, der er tilgængelige for det brugerdefinerede felt "Teststreng".  De to indstillinger er "Første mulighed" og "Anden mulighed", som vises som alternativknapper. Den anden mulighed er valgt i øjeblikket.
 
-![Alternativknapper (alternativknapper) for det brugerdefinerede felt Teststreng](media/enum-option.jpg)
+![Indstillingsknapper (alternativknapper) for det brugerdefinerede felt Teststreng.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Bemærk, at brugerdefinerede felter ikke behøver at have nogen sikkerhedskopi a
 
 Nedenfor vises et skærmbillede fra Visual Studio af applikationsobjekttræet. Den viser en udvidelse af TSTimesheetLine-tabellen med TestLineString-feltet tilføjet som et brugerdefineret felt.
 
-![Linjestreng](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Linjestreng.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Brug en kommandokæde til metoden buildCustomFieldList i klassen TSTimesheetSettings til at få vist et felt i sektionen timeseddelpostering
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Nedenfor vises et skærmbillede fra mobilappen af en bruger, som får vist en timeseddel. Knappen "Flere oplysninger" er valgt i øverste højre hjørne for at få vist indstillingen "Vis flere detaljer".  
 
-![Kommandoen "Se flere detaljer"](media/show-more.png)
+![Kommandoen Vis flere detaljer.](media/show-more.png)
 
 Nedenfor vises et skærmbillede fra mobilappen, som viser sektionen "Mere" i en timeseddel. Der er tilføjet et brugerdefineret felt med navnet "Tidsforbruget for denne timeseddel (beregnet brugerdefineret felt)" til sektionen med timeseddeloverskriften. En skrivebeskyttet værdi på "0,667" angives i det brugerdefinerede felt.
 
-![Sektionen "Mere"](media/more-section.jpg)
+![Sektionen Mere.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Udvide tabellen TSTimesheetTable, så den indeholder et brugerdefineret felt
 
@@ -414,7 +414,7 @@ Eksisterende logik for timeseddelfunktionalitet på databaseniveau fungerer stad
 
 Fra projektparametrene kan du gøre standardfelter skrivebeskyttede eller skjulte i mobilappen. Angiv indstillingerne i sektionen **Mobile timesedler** under fanen **Timeseddel** på siden **Parametre for projektstyring og regnskab**.
 
-![Projektparametre](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projektparametre.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Ændring af de aktiviteter, der er tilgængelige for markering via udvidelser
 

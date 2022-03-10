@@ -2,11 +2,9 @@
 title: Konfigurer projektressourcer
 description: Dette emne indeholder oplysninger om, hvordan du konfigurerer eller anmoder om projektressourcer.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9c8e4373da50999a0cc57f4eab672a98e7cf21edcfa5a5589d87691603a777de
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995709"
 ---
 # <a name="set-up-project-resources"></a>Konfigurer projektressourcer
 

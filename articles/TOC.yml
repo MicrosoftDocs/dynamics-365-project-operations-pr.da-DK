@@ -4,15 +4,21 @@
   items:
     - name: Vælg din udrulningstype
       href: environment/determine-deployment-type.md
+    - name: Tilmeld dig prøveversioner af Project Operations
+      href: environment/admin-trials.md
     - name: Opdateringer til Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Fjernede eller udfasede funktioner
+      items:
+        - name: Fjernede eller udfasede funktioner i Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations for ressource-/ikke-lagerbaserede scenarier
   items:
     - name: Start her
       items:
         - name: Udrulningsoversigt til Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: environment/project-operations-integrated-deployment-overview.md
-        - name: Tilmelding til et prøveversionsabonnement
+        - name: Tilmelding til et forhåndsversionsabonnement
           href: environment/resource-sign-up-preview-subscription.md
         - name: Naviger i Project Operations
           href: environment/navigate-project-operations.md
@@ -52,8 +58,20 @@
               href: environment/resource-dual-write-expense.md
             - name: Integration af leverandørfaktura
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Afinstaller Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
+        - name: December 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: November 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: Oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: August 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Juni 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -250,7 +268,7 @@
           items:
             - name: Opret et arbejdsopgavehierarki
               href: project-management/create-wbs.md
-            - name: Opret tildelinger
+            - name: Oprette tildelinger
               href: project-management/create-assignments.md
         - name: Økonomiske estimater på projekter
           items:
@@ -288,8 +306,12 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
-            - name: Brug projektplanlægnings-API'er (offentlig forhåndsversion)
+            - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
+            - name: Projektplanlægningens API-ydeevne
+              href: project-management/project-schedule-api-performance.md
+            - name: Projektplanlægningslogfiler
+              href: project-management/schedule-api-logs.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -340,7 +362,7 @@
           items:
             - name: Oversigt over ressourceafstemning
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrer tidszoner
+            - name: Administrere tidszoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Tidsforbrug for ressource
           items:
@@ -384,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Konfiguration af kilometertal ved hjælp af niveauer for kilometertal
               href: expense/set-up-mileage.md
+        - name: Udgiftsspecificering
+          href: prod-exp/expense-itemization.md
         - name: Personlige udgifter
           href: expense/personal-expenses-expense-report.md
         - name: Interne udgifter
@@ -418,6 +442,8 @@
       items:
         - name: Godkendelsesoversigt
           href: approvals/approvals-overview.md
+        - name: Godkendelsessæt
+          href: approvals/approval-sets.md
         - name: Bemærkninger til udvikler
           items:
             - name: Udviklers bemærkninger til godkendelser
@@ -438,6 +464,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Indkøb ikke-lagerførte materialer til projekter ved hjælp af afventende leverandørfakturaer
           href: procurement/pending-vendor-invoices.md
+        - name: Bestil ikke-lagermateriale til projekter ved hjælp af projektkøbsordrer
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Tilbageholdelse af leverandører
+          items:
+            - name: Oversigt over tilbageholdelse af leverandører
+              href: procurement/vendor-retention-overview.md
+            - name: Konfigurere leverandørtilbageholdelse
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturering
       items:
         - name: Oversigt over faktureringsprocessen
@@ -504,13 +538,19 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Administrer omsætningsestimater
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Fejlfinding
+      items:
+        - name: Salgsproces for projekt
+          items:
+            - name: 'Fejl i valutauoverensstemmelse ved oprettelse af en projekt-, kontrakt- eller tilbudsressource eller en reserverbar ressource'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Lille udrulning - aftale til proformafakturering
   items:
     - name: Start her
       items:
         - name: Oversigt over lille udrulning
           href: pro/project-operations-overview-lite.md
-        - name: Tilmelding til et prøveversionsabonnement - lille
+        - name: Tilmelding til et forhåndsversionsabonnement - lille
           href: environment/lite-preview-subscription-sign-up.md
         - name: Udrul Project Operations - lille
           href: environment/lite-deployment.md
@@ -520,6 +560,18 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
+        - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheder i december 2021 – lille udrulning
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: Nyheder i november 2021 – lille udrulning
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: Nyheder i oktober 2021 – lille udrulning
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Nyheder i september 2021 – lille udrulning
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: Nyheder i august 2021 – lille udrulning
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Nyheder i juli 2021 – lille udrulning
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Nyheder i juni 2021 – lille udrulning
@@ -736,7 +788,7 @@
           items:
             - name: Opret et arbejdsopgavehierarki
               href: project-management/create-wbs.md
-            - name: Opret tildelinger
+            - name: Oprette tildelinger
               href: project-management/create-assignments.md
         - name: Økonomiske estimater på projekter
           items:
@@ -774,8 +826,10 @@
           items:
             - name: Udarbejd projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
-            - name: Brug projektplanlægnings-API'er (offentlig forhåndsversion)
+            - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
+            - name: Projektplanlægningens API-ydeevne
+              href: project-management/project-schedule-api-performance.md
     - name: Ressourcestyring
       items:
         - name: Nøglekoncepter
@@ -826,12 +880,50 @@
           items:
             - name: Oversigt over ressourceafstemning
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrer tidszoner
+            - name: Administrere tidszoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Tidsforbrug for ressource
           items:
             - name: Oversigt over tidsforbrug for ressource
               href: resource-management/resource-utilization-overview.md
+    - name: Administration af underleverandører i Project Operations
+      items:
+        - name: Administration af underleverandører i Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Underleverandør i oktober 2021 for tidlig adgang
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Nøglekoncepter i underleverandører
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Administrere leverandører og projektprislister
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 'Underleverandører som ressource, de kan reserveres'
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Overskriftsdetaljer for underleverandører
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Underleverandørlinjer for tid
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Underleverandørlinjer for udgiftskategorier
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Underleverandørlinjer for produkter
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressourcer til underleverandørlinjer
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milepæle for underleverandørlinjer
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Medlemmer af underleverandørs projektteam
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Projektteammedlemmers indstillinger for underleverandør
+          href: pro/subcontracting/subcon-options.md
+        - name: Omkostningsestimering af tildelinger af ressourcer fra underleverandør
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurer planlægningsområde for at vise kontraktmedarbejdere og underleverandørkapacitet
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bemanding af et projekt med kontraktmedarbejdere og underleverandørkapacitet
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrering af tid, udgifter og materialeforbrug for komponenter fra underleverandører'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Stillingsskifts tilstand i en underentreprise
+          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Tidsoversigt
@@ -858,6 +950,8 @@
       items:
         - name: Godkendelsesoversigt
           href: approvals/approvals-overview.md
+        - name: Godkendelsessæt
+          href: approvals/approval-sets.md
         - name: Bemærkninger til udvikler
           items:
             - name: Udviklers bemærkninger til godkendelser
@@ -894,6 +988,10 @@
   items:
     - name: Nyheder
       items:
+        - name: Nyheder oktober 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Nyheder september 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Nyheder juli 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Nyheder maj 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
@@ -1014,7 +1112,7 @@
           href: expense/configure-expense-management-parameters.md
         - name: Konfigurer integration af kreditkort
           href: expense/set-up-credit-card-integration.md
-        - name: Konfigurer udgiftskategorier
+        - name: Konfiguration af udgiftskategorier
           href: expense/set-up-expense-categories.md
     - name: Personlige udgifter
       href: expense/personal-expenses-expense-report.md
@@ -1050,6 +1148,18 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 38. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-38.md
+        - name: 'Nyheder eller ændringer i den 37.5. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-37-5.md
+        - name: 'Nyheder eller ændringer i den 37. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-37.md
+        - name: 'Nyheder eller ændringer i den 36. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-36.md
+        - name: 'Nyheder eller ændringer i den 35. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-35.md
+        - name: 'Nyheder eller ændringer i den 34. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-34.md
         - name: 'Nyheder eller ændringer i den 33. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-33.md
         - name: 'Nyheder eller ændringer i den 32.5. opdateringsudgivelse, v3'
@@ -1126,9 +1236,11 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Rapporteringsvejledning
           href: psa/implementation-guides/reporting-guide.md
+    - name: Opgrader fra Project Service Automation til Project Operations – lille
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Opgradering af Project Service Automation (appversion 3.x)
       items:
-        - name: Opgrader Project Service Automation
+        - name: Opgraderings af Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: Overvejelser vedrørende opgradering - version 2.x eller 1.x til version 3
           href: psa/upgrade-v3.md
@@ -1294,11 +1406,11 @@
               href: psa/time-entry-calendar.md
             - name: Brugertilpasning af ugentlige tidsregistreringer
               href: psa/time-entry-extensibility-v3.md
-            - name: Godkendelsessæt
+            - name: Godkendelsessæt i Project Service Automation
               href: psa/approval-set.md
     - name: Ofte stillede spørgsmål og fejlfinding (3.x)
       items:
-        - name: Hvorfor er standardprisen for faktiske omkostningsudgifter nul?
+        - name: Hvorfor er standardindstillingen for prisen for faktiske omkostningsudgifter nul?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Hvorfor anvendes en standardpris på nul for faktiske salgsudgifter?
           href: psa/FAQ-zero-price-expense-sales-actuals.md

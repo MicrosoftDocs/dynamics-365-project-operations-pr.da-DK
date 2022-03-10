@@ -2,26 +2,24 @@
 title: Opsummerende oplysninger i et projekttilbud - lille
 description: Dette emne indeholder oplysninger om de oplysninger og indstillinger, der gælder for og påvirker projekttilbud. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989634"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>Opsummerende oplysninger i et projekttilbud - lille
+# <a name="header-details-for-project-quotes"></a>Overskriftsdetaljer for projekttilbud
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
 Denne artikel indeholder en beskrivelse af de oplysninger, der er relevante for et projekttilbud. Dette omfatter de indstillinger, der påvirker alle tilbudslinjer, og oplysninger om det tilbud, der opsummeres på tværs af alle linjeelementer, til at drive nøgletal i projekttilbuddet.
 
-I følgende tabel vises oversigtsoplysningsfelterne for et projekttilbud, der er entydigt for Dynamics 365 Project Operations, eller som har nogle vigtige ændringer i funktionsmåden i forhold til tilbud i Dynamics 365 Sales.
+I følgende tabel vises opsummeringsfelterne i et projekttilbud der er entydige for Dynamics 365 Project Operations eller har visse vigtige ændringer i funktionsmåden i forhold til tilbud i Dynamics 365 Sales.
 
 | **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
@@ -41,3 +39,6 @@ Nedenfor vises de faner og nøgletal, der er tilgængelige i et projekttilbud, s
 | Rentabilitetsanalyse | Tilbudsfanen | Fanen viser følgende målepunkter:</br>- Samlede fakturerbar omkostninger</br></br>- Samlede ikke-fakturerbare omkostninger</br>- Omsætning i alt</br>- Samlet omsætning (basis)</br>- Bruttoavance</br>- Justeret bruttoavance|
 | Sammenligning med kundernes forventninger | Tilbudsfanen | Denne fane viser følgende målepunkter:</br>- Estimeret fuldførelse</br>- Ønsket fuldførelse</br>- Kundebudget</br>- Værdi i tilbud |
 | Tilbudsanalyse | Tilbudsfanen | Under denne fane opsummeres følgende vigtigste nøgletal for et projekttilbud</br>- Sammenligning med kundernes forventninger til budget og planlægning</br>- Bruttoavance</br>- Justeret bruttoavance |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

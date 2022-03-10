@@ -2,8 +2,6 @@
 title: Tilpas ugentlige tidsregistreringer
 description: Dette emne indeholder oplysninger om, hvordan du implementerer brugerdefinerede forretningsregler, der understøtter praksis i en organisation.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282056"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002279"
 ---
 # <a name="customize-weekly-time-entry"></a>Brugertilpasning af ugentlige tidsregistreringer 
 

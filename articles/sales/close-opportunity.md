@@ -2,18 +2,16 @@
 title: Luk en salgsmulighed
 description: Dette emne indeholder oplysninger om afslutning af en projektsalgsmulighed.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278771"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006374"
 ---
 # <a name="close-an-opportunity"></a>Luk en salgsmulighed
 
@@ -23,7 +21,7 @@ Projektsalgsmuligheder kan lukkes som vundet eller tabt. I dialogboksen **Luk sa
 
 Du kan ikke lukke salgsmuligheden, hvis der er knyttet aktive tilbud til den. Du kan lukke alle aktive tilbud, der er knyttet til en salgsmulighed på samme tid. Du får derefter lov til at lukke salgsmuligheden.
 
-Du kan finde flere generelle oplysninger om afslutning af salgsmuligheder under [Luk salgsmuligheder som vundne eller tabte](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Du kan finde flere generelle oplysninger om afslutning af salgsmuligheder under [Luk salgsmuligheder som vundne eller tabte](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Nyheder december 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
 description: Dette emne indeholder oplysninger om de kvalitetsopdateringer, der er tilgængelige i udgivelsen i december 2020 af Project Operations for lager-/produktionsbaserede scenarier.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950212"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008804"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations december 2020 for lagerbaserede/produktionsbaserede scenarier
 

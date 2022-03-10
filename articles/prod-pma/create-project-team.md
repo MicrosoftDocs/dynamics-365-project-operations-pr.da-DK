@@ -2,11 +2,9 @@
 title: Opret et projektteam
 description: Dette emne indeholder oplysninger om, hvordan du opretter og administrerer projektteams.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074337"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005789"
 ---
 # <a name="create-a-project-team"></a>Opret et projektteam
 
@@ -35,7 +33,7 @@ Visningsindstillinger kan også tilpasses for at give en bedre visning af ressou
 
 Projektlederen kan vælge en rolle på siden og derefter vælge at reservere en ressource til at udfylde rollen, hvis der findes en tilgængelig ressource, der opfylder behovet. Bemærk, at der ikke skal reserveres ressourcer på dette tidspunkt i planlægningsstadiet. Når du opretter en WBS, kan du erstatte roller med personaleressourcer i projektet. Hvis roller erstattes med personaleressourcer i WBS, opdaterer ressourceopsætningen automatisk projektteamets liste og planlægning.
 
-[![Projektteamets liste, som indeholder både roller og faktiske ressourcer](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektteamets liste, som indeholder både roller og faktiske ressourcer.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektlederen har forskellige muligheder for at reservere en ressource til et bestemt projekt, f.eks. **Resterende kapacitet**, **Fuld kapacitet**, **Kapacitetsprocent** og **Angiv timer**. Disse indstillinger for reservation kan når som helst annulleres, hvis ressourcetildelingerne ændres. Der understøttes to typer af reservation:
 
@@ -62,3 +60,6 @@ Følgende procedure forklarer, hvordan du opretter et projektteam.
 ## <a name="monitor-project-teams"></a>Overvåg projektteams
 1. På siden **Alle projekter** skal du vælge linket **Projekt-id** for projektet **XYZ-opgraderingsfase 2**.
 2. På hurtigfanen **Projektteam og planlægning** skal du kontrollere, at de viste projektressourcer er korrekt angivet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

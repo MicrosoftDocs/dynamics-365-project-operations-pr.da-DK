@@ -2,8 +2,6 @@
 title: Tilføje ressourcefærdigheder
 description: Sådan knytter du færdigheder til ressourcer i Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1a11861308f9bda200061880447497fd2c57b32e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 597a2b3ddffae4815092704faa2e17c2e3b6ba0be59bfe73a59a89a4fe506ede
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074146"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995529"
 ---
 # <a name="add-resource-skills-project-service"></a>Tilføje ressourcefærdigheder (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,3 +45,6 @@ Dine kunders projekter kræver uden tvivl en lang række forskellige færdighede
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere ressourcer](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

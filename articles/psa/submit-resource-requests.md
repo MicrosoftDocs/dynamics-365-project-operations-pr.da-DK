@@ -2,8 +2,6 @@
 title: Sende anmodninger om ressourcer
 description: Sådan sender du anmodninger om ressourcer i Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dae9bcddb87324e6614e8663fbfc693c8e994cd3f33839680531cd17269d764b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074264"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000119"
 ---
 # <a name="submit-resource-requests-project-service"></a>Sende anmodninger om ressourcer (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -53,3 +53,6 @@ Når du har vundet en projektkontrakt, skal du til at bemande projektet. Din arb
   
 ### <a name="see-also"></a>Se også  
  [Vejledning til projektledere](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

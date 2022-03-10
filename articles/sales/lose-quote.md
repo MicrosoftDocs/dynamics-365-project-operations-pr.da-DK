@@ -2,18 +2,16 @@
 title: Kopier projektbaserede tilbud
 description: Dette emne indeholder oplysninger om, hvordan du kopierer projektbaserede tilbud i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181805"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992154"
 ---
 # <a name="copy-project-based-quotes"></a>Kopier projektbaserede tilbud
 
@@ -45,3 +43,6 @@ Når du vælger **OK** på dialogsiden, opretter systemet en kopi af projekttilb
 > - Projektreference på de projektbaserede tilbudslinjer – oplysninger om kundebudget
 >
 >Da disse oplysninger er meget specifikke for hvert enkelt tilbud, kopieres disse felter og poster ikke. Tilbudslinjer for projekter og produkter, estimater på tilbudslinjedetaljer og maksimale værdier på tilbudsniveau kopieres. Standardværdierne for pris- og omkostningssats afhænger af den valgte indstilling for **Kopier prisfastsætte** på dialogsiden **Kopier parametre**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
