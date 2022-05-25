@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
+        - name: Maj 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: April 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Marts 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Februar 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: December 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -94,14 +102,16 @@
       items:
         - name: Oversigt over salgsproces for projekt
           href: sales/sales-overview.md
-        - name: Konfigurer
+        - name: Konfiguration
           items:
             - name: Produkter
               href: sales/sales-products.md
-            - name: Undermoduler og enhedsgrupper
+            - name: Enheder og enhedsgrupper
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Afdelinger
+              href: sales/OrgUnits.md
         - name: Administrer projektkundeemner
           href: sales/manage-leads.md
         - name: Administrer salgsmuligheder for projekt
@@ -288,13 +298,11 @@
               href: project-management/project-cost-tracking.md
             - name: Sporing af arbejdsomsætning på projekter
               href: project-management/project-sales-tracking.md
-            - name: Opdatér estimat ved fuldførelse
-              href: project-management/update-completed-estimate.md
-        - name: Projektteamets medlemmer
+        - name: Projektteammedlemmer
           items:
-            - name: Oversigt over projektteamets medlemmer
+            - name: Oversigt over projektteammedlemmer
               href: project-management/project-team-members-overview.md
-            - name: Bevar projektteamets medlemmer
+            - name: Bevar projektteammedlemmer
               href: project-management/maintain-team-members.md
         - name: Lokalisering af fejl i forbindelse med arbejde i opgavegitteret
           href: project-management/projectplanningUIFAQ.md
@@ -304,11 +312,13 @@
               href: project-management/collaboration-groups.md
         - name: Bemærkninger til udvikler
           items:
-            - name: Udarbejd projektskabeloner med Kopier projekt
+            - name: Udvikl projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
             - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
-            - name: Projektplanlægningens API-ydeevne
+            - name: Brug API'er til projektplanlægning med Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
+            - name: API-ydeevne for projektplanlægning
               href: project-management/project-schedule-api-performance.md
             - name: Projektplanlægningslogfiler
               href: project-management/schedule-api-logs.md
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Kontantforskud
           href: expense/cash-advance.md
-        - name: Pr. dag
-          href: expense/per-diems.md
+        - name: Diætudgifter
+          href: expense/per-diem-expenses.md
         - name: Mobilappen for udgifter
           href: expense/expense-using-mobile.md
         - name: Økonomistyring
@@ -444,29 +454,41 @@
           href: approvals/approvals-overview.md
         - name: Godkendelsessæt
           href: approvals/approval-sets.md
+        - name: Annuller godkendelse på tidligere godkendte poster
+          href: approvals/cancelapproval.md
+        - name: Tilbagekald tidligere godkendte poster
+          href: approvals/recall-cancel.md
         - name: Bemærkninger til udvikler
           items:
-            - name: Udviklers bemærkninger til godkendelser
+            - name: Bemærkninger til udvikler vedrørende godkendelser
               href: approvals/dev-notes-approvals.md
-    - name: Faktiske
+    - name: Faktiske værdier
       items:
-        - name: Oversigt over faktiske
+        - name: Forretningstransaktioner i Project Operations
+          href: actuals/businesstransactions.md
+        - name: Oversigt over faktiske værdier
           href: actuals/actuals-overview.md
-        - name: Knyt faktiske poster til oprindelige poster
+        - name: Transaktionsoprindelse – Sammenkæd faktiske værdier med kilde
           href: actuals/linkingactuals.md
-        - name: Rettelseskladder
+        - name: Transaktionsforbindelser – Sammenkæd faktiske værdier for forskellige transaktionstyper
+          href: actuals/connectingactuals.md
+        - name: Kladder
           items:
+            - name: Opret og bekræft posteringskladder
+              href: actuals/create-confirm-entry-journals.md
             - name: Opret og bekræft rettelseskladder
               href: actuals/create-confirm-correction-journals.md
     - name: Indkøb
       items:
         - name: Konfigurer ikke-lagerførte materialer og afventende leverandørfakturaer
           href: procurement/configure-materials-nonstocked.md
-        - name: Indkøb ikke-lagerførte materialer til projekter ved hjælp af afventende leverandørfakturaer
+        - name: Konfigurer indkøbskategorier for projekter
+          href: procurement/configure-procurement-categories.md
+        - name: Indkøb varer og tjenester til projekter ved hjælp af afventende leverandørfakturaer
           href: procurement/pending-vendor-invoices.md
-        - name: Bestil ikke-lagermateriale til projekter ved hjælp af projektkøbsordrer
+        - name: Bestil varer og tjenester til projekter ved hjælp af projektkøbsordrer
           href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Tilbageholdelse af leverandører
+        - name: Leverandørtilbageholdelse
           items:
             - name: Oversigt over tilbageholdelse af leverandører
               href: procurement/vendor-retention-overview.md
@@ -522,7 +544,7 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Kladde til integration i Project Operations
           href: project-accounting/project-operations-integration-journal.md
-    - name: Indtægtsanerkendelse
+    - name: Omsætningsgenkendelse
       items:
         - name: Oversigt over indtægtsanerkendelse
           href: revenue-recognition/revenue-recognition-overview.md
@@ -534,15 +556,27 @@
               href: revenue-recognition/rev-rec-cost-templates.md
         - name: Omsætningsestimat for projekter med fast pris
           href: revenue-recognition/rev-rec-percentage-completion-method.md
-        - name: Metoder til færdiggørelsesomkostninger
+        - name: Metoder til beregning af færdiggørelsesomkostninger
           href: revenue-recognition/cost-complete-methods.md
         - name: Administrer omsætningsestimater
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Avanceret konfiguration
+      items:
+        - name: Overfør fuldt fakturerede faktureringsmilepæle i forbindelse med overflytning
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Opgrader
+      items:
+        - name: Overvejelser om opgradering i forbindelse med moderne godkendelser
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations-apps
+      items:
+        - name: Project Operations Team Member-app
+          href: team-member/project-operations-team-member.md
     - name: Fejlfinding
       items:
         - name: Salgsproces for projekt
           items:
-            - name: 'Fejl i valutauoverensstemmelse ved oprettelse af en projekt-, kontrakt- eller tilbudsressource eller en reserverbar ressource'
+            - name: 'Fejl i valutauoverensstemmelse ved oprettelse af et projekt, en kontrakt, et tilbud eller en reserverbar ressource'
               href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Lille udrulning - aftale til proformafakturering
   items:
@@ -562,6 +596,14 @@
       items:
         - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheder i maj 2022 – lille udrulning
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Nyheder i april 2022 – lille udrulning
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Nyheder i marts 2022 – lille udrulning
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Nyheder i februar 2022 – lille udrulning
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Nyheder i december 2021 – lille udrulning
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Nyheder i november 2021 – lille udrulning
@@ -594,14 +636,16 @@
       items:
         - name: Oversigt over salgsproces for projekt
           href: sales/sales-overview.md
-        - name: Konfigurer
+        - name: Konfiguration
           items:
             - name: Produkter
               href: sales/sales-products.md
-            - name: Undermoduler og enhedsgrupper
+            - name: Enheder og enhedsgrupper
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Afdelinger
+              href: sales/OrgUnits.md
         - name: Administrer projektkundeemner
           href: pro/sales/managing-leads-sales.md
         - name: Administrer salgsmuligheder for projekt
@@ -808,13 +852,11 @@
               href: project-management/project-cost-tracking.md
             - name: Sporing af arbejdsomsætning på projekter
               href: project-management/project-sales-tracking.md
-            - name: Opdatér estimat ved fuldførelse
-              href: project-management/update-completed-estimate.md
-        - name: Projektteamets medlemmer
+        - name: Projektteammedlemmer
           items:
-            - name: Oversigt over projektteamets medlemmer
+            - name: Oversigt over projektteammedlemmer
               href: project-management/project-team-members-overview.md
-            - name: Bevar projektteamets medlemmer
+            - name: Bevar projektteammedlemmer
               href: project-management/maintain-team-members.md
         - name: Lokalisering af fejl i forbindelse med arbejde i opgavegitteret
           href: project-management/projectplanningUIFAQ.md
@@ -824,11 +866,13 @@
               href: project-management/collaboration-groups.md
         - name: Bemærkninger til udvikler
           items:
-            - name: Udarbejd projektskabeloner med Kopier projekt
+            - name: Udvikl projektskabeloner med Kopier projekt
               href: project-management/dev-copy-project.md
             - name: Brug API'er til projektplanlægning
               href: project-management/schedule-api-preview.md
-            - name: Projektplanlægningens API-ydeevne
+            - name: Brug API'er til projektplanlægning med Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
+            - name: API-ydeevne for projektplanlægning
               href: project-management/project-schedule-api-performance.md
     - name: Ressourcestyring
       items:
@@ -886,15 +930,13 @@
           items:
             - name: Oversigt over tidsforbrug for ressource
               href: resource-management/resource-utilization-overview.md
-    - name: Administration af underleverandører i Project Operations
+    - name: Administration af underentrepriser
       items:
-        - name: Administration af underleverandører i Project Operations
+        - name: Administration af underentrepriser i Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Underleverandør i oktober 2021 for tidlig adgang
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Nøglekoncepter i underleverandører
+        - name: Nøglekoncepter i underentrepriser
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Administrere leverandører og projektprislister
+        - name: Administrer leverandører og projektprislister
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 'Underleverandører som ressource, de kan reserveres'
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Stillingsskifts tilstand i en underentreprise
           href: pro/subcontracting/subcon-states.md
+    - name: Projektleverandørfakturaer
+      items:
+        - name: Leverandørfaktura – koncept og oprettelse
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Overskriftoplysninger for leverandørfakturaer
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Leverandørfakturalinjer for tid
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Leverandørfakturalinjer for produkter
+          href: pro/subcontracting/vi-line-material.md
+        - name: Leverandørfakturalinjer for milepæle
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Leverandørfakturalinjer for udgiftskategorier
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Kontrol af leverandørfakturaer med godkendte faktiske værdier
+          href: pro/subcontracting/VI-Verification.md
+        - name: Annullér en projektleverandørfaktura
+          href: pro/subcontracting/cancel-vi.md
+        - name: Bekræft en projektleverandørfaktura
+          href: pro/subcontracting/confirm-vi.md
+        - name: Tilstands stillingsskift på en leverandørfaktura
+          href: pro/subcontracting/vi-state-model.md
     - name: Tid
       items:
         - name: Tidsoversigt
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Godkendelsessæt
           href: approvals/approval-sets.md
+        - name: Annuller godkendelse på tidligere godkendte poster
+          href: approvals/cancelapproval.md
+        - name: Tilbagekald tidligere godkendte poster
+          href: approvals/recall-cancel.md
         - name: Bemærkninger til udvikler
           items:
-            - name: Udviklers bemærkninger til godkendelser
+            - name: Bemærkninger til udvikler vedrørende godkendelser
               href: approvals/dev-notes-approvals.md
-    - name: Faktiske
+    - name: Faktiske værdier
       items:
-        - name: Oversigt over faktiske
+        - name: Forretningstransaktioner i Project Operations
+          href: actuals/businesstransactions.md
+        - name: Oversigt over faktiske værdier
           href: actuals/actuals-overview.md
-        - name: Knyt faktiske poster til oprindelige poster
+        - name: Transaktionsoprindelse – Sammenkæd faktiske værdier med kilde
           href: actuals/linkingactuals.md
-        - name: Rettelseskladder
+        - name: Transaktionsforbindelser – Sammenkæd faktiske værdier for forskellige transaktionstyper
+          href: actuals/connectingactuals.md
+        - name: Kladder
           items:
+            - name: Opret og bekræft posteringskladder
+              href: actuals/create-confirm-entry-journals.md
             - name: Opret og bekræft rettelseskladder
               href: actuals/create-confirm-correction-journals.md
     - name: Proformafakturering
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfigurer automatisering af projektfaktura
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Opgrader
+      items:
+        - name: Overvejelser om opgradering i forbindelse med moderne godkendelser
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations-apps
+      items:
+        - name: Project Operations Team Member-app
+          href: team-member/project-operations-team-member.md
 - name: Project Operations for lagerbaserede/produktionsbaserede scenarier
   items:
     - name: Nyheder
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Oversigt over projektstyring og regnskab
       href: prod-pma/overview-project-management-accounting.md
-    - name: Intern fakturering
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konfigurer intern projektfakturering
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Konfigurer standardomkostninger for arbejdskraft og udgifter
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Opret og anvend betingelser for tilbageholdelse af leverandørbetaling
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Konfigurer og anvend samtidighedsbetaling af leverandører ("pay-when-paid")
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Periodisering af projektomkostninger på indkøbskvitteringer
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Projektfakturering
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Ydeevne af forslag til projektfaktura
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Projektkontrakter
-      href: prod-pma/project-contracts.md
-    - name: 'Opret avancerede kontrakter for fakturering, der er baseret på status'
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Projektprognoser og budgetter
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Opret prognosemodeller for projektbudgetter
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Overfør projektbudgetter ved afslutning af regnskabsåret
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Projektsalgsordrer
-      href: prod-pma/project-sales-orders.md
-    - name: Indkøbsordrer for et projekt
-      href: prod-pma/project-purchase-orders.md
-    - name: Projekttilbud
-      href: prod-pma/project-quotations.md
-    - name: 'Bekræft, opdater og fremsend et projekttilbud'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Overfør et tilbud til et projekt
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Projektressourcer
+    - name: Salgsproces for projekt
+      items:
+        - name: Projekttilbud
+          href: prod-pma/project-quotations.md
+        - name: 'Bekræft, opdater og fremsend et projekttilbud'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Overfør et tilbud til et projekt
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Projektkontrakter
+          href: prod-pma/project-contracts.md
+        - name: Projekttilskud
+          href: prod-pma/project-grants.md
+    - name: Prisfastsættelse og omkostningsfastsættelse
+      items:
+        - name: Konfigurer standardomkostninger for arbejdskraft og udgifter
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Projektstyring
+      items:
+        - name: Oversigt over arbejdsopgavehierarkier
+          href: prod-pma/work-breakdown-structures.md
+        - name: Integration af Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Oversigt over mobilapplikationer til Project
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Mobilt arbejdsområde for tidsregistrering på projekter
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Mobilapp til projekttimesedler
+          href: prod-pma/project-timesheet.md
+        - name: Projekttimesedler på en mobilenhed
+          href: prod-pma/mobile-timesheets.md
+        - name: Implementer brugerdefinerede felter for mobilappen til Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: Ressourcestyring
       items:
         - name: Oversigt over projektressourcer
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Ressourceopfyldelse for planlagte ressourcer
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Modtag varer på indkøbsordre fra varebehov
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Arbejdsopgavehierarkier
+    - name: Projektbudgetter og -prognoser
       items:
-        - name: Oversigt over arbejdsopgavehierarkier
-          href: prod-pma/work-breakdown-structures.md
-        - name: Integration af Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Oversigt over mobilapplikationer til Project
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Mobilt arbejdsområde for tidsregistrering på projekter
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobilapp til projekttimesedler
-          href: prod-pma/project-timesheet.md
-        - name: Projekttimesedler på en mobilenhed
-          href: prod-pma/mobile-timesheets.md
-        - name: Implementer brugerdefinerede felter for mobilappen til projekttimesedler
-          href: prod-pma/custom-fields-mobile.md
-    - name: Projekttilskud
-      href: prod-pma/project-grants.md
-    - name: Eliminer et projektestimat
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Projektprognoser og -budgetter
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Opret prognosemodeller for projektbudgetter
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Overfør projektbudgetter ved afslutning af regnskabsåret
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Tid
+      items:
+        - name: Angive økonomiske standarddimensioner for projekttidsposter
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Udgift
+      items:
+        - name: Udgiftsoversigt
+          href: expense/expense-overview.md
+        - name: Ny udgiftserfaring
+          items:
+            - name: Nye udgiftsrapporter
+              href: expense/expense-reports-reimagined.md
+            - name: Hent en kvittering ved hjælp af optisk tegngenkendelse
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfiguration og installation
+          items:
+            - name: Konfigurer politikker
+              href: expense/set-up-policies.md
+            - name: Konfigurer arbejdsproces
+              href: expense/set-up-workflows.md
+            - name: Administrer delegering
+              href: expense/manage-delegation.md
+            - name: Konfigurer parametre for udgiftsstyring
+              href: expense/configure-expense-management-parameters.md
+            - name: Konfigurer integration af kreditkort
+              href: expense/set-up-credit-card-integration.md
+            - name: Konfigurer udgiftskategorier
+              href: expense/set-up-expense-categories.md
+            - name: Konfiguration af kilometertal ved hjælp af niveauer for kilometertal
+              href: expense/set-up-mileage.md
+        - name: Udgiftsspecificering
+          href: prod-exp/expense-itemization.md
+        - name: Personlige udgifter
+          href: expense/personal-expenses-expense-report.md
+        - name: Interne udgifter
+          href: prod-exp/intercompany-expense.md
+        - name: Opret udgiftsrapporter
+          items:
+            - name: Fordelinger i en udgiftsrapport
+              href: expense/distributions-expense-report.md
+        - name: Godkend udgiftsrapporter
+          items:
+            - name: Udgiftsrapporter og flere godkendere
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Bogfør udgiftsrapporter
+          href: expense/posting-expense-reports.md
+        - name: Rejserekvisition
+          href: expense/travel-requisition.md
+        - name: Kontantforskud
+          href: expense/cash-advance.md
+        - name: Diætudgifter
+          href: expense/per-diem-expenses.md
+        - name: Mobilappen for udgifter
+          href: expense/expense-using-mobile.md
+        - name: Økonomistyring
+          items:
+            - name: Momsinddrivelse
+              href: expense/vat-recovery.md
+    - name: Indkøb
+      items:
+        - name: Indkøbsordrer for et projekt
+          href: prod-pma/project-purchase-orders.md
+        - name: Periodisering af projektomkostninger på indkøbskvitteringer
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Modtag varer på indkøbsordre fra varebehov
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Konfigurer og anvend samtidighedsbetaling af leverandører ("pay-when-paid")
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Opret og anvend betingelser for tilbageholdelse af leverandørbetaling
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Projektfakturering
+      items:
+        - name: Projektfakturering
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Ydeevne af forslag til projektfaktura
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: 'Opret avancerede kontrakter for fakturering, der er baseret på status'
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Projektsalgsordrer
+          href: prod-pma/project-sales-orders.md
+        - name: Varekrav for projektkontrakter med flere finansieringskilder
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Intern fakturering
+      items:
+        - name: Intern fakturering
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konfigurer intern projektfakturering
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Omsætningsgenkendelse
+      items:
+        - name: Eliminer et projektestimat
+          href: prod-pma/eliminate-project-estimate.md
 - name: Udgiftsstyring
   items:
     - name: Oversigt over udgiftsstyring
@@ -1148,6 +1304,16 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 43. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur43.md
+        - name: 'Nyheder eller ændringer i den 42. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Nyheder eller ændringer i den 41. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Nyheder eller ændringer i den 40. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Nyheder eller ændringer i den 39. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-39.md
         - name: 'Nyheder eller ændringer i den 38. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-38.md
         - name: 'Nyheder eller ændringer i den 37.5. opdateringsudgivelse, v3'
@@ -1238,9 +1404,11 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Opgrader fra Project Service Automation til Project Operations – lille
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Funktionsændringer fra Project Service Automation til Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Opgradering af Project Service Automation (appversion 3.x)
       items:
-        - name: Opgraderings af Project Service Automation
+        - name: Opgradering af Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: Overvejelser vedrørende opgradering - version 2.x eller 1.x til version 3
           href: psa/upgrade-v3.md
@@ -1332,7 +1500,7 @@
               href: psa/recall-approved.md
             - name: Annuller godkendelsen af tidligere godkendte tidsregistreringer eller udgiftsposter
               href: psa/cancel-approval.md
-            - name: Faktiske
+            - name: Faktiske værdier
               href: psa/actuals.md
             - name: 'Massekorrektioner af de faktiske værdier, der er oprettet af godkendte tidsregistreringer og udgiftsposter'
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
