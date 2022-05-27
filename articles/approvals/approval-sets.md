@@ -2,18 +2,16 @@
 title: Godkendelsessæt
 description: I dette emne forklares det, hvordan du kan arbejde med godkendelsessæt, anmodninger og undersæt for disse handlinger.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323229"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576217"
 ---
 # <a name="approval-sets"></a>Godkendelsessæt
 
@@ -27,6 +25,18 @@ Godkendelsessæt angiver den overordnede behandlingstilstand for de relaterede p
 Godkendelser, der er sat i kø til behandling, er synlige i visningen **Behandling af godkendelser**. Systemet behandler alle objekter flere gange asynkront, herunder nye forsøg på at opnå godkendelse, hvis tidligere forsøg mislykkedes.
 
 Feltet **Levetid for godkendelsessæt** registrerer det resterende antal forsøg til at behandle sættet, før det er markeret som mislykket.
+
+Godkendelsessæt behandles via den periodiske aktivering, der er baseret på et **Cloudflow** kaldet **Project Service – Planlæg tilbagevendende projektgodkendelsessæt**. Det kan du se i **Løsningen** kaldet **Project Operations**. 
+
+Kontrollér, at flowet er aktiveret ved at fuldføre følgende trin.
+
+1. Log som administrator på [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Skift til det miljø, du bruger til Dynamics 365 Project Operations, i øverste højre hjørne.
+3. Vælg **Løsninger** for at få vist en liste over de løsninger, der installeres i miljøet.
+4. Vælg **Project Operations** på listen med løsninger.
+5. Skift filteret fra **Alle** til **Cloudflow**.
+6. Kontrollér, at flowet **Project Service – Planlæg tilbagevendende projektgodkendelsessæt** er angivet til **Til**. Hvis det ikke er det, skal du vælge flowet og derefter vælge **Slå til**.
+7. Kontrollér, at behandlingen sker hvert femte minut, ved at gennemse listen **Systemjob** i området **Indstillinger** i Project Operations Dataverse-miljøet.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Mislykkede godkendelser og godkendelsessæt
 Visningen **Mislykkede godkendelser** indeholder alle de godkendelser, der kræver brugerintervention. Åbn logfilerne for det tilknyttede godkendelsessæt for at identificere årsagen til fejlen.

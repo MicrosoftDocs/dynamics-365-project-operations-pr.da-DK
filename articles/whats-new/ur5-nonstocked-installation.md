@@ -5,14 +5,14 @@ author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986754"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579920"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Opdater Project Operations i dit Finance-miljø
 
@@ -119,7 +119,7 @@ Følgende opdateringer af sikkerhedsrettighederne for objekter er påkrævet som
 4. På siden **Tabeltilknytningsversion** skal du anvende en ny version af tilknytningen på hver af de tre objekter.
 5. På siden **Dobbeltskrivning** skal du vælge kør for at genstarte tilknytningerne.
 6. Markér listet med tilknytning, vælg tilknytningen **Hovedbog (msdyn_ledgers)** med alle forudsætninger, og markér afkrydsningsfeltet **Oprindelig synkronisering**. 
-7. I feltet **Master for oprindelig synkronisering** skal du vælge **Finance and Operations-applikationer** og derefter vælge **Kør**.
+7. I feltet **Master for oprindelig synkronisering** skal du vælge **Programmer til finans og drift** og derefter vælge **Kør**.
  
  ![Synkronisering af tilknytning af hovedbog.](media/DW6.png)
  

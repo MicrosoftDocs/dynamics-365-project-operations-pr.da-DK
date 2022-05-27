@@ -3,17 +3,16 @@ title: Oversigt over dimensioner for prisfastsættelse
 description: Dette emne indeholder oplysninger om prisfastsættelsesdimensioner i Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001964"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579208"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversigt over dimensioner for prisfastsættelse
 
@@ -60,16 +59,16 @@ I følgende eksempel vises de fakturarater, der er konfigureret på baggrund af 
 
 | Rolle        | Afdeling    |Enhed      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Udvikler   | Contoso US  |Time | 200|USD     |
-| Udvikler   | Contoso Indien |Time|   112|USD     |
+| Udvikler   | Contoso USA  |Hour | 200|USD     |
+| Udvikler   | Contoso India |Hour|   112|USD     |
 
 
 **Eksempel på omkostningssatser**
 
 | Lønområde     | Afdeling    |Enhed      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Time | 145|USD     |
-| My company_Band2 | Contoso Indien |Time|   67|USD     |
+| My company_Band1 | Contoso USA  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

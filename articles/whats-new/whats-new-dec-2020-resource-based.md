@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984864"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579851"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder december 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -61,12 +61,12 @@ Følgende funktioner er omfattet af denne udgivelse:
 | Projektplanlægning og -sporing | 2057197          | Kopiering af estimatlinje med opgavereference understøttes ikke                                                                                                     |
 | Projektplanlægning og -sporing | 2060687          | Advarslen om tidszonen forsvinder nu efter en bestemt varighed                                                                                                      |
 | Ressourcestyring           | 1832887          | Standardressourcekategori-ID skal være statisk for at sikre, at der kan genindlæses data i Dataverse- og Finance-miljøer                                                 |
-| Tid og udgift              | 2081793          | **Navnet på udgiftskategorien** skal knyttes til feltet **Beskrivelse af udgiftskategorien** i Finance and Operations-apps                                                  |
+| Tid og udgift              | 2081793          | **Navnet på udgiftskategorien** skal knyttes til feltet **Beskrivelse af udgiftskategori** i programmer til finans og drift                                                  |
 | Tid og udgift              | 2034882          | Knappen **Ny** vises to gange på kommandolinjen for tidsangivelser, når Dynamics 365 Field Service er installeret                                          |
 | Tid og udgift              | 2056028          | Opdater siden **Rediger tid** for at medtage tidslinje                                                                                                              |
 | Tid og udgift              | 1983747          | I diagrammet for tidsregistrering vises yderligere data                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab i Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting i Dynamics 365 Finance
 
 | Funktionsområde                        | Referencenummer | Kvalitetsopdatering                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Følgende funktioner er omfattet af denne udgivelse:
 | Rejser og udgifter                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Arbejdsprocessen for automatisk bogføring af udgiftsrapporter er fuldført, men fakturaen er ikke bogført                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til programmer til finans og drift under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

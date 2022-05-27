@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000254"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580173"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Hvad er Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ PSA-applikationen (Project Service Automation) hjælper organisationer med effek
 - ...og meget mere
 
 Ud over at hjælpe dig med at overvåge og kontrollere omkostninger for dit projektbaserede arbejde kan individuelle konsulenter nemt angive og spore projektets varighed og udgifter enten på mobil eller via en webbrowser.
-
-## <a name="whats-new-in-psa"></a>Nyheder i PSA
-Vi er glade for i teamet at kunne fortælle om vores nyeste opdateringer! De spænder vidt lige fra forbedringer af brugergrænsefladen og fejlrettelser til tilføjelse af vigtige nye funktioner og muligheder. Du har stillet forslag, og vi har lyttet.
-
-Du kan se vores nyeste forbedringer og tilføjelser under [Produktbemærkninger fra oktober 2019](/dynamics365-release-plan/2019wave2/index).
-
-### <a name="in-development"></a>Under udvikling
-Hvis du vil se, hvad, vi har planlagt for den nærmeste fremtid, kan du se [Dynamics 365: 2020-frigivelsesbølge, plan 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Få hjælp til PSA-version 3.x
 Søger du efter ressourcer, der kan hjælpe dig med at planlægge implementeringen? Se disse retningslinjer, som du kan downloade.
@@ -80,10 +73,6 @@ Søger du efter ressourcer, der kan hjælpe dig med at planlægge implementering
  [Hvidbøger (appversion 2.x eller 1.x)](../psa/white-papers.md)
 
  [Noter til udviklere (appversion 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Se en oversigtsvideo på 2 minutter
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

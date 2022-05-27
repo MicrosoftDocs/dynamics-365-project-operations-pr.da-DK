@@ -2,16 +2,16 @@
 title: Kopiér et projekt
 description: Dette emne indeholder oplysninger om kopiering af projekter i Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007184"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574423"
 ---
 # <a name="copy-a-project"></a>Kopiér et projekt
 
@@ -25,39 +25,47 @@ Ved hjælp af Dynamics 365 Project Operations kan du hurtigt oprette nye projekt
 - Projektestimater
 - Projektets udgiftsestimater
 - Projektmaterialeestimater
+- Projekttjeklister
+- Projektbuckets
 
 ## <a name="project-properties"></a>Projektegenskaber
 
-Når projektet kopieres, kopieres værdierne i følgende felter:
+Når projektet kopieres, kopieres værdierne i følgende felter.
 
-- Navn
-- Beskrivelse
-- Kunde
-- Kalenderskabelon
-- Valuta
-- Kontraktenhed
-- Projektleder
-- Status
-- Overordnet projektstatus
-- Kommentarer
-- Estimater
-- Anslået startdato: Datoen, hvor projektet oprettes ud fra kopien.
-- Anslået slutdato: Denne dato justeres på baggrund af startdatoen for det nye projekt, der blev oprettet på baggrund af kopien.
-- Indsats (timer)
-- Anslåede arbejdsomkostninger
-- Anslåede udgiftsomkostninger
-- Anslåede materialeomkostninger
+| Felt | Project Operations for ikke-lagerførte materialer | Project Operations lille | Project for the Web |
+|-------|------------------------------------------|-------------------------|---------------------|
+| Name | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
+| Description | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Kunde | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Kalenderskabelon | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
+| Valuta | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Kontraktenhed | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Ejende virksomhed | :heavy_kontrol_mærke: | | |
+| Projektleder | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
+| Status | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Overordnet projektstatus | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Kommentarer | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Estimater | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| <p>Anslået startdato</p><p><strong>Bemærk:</strong> I dette felt angives den dato, hvor projektet oprettes ud fra kopien. | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| <p>Anslået fuldførelsesdato</p><p><strong>Bemærk:</strong> Datoen i dette felt justeres på baggrund af startdatoen for det nye projekt, der blev skabt på baggrund af kopien.</p> | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Indsats (timer) | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Anslåede arbejdsomkostninger | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Anslåede udgiftsomkostninger | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | |
+| Anslåede materialeomkostninger | | :heavy_kontrol_mærke: | |
 
 > [!NOTE]
 > Kopiér projekt er en langvarig handling. Projektposter, deres relevante attributter og mange relaterede objekter kopieres også. På grund af handlingens langvarige karakteristika er destinationsprojektsiden låst til redigering, når kopien er startet, og indtil kopieringen er fuldført.
 
 ## <a name="work-breakdown-structure"></a>Arbejdsopgavehierarki
 
-Når projektet kopieres, kopieres hele det ressourceindlæste arbejdsopgavehierarki. Navngivne ressourcer erstattes med generiske ressourcer. Hvis de navngivne ressourcer ikke har samme arbejdstid som den generiske ressource, vil tidsplanen blive genberegnet, og opgavevarighederne kan blive ændret.
+Når projektet kopieres, kopieres hele det ressourceindlæste arbejdsopgavehierarki. Navngivne ressourcer erstattes med generiske ressourcer. Hvis de navngivne ressourcer ikke har samme arbejdstimer som den generiske ressource, genberegnes planen, og opgavernes varigheder ændres måske.
 
 ## <a name="project-team-members"></a>Projektteamets medlemmer
 
 Når et projektteam kopieres fra kildeprojektet, kopieres de generiske ressourcer. Standardressourcetildelinger bevares også, som de var, i kildeprojektet. Navngivne ressourcer konverteres til generiske teammedlemmer.
+
+> [!NOTE]
+> Teammedlemmer og tildelinger kopieres ikke i Project for the Web.
 
 ## <a name="estimates"></a>Estimater
 
@@ -65,5 +73,8 @@ Når projektet kopieres, kopieres ressource-, udgifts- og materialeestimatlinjer
 
 Oplysninger om, hvordan du får adgang til Kopier projekt via programmering, finder du under [Udvikling af projektskabeloner med Kopier projekt](dev-copy-project.md).
 
+## <a name="quotes-and-contracts"></a>Tilbud og kontrakter
+
+Tilbud og kontrakter er ikke knyttet til destinationsprojektet.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

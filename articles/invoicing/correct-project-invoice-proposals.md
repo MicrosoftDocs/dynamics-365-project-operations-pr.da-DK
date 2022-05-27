@@ -2,16 +2,16 @@
 title: Ret regnskabet på forslag til projektfakturakladder
 description: I dette emne forklares det, hvordan du kan justere regnskabsrelaterede oplysninger i en fakturaforslagskladde.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999309"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575067"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Ret regnskabet på forslag til projektfakturakladder
 
@@ -27,12 +27,21 @@ Standardfaktureringsmomsgrupper og varesalgsmomsgrupper kan justeres direkte i f
 
 ## <a name="adjust-financial-dimensions"></a>Tilpas økonomiske dimensioner
 
+### <a name="header-dimensions"></a>Overskriftsdimensioner
+
+De økonomiske dimensioner i fakturaen er som standard afledt af de ikke-fakturerede projekttransaktionsposter, der faktureres. Med systemindstillingerne kan du dog bruge økonomiske dimensioner i overskriften på projektfakturaforslag til at bogføre kundesaldi. Hvis du vil aktivere denne funktion, skal du vælge **Tillad opdateringer af projektdimension for debitorer** på fanen **Finanser** på siden **Projektstyring og regnskabsparametre**.
+
+Økonomiske dimensioner i fakturaoverskrifter kan redigeres, før en faktura sendes. På siden **Projektfakturaforslag** skal du gå til visningen **Overskrift** og derefter redigere værdier under fanen **Økonomiske dimensioner**.
+
+Visningen **Overskrift** er først tilgængelig, når systemadministratoren aktiverer funktionen **Brug projektfakturaforslag og fakturakladdeformularer sammen med visning af overskrift og linjer** i arbejdsområder **Funktionsstyring**. Denne funktion kræver opdatering af Finance til 10.0.25 eller nyere.
+
+### <a name="line-dimensions"></a>Linjedimensioner
+
 Økonomiske dimensioner kan ikke redigeres direkte på en projektfakturaforslagslinje. Følg i stedet disse trin for at justere økonomiske dimensioner i et forslag til en projektfaktura.
 
 1. Vælg **Slet alle** i projektfakturaforslaget for at fjerne projektfakturaforslagslinjerne.
 
-    > [!NOTE]
-    > Knappen **Slet alle** er først tilgængelig, når systemadministrator aktiverer funktionen **Slet fakturaforslagslinjer ved brug af Project Operations til ressourcebaserede/ikke-lagerbaserede scenarier** i arbejdsområdet **Funktionsadministration**.
+    Knappen **Slet alle** er først tilgængelig, når systemadministrator aktiverer funktionen **Slet fakturaforslagslinjer ved brug af Project Operations til ressourcebaserede/ikke-lagerbaserede scenarier** i arbejdsområdet **Funktionsadministration**.
 
 2. Tilpas de økonomiske dimensioner:
 

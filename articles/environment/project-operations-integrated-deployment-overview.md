@@ -3,16 +3,15 @@ title: Udrulningsoversigt til Project Operations for ressource-/ikke-lagerbasere
 description: Dette emne indeholder oplysninger om udrulningstypen Project Operations for ressource/ikke-lagerbaserede scenarier.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009704"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575114"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Udrulningsoversigt til Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -32,7 +31,7 @@ Udrulningstypen Dynamics 365 Project Operations for ressource-/ikke-lagerbasered
 - Indtægtsføring for projekter
 - Udvidelsesmuligheder via Power Platform
 
-Denne udrulningstype indeholder en udvidelse af de funktioner, der leveres af programmerne Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+Denne udrulningstype kan giver mulighed for at udvide funktionaliteten i Dynamics 365 Finance- og Dynamics 365 Supply Chain Management-programmer.
 
 Denne udrulning bør vælges, hvis Project Operations forventes at anvende hele projektets livscyklus, der omfatter følgende forudsætninger:
 

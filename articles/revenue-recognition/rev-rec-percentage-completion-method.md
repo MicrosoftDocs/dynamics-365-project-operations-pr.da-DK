@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger om fastprisomsætning i projekter
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006419"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578701"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Omsætningsestimat for projekter med fast pris 
 
@@ -26,7 +26,7 @@ Når du opretter en projektkontraktlinje med følgende attributter i Dynamics 36
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Gennemse projekter med fastprisomsætningsestimater
 Hvis du vil have vist estimater for omsætning i fastprisprojekter, skal du udføre følgende trin:
 
-1. I Dynamics 365 Finance-miljøet skal du gå til **Projektstyring og regnskab** > **Projekter** > **Estimater for omsætning i fastprisprojekter**.
+1. I Dynamics 365 Finance-miljøet skal du gå til **Projektstyring og regnskab** > **Projekter** > **Omsætningsestimater på fast pris-projekter**.
 2. Vælg det projekt, du vil have vist, og dobbeltklik på det **Estimerede projekt-id** for at åbne posten, og gennemse detaljerne for projektet.
 3. Udvid fanen **Projekt**. Der vises ét projekt i gitteret for **Valgte projekter**. Systemet bruger dette som standardprojekt, da det er det projekt, der er knyttet til projektkontraktlinjen. 
 4. Hvis du vil ændre tilknytningen, skal du vælge flere projekter og føje dem til gitteret **Valgte projekter**. Hvis der er valgt flere projekter i dette gitter, beregnes de færdiggørelsesgraden og omsætningsestimater for projektet sammen for alle de valgte projekter.

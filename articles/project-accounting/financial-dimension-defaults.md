@@ -4,22 +4,22 @@ description: Dette emne indeholder oplysninger om, hvordan du konfigurerer stand
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922931"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579483"
 ---
 # <a name="financial-dimension-defaults"></a>Standarder for økonomiske dimensioner
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations bruger strukturen for [Økonomiske dimensioner](/dynamics365/finance/general-ledger/financial-dimensions) i Dynamics 365 Finance til at give yderligere indsigt i projekters underfinanskonto og generelle transaktioner på finanskontoen.
+
+Dynamics 365 Project Operations bruger rammen [Økonomiske dimension](/dynamics365/finance/general-ledger/financial-dimensions) i Dynamics 365 Finance til at give yderligere indsigt i delregnskaber for projekter og hovedbogstransaktioner.
 
 Økonomiske standarddimensioner kan angives for en kunde, et projekts finansieringskilde, en milepæl, en projektkontraktlinje eller et projekt.
 
@@ -60,15 +60,5 @@ Projekter oprettes og vedligeholdes i CDS. Regnskabsattributter for projekter an
 4. Angiv standarderne for økonomiske dimensioner. Bemærk, at økonomiske dimensioner hentes som standard fra kundekontoen. Hvis projektet er knyttet til en kontraktlinje med flere projektkontraktkunder, bruges den primære kunde som standard som den økonomiske dimensioner.
 
 Projektets standarder for økonomiske dimensioner bruges til at angive standarder for kladdelinjer for tid, udgifter og gebyrtransaktioner i **Integrationskladden i Project Operations** og på relaterede projektfakturalinjer.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Anvendelse af økonomiske dimension for projekttidsposter
-Hvis du vil anvende økonomiske dimensioner for projekttidsposter, skal du være opmærksom på, at standardværdi for dimension er baseret på følgende rækkefølge:
-
-1. Ressource
-2. Project
-3. Finansieringskilde
-
-Hvis standarddimensionen f.eks. er angivet på en ressource, anvendes den for en standard, der er angivet i projektet. På samme måde anvendes en standardprojektdimension for den standard, der er angivet i finansieringskilden.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
