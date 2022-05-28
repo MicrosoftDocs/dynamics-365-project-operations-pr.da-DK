@@ -4,20 +4,20 @@ description: Dette emne indeholder oplysninger om definition eller estimering af
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992604"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737295"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Økonomiske estimater for materialer på projekter
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dynamics 365 Project Operations giver projektledere mulighed for at definere projektbaserede materialeomkostninger for de enkelte projekter eller opgaver. Hvert materialeestimat kan knyttes til en bestemt projektopgave. Udgifter kategoriseres i forskellige udgiftskategorier, som er defineret på organisationsniveau. Prisfastsættelse og omkostningsfastsættelse for de enkelte udgiftskategorier defineres i prislisten. 
+Dynamics 365 Project Operations giver projektledere mulighed for at definere projektbaserede materialeomkostninger for de enkelte projekter eller opgaver. Hvert materialeestimat kan knyttes til en bestemt projektopgave. Materiale, der bruges til projekter, kan være produkter, der skal indkøbes, eller produkter fra produktkataloget. For hver kombination af et produkt og en enhed kan der defineres en pris i projektprislisterne for salg og i projektprislisterne for omkostninger.  
 
 Fuldfør følgende trin for at få vist, tilføje eller slette et projektmaterialeestimat.
 
