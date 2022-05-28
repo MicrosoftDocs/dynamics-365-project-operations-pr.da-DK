@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501364"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594157"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder august 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -54,7 +54,7 @@ Hvis du støder på problemer, når du begynder at tilknytte, skal du følge ins
 | Tid og udgift | 2336884 | Knappen for tidsregistreringen **Kopiér uge** skal fungere for mere end kun den aktuelle bruger. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab på Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Project Management and Accounting på Dynamics 365 Finance
 
 | Funktionsområde | Referencenummer | Kvalitetsopdatering |
 | --- | --- | --- |

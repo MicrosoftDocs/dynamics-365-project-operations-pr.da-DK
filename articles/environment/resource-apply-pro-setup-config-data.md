@@ -4,27 +4,27 @@ description: Dette emne indeholder oplysninger om, hvordan du konfigurerer og an
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986619"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594709"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurer og anvend konfigurationsdata i Common Data Service 
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Forudsætninger
 
 Før du begynder at konfigurere data i Common Data Service (CDS), skal følgende forudsætninger være opfyldt:
 
 1.  Klargør et CDS-miljø og et Dynamics 365 Finance-miljø til Project Operations.
-2.  Oplysninger om juridiske enheder fra Dynamics 365 Finance deles med CDS-miljøet. Dette betyder, at objektet **Virksomehd** i CDS indeholder følgende firmaposter:
+2.  Oplysninger om juridiske enheder fra Dynamics 365 Finance deles i CDS-miljøet. Dette betyder, at objektet **Virksomehd** i CDS indeholder følgende firmaposter:
   - THPM
   - USPM
   - GBPM

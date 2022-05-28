@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753285"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598481"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -49,7 +49,7 @@ Hvis du støder på problemer med at starte tilknytningen, skal du følge instru
 | Fakturering og prisfastsættelse | 2338357 | Valutaen for materialeforbrugslogfilen skal som standard angives fra projektets valuta, når projektet vælges. |
 | Tid og udgift | 2414777 | Annullering af en godkendelse, når omkostnings- eller tidsregistreringen har mere end én tilknyttet projektgodkendelse, skal være mulig. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab på Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Project Management and Accounting på Dynamics 365 Finance
 
 | Funktionsområde | Referencenummer | Kvalitetsopdatering |
 | --- | --- | --- |

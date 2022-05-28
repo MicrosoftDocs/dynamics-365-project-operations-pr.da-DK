@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998454"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593605"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startside med dimensioner for prisfastsættelse og efterkalkulation
 
@@ -66,16 +67,16 @@ I følgende eksempel vises de fakturarater, der er konfigureret på baggrund af 
 
 | Rolle        | Afdeling    |Enhed      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Udvikler   | Contoso US  |Time | 200|USD     |
-| Udvikler   | Contoso Indien |Time|   112|USD     |
+| Udvikler   | Contoso USA  |Hour | 200|USD     |
+| Udvikler   | Contoso India |Hour|   112|USD     |
 
 
 **Eksempel på omkostningssatser**
 
 | Lønområde     | Afdeling    |Enhed      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Time | 145|USD     |
-| My company_Band2 | Contoso Indien |Time|   67|USD     |
+| My company_Band1 | Contoso USA  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

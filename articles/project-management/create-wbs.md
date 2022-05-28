@@ -4,14 +4,14 @@ description: I dette emne forklares det, hvordan du kan oprette et arbejdsopgave
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928608"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597791"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opret et arbejdsopgavehierarki (WBS)
 
@@ -124,7 +124,7 @@ Du skal være opmærksom på følgende begrænsninger, hvis du bruger arbejdsopg
 |----------------------------------------------------|----------------------|
 | Det maksimale samlede antal opgaver for et projekt                  | 500                  |
 | Den maksimale samlede varighed af et projekt               | 3.650 dage (10 år) |
-| Det maksimale samlede antal ressourcer for et projekt              | 150                  |
+| Det maksimale samlede antal ressourcer for et projekt              | 300                  |
 | Det maksimale samlede antal links (kun efterfølger) for et projekt | 600                  |
 | Det maksimale samlede antal brugertilpassede felter for et projekt          | 10                   |
 | Maksimalt antal kontrollisteelementer pr. opgave                   | 20                   |

@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger om, hvordan du opretter og anvend
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993549"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594203"
 ---
 # <a name="set-up-cost-templates"></a>Opsætning af omkostningsskabeloner
 
@@ -56,7 +56,7 @@ Fastlæggelse af, hvilken fremgangsmåde du skal følge for at oprette en omkost
 ## <a name="create-cost-templates"></a>Opret omkostningsskabeloner
 Følg disse trin for at oprette omkostningsskabeloner:
 
-1. Hvis du vil have adgang til omkostningsskabeloner, skal du i Dynamics 365 Finance-miljøet gå til **Projektstyring og regnskab** > **Opsætning** > **Estimater** > **Omkostningsskabelon**.
+1. Du kan få adgang til omkostningsskabeloner ved at gå til skabelonen **Projektstyring og regnskab** > **Konfiguration** > **Estimater** > **Omkostningsskabelon** i Dynamics 365 Finance-miljøet.
 2. Vælg **Ny** for at oprette en ny omkostningsskabelon. Angiv et navn og en beskrivelse.
 3. Angiv omkostningslinje-ID for hver enkelt transaktionstype.
 4. Vælg en standardfuldførelsesmetode:

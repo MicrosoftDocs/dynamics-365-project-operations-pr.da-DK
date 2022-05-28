@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger om, hvordan du opretter interne t
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005474"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599955"
 ---
 # <a name="create-intercompany-transactions"></a>Opret interne transaktioner
 
@@ -30,14 +30,14 @@ Når en intern transaktion godkendes, oprettes følgende faktiske transaktioner
 
 Pris, ressourceenhedens omkostninger og prisfastsættelse for transaktioner vedrørende interne enhedssalg og valuta styres af **Organisationsenheden**. Dette er vigtigt at huske, når du beslutter, hvordan virksomheder og organisationsenheder skal struktureres i implementeringen.
 
-Når du opretter poster for salgsmulighed, tilbud, projektkontrakt og projekt, kontrollerer systemet, at den kontraherende enheds valuta stemmer overens med den kontraherende virksomheds regnskabsvaluta. Når de ikke er ens, kan disse poster ikke oprettes. Valutaen for organisationsenheden defineres i Dynamics 365 Project Operations ved at gå til **Dataverse** > **Indstillinger** > **Organisationsenheder**. En virksomheds regnskabsvaluta defineres i Dynamics 365 Finance ved at gå til **Finanskladde** > **Opsætning af hovedbog** > **Hovedbog**. Valutaen synkroniseres med dit Dataverse-miljø ved hjælp af tilknytningen til hovedbogens dobbeltskrivning.
+Når du opretter poster for salgsmulighed, tilbud, projektkontrakt og projekt, kontrollerer systemet, at den kontraherende enheds valuta stemmer overens med den kontraherende virksomheds regnskabsvaluta. Når de ikke er ens, kan disse poster ikke oprettes. Valutaen for organisationsenheden defineres i Dynamics 365 Project Operations ved at gå til **Dataverse** > **Indstillinger** > **Organisationsenheder**. En virksomheds regnskabsvaluta defineres i Dynamics 365 Finance ved at gå til **Generel hovedbog** > **Opsætning af hovedbog** > **Hovedbog**. Valutaen synkroniseres med dit Dataverse-miljø ved hjælp af tilknytningen til hovedbogens dobbeltskrivning.
 
 Systemet opretter ressourcens kostpris og de organisationsenhedens faktiske salgsværdier i følgende situationer:
 
   - Når ressourceenheden afviger fra den ordregivende enhed
   - Når virksomheden med ressourceenheden afviger fra den ordregivende virksomhed
 
-Men det er kun de transaktioner, som har en anden ressourcevirksomhed end den kontraherende virksomhed, der overføres til Dynamics 365 Finance-miljøet for yderligere regnskabsføring.
+Det er dog kun transaktioner, der har et andet kildefirma end kontraktfirma, der overføres til Dynamics 365 Finance-miljøet med henblik på yderligere regnskab.
 
 Regnskabsføring for projektets faktiske værdier registreres i integrationskladden til Project Operations i Finance. Følgende kladdelinjer oprettes i systemet.
 
@@ -60,7 +60,7 @@ Freja Jacobsen, som er beskæftiget i GBPM, registrerer 10 timers arbejde på et
     4. Angiv valutaen til **USD**.
     5. Gem posten.
 3. Gå til **Salg** > **Projektkontrakter**, og opret en ny projektkontrakt for Adventure Works.
-    1. Angiv det ejende firma til **USPM** og den kontraherende enhed til **Contoso Robotics US**.
+    1. Angiv den ejende virksomhed til **USPM**, og den ordregivende enhed til **Contoso Robotics US**.
     2. Vælg Adventure Works som kunde.
     3. Vælg en produktprisliste, og gem posten.
     4. På fanen **Kontraktlinjer** skal du pårette en ny kontraktlinje. Angiv et navn, og vælg **Tid og materialer** som faktureringsmetode.

@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928654"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594801"
 ---
 # <a name="provision-a-new-environment"></a>Klargør et nyt miljø
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emne indeholder oplysninger om, hvordan du klargør et nyt Dynamics 365 Project Operations-miljø til ressource/ikke-lagerbaserede scenarier.
 
@@ -34,7 +34,7 @@ Benyt følgende fremgangsmåde for at aktivere den automatiserede klargøring af
 
 ## <a name="provision-a-project-operations-environment"></a>Klargør et Project Operations-miljø
 
-1. Åbn en udrulning af et Dynamics 365 Finance[-demonstrationsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandkasse-/produktionsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Åbn et nyt [demomiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) til Dynamics 365 Finance eller en udrulning af [et sandkasse-/produktionsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Gennemgå guiden **Miljøklargøring**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Det kan være nødvendigt at anvende kvalitetsopdateringer i dit Finance-miljø 
 
     ![Anvend løsninger.](./media/13ApplySolutions.png)
 
-5. Vælg begge løsninger, **Dynamics 365 Finance and Operations - dobbeltskrivning af objekttilknytningdobbelt** og **Dynamics 365 Project Operations - dobbeltskrivning af objekttilknytningdobbelt**, og vælg derefter **Anvend**.
+5. Vælg begge løsninger, **Tilknytningsobjektet til Dynamics 365 Finance and Operations med dobbelt skrivning** og **Tilknytningsobjektet til Dynamics 365 Project Operations med dobbelt skrivning**, og vælg derefter **Anvend**.
 
     ![Bekræft løsninger.](./media/14ConfirmSolutions.png)
 

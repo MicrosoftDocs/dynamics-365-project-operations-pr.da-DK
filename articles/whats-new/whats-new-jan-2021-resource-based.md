@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008084"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599539"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder januar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -43,7 +43,7 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 | **Projektplanlægning og -sporing** | 2090202 | Markerede forretningsregler, der ikke længere bruges, som **Frarådet**. |
 | **Tid og udgift** | 2091249 | Strammede op på kontroller, som brugerne ikke kan ændre opgaven på en indsendt eller godkendt tidsregistrering. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab i Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting i Dynamics 365 Finance
 
 | **Funktionsområde** | **Referencenummer** | **Kvalitetsopdatering** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og 
 
 ## <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
 
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til programmer til finans og drift under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
