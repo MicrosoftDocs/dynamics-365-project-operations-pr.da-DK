@@ -2,16 +2,16 @@
 title: Forlængelse af tidsregistreringer
 description: Dette emne indeholder oplysninger om, hvordan udviklere kan forlænge tidsregistreringskontrolelementet.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993324"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582979"
 ---
 # <a name="extending-time-entries"></a>Forlængelse af tidsregistreringer
 
@@ -43,7 +43,7 @@ Tidsregistreringer er et kerneobjekt, der bruges i flere scenarier. I den først
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Tidsregistreringer og tidskildeobjektet
-Hver gang tilknyttes en tidsregistrering til en tidskildepost. Denne post bestemmer, hvordan og hvilke programmer der skal behandle tidsregistreringen.
+Hver gang tilknyttes en tidsregistrering til en tidskildepost. Denne post bestemmer, hvilke programmer der bør behandle den tidsregistrering, der angives, og hvordan.
 
 Tidsregistreringer er altid én sammenhængende tidsblok med sammenkædet starttidspunkt, sluttidspunkt og varighed.
 
@@ -55,7 +55,7 @@ Logikken for tidsregistrering opdateres automatisk i følgende situationer:
     - **msdyn_slut**
     - **msdyn_varighed**
 
-- Felterne **msdyn_start** og **msdyn_slut** er tidszonefølsomme.
+- Felterne **msdyn_start** og **msdyn_end** er tidszoneafhængige.
 - Tidsregistreringer, der kun oprettes med **msdyn_dato** og **msdyn_varighed** angivet, starter ved midnat. Felterne **msdyn_start** og **msdyn_slut** opdaterer i overensstemmelse hermed.
 
 #### <a name="time-entry-types"></a>Tidsregistreringstyper
@@ -72,73 +72,63 @@ Tidsregistreringsposter har en tilknyttet type, der definerer funktionsmåden i 
 |Ferie   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Brugertilpas kontrolelementet for de ugentlige tidsregistreringer
 Udviklere kan tilføje flere felter og opslag til andre objekter og implementere brugerdefinerede forretningsregler, der understøtter virksomhedens forretningsscenarier.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Tilføj brugerdefinerede felter med opslag til andre objekter
 Der er tre hovedtrin, når du vil føje et brugerdefineret felt til det ugentlige tidsregistreringsgitter.
 
-1. Føj det brugerdefinerede felt til dialogboksen til hurtig oprettelse.
+1. Tilføj det brugerdefinerede felt til dialogboksen **Hurtig oprettelse**.
 2. Konfigurer gitteret for at få vist det brugerdefinerede felt.
-3. Tilføj det brugerdefinerede felt til opgaveprocessen for rækkeredigering eller celleredigering.
+3. Tilføj det brugerdefinerede felt til siden **Rediger række** eller **Rediger tidsregistrering** efter behov.
 
-Sørg for, at det nye felt har de krævede valideringer i række- eller celleredigeringen af opgaveprocessen. Som en del af dette trin skal feltet låses på basis af tidsregistreringens status.
+Kontrollér, at det nye felt har de påkrævede valideringer på siden **Rediger række** eller **Rediger tidsregistrering**. Som en del af denne opgave skal du låse feltet på grundlag af tidsregistreringens status.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Føj det brugerdefinerede felt til dialogboksen til hurtig oprettelse
-Tilføj det brugerdefinerede felt til dialogboksen **Hurtig oprettelse af tidsregistrering**. Der kan herefter angives en værdi, når tidsregistreringer tilføjes, ved at vælge **Ny**.
+Når du tilføjer et brugerdefineret felt til gitteret **Tidsregistrering** og derefter opretter tidsregistreringer direkte i gitteret, angives det brugerdefinerede felt for disse registreringer automatisk, så det stemmer overens med rækken. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Tilføj det brugerdefinerede felt til dialogboksen Hurtig oprettelse
+Tilføj det brugerdefinerede felt til dialogboksen **Hurtig oprettelse: Opret tidsregistrering**. Brugerne kan derefter angive en værdi, når de tilføjer tidsregistreringer ved at vælge **Ny**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurere gitteret til at vise det brugerdefinerede felt
-Der er to måder, du kan føje et brugerdefineret felt til det ugentlige tidsregistreringsgitter på:
+Der er to måder, hvorpå du kan tilføje et brugerdefineret felt til gitteret **Ugentlig tidsregistrering**:
 
-  - Tilpas en visning og tilføj et brugerdefineret felt
-  - Opret en ny standard og brugertilpasset tidsregistrering 
+- Tilpas visningen **Mine ugentlige tidsregistreringer**, og tilføj det brugerdefinerede felt hertil. Du kan specificere placeringen af og størrelsen på det brugerdefinerede felt i gitteret ved at redigere de pågældende egenskaber i visningen.
+- Opret en ny brugerdefineret visning for tidsregistrering, og angiv den som standardvisning. Denne visning skal indeholde felterne **Beskrivelse** og **Eksterne kommentarer** ud over de kolonner, der skal inkluderes i gitteret. Du kan specificere placeringen, størrelsen og standardsorteringsrækkefølgen i gitteret ved at redigere de pågældende egenskaber i visningen. Konfigurer derefter det brugerdefinerede kontrolelement for denne visning, så det bliver et kontrolelement af typen **Tidsregistreringsgitter**. Tilføj kontrolelementet til visningen, og vælg det til **Internet**, **Telefon** og **Tablet**. Konfigurer derefter parametrene for gitteret **Ugentlig tidsregistrering**. Angiv feltet **Startdato** til **msdyn\_date**, angiv feltet **Varighed** til **msdyn\_duration**, og angiv feltet **Status** til **msdyn\_entrystatus**. Feltet **Skrivebeskyttet statusliste** er angivet til **192350002 (Godkendt)**, **192350003 (Sendt)** eller **192350004 (anmodet om at blive sendt)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Føje det brugerdefinerede felt til den relevante redigeringsside
+De sider, der bruges til at redigere en tidsregistrering eller en række tidsregistreringer, findes under **Formularer**. Knappen **Rediger registrering** i gitteret åbner siden **Rediger registrering**, og knappen **Rediger række** åbner siden **Rediger række**. Du kan redigere disse sider, så de indeholder brugerdefinerede felter.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Tilpas en visning og tilføj et brugerdefineret felt
+Begge indstillinger fjerner noget af standardfiltreringen for objekterne **Projekt** og **Projektopgave**, så alle opslagsvisninger for objekterne er synlige. Som standard er det kun de relevante opslagsvisninger, der er synlige.
 
-Tilpas visningen **Mine ugentlige tidsregistreringer** og tilføj det brugerdefinerede felt hertil. Du kan vælge placeringen af og størrelsen på det brugerdefinerede felt i gitteret ved at redigere egenskaberne i visningen.
+Du skal vælge den relevante side til det brugerdefinerede felt. Hvis du har tilføjet feltet til gitteret, vil det sandsynligvis fremgå af den side for **Rediger række**, der bruges på felter, som gælder for hele rækken af tidsregistreringer. Hvis det brugerdefinerede felt har en entydig værdi i rækken hver dag (hvis det f.eks. er et brugerdefineret felt til sluttid), bør det fremgå af siden **Rediger tidsregistrering**.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Opret en ny standard og brugertilpasset tidsregistrering
-
-Denne visning skal indeholde felterne **Beskrivelse** og **Eksterne kommentarer** ud over de kolonner, der skal være i gitteret. 
-
-1. Vælg placeringen, størrelsen og standardsorteringsrækkefølgen i gitteret ved at redigere de pågældende egenskaber i visningen. 
-2. Konfigurer det brugerdefinerede kontrolelement for denne visning, så det bliver et kontrolelement af typen **Tidsregistreringsgitter**. 
-3. Føj dette kontrolelement til visningen, og vælg det til internettet, telefonen og tabletten. 
-4. Konfigurer parametrene for det ugentlige tidsregistreringsgitter. 
-5. Angiv feltet **Startdato** til **msdyn_date**, angiv feltet **Varighed** til **msdyn_duration**, og angiv feltet **Status** til **msdyn_entrystatus**. 
-6. I standardvisningen er feltet **Skrivebeskyttet statusliste** angivet til **192350002,192350003,192350004**. Feltet **Opgaveproces for redigering af række** er angivet til **msdyn_tidsregistreringredigeringafrække**. Feltet **Opgaveproces for redigering af celle** er angivet til **msdyn_tidsregistreringredigering**. 
-7. Du kan tilpasse disse felter for at tilføje eller fjerne status for skrivebeskyttelse eller bruge en anden opgavebaseret oplevelse (TBX) til række- eller celleredigering. Disse felter er nu bundet til en statisk værdi.
-
-
-> [!NOTE] 
-> Begge indstillinger fjerner noget af standardfiltreringen for objekterne **Projekt** og **Projektopgave**, så alle opslagsvisninger for objekterne er synlige. Som standard er det kun de relevante opslagsvisninger, der er synlige.
-
-Vælg den relevante opgaveproces til det brugerdefinerede felt. Hvis du har tilføjet feltet til gitteret, bør det blive placeret i opgaveprocessen for redigering af rækker, der bruges til felter, som gælder for hele rækken af tidsregistreringer. Hvis det brugerdefinerede felt har en entydig værdi hver dag, f.eks. et brugerdefineret felt for **Sluttidspunkt**, skal det placeres i celleredigeringen af opgaveprocessen.
-
-Hvis du vil føje det brugerdefinerede felt til en opgaveproces, skal du trække et **Felt**-element til den relevante placering på siden og derefter angive feltets egenskaber. Angiv egenskaben **Kilde** til **Tidsregistrering**, og angiv egenskaben **Datafelt** til det brugerdefinerede felt. Egenskaben **Felt** angiver det viste navn på TBX-siden. Vælg **Anvend** for at gemme dine ændringer i feltet, og vælg derefter **Opdater** for at gemme ændringerne på siden.
-
-Hvis du vil bruge en ny brugerdefineret TBX-side i stedet, skal du oprette en ny proces. Angiv kategorien til **Forretningsprocesforløb**, angiv objektet til **Tidsregistrering**, og angiv forretningsprocestypen til **Kør processen som en opgaveproces**. Egenskaben **Sidenavn** under **Egenskaber** skal angives til det viste navn for siden. Føj alle de relevante felter til TBX-siden. Gem og aktivér processen. Opdater egenskaben for det brugerdefinerede kontrolelement for den relevante opgaveproces til værdien af **Navn** i processen.
+Hvis du vil tilføje det brugerdefinerede felt til en side, skal du trække et **Felt**-element til den relevante placering på siden og derefter angive dets egenskaber.
 
 ### <a name="add-new-option-set-values"></a>Angive nye værdier for grupperet indstilling
-Hvis du vil føje værdier for grupperet indstilling til et standardfelt, skal du åbne redigeringssiden til feltet og under **Type** vælge **Rediger** ud for den grupperede indstilling. Tilføj en ny indstilling, der har et brugerdefineret navn og farve. Hvis du vil tilføje en ny status for tidsregistreringen, er kaldes standardfeltet **Status for registrering** og ikke **Status**.
+Hvis du vil tilføje værdier for en grupperet indstilling til et standardfelt, skal du udføre disse trin.
+
+1. Åbn redigeringssiden for feltet, og under **Type** skal du vælge **Rediger** ud for den grupperede indstilling.
+2. Tilføj en ny indstilling, der har et brugerdefineret navn og farve. Hvis du vil tilføje en ny status for tidsregistreringen, er navnet på standardfeltet **Status for registrering**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Angive en ny status for tidsregistrering som skrivebeskyttet
-Hvis du vil angive skrivebeskyttet som ny status for tidsregistreringen, skal du tilføje den nye værdi for tidsregistreringen til egenskaben **Skrivebeskyttet statusliste**. Den redigerbare del af tidsregistreringsgitteret låses for rækker, der har den nye status.
-Tilføj derefter forretningsregler for at låse alle felter på TBX-siderne **Redigering af tidsregistreringsrække** og **Redigering af tidsregistrering**. Du kan få adgang til forretningsreglerne for disse sider ved at åbne editoren for forretningsprocesforløb og derefter vælge **Forretningsregler**. Du kan føje den nye status til betingelsen i de eksisterende forretningsregler, eller du kan tilføje en ny forretningsregel for den nye status.
+Hvis du vil angive skrivebeskyttet som ny status for tidsregistreringen, skal du tilføje den nye værdi for tidsregistreringen til egenskaben **Skrivebeskyttet statusliste**. Sørg for at tilføje nummeret, ikke etiketten. Den redigerbare del af tidsregistreringsgitteret låses nu for rækker, der har den nye status. Hvis du vil angive forskellige egenskaber i form af **Skrivebeskyttet statusliste** for forskellige visninger af **Tidsregistrering**, skal du tilføje gitteret **Tidsregistrering** i en visnings afsnit med **Brugerdefineret kontrol** og konfigurere parameteren efter behov.
+
+Tilføj derefter forretningsregler for at låse alle felter på siderne **Rediger række** og **Rediger tidsregistrering**. Hvis du vil have adgang til forretningsreglerne på disse sider, skal du åbne formulareditor for hver side og derefter vælge **Forretningsregler**. Du kan føje den nye status til betingelsen i de eksisterende forretningsregler, eller du kan tilføje en ny forretningsregel for den nye status.
 
 ### <a name="add-custom-validation-rules"></a>Tilføje brugerdefinerede valideringsregler
-Der findes to typer valideringsregler, som du kan tilføje i det ugentlige tidsregistreringsgitter:
+Du kan tilføje to typer valideringsregler for gitteroplevelsen **Ugentlig tidsregistrering**:
 
-- Forretningsregler, der fungerer på klientsiden, i hurtig oprettelse af dialogbokse og på TBX-sider.
-- Plug-in-valideringer på serversiden, der gælder for alle tidsregistreringsopdateringer.
+- Forretningsregler på klientsiden, der fungerer på sider
+- Plug-in-valideringer på serversiden, der gælder for alle tidsregistreringsopdateringer
 
-#### <a name="business-rules"></a>Forretningsregler
-Brug forretningsregler til at låse og låse op for felter, angive standardværdier i felter og definere valideringer, der kun kræver oplysninger fra den aktuelle tidsregistreringspost. Du kan få adgang til forretningsreglerne for en TBX-side ved at åbne editoren for forretningsprocesforløb og derefter vælge **Forretningsregler**. Du kan derefter redigere de eksisterende forretningsregler eller tilføje en ny forretningsregel. Hvis du vil have endnu flere brugerdefinerede valideringer, kan du bruge en forretningsregel til at køre JavaScript.
+#### <a name="client-side-business-rules"></a>Forretningsregler på klientsiden
+Brug forretningsregler til at låse og låse op for felter, angive standardværdier i felter og definere valideringer, der kun kræver oplysninger fra den aktuelle tidsregistreringspost. Hvis du vil have adgang til forretningsreglerne for en side, skal du åbne formulareditor og derefter vælge **Forretningsregler**. Du kan derefter redigere de eksisterende forretningsregler eller tilføje en ny forretningsregel.
 
-#### <a name="plug-in-validations"></a>Plug-in-valideringer
-Brug plug-in-valideringer for alle valideringer, der kræver mere kontekst, end hvad der er tilgængeligt i en enkelt tidsregistreringspost eller for eventuelle valideringer, som du vil køre for indbyggede opdateringer i gitteret. Hvis du vil fuldføre valideringen, skal du oprette en brugerdefineret plug-in i objektet **Tidsregistrering**.
+#### <a name="server-side-plug-in-validations"></a>Validering af plug-in på serversiden
+Du skal bruge plug-in-valideringer for alle valideringer, der kræver mere kontekst, end der er tilgængelig i en enkelt tidsregistrering. Du skal også bruge dem til eventuelle valideringer, der skal køres på indbyggede opdateringer i gitteret. Hvis du vil fuldføre valideringerne, skal du oprette en brugerdefineret plug-in i objektet **Tidsregistrering**.
+
+### <a name="limits"></a>Grænser
+Gitteret **Tidsregistrering** har i øjeblikket en størrelsesbegrænsning på 500 rækker. Hvis der er mere end 500 rækker, vises overskydende rækker ikke. Det er ikke muligt at øge denne størrelsesbegrænsning.
 
 ### <a name="copying-time-entries"></a>Kopiering af tidsregistreringer
 Brug visningen **Kopier kolonner med tidsregistreringer** for at definere listen over de felter, der skal kopieres i forbindelse med tidsregistreringer. **Dato** og **Varighed** er obligatoriske felter og skal ikke fjernes fra visningen.

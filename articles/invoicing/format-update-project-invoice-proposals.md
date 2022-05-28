@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger om behandling af kundeorienterede
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989904"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585601"
 ---
 # <a name="manage-project-invoice-proposals"></a>Administrer forslag til projektfakturaer
 
@@ -22,7 +22,7 @@ Projektfakturaforslag kan behandles af din faktureringsafdeling, når følgende 
   - Projektlederen bekræfter proformafakturaen i Microsoft Dataverse.
   - Alle ikke-fakturerede salgstransaktioner, der er inkluderet i proformafakturaen, bogføres ved at integrere Dynamics 365 **Project Operations Integration**-kladden.
 
-Benyt følgende fremgangsmåde for at oprette et forslag til en projektfaktura i Dynamics 365 Finance.
+Brug følgende trin til at færdiggøre et projektfakturaforslag i Dynamics 365 Finance.
 
 1. Gennemse faktureringsoplysninger for tids- og materialetransaktioner, og bogfør kladden til **Integration af Project Operations**.
 2. Gennemse faktureringsoplysninger milepæle med fast prisfakturering.

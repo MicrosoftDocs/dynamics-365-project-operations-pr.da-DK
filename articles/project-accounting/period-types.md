@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger om, hvordan du kan konfigurere pe
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998769"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580449"
 ---
 # <a name="period-types"></a>Periodetyper
 
@@ -22,7 +22,7 @@ En periodetype definerer, hvor ofte omsætningen på et projekt estimeres. Dette
 ## <a name="create-and-work-with-period-types"></a>Opret og arbejd med periodetyper
 Hvis du vil oprette og arbejde med periodetyper, skal du udføre følgende trin:
 
-1. I dit Dynamics 365 Finance-miljø skal du gå til **Projektstyring og regnskab** > **Opsætning** > **Estimater** > **Periodetyper**.
+1. I dit Dynamics 365 Finance-miljø skal du gå til **Projektstyring og regnskab** > **Konfiguration** > **Estimater** > **Periodetyper**.
 2. Vælg **Ny** for at oprette nye periodetyper. Angiv et navn og en beskrivelse.
 3. Vælg en værdi i feltet **Hyppighed**:
 

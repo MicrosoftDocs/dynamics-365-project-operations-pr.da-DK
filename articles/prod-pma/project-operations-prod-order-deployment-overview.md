@@ -3,16 +3,15 @@ title: Udrulningsoversigt til Project Operations for lagerbaserede/produktionsba
 description: Dette emne indeholder oplysninger om udrulningstypen Project Operations for lagerbaserede/produktbaserede scenarier.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009074"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582473"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Udrulningsoversigt til Project Operations for lagerbaserede/produktionsbaserede scenarier
 
@@ -23,21 +22,21 @@ Denne udrulningstype har følgende funktioner for projektbaserede virksomheder:
 
 - Projektplanlægning ved hjælp af [Arbejdsopgavehierakier](work-breakdown-structures.md)
 - Fremskaf og forbrug lagerbeholdningen på projekter
-- Administrer projektbaseret salg ved hjælp af modulet **Salg og marketing** i Dynamics 365 Finance and Operations-apps
-- Projektprisfastsættelse og omkostningsfastsættelse ved hjælp af konfigurationerne for omkostningssats og faktureringshyppighed i Finance and Operations-apps
-- Ressourcestyring til projektstyring i Finance and Operations-apps
-- Sporing af projektets fremgang og tid i Finance and Operations-apps
+- Administrer projektbaseret salg ved hjælp af modulet **Salg og marketing** i Dynamics 365-programmer til finans og drift
+- Projektprisfastsætning og kostpris ved hjælp af konfigurationer af omkostningssats og fakturapris i programmer til finans og drift
+- Ressourcestyring til projekter i programmer til finans og drift
+- Projektfremgang og tidssporing i programmer til finans og drift
 - Funktioner til udgiftsstyring for projektrelaterede og ikkeprojektrelaterede udgifter med kvitteringsregistrering ved hjælp af optisk tegngenkendelsesfunktioner
 - Fakturering ved hjælp af moms i en virksomhedsklasse og valutakursersystem med ikrafttrædelsesdatoer
 - Konfigurerbare projektgrupper for regnskaber og periodiseringer for IGVA
 - Indtægtsføring for projekter
 
-Denne udrulningstype indeholder også en udvidelse af de funktioner, der leveres af programmerne Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+Denne udrulningstype kan også bruges til at udvide funktionaliteten i Dynamics 365 Finance- og Dynamics 365 Supply Chain Management-programmerne.
 
 Vælg denne udrulningstype for at bruge Dynamics 365 Project Operations til hele projektets livscyklus, herunder følgende vigtige forudsætninger:
 
 - Et omfattende projektstyringssystem, der styrer lagerregistrerede elementer og omkostninger for arbejde/produktionsordrer for interne og fakturerbare projekter i forbindelse med planer og finanser.
-- Organisationen har allerede programmerne Dynamics 365 Finance eller Dynamics 365 Supply Chain and Manufacturing, og integration af projektbaserede transaktioner vil forenkle behovene for adgang til data og rapportering.
+- Organisationen har allerede Dynamics 365 Finance eller Dynamics 365 Supply Chain and Manufactoring-apps, og integration af projektbaserede transaktioner gøre det nemmere at få adgang til data og rapportere data.
 - Et fuldt funktionsdygtigt omkostningsstyringssystem, der omfatter politikhåndhævelser og refusioner til sporing af projektrelaterede og ikkeprojektrelaterede udgifter.
 - Et avanceret program for moms i virksomhedsklasse og valutakurser, hvor du kan oprette kundeorienterede fakturaer til projekter.
 - Et system for projektregnskab og indtægtsføring, som overholder de internationale standarder for regnskabsaflæggelse.

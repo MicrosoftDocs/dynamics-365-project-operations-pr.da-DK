@@ -3,19 +3,19 @@ title: Installation af eksempeldata
 description: Dette emne indeholder oplysninger om installation af eksempeldata i Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985539"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581829"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation af eksempeldata til programmet Project Service
 
@@ -135,7 +135,7 @@ Demodatapakken kræver seks brugere. For at pakken skal blive installeret korrek
     - Brugers Fullname="Molly Clark" som regnskabschef   
     - Brugers Fullname= "Spencer Low" som praksis- og projektleder  
     - Brugers Fullname="Veronica Quek" som teammedlem   
-    - Brugers fulde navn ="William Contoso"
+    - Brugers Fullname="William Contoso"
   
 2. Hvad angår import af demonstrationsdata, skal du tildele de seks brugere over Administrator-rollen, så eksempelposterne importeres korrekt. 
 

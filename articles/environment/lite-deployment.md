@@ -2,44 +2,44 @@
 title: Udrul Project Operations - lille
 description: Dette emne indeholder oplysninger om, hvordan du installerer den lille udrulning af Project Operations - aftale til proformafakturering.
 author: stsporen
-ms.date: 10/02/2020
+ms.date: 02/28/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991569"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580725"
 ---
 # <a name="deploy-project-operations---lite"></a>Udrul Project Operations - lille
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Project Operations understøtter flere udrulningsmodeller. Du kan finde den bedste udrulningsmodel under [Udrulningstyper](determine-deployment-type.md).
 
 
 > [!IMPORTANT]
-> Denne udrulning, lille udrulnings – aftale til proformafakturering, resulterer en **Common Data Service-udrulning kun med Project Operations**.
+> Denne udrulning, lille udrulnings – aftale til proformafakturering, resulterer en **Dataverse-udrulning kun med Project Operations**.
 
-- [Installer Project Operations i et nyt CDS-miljø](#new)
-- [Installer i et eksisterende CDS-miljø](#existing)
+- [Installer Project Operations i et nyt Dataverse-miljø](#new)
+- [Installer i et eksisterende Dataverse-miljø](#existing)
 
 
 
-## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Installer Project Operations i et nyt CDS-miljø
+## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a>Installer Project Operations i et nyt Dataverse-miljø
 
-1. Som [Global eller Power Platform-administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations -licens kan du oprette et nyt CDS-miljø i [PowerPlatform Administration](https://admin.powerplatform.com). Kontroller, at **CDS-database** og **Dynamics 365-apps** er aktiveret. For flere oplysninger se [Opret og administrer miljøer i Power Platform Administrationen](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Som [Global eller Power Platform-administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations -licens kan du oprette et nyt Dataverse-miljø i [PowerPlatform Administration](https://admin.powerplatform.com). Sørg for, at **Opret en database til dette miljø** og **Dynamics 365-apps** er aktiveret. For flere oplysninger se [Opret og administrer miljøer i Power Platform Administrationen](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Vælg **Microsoft Dynamics 365 Project Operations** fra udrulningslisten for Dynamics 365-apps.
 
 
-## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Installer Project Operations i et eksisterende CDS-miljø
-
-1. Som [Global eller Power Platform-administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens skal du finde det miljø i [PowerPlatform Administration](https://admin.powerplatform.com), hvor du vil installere Project Operations.
-2. Installer **Microsoft Dynamics 365 Project Operations** fra udrulningslisten for Dynamics 365-apps. Du kan finde flere oplysninger i [Administrer Dynamics 365-apps](/power-platform/admin/manage-apps).
+## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a>Installer Project Operations i et eksisterende Dataverse-miljø
+1. Kontrollér, at miljøet ikke er konfigureret med [dobbelt skrivning](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), da installationen installerer funktionerne [Project Operations til ressourcebaserede/ikke-lagerbaserede scenarier](project-operations-integrated-deployment-overview.md).
+2. Som [Global eller Power Platform-administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens skal du finde det miljø i [PowerPlatform Administration](https://admin.powerplatform.com), hvor du vil installere Project Operations.
+3. Installer **Microsoft Dynamics 365 Project Operations** fra udrulningslisten for Dynamics 365-apps. Du kan finde flere oplysninger i [Administrer Dynamics 365-apps](/power-platform/admin/manage-apps).
 
 
 

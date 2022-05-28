@@ -2,16 +2,16 @@
 title: Indstillinger for projektkontrakter - lille
 description: Dette emne indeholder oplysninger om de felter, der påvirker kontraktlinjer, og de oplysninger om kontrakten, der opsummeres på tværs af alle linjeelementer.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995934"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586383"
 ---
 # <a name="header-details-for-project-contracts"></a>Overskriftsdetaljer for projektkontrakter
 
@@ -32,12 +32,15 @@ I følgende tabel vises felterne i en projektkontrakt, der er entydige for Dynam
 | Grænse, der ikke må overskrides | Fanen **Oversigt** | Dette felt angiver den aftalte maksimumsværdi for den slutværdi, som kunden har indvilliget i at betale i forbindelse med denne aftale. | Maksimumsværdien evalueres under udførelsen og er gældende på tværs af alle linjeelementer og projekter, der er knyttet til denne handel. |
 | Anmodet leveringsdato | Fanen **Oversigt** | Når en kontrakt oprettes ud fra et projekttilbud, kopieres dette felt fra det tilsvarende felt på projekttilbuddet. | Denne dato bruges som slutdatoen for at generere fakturaplaner. |
 
-Følgende nøgletal er tilgængelige under fanen **Kontraktens ydeevne** i en projektkontrakt.
+Følgende nøgletal er tilgængelige under fanen **Kontraktens ydeevne** i en projektkontrakt. 
 
-| Felt | Lokation | Beskrivelse |
+>[!NOTE]
+>Alle beløb under fanen **Kontraktresultater** angives i miljøets standardvaluta.
+
+| Felt | Lokation | Description |
 | --- | --- | --- |
-| Kontraktværdi | Overordnet kontrakt | Den samlede værdi af projektkontrakten. |
-| Faktureret beløb | Overordnet kontrakt | Summen af beløbene på alle fakturaer i forhold til denne kontrakt. |
+| Kontraktværdi | Overordnet kontrakt | Den samlede værdi af projektkontrakten.|
+| Faktureret beløb | Overordnet kontrakt | Summen af beløbene på alle fakturaer i forhold til denne kontrakt.|
 | Påløbne omkostninger | Overordnet kontrakt | Summen af alle de faktiske omkostninger, der er logført i alle de projekter, som er knyttet til kontrakten. |
 | Bruttoavance | Overordnet kontrakt | Faktureret beløb – omkostninger, der er påløbet frem til dags dato/faktureret beløb |
 | Anslået avance | Overordnet kontrakt | (Kontraktværdi – estimerede omkostninger)/KontraktværdiEstimerede omkostninger = summen af alle estimerede omkostninger for alle projekter, der er knyttet til kontrakten.|

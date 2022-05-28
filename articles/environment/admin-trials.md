@@ -2,22 +2,22 @@
 title: Tilmeld dig prøveversioner af Project Operations
 description: Dette emne indeholder oplysninger om, hvordan du udruller en prøveversion af Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901610"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584267"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Tilmeld dig prøveversioner af Project Operations 
 
 _**Gælder for:** Project Operations for ressource/ikke-lagerbaserede scenarier, lille udrulning - aftale om proformafakturering og Project Operations for lagerbaserede/produktionsbaserede scenarier_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emne forklarer, hvordan du abonnerer på vores partneres tilbud om forhåndsvisning og udrulning af et Dynamics 365 Project Operations-miljø.
 
@@ -36,7 +36,6 @@ I følgende tabel beskrives detaljerne i det nye prøvetilbud.
 | Tilbuddets anvendelse                    | Én gang pr. lejer                          |
 | Tilbuddets varighed               | 30 kalenderdage                             |
 | Accepter pr. lejer       | 0                                            |
-| Antal brugere              | 25                                           |
 | Filtypenavn                    | En udvidelse, 30 kalenderdage               |
 | Antal prøveversionsmiljøer | 3                                            |
 
@@ -87,7 +86,7 @@ Inden du begynder, skal du logge på en browser med brugerkontoen i den lejer, h
  
   Når klargøring er fuldført, er tilstanden for miljøet **Klar**. Klargøring af miljøet omfatter udrulning af demodata.
  
-4.  Vælg den respektive URL-adresse for Microsoft Dataverse og for Finance and Operations- apps for at validere udrulningen.
+4.  Vælg den respektive Microsoft Dataverse-URL-adresse for programmer til finans og drifts URL-adresse og for at validere udrulningen.
 
 ## <a name="configuring-dual-write"></a>Konfiguration af dobbeltskrivning
 - Hvis du vil konfigurere sikkerhedsroller for dobbelt skrivning, skal du se [Opdatering af sikkerhedsindstillinger for Project Operations i Dataverse](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ Inden du begynder, skal du logge på en browser med brugerkontoen i den lejer, h
 
 Du skal have administratoradgang til din organisations Microsoft 365-portal for at fuldføre følgende trin.
 
-1. Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenserne til dine brugere.
+1. Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenserne til brugerne.
 
    ![Startside for Administration](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Følgende ressourcer indeholder nyttige vejledninger, når du starter arbejdet m
 
 ## <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Hvad skal jeg gøre, hvis jeg har brug for ALM eller ELM til mine Finance and Operations-apps-miljøer?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Hvad skal jeg gøre, hvis jeg har brug for ALM eller ELM til mine miljøer til programmer til finans og drift?
 
 - For partnere, der har brug for alle funktioner til administration af miljøets livscyklus, se [Anmodning til partnerlicens til sandkasse](https://experience.dynamics.com/requestlicense) for at gennemgå det nye partnertilbud. 
 - For partnere, der ønsker flere oplysninger om interne brugsrettigheder, se [Interne brugerrettighedscloud og softwarefordele (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

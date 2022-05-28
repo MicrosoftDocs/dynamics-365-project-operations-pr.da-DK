@@ -4,20 +4,20 @@ description: Dette emne indeholder oplysninger om nøglekoncepterne i projektkon
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991434"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580587"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Begreber, der er entydige for projektkontrakter
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emne indeholder de vigtigste koncepter, som du skal være opmærksom på, før du går i gang med at bruge projektkontrakter i Dynamics 365 Project Operations:
 

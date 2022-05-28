@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815842"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582013"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations, september 2021 for lagerbaserede/produktionsbaserede scenarier
 
@@ -91,6 +91,6 @@ Dette emne gælder for følgende komponenter og versioner af Microsoft Dynamics 
 
 ## <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
 
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på Microsoft Dynamics Lifecycle Services (LCS) og bruge problemsøgningsværktøjet til at få vist planlagte lovpligtige opdateringer. Problemsøgning giver dig mulighed for at søge efter land eller område, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til programmer til finans og drift under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på Microsoft Dynamics Lifecycle Services (LCS) og bruge problemsøgningsværktøjet til at få vist planlagte lovpligtige opdateringer. Problemsøgning giver dig mulighed for at søge efter land eller område, funktionstype og udgivelse.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

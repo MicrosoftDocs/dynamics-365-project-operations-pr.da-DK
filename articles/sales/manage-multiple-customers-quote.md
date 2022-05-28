@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger om, hvordan du kan arbejde med ti
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 34fbe426020dbf329c02c510f6366f189f35afab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991974"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585877"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administrer flere kunder i et projekttilbud
 

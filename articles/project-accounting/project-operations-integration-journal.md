@@ -4,29 +4,29 @@ description: Dette emne indeholder oplysninger om, hvordan du kan arbejde med kl
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987924"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582427"
 ---
 # <a name="integration-journal-in-project-operations"></a>Kladde til integration i Project Operations
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Poster med tidsforbrug og udgifter opretter **Faktiske** transaktioner, som repræsenterer den operationelle visning af udfært arbejde i forhold til et projekt. Dynamics 365 Project Operations giver revisorer et værktøj til at revidere transaktioner og om nødvendigt justering af regnskabsattributter. Når gennemgangen og justeringerne er fuldført, bogføres transaktionerne i projektets underfinanskladde og finanskladde. En revisor kan udføre disse aktiviteter ved hjælp af kladden til **Integration af Project Operations** (**Dynamics 365 Finance** > **Projektstyring og regnskab** > **Kladder** > **Integration af Project Operations**).
+Poster med tidsforbrug og udgifter opretter **Faktiske** transaktioner, som repræsenterer den operationelle visning af udfært arbejde i forhold til et projekt. Dynamics 365 Project Operations giver revisorer et værktøj til at revidere transaktioner og om nødvendigt justering af regnskabsattributter. Når gennemgangen og justeringerne er fuldført, bogføres transaktionerne i projektets underfinanskladde og finanskladde. En revisor kan udføre disse aktiviteter ved hjælp af kladden **Project Operations-integration** (**Dynamics 365 Finance** > **Projektstyring og regnskab** > **Kladder** > **Project Operations-integration**.
 
 ![Flow for integration af kladde.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Opret poster i kladden til integration af Project Operations
 
-Poster i kladden til integration af Project Operations oprettes ved hjælp af den periodiske proces **Importer fra den midlertidige tabel**. Du kan køre denne proces ved at gå til **Dynamics 365 Finance** > **Projektstyring og regnskab** > **Periodisk** > **Integration af Project Operations** > **Importer fra den midlertidige tabel**. Du kan køre processen interaktivt eller konfigurere processen til at køre i baggrunden efter behov.
+Poster i kladden til integration af Project Operations oprettes ved hjælp af den periodiske proces **Importer fra den midlertidige tabel**. Du kan køre denne proces ved at gå til **Dynamics 365 Finance** > **Projektstyring og regnskab** > **Periodisk** > **Project Operations-integration** > **Import fra den midlertidige tabel**. Du kan køre processen interaktivt eller konfigurere processen til at køre i baggrunden efter behov.
 
 Når den periodiske proces kører, findes der eventuelle faktiske værdier, der endnu ikke er føjet til kladden til integration af Project Operations. Der oprettes en kladdelinje for hver enkelt faktisk transaktion.
-Systemet grupperer kladdelinjerne i separate kladder på basis af den valgte værdi i feltet **Periodeenhed i kladden for integration af Project Operations** (**Finance** > **Projektstyring og regnskab** > **Opsætning** > **Parametre for projektstyring og regnskab**, fanen **Project Operations på Dynamics 365 Customer Engagement**). De mulige værdier for dette felt omfatter:
+Systemet grupperer kladdelinjer i separate kladder baseret på den værdi, der er valgt i feltet **Periodeenhed i Project Operations-integrationskladde** (**Finance** > **Projektstyring og regnskab** > **Konfiguration** > **Projektstyrings- og regnskabsparametre**, **Project Operations på fanen Dynamics 365 Customer Engagement**). De mulige værdier for dette felt omfatter:
 
   - **Dage**: De faktiske værdier er grupperet efter transaktionsdato. Der oprettes en separat kladde for hver dag.
   - **Måneder**: De faktiske værdier er grupperet efter kalendermåned. Der oprettes en separat kladde for hver måned.
@@ -40,10 +40,10 @@ Kladdelinjer oprettes på baggrund af de faktiske projektoplysninger. Følgende 
   - Feltet **Bilag** viser bilagsnummeret for alle faktiske transaktioner. Bilagsnummerserien defineres under fanen **Nummerserier** på siden **Parametre for projektstyring og regnskab**. Hver linje tildeles et nyt nummer. Når bilaget er bogført, kan du se, hvordan omkostninger og ikke-faktureret salgstransaktion relateres, ved at vælge **Relaterede bilag** på siden **Bilagstransaktion**.
   - Feltet **Kategori** repræsenterer en projekttransaktioner og standarder, der er baseret på transaktionskategorien for den relaterede faktiske projektværdi.
     - Hvis **Transaktionskategorien** er angivet i projektets faktiske værdi, og der findes en relateret **Projektkategori** i en bestemt juridisk enhed, bruges denne projektkategori som standard.
-    - Hvis **Transaktionskategorien** ikke er angivet i projektets faktiske værdi, bruger systemet værdien i feltet **Standardkategorier for projekt** på fanen **Project Operations på Dynamics 365 Customer Engagement** på siden **Parametre for projektstyring og regnskab**.
+    - Hvis **Transaktionskategorien** ikke er angivet i de faktiske projektværdier, bruger systemet værdien i feltet **Projektkategoristandarder** under fanen **Project Operations på Dynamics 365 Customer Engagement** på siden **Projektstyrings- og regnskabsparametre**.
   - Feltet **Ressource** repræsenterer den projektressource, der er knyttet til denne transaktion. Ressourcen bruges som reference i projektfakturaforslag til kunder.
-  - Feltet **Valutakurs** udfyldes som standard fra den **Valutakurser**, der er angivet i Dynamics 365 Finance. Hvis der mangler en valutakurskonfiguration, tilføjer den periodiske proces **Importer fra midlertidig** ikke posten til en kladde under importen, og der tilføjes en fejlmeddelelse til jobbets udførelseslog.
-  - Feltet **Linjeegenskab** repræsenterer faktureringstypen i projektets faktiske værdier. Tilknytning af linjeegenskab og faktureringstype defineres på fanen **Project Operations på Dynamics 365 Customer Engagement** på siden **Parametre for projektstyring og regnskab**.
+  - Feltet **Valutakurser** bruges som standard ud fra den **Valutakurs**, der er angivet i Dynamics 365 Finance. Hvis der mangler en valutakurskonfiguration, tilføjer den periodiske proces **Importer fra midlertidig** ikke posten til en kladde under importen, og der tilføjes en fejlmeddelelse til jobbets udførelseslog.
+  - Feltet **Linjeegenskab** repræsenterer faktureringstypen i projektets faktiske værdier. Tilknytning af linjeegenskab og faktureringstype defineres under fanen **Project Operations på fanen Dynamics 365 Customer Engagement** på siden **Projektstyrings- og regnskabsparametre**.
 
 Det er kun følgende regnskabsattributter, der kan opdateres i integrationskladdelinjerne i Project Operations:
 

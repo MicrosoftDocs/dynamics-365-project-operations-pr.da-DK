@@ -4,26 +4,26 @@ description: Dette emne indeholder oplysninger om nøglekoncepterne i projektkon
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986934"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582933"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Begreber, der er entydige for projektbaserede kontrakter
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emne indeholder de vigtigste koncepter, som du skal være opmærksom på, før du går i gang med at bruge projektkontrakter i Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Ejende virksomhed
 
-'Ejerselskabet er den juridiske enhed fra i modulet **Projektstyring og regnskab** til Project Operations fra Dynamics 365 Finance. Ejerselskabet repræsenterer den juridiske enhed, som skal stå til regnskab for de omkostninger og indtægter, der periodiseres for en handel.
+Den ejende virksomhed er den juridiske enhed fra modulet **Projektstyring og regnskab** for Project Operations fra Dynamics 365 Finance. Ejerselskabet repræsenterer den juridiske enhed, som skal stå til regnskab for de omkostninger og indtægter, der periodiseres for en handel.
 
 ## <a name="contracting-unit"></a>Kontraktenhed
 

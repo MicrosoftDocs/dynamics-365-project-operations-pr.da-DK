@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger, som hjælper dig med at fastlæg
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994629"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584129"
 ---
 # <a name="determine-your-deployment-type"></a>Vælg din udrulningstype
 
@@ -25,7 +25,7 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Eksisterende Dynamics-kunder, som anvender Dynamics 365 Project Service Automation
 Project operations omfatter de funktioner, der blev leveret sammen med Project Service Automation. Der udgives en opgraderingssti for disse kunder i den første frigivelsesbølge i 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Eksisterende Dynamics 365 Finance-kunder, som anvender projektstyring og regnskab 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Eksisterende kunder i Dynamics 365 Finance ved hjælp af projektstyring og regnskab 
 
 Eksisterende Finance-kunder, der benytter funktionen Projektstyring og regnskab, kan fortsætte med at bruge den, som hidtil. Se [Project Operations for lagerbaserede/produktionsordrescenarier](#pma).
 
@@ -42,7 +42,7 @@ Vores [Spørgeskema vedrørende udrulning](https://aka.ms/provisionprojectoperat
 - [Project Operations for ressource/ikke-lagerscenarier](#integrated)
 - [Project Operations for lagerbaserede/produktionsordrescenarier](#pma)
 
-Project Operations understøtter scenarier med lagerførte-/produktionsordre og ikke-lagerførte-/ressourcebaserede scenarier i samme miljø via konfigurationer på juridisk enhedsniveau. Contoso kan f.eks. bruge funktionerne til lager-/produktionsordre i deres facilitet til produktion i USA (juridisk enhed = Contoso Manufacturing USA). Contoso kan bruge de ikke-lagerbaserede/ressourcebaserede funktioner i deres serviceringsfacilitet for Contoso Robotics Arms i Storbritannien (juridisk enhed = Contoso Robotics Storbritannien).
+Project Operations understøtter scenarier med lagerførte-/produktionsordre og ikke-lagerførte-/ressourcebaserede scenarier i samme miljø via konfigurationer på juridisk enhedsniveau. Contoso kan f eks. bruge egenskaberne for lagerbaserede ordrer/produktionsordre i deres amerikanske produktionsanlæg (juridisk enhed = Contoso Manufacturing USA). Contoso kan bruge de ikke-lagerbaserede/ressourcebasered egenskaber i deres servicevirksomhed Contoso Robotics Arms i Storbritannien (juridisk enhed = Contoso Robotics Storbritannien).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lille udrulning - aftale til proformafakturering
 
