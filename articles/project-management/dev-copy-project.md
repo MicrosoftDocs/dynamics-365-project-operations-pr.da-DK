@@ -2,76 +2,80 @@
 title: Udarbejd projektskabeloner med Kopier projekt
 description: Dette emne indeholder oplysninger om, hvordan du opretter projektskabeloner ved hjælp af den brugerdefinerede handling Kopier projekt.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989239"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590891"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Udarbejd projektskabeloner med Kopier projekt
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations understøtter muligheden for at kopiere et projekt og tilbageføre eventuelle tildelinger til de standardressourcer, der repræsenterer rollen. Kunder kan bruge denne funktion til at oprette grundlæggende projektskabeloner.
 
 Når du vælger **Kopier projekt**, opdateres statussen for destinationsprojektet. Brug **Statusårsag** til at bestemme, hvornår kopieringen er fuldført. Hvis du vælge **Kopier projekt**, opdateres startdatoen for projektet også til den aktuelle startdato, hvis der ikke er registreret nogen destinationsdato i destinationsprojektobjektet.
 
-## <a name="copy-project-custom-action"></a>Den brugerdefinerede handling for Kopier projekt 
+## <a name="copy-project-custom-action"></a>Den brugerdefinerede handling for Kopier projekt
 
-### <a name="name"></a>Navn 
+### <a name="name"></a>Name 
 
-**msdyn_KopierProjektV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Inputparametre
+
 Der er tre inputparametre:
 
-| Parameter          | Skriv   | Værdier                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| IndstillingKopierProjekt  | String | **{"fjernNavngivneRessourcer":sand}** eller **{"RydTeamsOgTildelinger": sand}** |
-| KildeProjekt      | Objektreference | Kildeprojekt |
-| Destination             | Objektreference | Destinationsprojekt |
+- **ReplaceNamedResources** eller **ClearTeamsAndAssignments** – Angiv kun én af indstillingerne. Du skal ikke angive begge.
 
+    - **\{"ReplaceNamedResources":true\}** – Standardfunktionsmåden for Project Operations. Alle navngivne ressourcer erstattes med generiske ressourcer.
+    - **\{"ClearTeamsAndAssignments":true\}** – Standardfunktionsmåden for Project for the Web. Alle tildelinger og teammedlemmer fjernes.
 
-- **{"RydTeamsOgTildelinger":sand}**: Tre standardfunktionsmåder for Project til internettet og fjerner alle tildelinger og teammedlemmer.
-- **{"fjernNavngivneRessourcer": sand}** Standardfunktionsmåden for Project Operations og vil gendanne tildelinger til generiske ressourcer.
+- **SourceProject** – Objektreferencen for det kildeprojekt, der skal kopieres fra. Dette parameter kan ikke være null.
+- **Destination** – Objektreferencen for det destinationsprojekt, der skal kopieres til. Dette parameter kan ikke være null.
 
-Du kan finde flere oplysninger om handlinger under [Anvend WEB-API-handlinger](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+I følgende tabel vises en oversigt over de tre parametre.
 
-## <a name="specify-fields-to-copy"></a>Angiv de felter, der skal kopieres 
+| Parameter                | Skriv             | Værdi                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Boolean          | **Sandt** eller **Falsk** |
+| ClearTeamsAndAssignments | Boolean          | **Sandt** eller **Falsk** |
+| KildeProjekt            | Objektreference | Kildeprojektet    |
+| Target                   | Objektreference | Destinationsprojektet    |
+
+Du kan finde flere oplysninger om handlinger under [Anvend WEB-API-handlinger](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Valideringer
+
+Følgende valideringer udføres.
+
+1. Null-kontrollerer og henter kilde- og destinationsprojektet for at bekræfte, at begge projekter findes i organisationen.
+2. Systemet validerer, at destinationsprojektet er gyldigt til kopiering, ved at kontrollere følgende betingelser:
+
+    - Der er ingen tidligere aktiviteter i projektet (herunder valg af fanen **Opgaver**), og projektet er nyoprettede.
+    - Der er ingen tidligere kopi, der er ikke anmodet om import til dette projekt, og projektet har ikke statussen **Mislykkedes**.
+
+3. Handlingen kaldes ikke ved hjælp af HTTP.
+
+## <a name="specify-fields-to-copy"></a>Angiv de felter, der skal kopieres
+
 Når handlingen kaldes, kigger **Kopier projekt** på projektvisningen **Kopier projektkolonner** for at afgøre, hvilke felter der skal kopieres, når projektet kopieres.
 
-
 ### <a name="example"></a>Eksempel
-I følgende eksempel vises det, hvordan du kan kalde den brugerdefinerede handling **Kopier projekt** med angivelsen af parameteren **fjernNavngivneRessourcer**.
+
+I følgende eksempel vises, hvordan du kan kalde den brugerdefinerede handling **CopyProjectV3**, hvor parameteren **removeNamedResources** er angivet.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ I følgende eksempel vises det, hvordan du kan kalde den brugerdefinerede handli
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

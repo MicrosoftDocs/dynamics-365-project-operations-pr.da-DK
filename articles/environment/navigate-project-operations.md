@@ -4,25 +4,25 @@ description: Dette emne indeholder oplysninger om, hvordan du får adgang til Pr
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994584"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591857"
 ---
 # <a name="navigate-project-operations"></a>Naviger i Project Operations
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Project Operations for ressource/ikke-lagerførte scenarier består af to komponenter: 
 
  - **Project Operations på Common Data Service-miljø (CDS)**: Denne komponent indeholder funktioner og processer fra salgsmulighed til proformafakturering. 
- - **Projektstyring og regnskab på Dynamics 365 Finance-miljø**: Denne komponent indeholder funktioner til udgiftsstyring, projektregnskab og indtægtsføring. 
+ - **Projektstyring og regnskab på Dynamics 365 Finance-miljøet**: Denne komponent omfatter funktioner til omkostningsstyring, projektregnskab og indtægtsføring. 
 
 Når du har klargjort Project Operations som beskrevet i dette emne, giver siden med **Miljødetaljer** i Lifecycle Services (LCS) let adgang til begge komponenter i Project Operations.  
 

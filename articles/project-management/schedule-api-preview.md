@@ -2,16 +2,16 @@
 title: Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter
 description: Dette emne indeholder oplysninger og eksempler på brug af projektplanlægnings-API'er.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487678"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592041"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter
 
@@ -42,7 +42,7 @@ OperationSet er et arbejdsenhedsmønster, der kan bruges, når flere forespørgs
 
 Følgende er en liste over aktuelle projektplanlægnings-API'er.
 
-- **msdyn_CreateProjectV1**: Denne API kan bruges til at oprette et projekt. Projekt- og standardprojektbucket oprettes med det samme.
+- **msdyn_CreateProjectV1**: Denne API kan bruges til at oprette et projekt. Projekt- og standardprojektet-bucket oprettes med det samme.
 - **msdyn_CreateTeamMemberV1**: Denne API kan bruges til at oprette et projektteammedlem. Teammedlemsposten oprettes med det samme.
 - **msdyn_CreateOperationSetV1**: Denne API kan bruges til at planlægge flere forespørgsler, der skal udføres i en transaktion.
 - **msdyn_PSSCreateV1**: Denne API kan bruges til at oprette et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter oprettelseshandlingen.
@@ -56,14 +56,14 @@ Da poster med både **CreateProjectV1** og **CreateTeamMemberV1** oprettes med d
 
 ## <a name="supported-operations"></a>Understøttede handlinger
 
-| Planlægningsobjekt | Opret | Opdatering | Delete | Vigtige overvejelser |
+| Planlægningsobjekt | Opret | Opdater | Delete | Vigtige overvejelser |
 | --- | --- | --- | --- | --- |
-Projektopgave | Ja | Ja | Ja | Intet |
-| Projektopgaveafhængighed | Ja | Ja | | Projektopgaveafhængighedsposter opdateres ikke. I stedet kan en gammel post slettes, og der kan oprettes en ny post. |
+Projektopgave | Ja | Ja | Ja | Felterne **Fremgang**, **EffortCompleted** og **EffortRemaining** kan redigeres i Project for the Web, men de kan ikke redigeres i Project Operations.  |
+| Projektopgaveafhængighed | Ja |  | Ja | Projektopgaveafhængighedsposter opdateres ikke. I stedet kan en gammel post slettes, og der kan oprettes en ny post. |
 | Ressourcetildeling | Ja | Ja | | Handlinger med følgende felter understøttes ikke: **BookableResourceID**, **Indsats**, **EffortCompleted**, **EffortRemaining** og **PlannedWork**. Ressourcetildelingsposter opdateres ikke. I stedet kan den gamle post slettes, og der kan oprettes en ny post. |
-| Projektbucket | I/R | I/R | I/R | Standardbucket oprettes ved hjælp af API'en **CreateProjectV1**. |
+| Projektbucket | Ja | Ja | Ja | Standardplaceringen oprettes ved hjælp af API'en **CreateProjectV1**. I frigivelsen af opdatering 16 blev der tilføjet support til oprettelse og sletning af projektbucket. |
 | Projektteammedlem | Ja | Ja | Ja | Brug API'en **CreateTeamMemberV1** til oprettelseshandlingen. |
-| Project | Ja | Ja | I/R | Handlinger med følgende felter understøttes ikke: **StateCode**, **BulkStatus**, **GlobalRevisionToken**, **CalendarID**, **Indsats**, **EffortCompleted**, **EffortRemaining**, **Status**, **Afsluttet**, **TaskEarliestStart** og **Varighed**. |
+| Project | Ja | Ja |  | Handlinger med følgende felter understøttes ikke: **StateCode**, **BulkStatus**, **GlobalRevisionToken**, **CalendarID**, **Indsats**, **EffortCompleted**, **EffortRemaining**, **Status**, **Afsluttet**, **TaskEarliestStart** og **Varighed**. |
 
 Disse API'er kan kaldes sammen med enhedsobjekter, der indeholder brugerdefinerede felter.
 
@@ -75,192 +75,203 @@ I følgende tabeller defineres de felter, der er begrænset fra **Opret** og **R
 
 ### <a name="project-task"></a>Projektopgave
 
-| **Logisk navn**                       | **Kan oprette** | **Kan redigere**     |
+| Logisk navn                           | Kan oprette     | Kan redigere         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | nej             | nej               |
-| msdyn_actualcost_base                  | nej             | nej               |
-| msdyn_actualend                        | nej             | nej               |
-| msdyn_actualsales                      | nej             | nej               |
-| msdyn_actualsales_base                 | nej             | nej               |
-| msdyn_actualstart                      | nej             | nej               |
-| msdyn_costatcompleteestimate           | nej             | nej               |
-| msdyn_costatcompleteestimate_base      | nej             | nej               |
-| msdyn_costconsumptionpercentage        | nej             | nej               |
-| msdyn_effortcompleted                  | nej             | nej               |
-| msdyn_effortestimateatcomplete         | nej             | nej               |
-| msdyn_iscritical                       | nej             | nej               |
-| msdyn_iscriticalname                   | nej             | nej               |
-| msdyn_ismanual                         | nej             | nej               |
-| msdyn_ismanualname                     | nej             | nej               |
-| msdyn_ismilestone                      | nej             | nej               |
-| msdyn_ismilestonename                  | nej             | nej               |
-| msdyn_LinkStatus                       | nej             | nej               |
-| msdyn_linkstatusname                   | nej             | nej               |
-| msdyn_msprojectclientid                | nej             | nej               |
-| msdyn_plannedcost                      | nej             | nej               |
-| msdyn_plannedcost_base                 | nej             | nej               |
-| msdyn_plannedsales                     | nej             | nej               |
-| msdyn_plannedsales_base                | nej             | nej               |
-| msdyn_pluginprocessingdata             | nej             | nej               |
-| msdyn_progress                         | nej             | nej (ja for P4W) |
-| msdyn_remainingcost                    | nej             | nej               |
-| msdyn_remainingcost_base               | nej             | nej               |
-| msdyn_remainingsales                   | nej             | nej               |
-| msdyn_remainingsales_base              | nej             | nej               |
-| msdyn_requestedhours                   | nej             | nej               |
-| msdyn_resourcecategory                 | nej             | nej               |
-| msdyn_resourcecategoryname             | nej             | nej               |
-| msdyn_resourceorganizationalunitid     | nej             | nej               |
-| msdyn_resourceorganizationalunitidname | nej             | nej               |
-| msdyn_salesconsumptionpercentage       | nej             | nej               |
-| msdyn_salesestimateatcomplete          | nej             | nej               |
-| msdyn_salesestimateatcomplete_base     | nej             | nej               |
-| msdyn_salesvariance                    | nej             | nej               |
-| msdyn_salesvariance_base               | nej             | nej               |
-| msdyn_scheduleddurationminutes         | nej             | nej               |
-| msdyn_scheduledend                     | nej             | nej               |
-| msdyn_scheduledstart                   | nej             | nej               |
-| msdyn_schedulevariance                 | nej             | nej               |
-| msdyn_skipupdateestimateline           | nej             | nej               |
-| msdyn_skipupdateestimatelinename       | nej             | nej               |
-| msdyn_summary                          | nej             | nej               |
-| msdyn_varianceofcost                   | nej             | nej               |
-| msdyn_varianceofcost_base              | nej             | nej               |
+| msdyn_actualcost                       | Nr.             | Nr.               |
+| msdyn_actualcost_base                  | Nr.             | Nr.               |
+| msdyn_actualend                        | Nr.             | Nr.               |
+| msdyn_actualsales                      | Nr.             | Nr.               |
+| msdyn_actualsales_base                 | Nr.             | Nr.               |
+| msdyn_actualstart                      | Nr.             | Nr.               |
+| msdyn_costatcompleteestimate           | Nr.             | Nr.               |
+| msdyn_costatcompleteestimate_base      | Nr.             | Nr.               |
+| msdyn_costconsumptionpercentage        | Nr.             | Nr.               |
+| msdyn_effortcompleted                  | Nej (ja til projekt)             | Nej (ja til projekt)               |
+| msdyn_effortremaining                  | Nej (ja til projekt)              | Nej (ja til projekt)                |
+| msdyn_effortestimateatcomplete         | Nr.             | Nr.               |
+| msdyn_iscritical                       | Nr.             | Nr.               |
+| msdyn_iscriticalname                   | Nr.             | Nr.               |
+| msdyn_ismanual                         | Nr.             | Nr.               |
+| msdyn_ismanualname                     | Nr.             | Nr.               |
+| msdyn_ismilestone                      | Nr.             | Nr.               |
+| msdyn_ismilestonename                  | Nr.             | Nr.               |
+| msdyn_LinkStatus                       | Nr.             | Nr.               |
+| msdyn_linkstatusname                   | Nr.             | Nr.               |
+| msdyn_msprojectclientid                | Nr.             | Nr.               |
+| msdyn_plannedcost                      | Nr.             | Nr.               |
+| msdyn_plannedcost_base                 | Nr.             | Nr.               |
+| msdyn_plannedsales                     | Nr.             | Nr.               |
+| msdyn_plannedsales_base                | Nr.             | Nr.               |
+| msdyn_pluginprocessingdata             | Nr.             | Nr.               |
+| msdyn_progress                         | Nej (ja til projekt)             | Nej (ja til projekt) |
+| msdyn_remainingcost                    | Nr.             | Nr.               |
+| msdyn_remainingcost_base               | Nr.             | Nr.               |
+| msdyn_remainingsales                   | Nr.             | Nr.               |
+| msdyn_remainingsales_base              | Nr.             | Nr.               |
+| msdyn_requestedhours                   | Nr.             | Nr.               |
+| msdyn_resourcecategory                 | Nr.             | Nr.               |
+| msdyn_resourcecategoryname             | Nr.             | Nr.               |
+| msdyn_resourceorganizationalunitid     | Nr.             | Nr.               |
+| msdyn_resourceorganizationalunitidname | Nr.             | Nr.               |
+| msdyn_salesconsumptionpercentage       | Nr.             | Nr.               |
+| msdyn_salesestimateatcomplete          | Nr.             | Nr.               |
+| msdyn_salesestimateatcomplete_base     | Nr.             | Nr.               |
+| msdyn_salesvariance                    | Nr.             | Nr.               |
+| msdyn_salesvariance_base               | Nr.             | Nr.               |
+| msdyn_scheduleddurationminutes         | Nr.             | Nr.               |
+| msdyn_scheduledend                     | Nr.             | Nr.               |
+| msdyn_scheduledstart                   | Nr.             | Nr.               |
+| msdyn_schedulevariance                 | Nr.             | Nr.               |
+| msdyn_skipupdateestimateline           | Nr.             | Nr.               |
+| msdyn_skipupdateestimatelinename       | Nr.             | Nr.               |
+| msdyn_summary                          | Nr.             | Nr.               |
+| msdyn_varianceofcost                   | Nr.             | Nr.               |
+| msdyn_varianceofcost_base              | Nr.             | Nr.               |
 
 ### <a name="project-task-dependency"></a>Projektopgaveafhængighed
 
-| **Logisk navn**              | **Kan oprette** | **Kan redigere** |
+| Logisk navn                  | Kan oprette     | Kan redigere     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | nej             | nej           |
-| msdyn_linktypename            | nej             | nej           |
-| msdyn_predecessortask         | ja            | nej           |
-| msdyn_predecessortaskname     | ja            | nej           |
-| msdyn_project                 | ja            | nej           |
-| msdyn_projectname             | ja            | nej           |
-| msdyn_projecttaskdependencyid | ja            | nej           |
-| msdyn_successortask           | ja            | nej           |
-| msdyn_successortaskname       | ja            | nej           |
+| msdyn_linktype                | Nr.             | Nr.           |
+| msdyn_linktypename            | Nr.             | Nr.           |
+| msdyn_predecessortask         | Ja            | Nr.           |
+| msdyn_predecessortaskname     | Ja            | Nr.           |
+| msdyn_project                 | Ja            | Nr.           |
+| msdyn_projectname             | Ja            | Nr.           |
+| msdyn_projecttaskdependencyid | Ja            | Nr.           |
+| msdyn_successortask           | Ja            | Nr.           |
+| msdyn_successortaskname       | Ja            | Nr.           |
 
 ### <a name="resource-assignment"></a>Ressourcetildeling
 
-| **Logisk navn**             | **Kan oprette** | **Kan redigere** |
+| Logisk navn                 | Kan oprette     | Kan redigere     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | ja            | nej           |
-| msdyn_bookableresourceidname | ja            | nej           |
-| msdyn_bookingstatusid        | nej             | nej           |
-| msdyn_bookingstatusidname    | nej             | nej           |
-| msdyn_committype             | nej             | nej           |
-| msdyn_committypename         | nej             | nej           |
-| msdyn_effort                 | nej             | nej           |
-| msdyn_effortcompleted        | nej             | nej           |
-| msdyn_effortremaining        | nej             | nej           |
-| msdyn_finish                 | nej             | nej           |
-| msdyn_plannedcost            | nej             | nej           |
-| msdyn_plannedcost_base       | nej             | nej           |
-| msdyn_plannedcostcontour     | nej             | nej           |
-| msdyn_plannedsales           | nej             | nej           |
-| msdyn_plannedsales_base      | nej             | nej           |
-| msdyn_plannedsalescontour    | nej             | nej           |
-| msdyn_plannedwork            | nej             | nej           |
-| msdyn_projectid              | ja            | nej           |
-| msdyn_projectidname          | nej             | nej           |
-| msdyn_projectteamid          | nej             | nej           |
-| msdyn_projectteamidname      | nej             | nej           |
-| msdyn_start                  | nej             | nej           |
-| msdyn_taskid                 | nej             | nej           |
-| msdyn_taskidname             | nej             | nej           |
-| msdyn_userresourceid         | nej             | nej           |
+| msdyn_bookableresourceid     | Ja            | Nr.           |
+| msdyn_bookableresourceidname | Ja            | Nr.           |
+| msdyn_bookingstatusid        | Nr.             | Nr.           |
+| msdyn_bookingstatusidname    | Nr.             | Nr.           |
+| msdyn_committype             | Nr.             | Nr.           |
+| msdyn_committypename         | Nr.             | Nr.           |
+| msdyn_effort                 | Nr.             | Nr.           |
+| msdyn_effortcompleted        | Nr.             | Nr.           |
+| msdyn_effortremaining        | Nr.             | Nr.           |
+| msdyn_finish                 | Nr.             | Nr.           |
+| msdyn_plannedcost            | Nr.             | Nr.           |
+| msdyn_plannedcost_base       | Nr.             | Nr.           |
+| msdyn_plannedcostcontour     | Nr.             | Nr.           |
+| msdyn_plannedsales           | Nr.             | Nr.           |
+| msdyn_plannedsales_base      | Nr.             | Nr.           |
+| msdyn_plannedsalescontour    | Nr.             | Nr.           |
+| msdyn_plannedwork            | Nr.             | Nr.           |
+| msdyn_projectid              | Ja            | Nr.           |
+| msdyn_projectidname          | Nr.             | Nr.           |
+| msdyn_projectteamid          | Nr.             | Nr.           |
+| msdyn_projectteamidname      | Nr.             | Nr.           |
+| msdyn_start                  | Nr.             | Nr.           |
+| msdyn_taskid                 | Nr.             | Nr.           |
+| msdyn_taskidname             | Nr.             | Nr.           |
+| msdyn_userresourceid         | Nr.             | Nr.           |
 
 ### <a name="project-team-member"></a>Projektteammedlem
 
-| **Logisk navn**                                 | **Kan oprette** | **Kan redigere** |
+| Logisk navn                                     | Kan oprette     | Kan redigere     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | nej             | nej           |
-| msdyn_creategenericteammemberwithrequirementname | nej             | nej           |
-| msdyn_deletestatus                               | nej             | nej           |
-| msdyn_deletestatusname                           | nej             | nej           |
-| msdyn_effort                                     | nej             | nej           |
-| msdyn_effortcompleted                            | nej             | nej           |
-| msdyn_effortremaining                            | nej             | nej           |
-| msdyn_finish                                     | nej             | nej           |
-| msdyn_hardbookedhours                            | nej             | nej           |
-| msdyn_hours                                      | nej             | nej           |
-| msdyn_markedfordeletiontimer                     | nej             | nej           |
-| msdyn_markedfordeletiontimestamp                 | nej             | nej           |
-| msdyn_msprojectclientid                          | nej             | nej           |
-| msdyn_percentage                                 | nej             | nej           |
-| msdyn_requiredhours                              | nej             | nej           |
-| msdyn_softbookedhours                            | nej             | nej           |
-| msdyn_start                                      | nej             | nej           |
+| msdyn_calendarid                                 | Nr.             | Nr.           |
+| msdyn_creategenericteammemberwithrequirementname | Nr.             | Nr.           |
+| msdyn_deletestatus                               | Nr.             | Nr.           |
+| msdyn_deletestatusname                           | Nr.             | Nr.           |
+| msdyn_effort                                     | Nr.             | Nr.           |
+| msdyn_effortcompleted                            | Nr.             | Nr.           |
+| msdyn_effortremaining                            | Nr.             | Nr.           |
+| msdyn_finish                                     | Nr.             | Nr.           |
+| msdyn_hardbookedhours                            | Nr.             | Nr.           |
+| msdyn_hours                                      | Nr.             | Nr.           |
+| msdyn_markedfordeletiontimer                     | Nr.             | Nr.           |
+| msdyn_markedfordeletiontimestamp                 | Nr.             | Nr.           |
+| msdyn_msprojectclientid                          | Nr.             | Nr.           |
+| msdyn_percentage                                 | Nr.             | Nr.           |
+| msdyn_requiredhours                              | Nr.             | Nr.           |
+| msdyn_softbookedhours                            | Nr.             | Nr.           |
+| msdyn_start                                      | Nr.             | Nr.           |
 
 ### <a name="project"></a>Project
 
-| **Logisk navn**                       | **Kan oprette** | **Kan redigere** |
+| Logisk navn                           | Kan oprette     | Kan redigere     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | nej             | nej           |
-| msdyn_actualexpensecost_base           | nej             | nej           |
-| msdyn_actuallaborcost                  | nej             | nej           |
-| msdyn_actuallaborcost_base             | nej             | nej           |
-| msdyn_actualsales                      | nej             | nej           |
-| msdyn_actualsales_base                 | nej             | nej           |
-| msdyn_contractlineproject              | ja            | nej           |
-| msdyn_contractorganizationalunitid     | ja            | nej           |
-| msdyn_contractorganizationalunitidname | ja            | nej           |
-| msdyn_costconsumption                  | nej             | nej           |
-| msdyn_costestimateatcomplete           | nej             | nej           |
-| msdyn_costestimateatcomplete_base      | nej             | nej           |
-| msdyn_costvariance                     | nej             | nej           |
-| msdyn_costvariance_base                | nej             | nej           |
-| msdyn_varighed                         | nej             | nej           |
-| msdyn_effort                           | nej             | nej           |
-| msdyn_effortcompleted                  | nej             | nej           |
-| msdyn_effortestimateatcompleteeac      | nej             | nej           |
-| msdyn_effortremaining                  | nej             | nej           |
-| msdyn_finish                           | ja            | ja          |
-| msdyn_globalrevisiontoken              | nej             | nej           |
-| msdyn_islinkedtomsprojectclient        | nej             | nej           |
-| msdyn_islinkedtomsprojectclientname    | nej             | nej           |
-| msdyn_linkeddocumenturl                | nej             | nej           |
-| msdyn_msprojectdocument                | nej             | nej           |
-| msdyn_msprojectdocumentname            | nej             | nej           |
-| msdyn_plannedexpensecost               | nej             | nej           |
-| msdyn_plannedexpensecost_base          | nej             | nej           |
-| msdyn_plannedlaborcost                 | nej             | nej           |
-| msdyn_plannedlaborcost_base            | nej             | nej           |
-| msdyn_plannedsales                     | nej             | nej           |
-| msdyn_plannedsales_base                | nej             | nej           |
-| msdyn_progress                         | nej             | nej           |
-| msdyn_remainingcost                    | nej             | nej           |
-| msdyn_remainingcost_base               | nej             | nej           |
-| msdyn_remainingsales                   | nej             | nej           |
-| msdyn_remainingsales_base              | nej             | nej           |
-| msdyn_replaylogheader                  | nej             | nej           |
-| msdyn_salesconsumption                 | nej             | nej           |
-| msdyn_salesestimateatcompleteeac       | nej             | nej           |
-| msdyn_salesestimateatcompleteeac_base  | nej             | nej           |
-| msdyn_salesvariance                    | nej             | nej           |
-| msdyn_salesvariance_base               | nej             | nej           |
-| msdyn_scheduleperformance              | nej             | nej           |
-| msdyn_scheduleperformancename          | nej             | nej           |
-| msdyn_schedulevariance                 | nej             | nej           |
-| msdyn_taskearlieststart                | nej             | nej           |
-| msdyn_teamsize                         | nej             | nej           |
-| msdyn_teamsize_date                    | nej             | nej           |
-| msdyn_teamsize_state                   | nej             | nej           |
-| msdyn_totalactualcost                  | nej             | nej           |
-| msdyn_totalactualcost_base             | nej             | nej           |
-| msdyn_totalplannedcost                 | nej             | nej           |
-| msdyn_totalplannedcost_base            | nej             | nej           |
+| msdyn_actualexpensecost                | Nr.             | Nr.           |
+| msdyn_actualexpensecost_base           | Nr.             | Nr.           |
+| msdyn_actuallaborcost                  | Nr.             | Nr.           |
+| msdyn_actuallaborcost_base             | Nr.             | Nr.           |
+| msdyn_actualsales                      | Nr.             | Nr.           |
+| msdyn_actualsales_base                 | Nr.             | Nr.           |
+| msdyn_contractlineproject              | Ja            | Nr.           |
+| msdyn_contractorganizationalunitid     | Ja            | Nr.           |
+| msdyn_contractorganizationalunitidname | Ja            | Nr.           |
+| msdyn_costconsumption                  | Nr.             | Nr.           |
+| msdyn_costestimateatcomplete           | Nr.             | Nr.           |
+| msdyn_costestimateatcomplete_base      | Nr.             | Nr.           |
+| msdyn_costvariance                     | Nr.             | Nr.           |
+| msdyn_costvariance_base                | Nr.             | Nr.           |
+| msdyn_varighed                         | Nr.             | Nr.           |
+| msdyn_effort                           | Nr.             | Nr.           |
+| msdyn_effortcompleted                  | Nr.             | Nr.           |
+| msdyn_effortestimateatcompleteeac      | Nr.             | Nr.           |
+| msdyn_effortremaining                  | Nr.             | Nr.           |
+| msdyn_finish                           | Ja            | Ja          |
+| msdyn_globalrevisiontoken              | Nr.             | Nr.           |
+| msdyn_islinkedtomsprojectclient        | Nr.             | Nr.           |
+| msdyn_islinkedtomsprojectclientname    | Nr.             | Nr.           |
+| msdyn_linkeddocumenturl                | Nr.             | Nr.           |
+| msdyn_msprojectdocument                | Nr.             | Nr.           |
+| msdyn_msprojectdocumentname            | Nr.             | Nr.           |
+| msdyn_plannedexpensecost               | Nr.             | Nr.           |
+| msdyn_plannedexpensecost_base          | Nr.             | Nr.           |
+| msdyn_plannedlaborcost                 | Nr.             | Nr.           |
+| msdyn_plannedlaborcost_base            | Nr.             | Nr.           |
+| msdyn_plannedsales                     | Nr.             | Nr.           |
+| msdyn_plannedsales_base                | Nr.             | Nr.           |
+| msdyn_progress                         | Nr.             | Nr.           |
+| msdyn_remainingcost                    | Nr.             | Nr.           |
+| msdyn_remainingcost_base               | Nr.             | Nr.           |
+| msdyn_remainingsales                   | Nr.             | Nr.           |
+| msdyn_remainingsales_base              | Nr.             | Nr.           |
+| msdyn_replaylogheader                  | Nr.             | Nr.           |
+| msdyn_salesconsumption                 | Nr.             | Nr.           |
+| msdyn_salesestimateatcompleteeac       | Nr.             | Nr.           |
+| msdyn_salesestimateatcompleteeac_base  | Nr.             | Nr.           |
+| msdyn_salesvariance                    | Nr.             | Nr.           |
+| msdyn_salesvariance_base               | Nr.             | Nr.           |
+| msdyn_scheduleperformance              | Nr.             | Nr.           |
+| msdyn_scheduleperformancename          | Nr.             | Nr.           |
+| msdyn_schedulevariance                 | Nr.             | Nr.           |
+| msdyn_taskearlieststart                | Nr.             | Nr.           |
+| msdyn_teamsize                         | Nr.             | Nr.           |
+| msdyn_teamsize_date                    | Nr.             | Nr.           |
+| msdyn_teamsize_state                   | Nr.             | Nr.           |
+| msdyn_totalactualcost                  | Nr.             | Nr.           |
+| msdyn_totalactualcost_base             | Nr.             | Nr.           |
+| msdyn_totalplannedcost                 | Nr.             | Nr.           |
+| msdyn_totalplannedcost_base            | Nr.             | Nr.           |
 
+### <a name="project-bucket"></a>Projektbucket
+
+| Logisk navn          | Kan oprette      | Kan redigere     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Ja             | Nr.           |
+| msdyn_name            | Ja             | Ja          |
+| msdyn_project         | Ja             | Nr.           |
+| msdyn_projectbucketid | Ja             | Nr.           |
 
 ## <a name="limitations-and-known-issues"></a>Begrænsninger og kendte problemer
 Her følger en liste over begrænsninger og kendte problemer:
 
 - Projektplanlægnings-Api'er kan kun bruges af **Brugere med Microsoft Project-licens**. De kan ikke bruges af:
+
     - Programbrugere
     - Systembrugere
     - Integrationsbrugere
     - Andre brugere, der ikke har den påkrævede licens
+
 - Hvert **OperationSet** kan kun have op til 100 handlinger.
 - Hver bruger kan kun have op til 10 åbne **OperationSet**.
 - Project Operations understøtter i øjeblikket maksimalt 500 opgaver i alt på et projekt.
@@ -269,8 +280,8 @@ Her følger en liste over begrænsninger og kendte problemer:
 
 ## <a name="error-handling"></a>Fejlhåndtering
 
-   - Hvis du vil gennemse de fejl, der er genereret i operationssæt, skal du gå til **Indstillinger** \> **Integration af planlægning** \> **Operationssæt**.
-   - Hvis du vil gennemse de fejl, der er genereret fra projektplanlægningstjenesten, skal du gå til **Indstillinger** \> **Planlægning af integration** \> **PSS-fejllogfiler**.
+- Hvis du vil gennemse de fejl, der er genereret i operationssæt, skal du gå til **Indstillinger** \> **Integration af planlægning** \> **Operationssæt**.
+- Hvis du vil gennemse de fejl, der er genereret fra projektplanlægningstjenesten, skal du gå til **Indstillinger** \> **Planlægning af integration** \> **PSS-fejllogfiler**.
 
 ## <a name="sample-scenario"></a>Eksempelscenarie
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

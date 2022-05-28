@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002324"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591903"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfiguration af brugerdefinerede felter som prisfastsættelsesdimensioner 
 
@@ -71,12 +72,12 @@ Der findes to typer prisdimensioner:
   
 | Rolle        | Afdeling    |Arbejdssted      |Standardtitel      |Arbejdstimer for ressource      |  Markere|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indien|På stedet            |                    |Overtid                 |15     |
-|             | Contoso Indien|Lokal             |                    |Overtid                 |10     |
-|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
+|             | Contoso India|På stedet            |                    |Overtid                 |15     |
+|             | Contoso India|Lokal             |                    |Overtid                 |10     |
+|             | Contoso USA   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressource fra Contoso Indien, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prisfastsættelsesprogrammet i Project Service grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
+Hvis en ressource fra Contoso India, hvis grundtakst er 100 USD, arbejder på stedet, og de registrerer 8 timers normal arbejdstid og 2 timers overarbejde for tidsregistreringen, bruger prissætningsfunktionen i Project Service grundtaksten på 100 for de 8 timer og vil registrere 800 USD. For de 2 overarbejdstimer vil der blive lagt en avance på 15 % på grundtaksten på 100, så der fås en enhedspris på 115 USD, og der registreres en samlet omkostning på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gælder for Omkostning 
 Hvis denne indstilles til **Ja**, angiver det, at dimensionsværdien fra inputkonteksten skal bruges, så den stemmer overens med **Rollepris** og **Rolleprisavance** for at finde omkostnings- og avancetaksterne.

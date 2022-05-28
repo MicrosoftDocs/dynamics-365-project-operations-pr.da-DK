@@ -3,15 +3,15 @@ title: Administration af underleverandører i Project Operations
 description: Dette emne giver et overblik over den komplette proces for projektbaserede organisationers sædvanlige administration af underentrepriser.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323589"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593007"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Administration af underleverandører i Project Operations
 
@@ -46,7 +46,7 @@ En underentrepriselinje kan være mængdebaseret eller arbejdsbaseret.
 
 Når en underentrepriselinje er **mængdebaseret**, kan det antal, der købes på underentrepriselinjen for tid, udgifter eller materialer, bruges på et hvilket som helst projekt.
 
-Når en underentrepriselinje er **arbejdsbaseret**, knyttes underentrepriselinjen til et arbejdsprojekt, der repræsenteres af en node i projektplanen. Værdien af underentrepriselinjen er summen af alle de komponenter, der kræves for at levere det pågældende arbejdsprojekt. Disse er udformede som detaljer om underentrepriselinjer og kan være en samling tid, udgifter eller materialer. For en arbejdsbaseret underentrepriselinje er underentrepriselinjen også dedikeret til et enkelt projekt.
+Når en underentrepriselinje er **arbejdsbaseret**, knyttes underentrepriselinjen til et arbejdsprojekt, der repræsenteres af en node i projektplanen. Værdien af underentrepriselinjen er summen af alle de komponenter, der kræves for at levere det pågældende arbejdsprojekt. Disse er udformede som detaljer om underentrepriselinjer og kan være en samling tid, udgifter eller materialer. For en arbejdsbaseret underentrepriselinje er underentrepriselinjen også dedikeret til et enkelt projekt. Disse typer underentrepriser understøttes ikke af Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

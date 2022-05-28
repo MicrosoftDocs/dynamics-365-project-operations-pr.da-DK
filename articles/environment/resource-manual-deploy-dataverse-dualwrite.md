@@ -4,14 +4,14 @@ description: I dette emne forklares det, hvordan du udruller Project Operations 
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986439"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591213"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Udrul Project Operations Dataverse-appen manuelt med understøttelse af dobbelt skrivning
 
@@ -37,7 +37,7 @@ Du skal logge på som en administrator for at fuldføre denne procedure.
 3. Vælg miljøtypen. Hvis du tilmeldte dig prøvetilbuddet, skal du vælge **Prøveversion (abonnementsbaseret)**.
 4. Bekræft udrulningsområdet.
 5. Aktivér muligheden **Opret en database for dette miljø**. 
-6. Bekræft sproget, og kontrollér derefter, at valutaen stemmer overens med valutaen for dine Finance and Operations-apps.
+6. Bekræft sproget, og kontrollér derefter, at valutaen er den samme som valutaen for dine programmer til finans og drift.
 7. Aktivér muligheden **Dynamics 365-apps**, og bekræft, at feltet **Automatisk udrulning af disse apps** er angivet til **Ingen**.
 8. Tilføj en sikkerhedsgruppe, hvis der kræves en sikkerhedsgruppe.
 9. Vælg **Gem** for at oprette miljøet.
@@ -62,4 +62,4 @@ Du kan kun fuldføre denne procedure, hvis du har fuldført de tidligere procedu
 
 ## <a name="link-your-environments"></a><a name="link"></a>Link til dine miljøer
 
-Når Dataverse-miljøet er udrullet, kan du konfigurere linket i dine Finance and Operations-apps. Følg trinnene i [Guiden til anvendelse af dobbelt skrivning for at linke til dine miljøer](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Når Dataverse-miljøet er installeret, kan du konfigurere linket i dine programmer til finans og drift. Følg trinnene i [Guiden til anvendelse af dobbelt skrivning for at linke til dine miljøer](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

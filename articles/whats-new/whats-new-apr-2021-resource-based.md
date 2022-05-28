@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008129"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589097"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder april 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -42,13 +42,13 @@ På følgende liste vises de dobbeltskrivning-tilknytninger, der er blevet ændr
 | **Objekttilknytning** | **Opdateret version** | **Kommentarer** |
 | --- | --- | --- |
 | Integration af faktiske oplysninger i Project Operations (msdyn\_faktiske) | 1.0.0.14 | Tilknytning ændret for at synkronisere faktiske projektmaterialer. |
-| Integrationsobjekt for udgiftsestimater i Project Operations (msdyn\_estimeredelinjer) | 1.0.0.2 | Tilføjede synkronisering af projektkontraktlinjer i Finance and Operations- apps til opgavebaseret faktureringssupport. |
-| Integrationsobjekt for timeestimater i Project Operations (msdyn\_ressourcetildelinger) | 1.0.0.5 | Tilføjede synkronisering af projektkontraktlinjer i Finance and Operations- apps til opgavebaseret faktureringssupport. |
-| Integrationstabellen for materialeestimater i Project Operations (msdyn\_estimerlinjer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af materialeestimat fra Dataverse til Finance and Operations-apps. |
-| Integrationsobjekt for eksport af projektleverandørfaktura i Project Operations (msdyn\_projektleverandørfakturaer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af leverandørfakturaoverskrifter fra Finance and Operations-apps til Dataverse. |
-| Integrationsobjekt for eksport af projektleverandørfakturalinje i Project Operations (msdyn\_projektleverandørlinjer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af leverandørfakturalinjer fra Finance and Operations-apps til Dataverse. |
+| Integrationsobjekt for udgiftsestimater i Project Operations (msdyn\_estimeredelinjer) | 1.0.0.2 | Tilføjede projektkontraktlinjesynkronisering til programmer til finans og drift til opgavebaseret faktureringssupport. |
+| Integrationsobjekt for timeestimater i Project Operations (msdyn\_ressourcetildelinger) | 1.0.0.5 | Tilføjede projektkontraktlinjesynkronisering til programmer til finans og drift til opgavebaseret faktureringssupport. |
+| Integrationstabellen for materialeestimater i Project Operations (msdyn\_estimerlinjer) | 1.0.0.0 | Ny tabeltilknytning for synkronisering af materialeestimat fra Dataverse til programmer til finans og drift |
+| Integrationsobjekt for eksport af projektleverandørfaktura i Project Operations (msdyn\_projektleverandørfakturaer) | 1.0.0.0 | Ny tabeltilknytning for synkronisering af leverandørfakturaoverskrifter fra programmer til finans og drift til Dataverse. |
+| Integrationsobjekt for eksport af projektleverandørfakturalinje i Project Operations (msdyn\_projektleverandørlinjer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af leverandørfakturalinjer fra programmer til finans og drift til Dataverse. |
 
-Du bør altid køre den nyeste version af tilknytningen i dit miljø og aktivere alle relaterede tabeltilknytninger, når du opdaterer versionen af din Project Operations Dataverse-løsning og Finance and Operations-løsning. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen i kolonnen **Version** på siden **Dobbeltskrivning**. Du kan aktivere en ny version af tilknytningen ved at vælge **Versioner af tabeltilknytning**, vælge den nyeste version og derefter gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Du bør altid køre den nyeste version af tilknytningen i dit miljø, og aktivér alle relaterede tabeltilknytninger, når du opdaterer din version af Project Operations Dataverse-løsningen og Finance and Operations-løsningen. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen i kolonnen **Version** på siden **Dobbeltskrivning**. Du kan aktivere en ny version af tilknytningen ved at vælge **Versioner af tabeltilknytning**, vælge den nyeste version og derefter gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Hvis du støder på et problem, når du starter tilknytningen, skal du følge instruktionerne i afsnittet [Problem med manglende tabelkolonner på tilknytninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i fejlfindingsvejledningen til dobbeltskrivning.
 
@@ -79,7 +79,7 @@ Hvis du støder på et problem, når du starter tilknytningen, skal du følge in
 | Tid og udgift | 2204377 | Kopierede timesedler skal vises automatisk, når du vælger **Kopiér uge** i forbindelse med tidsregistrering. |
 | Tid og udgift | 2209059 | Feltet **Status** kan redigeres med henblik på tidsregistrering i Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab i Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting i Dynamics 365 Finance
 
 | **Funktionsområde** | **Referencenummer** | **Kvalitetsopdatering** |
 | --- | --- | --- |

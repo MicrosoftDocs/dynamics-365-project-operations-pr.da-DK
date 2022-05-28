@@ -4,14 +4,14 @@ description: Dette emne indeholder oplysninger om, hvordan du abonnere på og ud
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991524"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587993"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tilmelding til et prøveversionsabonnement - lille 
 
@@ -43,7 +43,7 @@ Før du går i gang, skal du sikre dig, at du er logget på en browser med bruge
 > Du skal have administratoradgang til din organisations Microsoft 365-portal for at fuldføre følgende trin.
 
 
-1. Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenser til brugerne.
+1. Gå til [Microsoft 365 Administration](https://portal.office.com/) for at tildele licenserne til brugerne.
 2. På siden **Aktive brugere** skal du vælge de brugere, du vil tildele en licens til.
 3. Kontrollér, at **Dynamics 365 Project Operations**-licensen er valgt. 
 4. Vælg **Gem ændringer**.

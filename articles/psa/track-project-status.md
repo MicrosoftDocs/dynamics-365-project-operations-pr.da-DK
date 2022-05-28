@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996699"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593375"
 ---
 # <a name="track-a-projects-status-project-service"></a>Spore et projekts status (Project Service)
 
@@ -33,14 +34,13 @@ Brug [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-s
 
 Som engagementet skrider frem, opdateres projektets faser, så de afspejler fasen i engagementet:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Ny**    | Når du opretter et projekt, indstilles fasen til **Ny**. Hvis du har oprettet projektet fra en skabelon, kan projektet i denne fase have en tidsplan, estimater og teamdata. Ellers vil det være projektets disposition, og du skal manuelt angive resten af projektkomponenterne. |
-|  **Tilbud**   |      Når du knytter et projekt til et tilbud eller opretter det fra et tilbud, angives projektfasen til **Tilbud**, og de forventede start- og slutdatoer opdateres også. Når projektet er i fasen tilbud, vises oplysninger om tilbuddet under fanen **Salg** på siden **Projekt**.      |
-|   **Planlæg**   |                                     Når du vinder et tilbud, der er knyttet til et projekt, og når engagementet går videre til kontraktfasen, opdateres projektfasen til **Plan**. Kontraktoplysninger vises under fanen **Salg** på siden **Projekt**.                                      |
-| **Fuldført** |                    Når projektarbejdet er fuldført, kan du vende fasen til **Fuldført**. Når projektfasen er angivet til Fuldført, er det underforstået, at arbejdet er 100 % færdigt, men at projektet holdes åbent for alle ventende tids- eller udgiftsposteringer, der skal registreres.                     |
-|  **Luk**   |           Når alle transaktioner er blevet registreret på projektet, og du ikke forventer at logge mere, kan du manuelt indstille fasen til **Luk**. Når projektet er indstillet til **Luk**, kan du ikke logge flere posteringer på projektet, og projektet vil være skrivebeskyttet.           |
+| Opgave | Description | 
+|------------|----------|
+| **New** | Når du opretter et projekt, indstilles fasen til **Ny**. Hvis du har oprettet projektet fra en skabelon, kan projektet i denne fase have en tidsplan, estimater og teamdata. Ellers vil det være projektets disposition, og du skal manuelt angive resten af projektkomponenterne. |
+| **Tilbud** |  Når du knytter et projekt til et tilbud eller opretter det fra et tilbud, angives projektfasen til **Tilbud**, og de forventede start- og slutdatoer opdateres også. Når projektet er i fasen tilbud, vises oplysninger om tilbuddet under fanen **Salg** på siden **Projekt**. |
+| **Planlæg** |  Når du vinder et tilbud, der er knyttet til et projekt, og når engagementet går videre til kontraktfasen, opdateres projektfasen til **Plan**. Kontraktoplysninger vises under fanen **Salg** på siden **Projekt**. |
+| **Fuldført** | Når projektarbejdet er fuldført, kan du vende fasen til **Fuldført**. Når projektfasen er angivet til Fuldført, er det underforstået, at arbejdet er 100 % færdigt, men at projektet holdes åbent for alle ventende tids- eller udgiftsposteringer, der skal registreres. |
+| **Luk** | Når alle transaktioner er blevet registreret på projektet, og du ikke forventer at logge mere, kan du manuelt indstille fasen til **Luk**. Når projektet er indstillet til **Luk**, kan du ikke logge flere posteringer på projektet, og projektet vil være skrivebeskyttet. |
 
 ## <a name="to-track-a-projects-status"></a>Sådan spores et projekts status  
 
