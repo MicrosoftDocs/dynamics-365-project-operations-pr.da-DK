@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991164"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723715"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations, marts 2021, for lagerbaserede/produktionsbaserede scenarier
 
@@ -121,7 +121,7 @@ Følgende funktioner er omfattet af denne udgivelse:
 | Projektstyring og regnskab | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Den forældede klassemetode for arbejdsopgavehierarki (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, frarådes.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Lovgivningsmæssige opdateringer
-Du kan finde oplysninger om lovgivningsmæssige opdateringer til Finance and Operations-apps under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates.md). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
+Du kan finde oplysninger om lovgivningsmæssige opdateringer til programmer til finans og drift under [Lovgivningsmæssige opdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og få vist de planlagte lovgivningsmæssige opdateringer ved hjælp af værktøjet til fejlsøgning. Fejlsøgning giver dig mulighed for at søge efter land, funktionstype og udgivelse.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

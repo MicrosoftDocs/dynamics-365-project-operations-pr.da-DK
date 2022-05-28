@@ -7,25 +7,24 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 62229d8565a594a75970a8e769443541c2b4cb19
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998904"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683853"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Omdøb eller tilpas en projektfase
 
 [!include [banner](../../includes/banner.md)]
 
-Projektfaser kan fungere som en vejledning i projektets livscyklus. Du kan definere de projektfaser, der skal inkluderes i dine projekter, i området Projektfase på siden Projektstyring og regnskabsparametre. Dynamics 365 Finance indeholder fem foruddefinerede projektfaser og tre brugerdefinerede faser. Du kan opdatere navnet på en projektfase, som du bruger til at spore projekternes fremgang. Du kan også angive navne til brugerdefinerede statusnavne. I denne opgave vises det, hvordan du kan omdøbe eller ændre en projektfase samt anvende datasættet fra USSI.
+Projektfaser kan fungere som en vejledning i projektets livscyklus. Du kan definere de projektfaser, der skal inkluderes i dine projekter, i området Projektfase på siden Projektstyring og regnskabsparametre. Dynamics 365 Finance leverer fem foruddefinerede projektstadier og tre brugerdefinerede stadier. Du kan opdatere navnet på en projektfase, som du bruger til at spore projekternes fremgang. Du kan også angive navne til brugerdefinerede statusnavne. I denne opgave vises det, hvordan du kan omdøbe eller ændre en projektfase samt anvende datasættet fra USSI.
 
 1. Gå til Projektstyring og regnskab > Opsætning > Projektstyring og regnskabsparametre.
 2. Klik på fanen Projektfase.

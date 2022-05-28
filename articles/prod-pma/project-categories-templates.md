@@ -1,32 +1,31 @@
 ---
-title: Synkroniser projekters udgiftskategorier mellem Finance and Operations og Project Service Automation
-description: Dette emne beskriver de skabeloner og underliggende opgaver, der bruges til at synkronisere projekters udgiftskategorier mellem Microsoft Dynamics 365 Finance og Dynamics 365 Project Service Automation.
+title: Synkroniser projektudgiftskategorier mellem Finance and Operations og Project Service Automation
+description: I dette emne beskrives de skabeloner og underliggende opgaver, der bruges til at synkronisere projektudgiftskategorier mellem Microsoft Dynamics 365 Finance og Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001109"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685463"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synkroniser projekters udgiftskategorier mellem Finance and Operations og Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synkroniser projektudgiftskategorier mellem Finance and Operations og Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Dette emne beskriver de skabeloner og underliggende opgaver, der bruges til at synkronisere projekters udgiftskategorier mellem Dynamics 365 Finance og Dynamics 365 Project Service Automation.
+I dette emne beskrives de skabeloner og underliggende opgaver, der bruges til at synkronisere projektudgiftskategorier mellem Dynamics 365 Finance og Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integration af projektopgaver, kategorier for udgiftsposteringer, timeestimater, udgiftsestimater og låsning af funktioner er tilgængelig i version 8.0.
@@ -81,7 +80,7 @@ Projektets udgiftskategorier administreres i Finance, og de synkroniseres med Pr
 
 ### <a name="power-query"></a>Power Query
 
-Når du synkroniserer med Project Service Automation, skal du bruge Microsoft Power-forespørgsel til Excel til at angive faktureringstypen for transaktionskategorien. Skabelonerne for kategorierne for projektets udgiftstransaktioner (Fin og Ops til PSA) indeholder en standardkolonne og tilknytning. Hvis du opretter din egen skabelon, skal du tilføje en betinget kolonne i Power Query. Følg disse trin.
+Når du synkroniserer til Project Service Automation, skal du skal bruge Microsoft Power Query til Excel til at angive faktureringstypen i transaktionskategorien. Skabelonerne for kategorierne for projektets udgiftstransaktioner (Fin og Ops til PSA) indeholder en standardkolonne og tilknytning. Hvis du opretter din egen skabelon, skal du tilføje en betinget kolonne i Power Query. Følg disse trin.
 
 1. Klik på pilen for at åbne tilknytningen mellem opgaven for projektets udgiftskategorier i skabelonen for kategorierne for projektets udgiftstransaktioner (Fin og Ops til PSA).
 2. Klik på linket **Avanceret forespørgsel og filtrering** for at åbne Power Query.

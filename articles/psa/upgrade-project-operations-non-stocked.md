@@ -3,7 +3,7 @@ title: Opgradering fra Project Service Automation til Project Operations
 description: Dette emne indeholder en oversigt over processen for opgradering fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952835"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626710"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Opgradering fra Project Service Automation til Project Operations
 
@@ -28,7 +29,7 @@ Det glæder os at kunne annoncere den første af tre faser i opgraderingen fra M
 
 Leveringsprogrammet til opgraderingen opdeles i tre faser.
 
-| Levering af opgradering | Fase 1 (januar 2022) | Fase 2 (april-bølge 2022) | Fase 3 (april-bølge 2022) |
+| Levering af opgradering | Fase 1 (januar 2022) | Fase 2 (april-bølge 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Ingen afhængighed af arbejdsopgavehierarkiets (WBS) for projekter | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
 | WBS inden for de grænser for Project Operations, der understøttes i øjeblikket | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
@@ -38,11 +39,11 @@ Leveringsprogrammet til opgraderingen opdeles i tre faser.
 
 Som en del af opgraderingsprocessen har vi tilføjet opgraderingslogfiler til oversigten over webstedet, så administratorer lettere kan diagnosticere fejl. Ud over den nye brugergrænseflade tilføjes der nye valideringsregler, som skal sikre dataintegritet efter en opgradering. Følgende valideringer tilføjes til opgraderingsprocessen.
 
-| Valideringer | Fase 1 (januar 2022) | Fase 2 (april-bølge 2022) | Fase 3 (april-bølge 2022) |
+| Valideringer | Fase 1 (januar 2022) | Fase 2 (april-bølge 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS valideres i forhold til almindelige brud på dataintegritet (f.eks. ressourcetildelinger, der er knyttet til den samme overordnede opgave, men har forskellige overordnede projekter). | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
 | WBS valideres i forhold til [de kendte grænser for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
-| WBS valideres i forhold til de kendte grænser for Project Desktop Client. | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
+| WBS valideres i forhold til de kendte grænser for Project Desktop Client. | |  | :heavy_kontrol_mærke: |
 | Ressourcer og projektkalendere, der kan reserveres, evalueres i forhold til almindelige undtagelser fra inkompatibel kalenderregel. | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
 
 I fase 2 får kunder, der opgraderer til Project Operations, opgraderet deres eksisterende projekter til en skrivebeskyttet oplevelse i forbindelse med projektplanlægning. I denne skrivebeskyttede oplevelse er den fulde WBS synlig i sporingsgitteret. Hvis du vil redigere WBS'en, kan projektledere vælge **Konverter** på hovedsiden for **Projekter**. En baggrundsproces opdaterer derefter projektet, så det understøtter den nye projektplanlægningsoplevelse fra Project for the Web. Denne fase er hensigtsmæssig for kunder, der har projekter, som falder ind under [de kendte grænser for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ En kunde skal opfylde følgende kriterier for at være berettiget til fase 1-opg
 - Destinationsmiljøet må ikke indeholde poster i objektet **msdyn_projecttask**.
 - Gyldige Project Operations-licenser skal tildeles til alle kundens aktive brugere. 
 - Kunden skal validere opgraderingsprocessen i mindst ét ikke-produktionsmiljø, som har et repræsentativt datasæt, der stemmer overens med produktionsdata.
-- Destinationsmiljøet skal opdateres til Project Service Automation opdateringsudgivelse 38 eller nyere.
+- Destinationsmiljøet skal opdateres til Project Service Automation opdateringsudgivelse 41(3.10.62.162) eller nyere.
 
 Forudsætningerne for fase 2 og fase 3 opdateres efterhånden, som datoen for generel tilgængelighed nærmer sig.
 
@@ -72,14 +73,14 @@ Her er nogle ting, du skal holde øje med:
 
 - Importen kan mislykkes på grund af manglende afhængigheder. Tilpasningerne refererer med andre ord til felter eller andre komponenter, der er blevet fjernet i Project Operations. I dette tilfælde skal du fjerne disse afhængigheder fra udviklingsmiljøet.
 - Hvis de ikke-administrerede og administrerede løsninger indeholder komponenter, der ikke er tilpasset, skal du fjerne disse komponenter fra løsningen. Hvis du f.eks. tilpasser objektet **Projekt**, skal du kun tilføje objektoverskriften til løsningen. Tilføj ikke alle felterne. Hvis du tidligere har tilføjet alle underkomponenter, skal du måske oprette en ny løsning manuelt og tilføje relevante komponenter til den.
-- Formularer og visninger vises muligvis ikke som uventede. Hvis du har tilpasset en af standardformularerne eller -visningerne, kan tilpasningerne i nogle tilfælde forhindre, at nye opdateringer i Project Operations træder i kraft. Hvis du vil identificere disse problemer, anbefales det, at du udfører en oprydning sideløbende med en ren installation af Project Operations og en installation af Project Operations, der omfatter tilpasningerne. Sammenlign de mest almindeligt brugte formularer i virksomheden for at bekræfte, at din version af formularen stadig giver mening, og at der ikke mangler noget i den rene version af formularen. Du kan udføre den samme type sideløbende gennemgang for visninger, du har tilpasset.
+- Formularer og visninger vises muligvis ikke som forventede. Hvis du har tilpasset en af standardformularerne eller -visningerne, kan tilpasningerne i nogle tilfælde forhindre, at nye opdateringer i Project Operations træder i kraft. Hvis du vil identificere disse problemer, anbefales det, at du udfører en oprydning sideløbende med en ren installation af Project Operations og en installation af Project Operations, der omfatter tilpasningerne. Sammenlign de mest almindeligt brugte formularer i virksomheden for at bekræfte, at din version af formularen stadig giver mening, og at der ikke mangler noget i den rene version af formularen. Du kan udføre den samme type sideløbende gennemgang for visninger, du har tilpasset.
 - Forretningslogik kan mislykkes under kørsel. Da referencer til felter i plug-ins ikke valideres på tidspunktet for importen, kan forretningslogikken mislykkes på grund af referencer til felter, der ikke længere findes, og du modtager måske en fejlmeddelelse, der ligner følgende eksempel: "Objektet 'Projekt' indeholder ikke attributten med navn = 'msdyn_plannedhours' og NameMapping = 'Logisk'." I dette tilfælde skal du redigere tilpasningerne, så de bruger de nye felter. Hvis du bruger automatisk genererede proxyklasser og stærke typereferencer i plug-in-logikken, bør du overveje at genoprette disse proxyer fra en ren installation. På denne måde kan du let identificere alle de steder, hvor plug-ins er afhængige af udfasede felter.
 
 Når du har opdateret tilpasningerne for at importere Project Operations rent, skal du gå videre til de næste trin.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Komplet test i lavere miljøer
+## <a name="end-to-end-testing-in-development-environments"></a>Komplet test i udviklingsmiljøer
 
-### <a name="run-the-upgrade-in-production"></a>Kør opgraderingen i produktion
+### <a name="initiate-upgrade"></a>Start opgradering 
 
 1. Find og vælg dit miljø i Power Platform Administration. Find og vælg derefter **Dynamics 365 Project Operations** i programmerne.
 2. Vælg **Installer** for at starte opgraderingen. Power Platform Administration præsenterer denne installation som en ny installation. Men tilstedeværelsen af en tidligere version af Project Service Automation registreres, og den eksisterende installation opgraderes.
@@ -93,6 +94,10 @@ Når du har opdateret tilpasningerne for at importere Project Operations rent, s
 4. Gå til **Indstillinger** \> **Løsninger**, og vælg at afinstallere løsningen **Udfasede komponenter til Project Operations**.
 
     Denne løsning er en midlertidig løsning, som indeholder den eksisterende datamodel og komponenter, der findes under opgraderingen. Ved at fjerne denne løsning fjerner du alle de felter og komponenter, der ikke længere bruges. På denne måde kan du forenkle brugergrænsefladen og gøre integration og udvidelse nemmere.
+    
+### <a name="validate-common-scenarios"></a>Valider almindelige scenarier
+
+Når du validerer specifikke tilpasninger, anbefales det, at du også gennemgår de forretningsprocesser, der understøttes på tværs af programmerne. Disse forretningsprocesser omfatter, men er ikke begrænset til, oprettelse af salgsobjekter, f.eks. tilbud og kontrakter, og oprettelse af projekter, der omfatter WBS'er og godkendelse af faktiske værdier.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Store forskelle mellem Project Service Automation og Project Operations
 
@@ -119,7 +124,7 @@ Som en del af det fortsatte arbejde med Project Operations findes der flere nye 
 | Source                                                 | Target                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Project Operations lille udrulning                        | Understøttet               |
-| Dynamics 365 Finance Projektstyring og regnskab | Project Operations lille udrulning                        | Understøttes ikke i øjeblikket |
+| Projektstyring og regnskab i Dynamics 365 Finance | Project Operations lille udrulning                        | Understøttes ikke i øjeblikket |
 | Projektstyring og regnskab i Finance              | Project Operations for ressource/ikke-lagerscenarier     | Understøttes ikke i øjeblikket |
 | Projektstyring og regnskab i Finance              | Project Operations for lagerbaserede/produktionsordrescenarier | Understøttes ikke i øjeblikket |
 | Project Service Automation 3.x                         | Project Operations for ressource/ikke-lagerscenarier     | Understøttes ikke i øjeblikket |

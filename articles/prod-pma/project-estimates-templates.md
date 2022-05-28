@@ -1,32 +1,31 @@
 ---
 title: Synkroniser projektestimater direkte fra Project Service Automation til Finance and Operations
-description: Dette emne beskriver de skabeloner og underliggende opgaver, der bruges til at synkronisere estimater for projekttimer og projektudgifter direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+description: I dette emne beskrives de skabeloner og underliggende opgaver, der bruges til at synkronisere projekttimeestimater og projektudgiftsestimater direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988194"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684589"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser projektestimater direkte fra Project Service Automation til Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dette emne beskriver de skabeloner og underliggende opgaver, der bruges til at synkronisere estimater for projekttimer og projektudgifter direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+I dette emne beskrives de skabeloner og underliggende opgaver, der bruges til at synkronisere projekttimeestimater og projektudgiftsestimater direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integration af projektopgaver, kategorier for udgiftsposteringer, timeestimater, udgiftsestimater og låsning af funktioner er tilgængelig i version 8.0.
@@ -70,7 +69,7 @@ Før der kan ske synkronisering af projektets timeestimater, skal du synkroniser
 
 ### <a name="power-query"></a>Power Query
 
-I skabelonen for projektets timeestimater skal du bruge Microsoft Power-forespørgsel til Excel til at fuldføre disse opgaver:
+I skabelonen for projekttimeestimater skal du bruge Microsoft Power Query til Excel til at udføre disse opgaver:
 
 - Angiv id'et for standardprognosemodellen, der skal bruges, når integrationen opretter nye timeprognoser.
 - Filtrerer alle ressourcespecifikke poster i opgaven, der ikke kan integreres i timeprognoserne.
@@ -81,7 +80,7 @@ I skabelonen for projektets timeestimater skal du bruge Microsoft Power-forespø
 Hvis du vil opdatere id'et for standardprognosemodellen i skabelonen, skal du klikke på pilen **Tilknyt** for at åbne tilknytningen. Vælg derefter linket **Avanceret forespørgsel og filtrering**.
 
 - Hvis du bruger standardtimeestimaterne for projektet (PSA til Fin og Ops), skal du i Power Query markere den sidst **Indsatte betingelse** i listen **Anvendte trin**. I feltet **Funktion** skal du erstatte **O\_prognose** med navnet din prognosemodels id, som skal bruges sammen med integrationen. Standardskabelonen har et prognosemodel-id fra demonstrationsdataene.
-- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne**, og angiv et navn for den nye kolonnen, som f.eks **Model-id**. Angiv betingelsen for kolonnen "hvor" hvis projektopgave ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
+- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne** og angiv et navn til den nye kolonne, f.eks. **ModelID**. Angiv betingelsen for kolonnen "hvor" hvis projektopgave ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrering af ressourcespecifikke poster
 
@@ -126,7 +125,7 @@ Før der kan ske synkronisering af projektets udgiftsestimater, skal du synkroni
 
 ### <a name="power-query"></a>Power Query
 
-I skabelonen for projektets udgiftsestimater skal du bruge Power Query til at fuldføre følgende opgaver:
+I skabelonen til projektudgiftsestimater skal du skal bruge Power Query til at udføre følgende opgaver:
 
 - Filter, så det kun omfatter linjeposter for udgiftsestimater.
 - Angiv id'et for standardprognosemodellen, der skal bruges, når integrationen opretter nye timeprognoser.
@@ -141,8 +140,8 @@ Skabelonen for projektets udgiftsestimater (PSA til Fin og Ops) har et standardf
 
 Hvis du vil opdatere id'et for standardprognosemodellen i skabelonen, skal du vælge opgaven **Udgiftsestimater** og derefter klikke på pilen **Tilknyt** for at åbne tilknytningen. Vælg linket **Avanceret forespørgsel og filtrering**.
 
-- Hvis du bruger standardskabelonen for projektets udgiftsestimater (PSA til Fin og Ops), skal du i Power Query markere den første **Indsatte betingelse** fra sektionen **Anvendte trin**. I feltet **Funktion** skal du erstatte **O\_prognose** med navnet din prognosemodels id, som skal bruges sammen med integrationen. Standardskabelonen har et prognosemodel-id fra demonstrationsdataene.
-- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne**, og angiv et navn for den nye kolonnen, som f.eks **Model-id**. Angiv betingelsen for kolonnen "hvor" hvis estimatlinje-id ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
+- Hvis du bruger standardskabelonen for Estimerede projektværdier (PSA til Fin and Ops) i Power Query, skal du først vælge den sidste **Indsatte betingelse** i sektionen **Anvendte trin**. I feltet **Funktion** skal du erstatte **O\_prognose** med navnet din prognosemodels id, som skal bruges sammen med integrationen. Standardskabelonen har et prognosemodel-id fra demonstrationsdataene.
+- Hvis du opretter en ny skabelon, skal du tilføje denne kolonne. I Power Query skal du vælge **Tilføj betinget kolonne** og angiv et navn til den nye kolonne, f.eks. **ModelID**. Angiv betingelsen for kolonnen "hvor" hvis estimatlinje-id ikke er null, og derefter \<enter the forecast model ID\>; ellers null.
 
 #### <a name="transform-the-billing-types"></a>Transformer faktureringstyperne
 

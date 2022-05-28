@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323904"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723669"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Nyheder i anden bølge i 2021 for tidlig adgang – Project Operations lille udrulning
 
@@ -26,7 +26,7 @@ Udgivelsen anvendes kun, når et miljø har [tilvalgt tidlig adgang](/power-plat
 
 ## <a name="features-included-in-this-release"></a>Funktioner omfattet af denne udgivelse
 
-[Administration af underentreprise](../subcontracting/subcontracting_EA_scope.md) - Denne funktion giver bedre synlighed og kontrol over alle aspekter af arbejdet på et projekt. Forhåndsvisning af administration af underentreprise omfatter følgende funktioner:
+[Administration af underentreprise](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Denne funktion giver bedre synlighed og kontrol over alle aspekter af arbejdet på et projekt. Forhåndsvisning af administration af underentreprise omfatter følgende funktioner:
 
   - En projektleder kan oprette en underentreprise med en leverandør. De prislister, der er tilknyttet kreditorposten, bruges som standard til underleverancen. Leverandørkontoen har relationstypen **Kreditor** eller **Leverandør**.
   - En projektleder kan specificere alle købene som linjeelementer i underentreprisen. Underleverancelinjer kan indeholde tid, udgifter eller produkter. Transaktionsklassen for underentrepriselinjen, bestemmer, hvad linjen er beregnet til.

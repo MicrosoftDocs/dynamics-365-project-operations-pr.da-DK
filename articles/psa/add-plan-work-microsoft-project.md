@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005294"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727951"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Brug tilføjelsesprogrammet Project Service Automation til at planlægge dit arbejde i Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005294"
 ## <a name="download-and-install-the-add-in"></a>Hent og installer tilføjelsesprogrammet.  
  Hav dine [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-logonoplysninger ved hånden. Du skal bruge disse oplysninger til at oprette forbindelse fra [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  I Download Center kan du hente tilføjelsesprogrammet til din understøttede version af Project Service, enten [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) eller [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  I Download Center kan du hente tilføjelsesprogrammet til din understøttede version af Project Service, enten [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) eller [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Klik på downloadlinket.  
 
@@ -87,9 +88,8 @@ Når projektplanlægningen er afsluttet, er næste trin at importere og udgive p
 
 Projektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Processen til generering af pris og team anvendes. Åbn projektet i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for at se, at gruppen, projektestimaterne og arbejdsopgavehierarkiet er blevet genereret. I følgende tabel vises, hvor du kan finde resultaterne:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Oplysninger |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-diagrammer**   | Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Arbejdsopgavehierarki**-skærmbilledet. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ressourceark** |   Importeres i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Medlemmer af projektteam**-skærmbilledet.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Bruge anvendelse**    |    Import til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektestimater**-skærmbilledet.     |

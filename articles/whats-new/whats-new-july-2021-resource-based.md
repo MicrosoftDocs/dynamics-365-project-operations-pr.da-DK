@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008039"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600873"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -80,7 +80,7 @@ Hvis du støder på problemer, når du begynder at tilknytte, skal du følge ins
 | Generelt                       | 2253682              | Løsningen Project Operations med dobbelt skrivning bør ikke installeres, når dobbeltskrivningskernen installeres i et miljø uden løsningen til organisering af dobbelt skrivning.                                                |
 | Generelt                       | 2316420              | Klargøring af kernen i Project Service mislykkes, hvis programmets brugers afdeling ændres.                                                                                                                     |
 | Generelt                       | 2376405              | Løst problem med udgiverstyret opdatering (kvalitetsopdatering er tilgængelig i version 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab på Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Project Management and Accounting på Dynamics 365 Finance
 
 | Funktionsområde                      | Referencenummer | Kvalitetsopdatering                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

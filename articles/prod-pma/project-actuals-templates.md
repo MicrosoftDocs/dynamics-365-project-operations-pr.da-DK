@@ -1,32 +1,31 @@
 ---
-title: Synkroniser projekters faktiske oplysninger direkte fra Project Service Automation med projektintegrationskladden til bogføring i Finance and Operations
-description: Dette emne beskriver de skabeloner og underliggende opgaver, der bruges til at synkronisere de faktiske projektoplysninger direkte fra Microsoft Dynamics 365 Project Service Automation til Finance and Operations.
+title: Synkroniser faktiske projektværdier direkte fra Project Service Automation med projektintegrationskladden til bogføring i Finance and Operations
+description: I dette emne beskrives de skabeloner og underliggende opgaver, der bruges til at synkronisere faktiske projektoplysninger direkte fra Microsoft Dynamics 365 Project Service Automation til Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988104"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683531"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkroniser projekters faktiske oplysninger direkte fra Project Service Automation med projektintegrationskladden til bogføring i Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkroniser faktiske projektværdier direkte fra Project Service Automation med projektintegrationskladden til bogføring i Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dette emne beskriver de skabeloner og underliggende opgaver, der bruges til at synkronisere de faktiske projektoplysninger direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+I dette emne beskrives de skabeloner og underliggende opgaver, der bruges til at synkronisere faktiske projektoplysninger direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
 Skabelonen synkroniserer transaktioner fra Project Service Automation i en midlertidig tabel i Finance. Når synkroniseringen er fuldført, **skal** du importere dataene fra den midlertidige lagringstabel til integrationskladden.
 
@@ -42,7 +41,7 @@ Integrationsløsningen for Project Service Automation til Finance bruger dataint
 
 I følgende illustration vises, hvordan dataene synkroniseres mellem Project Service Automation og Finance.
 
-[![Dataflow til integration af Project Service Automation med Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Dataflow for Project Service Automation-integration med Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projektets faktiske oplysninger fra Project Service Automation
 
@@ -75,7 +74,7 @@ Inden synkronisering af de faktiske oplysninger kan ske, skal du konfigurere int
 
 ### <a name="power-query"></a>Power Query
 
-I skabelonen for projektets faktisk oplysninger skal du bruge Microsoft Power-forespørgsel til Excel til at fuldføre disse opgaver:
+I skabelonen for faktiske projektværdier skal du bruge Microsoft Power Query til Excel til at udføre disse opgaver:
 
 - Transformer transaktionsarten i Project Service Automation til den rigtige transaktionstype i Finance. Denne transformering er allerede defineret i skabelonen for projektets faktiske oplysninger (PSA til Fin og Ops).
 - Transformer faktureringstypen i Project Service Automation til den rigtige faktureringstype i Finance. Denne transformering er allerede defineret i skabelonen for projektets faktiske oplysninger (PSA til Fin og Ops). Faktureringstypen knyttes derefter til linjeegenskaben baseret på konfigurationen på siden **Integrationsparametre for Project Service Automation**.
@@ -86,7 +85,7 @@ I skabelonen for projektets faktisk oplysninger skal du bruge Microsoft Power-fo
 #### <a name="contract-organizational-unit"></a>Kontraktorganisationsenhed
 Hvis du vil opdatere den indsatte betingede kolonne i skabelonen, skal du klikke på pilen **Tilknyt** for at åbne tilknytningen. Vælg linket **Avanceret forespørgsel og filtrering** for at åbne Power Query.
 
-- Hvis du bruger standardskabelonen for projektets faktiske oplysninger (PSA til Fin og Ops), skal du i Power Query markere den sidst **Indsatte betingelse** fra sektionen **Anvendte trin**. I feltet **Funktion** skal du erstatte **USSI** med navnet på den juridiske enhed, der skal bruges sammen med integrationen. Tilføj efter behov yderligere betingelser til feltet **Funktion**, og opdater betingelse **eller** fra **USMF** til den korrekte juridiske enhed.
+- Hvis du bruger standardskabelonen Faktiske projektværdier (PSA til Fin and Ops) i Power Query, skal du vælge den sidste **Indsatte betingelse** i sektionen **Anvendte trin**. I feltet **Funktion** skal du erstatte **USSI** med navnet på den juridiske enhed, der skal bruges sammen med integrationen. Tilføj efter behov yderligere betingelser til feltet **Funktion**, og opdater betingelse **eller** fra **USMF** til den korrekte juridiske enhed.
 - Hvis du opretter en ny skabelon, skal du tilføje kolonnen for at understøtte internt tid og udgifter. Vælg **Tilføj betinget kolonne**, og angiv et navn for kolonnen, som f.eks **LegalEntity**. Angiv en betingelse for kolonnen "hvor" hvis **msdyn\_contractorganizationalunitid.msdyn\_navn** er \<organizational unit\> og \<enter the legal entity\>; ellers null.
 
 ### <a name="template-mapping-in-data-integration"></a>Skabelon for tilknytning i dataintegration
@@ -126,7 +125,7 @@ Projektets faktiske oplysninger administreres i Project Service Automation, og d
 
 ### <a name="power-query"></a>Power Query
 
-I skabelonen for opdatering af projektets faktisk oplysninger skal du bruge Power Query til at fuldføre disse opgaver:
+I den opdaterede skabelon for faktiske projektværdier skal du bruge Power Query til at udføre disse opgaver:
 
 - Transformer transaktionsarten i Finance til den rigtige transaktionstype i Project Service Automation. Denne transformering er allerede defineret i skabelonen for opdatering af projektets faktiske oplysninger (Fin Ops til PSA).
 - Transformer faktureringstypen i Finance til den rigtige faktureringstype i Project Service Automation. Denne transformering er allerede defineret i skabelonen for opdatering af projektets faktiske oplysninger (Fin Ops til PSA).

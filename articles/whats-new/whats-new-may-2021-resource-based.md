@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994674"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723761"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder maj 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -21,7 +21,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
 
 - Project Operations på Dynamics 365 Dataverse-miljø version 4.10.0.186
-- Projektstyring og regnskab i miljøer med Finance and Operations-applikationer version 10.0.18
+- Projektstyring og regnskab i programmiljøer til programmer til finans og drift version 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Funktioner omfattet af denne udgivelse
 
@@ -41,9 +41,9 @@ På følgende liste vises de dobbeltskrivning-tilknytninger, der er blevet ændr
 | Integrationsobjekt for eksport af projektleverandørfakturalinje i Project Operations (msdyn\_projektleverandørlinjer) | 1.0.0.1 | Kvalitetsopdateringer |
 | Projekter V2 (msdyn\_projekter) | 1.0.0.2 | Kvalitetsopdateringer |
 
-Du skal altid køre den nyeste version af tilknytningen i dit miljø og aktivere alle relaterede tabeltilknytninger, når du opdaterer versionen af din Project Operations Dataverse-løsning og Finance and Operations-applikationsløsning. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen i kolonnen **Version** på siden **Dobbelt skrivning**. For at aktivere en ny version af tilknytningen skal du vælge **Versioner af tabeltilknytning**, vælge den nyeste version og derefter gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Kør altid den nyeste version af tilknytningen i dit miljø, og aktivér alle relaterede tabeltilknytninger, når du opdaterer din version af Project Operations Dataverse-løsningen og løsningen til programmer til finans og drift. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen i kolonnen **Version** på siden **Dobbelt skrivning**. For at aktivere en ny version af tilknytningen skal du vælge **Versioner af tabeltilknytning**, vælge den nyeste version og derefter gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Hvis du støder på et problem, når du starter tilknytningen, skal du følge instruktionerne i afsnittet [Problem med manglende tabelkolonner på tilknytninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) i fejlfindingsvejledningen til dobbeltskrivning.
+Hvis du støder på et problem, når du starter tilknytningen, skal du følge instruktionerne i afsnittet [Problem med manglende tabelkolonner på tilknytninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i fejlfindingsvejledningen til dobbeltskrivning.
 
 ## <a name="quality-updates"></a>Kvalitetsopdateringer
 
@@ -67,7 +67,7 @@ Hvis du støder på et problem, når du starter tilknytningen, skal du følge in
 | Tidsregistrering | 2202476 | På siden **Tidsregistrering** bruges nu reaktiv gitterkontrol og løser problemer såsom fejljustering af gitre. |
 | Tidsregistrering | 2223377 | Tidsregistrering er skjult i sektionen **Relateret** på siden **Reserverbar ressource** for at undgå forvirring om anvendelighed. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab i Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting i Dynamics 365 Finance
 
 | Funktionsområde | Referencenummer | Kvalitetsopdatering |
 | --- | --- | --- |

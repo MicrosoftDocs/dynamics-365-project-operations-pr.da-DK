@@ -5,28 +5,29 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563015"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612696"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Bestil ikke-lagerbaserede materialer til et projekt ved hjælp af projektindkøbsordrer
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Ordreindkøbskategorier eller ikke-lagerbaserede materialer til et projekt ved hjælp af projektindkøbsordrer
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Indkøbsafdelingen i organisationen kan bruge [indkøbsordrer](/dynamics365/supply-chain/procurement/purchase-order-overview) til at spore ordrer på varer og tjenester. Ordrer på ikke-lagerbaserede materialer kan knyttes til et projekt. Fakturering af disse indkøbsordre bogfører omkostningerne i forhold til projektet.
+Indkøbsafdelingen i organisationen kan bruge [indkøbsordrer](/dynamics365/supply-chain/procurement/purchase-order-overview) til at spore ordrer på varer og tjenester. Indkøbsordrer til indkøbskategorier eller ikke-lagerbaserede materialer kan tilskrives et projekt. Fakturering af disse indkøbsordre bogfører omkostningerne i forhold til projektet.
 
 ## <a name="prerequisites"></a>Forudsætninger
 Fuldfør følgende trin for at aktivere funktionaliteten for projektindkøbsordrer.
 
-1. I Dynamics 365 Finance skal du gå til arbejdsområdet **Funktionsstyring**.
+1. Gå til arbejdsområdet **Funktionsstyring** i Dynamics 365 Finance.
 2. I funktionslisten skal du søge efter og vælge funktionen **Aktivér projektindkøbsordrer for Project Operations for ressourcebaserede/ikke-lagerbaserede scenarier**.
 3. Vælg **Aktivér**.
 4. Konfigurer ikke-lagerbaserede materialer og afventende leverandørfakturaer som beskrevet under [Konfigurer ikke-lagerbaserede materialer og afventende leverandørfakturaer](configure-materials-nonstocked.md).
+5. Konfigurer indkøbskategorier som beskrevet i [Brug indkøbskategorier sammen med projektkøbsordrer og afventende leverandørfakturaer](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Opret en projektindkøbsordre fra projektindkøbslisten
 
@@ -34,12 +35,12 @@ Fuldfør følgende trin for at aktivere funktionaliteten for projektindkøbsordr
 2. I handlingsruden under fanen **Administrer** skal du i gruppen **Ny** vælge **Vareopgave** > **Indkøbsordre**.
 3. På siden **Opret indkøbsordre** skal du vælge den leverandør, som du vil placere indkøbsordren ved, og angive andre oplysninger efter behov, og derefter vælge **Ok**.
 4. På siden **Indkøbsordre** skal du i gitteret **Indkøbsordrelinjer** vælge **Tilføj linje**.
-5. Angiv et varenummer, antal, enhed, enhedspris og andre oplysninger efter behov.
+5. Angiv et varenummer eller en indkøbskategori, antal, enhed, enhedspris og andre oplysninger efter behov.
 
     > [!NOTE]
-    > Kun ikke-lagerbaserede varer og tjenester kan bruges sammen med projektindkøbsordrer. Lagerførte varer og indkøbskategorier understøttes ikke.
+    > Kun indkøbskategorier, ikke-lagerbaserede varer og tjenester kan bruges sammen med projektindkøbsordrer. Lagervarer understøttes ikke.
 
-6. Fortsæt med at tilføje elementer efter behov, og bekræft indkøbsordren.
+6. Fortsæt med at tilføje varer eller indkøbskategorier efter behov, og bekræft indkøbsordren.
 
     Kvitteringer for varer og tjenester kan registreres ved at oprette og bogføre en produktkvittering.
 

@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000074"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601747"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overvejelser i forbindelse med opgradering – PSA version 2.x eller 1.x til version 3
 
@@ -81,15 +82,15 @@ Før du går i gang med at udføre en opgradering, anbefales det, at du gendanne
 
 I forbindelse med opgaver, der er tildelt til generiske teammedlemmer, som blev genereret vha. **Generér team**, bevarer opgraderingen den generiske ressource i teamet og beholder tildelingen til det generiske teammedlem. Det anbefales, at du genererer ressourcekravet for det generiske teammedlem efter opgraderingen, men før du reserverer eller sender en ressourceanmodning. Derved forbliver eventuelle tildelinger til afdelinger på de generiske teammedlemmer, der er forskellige fra projektets kontraktafdeling.
 
-I Projekt Z-projektet er kontraktafdelingen f.eks. Contoso USA. I projektplanen er testopgaver i implementeringsfasen blevet tildelt rollen teknisk konsulent, og den tildelte afdeling er Contoso Indien.
+I Projekt Z-projektet er kontraktafdelingen f.eks. Contoso US. I projektplanen er testopgaver i implementeringsfasen blevet tildelt rollen teknisk konsulent, og den tildelte afdeling er Contoso India.
 
 ![Implementeringsfase for tildeling til organisation.](media/org-unit-assignment-09.png)
 
-Efter implementeringsfasen tildeles integrationstestopgaven til rollen teknisk konsulent, men organisationen er angivet til Contoso USA.  
+Efter implementeringsfasen tildeles integrationstestopgaven til rollen teknisk konsulent, men organisationen er angivet til Contoso US.  
 
 ![Tildeling af integrationstestopgave til organisation.](media/org-unit-generate-team-10.png)
 
-Når du genererer et team for projektet, oprettes der to generiske teammedlemmer på grund af de forskellige afdelinger, der er på opgaverne. Teknisk konsulent 1 tildeles Contoso Indien-opgaverne og teknisk konsulent 2 tildeles Contoso USA-opgaverne.  
+Når du genererer et team for projektet, oprettes der to generiske teammedlemmer på grund af de forskellige afdelinger, der er på opgaverne. Teknisk konsulent 1 tildeles Contoso India-opgaverne og teknisk konsulent 2 tildeles Contoso US-opgaverne.  
 
 ![Genererede generiske teammedlemmer.](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -104,7 +105,7 @@ Du kan se afdelingen i estimatvisningen.
  
 Når opgraderingen er fuldført, føjes afdelingen på linjeopgaven, der svarer til det generiske teammedlem, til det generiske teammedlem, og linjeopgaven fjernes. Det anbefales derfor, at du genererer eller gendanner teamet, før du opgraderer, for hvert projekt, der indeholder generiske ressourcer.
 
-For opgaver, der er tildelt til en rolle med en afdeling, der er anderledes end afdelingen i kontraktprojektet, og der ikke er genereret et team, opretter opgraderingen et generisk teammedlem for rollen, men bruger projektets kontraktenhed til teammedlemmets afdeling. Idet vi igen refererer til eksemplet med Projekt Z, er kontraktenheden Contoso USA og projektplanens testopgaver i implementeringsfasen blevet tildelt rollen teknisk konsulent med den afdeling, der er tildelt til Contoso Indien. Integrationstestopgaven, der udføres efter implementeringsfasen, er blevet tildelt til rollen teknisk konsulent. Afdelingen er Contoso USA, og der er ikke genereret et team. Opgraderingen opretter et generisk teammedlem, en teknisk konsulent, der har de tildelte timer for alle tre opgaver, og en afdeling af Contoso USA, projektets kontraktafdeling.   
+For opgaver, der er tildelt til en rolle med en afdeling, der er anderledes end afdelingen i kontraktprojektet, og der ikke er genereret et team, opretter opgraderingen et generisk teammedlem for rollen, men bruger projektets kontraktenhed til teammedlemmets afdeling. Idet vi igen refererer til eksemplet med Projekt Z, er kontraktenheden Contoso US og projektplanens testopgaver i implementeringsfasen blevet tildelt rollen teknisk konsulent med den afdeling, der er tildelt til Contoso India. Integrationstestopgaven, der udføres efter implementeringsfasen, er blevet tildelt til rollen teknisk konsulent. Afdelingen er Contoso US, og der er ikke genereret et team. Opgraderingen opretter et generisk teammedlem, en teknisk konsulent, der har de tildelte timer for alle tre opgaver, og en afdeling af Contoso US, projektets kontraktafdeling.   
  
 Ændringer af standardværdien for de forskellige ressourceafdelinger vedrørende ikke-genererede teammedlemmer er årsagen til, at vi anbefaler, at du genererer eller regenererer teamet på hvert enkelt projekt, der indeholder generiske ressourcer før opgraderingen, så afdelingstildelingerne ikke går tabt.
 

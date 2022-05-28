@@ -1,32 +1,31 @@
 ---
 title: Integrationsparametrene for Project Service Automation
-description: I dette emne forklares, hvordan du kan konfigurere, hvordan standarddata angives, når du integrerer Microsoft Dynamics 365 for Project Service Automation med Microsoft Dynamics 365 Finance.
+description: I dette emne beskrives, hvordan du konfigurerer, hvordan standarddata indtastes, når du integrerer Microsoft Dynamics 365 for Project Service Automation med Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005834"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683669"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Integrationsparametrene for Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-På siden **Integrationsparametrene for Project Service Automation** kan du konfigurere, hvordan standarddata skal angives, når du integrerer Dynamics 365 Project Service Automation med Dynamics 365 Finance. For at projekter kan synkroniseres fra Project Service Automation til Finance, skal du konfigurere følgende felter.
+På siden **Integrationsparametre for Project Service Automation** kan du konfigurere, hvordan standarddata skal indtastes, når du integrerer Dynamics 365 Project Service Automation med Dynamics 365 Finance. For at projekter kan synkroniseres fra Project Service Automation til Finance, skal du konfigurere følgende felter.
 
 Hvis du vil åbne siden **Integrationsparametre for Project Service Automation**, skal du gå til **Projektstyring og regnskab** \> **Opsætning** \> **Dynamics 365 for Project Service Automation-integrationsparametre**. 
 

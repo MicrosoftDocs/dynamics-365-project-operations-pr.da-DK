@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988014"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684957"
 ---
 # <a name="microsoft-project-client-integration"></a>Integration med Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Planlægning og vedligeholdelse af en projektplan kan være kompliceret, så projektlederne har brug for værktøjer, der hjælper dem med at administrere denne opgave. Integration med Microsoft Project Client understøtter oprettelse og administration af et projekts arbejdsopgavehierarki. Projektlederen kan publicere eventuelle ændringer tilbage til Dynamics 365 Finance-projektets arbejdsopgavehierarki.
+Planlægning og vedligeholdelse af en projektplan kan være kompliceret, så projektlederne har brug for værktøjer, der hjælper dem med at administrere denne opgave. Integration med Microsoft Project Client understøtter oprettelse og administration af et projekts arbejdsopgavehierarki. Projektlederen kan publicere eventuelle ændringer tilbage til arbejdsopgavehierarki i Dynamics 365 Finance-projektet.
 
 > [!NOTE]
 > Hvis du bruger opdateringen fra juli (version 10.0.4), skal du installere KB 4054797 og 4055884.
@@ -40,7 +39,7 @@ Hvis du vil aktivere integrationen med Microsoft Project Client, skal du install
 • Klik på **Åbn**, og klik derefter på **Kør**, når du bliver bedt om det.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Åbn og rediger et eksisterende udkast til et arbejdsopgavehierarki i Microsoft Project Client
-Hvis et projekt i Dynamics 365 Finance allerede har et arbejdsopgavehierarki, kan arbejdsopgavehierarkiet åbnes i Microsoft Project Client-programmet, hvis arbejdsopgavehierarkiet er i kladdestatus. Hvis du vil åbne siden **Projekt**, skal du klikke på linket **Åbn i Microsoft Project** fra fanen **Plan**. Du kan også åbne denne side fra Microsoft Project Client-programmet ved at klikke på **Åbn** i fanen **Microsoft Dynamics 365**. Vælg den **Juridiske enhed** og **Projektet** på listen.
+Hvis et projekt i Dynamics 365 Finance allerede har et arbejdsopgavehierarki, der er oprettet, kan arbejdsopgavehierarkiet åbnes i klientprogrammet Microsoft Project Client, hvis arbejdsopgavehierarkiet er i kladdestatus. Hvis du vil åbne siden **Projekt**, skal du klikke på linket **Åbn i Microsoft Project** fra fanen **Plan**. Du kan også åbne denne side fra Microsoft Project Client-programmet ved at klikke på **Åbn** i fanen **Microsoft Dynamics 365**. Vælg den **Juridiske enhed** og **Projektet** på listen.
 
 > [!NOTE]
 > Hvis du bruger Internet Explorer som browser, skal du klikke på **Gem** for at åbne den manuelt fra den placering, hvor filen er overført til. Du kan også klikke på **Gem og Åbn** for at åbne filen i Microsoft Project Client. Du skal ikke omdøbe filnavnet, når du gemmer.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679202"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600781"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder juni 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -21,7 +21,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
 
 - Project Operations på Dynamics 365 Dataverse-miljø version 4.11.0.156 eller 4.11.0.164.
-- Projektstyring og regnskab i miljøer med Finance and Operations-applikationer version 10.0.19.
+- Projektstyring og regnskab i programmiljøer til programmer til finans og drift version 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funktioner omfattet af denne udgivelse
 
@@ -38,7 +38,7 @@ Der er ingen opdateringer til Project Operations-tilknytninger med dobbelt skriv
 
 Du kan få vist en aktuel liste og aktuelle versioner af Project Operations-tilknytninger med dobbelt skrivning i [Project Operations-versioner med tilknytning af dobbelt skrivning](../environment/resource-dual-write-maps.md).
 
-Du skal altid køre den nyeste version af tilknytningen i dit miljø og aktivere alle relaterede tabeltilknytninger, når du opdaterer versionen af din Project Operations Dataverse-løsning og Finance and Operations-applikationsløsning. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen på siden **Dobbelt skrivning** i kolonnen **Version**. Aktivér en ny version af tilknytningen ved at vælge **Tabeltilknytningsversioner** og dernæst vælge den nyeste version samt gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Kør altid den nyeste version af tilknytningen i dit miljø, og aktivér alle relaterede tabeltilknytninger, når du opdaterer din version af Project Operations Dataverse-løsningen og løsningen til programmer til finans og drift. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen på siden **Dobbelt skrivning** i kolonnen **Version**. Aktivér en ny version af tilknytningen ved at vælge **Tabeltilknytningsversioner** og dernæst vælge den nyeste version samt gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Hvis du støder på problemer, når du begynder at tilknytte, skal du følge instruktionerne i sektionen [Problemer med mangler tabelkolonner på tilknytninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i vejledningen til fejlfinding af dobbeltskrivning.
 
@@ -62,7 +62,7 @@ Hvis du støder på problemer, når du begynder at tilknytte, skal du følge ins
 | Tid og udgift | 2194431 | Gitteret **Tidsregistrering** skal overholde ugens begyndelse som angivet i **Systemindstillinger**. |
 | Tid og udgift | 2277311 | Når du har slettet værdien i en celle i gitteret **Tidsregistrering**, forbliver markøren i gitteret. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Oversigt over projektstyring og regnskab på Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Project Management and Accounting på Dynamics 365 Finance
 
 | Funktionsområde | Referencenummer | Kvalitetsopdatering |
 | --- | --- | --- |

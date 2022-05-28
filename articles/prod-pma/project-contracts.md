@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001019"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683485"
 ---
 # <a name="project-contracts"></a>Projektkontrakter
 
@@ -45,7 +44,7 @@ Nogle projektkontrakter angiver, at flere parter deler ansvaret for finansiering
 -   Et vejprojekt samfinansieres af to kommuner.
 -   Et bro-projekt finansieres af statsstøtte og en privat virksomhed.
 
-I Dynamics 365 Finance kan du dele faktureringen for en enkelt transaktion eller et helt projekt op mellem flere kunder, tilskud eller organisationer. 
+I Dynamics 365 Finance kan du opdele fakturering for en enkelt transaktion eller et helt projekt mellem flere debitorer, tilskud eller organisationer. 
 
 I projekter, der har flere finansieringskilder, kaldes alle de parter, der bidrager til finansieringen af et avanceret finansieringsprojekt, også for finansieringskilder. Når en kunde, en organisation eller et tilskud er defineret som en finansieringskilde, kan den tildeles en eller flere finansieringsregler. Finansieringsregler indeholder de kriterier, der bestemmer, hvordan opkrævninger tildeles de forskellige finansieringskilder i et projekt. 
 

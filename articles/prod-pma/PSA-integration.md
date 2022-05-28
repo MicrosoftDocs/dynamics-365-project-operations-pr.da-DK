@@ -1,33 +1,31 @@
 ---
 title: Oversigt over Project Service Automation
-description: Dette emne indeholder oplysninger om løsningen til integration af Dynamics 365 Project Service Automation i Dynamics 365 Finance.
+description: Dette emne indeholder oplysninger om Dynamics 365 Project Service Automation til Dynamics 365 Finance-integrationsløsningen.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005879"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685509"
 ---
 # <a name="project-service-automation-overview"></a>Oversigt over Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Integrationsløsningen for Project Service Automation til Finance bruger dataintegrationsfunktionen til at synkronisere data på tværs af forekomster med Dynamics 365 Finance og Dynamics 365 Project Service Automation via Common Data Service. De integrationsskabeloner, der er tilgængelige sammen med dataintegrationsfunktionen, aktiverer flowet af projekter, projektkontrakter, projektkontraktlinjer, milepæle for projektkontraktlinjer, projektopgaver, udgiftstransaktionskategorier, tidsestimater samt udgiftsestimater fra Project Service Automation til Finance.
+
+Project Service Automation til Finance and Operations-integrationsløsningen bruger funktionen Dataintegration til at synkronisere data på tværs af forekomster af Dynamics 365 Finance og Dynamics 365 Project Service Automation via Common Data Service. De integrationsskabeloner, der er tilgængelige sammen med dataintegrationsfunktionen, aktiverer flowet af projekter, projektkontrakter, projektkontraktlinjer, milepæle for projektkontraktlinjer, projektopgaver, udgiftstransaktionskategorier, tidsestimater samt udgiftsestimater fra Project Service Automation til Finance.
 
 > [!NOTE]
 > - Hvis du bruger version 7.3.0, skal du installere KB 4074835. Du kan derefter integrere fastprisprojekter.

@@ -1,24 +1,23 @@
 ---
 title: Behandling af udgiftskvittering
-description: Dette emne indeholder oplysninger om behandling af kvitteringer ved hjælp af optisk tegngenkendelse (OCR). Denne funktion er udviklet til at forbedre brugeroplevelsen ved oprettelse af udgiftsrapporter i Microsoft Dynamics 365 Finance.
+description: Dette emne indeholder oplysninger om behandling af kvitteringer ved hjælp af optisk tegngenkendelse (OCR). Denne funktion er beregnet til at forbedre brugeroplevelsen, når der oprettes udgiftsrapporter i Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001379"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684313"
 ---
 # <a name="expense-receipt-processing"></a>Behandling af udgiftskvittering
 
@@ -51,7 +50,7 @@ Hvis du vil oprette en udgift eller afstemme en udgift fra en kvittering, skal d
 
 Denne funktion fungerer sammen med funktionen for **Nye udgiftsrapporter**, som hjælper med at forenkle udgiftsoplevelsen. Denne funktion er kun tilgængelig for miljøer over niveau 2, hvilke er sandkasse- og produktionsmiljøer.
 
-Hvis du vil bruge disse avancerede udgiftsfunktioner, skal du installere tilføjelsesprogrammet til tjenesten for udgiftsstyring i Microsoft Dynamics 365 Finance og aktivere funktionerne i din forekomst. Du kan få adgang til tilføjelsesprogrammet fra dit projekt i Microsoft Dynamics Lifecycle Services (LCS).
+Hvis du vil bruge disse avancerede udgiftsfunktioner, skal du installere tilføjelsesprogrammet til Udgiftsstyring-tjeneste til Microsoft Dynamics 365 Finance, og aktivere funktionerne i din forekomst. Du kan få adgang til tilføjelsesprogrammet fra dit projekt i Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Log på LCS, og åbn det ønskede miljø.
 2. Gå til **Komplette detaljer**.

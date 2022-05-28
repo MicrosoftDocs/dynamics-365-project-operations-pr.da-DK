@@ -1,32 +1,31 @@
 ---
 title: Synkroniser projektopgaver direkte fra Project Service Automation til Finance and Operations
-description: Dette emne beskriver den skabelon og den underliggende opgave, der bruges til at synkronisere projektopgaver direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+description: I dette emne beskrives den skabelon og underliggende opgave, der bruges til at synkronisere faktiske projektopgaver direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992784"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683143"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser projektopgaver direkte fra Project Service Automation til Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dette emne beskriver den skabelon og den underliggende opgave, der bruges til at synkronisere projektopgaver direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+I dette emne beskrives den skabelon og underliggende opgave, der bruges til at synkronisere faktiske projektopgaver direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integration af projektopgaver, kategorier for udgiftsposteringer, timeestimater, udgiftsestimater og låsning af funktioner er tilgængelig i version 8.0.
@@ -68,11 +67,11 @@ Inden synkroniseringen mellem projektopgaver kan ske, skal du synkronisere proje
 
 ## <a name="power-query"></a>Power Query
 
-Du skal bruge Microsoft Power-forespørgsel til Excel til at filtrere data, hvis denne betingelse er opfyldt:
+Du skal bruge Microsoft Power Query til Excel til at filtrere data, hvis denne betingelser er opfyldt:
 
 - Der er ressourcespecifikke poster i en projektopgave.
 
-Hvis du skal bruge Power Query, skal du følge denne retningslinje:
+Hvis du skal bruge Power Query, skal du følge denne vejledning:
 
 - Skabelonen for projektopgaver (PSA til Fin og Ops) har et standardfilter, der udelukker ressourcespecifikke poster fra en projektopgave ved at indstille filteret i **ErLinjenFalsk** til **Falsk**. Hvis du opretter din egen skabelon, skal du tilføje dette filter.
 
