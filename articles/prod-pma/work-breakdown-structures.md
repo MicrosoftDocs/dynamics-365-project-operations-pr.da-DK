@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920651"
 ---
 # <a name="work-breakdown-structures-overview"></a>Oversigt over arbejdsopgavehierarkier
 
@@ -35,7 +35,7 @@ Detaljeringsgraden i et WBS afhænger af det præcisionsniveau, der kræves i es
 
 Projekter i brancher såsom medie- og reklamebranchen har til sammenligning som oftest enestående software- og IT-infrastruktur, og produktiviteten er relativ set i forhold til erfaringen og kompetencen for den person, der udfører opgaven. Disse brancher bruger derfor et WBS til at få en indbyrdes tilnærmelse af størrelsen på et projekt, og ikke til at spore projektets fremgang ned til mindste detalje. 
 
-Opbygning af et WBS er en intensiv proces, der som regel udføres over en længere periode, og som kræver samarbejde og oplysninger fra en lang række personer. I dette emne beskrives, hvordan du kan bruge WBS-forbedringer til at overholde dine krav til estimater og sporing.
+Opbygning af et WBS er en intensiv proces, der som regel udføres over en længere periode, og som kræver samarbejde og oplysninger fra en lang række personer. Denne artikel beskriver, hvordan du kan bruge WBS-forbedringer til at opfylde dine krav til estimater og sporing.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Forudsætninger for oprettelse af et WBS
 Hvis du vil oprette et WBS, skal du kunne oprette en arbejdsplan og vurdere omkostningerne til arbejdet.
@@ -166,7 +166,7 @@ Finance har tre visninger for et projekts WBS: Planlægningsvisning, visning af 
 
 ### <a name="planning-view"></a>Planlægningsvisning
 
-I Planlægningsvisning vises det planlagte eller grundlæggende estimat for tidsplanen og omkostningsoplysningerne. Selvom der ikke er nogen funktioner til sporing af versionen og basislinjen for et projekt-WBS, er værdierne i denne visning beregnet til at repræsentere basisversionen. Sektionerne Planlægningsestimat og Omkostningsestimat i dette emne beskriver visningen, og hvordan den bruges til at oprette et WBS.
+I Planlægningsvisning vises det planlagte eller grundlæggende estimat for tidsplanen og omkostningsoplysningerne. Selvom der ikke er nogen funktioner til sporing af versionen og basislinjen for et projekt-WBS, er værdierne i denne visning beregnet til at repræsentere basisversionen. Afsnittene om planlægnings- og omkostningsestimering i denne artikel beskriver denne visning, og hvordan den bruges til at oprette en WBS.
 
 ### <a name="effort-tracking-view"></a>Visning af indsatssporing
 

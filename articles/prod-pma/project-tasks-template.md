@@ -1,6 +1,6 @@
 ---
 title: Synkroniser projektopgaver direkte fra Project Service Automation til Finance and Operations
-description: I dette emne beskrives den skabelon og underliggende opgave, der bruges til at synkronisere faktiske projektopgaver direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+description: I denne artikel beskrives den skabelon og underliggende opgave, der bruges til at synkronisere faktiske projektopgaver direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931139"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser projektopgaver direkte fra Project Service Automation til Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-I dette emne beskrives den skabelon og underliggende opgave, der bruges til at synkronisere faktiske projektopgaver direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+I denne artikel beskrives den skabelon og underliggende opgave, der bruges til at synkronisere faktiske projektopgaver direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integration af projektopgaver, kategorier for udgiftsposteringer, timeestimater, udgiftsestimater og låsning af funktioner er tilgængelig i version 8.0.

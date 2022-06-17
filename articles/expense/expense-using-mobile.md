@@ -1,6 +1,6 @@
 ---
 title: Mobilappen for udgifter
-description: Dette emne indeholder oplysninger om det mobile arbejdsområde for udgiftsstyring.
+description: Denne artikel indeholder oplysninger om arbejdsområdet Udgiftsstyring på mobilenheder.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930219"
 ---
 # <a name="mobile-expense-app"></a>Mobilappen for udgifter
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Dette emne indeholder oplysninger om det mobile arbejdsområde for **Udgiftsstyring**. I dette arbejdsområde kan brugerne oprette og overføre en kvittering, så de kan knytte den til en udgiftsrapport senere. Brugerne kan også hurtigt oprette en udgiftslinje ved hjælp af en tilknyttet kvittering og oprette og administrere deres udgiftsrapporter. Derudover kan godkendere bruge det mobile arbejdsområde for **Udgiftsstyring** til at få vist udgiftsrapporter, der er tildelt til dem, og enten godkende eller afvise disse udgiftsrapporter.
+Denne artikel indeholder oplysninger om arbejdsområdet **Udgiftsstyring** på mobilenheder. I dette arbejdsområde kan brugerne oprette og overføre en kvittering, så de kan knytte den til en udgiftsrapport senere. Brugerne kan også hurtigt oprette en udgiftslinje ved hjælp af en tilknyttet kvittering og oprette og administrere deres udgiftsrapporter. Derudover kan godkendere bruge det mobile arbejdsområde for **Udgiftsstyring** til at få vist udgiftsrapporter, der er tildelt til dem, og enten godkende eller afvise disse udgiftsrapporter.
 
 Dette mobile arbejdsområde er beregnet til at blive brugt sammen med Dynamics 365 Unified Ops-mobilappen.
 

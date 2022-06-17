@@ -1,24 +1,24 @@
 ---
 title: Projektestimater og integration af faktiske tal
-description: Dette emne indeholder oplysninger om integration med dobbeltskrivning i Project Operations for projektestimerede og faktiske værdier.
+description: Denne artikel indeholder oplysninger om integration af dobbeltskrivning i Project Operations til projektestimater og faktiske værdier.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914579"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektestimater og integration af faktiske tal
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Dette emne indeholder oplysninger om integration med dobbeltskrivning i Project Operations for projektestimerede og faktiske værdier.
+Denne artikel indeholder oplysninger om integration af dobbeltskrivning i Project Operations til projektestimater og faktiske værdier.
 
 ## <a name="project-estimates"></a>Projektestimater
 

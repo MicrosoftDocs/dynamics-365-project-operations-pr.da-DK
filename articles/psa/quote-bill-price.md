@@ -1,6 +1,6 @@
 ---
 title: Startside for tilbudsafgivelse, prisfastsættelse og fakturering
-description: Dette emne indeholder oplysninger om tilbudsafgivelse, prisfastsættelse og fakturering.
+description: Denne artikel indeholder oplysninger om tilbudsafgivelse, prisfastsættelse og fakturering.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926723"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Startside for tilbudsafgivelse, prisfastsættelse og fakturering
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581093"
 
 Tilbudsafgivelse, prisfastsættelse og fakturering er funktioner, der bruges i både små og store organisationer. Ved at forstå, hvordan disse funktioner fungerer i programmet, kan virksomhederne nemmere tilpasse konfigurationer.
 
-Du kan finde flere oplysninger om funktionerne tilbudsgivning, prisfastsættelse og fakturering i PSA under følgende emner:
+Du kan finde flere oplysninger om funktionerne tilbudsgivning, prisfastsættelse og fakturering i PSA i følgende artikler:
 
 - [Salgsproces](basic-sales-process.md)
 - [Tilbudslinjer](basic-quote-lines.md)

@@ -1,6 +1,6 @@
 ---
 title: Massekorrektioner af de faktiske værdier, der er oprettet af godkendte tids- og udgiftsposter
-description: I dette emne beskrives det, hvordan en administrator kan foretage enkeltvise korrektioner eller massekorrektioner af tidligere godkendte tids- eller udgiftsposter, hvis faktureringen ikke er fuldført.
+description: I denne artikel forklares det, hvordan en administrator kan foretage enkelte rettelser eller masserettelser af tidligere godkendte tids- eller udgiftsposter, hvis faktureringen ikke er fuldført.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916282"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Massekorrektioner af de faktiske værdier, der er oprettet af godkendte tids- og udgiftsposter
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683355"
 
 Det kan ske, at en tids- eller udgiftspost registreres forkert. En konsulent kan f.eks. vælge den forkerte dato, når han/hun opretter en tidspost, eller konsulenten kan transponere tallene, når der angives en udgift. Hvis en konsulent ikke kan opdatere de indtastede poster, kan en administrator rette i posten for et projekt direkte.
 
-For at fuldføre procedurerne i dette emne skal du have administratortilladelser.
+Hvis du vil fuldføre procedurerne i denne artikel, skal du have administratortilladelser.
 
 ## <a name="correct-approved-time-entries"></a>Ret godkendte tidsposter     
 

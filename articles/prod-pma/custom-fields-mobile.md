@@ -1,6 +1,6 @@
 ---
 title: Implementer brugerdefinerede felter til Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
-description: Dette emne indeholder almindelige mønstre for anvendelse af udvidelser til at implementere brugerdefinerede felter.
+description: Denne artikel indeholder almindelige mønstre til brug af udvidelser i forbindelse med implementering af brugerdefinerede felter.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913705"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementer brugerdefinerede felter til Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 
 [!include [banner](../includes/banner.md)]
 
-Dette emne indeholder almindelige mønstre for anvendelse af udvidelser til at implementere brugerdefinerede felter. Følgende emner er omfattet:
+Denne artikel indeholder almindelige mønstre til brug af udvidelser i forbindelse med implementering af brugerdefinerede felter. Følgende artikler er omfattet:
 
 - De forskellige datatyper, som den brugerdefinerede feltstruktur understøtter
 - Sådan får du vist skrivebeskyttede eller redigerbare felter i timeseddelposter og gemmer brugerangivne værdier i databasen igen
@@ -35,7 +35,7 @@ Dette emne indeholder almindelige mønstre for anvendelse af udvidelser til at i
 
 ## <a name="audience"></a>Målgruppe
 
-Dette emne er tiltænkt udviklere, der integrerer deres brugerdefinerede felter i den Microsoft Dynamics 365 Project Timesheet-mobilapp, der er tilgængeligt for Apple iOS og Google Android. Det antages, at læserne kender funktionerne for X++-udvikling og funktionaliteten for projekttimesedler.
+Denne artikel er henvendt til udviklere, der integrerer deres brugerdefinerede felter i det Microsoft Dynamics 365 Project Timesheet-mobilprogram, der er tilgængeligt for Apple iOS Android og Google. Det antages, at læserne kender funktionerne for X++-udvikling og funktionaliteten for projekttimesedler.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datakontrakt – TSTimesheetCustomField X++klasse
 
@@ -64,7 +64,7 @@ Egenskaben **FieldBaseType** i objektet **TsTimesheetCustom** bestemmer, hvilken
 
 - Hvis egenskaben **stringOptions** er angivet på objektet **TSTimesheetCustomField**, er listeelementerne de eneste værdier, som brugere kan vælge ved hjælp af alternativknapper (alternativknapper).
 
-    I dette tilfælde kan strengfeltet fungere som en enum-værdi med henblik på brugerangivelse. Hvis du vil gemme værdien i databasen som en enum, skal strengværdien knyttes til enum-værdien manuelt, før du gemmer den i databasen, ved hjælp af kommandokæden (se f.eks. afsnittet "Brug af en kommandokæde i TSTimesheetEntryService-klassen for at gemme en timeseddelpost fra appen til databasen igen" senere i dette emne).
+    I dette tilfælde kan strengfeltet fungere som en enum-værdi med henblik på brugerangivelse. Hvis du vil gemme værdien i databasen som en enum, skal du manuelt knytte strengværdien til enumværdien igen, før du gemmer den i databasen, ved hjælp af kommandokæden (se eksemplet i afsnittet "Brug kommandokæde på klassen TSTimesheetEntryService for at gemme en timeseddelsregistrering fra appen i databasen igen" senere i denne artikel).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Denne egenskab specificerer det navn, der vises ud for feltet i appen.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (liste over strenge)
 
-Denne egenskab kan kun anvendes, når **fieldBaseType** er angivet til **Streng**. Hvis **stringOptions** er angivet, er de strengværdier, der kan markeres via alternativknapperne (alternativknapper), angivet med strengene på listen. Hvis der ikke angives en streng, tillades fritekst i strengfeltet (se f.eks.sektionen "Brug en kommandokæde i TSTimesheetEntryService-klassen for at gemme en timeseddelpostering fra appen i databasen igen" senere i dette emne).
+Denne egenskab kan kun anvendes, når **fieldBaseType** er angivet til **Streng**. Hvis **stringOptions** er angivet, er de strengværdier, der kan markeres via alternativknapperne (alternativknapper), angivet med strengene på listen. Hvis der ikke er angivet nogen strenge, er fritekstindtastning i strengfeltet tilladt (se eksemplet i afsnittet "Brug kommandokæden på klassen TSTimesheetEntryService for at gemme en timeseddelsregistrering fra appen i databasen igen" senere i denne artikel).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

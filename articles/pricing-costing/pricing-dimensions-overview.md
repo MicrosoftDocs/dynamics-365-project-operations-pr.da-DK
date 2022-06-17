@@ -1,18 +1,18 @@
 ---
 title: Oversigt over dimensioner for prisfastsættelse
-description: Dette emne indeholder oplysninger om prisfastsættelsesdimensioner i Dynamics 365 Project Operations.
+description: Denne artikel indeholder oplysninger om prisfastsættelsesdimensionerne i Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918029"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversigt over dimensioner for prisfastsættelse
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations leveres med et standardsæt prisfastsættelsesdi
 
 ![Skærmbillede af Project Service-parametre, hvor "Gælder for Salg" er markeret.](media/PS-OOB-parameters.png)
 
-Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer ved hjælp af ekstra attributter, kan du oprette brugerdefinerede felter, objekter og dimensioner. Du kan finde flere oplysninger i følgende emner. 
+Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer ved hjælp af ekstra attributter, kan du oprette brugerdefinerede felter, objekter og dimensioner. Du kan finde flere oplysninger i følgende artikler. 
   
   > [!NOTE]
   > Procedurerne skal udføres i den rækkefølge, de er angivet.

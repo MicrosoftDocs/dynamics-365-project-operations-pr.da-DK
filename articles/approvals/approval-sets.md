@@ -1,17 +1,17 @@
 ---
 title: Godkendelsessæt
-description: I dette emne forklares det, hvordan du kan arbejde med godkendelsessæt, anmodninger og undersæt for disse handlinger.
+description: I denne artikel forklares det, hvordan du kan arbejde med godkendelsessæt, forespørgsler og undergrupper af disse handlinger.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918075"
 ---
 # <a name="approval-sets"></a>Godkendelsessæt
 

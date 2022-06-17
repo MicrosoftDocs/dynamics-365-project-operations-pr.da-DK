@@ -1,6 +1,6 @@
 ---
 title: Arbejde med Project Service Automation-datamodellen
-description: Dette emne indeholder oplysninger om, hvordan du arbejder med datamodellen.
+description: Denne artikel indeholder oplysninger om, hvordan du arbejder med datamodellen.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926677"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbejde med Project Service Automation-datamodellen
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587533"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation udvider andre app-objekter og introducerer sine egne objekter i Common Data Service-datamodellen. I dette emne beskrives nogle af de objekter, du møder i typiske PSA-rapporteringsscenarier.
+Dynamics 365 Project Service Automation udvider andre app-objekter og introducerer sine egne objekter i Common Data Service-datamodellen. I denne artikel beskrives nogle af de objekter, du møder i typiske PSA-rapporteringsscenarier.
 
 ## <a name="reporting-on-opportunities"></a>Rapportering om salgsmuligheder
 

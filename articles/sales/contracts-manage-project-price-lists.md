@@ -1,17 +1,17 @@
 ---
 title: Administrer projektprislister i projektkontrakter
-description: Dette emne indeholder oplysninger om administration af projektprislister i projektkontrakter.
+description: Denne artikel indeholder oplysninger om administration af projektprislister i projektkontrakter.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2ad0e260fde65cf3eb32539fbcdb7101796cb53b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 23b9e6f9bc3e4bc3fb03de62064644dd58da34c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926171"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Administrer projektprislister i projektkontrakter
 

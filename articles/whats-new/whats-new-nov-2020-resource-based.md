@@ -1,23 +1,23 @@
 ---
 title: Nyheder november 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-description: Dette emne indeholder oplysninger om de kvalitetsopdateringer, der er tilgængelige i udgivelsen i november 2020 af Project Operations for ressource/ikke-lagerbaserede scenarier.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i november 2020-udgivelsen af Project Operations for ressource/ikke-lagerbaserede scenarier.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923411"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder november 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
+Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
 - Project Operations på CDS-miljø version 4.4.0.70
 - Projektstyring og regnskab i Dynamics 365 Finance-miljø version 10.0.14

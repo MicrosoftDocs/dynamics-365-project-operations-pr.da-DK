@@ -1,24 +1,24 @@
 ---
 title: Nyheder december 2020 - lille udrulning af Project Operations - aftale til proformafakturering
-description: Dette emne indeholder oplysninger om de kvalitetsopdateringer, der er tilgængelige i udgivelsen i december 2020 til den lille udrulning af Project Operations - aftale til proformafakturering.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i december 2020-udgivelsen af Project Operations lille udrulning - aftale om proformafakturering.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924055"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nyheder december 2020 - lille udrulning af Project Operations - aftale til proformafakturering
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
+Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
   - Project Operations på Dataverse-miljø version 4.5.0.134 
 

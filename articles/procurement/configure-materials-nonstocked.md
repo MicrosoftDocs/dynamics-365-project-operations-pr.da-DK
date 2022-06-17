@@ -1,18 +1,18 @@
 ---
 title: Konfigurer ikke-lagerførte materialer og afventende leverandørfakturaer
-description: Dette emne beskriver, hvordan du kan aktivere ikke-lagerførte materialer og afventende leverandørfakturaer.
+description: I denne artikel forklares det, hvordan du kan aktivere ikke-lagerførte materialer og afventende leverandørfakturaer.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913751"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurer ikke-lagerførte materialer og afventende leverandørfakturaer
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Kør tilknytninger med dobbeltskrivning for ikke-lagerførte materialer og integration af leverandørfakturaer
 
-Dette afsnit indeholder oplysninger om specifikke tilknytninger, der kræves til ikke-lagerførte materialer og leverandørfakturaer. Kontrollér, at de nødvendige tilknytninger, der er angivet i emnet [Klargøring af et nyt miljø](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps), kører i dit miljø.
+Dette afsnit indeholder oplysninger om specifikke tilknytninger, der kræves til ikke-lagerførte materialer og leverandørfakturaer. Kontrollér, at de nødvendige tilknytninger, der er angivet i artiklen [Klargøring af et nyt miljø](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps), kører på dit miljø.
 
 1. Gå til Lifecycle Services (LCS), navigér til dit LCS-projekt, og gå til siden med **Miljødetaljer**.
 2. I afsnittet **Common Data Service miljøoplysninger** skal du vælge **Link til CDS for Apps**. Når du har valgt forbindelsen, bliver du omdirigeret til listen over objekter i tilknytningerne.

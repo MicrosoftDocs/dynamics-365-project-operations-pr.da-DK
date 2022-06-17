@@ -1,23 +1,23 @@
 ---
 title: Varekrav for projektkontrakter med flere finansieringskilder
-description: Dette emne giver oplysninger om, hvordan du konfigurerer og bruger varekrav med flere finansieringskilder.
+description: Denne artikel indeholder oplysninger om, hvordan du konfigurerer og bruger varekrav med flere finansieringskilder.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931185"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Varekrav for projektkontrakter med flere finansieringskilder
 
 _**Gælder for:** Project Operations for lagerbaserede/produktionsbaserede scenarier_
 
-I visse kontraktmæssige aftaler for projektbaserede leverancer kan der være brug for flere finansieringskilder. I dette emne forklares det, hvordan du vælger og konfigurerer de ønskede finansieringskilder, der kræves flere kilder i forbindelse med et projekt eller en projektkontrakt.
+I visse kontraktmæssige aftaler for projektbaserede leverancer kan der være brug for flere finansieringskilder. I denne artikel forklares det, hvordan du vælger og konfigurerer de ønskede finansieringskilder, når der kræves flere kilder i forbindelse med et projekt eller en projektkontrakt.
 
 ## <a name="terminology"></a>Terminologi
 

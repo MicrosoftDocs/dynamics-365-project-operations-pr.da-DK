@@ -1,6 +1,6 @@
 ---
 title: Startside for opgradering
-description: Dette emne viser, hvor du kan finde vigtige oplysninger om de nye og ændrede funktioner i Dynamics 365 Project Service Automation og processen for opgradering til den nyeste version.
+description: Denne artikel viser, hvor du kan finde vigtige oplysninger om de nye og ændrede funktioner i Dynamics 365 Project Service Automation og processen for opgradering til den nyeste version.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926631"
 ---
 # <a name="upgrade-home-page"></a>Startside for opgradering
 
@@ -48,14 +48,14 @@ Før var kunder, der havde en forekomst af PSA version 2.x og skulle opgradere t
 Det anbefales, at du udfører følgende opgaver, før du påbegynder opgraderingsprocessen:
 
 - Kontrollér, om både Dynamics 365 Field Service og Project Service Automation er installeret på den identificerede forekomst. Hvis begge løsninger er installeret, bør du planlægge at opgradere dem begge, før du genoptager den almindelige brug af forekomsten.
-- Gennemse følgende emner grundigt. Kendskab til og forståelse af forskellene mellem versionerne kan hjælpe dig med opgraderingsprocessen. Disse emner indeholder oplysninger om de største ændringer i PSA samt overvejelser og anbefalinger i forbindelse med planlægning af opgraderingen til version 3.x.
+- Gennemse følgende artikler grundigt. Kendskab til og forståelse af forskellene mellem versionerne kan hjælpe dig med opgraderingsprocessen. Disse artikler indeholder oplysninger om de største ændringer i PSA samt overvejelser og anbefalinger i forbindelse med planlægning af opgraderingen til version 3.x.
 
     - [Nyheder eller ændringer i Project Service Automation version 3](whats-new-changed-v3.md)
     - [Overvejelser i forbindelse med opgradering – Project Service Automation version 2.x eller 1.x til version 3](upgrade-v3.md)
 
 - Opgrader sandkasseforekomsten for at evaluere ændringerne i implementeringen, før du opgraderer din produktionsforekomst.
 
-Når du har gennemgået de emner, der er nævnt tidligere, og du er klar til at opgradere til PSA version 3.x eller den UCI-baserede version, skal du indsende en forespørgsel til Microsoft Support for at gøre opgraderingen tilgængelig fra Administration. Angiv oplysningerne om din forekomst i din anmodning.
+Når du har gennemgået de artikler, der er nævnt tidligere, og du er klar til at opgradere til PSA version 3.x eller den UCI-baserede version, skal du indsende en forespørgsel til Microsoft Support for at gøre opgraderingen tilgængelig fra Administration. Angiv oplysningerne om din forekomst i din anmodning.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Ældre versioner af PSA (PSA version 2.x) i en nyoprettet forekomst
 

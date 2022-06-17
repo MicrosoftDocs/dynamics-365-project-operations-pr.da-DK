@@ -1,6 +1,6 @@
 ---
 title: Tilbud - nøglekoncepter
-description: Dette emne indeholder oplysninger om de projekttilbud og salgstilbud, der er tilgængelige i Project Operations.
+description: Denne artikel indeholder oplysninger om projekttilbud og salgstilbud, der er tilgængelige i Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912509"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Begreber, der er entydige for projektbaserede tilbud
 
@@ -35,7 +35,7 @@ I Dynamics 365 Project Operations findes der to typer tilbud, nemlig projekt og 
 - **Felter og koncepter**: Et salgstilbud inkluderer ikke visse af de felter og koncepter, der findes i et projekttilbud. Felterne omfatter **Kontraktenhed**, **Account Manager** og **Kontaktnavn for fakturering**.  
 - **Type**: Salgs- og projekttilbud identificeres også af det på grupperede indstillinger baserede felt **Type**. I forbindelse med et salgstilbud indeholder dette felt værdien **Elementbaseret**. I forbindelse med et projekttilbud har det værdien **Arbejdsbaseret**.
 
-I dette emne fokuseres der på detaljerne i projekttilbud.
+I denne artikel fokuseres der på detaljerne i projekttilbud.
 
 Et projekttilbud i Project Operations kan have flere linjeelementer eller tilbudslinjer. Faktisk indeholder et projekttilbud to gitre for linjeelementer. Et gitter er til projektbaserede linjer, der gør det muligt at foretage detaljerede estimater. Det andet gitter er til produktbaserede linjer, der bruger en simpel enhedspris og en mængdebaseret tilgang.
 

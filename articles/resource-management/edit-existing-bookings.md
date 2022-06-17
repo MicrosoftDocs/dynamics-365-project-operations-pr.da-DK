@@ -1,24 +1,24 @@
 ---
 title: Rediger reservationer
-description: Dette emne indeholder oplysninger om, hvordan du opdaterer og foretager ændringer af reservationer.
+description: Denne artikel indeholder oplysninger om, hvordan du opdaterer og foretager ændringer af reservationer.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915223"
 ---
 # <a name="edit-bookings"></a>Rediger reservationer
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 
-Når der sker ændringer på et projekt, som kræver, at du opdaterer eksisterende reservationer, kan du foretage ændringerne på flere måder. Dette emne beskriver, hvordan du opdaterer og foretager ændringer af reservationer.
+Når der sker ændringer på et projekt, som kræver, at du opdaterer eksisterende reservationer, kan du foretage ændringerne på flere måder. Denne artikel beskriver, hvordan du opdaterer og foretager ændringer af reservationer.
 
 ## <a name="resource-reconciliation"></a>Ressourceafstemning
 

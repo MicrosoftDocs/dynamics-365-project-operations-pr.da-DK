@@ -1,24 +1,24 @@
 ---
 title: Anvend demonstrationsdata på et skybaseret Finance-miljø
-description: I dette emne forklares det, hvordan du anvender demodata fra Project Operations til et Dynamics 365 Finance Cloud-hostet miljø.
+description: Denne artikel redegør for, hvordan du anvender demodata fra Project Operations til et Dynamics 365 Finance Cloud-hostet miljø.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924653"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Anvend demonstrationsdata på et skybaseret Finance-miljø
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
 > [!IMPORTANT]
-> Dette emne gælder kun for Microsoft Dynamics 365 Finance version 10.0.13 og kan kun udføres i et cloud-hostet miljø. Gennemfør trinnene i dette emne, **FØR** du anvender kvalitetsopdateringer på miljøet.
+> Denne artikel gælder kun for Microsoft Dynamics 365 Finance version 10.0.13 og kan kun udføres i et cloud-hostet miljø. Fuldfør trinnene i denne artikel, **INDEN** du anvender kvalitative opdateringer til miljøet.
 
 1. I dit LCS-projekt skal du åbne siden **Miljødetaljer**. Bemærk, at det indeholder de oplysninger, der skal bruges for at oprette forbindelse til miljøet ved hjælp af RDP (Fjernskrivebordsprotokol).
 

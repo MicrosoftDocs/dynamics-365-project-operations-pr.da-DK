@@ -1,17 +1,17 @@
 ---
 title: Anvend en transaktionskategori som en prisfastsættelsesdimension
-description: Dette emne indeholder oplysninger om, hvordan du bruger feltet Transaktionskategori som en prisfastsættelsesdimension.
+description: Denne artikel indeholder oplysninger om, hvordan du bruger feltet Transaktionskategori som en prisfastsættelsesdimension.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911687"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Anvend en transaktionskategori som en prisfastsættelsesdimension
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591121"
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 
-Dette emne forklarer, hvordan du bruger feltet **Transaktionskategori** som en prisfastsættelsesdimension. 
+Denne artikel redegør for, hvordan du bruger feltet **Transaktionskategori** som en prisfastsættelsesdimension. 
 
 ## <a name="prerequisites"></a>Forudsætninger
-Før du fuldfører procedurerne i dette emne, skal du have en ny prisfastsættelsesdimensionsløsning til organisationen. Hvis du ikke allerede har oprettet en, skal du se [Opret brugerdefinerede felter og objekter som prisfastsættelsesdimensioner](create-custom-fields-entities-pricing-dimensions.md).
+Inden du fuldfører procedurerne i denne artikel, skal du have en ny løsning for prisfastsættelsesdimensioner i din organisation. Hvis du ikke allerede har oprettet en, skal du se [Opret brugerdefinerede felter og objekter som prisfastsættelsesdimensioner](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Tilføj feltet Transaktionskategori til formularer og visninger
 Hvis du vil gøre feltet **Transaktionskategori** synligt i prisfastsættelsesdimensionsløsningen, skal du tilføje feltet til alle formularer og visninger som et objekt.

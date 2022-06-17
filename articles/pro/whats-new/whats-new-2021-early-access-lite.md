@@ -1,24 +1,24 @@
 ---
 title: Nyheder i anden bølge i 2021 for tidlig adgang – Project Operations lille udrulning
-description: Dette emne indeholder oplysninger om de funktioner, der er tilgængelige i anden bølge i 2021 af udgivelsen af tidlig adgang til Project Operations lille udrulning.
+description: Denne artikel indeholder oplysninger om de funktioner, der er tilgængelige i den anden bølge i 2021 for tidlig adgang til Project Operations lille udrulning.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924101"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Nyheder i anden bølge i 2021 for tidlig adgang – Project Operations lille udrulning
 
 _Gælder for: Lille udrulning - aftale til proformafakturering_
 
-Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
+Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
   - Project Operations på Dataverse-miljø version 4.23.0.4
 

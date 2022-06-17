@@ -1,6 +1,6 @@
 ---
 title: Mobilt arbejdsområde for tidsregistrering på projekter
-description: Dette emne indeholder oplysninger om det mobile arbejdsområde for tidsregistreringer på projekter. I dette arbejdsområde kan brugere indtaste og spare tid i løbet af et projekt ved at anvende deres mobilenhed.
+description: Denne artikel indeholder oplysninger om arbejdsområdet til projekttidsregistrering på mobilenheder. I dette arbejdsområde kan brugere indtaste og spare tid i løbet af et projekt ved at anvende deres mobilenhed.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919531"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilt arbejdsområde for tidsregistrering på projekter
 
 [!include [banner](../includes/banner.md)]
 
-Dette emne indeholder oplysninger om det mobile arbejdsområde for **Tidsregistrering på projekter**. I dette arbejdsområde kan brugere indtaste og spare tid i løbet af et projekt ved at anvende deres mobilenhed.
+Denne artikel indeholder oplysninger om arbejdsområdet **Projekttidsregistrering** på mobilenheder. I dette arbejdsområde kan brugere indtaste og spare tid i løbet af et projekt ved at anvende deres mobilenhed.
 
 Dette mobile arbejdsområde er beregnet til at blive brugt sammen med Dynamics 365 Unified Ops-mobilappen. 
 

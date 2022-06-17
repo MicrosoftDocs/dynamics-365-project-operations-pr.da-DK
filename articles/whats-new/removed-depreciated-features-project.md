@@ -1,24 +1,24 @@
 ---
 title: Fjernede eller udfasede funktioner i Dynamics 365 Project Operations
-description: Dette emne beskriver funktioner, der er blevet fjernet, eller som vil blive fjernet, fra Dynamics 365 Project Operations.
+description: Denne artikel beskriver funktioner, der er blevet fjernet, eller som vil blive fjernet, fra Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921479"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Fjernede eller udfasede funktioner i Dynamics 365 Project Operations
 
 _**Gælder for:** Project Operations for ressource/ikke-lagerbaserede scenarier, lille udrulning - aftale om proformafakturering og Project Operations for lagerbaserede/produktionsbaserede scenarier_
 
-Dette emne beskriver funktioner, der er blevet fjernet, eller som vil blive fjernet, fra Dynamics 365 Project Operations.
+Denne artikel beskriver funktioner, der er blevet fjernet, eller som vil blive fjernet, fra Dynamics 365 Project Operations.
 
 - En *fjernet* funktion er ikke længere tilgængelig i produktet.
 - En *forældet* funktion er ikke i aktiv udvikling, og den kan blive fjernet i en senere opdatering.

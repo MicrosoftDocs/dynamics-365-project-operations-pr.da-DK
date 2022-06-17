@@ -1,26 +1,26 @@
 ---
 title: Anvend en reserverbar ressource som en prisfastsættelsesdimension
-description: Dette emne indeholder oplysninger om, hvordan du bruger en reserverbar ressource som en prisdimension.
+description: Denne artikel indeholder oplysninger om, hvordan du bruger en reserverbar ressource som en prisfastsættelsesdimension.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914809"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Anvend en reserverbar ressource som en prisfastsættelsesdimension
 
  _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_ 
 
-Dette emne indeholder oplysninger om, hvordan du bruger en reserverbar ressource som en prisdimension. Hvis din prisfastsættelsesstrategien er konfigureret, så hver enkelt ressource skal have en bestemt pris- eller omkostningssats, skal du bruge en reserverbare ressource som en prisfastsættelsesdimension.
+Denne artikel indeholder oplysninger om, hvordan du bruger en reserverbar ressource som en prisfastsættelsesdimension. Hvis din prisfastsættelsesstrategien er konfigureret, så hver enkelt ressource skal have en bestemt pris- eller omkostningssats, skal du bruge en reserverbare ressource som en prisfastsættelsesdimension.
 
 ## <a name="prerequisites"></a>Forudsætninger
-Før du fuldfører procedurerne i dette emne, skal du have en ny prisfastsættelsesdimensionsløsning til organisationen. Hvis du ikke allerede har oprettet en, kan du se [Opret brugerdefinerede felter og objekter](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Inden du fuldfører procedurerne i denne artikel, skal du have en ny løsning for prisfastsættelsesdimensioner i din organisation. Hvis du ikke allerede har oprettet en, kan du se [Opret brugerdefinerede felter og objekter](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Tilføj feltet Reserverbar ressource til formularer og visninger
 Hvis du vil gøre feltet **Reserverbar ressource** synligt i prisfastsættelsesdimensionsløsningen, skal du tilføje feltet til alle formularer og visninger som et objekt.

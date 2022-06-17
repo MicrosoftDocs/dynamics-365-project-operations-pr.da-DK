@@ -1,17 +1,17 @@
 ---
 title: Naviger i Project Operations
-description: Dette emne indeholder oplysninger om, hvordan du får adgang til Project Operations fra Lifecycle Services.
+description: Denne artikel indeholder oplysninger om, hvordan du får adgang til Project Operations fra Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931645"
 ---
 # <a name="navigate-project-operations"></a>Naviger i Project Operations
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations for ressource/ikke-lagerførte scenarier består
  - **Project Operations på Common Data Service-miljø (CDS)**: Denne komponent indeholder funktioner og processer fra salgsmulighed til proformafakturering. 
  - **Projektstyring og regnskab på Dynamics 365 Finance-miljøet**: Denne komponent omfatter funktioner til omkostningsstyring, projektregnskab og indtægtsføring. 
 
-Når du har klargjort Project Operations som beskrevet i dette emne, giver siden med **Miljødetaljer** i Lifecycle Services (LCS) let adgang til begge komponenter i Project Operations.  
+Når du har klargjort Project Operations som beskrevet i denne artikel, giver siden med oplysninger om Lifecycle Services (LCS) **Miljødetaljer** nem adgang til begge komponenter i Project Operations.  
 
 Brug miljønavnet i sektionen **Common Data Service-miljønavn** til at navigere til Project Operations på et CDS-miljø. 
 

@@ -1,6 +1,6 @@
 ---
 title: Opret prognosemodeller for projektbudgetter
-description: I dette emne beskrives det, hvordan du kan oprette en prognosemodel for resterende budgetter.
+description: I denne artikel beskrives det, hvordan du opretter en budgetmodel for resterende budgetter.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916695"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Opret prognosemodeller for projektbudgetter 
 
 [!include [banner](../includes/banner.md)]
 
-I dette emne beskrives det, hvordan du kan oprette en prognosemodel for resterende budgetter. I et projekt, der er underlagt budgetstyring, bruges der to typer budgetter: oprindelig og resterende. Når du opretter et projektbudget, skal du angive de oprindelige og resterende budgetprognosemodeller, der er oprettet på siden **Prognosemodeller**. Projektbudgetter, der er baseret på de angivne modeller, oprettes, når du bekræfter projektbudgettet.
+I denne artikel beskrives det, hvordan du opretter en budgetmodel for resterende budgetter. I et projekt, der er underlagt budgetstyring, bruges der to typer budgetter: oprindelig og resterende. Når du opretter et projektbudget, skal du angive de oprindelige og resterende budgetprognosemodeller, der er oprettet på siden **Prognosemodeller**. Projektbudgetter, der er baseret på de angivne modeller, oprettes, når du bekræfter projektbudgettet.
 
 > [!NOTE]
 > En prognosemodel, der bruges til budgetstyring, kan ikke have en undermodel eller bruges som undermodel.

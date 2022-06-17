@@ -1,25 +1,25 @@
 ---
 title: Fejlfinding i forbindelse med arbejde i opgavegitteret
-description: Dette emne indeholder oplysninger om de nødvendige fejlfindingsoplysninger, når du arbejder i opgavegitteret.
+description: Denne artikel indeholder oplysninger om fejlfinding, der er nødvendige, når du arbejder i gitteret Opgave.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911037"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Fejlfinding i forbindelse med arbejde i opgavegitteret 
 
 
 _**Gælder for:** Project Operations til ressource/ikke-lagerbaserede scenarier, Lille udrulning – aftale om proformafakturaren, Project for the web_
 
-Det opgavegitter, der bruges i Dynamics 365 Project Operations, er en værtsbaseret iFrame i Microsoft Dataverse. Som følge af denne brug skal der specifikke krav være opfyldte for at sikre, at godkendelse og autorisation fungerer korrekt. I dette emne beskrives de almindelige problemer, der kan påvirke muligheden for at gengive gitteret eller administrere opgaver i arbejdsopgavehierarkiet (WBS).
+Det opgavegitter, der bruges i Dynamics 365 Project Operations, er en værtsbaseret iFrame i Microsoft Dataverse. Som følge af denne brug skal der specifikke krav være opfyldte for at sikre, at godkendelse og autorisation fungerer korrekt. I denne artikel beskrives de almindelige problemer, der kan påvirke muligheden for at gengive gitteret eller administrere opgaver i arbejdsopgavehierarkiet (WBS).
 
 Almindelige problemer omfatter:
 

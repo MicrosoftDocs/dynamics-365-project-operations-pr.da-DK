@@ -1,28 +1,28 @@
 ---
 title: Projektplanlægningens API-ydeevne
-description: Dette emne indeholder oplysninger om benchmarks for projektplanlægnings-API'ernes ydeevne og identificerer bedste praksis for optimal anvendelse.
+description: Denne artikel indeholder oplysninger om benchmarks for projektplanlægnings-API'ernes ydeevne og identificerer bedste praksis for optimal anvendelse.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911175"
 ---
 # <a name="project-schedule-api-performance"></a>Projektplanlægningens API-ydeevne
 
 _**Gælder for:** Project Operations til ressource/ikke-lagerbaserede scenarier, Lille udrulning – aftale om proformafakturaren, Project for the web_
 
-Dette emne indeholder oplysninger om benchmarks for ydeevnen for grænseflader til programmering af apps (API'er) i forbindelse med projektplanlægning og identificerer den bedste praksis for optimal anvendelse.
+Denne artikel indeholder oplysninger om benchmarks for ydeevnen for grænseflader til programmering af apps (API'er) i forbindelse med projektplanlægning og identificerer den bedste praksis for optimal anvendelse.
 
 ## <a name="project-scheduling-service"></a>Projektplanlægningstjeneste
 Projektplanlægningstjenesten er en tjeneste på flere lejere, som kører i Microsoft Azure. Den er udviklet til at forbedre interaktionen ved at give brugerne en hurtig oplevelse, når de arbejder på projekter. Disse forbedringer opnås ved at acceptere ændringsanmodninger, behandle dem og derefter straks returnere resultatet. Tjenesten forbliver asynkron i Dataverse og forhindrer ikke brugere i at udføre andre handlinger.
 
-API'erne for projektplanlægning er afhængige af, at projektplanlægningstjenesten kører forespørgsler, hvilket er beskrevet mere detaljeret senere i dette emne.
+API'erne for projektplanlægning er afhængige af, at projektplanlægningstjenesten kører forespørgsler, hvilket er beskrevet mere detaljeret senere i denne artikel.
 
 API'erne for projektplanlægning er udviklet til at kunne arbejde sammen med følgende objekter i arbejdsopgavehierarkiet (WBS):
 

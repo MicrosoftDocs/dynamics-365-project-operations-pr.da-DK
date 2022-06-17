@@ -1,21 +1,21 @@
 ---
 title: Tilmelding til et prøveversionsabonnement - lille
-description: Dette emne indeholder oplysninger om, hvordan du abonnere på og udruller den lille udrulning af Project Operations - aftale til proformafakturering.
+description: Denne artikel indeholder oplysninger om, hvordan du abonnerer på og udruller Project Operations - lille udrulning - aftale om proformafakturering.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921249"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tilmelding til et prøveversionsabonnement - lille 
 
-I dette emne forklares det, hvordan du abonnerer på prøvetilbuddet og udruller Dynamics 365 Project Operations lille udrulning – aftale om proformafakturering.
+Denne artikel redegør for, hvordan du abonnerer på prøvetilbuddet og udruller Dynamics 365 Project Operations - lille udrulning - aftale om proformafakturering.
 
 > [!NOTE]
 > Denne proces ændres i de kommende versioner af Project Operations.
@@ -50,7 +50,7 @@ Før du går i gang, skal du sikre dig, at du er logget på en browser med bruge
 
 ## <a name="create-a-new-dataverse-environment"></a>Opret et nyt Dataverse-miljø
 
-1. Klargør et nyt Project Operations Dataverse-udrulningsmiljø ved at følge vejledningen i emnet [Dataverse-udrulningsmodel](lite-deployment.md). Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.
+1. Klargør et nyt Project Operations Dataverse-udrulningsmiljø ved at følge instruktionerne i artiklen [Udrulningsmodel til Dataverse](lite-deployment.md). Når du vælger miljøtypen, skal du sørge for at bruge **Prøveversion (abonnementsbaseret)**.
 
   ![Nyt miljø.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Før du går i gang, skal du sikre dig, at du er logget på en browser med bruge
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installer en CDS-konfiguration og konfigurer demonstrationsdata
 
-Installer CDS-konfigurationen, og konfigurer demonstrationsdata ved at følge vejledningen i emnet [Anvend demonstrationskonfiguration og konfigurationsdata](lite-apply-demo-setup-config-data.md).
+Installer CDS-konfigurationen, og konfigurer demodata ved at følge instruktionerne i artiklen [Anvend demokonfiguration og konfigurationsdata](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

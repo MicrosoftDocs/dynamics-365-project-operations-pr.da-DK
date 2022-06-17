@@ -1,6 +1,6 @@
 ---
 title: Startside med dimensioner for prisfastsættelse og efterkalkulation
-description: Dette emne indeholder en oversigt over prisdimensioner.
+description: Denne artikel indeholder en oversigt over prisfastsættelsesdimensioner.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925435"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startside med dimensioner for prisfastsættelse og efterkalkulation
 
@@ -47,7 +47,7 @@ PSA-leverancer med et standardsæt af prisdimensioner. Du kan få vist disse ved
 > [!IMPORTANT]
 > Hvis du har brugt standardfelterne for både rolle og afdeling som prisdimensioner før version 3 af PSA, er der ingen bemærkelsesværdige ændringer. Du kan fortsætte med at bruge Project Service, som du plejer. 
 
-Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer ved hjælp af ekstra attributter, kan du oprette brugerdefinerede felter, objekter og dimensioner. Du kan finde flere oplysninger i følgende emner, men vær opmærksom på, at du skal udføre procedurerne i den rækkefølge, der er angivet nedenfor:
+Hvis du har brug for at fastsætte priser eller omkostninger for dine ressourcer ved hjælp af ekstra attributter, kan du oprette brugerdefinerede felter, objekter og dimensioner. Du kan finde flere oplysninger i følgende artikler, men vær opmærksom på, at du skal udføre procedurerne i den rækkefølge, der er angivet nedenfor:
 
 - [Oprette brugerdefinerede felter og objekter](create-custom-fields-entities.md)
 - [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](field-references.md)

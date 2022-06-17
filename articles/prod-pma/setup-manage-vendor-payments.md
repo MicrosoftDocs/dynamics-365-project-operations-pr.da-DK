@@ -1,6 +1,6 @@
 ---
 title: Konfigurer og anvend betal ved betaling for betalinger til leverandører
-description: I dette emne forklares det, hvordan du kan oprette vilkår for betal ved betaling ("PWP"), så du kan frigive delvise leverandørbetalinger på grundlag af kundebetalinger.
+description: I denne artikel forklares det, hvordan du opretter vilkår for betal ved betaling, så du kan frigive delvise leverandørbetalinger baseret på kunders betalinger.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 71f7b1db58c0d6aacc4f47920e5ad39dbb35ec51
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 10e8e57695caece6c4b6ba4c2ddb52395dad1218
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920743"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurer og anvend betal ved betaling for betalinger til leverandører
 

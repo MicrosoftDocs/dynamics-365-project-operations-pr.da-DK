@@ -1,6 +1,6 @@
 ---
 title: Avanceret tilbudsafgivning, prisfastsættelse og fakturering
-description: Dette emne indeholder oplysninger om tilbudsafgivning, fakturering og prisfastsættelse i Project Service Automation.
+description: Denne artikel indeholder oplysninger om tilbudsafgivning, fakturering og prisfastsættelse i Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921801"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Avanceret vejledning til bestilling, prisfastsættelse og fakturering
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579345"
 
 Muligheden for at finde de rette ressourcer på det rigtige tidspunkt, at reservere disse ressourcer på projekter og holde ressourcer udnyttet hjælper organisationer med at opfylde omsætningsmål og målsætningerne for kundetilfredshed. 
 
-Det PDF-link, der tidligere var i dette emne, er blevet fjernet, og indholdet er blevet flyttet til følgende emner:
+Det PDF-link, der tidligere var i denne artikel, er blevet fjernet, og indholdet er blevet flyttet til følgende artikler:
 
 - [Tilbudsafgivning, prisfastsættelse og fakturering](../quote-bill-price.md)
 - [Salgsprocesser](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Det PDF-link, der tidligere var i dette emne, er blevet fjernet, og indholdet er
 - [Registrere faktiske oplysninger](../advanced-actuals.md)
 
 > [!NOTE]
-> Denne emne fjernes i en fremtidig dokumentationsopdatering. 
+> Denne artikel fjernes i en fremtidig dokumentationsopdatering. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

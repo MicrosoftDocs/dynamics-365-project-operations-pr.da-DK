@@ -1,6 +1,6 @@
 ---
 title: Nyheder eller ændringer i opdateringsudgivelse 37.5, V3, til Project Service Automation
-description: Dette emne angiver en liste over de funktioner og løsninger, der er tilgængelige i Microsoft Dynamics 365 Project Service Automation opdateringsversion 37.5, V3.
+description: Denne artikel indeholder de funktioner og løsninger, der findes i opdateringsudgivelse nr. 37,5 til Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/15/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f36d15bdce7b7b243cf26f6513665c6519bee8fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 46782c4c430ad5d78f2ed1936ae71b42327af9a9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915269"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-375-v3"></a>Nyheder eller ændringer i opdateringsudgivelse 37.5, V3, til Project Service Automation
 
@@ -29,7 +29,7 @@ ms.locfileid: "8601149"
 
 Vi kan med glæde offentliggøre den seneste opdatering til Microsoft Dynamics 365 Project Service Automation-appen. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Den er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til løsningsside med administrationscenteret for Dynamics 365 online og installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Project Service Automation, 37.5. opdateringsudgivelse, V3. Denne version har buildnummer V3.10.58.130 og er generelt tilgængelig via en selv-opdatering i november 2021.
+Denne artikel indeholder de funktioner og løsninger, der er nye eller ændrede i forbindelse med opdateringsudgivelse nr. 37,5 til Project Service Automation, V3. Denne version har buildnummer V3.10.58.130 og er generelt tilgængelig via en selv-opdatering i november 2021.
 
 ## <a name="update-release-375"></a>37.5. opdateringsudgivelse
 

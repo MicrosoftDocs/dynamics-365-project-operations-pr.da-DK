@@ -1,17 +1,17 @@
 ---
 title: Planlægningstilstande
-description: Dette emne indeholder oplysninger om planlægningstilstande.
+description: Denne artikel indeholder oplysninger om planlægningstilstande.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923641"
 ---
 # <a name="scheduling-modes"></a>Planlægningstilstande
 
@@ -38,7 +38,7 @@ Når du definerer et projekts planlægningstilstand, angiver du en af disse vær
 | Fast indsatsopgave    | Varigheden genberegnes. | Enheder genberegnes.    | Varigheden genberegnes. |
 | Fast varighedsopgave  | Indsatsen genberegnes.   | Indsatsen genberegnes.    | Enheder genberegnes.   |
 
-Du kan finde flere oplysninger om konsekvenserne af en bestemt tilstand under [Ændring af opgavetypen for at opnå en mere nøjagtig planlægning](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). I emnet bruges udtrykket **Arbejde** i stedet for **Indsats**.
+Du kan finde flere oplysninger om konsekvenserne af en bestemt tilstand under [Ændring af opgavetypen for at opnå en mere nøjagtig planlægning](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). I artiklen bruges begrebet **Arbejde** i stedet for **Indsats**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Ændre organisationens planlægningstilstand
 

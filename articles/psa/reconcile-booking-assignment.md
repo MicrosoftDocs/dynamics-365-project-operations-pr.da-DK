@@ -1,6 +1,6 @@
 ---
 title: Afstemme reservationer og tildelinger
-description: Dette emne indeholder oplysninger om faktiske værdier.
+description: Denne artikel indeholder oplysninger om faktiske værdier.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c0795576239345525704bfcfdfe12ad1db06f59e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 04c238527006daab4c55f17280ce46b7df2aa649
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920375"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Afstemme reservationer og tildelinger
 

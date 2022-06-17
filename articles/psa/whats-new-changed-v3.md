@@ -1,6 +1,6 @@
 ---
 title: Nyheder eller ændringer i Project Service Automation version 3
-description: Dette emne indeholder oplysninger om nyheder og ændringer i Project Service Automation version 3.
+description: Denne artikel indeholder oplysninger om nyheder og ændringer i Project Service Automation version 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926585"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheder eller ændringer i Project Service Automation version 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581645"
 
 
 
-Emnet indeholder oplysninger om ændringerne af brugergrænseflade, funktioner og terminologi i Project Service Automation mellem version 2 eller version 1 og version 3.
+Denne artikel indeholder oplysninger om ændringerne af brugergrænseflade, funktioner og terminologi i Project Service Automation (PSA) mellem version 2 eller version 1 og version 3.
 
 ## <a name="project-scheduling"></a>Projektplanlægning
 Projektplanen, som blev kendt som arbejdsopgavehierarkiet (WBS - work breakdown structure) i tidligere versioner, er blevet omdøbt til Tidsplan, og du får adgang til den ved at klikke på fanen **Tidsplan**. 
@@ -150,7 +150,7 @@ Når du har opgavetildelinger for en ressource uden reservationer (manglende res
 Denne sektion indeholder oplysninger om ændringerne i tid, udgifter og godkendelse i version 3 af Project Service Automation. Som en del af Dynamics 365 Project Service Automation-løsningen er funktionen **Tidsregistrering** opdateret, så den kan udnytte Unified Interface-strukturen. Det giver mulighed for levering af en ensartet brugergrænseflade med dynamisk design og optimal visning på en hvilken som helst skærmstørrelse eller enhed. 
 
 ### <a name="landing-page"></a>Landingsside
-Oplevelsen med den brugerdefinerede tidsregistrering, der ikke kan udvides, er frarådet i version 3. I stedet er der nu en indbygget gitteroplevelse, som kan udvides. Du kan få adgang til tidsregistreringsfunktionaliteten ved at bruge webstedsoversigten til venstre. Med denne ændring kan du ikke længere angive tid for én uge ad gangen. I stedet skal du oprette en tidsregistrering for hver dag i gitteret. Når der er oprettet nogle få tidsregistreringer, kan brugerne masseoprette tidsregistreringer ved hjælp af funktionen **Kopiér**, der er forklaret senere i denne emne. 
+Oplevelsen med den brugerdefinerede tidsregistrering, der ikke kan udvides, er frarådet i version 3. I stedet er der nu en indbygget gitteroplevelse, som kan udvides. Du kan få adgang til tidsregistreringsfunktionaliteten ved at bruge webstedsoversigten til venstre. Med denne ændring kan du ikke længere angive tid for én uge ad gangen. I stedet skal du oprette en tidsregistrering for hver dag i gitteret. Når der er oprettet nogle få tidsregistreringer, kan brugerne masseoprette tidsregistreringer ved hjælp af funktionen **Kopiér**, der er forklaret senere i denne artikel. 
 
 ![Landingsside for tidsregistrering.](media/time-entry-landing-page-07.png)
  

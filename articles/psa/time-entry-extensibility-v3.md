@@ -1,6 +1,6 @@
 ---
-title: Tilpas ugentlige tidsregistreringer
-description: Dette emne indeholder oplysninger om, hvordan du implementerer brugerdefinerede forretningsregler, der understøtter praksis i en organisation.
+title: Brugertilpasning af ugentlige tidsregistreringer
+description: Denne artikel indeholder oplysninger om, hvordan du implementerer brugerdefinerede forretningsregler, der understøtter praksis i en organisation.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918949"
 ---
 # <a name="customize-weekly-time-entry"></a>Brugertilpasning af ugentlige tidsregistreringer 
 
@@ -46,9 +46,9 @@ Sektionen **Mål** viser alle de mål, som tid kan angives i forhold til, som ko
 - Skriv
 - Status for registrering
 
-I sektionen **Mål** er det ikke muligt at foretage indbygget redigering. Sektionen understøttes af en visning, hvor brugerdefinerede felter kan føjes til det ugentlige tidsregistreringsgitter. Oplysninger om, hvordan du tilføjer brugerdefinerede felter, finder du i sektionen "Mulighed for udvidelse" senere i dette emne.
+I sektionen **Mål** er det ikke muligt at foretage indbygget redigering. Sektionen understøttes af en visning, hvor brugerdefinerede felter kan føjes til det ugentlige tidsregistreringsgitter. Oplysninger om, hvordan du tilføjer brugerdefinerede felter, finder du i sektionen "Mulighed for udvidelse" senere i denne artikel.
 
-### <a name="duration"></a>Varighed
+### <a name="duration"></a>Duration
 I sektionen Varighed vises dagene i ugen som kolonneoverskrifter. I denne sektion er det muligt at foretage indbygget redigering. Når der er oprettet en tidsregistreringsrække med de rette mål, kan brugere hurtigt angive den tid, de har brugt på disse mål, indlejret.
 
 ## <a name="create-a-new-time-entry"></a>Oprette en ny tidsregistrering

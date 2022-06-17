@@ -1,6 +1,6 @@
 ---
 title: Metoder til allokering af reservationer i Project Service Automation
-description: Dette emne indeholder oplysninger om de forskellige måder, du kan reservere allokeringer på.
+description: Denne artikel indeholder oplysninger om de forskellige måder, du kan reservere allokeringer på.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929161"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metoder til allokering af reservationer i Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Uanset om du tilføjer et teammedlem direkte i et projekt under fanen **Team** eller reserverer en ressource til et projekt eller krav i planlægningsområdet, er der forskellige reservationsallokeringsmetoder, som du kan bruge. I dette emne forklares, hvordan de enkelte metoder fungerer, og hvilke metoder som kan føre til overreservation af ressourcer.
+Uanset om du tilføjer et teammedlem direkte i et projekt under fanen **Team** eller reserverer en ressource til et projekt eller krav i planlægningsområdet, er der forskellige reservationsallokeringsmetoder, som du kan bruge. Denne artikel beskriver, hvordan de enkelte metoder fungerer, og hvilke metoder der kan føre til overreservation af ressourcer.
 
 ## <a name="full-capacity"></a>Fuld kapacitet 
 Fuld kapacitet-metoden reserverer ressourcens fulde kapacitet for de angivne fra- og til-datoer. Hvis en ressource f.eks. har en kalender med angivelse af otte timers arbejde om dagen fem dage om ugen, reserveres ressourcen i 40 timer, hvis du angiver en start- og slutdato, der omfatter fem arbejdsdage. Reservationen foretages uden hensyn til ressourcens resterende kapacitet. Hvis en ressource allerede er reserveret i den pågældende periode, reserveres de 40 timer som yderligere timer, hvilket potentielt kan føre til overreservationer.

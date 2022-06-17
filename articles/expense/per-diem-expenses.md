@@ -1,6 +1,6 @@
 ---
 title: Diætudgifter
-description: Dette emne indeholder oplysninger om, hvordan du arbejder med diætudgifter.
+description: Denne artikel indeholder oplysninger om, hvordan du arbejder med diætudgifter.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923181"
 ---
 # <a name="per-diem-expenses"></a>Diætudgifter
 
 > [!IMPORTANT] 
-> Funktioner, der beskrives i dette emne, er tilgængelige for målrettede brugere, der er en del af målgruppen for en eksempelversion.
+> Funktioner, der beskrives i denne artikel, er tilgængelige for målrettede brugere, der er en del af målgruppen for en eksempelversion.
 
 En diætbetaling er en fast, forudbestemt dagspris, som en virksomhed betaler til sine medarbejdere for ophold (hoteller), måltider og uforudsete omkostninger, som de pågældende medarbejdere betaler, mens de rejser i embedsmedfør. Virksomheden udbetaler dette beløb til medarbejderne i stedet for at betale de faktiske rejseomkostninger. Medarbejdere kan bruge deres **Uforudsete/andet** diætbetaling til drikkepenge, roomservice, vask eller rens i forbindelse med vigtige forretningsmøder. Diæten pr. medarbejder kan variere, afhængigt af om arbejdsgiver vælger at godtgøre de samlede omkostninger for ophold og måltider eller kun omkostningerne til måltider og diverse.
 

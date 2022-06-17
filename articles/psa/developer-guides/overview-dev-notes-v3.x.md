@@ -1,6 +1,6 @@
 ---
 title: Startside for udvikling (Project Service Automation 3.x)
-description: Dette emne har links til emner, der indeholder udviklingsoplysninger om Dynamics 365 Project Service Automation (PSA) version 3.x.
+description: Denne artikel indeholder links til artikler, som indeholder udviklingsoplysninger om Dynamics 365 Project Service Automation (PSA) version 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928977"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Startside for udvikling (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x indeholder nye funktioner, implementering af nye platformfunktioner og forbedringer af eksisterende funktioner på forskellige områder. Du kan finde flere oplysninger om de ændringer, der blev foretaget i den nyeste version af PSA, under følgende emner:
+Dynamics 365 Project Service Automation 3.x indeholder nye funktioner, implementering af nye platformfunktioner og forbedringer af eksisterende funktioner på forskellige områder. Du kan finde flere oplysninger om de ændringer, der blev foretaget i den nyeste version af PSA, i følgende artikler:
 
 - [Ændring af objekter, kontrolelementer og brugergrænsefladen (Project service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Ændring af tider og udgifter (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

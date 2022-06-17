@@ -1,6 +1,6 @@
 ---
 title: Hvorfor kan jeg ikke slette poster fra objektet med faktiske oplysninger?
-description: Denne emne indeholder oplysninger om, hvorfor du ikke kan slette poster fra objektet med faktiske oplysninger.
+description: Denne artikel indeholder oplysninger om, hvorfor du ikke kan slette poster fra objektet med faktiske værdier.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ff2c951905324d5d05722f399057c03d22f1a1c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd446961432a8f18895db45699d7a731d55235b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925573"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Hvorfor kan jeg ikke slette poster fra objektet med faktiske oplysninger?
 

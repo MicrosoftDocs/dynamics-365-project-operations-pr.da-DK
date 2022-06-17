@@ -1,24 +1,24 @@
 ---
 title: Nyheder december 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-description: Dette emne indeholder oplysninger om de kvalitetsopdateringer, der er tilgængelige i udgivelsen i december 2020 af Project Operations for lager-/produktionsbaserede scenarier.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i december 2020-udgivelsen af Project Operations for lagerførte/produktionsbaserede scenarier.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911359"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations december 2020 for lagerbaserede/produktionsbaserede scenarier
 
 _Gælder for: Project Operations for lagerbaserede/produktionsbaserede scenarier_
 
-Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
+Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
   - Projektstyring og regnskab i Dynamics 365 Finance-miljø version 10.0.15
 

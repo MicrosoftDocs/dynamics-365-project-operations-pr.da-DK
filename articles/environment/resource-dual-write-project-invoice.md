@@ -1,22 +1,22 @@
 ---
 title: Integration af projektfaktura
-description: Dette emne indeholder oplysninger om integration af dobbeltskrivning i Project Operations til kundefakturering.
+description: Denne artikel indeholder oplysninger om integration af dobbeltskrivning i Project Operations til kundefakturering.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912095"
 ---
 # <a name="project-invoice-integration"></a>Integration af projektfaktura
 
-Dette emne indeholder oplysninger om integration af dobbeltskrivning i Project Operations til kundefakturering.
+Denne artikel indeholder oplysninger om integration af dobbeltskrivning i Project Operations til kundefakturering.
 
 I Project Operations administrerer projektlederen efterslæbet af projektfakturering og opretter en proformafaktura for kunden i Microsoft Dataverse. På baggrund af denne proformafaktura opretter kreditormedarbejderen eller projektrevisoren en kundeorienteret faktura. Integration med dobbelt skrivning sikrer, at oplysningerne om proformafakturaen synkroniseres med programmer til finans og drift. Når den kundeorienterede faktura er bogført, opdaterer systemet de relevante faktiske projekttal i Dataverse med de relevante regnskabsdetaljer. Følgende grafik giver en overordnet begrebsmæssig oversigt over denne integration.
 

@@ -1,18 +1,18 @@
 ---
 title: Indkøb af ikke-lagerførte materialer eller indkøbskategorier ved hjælp af en afventende leverandørfaktura
-description: I dette emne forklares det, hvordan afventende leverandørfakturaer registreres.
+description: I denne artikel forklares det, hvordan du registrerer afventende leverandørfakturaer.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921985"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Indkøb af ikke-lagerførte materialer eller indkøbskategorier ved hjælp af en afventende leverandørfaktura
 
@@ -23,7 +23,7 @@ Når en virksomhed indkøber ikke-lagerførte materialer eller indkøbskategorie
 Contoso Robotics USA er f.eks. i gang med at udføre et projekt til fornyelse af udstyr, og der skal bruges softwarelicenser. Disse licenser indkøbes fra en tredjepartsleverandør.  Ved hjælp af Dynamics 365 Finance registrerer debitormedarbejderen et afventende leverandørfakturadokument og tilskriver licensomkostningerne direkte på projektet til fornyelse af udstyr. 
 
 > [!IMPORTANT]
-> Før du bruger den funktion, der er beskrevet i dette emne, skal du gennemse og anvende de påkrævede konfigurationer. Du kan finde flere oplysninger i [Aktiver ikke-lagerbaserede materialer og afventende leverandørfakturaer](configure-materials-nonstocked.md) og [Brug indkøbskategorier sammen med projektkøbsordre og afventende leverandørfakturaer](configure-procurement-categories.md)
+> Før du bruger den funktion, der er beskrevet i denne artikel, skal du gennemse og anvende de påkrævede konfigurationer. Du kan finde flere oplysninger i [Aktiver ikke-lagerbaserede materialer og afventende leverandørfakturaer](configure-materials-nonstocked.md) og [Brug indkøbskategorier sammen med projektkøbsordre og afventende leverandørfakturaer](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Bogfør en projektrelateret afventende leverandørfaktura 
 

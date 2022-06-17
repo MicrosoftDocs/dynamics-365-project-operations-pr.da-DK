@@ -1,25 +1,25 @@
 ---
 title: Opdater Project Operations i dit Finance-miljø
-description: Dette emne indeholder oplysninger om, hvordan du opdaterer Project Operations i dit Dynamics 365 Finance-miljø.
+description: Denne artikel indeholder oplysninger om, hvordan du opdaterer Project Operations i dit Dynamics 365 Finance-miljø.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912463"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Opdater Project Operations i dit Finance-miljø
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
 
-Dette emne indeholder oplysninger om, hvordan du opdaterer Dynamics 365 Project Operations i dit Dynamics 365 Finance-miljø. Det kræver tre procedurer at opdatere Project Operations til opdatering 5 (UR5):
+Denne artikel indeholder oplysninger om, hvordan du opdaterer Dynamics 365 Project Operations i dit Dynamics 365 Finance-miljø. Det kræver tre procedurer at opdatere Project Operations til opdatering 5 (UR5):
 
 - [Importér pakken til dit eksempelprojekt](#import)
 - [Anvend opdateringen](#apply)

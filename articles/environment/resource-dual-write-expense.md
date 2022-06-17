@@ -1,24 +1,24 @@
 ---
 title: Integration af udgiftsstyring
-description: Dette emne indeholder oplysninger om integration af udgiftsrapporter i Project Operations ved hjælp af dobbeltskrivning.
+description: Denne artikel indeholder oplysninger om integration af udgiftsrapporter i Project Operations ved hjælp af dobbeltskrivning.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924607"
 ---
 # <a name="expense-management-integration"></a>Integration af udgiftsstyring
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Dette emne indeholder oplysninger om integration af udgiftsrapporter i Project Operations [fuld udgiftsudrulning](../expense/expense-overview.md) ved hjælp af dobbeltskrivning.
+Denne artikel indeholder oplysninger om integration af udgiftsrapporter i Project Operations [fuld udgiftsudrulning](../expense/expense-overview.md) ved hjælp af dobbeltskrivning.
 
 ## <a name="expense-categories"></a>Udgiftskategorier
 

@@ -1,6 +1,6 @@
 ---
 title: Oprette brugerdefinerede felter og objekter
-description: I dette emne beskrives det, hvordan du kan oprette grupperede indstillinger og objekter i din egen løsning i Power Apps-platformen.
+description: I denne artikel forklares det, hvordan du kan oprette grupperede indstillinger og objekter i din egen løsning i Power Apps-platformen.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926907"
 ---
 # <a name="create-custom-fields-and-entities"></a>Oprette brugerdefinerede felter og objekter 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Benyt følgende fremgangsmåde, når du vil oprette en brugerdefineret grupperet indstilling eller et objekt på Power Apps-platformen.  
-Fremgangsmåderne i dette emne skal udføres ved hjælp af webgrænsefladen i Project Service Automation (PSA).
+Fremgangsmåderne i denne artikel skal udføres ved hjælp af webgrænsefladen i Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Det anbefales, at du foretager alle ændringer af brugerdefinerede prisdimensioner i en separat løsning. Denne vigtige bedste praksis giver større fleksibilitet i fremtiden til at opdatere eller fjerne ændringer efter behov, hjælper dig med at genbruge dit arbejde og gør det nemmere at overføre disse ændringer til en anden forekomst. Når du har foretaget alle de nødvendige ændringer, skal du eksportere løsningen som en **Administreret løsning** og importere den i andre forekomster for at genbruge din prissætning.

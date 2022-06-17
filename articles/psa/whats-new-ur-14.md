@@ -1,6 +1,6 @@
 ---
 title: Nyheder eller ændringer i opdateringsudgivelse 14, V3, til Project Service Automation
-description: Dette emne indeholder oplysninger om nyhederne i 14. opdateringsudgivelse til Project Service Automation V3.
+description: Denne artikel indeholder oplysninger om nyheder i opdateringsudgivelse nr. 14 til Project Service Automation V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926539"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Opdateringsudgivelse 14 til Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594296"
 
 Vi er glade for at kunne offentliggøre den seneste opdatering til applikationen Dynamics 365 Project Service Automation (PSA). Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og gå til siden med løsninger for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-I dette emne vises de funktioner og rettelser, der er nye eller ændrede for PSA V3, 14. opdateringsudgivelse. Denne version har build-nummer V3.10.4.21 og er tilgængelig for følgende plan:
+Denne artikel indeholder de funktioner og løsninger, der er nye eller ændrede i forbindelse med opdateringsudgivelse nr. 14 til PSA, V3. Denne version har build-nummer V3.10.4.21 og er tilgængelig for følgende plan:
 
 - **Almindelig tilgængelighed (egen opdatering):** januar 2020
 - **Automatisk opdatering:** februar 2020

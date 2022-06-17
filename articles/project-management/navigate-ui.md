@@ -1,17 +1,17 @@
 ---
 title: Navigation i brugergrænsefladen
-description: Dette emne indeholder oplysninger om projektstyring i Dynamics 365 Project-operationer.
+description: Denne artikel indeholder oplysninger om projektstyring i Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: de9d0477954da664b71020ef4dfae81a14b999c6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1db62cd8538444552a1296c6f10b651c9dbd34ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923779"
 ---
 # <a name="navigating-the-user-interface"></a>Navigation i brugergrænsefladen
 

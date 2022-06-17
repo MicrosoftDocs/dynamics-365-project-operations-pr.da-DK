@@ -1,6 +1,6 @@
 ---
 title: Grundlæggende vejledning til tilbudsafgivning, prisfastsættelse og fakturering
-description: Dette emne indeholder links til oplysninger om grundlæggende tilbudsafgivning, fakturering og prisfastsættelse i Project Service Automation.
+description: Denne artikel indeholder links til oplysninger om grundlæggende tilbudsafgivning, fakturering og prisfastsættelse i Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910788"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Grundlæggende vejledning til tilbudsafgivning, prisfastsættelse og fakturering
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592225"
 
 Muligheden for at finde de rette ressourcer på det rigtige tidspunkt, at reservere disse ressourcer på projekter og holde ressourcer udnyttet hjælper organisationer med at opfylde omsætningsmål og målsætningerne for kundetilfredshed. 
 
-Det PDF-link, der tidligere var i dette emne, er blevet fjernet, og indholdet er blevet flyttet til følgende emner:
+Det PDF-link, der tidligere var i denne artikel, er blevet fjernet, og indholdet er blevet flyttet til følgende artikler:
 
 - [Tilbudsafgivning, prisfastsættelse og fakturering](../quote-bill-price.md)
 - [Salgsprocesser](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Det PDF-link, der tidligere var i dette emne, er blevet fjernet, og indholdet er
 - [Registrere faktiske oplysninger](../advanced-actuals.md)
 
 > [!NOTE]
-> Denne emne fjernes i en fremtidig dokumentationsopdatering. 
+> Denne artikel fjernes i en fremtidig dokumentationsopdatering. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

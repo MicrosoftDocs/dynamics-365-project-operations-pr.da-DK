@@ -1,23 +1,23 @@
 ---
 title: Indstillinger for projektkontrakter - lille
-description: Dette emne indeholder oplysninger om de felter, der påvirker kontraktlinjer, og de oplysninger om kontrakten, der opsummeres på tværs af alle linjeelementer.
+description: Denne artikel indeholder oplysninger om felter, der påvirker kontraktlinjerne, og de oplysninger om kontrakten, der er sammenfattet på tværs af alle linjeelementer.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917063"
 ---
 # <a name="header-details-for-project-contracts"></a>Overskriftsdetaljer for projektkontrakter
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Dette emne indeholder oplysninger om de felter, der gælder for hele projektkontrakten, herunder de indstillinger, der påvirker alle kontraktlinjer. Der medtages også oplysninger om den kontrakt, der opsummeres på tværs af alle de linjeelementer, der skal bruges til at anspore nøgletallene i projektkontrakten.
+Denne artikel indeholder oplysninger om felter, der gælder for hele projektkontrakten, herunder indstillinger, der påvirker alle kontraktlinjer. Der medtages også oplysninger om den kontrakt, der opsummeres på tværs af alle de linjeelementer, der skal bruges til at anspore nøgletallene i projektkontrakten.
 
 I følgende tabel vises felterne i en projektkontrakt, der er entydige for Dynamics 365 Project Operations eller har visse vigtige ændringer i funktionsmåden i forhold til salgsordrer i Dynamics 365 Sales.
 

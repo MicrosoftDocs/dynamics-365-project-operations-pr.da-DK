@@ -1,6 +1,6 @@
 ---
 title: Opret avancerede kontrakter for fakturering, der er baseret på status
-description: I dette emne forklares det, hvordan du opretter projektkontrakter, så du kan oprette fakturaer for kunder på baggrund af en procentdel af det fuldførte arbejde.
+description: Denne artikel forklarer, hvordan du opretter projektkontrakter, så du kan generere fakturaer for kunder baseret på en procentdel af det udførte arbejde.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913659"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Opret avancerede kontrakter for fakturering, der er baseret på status
 [!include [banner](../includes/banner.md)]
 
-I dette emne forklares det, hvordan du opretter projektkontrakter, så du kan oprette fakturaer for kunder på baggrund af en procentdel af det fuldførte arbejde. Fakturabeløb beregnes automatisk for de budgetkategorier for arbejde, som du konfigurerer for et projekt. Tidspunktet for fakturering angives, når du forhandler projektkontrakten med kunden.
+Denne artikel forklarer, hvordan du opretter projektkontrakter, så du kan oprette fakturaer for kunder baseret på en procentdel af det udførte arbejde. Fakturabeløb beregnes automatisk for de budgetkategorier for arbejde, som du konfigurerer for et projekt. Tidspunktet for fakturering angives, når du forhandler projektkontrakten med kunden.
 
-Brug procedurerne i dette emne til at oprette en kontrakt, et tilknyttet projekt og de faktureringsregler, der beregner fakturabeløb for de budgetkategorier af arbejde, som du konfigurerer for projektet.
+Benyt fremgangsmåderne i denne artikel til at oprette en kontrakt, et tilhørende projekt og de regler for fakturering, der skal bruges til at beregne fakturabeløbene for de budgetkategorier, som du opretter for arbejde på projektet.
 
 Når du har oprettet kontrakten og projektet, kan du konfigurerer oplysningerne om projektet. Du kan f.eks. definere aktiviteter og tildele arbejdere til projektet.
 

@@ -1,6 +1,6 @@
 ---
 title: Projektstatus og -omkostningsforbrug
-description: Dette emne indeholder oplysninger om sporing af projektstatus og omkostningsforbrug.
+description: Denne artikel indeholder oplysninger om, hvordan du sporer projektstatus og omkostningsforbrug.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921755"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektstatus og -omkostningsforbrug
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575251"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Behovet for at spore status i forhold til tidsplanen varierer fra branche til branche. Nogle brancher sporer på et detaljeret niveau, mens andre brancher sporer på et højere niveau. I dette emne vises, hvordan du planlægger for at opfylde din organisations behov.
+Behovet for at spore status i forhold til tidsplanen varierer fra branche til branche. Nogle brancher sporer på et detaljeret niveau, mens andre brancher sporer på et højere niveau. I denne artikel vises, hvordan du planlægger for at opfylde din organisations behov.
 
 ## <a name="effort-tracking-view"></a>Visning af indsatssporing
 

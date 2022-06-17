@@ -1,17 +1,17 @@
 ---
 title: Administration af underleverandører i Project Operations
-description: Dette emne giver et overblik over den komplette proces for projektbaserede organisationers sædvanlige administration af underentrepriser.
+description: Denne artikel indeholder en oversigt over hele processen for administration af underleverandører, som typisk findes i projektbaserede organisationer.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911497"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Administration af underleverandører i Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593007"
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Dette emne giver et overblik over den komplette proces for projektbaserede organisationers normale administration af underentrepriser. Underentrepriser for tjenester følger typisk forretningsprocesforløbet, der vises i følgende diagram.
+Denne artikel indeholder en oversigt over hele processen for administration af underleverandører, som findes i projektbaserede organisationer. Underentrepriser for tjenester følger typisk forretningsprocesforløbet, der vises i følgende diagram.
 
 ![Procesflow for underleverancer](../media/SubcontractingProcessFlow.png)
 

@@ -1,23 +1,23 @@
 ---
 title: Tilføj et Azure-abonnement til et LCS-projekt
-description: Dette emne indeholder oplysninger om, hvordan du opretter forbindelse mellem Azure-abonnementet og et LCS-projekt.
+description: Denne artikel indeholder oplysninger om, hvordan du opretter forbindelse mellem dit Azure-abonnement og et LCS-projekt.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912141"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Tilføj et Azure-abonnement til et LCS-projekt
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Cloud-hostede miljøer skal installeres ved hjælp af et eksisterende Azure-abonnement. Dette emne forklarer, hvordan du opretter forbindelse mellem dit eksisterende Azure-abonnementet og et LCS-projekt. 
+Cloud-hostede miljøer skal installeres ved hjælp af et eksisterende Azure-abonnement. Denne artikel redegør for, hvordan du opretter forbindelse mellem eksisterende dit Azure-abonnement og et LCS-projekt. 
 
 ## <a name="grant-admin-consent"></a>Giv administratorsamtykke
 
@@ -59,7 +59,7 @@ Autorisationen er nu fuldført.
 2. Angiv dit Azure-abonnements-id. Du kan finde dit abonnements-id for Azure i [Azure-portalen](https://ms.portal.azure.com/) under **Indstillinger** nederst til venstre på skærmen.
 3. I feltet **Konfigurer til at bruge Azure Resource Manager** skal du vælge **Ja**.
 4. Kontroller, at Azures abonnement-AAD-lejerdomæne stemmer overens med det domæne, som ejer Azure-abonnementet, du bruger, og vælg **Næste**.
-5. På skærmen **Microsoft Azure-opsætning** skal du vælge **Næste** for at bekræfte. Hvis du modtager en fejl på skærmen, kan du gå tilbage til sektionen [Giv Dynamics Deployment Services adgang til Azure-abonnementet](#provide) i dette emne og sikre dig, at du har fuldført alle trinene.
+5. På skærmen **Microsoft Azure-opsætning** skal du vælge **Næste** for at bekræfte. Hvis du modtager en fejlmeddelelse på dette skærmbillede, skal du gå tilbage til afsnittet [Giv Dynamics Deployment Services adgang til Azure-abonnementet](#provide) i denne artikel og sikre dig, at du har fuldført samtlige trin.
 6. Hent Azure Management Certificate til en lokal mappe på din computer. Bed din Azure-abonnementsadministrator om at overføre certifikatet til Azure Management Portal ved at vælge abonnementet og gå til **Indstillinger** > **Administrationscertifikater**. Med dette certifikat kan LCS kommunikere med Azure på dine vegne. Du kan springe dette trin over, hvis brugeren har adgang til abonnementet.
 7. Vælg **Næste**.
 8. Vælg det Azure-område, det skal udrulles i, og vælg et datacenter, der ligger tæt på det sted, hvor du vil bruge dette system.

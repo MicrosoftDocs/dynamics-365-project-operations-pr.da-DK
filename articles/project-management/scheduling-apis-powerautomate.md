@@ -1,25 +1,25 @@
 ---
 title: Brug API'er til projektplanlægning med Power Automate
-description: Dette emne indeholder et eksempelflow, der bruger API'erne (Application Programming Interfaces) for projektplanlægning.
+description: Denne artikel indeholder et eksempelflow, der bruger API'erne for projektplanlægning (programmeringsgrænseflader).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916327"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Brug API'er til projektplanlægning med Power Automate
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-I dette emne beskrives et eksempelflow, som viser, hvordan du opretter en komplet projektplan ved hjælp af Microsoft Power Automate, hvordan du opretter et operationssæt, og hvordan du kan opdatere et objekt. I eksemplet vises, hvordan du opretter et projekt, et projektteammedlem, operationssæt, projektopgaver og ressourcetildelinger. I dette emne forklares også, hvordan du kan opdatere et objekt og udføre et handlingssæt.
+Denne artikel beskriver et eksempelflow, som viser, hvordan du opretter en komplet projektplan ved hjælp af Microsoft Power Automate, hvordan du opretter et operationssæt, og hvordan du kan opdatere et objekt. I eksemplet vises, hvordan du opretter et projekt, et projektteammedlem, operationssæt, projektopgaver og ressourcetildelinger. Denne artikel forklarer også, hvordan du kan opdatere et objekt og udføre et handlingssæt.
 
-Her følger en fuldstændig liste over de trin, der dokumenteres i eksempelflowet i dette emne:
+Her følger en fuldstændig liste over de trin, der dokumenteres i eksempelflowet i denne artikel:
 
 1. [Opret en PowerApps-udløser](#1)
 2. [Opret et projekt](#2)
@@ -40,7 +40,7 @@ Her følger en fuldstændig liste over de trin, der dokumenteres i eksempelflowe
 
 ## <a name="assumptions"></a>Forudsætninger
 
-I dette emne antages det, at du har en en grundlæggende viden om Dataverse-platformen, cloudflow og API (Project Schedule Application Programming Interface) for projektplanlægning. Du kan finde flere oplysninger i afsnittet [Referencer](#references) senere i dette emne.
+I denne artikel antages det, at du har en grundlæggende viden om Dataverse-platformen, cloudflow og API'en (programmeringsgrænseflader) til projektplanlægning. Du kan finde flere oplysninger i afsnittet [Referencer](#references) senere i denne artikel.
 
 ## <a name="create-a-flow"></a>Opret et flow
 
@@ -65,7 +65,7 @@ Følg disse trin for at oprette et [løsningsorienteret flow](/power-automate/ov
 1. På siden **Løsninger** skal du vælge den løsning, som du har oprettet, og derefter vælge **Ny**.
 2. I venstre rude skal du vælge **Cloudflows** \> **Automation** \> **Cloudflow** \> **Omgående**
 3. I feltet **Flownavn** skal du angive **Planlægnings-API Demoflow**.
-4. På listen **Vælg, hvordan denne proces skal udløses** skal du vælge **Power Apps**. Når du opretter en Power Apps-udløser, er logikken op til dig som forfatter. I dette emne skal du lade inputparametrene stå tomme med henblik på test.
+4. På listen **Vælg, hvordan denne proces skal udløses** skal du vælge **Power Apps**. Når du opretter en Power Apps-udløser, er logikken op til dig som forfatter. I denne artikel skal du lade inputparametrene stå tomme med henblik på test.
 5. Vælg **Opret**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Trin 2: Oprette et projekt

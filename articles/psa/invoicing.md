@@ -1,6 +1,6 @@
 ---
 title: Fakturering i Project Service Automation
-description: Dette emne indeholder oplysninger om fakturering.
+description: Denne artikel indeholder oplysninger om fakturering.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926815"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
 
@@ -94,7 +94,7 @@ Når **ProcessRunner** er færdig med at køre, kalder processen på **ProcessRu
 Batchprocesjobbet til oprettelse af fakturaer er et tilbagevendende job. Hvis denne batchproces køres mange gange, oprettes der flere forekomster af jobbet, og der opstår fejl. Du bør derfor kun starte batchprocessen én gang, og du bør kun genstarte den, hvis den holder op med at køre.
 
 > [!NOTE]
-> Batchfakturering i Project Service Automation kører kun for projektkontraktlinjer, der er konfigureret af fakturaplaner. Der skal være konfigureret målepæle for en kontraktlinje med en faktureringsmetode med fast pris. Der skal konfigureres en datobaseret fakturaplan for en projektkontraktlinje med en metode til fakturering af time og materiale. Oplysninger om konfiguration af faktureringsfrekvenser i forbindelse med et projekt, der er baseret på en tilbudslinje, findes i emne, [Tilbud og tilbudslinjer](basic-quote-lines.md#invoice-schedule). Det samme gælder for en projektbaseret kontraktlinje.      
+> Batchfakturering i Project Service Automation kører kun for projektkontraktlinjer, der er konfigureret af fakturaplaner. Der skal være konfigureret målepæle for en kontraktlinje med en faktureringsmetode med fast pris. Der skal konfigureres en datobaseret fakturaplan for en projektkontraktlinje med en metode til fakturering af time og materiale. Oplysninger om konfiguration af faktureringshyppighed i forbindelse med et projekt, der er baseret på en tilbudslinje, findes i artiklen [Tilbud og tilbudslinjer](basic-quote-lines.md#invoice-schedule). Det samme gælder for en projektbaseret kontraktlinje.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Redigere en kladde af PSA-faktura
 

@@ -1,6 +1,6 @@
 ---
 title: Startsiden for projektressourcer
-description: Dette emne indeholder oplysninger om projektressourcer.
+description: Denne artikel indeholder oplysninger om projektressourcer.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924009"
 ---
 # <a name="project-resourcing-home-page"></a>Startsiden for projektressourcer
 
 [!include [banner](../includes/banner.md)]
 
-Dette emne indeholder oplysninger om projektressourcer.
+Denne artikel indeholder oplysninger om projektressourcer.
 
 En af udfordringerne for projektledere og ressourceledere i forbindelse med projektets planlægningsfase er ressourceallokering, hvor de skal afgøre og reservere den korrekte ressource til at arbejde på et projekt. I Dynamics 365 Finance kan du med ressourcefunktioner for projekter definere roller, der behandles som midlertidige ressourcer, der kan reserveres til en bestemt opgave eller en del af en opgave. Denne type ressourcer giver projektledere og ressourceledere mulighed for at udføre følgende opgaver:
 
@@ -41,7 +41,7 @@ En af udfordringerne for projektledere og ressourceledere i forbindelse med proj
 
 Efterhånden som projektplanlægningen skrider frem, kan planlagte ressourcer erstattes af bemandede ressourcer. Projektlederen kan også gå tilbage og opdatere ressourcereservationerne i alle projektfaser.
 
-Følgende emner oplyser om de opgaver, der skal udføres, når du arbejder på ressourceprojekter.
+Følgende artikler indeholder oplysninger om de opgaver, der skal udføres, når du arbejder på ressourceprojekter.
 
 - [Konfigurer projektressourcer](set-up-project-resources.md)
 - [Administrer ressourcekompetencer](manage-resource-competencies.md)

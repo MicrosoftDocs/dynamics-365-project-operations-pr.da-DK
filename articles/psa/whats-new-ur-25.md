@@ -1,6 +1,6 @@
 ---
 title: Nyheder eller ændringer i opdateringsudgivelse 25, V3, til Project Service Automation
-description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 25, V3.
+description: Denne artikel indeholder de funktioner og løsninger, der er tilgængelige i forbindelse med opdateringsudgivelse nr. 25 til Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d24403b1bf6a06cc138de3f0158f675f6d3b6ec
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2330c7dc5d2dfb148d5c7fb9a5ce643fded84dde
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922537"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Nyheder eller ændringer i opdateringsudgivelse 25, V3, til Project Service Automation
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581507"
 
 Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-I dette emne vises de funktioner og rettelser, der er nye eller ændrede i forbindelse med Project Service Automation V3, opdateringsudgivelse 25. Denne version har build-nummer V 3.10.43.76 og er generelt tilgængelig via selvopdatering i oktober 2020.
+Denne artikel indeholder de funktioner og løsninger, der er nye eller ændrede i forbindelse med opdateringsudgivelse nr. 25 til Project Service Automation V3. Denne version har buildnummer V 3.10.43.76 og er generelt tilgængelig via en selvopdatering i oktober 2020.
 
 ## <a name="update-release-25"></a>25. opdateringsudgivelse
 

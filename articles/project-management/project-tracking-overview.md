@@ -1,23 +1,23 @@
 ---
 title: Sporing af indsats på et projekt
-description: Dette emne indeholder oplysninger om, hvordan du sporer projektindsats og arbejdets fremgang.
+description: Denne artikel indeholder oplysninger om, hvordan du sporer projektindsats og arbejdets fremgang.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929253"
 ---
 # <a name="project-effort-tracking"></a>Sporing af indsats på et projekt
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-Behovet for at spore status i forhold til tidsplanen varierer fra branche til branche. Nogle brancher sporer på et detaljeret niveau, hvor andre brancher sporer på et højere niveau. I dette emne vises, hvordan du planlægger for at opfylde din organisations behov.
+Behovet for at spore status i forhold til tidsplanen varierer fra branche til branche. Nogle brancher sporer på et detaljeret niveau, hvor andre brancher sporer på et højere niveau. I denne artikel vises, hvordan du planlægger for at opfylde din organisations behov.
 
 ## <a name="effort-tracking-view"></a>Visning af indsatssporing
 

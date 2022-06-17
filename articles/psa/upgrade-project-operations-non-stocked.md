@@ -1,6 +1,6 @@
 ---
 title: Opgradering fra Project Service Automation til Project Operations
-description: Dette emne indeholder en oversigt over processen for opgradering fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations.
+description: Denne artikel indeholder en oversigt over processen for opgradering fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912969"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Opgradering fra Project Service Automation til Project Operations
 
-Det glæder os at kunne annoncere den første af tre faser i opgraderingen fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations. Dette emne giver et overblik over de kunder, der indleder denne spændende rejse. Fremtidige emner vil omfatte overvejelser fra udviklere og oplysninger om funktionsforbedringer. De hjælper dig ikke kun med at forberede dig til opgraderingen til Project Operations, men de forklarer også, hvad du kan forvente, når du har opgraderet.
+Det glæder os at kunne annoncere den første af tre faser i opgraderingen fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations. Denne artikel giver et overblik over de kunder, der indleder denne spændende rejse. Fremtidige artikler vil omfatte overvejelser fra udviklere og oplysninger om funktionsforbedringer. De hjælper dig ikke kun med at forberede dig til opgraderingen til Project Operations, men de forklarer også, hvad du kan forvente, når du har opgraderet.
 
 Leveringsprogrammet til opgraderingen opdeles i tre faser.
 
@@ -90,7 +90,7 @@ Når du har opdateret tilpasningerne for at importere Project Operations rent, s
     > [!NOTE]
     > Opgraderingen kan tage flere timer, afhængigt af mængden af data i miljøet. Det kerneteam, der administrerer opgraderingen, skal planlægge og køre opgraderingen uden for arbejdstiden. I visse tilfælde, hvis datamængden er stor, skal opgraderingen køres i løbet af weekenderne. Beslutningen om planlægning skal være baseret på testresultaterne i lavere miljøer.
 
-3. Opgrader brugerdefinerede løsninger efter behov. Du skal nu udrulle eventuelle ændringer, som du har foretaget af tilpasningerne i afsnittet [Test og refaktorering af tilpasninger](#testing-and-refactoring-customizations) i dette emne.
+3. Opgrader brugerdefinerede løsninger efter behov. Du skal nu udrulle eventuelle ændringer, som du har foretaget af tilpasningerne i afsnittet [Test og refaktorering af tilpasninger](#testing-and-refactoring-customizations) i denne artikel.
 4. Gå til **Indstillinger** \> **Løsninger**, og vælg at afinstallere løsningen **Udfasede komponenter til Project Operations**.
 
     Denne løsning er en midlertidig løsning, som indeholder den eksisterende datamodel og komponenter, der findes under opgraderingen. Ved at fjerne denne løsning fjerner du alle de felter og komponenter, der ikke længere bruges. På denne måde kan du forenkle brugergrænsefladen og gøre integration og udvidelse nemmere.
@@ -126,7 +126,6 @@ Som en del af det fortsatte arbejde med Project Operations findes der flere nye 
 | Project Service Automation                             | Project Operations lille udrulning                        | Understøttet               |
 | Projektstyring og regnskab i Dynamics 365 Finance | Project Operations lille udrulning                        | Understøttes ikke i øjeblikket |
 | Projektstyring og regnskab i Finance              | Project Operations for ressource/ikke-lagerscenarier     | Understøttes ikke i øjeblikket |
-| Projektstyring og regnskab i Finance              | Project Operations for lagerbaserede/produktionsordrescenarier | Understøttes ikke i øjeblikket |
 | Project Service Automation 3.x                         | Project Operations for ressource/ikke-lagerscenarier     | Understøttes ikke i øjeblikket |
 | Project for the Web (forældet miljø)            | Project Operations lille udrulning                        | Understøttes ikke i øjeblikket |
 

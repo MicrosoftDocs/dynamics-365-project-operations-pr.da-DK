@@ -1,6 +1,6 @@
 ---
 title: Startside for projektplanlægning
-description: Dette emne indeholder oplysninger om projektplanlægning.
+description: Denne artikel indeholder oplysninger om projektplanlægning.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919041"
 ---
 # <a name="project-planning-home-page"></a>Startside for projektplanlægning
 
@@ -43,7 +43,7 @@ Med projektstyringsværktøjerne i PSA hjælp kan du nemt køre projekter. Indby
 - Oprette prognoser for ressourcekrav for projekter, der er på tegnebrættet.
 - At levere projekter korrekt ved at spore status og omkostningsforbrug.
 
-Følgende emner indeholder oplysninger, der kan hjælpe projektledere med at vurdere arbejdsomfang, anslå projektomkostninger og planlægge ressourcekrav ved hjælp af de værktøjer, der understøttes i PSA:
+Følgende artikler indeholder oplysninger, der kan hjælpe projektledere med at estimere arbejde, projektomkostninger og planlægge ressourcekrav ved hjælp af de værktøjer, der understøttes i PSA:
 
 - [Oprettelse af en plan](project-creating.md)
 - [Estimering af projektomkostninger og -omsætning](project-estimating.md)

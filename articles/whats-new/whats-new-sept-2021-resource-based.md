@@ -1,24 +1,24 @@
 ---
 title: Nyheder september 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-description: Dette emne giver oplysninger om de kvalitative opdateringer, der er tilgængelige i september 2021-udgivelsen af Project Operations for ressource/ikke-lagerbaserede scenarier.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i september 2021-udgivelsen af Project Operations for ressource/ikke-lagerbaserede scenarier.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923365"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder september 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
 *Finder anvendelse for: Project Operations for ressource-/ikke-lagerbaserede scenarier*
 
-Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
+Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
    - Project Operations i Microsoft Dataverse-miljø version 4.14.0.99.
    - Projektstyring og regnskab i Dynamics 365 Finance-miljø version 10.0.20.

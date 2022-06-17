@@ -1,6 +1,6 @@
 ---
 title: Mobilt arbejdsområde til udgiftsstyring
-description: Dette emne indeholder oplysninger om det mobile arbejdsområde for udgiftsstyring. I dette arbejdsområde kan brugerne oprette og overføre en kvittering, så de kan knytte den til en udgiftsrapport senere. Brugerne kan også hurtigt oprette en udgiftslinje ved hjælp af en tilknyttet kvittering og oprette og administrere deres udgiftsrapporter.
+description: Denne artikel indeholder oplysninger om arbejdsområdet Udgiftsstyring på mobilenheder. I dette arbejdsområde kan brugerne oprette og overføre en kvittering, så de kan knytte den til en udgiftsrapport senere. Brugerne kan også hurtigt oprette en udgiftslinje ved hjælp af en tilknyttet kvittering og oprette og administrere deres udgiftsrapporter.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920881"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilt arbejdsområde til udgiftsstyring
 
-Dette emne indeholder oplysninger om det mobile arbejdsområde for **Udgiftsstyring**. I dette arbejdsområde kan brugerne oprette og overføre en kvittering, så de kan knytte den til en udgiftsrapport senere. Brugerne kan også hurtigt oprette en udgiftslinje ved hjælp af en tilknyttet kvittering og oprette og administrere deres udgiftsrapporter. Derudover kan godkendere bruge det mobile arbejdsområde for **Udgiftsstyring** til at få vist udgiftsrapporter, der er tildelt til dem, og enten godkende eller afvise disse udgiftsrapporter.
+Denne artikel indeholder oplysninger om arbejdsområdet **Udgiftsstyring** på mobilenheder. I dette arbejdsområde kan brugerne oprette og overføre en kvittering, så de kan knytte den til en udgiftsrapport senere. Brugerne kan også hurtigt oprette en udgiftslinje ved hjælp af en tilknyttet kvittering og oprette og administrere deres udgiftsrapporter. Derudover kan godkendere bruge det mobile arbejdsområde for **Udgiftsstyring** til at få vist udgiftsrapporter, der er tildelt til dem, og enten godkende eller afvise disse udgiftsrapporter.
 
 
 Dette mobile arbejdsområde er beregnet til at blive brugt sammen med Dynamics 365 Unified Ops-mobilappen.

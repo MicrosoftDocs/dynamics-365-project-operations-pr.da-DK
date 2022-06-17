@@ -1,23 +1,23 @@
 ---
 title: Periodetyper
-description: Dette emne indeholder oplysninger om, hvordan du kan konfigurere periodetyper for omsætningsestimeringer.
+description: Denne artikel indeholder oplysninger om, hvordan du konfigurerer periodetyper til omsætningsestimering.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580449"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930955"
 ---
 # <a name="period-types"></a>Periodetyper
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-En periodetype definerer, hvor ofte omsætningen på et projekt estimeres. Dette emne indeholder oplysninger om, hvordan du kan konfigurere periodetyper for omsætningsestimeringer. 
+En periodetype definerer, hvor ofte omsætningen på et projekt estimeres. Denne artikel indeholder oplysninger om, hvordan du konfigurerer periodetyper til omsætningsestimering. 
 
 ## <a name="create-and-work-with-period-types"></a>Opret og arbejd med periodetyper
 Hvis du vil oprette og arbejde med periodetyper, skal du udføre følgende trin:

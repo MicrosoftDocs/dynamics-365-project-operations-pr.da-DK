@@ -1,6 +1,6 @@
 ---
 title: Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter
-description: Dette emne indeholder oplysninger om tilføjelse af brugerdefinerede felter til prisopsætning og transaktionsobjekter.
+description: Denne artikel indeholder oplysninger om tilføjelse af brugerdefinerede felter til prisopsætning og transaktionsobjekter.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920467"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-I dette emne antages det, at du har fuldført procedurerne i emnet, [Oprette brugerdefinerede felter og objekter](create-custom-fields-entities.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til dette emne. 
+I denne artikel antages det, at du har fuldført procedurerne i artiklen, [Opret brugerdefinerede felter og objekter](create-custom-fields-entities.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til denne artikel. 
 
-I dette emne viser procedurerne dig, hvordan du kan føje de påkrævede brugerdefinerede feltreferencer til objekter og til brugergrænsefladeelementerne (UI), f.eks. formularer og visninger.
+I denne artikel viser procedurerne dig, hvordan du kan tilføje de påkrævede brugerdefinerede feltreferencer til objekter og til brugergrænsefladeelementerne (UI), som f.eks. formularer og visninger.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Tilføje brugerdefinerede felter for prisdimensioner 
 Når der er oprettet brugerdefinerede felter og objekter, er det næste trin at gøre opsætningen af priser og transaktionsobjekter opmærksom på eventuelle brugerdefinerede objekter eller grupper ved at oprette referencefelter. Afhængigt af, om dine prisdimensioner indeholder dimensioner for grupperet indstilling objektdimensioner eller begge, skal du kun følge trinene i **Brugertilpassede prisdimensioner baseret på grupperet indstilling** eller **Brugerdefinerede prisdimensioner baseret på objekter** eller begge.

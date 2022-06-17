@@ -1,6 +1,6 @@
 ---
 title: Startside for ressourcestyring
-description: Dette emne indeholder oplysninger om, hvordan du styrer ressourcer.
+description: Denne artikel indeholder oplysninger om, hvordan du styrer ressourcer.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913245"
 ---
 # <a name="resource-management-home-page"></a>Startside for ressourcestyring
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578747"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ressourcer er det vigtigste aktiv i en servicebaseret organisation. Muligheden for at finde og reservere de rigtige ressourcer, når du behøver dem, og holde dem udnyttet hjælper organisationen med at opfylde omsætningsmål og målsætningerne for kundetilfredshed. De følgende emner fokuserer på ressourcestyringsfunktionerne i Dynamics 365 Project Service Automation:
+Ressourcer er det vigtigste aktiv i en servicebaseret organisation. Muligheden for at finde og reservere de rigtige ressourcer, når du behøver dem, og holde dem udnyttet hjælper organisationen med at opfylde omsætningsmål og målsætningerne for kundetilfredshed. De følgende artikler fokuserer på ressourcestyringsfunktionerne i Dynamics 365 Project Service Automation:
 
 - [Administrer ressourcer](manage-resources.md)
 - [Nøglekoncepter](reports-key-concepts.md)

@@ -1,17 +1,17 @@
 ---
 title: Tilmeld dig abonnement på prøveversion af Project Operations for ressource/ikke-lagerførte scenarier
-description: Dette emne indeholder oplysninger om, hvordan du abonnerer på og udruller Project Operations for ressource-/ikke-lagerbaserede scenarier.
+description: Denne artikel indeholder oplysninger om, hvordan du abonnerer på og udruller Project Operations til ressource/ikke-lagerbaserede scenarier.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920099"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Tilmeld dig abonnement på prøveversion af Project Operations for ressource/ikke-lagerførte scenarier
 
@@ -19,7 +19,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 
 
-I dette emne forklares det, hvordan du abonnerer på prøvetilbuddet og udruller Project Operations-miljøet for ressource-/ikke-lagerbaserede scenarier.
+Denne artikel redegør for, hvordan du abonnerer på prøvetilbuddet og udruller Project Operations-miljøet til ressource/ikke-lagerbaserede scenarier.
 
 ## <a name="prerequisites"></a>Forudsætninger
 - Den bruger, der udruller prøveversionen, skal have globale Azure-lejer administratorrettigheder. Du kan oprette en lejer under indløsningen af første tilbud. 
@@ -60,19 +60,19 @@ Gå til [Prøveversion af Dynamics 365 til Finance](https://aka.ms/trypoche), og
 
 ## <a name="start-a-new-project-in-lcs"></a>Start et nyt projekt i LCS
 
-Opret et nyt LCS-projekt som beskrevet i emnet [Start et nyt projekt i LCS](create-lcs-project.md)
+Opret et nyt LCS-projekt som beskrevet i artiklen [Start et nyt projekt i LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Tilføj et Azure-abonnement til et LCS-projekt
 
-Fuldfør denne opgave ved at følge trinnene i emnet [Tilføj et Azure-abonnement til LCS-projekt](resource-add-azure-subscription-lcs-project.md).
+Fuldfør denne opgave ved at følge trinnene i artiklen [Tilføj af et Azure-abonnement til LCS-projekt](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Udrul Finance-demonstrationsmiljøet med Project Operations for ressource/ikke-lagerførte scenarier
 
-Følg vejledningen i emnet [Klargør et nyt miljø](resource-provision-new-environment.md) for at fuldføre udrulningen. Brug [demonstrationsmiljøets](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) udrulningstype til prøveversionen. 
+Følg vejledningen i artiklen [Klargør et nyt miljø](resource-provision-new-environment.md) for at fuldføre installationen. Brug [demonstrationsmiljøets](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) udrulningstype til prøveversionen. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Installer CDS-konfiguration og konfigurationsdata
 
-Installer CDS-konfiguration og konfigurationsdata som beskrevet i emnet [Konfigurer og anvend konfigurationsdata i Common Data Service](resource-apply-pro-setup-config-data.md).
+Installer CDS-konfiguration og konfigurationsdata som beskrevet i artiklen [Konfigurer og anvend konfigurationsdata i Common Data Service](resource-apply-pro-setup-config-data.md).
 Fuldfør først dette trin, når demomiljøet Finance er udrullet, og demodataene er klar.
 
 

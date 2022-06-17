@@ -1,17 +1,17 @@
 ---
 title: Udrulningsoversigt til Project Operations for lagerbaserede/produktionsbaserede scenarier
-description: Dette emne indeholder oplysninger om udrulningstypen Project Operations for lagerbaserede/produktbaserede scenarier.
+description: Denne artikel indeholder oplysninger om udrulningstypen Project Operations til ressource/produktionsbaserede scenarier.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922767"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Udrulningsoversigt til Project Operations for lagerbaserede/produktionsbaserede scenarier
 

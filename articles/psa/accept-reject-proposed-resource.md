@@ -1,6 +1,6 @@
 ---
 title: Acceptere eller afvise en foreslået projektressource
-description: Denne emne indeholder oplysninger om, hvordan du godkender eller afviser en foreslået projektressource.
+description: Denne artikel indeholder oplysninger om, hvordan du godkender eller afviser en foreslået projektressource.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916189"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Acceptere eller afvise en foreslået projektressource
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599125"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Denne emne indeholder oplysninger om, hvordan du godkender eller afviser en foreslået projektressource.
+Denne artikel indeholder oplysninger om, hvordan du godkender eller afviser en foreslået projektressource.
 
 Når en ressourcestyring foreslår, at en navngivet ressource skal udfylde den generiske ressourceanmodning for et projekt, opdateres feltet **Anmodningsstatus** for det generiske teammedlem til **Skal gennemses**. Anmodningen sendes til projektlederen til godkendelse eller afvisning.
 

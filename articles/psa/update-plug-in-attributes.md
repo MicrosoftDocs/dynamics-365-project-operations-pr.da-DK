@@ -1,6 +1,6 @@
 ---
 title: Opdatere plug-in-attributter, så de indeholder nye prisdimensioner
-description: Dette emne indeholder oplysninger om opdatering af plug-in-attributter til prisdimensioner.
+description: Denne artikel indeholder oplysninger om opdatering af plug-in-attributter til prisfastsættelsesdimensioner.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913199"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Opdatere plug-in-attributter, så de indeholder nye prisdimensioner
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Hvis du ikke bruger tilbudsgivningsfunktionen eller kontraktenheden i PSA (Project Service Automation), kan du springe dette emne over.
+> Hvis du ikke bruger tilbudsgivningsfunktionen eller kontraktenheden i PSA (Project Service Automation), kan du springe denne artikel over.
 
-Dette emne forudsætter, at du har fuldført procedurerne i emnerne [Oprette brugerdefinerede felter og objekter](create-custom-fields-entities.md), [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](field-references.md) og [Konfigurere brugerdefinerede felter som prisfastsættelsesdimensioner](set-up-pricing-dimensions.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til dette emne.
+Denne artikel forudsætter, at du har fuldført procedurerne i artiklerne [Opret brugerdefinerede felter og objekter](create-custom-fields-entities.md), [Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter](field-references.md) og [Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner](set-up-pricing-dimensions.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til denne artikel.
 
 Når der oprettes en tilbudslinjedetalje på siden **Tilbudslinje** for en produkttilbudslinje, opretter systemet to estimatlinjer i baggrunden – en linje for estimatets omkostningsside og én for salgssiden. Det samme gælder for projektkontraktlinjer.
 

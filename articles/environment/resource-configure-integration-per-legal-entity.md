@@ -1,23 +1,23 @@
 ---
 title: Konfigurer integration af Project Operations for de enkelte juridiske enheder
-description: Dette emne indeholder oplysninger om, hvordan du konfigurerer integrationen af juridiske enheder i Project Operations.
+description: Denne artikel indeholder oplysninger om, hvordan du konfigurerer integration efter juridisk enhed i Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914671"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurer integration af Project Operations for de enkelte juridiske enheder 
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Dette emne gennemgår de trin, der kræves for at konfigurere Dynamics 365 Project Operations for hver juridiske enhed.
+Denne artikel indeholder en gennemgang af de trin, der kræves for at konfigurere Dynamics 365 Project Operations for hver juridisk enhed.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Aktivér funktionsnøgler i Dynamics 365 Finance
 

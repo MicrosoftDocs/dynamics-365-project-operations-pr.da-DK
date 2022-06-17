@@ -1,6 +1,6 @@
 ---
 title: Overvejelser vedrørende opgradering - Microsoft Dynamics 365 Project Service Automation version 2.x eller 1.x til version 3
-description: Dette emne indeholder oplysninger om de overvejelser, du skal gøre dig, når du opgraderer fra Project Service Automation version 2.x eller 1.x til version 3.
+description: Denne artikel indeholder oplysninger om de overvejelser, du skal gøre dig, når du opgraderer fra Project Service Automation version 2.x eller 1.x til version 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918903"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overvejelser i forbindelse med opgradering – PSA version 2.x eller 1.x til version 3
 
@@ -40,7 +40,7 @@ I Project Service Automation version 2 og version 1 blev opgavetildelinger gemt 
 
 I version 3 af Project Service Automation er det underliggende skema for tildeling af reserverbare ressourcer til opgaver ændret. Linjeopgaven er forældet, og der er et direkte 1:1 forhold mellem opgaven i **Opgaveobjektet** og teammedlemmet i objektet **Ressourcetildeling.** Opgaver, der tildeles til et teammedlem, lagres nu direkte i objektet Ressourcetildeling.  
 
-Disse ændringer påvirker opgraderingen af eksisterende projekter, der har ressourcetildelinger for navngivne reserverbare ressourcer og generiske ressourcer i et projektteam. Dette emne indeholder de overvejelser, du skal gøre dig for at tage højde for dine projekter, når du opgraderer til version 3. 
+Disse ændringer påvirker opgraderingen af eksisterende projekter, der har ressourcetildelinger for navngivne reserverbare ressourcer og generiske ressourcer i et projektteam. Denne artikel indeholder de overvejelser, du skal gøre dig for at tage højde for dine projekter, når du opgraderer til version 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Opgaver tildelt til navngivne ressourcer
 Ved hjælp af det underliggende opgaveobjekt kunne teammedlemmer i version 2 og version 1 portrættere en anden rolle, end den rolle der er defineret som standard. F.eks. kunne Charlotte Jeppesen, der som standard er tildelt rollen som programadministrator, blive tildelt til en opgave med rollen som udvikler. I version 3 er rollen for et navngivet teammedlem altid standardrollen, så alle opgaver, som Charlotte Jeppesen tildeles, bruger Charlottes standardrolle som programadministrator.

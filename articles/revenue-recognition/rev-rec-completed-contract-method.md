@@ -1,23 +1,23 @@
 ---
 title: Administrer omsætningsestimater
-description: Dette emne indeholder oplysninger om, hvordan du arbejder med omsætningsestimater for projekter.
+description: Denne artikel indeholder oplysninger om, hvordan du arbejder med omsætningsestimater for projekter.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928471"
 ---
 # <a name="manage-revenue-estimates"></a>Administrer omsætningsestimater
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Du kan oprette, beregne, bogføre, tilbageføre eller eliminere omsætningsestimater. Du kan gøre dette enten manuelt eller ved hjælp af en periodisk proces. Dette emne indeholder oplysninger om, hvordan du arbejder med omsætningsestimater for projekter.
+Du kan oprette, beregne, bogføre, tilbageføre eller eliminere omsætningsestimater. Du kan gøre dette enten manuelt eller ved hjælp af en periodisk proces. Denne artikel indeholder oplysninger om, hvordan du arbejder med omsætningsestimater for projekter.
 
 ### <a name="manage-revenue-estimates-manually"></a>Administrer omsætningsestimater manuelt
 

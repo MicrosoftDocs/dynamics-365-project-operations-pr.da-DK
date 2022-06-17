@@ -1,6 +1,6 @@
 ---
 title: Konfiguration af brugerdefinerede felter som prisfastsættelsesdimensioner
-description: Dette emne indeholder oplysninger om konfiguration af brugerdefinerede prisfastsættelsesdimensioner.
+description: Denne artikel indeholder oplysninger om konfiguration af brugerdefinerede prisfastsættelsesdimensioner.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922590"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfiguration af brugerdefinerede felter som prisfastsættelsesdimensioner 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Før du går i gang, forudsætter dette emne, at du har fuldført procedurerne i emnerne [Oprette brugerdefinerede felter og objekter](create-custom-fields-entities.md) og [Føje brugerdefinerede felter til prisopsætning og transaktionsobjekter](field-references.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til dette emne. 
+Før du går i gang, forudsætter denne artikel, at du har fuldført procedurerne i artiklerne [Opret brugerdefinerede felter og objekter](create-custom-fields-entities.md) og [Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter](field-references.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til denne artikel. 
 
-Dette emne indeholder oplysninger om konfiguration af brugerdefinerede prisfastsættelsesdimensioner. I webgrænsefladen for Project Service viser fanen **Beløbsbaserede prisdimensioner** på siden **Parametre** posterne i prisdimensionsobjekterne. Som standard opretter Project Service-installationen 2 rækker i gitteret på denne fane:
+Denne artikel indeholder oplysninger om konfiguration af brugerdefinerede prisfastsættelsesdimensioner. I webgrænsefladen for Project Service viser fanen **Beløbsbaserede prisdimensioner** på siden **Parametre** posterne i prisdimensionsobjekterne. Som standard opretter Project Service-installationen 2 rækker i gitteret på denne fane:
 
 - **msdyn_resourcecategory** (Rolle)
 - **msdyn_OrganizationalUnit** (Afdeling)

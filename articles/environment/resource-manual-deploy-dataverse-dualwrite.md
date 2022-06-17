@@ -1,25 +1,25 @@
 ---
 title: Udrul Project Operations Dataverse-appen manuelt med understøttelse af dobbelt skrivning
-description: I dette emne forklares det, hvordan du udruller Project Operations Dataverse-appen manuelt, så den understøtter dobbelt skrivning.
+description: I denne artikel forklares det, hvordan du installerer appen Project Operations Dataverse manuelt, så den understøtter dobbeltskrivning.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912003"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Udrul Project Operations Dataverse-appen manuelt med understøttelse af dobbelt skrivning
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-I dette emne forklares det, hvordan du udruller Microsoft Dynamics 365 Project Operations i Microsoft Dataverse manuelt, så den understøtter dobbelt skrivning. Project Operations registrerer miljøets konfiguration og tilføjer yderligere understøttelse af dobbelt skrivning, hvis forudsætningerne opfyldes.
+I denne artikel forklares det, hvordan du udruller appen Microsoft Dynamics 365 Project Operations i Microsoft Dataverse manuelt, så den understøtter dobbeltskrivning. Project Operations registrerer miljøets konfiguration og tilføjer yderligere understøttelse af dobbelt skrivning, hvis forudsætningerne opfyldes.
 
-Hvis du har fulgt instruktionerne i dette emne under udrulningen af Microsoft Dynamics Lifecycle Services (LCS), kan du springe udrulningen af Microsoft Power Platform-integrationen over (tidligere kendt som Common Data Service-miljøet) over.
+Hvis du i forbindelse med udrulning via Microsoft Dynamics Lifecycle Services (LCS) har fulgt instruktionerne i denne artikel, kan du springe udrulningen af Microsoft Power Platform-integrationen over (tidligere kendt som Common Data Service-miljøet).
 
 Udrulningsprocessen for Project Operations i Dataverse, således at den understøtter dobbeltskrivning, har fire hovedtrin:
 

@@ -1,6 +1,6 @@
 ---
 title: Bruge en transaktionskategori som en prisdimension
-description: Dette emne indeholder oplysninger om, hvordan du bruger en transaktionskategori som en prisdimension.
+description: Denne artikel indeholder oplysninger om, hvordan du bruger en transaktionskategori som en prisfastsættelsesdimension.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915729"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Bruge en transaktionskategori som en prisdimension
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dette emne viser, hvordan du bruger en transaktionskategori som en prisdimension. Før du går i gang, skal du oprette en ny prisdimensionsløsning, hvis du ikke allerede har oprettet én. Hvis du allerede har en prisdimensionsløsning, kan du foretage ændringerne i den pågældende løsning. Hvis du ikke har oprettet en ny prisdimensionsløsning for organisationen, skal du fuldføre procedurerne i emnet [Oprette brugerdefinerede felter og objekter](create-custom-fields-entities.md).
+Denne artikel viser, hvordan du bruger en transaktionskategori som en prisfastsættelsesdimension. Før du går i gang, skal du oprette en ny prisdimensionsløsning, hvis du ikke allerede har oprettet én. Hvis du allerede har en prisdimensionsløsning, kan du foretage ændringerne i den pågældende løsning. Hvis du ikke har oprettet en ny prisfastsættelsesdimensionsløsning for din organisation, skal du fuldføre procedurerne i artiklen [Opret brugerdefinerede felter og objekter](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Føje transaktionskategori til formularer og visninger
 Hvis du vil gøre transaktionkategori synlig i brugergrænsefladen i prisdimensionsløsningen, skal du gennemgå alle formularerne og visningerne af nøgleobjekter og føje disse felter til formularerne og visningerne for de pågældende objekter.

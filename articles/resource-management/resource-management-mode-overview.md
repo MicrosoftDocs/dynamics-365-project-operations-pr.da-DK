@@ -1,17 +1,17 @@
 ---
 title: Oversigt over tilstande for ressourcestyring
-description: Dette emne indeholder oplysninger om funktionaliteten for ressourcestyring i Dynamics 365 Project Operations.
+description: Denne artikel indeholder oplysninger om funktionen ressourcestyring i Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928425"
 ---
 # <a name="resource-management-modes-overview"></a>Oversigt over tilstande for ressourcestyring
 
@@ -38,7 +38,7 @@ For organisationer, der har behov for fleksibilitet i fordelingen af ressourcer,
 
 ![Hybridtilstand.](./media/resource-management-hybrid.png)
 
-Ud over den understøttede centrale tilstand skal du se følgende emner for at administrere alle andre understøttede reservationsflows i hybridtilstanden:
+Ud over den understøttede centraltilstandsproces skal du se følgende artikler for at administrere alle andre understøttede reservationer i hybridtilstanden:
 
 Reserver en ressource direkte til et projekt:
 - [Reservere navngivne reserverbare ressourcer til et projektteam og tildele opgaver](/dynamics365/project-service/assign-named-bookable-resource)

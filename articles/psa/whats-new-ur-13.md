@@ -1,6 +1,6 @@
 ---
 title: Nyheder eller ændringer i opdateringsudgivelse 13, V3, til Project Service Automation
-description: Dette emne indeholder oplysninger om nyhederne i 13. opdateringsudgivelse til Project Service Automation, V3.
+description: Denne artikel indeholder oplysninger om nyheder i opdateringsudgivelse nr. 13 til Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930679"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Opdateringsudgivelse 13 til Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596148"
 
 Vi er glade for at kunne offentliggøre den seneste opdatering til applikationen Dynamics 365 Project Service Automation (PSA). Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og gå til siden med løsninger for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Project Service Automation V3, 13. opdateringsudgivelse. Denne version har build-nummer V3.10.3.18 og er tilgængelig for følgende plan:
+Denne artikel indeholder de funktioner og løsninger, der er nye eller ændrede i forbindelse med opdateringsudgivelse 13 til Project Service Automation, V3. Denne version har build-nummer V3.10.3.18 og er tilgængelig for følgende plan:
 
 - **Almindelig tilgængelighed (egen opdatering):** november 2019
 - **Automatisk opdatering:** december 2019

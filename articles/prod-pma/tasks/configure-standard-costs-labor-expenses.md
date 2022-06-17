@@ -1,6 +1,6 @@
 ---
 title: Konfigurer standardomkostninger for arbejde og udgifter
-description: I dette emne beskrives det, hvordan du kan konfigurere standardomkostninger for arbejdskraft og udgifter i et projekt.
+description: Denne artikel forklarer, hvordan du konfigurerer standardomkostninger for arbejdskraft og udgifter for et projekt.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919501"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigurer standardomkostninger for arbejde og udgifter
 
 [!include [banner](../../includes/banner.md)]
 
-I dette emne beskrives det, hvordan du kan konfigurere standardomkostninger for arbejdskraft og udgifter i et projekt. Denne opgave anvender datasættet USSI.
+Denne artikel forklarer, hvordan du konfigurerer standardomkostninger for arbejdskraft og udgifter for et projekt. Denne opgave anvender datasættet USSI.
 
 1. Gå til **Moduler > Projektstyring og regnskab > Opsætning > Priser > Kostpris (time)** i navigationsruden.
 2. Vælg **Ny**.

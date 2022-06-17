@@ -1,6 +1,6 @@
 ---
 title: Sende en ressourceanmodning
-description: Dette emne indeholder oplysninger om, hvordan du sender en anmodning om en projektressource.
+description: Denne artikel indeholder oplysninger om, hvordan du sender en anmodning om en projektressource.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d22f52771f55a551416d1ba2f7105d59d7b912f0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c446dc0f99a5b9c9cdf3698cdf774cfd1e5d4d6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928839"
 ---
 # <a name="submitting-a-resource-request"></a>Sende en ressourceanmodning
 

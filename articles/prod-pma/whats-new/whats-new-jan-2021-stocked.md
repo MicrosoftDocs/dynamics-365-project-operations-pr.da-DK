@@ -1,24 +1,24 @@
 ---
 title: Nyheder eller ændringer i Project Operations januar 2021 for lagerbaserede/produktionsbaserede scenarier
-description: Dette emne indeholder oplysninger om de kvalitetsopdateringer, der er tilgængelige i udgivelsen i januar 2021 af Project Operations for lager-/produktionsbaserede scenarier.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i januar 2021-udgivelsen af Project Operations for lagerførte/produktionsbaserede scenarier.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923917"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Nyheder eller ændringer i Project Operations januar 2021 for lagerbaserede/produktionsbaserede scenarier
 
 _**Gælder for:** Project Operations for lagerbaserede/produktionsbaserede scenarier_
 
-Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
+Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
 - Projektstyring og regnskab i Dynamics 365 Finance-miljø version 10.0.16
 

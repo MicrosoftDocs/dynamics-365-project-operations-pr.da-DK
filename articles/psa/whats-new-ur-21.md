@@ -1,6 +1,6 @@
 ---
 title: Nyheder eller ændringer i opdateringsudgivelse 21, V3, til Project Service Automation
-description: I dette emne angives de funktioner og rettelser, der er tilgængelige til Project Service Automation, opdateringsudgivelse 21, V3.
+description: Denne artikel indeholder de funktioner og løsninger, der er tilgængelige i forbindelse med opdateringsudgivelse nr. 21 til Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 34d1540639352f635068b849500a104de2509a7f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d7c098a4572aa4f5730ffdbdab77b2897cdfeff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918811"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Opdateringsudgivelse 21 til Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577828"
 
 Vi er glade for at kunne annoncere den seneste opdatering til programmet Project Service Automation til Dynamics 365. Denne version indeholder nogle vigtige forbedringer i kvalitet, ydeevne og anvendelighed. Denne version er kompatibel med Dynamics 365 9.x. Hvis du vil opdatere til denne version, skal du gå til Administrationen for Dynamics 365 online og herefter til løsningssiden for at installere opdateringen. Du kan finde flere oplysninger i [Installer, opdater eller fjern en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-I dette emne vises de funktioner og rettelser, der er nye eller ændrede for Project Service Automation V3, 21. opdateringsudgivelse. Denne version har buildnummer V 3.10.32.50 og er generelt tilgængelig via en opdatering, du selv har udført i juni 2020.
+Denne artikel indeholder de funktioner og løsninger, der er nye eller ændrede i forbindelse med opdateringsudgivelse 21 til Project Service Automation, V3. Denne version har buildnummer V 3.10.32.50 og er generelt tilgængelig via en opdatering, du selv har udført i juni 2020.
 
 ## <a name="update-release-21"></a>21. opdateringsudgivelse
 

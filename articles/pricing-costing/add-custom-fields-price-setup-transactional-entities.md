@@ -1,6 +1,6 @@
 ---
 title: Tilføj krævede brugerdefinerede felter til prisopsætning og transaktionsobjekter
-description: Dette emne indeholder oplysninger om, hvordan du tilføjer nødvendige brugerdefinerede feltreferencer til objekter og til formularer og visninger.
+description: Denne artikel indeholder oplysninger om, hvordan du kan tilføje påkrævede brugerdefinerede feltreferencer til objekter og til formularer og visninger.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926033"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Tilføj krævede brugerdefinerede felter til prisopsætning og transaktionsobjekter
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-I dette emne antages det, at du har fuldført procedurerne i emnet, [Opret brugerdefinerede felter og objekter, som skal anvendes som prisfastsættelsesdimensioner](create-custom-fields-entities-pricing-dimensions.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til dette emne. 
+I denne artikel antages det, at du har fuldført procedurerne i artiklen [Opret brugerdefinerede felter og objekter, der skal bruges som prisfastsættelsesdimensioner](create-custom-fields-entities-pricing-dimensions.md). Hvis du ikke har fuldført procedurerne, skal du gå tilbage og fuldføre dem og derefter vende tilbage til denne artikel. 
 
-I dette emne viser procedurerne dig, hvordan du kan føje de påkrævede brugerdefinerede feltreferencer til objekter og til brugergrænsefladeelementerne (UI), f.eks. formularer og visninger.
+I denne artikel viser procedurerne dig, hvordan du kan tilføje de påkrævede brugerdefinerede feltreferencer til objekter og til brugergrænsefladeelementerne (UI), som f.eks. formularer og visninger.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Tilføje brugerdefinerede felter for prisdimensioner 
 Når der er oprettet brugerdefinerede felter og objekter, er det næste trin at gøre opsætningen af priser og transaktionsobjekter opmærksom på eventuelle brugerdefinerede objekter eller grupper ved at oprette referencefelter. Afhængigt af, om dine prisdimensioner indeholder dimensioner for grupperet indstilling objektdimensioner eller begge, skal du kun følge trinene i **Brugertilpassede prisdimensioner baseret på grupperet indstilling** eller **Brugerdefinerede prisdimensioner baseret på objekter** eller begge.

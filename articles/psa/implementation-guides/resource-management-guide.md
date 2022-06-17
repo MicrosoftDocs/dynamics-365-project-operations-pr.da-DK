@@ -1,6 +1,6 @@
 ---
 title: Ressourcestyringsvejledning
-description: Dette emne indeholder links til oplysninger om ressourcestyring i Project Service Automation.
+description: Denne artikel indeholder links til oplysninger om ressourcestyring i Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910765"
 ---
 # <a name="resource-management-guide"></a>Ressourcestyringsvejledning
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595445"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Det PDF-link, der tidligere var i dette emne, er blevet fjernet, og indholdet er blevet flyttet til følgende emner:
+Det PDF-link, der tidligere var i denne artikel, er blevet fjernet, og indholdet er blevet flyttet til følgende artikler:
 
 - [Startside for ressourcestyring](../resource-management-home-page.md)
 - [Nøglekoncepter](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Det PDF-link, der tidligere var i dette emne, er blevet fjernet, og indholdet er
 - [Ofte stillede spørgsmål om ressourcestyring](../resource-management-faq.md)
 
 > [!NOTE]
-> Denne emne fjernes i en fremtidig dokumentationsopdatering. 
+> Denne artikel fjernes i en fremtidig dokumentationsopdatering. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

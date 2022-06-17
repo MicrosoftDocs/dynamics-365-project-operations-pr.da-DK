@@ -1,24 +1,24 @@
 ---
 title: Nyheder marts 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-description: Dette emne giver oplysninger om de kvalitative opdateringer, der er tilgængelige i marts 2022-udgivelsen af Project Operations for ressource/ikke-lagerbaserede scenarier.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i marts 2022-udgivelsen af Project Operations for ressource/ikke-lagerbaserede scenarier.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910899"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder marts 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
 *Finder anvendelse for: Project Operations for ressource-/ikke-lagerbaserede scenarier*
 
-Dette emne gælder for følgende komponenter og versioner af Microsoft Dynamics 365 Project Operations:
+Denne artikel gælder for følgende komponenter og versioner af Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i et Dataverse-miljø version 4.30.0.99
 - Projektstyring og regnskab i et Dynamics 365 Finance-miljø version 10.0.25
@@ -91,11 +91,11 @@ Hvis du støder på problemer, når du starter tilknytningen, skal du følge ins
 
 ## <a name="removed-and-deprecated-features"></a>Fjernede og udfasede funktioner
 
-Emnet [Fjernede eller udfasede funktioner i Project Operations](removed-depreciated-features-project.md) beskriver funktioner, der er blevet fjernet eller udfaset for Dynamics 365 Project Operations.
+Artiklen [Fjernede eller udfasede funktioner i Project Operations](removed-depreciated-features-project.md) beskriver funktioner, der er blevet fjernet eller udfaset for Dynamics 365 Project Operations.
 
 - En fjernet funktion er ikke længere tilgængelig i produktet.
 - En udfaset funktion er ikke i aktiv udvikling og fjernes muligvis i en senere opdatering.
 
-En udfasningsmeddelelse vil blive vist i emnet [Fjernede eller udfasede funktioner i Project Operations](removed-depreciated-features-project.md) 12 måneder inden, at en funktions fjernes fra produktet.
+En udfasningsmeddelelse vil blive vist i artiklen [Fjernede eller udfasede funktioner i Project Operations](removed-depreciated-features-project.md) 12 måneder inden, at en funktion fjernes fra produktet.
 
 For ændringer, der kun påvirker kompileringstiden, men som er binært kompatible med sandkasse- og produktionsmiljøer, vil tidsrummet for udfasningen være mindre end 12 måneder. Disse ændringer er oftest funktionelle opdateringer, der skal foretages i compileren.

@@ -1,24 +1,24 @@
 ---
 title: Nyheder i november 2021 – Project Operations lille udrulning
-description: Dette emne giver oplysninger om de kvalitative opdateringer, der er tilgængelige i november 2021-udgivelsen af Project Operations lille udrulning.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i november 2021-udgivelsen af Project Operations lille udrulning.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913797"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Nyheder i november 2021 – Project Operations lille udrulning
 
 _Gælder for: Lille udrulning - aftale til proformafakturering_
 
-Dette emne gælder for følgende komponenter og versioner af Microsoft Dynamics 365 Project Operations:
+Denne artikel gælder for følgende komponenter og versioner af Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i et Dataverse-miljø version 4.26.0.145, 4.26.0.148, 4.26.0.150 og 4.26.0.155
   

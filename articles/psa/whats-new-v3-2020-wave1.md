@@ -1,6 +1,6 @@
 ---
 title: Nyheder eller ændringer i Project Service Automation version 3.x, bølge 1 2020
-description: Dette emne indeholder oplysninger om nyheder og ændringer i Project Service Automation version 3, bølge 1 2020.
+description: Denne artikel indeholder oplysninger om nyheder og ændringer i første bølge til Project Service Automation version 3 fra 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928609"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Nyheder eller ændringer i Project Service Automation version 3, bølge 1 2020
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dette emne fremhæver centrale overvejelser i forbindelse med opgraderinger, når du flytter over til den nyeste version af Project Service Automation (PSA) version 3.x, bølge 1 2020.
+I artiklen fremhæves overvejelser om vigtige opgraderinger, når du flytter til den nyeste version af Project Service Automation (PSA) version 3.x, første bølge 2020.
 
 ## <a name="time-entry"></a>Tidsregistrering
 Tidsregistreringsoplevelsen er blevet udvidet med henblik på at levere funktioner til udvidelse af tidsregistrering i flere kundescenarier. Dette omfatter muligheden for at tilføje posttyper, som nu er drivkraften bag en specifik adfærd, som er baseret på skemanavnsfeltet **Indstillinger for tidsregistrering**, der vises som **Tidskilde**. Der er tilføjet en ny løsning kaldet Tid, Udgift, Statusangivelse og Godkendelser (TESA) for at understøtte denne funktion.

@@ -1,18 +1,18 @@
 ---
 title: Integration af leverandørfaktura
-description: Dette emne indeholder oplysninger om integration af leverandørfaktura i Project Operations.
+description: Denne artikel indeholder oplysninger om integration af leverandørfakturaer i Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912049"
 ---
 # <a name="vendor-invoice-integration"></a>Integration af leverandørfaktura
 
@@ -21,7 +21,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 Projektrelaterede indkøb i Dynamics 365 Project Operations kan registreres ved at gå til **Kreditorer** > **Fakturaer** > **Afventende leverandørfakturaer** og anvende et afventende leverandørfakturadokument. Du kan finde flere oplysninger i [Køb ikke-lagerførte materialer ved hjælp af en afventende leverandørfaktura](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Før du bruger den funktion, der er beskrevet i dette emne, skal du gennemse og anvende de påkrævede konfigurationer. Du kan finde flere oplysninger i [Aktiver ikke-lagerførte materialer og afventende leverandørfakturaer](../procurement/configure-materials-nonstocked.md).
+> Før du bruger den funktion, der er beskrevet i denne artikel, skal du gennemse og anvende de påkrævede konfigurationer. Du kan finde flere oplysninger i [Aktiver ikke-lagerførte materialer og afventende leverandørfakturaer](../procurement/configure-materials-nonstocked.md).
 
 I Project Operations bogføres projektrelaterede leverandørfakturaer ved hjælp af særlige bogføringsregler:
 

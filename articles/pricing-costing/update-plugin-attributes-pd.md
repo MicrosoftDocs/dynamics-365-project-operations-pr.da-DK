@@ -1,33 +1,33 @@
 ---
 title: Opdatering af plug-in-attributter med nye prisfastsættelsesdimensioner
-description: Dette emne indeholder oplysninger om, hvordan du opdaterer plug-in-attributter til prisfastsættelsesdimensioner.
+description: Denne artikel indeholder oplysninger om, hvordan du opdaterer plug-in-attributter til prisfastsættelsesdimensioner.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920007"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Opdater plug-in-attributter med nye prisfastsættelsesdimensioner
 
-Dette emne indeholder oplysninger om, hvordan du opdaterer plug-in-attributter til prisfastsættelsesdimensioner.
+Denne artikel indeholder oplysninger om, hvordan du opdaterer plug-in-attributter til prisfastsættelsesdimensioner.
 
 > [!NOTE]
-> Dette emne kan kun anvendes på tilbuds- og kontraktfunktionerne i Dynamics 365 Project Operations.
+> Denne artikel gælder kun for tilbuds- og kontraktfunktionerne i Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Forudsætninger
-Før du fuldfører trinnene i dette emne, skal du have fuldført procedurerne under følgende emner:
+Inden du fuldfører trinnene i denne artikel, skal du have fulgt procedurerne i følgende artikler:
 
   - [Opret brugerdefinerede felter og objekter](create-custom-fields-entities-pricing-dimensions.md) 
-  - [Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter](add-custom-fields-price-setup-transactional-entities.md)
+  - [Tilføj brugerdefinerede felter til prisopsætning og transaktionsobjekter ](add-custom-fields-price-setup-transactional-entities.md)
   - [Konfigurer brugerdefinerede felter som prisfastsættelsesdimensioner](set-up-custom-fields-pricing-dimensions.md). 
   
-Hvis du ikke har fuldført procedurerne, skal du fuldføre dem og derefter vende tilbage til dette emne.
+Hvis du ikke har fuldført disse procedurer, skal du fuldføre dem og derefter vende tilbage til denne artikel.
 
 ## <a name="register-a-plug-in"></a>Registrer en plug-in
 Når der oprettes en tilbudslinjedetalje på siden **Tilbudslinje** for en linje i en projekttilbud, oprettes der to estimatlinjer i systemet. En linje til omkostningssiden af estimatet, og en anden linje til salgssiden. Det samme gælder for projektkontraktlinjer.

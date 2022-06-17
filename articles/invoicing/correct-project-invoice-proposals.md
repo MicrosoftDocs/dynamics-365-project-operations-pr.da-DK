@@ -1,17 +1,17 @@
 ---
 title: Ret regnskabet på forslag til projektfakturakladder
-description: I dette emne forklares det, hvordan du kan justere regnskabsrelaterede oplysninger i en fakturaforslagskladde.
+description: I denne artikel forklares det, hvordan du kan justere regnskabsrelaterede oplysninger i et kladdefakturaforslag.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921203"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Ret regnskabet på forslag til projektfakturakladder
 
@@ -19,7 +19,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 *Driftsmæssige detaljer* for projektfakturaer vedligeholdes af projektlederen på en pro forma-faktura. Disse oplysninger omfatter beslutningen om de timer, udgifter, materiale eller milepæle, der skal faktureres, satserne og anvendelsen af forfalds- og tilbageholdelsesbeløb. Når du har bekræftet den oprindelige pro-forma-faktura, kan du justere de driftsmæssige detaljer ved at oprette og bekræfte en [korrigerende pro forma-faktura](../proforma-invoicing/corrective-invoices.md).
 
-*Regnskabsdetaljer* for projektfakturaer vedligeholdes i et fakturadokument, der er rettet mod kunden. Disse oplysninger omfatter beregningen af moms og de økonomiske dimensioner, der anvendes på fakturaen. Dette emne tilvejebringer detaljer om, hvordan disse regnskabsdetaljer kan justeres i en projektfakturaforslagskladde.
+*Regnskabsdetaljer* for projektfakturaer vedligeholdes i et fakturadokument, der er rettet mod kunden. Disse oplysninger omfatter beregningen af moms og de økonomiske dimensioner, der anvendes på fakturaen. Denne artikel indeholder detaljer om, hvordan disse regnskabsdetaljer kan justeres i et forslag til en projektfaktura.
 
 ## <a name="adjust-sales-tax"></a>Juster moms
 

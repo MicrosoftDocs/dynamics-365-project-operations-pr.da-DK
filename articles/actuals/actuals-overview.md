@@ -1,6 +1,6 @@
 ---
-title: Faktiske
-description: Dette emne indeholder oplysninger om, hvordan du arbejder med faktiske værdier i Microsoft Dynamics 365 Project Operations.
+title: Faktiske værdier
+description: Denne artikel indeholder oplysninger om, hvordan du arbejder med faktiske værdier i Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924791"
 ---
 # <a name="actuals"></a>Faktiske
 
@@ -33,7 +33,7 @@ Faktiske værdier repræsenterer den gennemgåede og godkendte økonomiske og pl
 
 I Project Operations registreres de økonomiske transaktioner, der indtræffer i løbet af en projektaftales livscyklus, som faktiske værdier. Oprettelsen af faktiske værdier ved forskellige hændelser i livscyklussen varierer, afhængigt af om projektengagementet bruger tids- og materialefaktureringsmodellen eller faktureringsmodellen med fast pris, og om det er i fasen før salg eller er et internt projekt.
 
-I følgende emner forklares konsekvensen for tabellen Faktiske værdier af forskellige hændelser for forskellige variationer:
+I følgende artikler forklares konsekvensen for tabellen Faktiske værdier af forskellige hændelser for forskellige variationer:
 
 - [Faktiske værdiers påvirkning i forbindelse med tids- og materialeengagement](ActualsonTM.md)
 - [Faktisk værdiers påvirkning i en fast prisengagement](ActualonFP.md)

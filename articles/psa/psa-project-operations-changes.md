@@ -1,6 +1,6 @@
 ---
 title: Funktionsændringer fra Project Service Automation til Project Operations
-description: Dette emne indeholder en oversigt over funktionsændringerne fra Project Service Automation til Dynamics 365 Project Operations.
+description: Denne artikel indeholder en oversigt over funktionsændringerne fra Project Service Automation til Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925343"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Funktionsændringer fra Project Service Automation til Project Operations
 
-Opgraderingen fra Dynamics 365 Project Service Automation til Dynamics 365 Project Operations lille leveres i tre faser. Dette emne indeholder oplysninger om de store ændringer, som du kan forvente at se, når opgraderingen er fuldført.
+Opgraderingen fra Dynamics 365 Project Service Automation til Dynamics 365 Project Operations lille leveres i tre faser. Denne artikel indeholder oplysninger om de store ændringer, som du kan forvente at se, når opgraderingen er fuldført.
 
 | Levering af opgradering | Fase 1 <br>(Januar 2022) | Fase 2 <br>(April-bølgen 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
