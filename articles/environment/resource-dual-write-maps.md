@@ -1,17 +1,17 @@
 ---
 title: Versioner af Project Operations med dobbeltskrivning
-description: Dette emne indeholder den liste over dobbeltskrivning-tilknytninger, der kræves i Dynamics 365 Project Operations.
+description: Denne artikel indeholder en liste over tilknytninger med dobbeltskrivning, der kræves til Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612743"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959412"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioner af Project Operations med dobbeltskrivning
 
@@ -54,7 +54,7 @@ Følgende tilknytninger er nødvendige for en løsning med Project Operations. V
 | Integrationsobjekt for timeestimater i Project Operations (msdyn_resourceassignments) | 1.0.0.5 | Kræves ikke til klargøring. ||
 | Integrationsobjekt for eksport af projektudgiftskategorier i Project Operations (msdyn_expensecategories) | 1.0.0.1 | Kræves ikke til klargøring. ||
 | Integrationsobjekt for eksport af projektudgifter i Project Operations (msdyn_expenses) | 1.0.0.3 | Kræves ikke til klargøring. ||
-| Integrationsobjekt for eksport af projektleverandørfaktura i Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Kræves ikke til klargøring. ||
+| Integrationsobjekt for eksport af projektleverandørfaktura i Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Kræves ikke til klargøring. |10.0.26 eller senere|
 | Integrationsobjekt for eksport af projektleverandørfakturalinje i Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Kræves ikke til klargøring. | 10.0.26 eller senere |
 | Projektressourceroller for alle firmaer (reserverbareressourcekategorier) | 1.0.0.1 | Kræver en indledende synkronisering af tabeltilknytningen for at synkronisere de ressourceroller for projektledere og teammedlemmer, der udfyldes i Dynamics 365 Dataverse-miljøet under klargøring. Dataverse er hovedkilden til den første synkronisering. ||
 | Projektopgaver (msdyn_projecttasks) | 1.0.0.4 | Kræves ikke til klargøring. ||

@@ -1,24 +1,24 @@
 ---
 title: Nyheder i marts 2022 – Project Operations lille udrulning
-description: Dette emne giver oplysninger om de kvalitative opdateringer, der er tilgængelige i marts 2022-udgivelsen af Project Operations lille udrulning.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i marts 2022-udgivelsen af Project Operations lille udrulning.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934221"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Nyheder i marts 2022 – Project Operations lille udrulning
 
 _Gælder for: Lille udrulning - aftale til proformafakturering_
 
-Dette emne gælder for følgende komponenter og versioner af Microsoft Dynamics 365 Project Operations:
+Denne artikel gælder for følgende komponenter og versioner af Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i et Dataverse-miljø version 4.30.0.99
 
@@ -51,9 +51,9 @@ Dette emne gælder for følgende komponenter og versioner af Microsoft Dynamics 
 
 ## <a name="removed-and-deprecated-features"></a>Fjernede og udfasede funktioner
 
-Emnet [Fjernede eller udfasede funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) beskriver funktioner, der er blevet fjernet eller udfaset for Dynamics 365 Project Operations.
+Artiklen [Fjernede eller udfasede funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) beskriver funktioner, der er blevet fjernet eller udfaset for Dynamics 365 Project Operations.
 
 - En fjernet funktion er ikke længere tilgængelig i produktet.
 - En udfaset funktion er ikke i aktiv udvikling og fjernes muligvis i en senere opdatering.
 
-En udfasningsmeddelelse vil blive vist i emnet [Fjernede eller udfasede funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 måneder inden, at en funktions fjernes fra produktet.
+En udfasningsmeddelelse vil blive vist i artiklen [Fjernede eller udfasede funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 måneder inden, at en funktion fjernes fra produktet.

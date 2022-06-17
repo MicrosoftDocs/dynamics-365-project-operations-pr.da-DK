@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933991"
 ---
 # <a name="configure-expense-management"></a>Konfigurer udgiftsstyring
 
-Dette emne beskriver de overvejelser og beslutninger, du skal foretage under planlægningsprocessen, før du konfigurerer udgiftsstyring. I udgiftsstyring kan du gemme oplysninger om betalingsmetoder, rejserekvisitioner, udgiftsrapporter, politikker osv.
+I denne artikel beskrives de overvejelser og de beslutninger, du skal foretage i planlægningsprocessen, før du konfigurerer Udgiftsstyring. I udgiftsstyring kan du gemme oplysninger om betalingsmetoder, rejserekvisitioner, udgiftsrapporter, politikker osv.
 
 Da mange af de beslutninger, du foretager, når du planlægger din konfiguration af udgiftsstyring, er baseret på organisationens hierarki og økonomiske struktur, skal du referere til planlægningsdokumenterne for de pågældende områder.
 

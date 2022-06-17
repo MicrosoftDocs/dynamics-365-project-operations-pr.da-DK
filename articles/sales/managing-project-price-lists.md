@@ -1,6 +1,6 @@
 ---
 title: Administrer projektprislister i et tilbud
-description: Dette emne indeholder oplysninger om objektet Projektprislister.
+description: Denne artikel indeholder oplysninger om objektet projektprisliste.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d77f66d3311f3aa5ee720a05ea7da149d2a4362b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8439a03e6557ec531405048ec4149344e283242e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933135"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Administrer projektprislister i et tilbud
 

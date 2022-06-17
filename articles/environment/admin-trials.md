@@ -1,17 +1,17 @@
 ---
 title: Tilmeld dig prøveversioner af Project Operations
-description: Dette emne indeholder oplysninger om, hvordan du udruller en prøveversion af Dynamics 365 Project Operations.
+description: Denne artikel indeholder oplysninger om, hvordan du udruller prøveversionen af Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584267"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959432"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Tilmeld dig prøveversioner af Project Operations 
 
@@ -19,9 +19,9 @@ _**Gælder for:** Project Operations for ressource/ikke-lagerbaserede scenarier,
 
 
 
-Dette emne forklarer, hvordan du abonnerer på vores partneres tilbud om forhåndsvisning og udrulning af et Dynamics 365 Project Operations-miljø.
+I denne artikel forklares det, hvordan du abonnerer på tilbuddet fra vores partner om en prøveversion og udruller et Dynamics 365 Project Operations-miljø.
 
-Med den nye prøveversion af Project Operations kan du automatisk udrulle et af de tre understøttede udrulningsscenarier ved at udfylde et spørgeskema, som anbefaler den bedste udrulningsmetode. Dette emne indeholder oplysninger om, hvordan du:
+Med den nye prøveversion af Project Operations kan du automatisk udrulle et af de tre understøttede udrulningsscenarier ved at udfylde et spørgeskema, som anbefaler den bedste udrulningsmetode. Denne artikel indeholder oplysninger om, hvordan du:
 
 - Accepterer dit prøvetilbud.
 - Starter klargøring.
@@ -89,7 +89,8 @@ Inden du begynder, skal du logge på en browser med brugerkontoen i den lejer, h
 4.  Vælg den respektive Microsoft Dataverse-URL-adresse for programmer til finans og drifts URL-adresse og for at validere udrulningen.
 
 ## <a name="configuring-dual-write"></a>Konfiguration af dobbeltskrivning
-- Hvis du vil konfigurere sikkerhedsroller for dobbelt skrivning, skal du se [Opdatering af sikkerhedsindstillinger for Project Operations i Dataverse](resource-provision-new-environment.md).
+- Hvis du vil konfigurere sikkerhedsroller for dobbelt skrivning, skal du se [Opdatering af sikkerhedsindstillinger for Project Operations i Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Hvis du vil have adgang til konfiguration med dobbelt skrivning, skal du navigere til forekomsten Finance and Operations og derefter navigere til **Dataadministration** > **Dobbeltskrivning**.
 - Hvis du vil konfigurere tilknytninger med dobbelt skrivning, skal du se [Kør tilknytninger af dobbelt skrivning i Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Tildele licenser

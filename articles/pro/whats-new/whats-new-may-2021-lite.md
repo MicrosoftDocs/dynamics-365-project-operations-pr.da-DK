@@ -1,24 +1,24 @@
 ---
 title: Nyheder maj 2021 – Project Operations lille udrulning
-description: Dette emne giver oplysninger om kvaliteten af de opdateringer, der er tilgængelige i maj 2021-udgivelsen af Project Operations lille udrulning.
+description: Denne artikel indeholder oplysninger om de kvalitative opdateringer, der er tilgængelige i maj 2021-udgivelsen af Project Operations lille udrulning.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 854a8c2290281b4d11a045321a334d8866806041
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5d67159b732e0309e03c64fb6dadcc7b8cbff51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934175"
 ---
 # <a name="whats-new-may-2021---project-operations-lite-deployment"></a>Nyheder maj 2021 – Project Operations lille udrulning
 
 _Gælder for: Lille udrulning - aftale til proformafakturering_
 
-Dette emne gælder for følgende Dynamics 365 Project Operations-komponenter og -versioner:
+Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
    - Project Operations på Dataverse-miljø version 4.10.0.186.
 

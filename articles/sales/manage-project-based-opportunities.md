@@ -1,17 +1,17 @@
 ---
 title: Administrer projektbaserede salgsmuligheder
-description: Dette emne indeholder oplysninger om, hvordan du arbejder med salgsmuligheder, der er relateret til projekter.
+description: Denne artikel indeholder oplysninger om, hvordan du arbejder med salgsmuligheder, der er relateret til projekter.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933209"
 ---
 # <a name="manage-project-based-opportunities"></a>Administrer projektbaserede salgsmuligheder
 
@@ -19,7 +19,7 @@ _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-la
 
 Projektbaserede virksomheder leverer typisk på tværs af flere lande og geografi. Omkostningerne til projektudførelse og levering kan variere, afhængigt af hvilken geografi eller hvilken afdeling der administrerer leveringen. Det kan således påvirke margenerne i handlen. Levering af projektbaserede tjenester indebærer typisk store mængder af menneskelige ressourcers tid, høje udgifter til rejser, materialeomkostninger og andre udgifter.
 
-Projektbaserede salgsmuligheder i Dynamics 365 Project Operations er udviklet med udvidelser til Dynamics 365 Sales. Dette emne indeholder oplysninger om de forskellige felter og den forretningslogik, der er inkluderet i de ekstra funktioner, som projektbaserede virksomheder kræver for at administrere projektbaserede salgsmuligheder.
+Projektbaserede salgsmuligheder i Dynamics 365 Project Operations er udviklet med udvidelser til Dynamics 365 Sales. Artiklen indeholder oplysninger om de forskellige felter og forretningslogik, der er inkluderet i de ekstra funktioner, som projektbaserede virksomheder skal bruge for at administrere projektbaserede salgsmuligheder.
 
 ## <a name="view-all-project-based-opportunities"></a>Se alle projektbaserede salgsmuligheder
 

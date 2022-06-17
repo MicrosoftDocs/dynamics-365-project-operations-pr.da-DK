@@ -1,6 +1,6 @@
 ---
 title: Projektsalgsordrer for tids- og materialeprojekter
-description: I dette emne gives en beskrivelse af, hvordan du kan oprette projektbaserede salgsordrer for tids- og materialeprojekter.
+description: Denne artikel beskriver, hvordan du opretter projektbaserede salgsordre for tids- og materialeprojekter.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933807"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektsalgsordrer for tids- og materialeprojekter
 
 [!include[banner](../includes/banner.md)]
 
-Dette emne indeholder en beskrivelse af, hvordan du kan oprette en salgsordre for et projekt. Der kan kun oprettes salgsordrer for projekter af typen **tid og materiale**.
+Denne artikel beskriver, hvordan du opretter en ny salgsordre for et projekt. Der kan kun oprettes salgsordrer for projekter af typen **tid og materiale**.
 
 Hvis et tids- og materialeprojekt har flere finansieringskilder i projektkontrakten, skal du aktivere parameteren **Tillad salgsordrer for projekter med flere finansieringskilder** på siden **Projektstyring og regnskabsparametre**. 
 

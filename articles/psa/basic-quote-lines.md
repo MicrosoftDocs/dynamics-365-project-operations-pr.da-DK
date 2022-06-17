@@ -1,6 +1,6 @@
 ---
 title: Tilbud og tilbudslinjer
-description: Dette emne indeholder oplysninger om tilbud og tilbudslinjer.
+description: Denne artikel indeholder oplysninger om tilbud og tilbudslinjer.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933347"
 ---
 # <a name="quotes-and-quote-lines"></a>Tilbud og tilbudslinjer
 
@@ -39,7 +39,7 @@ I Dynamics 365 Project Service Automation findes der to typer tilbud: projekttil
 - Et salgstilbud inkluderer ikke visse felter og begreber, der findes i et projekttilbud, som indeholder felter. Felterne omfatter **Kontraktenhed**, **Account Manager** og **Kontaktnavn for fakturering**.  
 - Salgstilbud og projekttilbud identificeres også af et felt baseret på grupperet indstilling med navnet **Type.** I forbindelse med et salgstilbud indeholder dette felt værdien **Elementbaseret**. I forbindelse med et projekttilbud har det værdien **Arbejdsbaseret**.
 
-I dette emne fokuseres der på detaljerne i projekttilbud.
+I denne artikel fokuseres der på detaljerne i projekttilbud.
 
 Et projekttilbud i PSA kan have flere linjeelementer eller tilbudslinjer. Faktisk indeholder et projekttilbud to gitre for linjeelementer. Et gitter er til projektbaserede linjer, der gør det muligt at foretage detaljerede estimater. Det andet gitter er til produktbaserede linjer, der bruger en simpel enhedspris og en mængdebaseret tilgang.
 
