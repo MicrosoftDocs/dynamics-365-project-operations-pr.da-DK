@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
-        - name: Maj 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: April 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: Marts 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: Februar 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: December 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: November 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: September 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: August 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Juni 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Maj 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: April 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: Marts 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: Februar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: Januar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: December 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: November 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: Juli 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Arkiv
+          items:
+            - name: Juni 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: Maj 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: April 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: Marts 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: Februar 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: December 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: November 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: Oktober 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: September 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: August 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: Juli 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: Juni 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: Maj 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: April 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: Marts 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: Februar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: Januar 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: December 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: November 2020 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Salgsproces for projekt
       items:
         - name: Oversigt over salgsproces for projekt
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Oversigt over faktiske værdier
           href: actuals/actuals-overview.md
+        - name: Faktiske værdiers påvirkning i forbindelse med tids- og materialeengagement
+          href: actuals/ActualsonTM.md
+        - name: Faktisk værdiers påvirkning i et fast prisengagement
+          href: actuals/ActualonFP.md
+        - name: Faktisk værdiers påvirkning i forbindelse med før-salgsfasen for et engagement
+          href: actuals/ActualonPreSales.md
+        - name: Faktiske værdiers påvirkning på et internt projekt
+          href: actuals/ActualonInternal.md
         - name: Transaktionsoprindelse – Sammenkæd faktiske værdier med kilde
           href: actuals/linkingactuals.md
         - name: Transaktionsforbindelser – Sammenkæd faktiske værdier for forskellige transaktionstyper
@@ -513,14 +527,16 @@
             - name: Bekræft en projektbaseret proformafaktura
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Opret projektbaserede rettelsesfakturaer
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Konfigurer projektbaseret automatisering af faktura
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Korrigerende projektbaserede fakturaer
+              href: proforma-invoicing/corrective-invoices.md
         - name: Kundefakturering
           items:
             - name: Administrer forslag til projektfakturaer
               href: invoicing/format-update-project-invoice-proposals.md
-            - name: Ret regnskab i forslag til projektfakturaer
+            - name: Ret regnskab i udkast til forslag til projektfakturaer
               href: invoicing/correct-project-invoice-proposals.md
         - name: Intern fakturering
           items:
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
-        - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Nyheder i maj 2022 – lille udrulning
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: Nyheder i april 2022 – lille udrulning
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: Nyheder i marts 2022 – lille udrulning
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: Nyheder i februar 2022 – lille udrulning
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: Nyheder i december 2021 – lille udrulning
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Nyheder i november 2021 – lille udrulning
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Nyheder i oktober 2021 – lille udrulning
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Nyheder i september 2021 – lille udrulning
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Nyheder i august 2021 – lille udrulning
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Nyheder i juli 2021 – lille udrulning
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Nyheder i juni 2021 – lille udrulning
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Nyheder i maj 2021 – lille udrulning
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Nyheder i april 2021 – lille udrulning
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Nyheder i marts 2021 – lille udrulning
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Nyheder i februar 2021 – lille udrulning
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Nyheder i januar 2021 – lille udrulning
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: Nyheder i december 2020 – lille udrulning
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Nyheder i november 2020 – lille udrulning
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: Nyheder i juli 2022 – lille udrulning
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Arkiv
+          items:
+            - name: Nyheder i juni 2022 – lille udrulning
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: Nyheder i maj 2022 – lille udrulning
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: Nyheder i april 2022 – lille udrulning
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: Nyheder i marts 2022 – lille udrulning
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: Nyheder i februar 2022 – lille udrulning
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: Nyheder i december 2021 – lille udrulning
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: Nyheder i november 2021 – lille udrulning
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: Nyheder i oktober 2021 – lille udrulning
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: Nyheder i september 2021 – lille udrulning
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: Nyheder i august 2021 – lille udrulning
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: Nyheder i juli 2021 – lille udrulning
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: Nyheder i juni 2021 – lille udrulning
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: Nyheder i maj 2021 – lille udrulning
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: Nyheder i april 2021 – lille udrulning
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: Nyheder i marts 2021 – lille udrulning
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: Nyheder i februar 2021 – lille udrulning
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: Nyheder i januar 2021 – lille udrulning
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: Nyheder i december 2020 – lille udrulning
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: Nyheder i november 2020 – lille udrulning
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Salgsproces for projekt
       items:
         - name: Oversigt over salgsproces for projekt
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Project Operations for lagerbaserede/produktionsbaserede scenarier
   items:
+    - name: Start her
+      items:
+        - name: Konfigurer dataintegration
+          items:
+            - name: Oversigt over Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: Integrationsparametre for Project Service Automation
+              href: prod-pma/PSA-parameters.md
+            - name: Synkroniser projektkontrakter og projekter direkte fra Project Service Automation til Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: Synkroniser faktiske projektværdier direkte fra Project Service Automation med projektintegrationskladden til bogføring i finans og drift
+              href: prod-pma/project-actuals-templates.md
+            - name: Synkroniser projektestimater direkte fra Project Service Automation til finans og drift
+              href: prod-pma/project-estimates-templates.md
+            - name: Synkroniser projektudgiftskategorier mellem finans og drift og Project Service Automation
+              href: prod-pma/project-categories-templates.md
+            - name: Synkroniser projektopgaver direkte fra Project Service Automation til finans og drift
+              href: prod-pma/project-tasks-template.md
+        - name: Udrul miljøer
+          items:
+            - name: Opdater Project Operations i dit Finance-miljø
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Nyheder
       items:
-        - name: Nyheder oktober 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Nyheder september 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Nyheder juli 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Nyheder maj 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: Nyheder april 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: Nyheder marts 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: Nyheder januar 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: Nyheder december 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: Nyheder november 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: Nyheder juli 2022 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Arkiv
+          items:
+            - name: Nyheder juni 2022 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: Nyheder oktober 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: Nyheder september 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: Nyheder juli 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: Nyheder maj 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: Nyheder april 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: Nyheder marts 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: Nyheder januar 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: Nyheder december 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: Nyheder november 2020 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Udrulningsoversigt til Project Operations for lagerbaserede/produktionsbaserede scenarier
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Oversigt over projektstyring og regnskab
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Mobilt arbejdsområde for tidsregistrering på projekter
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobilapp til projekttimesedler
+        - name: Mobilapp Project Timesheet
           href: prod-pma/project-timesheet.md
         - name: Projekttimesedler på en mobilenhed
           href: prod-pma/mobile-timesheets.md
+        - name: Omdøb eller tilpas en projektfase
+          href: prod-pma/tasks/rename-project.md
         - name: Implementer brugerdefinerede felter for mobilappen til Project Timesheet
           href: prod-pma/custom-fields-mobile.md
     - name: Ressourcestyring
@@ -1150,6 +1202,8 @@
       items:
         - name: Projektprognoser og -budgetter
           href: prod-pma/project-forecasts-budgets.md
+        - name: Allokér et projektbudget eller en budgetrevision på tværs af perioder
+          href: prod-pma/tasks/allocate-project.md
         - name: Opret prognosemodeller for projektbudgetter
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Overfør projektbudgetter ved afslutning af regnskabsåret
@@ -1246,6 +1300,10 @@
       items:
         - name: Eliminer et projektestimat
           href: prod-pma/eliminate-project-estimate.md
+    - name: Den offentlige sektor
+      items:
+        - name: Forespørgsel om plan for udgifter til føderale priser
+          href: prod-pma/project-sefa-inquiry.md
 - name: Udgiftsstyring
   items:
     - name: Oversigt over udgiftsstyring
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Administrer delegering
           href: expense/manage-delegation.md
+        - name: Konfigurer udgiftsstyring
+          href: prod-exp/plan-expense-management.md
         - name: Konfigurer parametre for udgiftsstyring
           href: expense/configure-expense-management-parameters.md
         - name: Konfigurer integration af kreditkort
@@ -1278,10 +1338,14 @@
       items:
         - name: Fordelinger i en udgiftsrapport
           href: expense/distributions-expense-report.md
+        - name: Importer og vedligehold kreditkorttransaktioner
+          href: prod-exp/import-credit-card.md
     - name: Godkend udgiftsrapporter
       items:
         - name: Udgiftsrapporter og flere godkendere
           href: expense/expense-reports-multiple-approvers.md
+        - name: Administrer udgiftsdelegering
+          href: prod-exp/manage-expense-delegation.md
     - name: Bogfør udgiftsrapporter
       href: expense/posting-expense-reports.md
     - name: Rejserekvisition
@@ -1296,6 +1360,8 @@
       items:
         - name: Momsinddrivelse
           href: expense/vat-recovery.md
+        - name: Få vist en udgiftsrapport fra finanskladden eller indkøb og forsyning
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: Plan for opdateringsudgivelse til Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 44. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-44.md
         - name: 'Nyheder eller ændringer i den 43. opdateringsudgivelse, v3'
           href: psa/whats-new-ur43.md
         - name: 'Nyheder eller ændringer i den 42. opdateringsudgivelse, v3'
@@ -1361,6 +1429,8 @@
         - name: 'Nyheder eller ændringer i den 23. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-23.md
         - name: 'Nyheder eller ændringer i den 22. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Nyheder eller ændringer i den 21. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-21.md
         - name: 'Nyheder eller ændringer i den 20. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-20.md
