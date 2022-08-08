@@ -4,7 +4,7 @@ description: Sådan opretter du en projektskabelon i Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598987"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177418"
 ---
 # <a name="create-a-project-template-project-service"></a>Oprette en projektskabelon (Project Service)
 
@@ -35,12 +35,19 @@ Projektskabeloner sparer dig tid, hvis virksomheden regelmæssigt afgiver bud p�
 ## <a name="components-of-project-template"></a>Komponenter af projektskabelon
  En projektskabelon består af tre komponenter:  
   
-- **Arbejdsopgavehierarki**: Et arbejdsopgavehierarki i en projektskabelon har det samme sæt af elementer som i projektet. Du kan oprette et opgavehierarki, knytte roller til opgaven, definere planlægningsattributter, angive afhængigheder og få vist alle data i Gantt. Arbejdsopgavehierarkier i projektskabeloner understøtter også opgavetilstande for alle opgaver. Der er ingen forskel mellem en projektskabelon og et projekt, når du opretter arbejdsplan.  
+- **Arbejdsopgavehierarki**: Et arbejdsopgavehierarki i en projektskabelon har det samme sæt af elementer som i projektet. Du kan oprette et opgavehierarki, knytte roller til opgaven, definere planlægningsattributter, angive afhængigheder og få vist alle data i Gantt. Arbejdsopgavehierarkier i projektskabeloner understøtter også opgavetilstande for alle opgaver. Der er ingen forskel mellem en projektskabelon og et projekt, når du opretter en arbejdsplan.  
   
 - **Projektestimater**: Projektestimater i skabeloner fungerer på samme måde som de gør i projekter, bortset fra prislister for standardomkostninger og salgspriser altid er standardomkostninger og salgsprislister, der er defineret i parametrene for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Resten af funktionaliteten er den samme som i et projekt.  
   
 - **Projektteamdannelse**: Når du danner en projektgruppe for en projektskabelon, kan du ikke reservere en navngivet ressource i en skabelon. Du kan bruge **Opret projektteam** i arbejdsopgavehierarkier til at generere en række standardressourcer. Du kan også angive de nødvendige færdigheder og kompetencer for standardressourcer. Du kan ikke erstatte en standardressource med en reserverbar ressource i projektskabeloner.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Opret en projektskabelon ud fra et eksisterende projekt
+Du kan oprette en projektskabelon fra et projekt på følgende måder:
+
+- **Arbejdsopgavehierarki**: Et arbejdsopgavehierarki i en skabelon, der er afledt af et projekt, kopierer alle opgaver og afhængigheder. De tildelinger, der oprettes, vil være baseret på de generiske teammedlemmer, der tilføjes projektteamet, når projektskabelonen oprettes.
+- **Projektestimater**: Når der oprettes en projektskabelon ud fra et eksisterende projekt, kopieres estimaterne fra kildeprojektet til projektskabelonen.
+- **Medlemmer af projektteam**: Når der oprettes en skabelon ud fra et eksisterende projekt, erstattes alle navngivne teammedlemmer med organisationens generiske ressource. Alle stillingsnavne og -roller bevares.
+
 ## <a name="create-a-project-from-a-template"></a>Oprette et projekt på grundlag af skabelon  
  Du kan oprette et projekt fra en skabelon på følgende måder:  
   

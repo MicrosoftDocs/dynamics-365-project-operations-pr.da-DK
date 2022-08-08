@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922859"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028879"
 ---
 # <a name="project-mobile-applications-overview"></a>Oversigt over mobilapplikationer til projekter
 
@@ -33,11 +33,11 @@ Med mobilappen til Dynamics 365 Project Timesheet kan brugerne sende og godkende
 
 ## <a name="project-time-entry-workspace"></a>Arbejdsområde for tidsregistrering på projekter
 
-Med arbejdsområdet for tidsregistrering på projekter kan brugere angive og spare tid i løbet af et projekt. Den giver dog ikke brugerne mulighed for at indsende eller godkende projekttimesedler. Den kan kun bruges til tidsregistrering. Dette arbejdsområde til mobilenheder er tiltænkt at skulle anvendes sammen med mobilappen til Finance and Operations.
+Med arbejdsområdet for tidsregistrering på projekter kan brugere angive og spare tid i løbet af et projekt. Den giver dog ikke brugerne mulighed for at indsende eller godkende projekttimesedler. Den kan kun bruges til tidsregistrering. Dette arbejdsområde til mobilenheder er tiltænkt at skulle anvendes sammen med mobilappen til finans og drift.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mine timesedler/timesedler til min gennemgang
 
-Mine timesedler (optimeret til mobil) og timesedler til min gennemgang (optimeret til mobil) udgør en løsning, som kan bruges af medarbejdere til at oprette, indsende og godkende projekttimesedler på mobilenheder. Arbejdere kan få adgang til Finance-funktionaliteten via-URL-adressen til applikationen. Denne løsning kræver ikke mobilappen til Finance and Operations.
+Mine timesedler (optimeret til mobil) og timesedler til min gennemgang (optimeret til mobil) udgør en løsning, som kan bruges af medarbejdere til at oprette, indsende og godkende projekttimesedler på mobilenheder. Arbejdere kan få adgang til Finance-funktionaliteten via-URL-adressen til applikationen. Denne løsning kræver ikke mobilappen til finans og drift.
 
 ## <a name="for-more-information"></a>Flere oplysninger
 

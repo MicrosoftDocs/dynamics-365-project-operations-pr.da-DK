@@ -2,22 +2,22 @@
 title: Kladde til integration i Project Operations
 description: Denne artikel indeholder oplysninger om, hvordan du arbejder med integrationskladden i Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923871"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106268"
 ---
 # <a name="integration-journal-in-project-operations"></a>Kladde til integration i Project Operations
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Poster med tidsforbrug og udgifter opretter **Faktiske** transaktioner, som repræsenterer den operationelle visning af udfært arbejde i forhold til et projekt. Dynamics 365 Project Operations giver revisorer et værktøj til at revidere transaktioner og om nødvendigt justering af regnskabsattributter. Når gennemgangen og justeringerne er fuldført, bogføres transaktionerne i projektets underfinanskladde og finanskladde. En revisor kan udføre disse aktiviteter ved hjælp af kladden **Project Operations-integration** (**Dynamics 365 Finance** > **Projektstyring og regnskab** > **Kladder** > **Project Operations-integration**.
+Poster med tidsforbrug, udgifter, gebyrer og materialer opretter **Faktiske** transaktioner, som repræsenterer den operationelle visning af færdiggjort arbejde i forhold til et projekt. Dynamics 365 Project Operations giver revisorer et værktøj til at revidere transaktioner og om nødvendigt justering af regnskabsattributter. Når gennemgangen og justeringerne er fuldført, bogføres transaktionerne i projektets underfinanskladde og finanskladde. En revisor kan udføre disse aktiviteter ved hjælp af kladden **Project Operations-integration** (**Dynamics 365 Finance** > **Projektstyring og regnskab** > **Kladder** > **Project Operations-integration**.
 
 ![Flow for integration af kladde.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Det er kun følgende regnskabsattributter, der kan opdateres i integrationskladd
 - **Faktureringsmomsgruppe** og **Faktureringsvaremomsgruppe**
 - **Økonomiske dimensioner** (ved hjælp af handlingen **Fordel beløb**)
 
-Integrationskladdelinjer kan slettes, men alle ikke-bogførte linjer indsættes igen i kladden, når du har kørt den periodiske proces **Importer fra midlertidig** på ny.
+Integrationskladdelinjer kan slettes. Alle ikke-bogførte linjer indsættes dog i kladden igen, når du har kørt den periodiske proces **Importér fra midlertidig** på ny.
+
+### <a name="post-the-project-operations-integration-journal"></a>Bogfør integrationskladden til Project Operations
 
 Når du bogfører integrationskladden, oprettes der en underfinanskonto for projektet og transaktioner på finanskontoen. Disse bruges til afledt kundefakturering, indtægtsføring og finansiel rapportering.
 
+Den valgte integrationskladde til Project Operations kan udgives ved hjælp af **Bogfør** på siden for integrationskladden for Project Operations. Alle kladder kan automatisk bogføres ved at køre en proces på **Periodiske** > **Project Operations-integration** > **Bogfør integrationskladden til Project Operations**.
+
+Bogføring kan udføres interaktivt eller i en batch. Bemærk, at alle kladder, der har mere end 100 linjer, automatisk bliver bogført i en batch. Hvis du vil opnå en bedre ydeevne, når du bogfører kladder med mange linjer i en batch, skal du aktivere funktionen **integrationskladden til Project Operations ved hjælp af flere batchopgaver** i arbejdsområdet **Funktionsstyring**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Overfør alle linjer, der indeholder bogføringsfejl til en ny kladde
+
+> [!NOTE]
+> Hvis du vil bruge denne funktion, skal du aktivere funktionen **Overførelse af alle linjer med bogføringsføringsfejl til en ny integrationskladde i Project Operations** i arbejdsområdet **Funktionsstyring**.
+
+Under bogføring til integrationskladden til Project Operations validerer systemet alle linjer i kladden. Systemet bogfører alle linjer, der ikke indeholder fejl, og opretter en ny kladde for alle linjer med bogføringsfejl. Hvis du vil gennemgå kladderne med bogføringsfejl, skal du gå til **Projektstyring og regnskab** > **Kladder** > **Integrationskladde til Project Operations** og filtrere kladderne ved hjælp af feltet **Oprindelig kladde**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

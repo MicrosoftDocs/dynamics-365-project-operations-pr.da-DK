@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910577"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028168"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder juni 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -21,7 +21,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 Denne artikel gælder for følgende komponenter og versioner af Dynamics 365 Project Operations:
 
 - Project Operations på Dynamics 365 Dataverse-miljø version 4.11.0.156 eller 4.11.0.164.
-- Projektstyring og regnskab i programmiljøer til programmer til finans og drift version 10.0.19.
+- Projektstyring og regnskab i miljøer til programmer til finans og drift version 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funktioner omfattet af denne udgivelse
 

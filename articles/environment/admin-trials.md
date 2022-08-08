@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959432"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029293"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Tilmeld dig prøveversioner af Project Operations 
 
@@ -86,11 +86,11 @@ Inden du begynder, skal du logge på en browser med brugerkontoen i den lejer, h
  
   Når klargøring er fuldført, er tilstanden for miljøet **Klar**. Klargøring af miljøet omfatter udrulning af demodata.
  
-4.  Vælg den respektive Microsoft Dataverse-URL-adresse for programmer til finans og drifts URL-adresse og for at validere udrulningen.
+4.  Vælg den respektive Microsoft Dataverse-URL-adresse og URL-adressen til programmer til finans og drift for at validere installationen.
 
 ## <a name="configuring-dual-write"></a>Konfiguration af dobbeltskrivning
 - Hvis du vil konfigurere sikkerhedsroller for dobbelt skrivning, skal du se [Opdatering af sikkerhedsindstillinger for Project Operations i Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Hvis du vil have adgang til konfiguration med dobbelt skrivning, skal du navigere til forekomsten Finance and Operations og derefter navigere til **Dataadministration** > **Dobbeltskrivning**.
+- Hvis du vil have adgang til konfiguration med dobbelt skrivning, skal du navigere til forekomsten finans og drift og derefter navigere til **Dataadministration** > **Dobbeltskrivning**.
 - Hvis du vil konfigurere tilknytninger med dobbelt skrivning, skal du se [Kør tilknytninger af dobbelt skrivning i Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Tildele licenser

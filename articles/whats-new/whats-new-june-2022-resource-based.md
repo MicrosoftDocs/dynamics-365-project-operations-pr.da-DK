@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959422"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031324"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder juni 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -20,7 +20,7 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 Denne artikel gælder for følgende komponenter og versioner af Microsoft Dynamics 365 Project Operations:
 
-- Project Operations i et Dataverse-miljø version 4.43.0.77
+- Project Operations i et Dataverse-miljø version 4.43.0.77 eller 4.43.0.119
 - Projektstyring og regnskab i et Dynamics 365 Finance-miljø version 10.0.27
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Opdateringer af Project Operations med dobbeltskrivning-tilknytninger

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934037"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029339"
 ---
 # <a name="expense-management-overview"></a>Oversigt over udgiftsstyring
 
@@ -43,7 +43,7 @@ Du kan finde flere oplysninger under [Nye udgiftsrapporter](ExpenseWorkspaceNew.
 
 ### <a name="blogs"></a>Blogs
 
-Du kan finde meninger, nyheder og andre oplysninger på [Microsoft Dynamics 365-bloggen](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance and Operations – Finans-bloggen](https://community.dynamics.com/365/financeandoperations/b/financials).
+Du kan finde udtalelser, nyheder og andre oplysninger på [Microsoft Dynamics 365-bloggen](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance - finansbloggen](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations Partner Community-blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) giver Microsoft Dynamics-partnere en fælles ressource, hvor de kan få mere at vide om nyheder og tendenser i MBS Operations.
 

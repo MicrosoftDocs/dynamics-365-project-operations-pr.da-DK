@@ -2,7 +2,7 @@
 title: Mobilappen Project Timesheet
 description: Denne artikel indeholder oplysninger om arbejdsområdet Microsoft Dynamics 365 Project Timesheet på mobilenheder. Mobilappen til Project Timesheet gør brugerne i stand til at sende og godkende timesedler for projekter på deres mobilenheder.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923963"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110968"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilappen Project Timesheet
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923963"
 
 ## <a name="overview"></a>Oversigt
 
-Mobilappen Microsoft Dynamics 365 Project Timesheet gør brugerne i stand til at sende og godkende timesedler for projekter på deres mobilenheder (iPhone eller Android). Denne mobilapp berører timeseddelfunktionaliteten, som er indeholdt i området Projektstyring og regnskab i Dynamics 365 Finance og forbedrer brugernes produktivitet og effektivitet samt muliggør tidsregistrering og godkendelse af projekttimesedler.
+Mobilappen Microsoft Dynamics 365 Project Timesheet giver brugerne mulighed for at indsende og godkende timesedler for projekter på deres mobilenheder (iPhone eller Android). Denne mobilapp indeholder timeseddelfunktionaliteten, som befinder sig i området Projektstyring og regnskab i Dynamics 365 Finance. Den bidrager til at forbedre brugernes produktivitet og effektivitet og gør det også muligt at registrere og godkende projekttimesedler rettidigt.
 
 ## <a name="download-and-install-the-mobile-app"></a>Hent og installer mobilappen
 
@@ -38,6 +38,19 @@ Hent og Installer Microsoft Dynamics 365 Project Timesheet-mobilappen til Androi
 
 Appen Project Timesheet skal være aktiveret i Finance. Hvis du vil aktivere funktionaliteten, skal du gå til **Projektstyring og regnskabsparametre \> Timesedler** og vælge parameteren **Aktiver Microsoft Dynamics 365 Project Timesheet**.
 
+### <a name="resolve-sign-in-issues"></a>Løste logonproblemer
+
+**Problem:** Når brugerne logger på mobilappen Project Timesheet, modtager de en fejlmeddelelse om, at de "ikke kan få adgang til applikationen '2bc50526-cdc3-4e36-a970-c284c34cbd6e' i den pågældende lejer".
+
+**Problem:** Når brugerne logger på mobilappen Project Timesheet , modtager de en fejlmeddelelse, der ligner et af følgende eksempler:
+
+- "AADSTS50020: Brugerkonto '[brugernavn]' fra identitetsudbyder 'https://sts.windows.net/[app-id]' findes ikke i lejerens '[lejer-id]' og kan ikke få adgang til applikationen '[app-id]' i den pågældende lejer."
+- "Den valgte brugerkonto findes ikke i lejeren '[lejer-id]', og der kan ikke opnås adgang til applikationen '-[app-id]' i den pågældende lejer."
+
+**Forklaring:** Disse problemer skyldes en ændring i Azure Active Directory (Azure AD) i maj 2022, og som er relateret til eksterne brugere. Da denne ændring ikke blev indført i programmer til finans og drift, kan den påvirke kunderne i alle versioner af platformen eller applikationen.
+
+**Løsning:** Alle eksterne brugere skal inviteres til lejeren via Azure AD. Du kan finde flere oplysninger i [Invitér brugere med Azure Active Directory B2B Collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Log på appen
 
 1.  Start mobilappen på din mobilenhed.
@@ -46,7 +59,7 @@ Appen Project Timesheet skal være aktiveret i Finance. Hvis du vil aktivere fun
 
 3.  Første gang, du logger på, bliver du bedt om at angive dit brugernavn og din adgangskode. Angiv dine legitimationsoplysninger.
 
-4.  Du bliver logget på din standardvirksomhed.
+4. Du bliver logget på din standardvirksomhed.
 
 ## <a name="submit-a-project-timesheet"></a>Indsend en timeseddel for projekt
 

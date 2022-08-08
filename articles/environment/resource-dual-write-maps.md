@@ -2,16 +2,16 @@
 title: Versioner af Project Operations med dobbeltskrivning
 description: Denne artikel indeholder en liste over tilknytninger med dobbeltskrivning, der kræves til Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959412"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112422"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioner af Project Operations med dobbeltskrivning
 

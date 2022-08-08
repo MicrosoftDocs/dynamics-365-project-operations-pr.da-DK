@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6f5bd20b9d0e8ca1ace1dd6a5a66ae1810bb5b3b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a3b7db477434c08c5b0b57a71c0ffa32a78aea47
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923227"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028650"
 ---
 # <a name="start-a-new-lcs-project"></a>Start et nyt LCS-projekt
 
@@ -27,7 +27,7 @@ Brug Lifecycle Services (LCS) til at administrere dine Dynamics 365 Project Oper
   ![Vælg LCS-projekttype.](./media/create-lcs-1.png)
 
 5. Navn på projektet. 
-6. Vælg **Finance and Operations** som produktnavn, og vælg branche og metode. 
+6. Vælg **Finans og drift** som produktnavnet, og vælg branchen og metoden. 
 7. Vælg **Opret**.
 
 ![Opret LCS-projekt.](./media/create-lcs-2.png)

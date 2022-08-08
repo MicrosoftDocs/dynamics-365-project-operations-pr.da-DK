@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922767"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028787"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Udrulningsoversigt til Project Operations for lagerbaserede/produktionsbaserede scenarier
 
@@ -23,7 +23,7 @@ Denne udrulningstype har følgende funktioner for projektbaserede virksomheder:
 - Projektplanlægning ved hjælp af [Arbejdsopgavehierakier](work-breakdown-structures.md)
 - Fremskaf og forbrug lagerbeholdningen på projekter
 - Administrer projektbaseret salg ved hjælp af modulet **Salg og marketing** i Dynamics 365-programmer til finans og drift
-- Projektprisfastsætning og kostpris ved hjælp af konfigurationer af omkostningssats og fakturapris i programmer til finans og drift
+- Projektprisfastsættelse og kostpris ved hjælp af konfigurationer af omkostningssats og fakturapris i programmer til finans og drift
 - Ressourcestyring til projekter i programmer til finans og drift
 - Projektfremgang og tidssporing i programmer til finans og drift
 - Funktioner til udgiftsstyring for projektrelaterede og ikkeprojektrelaterede udgifter med kvitteringsregistrering ved hjælp af optisk tegngenkendelsesfunktioner

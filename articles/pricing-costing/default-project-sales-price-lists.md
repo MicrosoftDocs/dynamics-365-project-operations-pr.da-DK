@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917707"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036404"
 ---
 # <a name="default-price-lists"></a>Standardprislister
 
@@ -25,7 +25,7 @@ Alle projekttilbud og kontrakter i Dynamics 365 Project Operations indeholder en
 Systemet udfører følgende proces for at afgøre, hvilken prisliste der skal være standard for et projekttilbud:
 
 1. Systemet ser på de prislister, der er knyttet til firmaets projektprislister. 
-2. Hvis der er knyttet projektprislister til firmaposten, vil systemet se på de salgsprislister, der er knyttet til de projektparametre, der stemmer overens med valutaen i projekttilbuddet.
+2. Hvis der ikke er knyttet projektprislister til firmaposten, kigger systemet på de salgsprislister, der er knyttet til de projektparametre, der passer til med valutaen i projekttilbuddet.
 3. Derefter kontrollerer systemet ikrafttrædelsesdatoen for de prislister, der stemmer overens med datointervallet for projekttilbuddet. Mere specifikt den dato, hvor tilbuddet blev oprettet.
 4. Hvis der er flere prislister, som gælder på datoen for projekttilbuddet, bruges alle prislisterne som standard i projekttilbuddet.
 5. Hvis der ikke er nogen prislister gældende på datoen for projekttilbuddet, er der ingen standardprojektprisliste i projekttilbuddet. Der vises en advarsel i projekttilbuddet. Meddelelsen angiver, at de faktiske og estimerede værdier på projektet ikke bliver prisfastsat, idet der ikke er nogen projektprislister tilknyttet.

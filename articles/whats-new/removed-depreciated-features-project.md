@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921479"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028322"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Fjernede eller udfasede funktioner i Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Denne artikel beskriver funktioner, der er blevet fjernet, eller som vil blive f
 Denne liste har til formål at hjælpe dig med overvejelser om fjernelse og forældelse i din egen planlægning.
 
 > [!NOTE]
-> Du kan finde detaljerede oplysninger om objekter i Finans- og driftsapps i [**Tekniske referencerapporter**](/dynamics/s-e/global/axtechrefrep_61). Du kan sammenligne de forskellige versioner af disse rapporter for at få mere at vide om objekter, der er ændret eller fjernet i hver version af programmer til finans og drift.
+> Du kan finde detaljerede oplysninger om objekter i programmer til finans og drift i [**Tekniske referencerapporter**](/dynamics/s-e/global/axtechrefrep_61). Du kan sammenligne de forskellige versioner af disse rapporter for at få mere at vide om objekter, der er ændret eller fjernet i hver version af programmer til finans og drift.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Fjernede eller udfasede funktioner i udgivelsen til Project Operations fra marts 2022
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61f16ebdbabd6545c09d8d7bd82d99b85dc09975
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912095"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029017"
 ---
 # <a name="project-invoice-integration"></a>Integration af projektfaktura
 
@@ -24,6 +24,6 @@ I Project Operations administrerer projektlederen efterslæbet af projektfakture
 
 Når projektlederen bekræfter proformafakturaen i Dataverse, synkroniseres oplysningerne i proformafakturaens overskrift med programmer til finans og drift ved hjælp af den dobbelte tabeltilknytning **Projektfakturaforslag V2 (fakturaer)**. Dette er en envejsintegration fra Dataverse til programmer til finans og drift. Oprettelse eller sletning af projektfakturaforslag direkte i programmer til finans og drift understøttes ikke.
 
-Fakturabekræftelsen i Dataverse udløser også forretningslogikken, når der oprettes faktureringsrelaterede poster i objektet **Faktiske tal**. Disse poster synkroniseres med Finance and Operations ved hjælp af tabeltilknytning med dobbelt skrivning **Integration af faktiske værdier i Project Operations (msdyn\_actuals)**. Du kan finde flere oplysninger under [Projektestimater og faktiske værdier](resource-dual-write-estimates-actuals.md). 
+Fakturabekræftelsen i Dataverse udløser også forretningslogikken, når der oprettes faktureringsrelaterede poster i objektet **Faktiske tal**. Disse poster synkroniseres med finans og drift ved hjælp af tabeltilknytning med dobbelt skrivning **Integration af faktiske værdier i Project Operations (msdyn\_actuals)**. Du kan finde flere oplysninger under [Projektestimater og faktiske værdier](resource-dual-write-estimates-actuals.md). 
 
 Linjer i forslag til projektfakturaer oprettes af den periodiske proces **Import af midlertidig lagringsformular**. Denne proces er baseret på de faktiske fakturerede salgsdetaljer i tabellen **Faktisk midlertidig lagring**. Du kan finde flere oplysninger i [Administrer forslag til projektfakturaer](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals). 

@@ -2,24 +2,24 @@
 title: Fejlfinding i forbindelse med arbejde i opgavegitteret
 description: Denne artikel indeholder oplysninger om fejlfinding, der er nødvendige, når du arbejder i gitteret Opgave.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911037"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188224"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Fejlfinding i forbindelse med arbejde i opgavegitteret 
 
 
 _**Gælder for:** Project Operations til ressource/ikke-lagerbaserede scenarier, Lille udrulning – aftale om proformafakturaren, Project for the web_
 
-Det opgavegitter, der bruges i Dynamics 365 Project Operations, er en værtsbaseret iFrame i Microsoft Dataverse. Som følge af denne brug skal der specifikke krav være opfyldte for at sikre, at godkendelse og autorisation fungerer korrekt. I denne artikel beskrives de almindelige problemer, der kan påvirke muligheden for at gengive gitteret eller administrere opgaver i arbejdsopgavehierarkiet (WBS).
+Det opgavegitter, der bruges af Dynamics 365 Project Operations, er en værtsbaseret iFrame i Microsoft Dataverse. Som følge af denne brug skal der specifikke krav være opfyldte for at sikre, at godkendelse og autorisation fungerer korrekt. I denne artikel beskrives de almindelige problemer, der kan påvirke muligheden for at gengive gitteret eller administrere opgaver i arbejdsopgavehierarkiet (WBS).
 
 Almindelige problemer omfatter:
 
@@ -60,7 +60,7 @@ I Microsoft Edge eller Google Chrome-browsere beskriver følgende procedurer det
 Project Operations kræver, at en projektparameter refererer til PEX-slutpunktet. Dette slutpunkt er nødvendigt for at kommunikere med den tjeneste, der bruges til at gengive arbejdsopgavehierarkiet. Hvis parameteren ikke er aktiveret, modtager du fejlmeddelelsen "Projektparameteren er ikke gyldig". Hvis du vil opdatere PEX-slutpunktet, skal du udføre følgende trin.
 
 1. Tilføj feltet **PEX-slutpunkt** til siden **Projektparametre**.
-2. Identificer den produkttype, du bruger. Denne værdi bruges, når PEX-slutpunktet er angivet. Ved hentning er produkttypen allerede defineret i PEX-slutpunktet. Behold denne værdi.
+2. Identificer den produkttype, som du bruger. Denne værdi bruges, når PEX-slutpunktet er angivet. Ved hentning er produkttypen allerede defineret i PEX-slutpunktet. Behold denne værdi.
 3. Opdater feltet med følgende værdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. I følgende tabel findes den typeparameter, der skal bruges på grundlag af produkttypen.
 
       | **Produkttype**                     | **Parametertype** |
@@ -72,7 +72,10 @@ Project Operations kræver, at en projektparameter refererer til PEX-slutpunktet
 4. Fjern feltet fra siden **Projektparametre**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Afhjælpning 3: Log på project.microsoft.com.
-I din Microsoft Edge-browser skal du åbne en ny fane, gå til project.microsoft.com og logge på ved hjælp af den brugerrolle, du bruger til at få adgang til Project Operations.
+
+I din browser skal du åbne en ny fane, gå til project.microsoft.com og logge på med den brugerrolle, du bruger til at få adgang til Project Operations. Det er vigtigt, at der kun er én bruger, der er logget på et Microsoft-produkt i browseren. Fejlmeddelelsen "login.microsoftonline.com kunne ikke oprette forbindelse" vises som oftest, når mere end én bruger er logget på, som vist i følgende illustration.
+
+![Vælg en logonside for en konto, der viser, at to brugere er logget på.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projektet indlæses ikke, og brugergrænsefladen sidder fast på skalaen
 
@@ -112,7 +115,7 @@ Du kan også fuldføre følgende trin:
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: Administration af rettigheder for Project for the Web
 
-Project Operations er afhængig af en ekstern planlægningstjeneste. Tjenesten kræver, at en bruger har fået tildelt flere roller, som giver brugeren mulighed for at læse og skrive til objekter, der er relateret til WBS. Disse objekter omfatter projektopgaver, ressourcetildelinger og opgaveafhængigheder. Hvis en bruger ikke kan få gengivet WBS'et, når de navigerer til fanen **Opgaver**, skyldes det sandsynligvis, at **Projekt** i **Project Operations** ikke er blevet aktiveret. En bruger modtager måske enten en sikkerhedsrolle eller en fejl, der er relateret til en nægtelse af adgang.
+Project Operations er afhængig af en ekstern planlægningstjeneste. Tjenesten kræver, at en bruger har fået tildelt flere roller, som giver brugeren mulighed for at læse og skrive til objekter, der er relateret til WBS. Disse objekter omfatter projektopgaver, ressourcetildelinger og opgaveafhængigheder. Hvis en bruger ikke kan gengive WBS'et, når de navigerer til fanen **Opgaver**, skyldes det sandsynligvis, at **Projekt** i **Project Operations** ikke er blevet aktiveret. En bruger modtager måske enten en sikkerhedsrolle eller en fejl, der er relateret til en nægtelse af adgang.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Afhjælpning 1: Validér sikkerhedsrollerne for programbrugere og slutbrugere
 

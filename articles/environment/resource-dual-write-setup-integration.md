@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d03393de893c39ceb53c06a3031395f765a26f55
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914533"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029145"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Opsætning af Project Operations og konfiguration af dataintegration
 
@@ -40,7 +40,7 @@ Projektobjektet synkroniseres med programmer til finans og drift ved hjælp af t
 
 Et projekt knyttes til en projektkontrakt via objektet **Projektkontraktlinje**.
 
-Projektkontraktlinjer i Dataverse opretter en projektkontraktfaktureringsregel i programmer til finans og drift ved hjælp af tabeltilknytningen **Projektkontraktlinjer (salesorderdetails)**. Faktureringsmetoden definerer typen af projektkontraktfaktureringsregler i programmer til finans og drift:
+Projektkontraktlinjer i Dataverse opretter en projektkontraktfaktureringsregel i programmer til finans og drift ved hjælp af tabeltilknytningen **Projektkontraktlinjer (salgsordredetaljer)**. Faktureringsmetoden definerer typen af projektkontraktfaktureringsregler i programmer til finans og drift:
 
   - Projektkontraktlinjer med en faktureringsmetode for tid og materialer opretter en faktureringsregel for tid og materialetype.
   - Kontraktlinjer for fast prisfaktureringsmetode opretter en faktureringsregel for milepæle.

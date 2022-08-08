@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930127"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064271"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Konfigurer kilometertal ved hjælp af niveauer for kilometertal
 
@@ -50,5 +50,15 @@ Hvis en medarbejder indsender en udgiftsrapport med 1.500 kilometer, er de to ki
 
 Når du har aktiveret funktionen, skal du nulstille kilometerniveauer, så de korrekt afspejler værdien i feltet **Antal**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Aktivér funktionen Beregning af totaler for antal kilometer i henhold til regnskabsår
+
+Funktionen **Beregning af totaler for antal kilometer i henhold til regnskabsår** gør det muligt at angive en ny indstilling i Parametre for administration af udgifter, der udfører beregninger af samlede antal kilometer i henhold til regnskabsår i stedet for kalenderåret. Fuldfør følgende trin for at aktivere denne funktion.
+
+1. Gå til **Arbejdspladser** > **Funktionsstyring**.
+1. Find og vælg **Beregning af totaler for antal kilometer i henhold til regnskabsår** på listen, og vælg derefter **Aktivér nu**.
+1. Gå til **Udgiftsstyring** > **Opsætning** > **Generelt** > **Parametre for udgiftsstyring**.
+1. På siden **Parametre for administration af udgifter** skal du finde og aktivere **Brug regnskabsår til samlede antal kilometer**.
+
+Når du har aktiveret **Brug regnskabsår for samlede antal kilometer**, beregnes de samlede antal kilometer efter regnskabsår.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

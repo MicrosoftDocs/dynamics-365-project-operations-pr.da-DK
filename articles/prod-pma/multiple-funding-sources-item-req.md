@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931185"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028466"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Varekrav for projektkontrakter med flere finansieringskilder
 
@@ -33,7 +33,7 @@ Contoso har vundet en kontrakt om fornyelse af udstyr med to af sine kunder: Ada
 
 ### <a name="prerequisites"></a>Forudsætninger
 
-- Microsoft Dynamics 365 Finance and Operations **version 10.0.27 eller nyere** er påkrævet for at bruge varekrav, der har flere fakturakonti.
+- Microsoft Dynamics 365 Finance **version 10.0.27 eller nyere** er påkrævet for at bruge varekrav, der har flere fakturakonti.
 - Din systemadministrator skal aktivere kravene til funktionen **Tillad varekrav med flere finansieringskilder til Project Operations i lager-/produktionsbaserede scenarier** i arbejdsområdet **Funktionsstyring**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Konfigurer standardregler for fakturakontoen

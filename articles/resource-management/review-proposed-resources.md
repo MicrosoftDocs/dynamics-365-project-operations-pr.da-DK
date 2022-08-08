@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924837"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183967"
 ---
 # <a name="review-proposed-resources"></a>Gennemse foreslåede ressourcer
 
@@ -40,8 +40,8 @@ Hvis du vil have vist de foreslåede ressourcer, skal du følge disse trin:
     Følgende statusopdateringer forekommer:
 
     - På siden **Planlægningsassistent** opdateres statusindikatorerne for at indikere, at reservationen er foreslået, ikke definitivt reserveret.
-    - På ressourceanmodningen ændres status til **Skal gennemses**.
-    - På fanen **Team** for projektet er det generiske teammedlems værdi for **Anmodningsstatus** ændret til **Skal gennemses**.
+    - På ressourceanmodningen bør gennemseeren af anmodningen ændre status til **Skal gennemses**.
+    - På fanen **Team** for projektet ændres det generiske teammedlems værdi for **Anmodningsstatus** automatisk til **Skal gennemses**.
 
 Projektlederen kan acceptere eller afvise forslaget.
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912417"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029247"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder april 2021 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -48,7 +48,7 @@ På følgende liste vises de dobbeltskrivning-tilknytninger, der er blevet ændr
 | Integrationsobjekt for eksport af projektleverandørfaktura i Project Operations (msdyn\_projektleverandørfakturaer) | 1.0.0.0 | Ny tabeltilknytning for synkronisering af leverandørfakturaoverskrifter fra programmer til finans og drift til Dataverse. |
 | Integrationsobjekt for eksport af projektleverandørfakturalinje i Project Operations (msdyn\_projektleverandørlinjer) | 1.0.0.0 | Ny tabeltilknytning til synkronisering af leverandørfakturalinjer fra programmer til finans og drift til Dataverse. |
 
-Du bør altid køre den nyeste version af tilknytningen i dit miljø, og aktivér alle relaterede tabeltilknytninger, når du opdaterer din version af Project Operations Dataverse-løsningen og Finance and Operations-løsningen. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen i kolonnen **Version** på siden **Dobbeltskrivning**. Du kan aktivere en ny version af tilknytningen ved at vælge **Versioner af tabeltilknytning**, vælge den nyeste version og derefter gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Du bør altid køre den nyeste version af tilknytningen i dit miljø, og aktivér alle relaterede tabeltilknytninger, når du opdaterer din version af Project Operations Dataverse-løsningen og finans og drift-løsningen. Visse funktioner fungerer muligvis ikke korrekt, hvis den nyeste version af tilknytningen ikke er aktiveret. Du kan se den aktive version af tilknytningen i kolonnen **Version** på siden **Dobbeltskrivning**. Du kan aktivere en ny version af tilknytningen ved at vælge **Versioner af tabeltilknytning**, vælge den nyeste version og derefter gemme den valgte version. Hvis du har brugertilpasset en standardtabeltilknytning, skal du anvende ændringerne igen. Du kan finde flere oplysninger i [Anvendelse af programlivscyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Hvis du støder på et problem, når du starter tilknytningen, skal du følge instruktionerne i afsnittet [Problem med manglende tabelkolonner på tilknytninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i fejlfindingsvejledningen til dobbeltskrivning.
 
