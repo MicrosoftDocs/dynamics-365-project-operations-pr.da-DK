@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
-        - name: Juli 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: August 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arkiv
           items:
+            - name: Juli 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juni 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Maj 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -384,6 +386,42 @@
           items:
             - name: Oversigt over tidsforbrug for ressource
               href: resource-management/resource-utilization-overview.md
+    - name: Administration af underentrepriser
+      items:
+        - name: Administration af underentrepriser i Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Nøglekoncepter i underentrepriser
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Administrer leverandører og projektprislister
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 'Underleverandører som ressource, de kan reserveres'
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Overskriftsdetaljer for underleverandører
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Underleverandørlinjer for tid
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Underleverandørlinjer for udgiftskategorier
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Underleverandørlinjer for produkter
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressourcer til underleverandørlinjer
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milepæle for underleverandørlinjer
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Medlemmer af underleverandørs projektteam
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Projektteammedlemmers indstillinger for underleverandør
+          href: pro/subcontracting/subcon-options.md
+        - name: Omkostningsestimering af tildelinger af ressourcer fra underleverandør
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurer planlægningsområde for at vise kontraktmedarbejdere og underleverandørkapacitet
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bemanding af et projekt med kontraktmedarbejdere og underleverandørkapacitet
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrering af tid, udgifter og materialeforbrug for komponenter fra underleverandører'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Stillingsskifts tilstand i en underentreprise
+          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Tidsoversigt
@@ -580,6 +618,8 @@
       items:
         - name: Overfør fuldt fakturerede faktureringsmilepæle i forbindelse med overflytning
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Synkroniser projektstatus for at forhindre indtastning i forbindelse med lukkede projekter
+          href: advanced-configuration/sync-project-status.md
     - name: Opgrader
       items:
         - name: Overvejelser om opgradering i forbindelse med moderne godkendelser
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
-        - name: Nyheder i juli 2022 – lille udrulning
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Nyheder i august 2022 – lille udrulning
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arkiv
           items:
+            - name: Nyheder i juli 2022 – lille udrulning
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Nyheder i juni 2022 – lille udrulning
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Nyheder i forbindelse med tidlig adgang til anden bølge i 2021 – lille udrulning
