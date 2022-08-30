@@ -1,17 +1,17 @@
 ---
-title: Konfigurer og anvend konfigurationsdata i Common Data Service
+title: Konfigurer og anvend konfigurationsdata i Microsoft Dataverse
 description: Denne artikel indeholder oplysninger om opsætning og anvendelse af konfigurationsdata i Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928011"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230230"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurer og anvend konfigurationsdata i Common Data Service 
 
@@ -21,10 +21,10 @@ _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede
 
 ## <a name="prerequisites"></a>Forudsætninger
 
-Før du begynder at konfigurere data i Common Data Service (CDS), skal følgende forudsætninger være opfyldt:
+Før du begynder at konfigurere data i Microsoft Dataverse, skal følgende forudsætninger være opfyldt:
 
-1.  Klargør et CDS-miljø og et Dynamics 365 Finance-miljø til Project Operations.
-2.  Oplysninger om juridiske enheder fra Dynamics 365 Finance deles i CDS-miljøet. Dette betyder, at objektet **Virksomehd** i CDS indeholder følgende firmaposter:
+1.  Klargør et Dataverse-miljø og et Dynamics 365 Finance-miljø til Project Operations.
+2.  Oplysninger om juridiske enheder fra Dynamics 365 Finance deles i Dataverse-miljøet. Dette betyder, at objektet **Virksomhed** i Dataverse indeholder følgende firmaposter:
   - THPM
   - USPM
   - GBPM

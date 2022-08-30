@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929207"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230308"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter
 
@@ -45,9 +45,9 @@ Følgende er en liste over aktuelle projektplanlægnings-API'er.
 - **msdyn_CreateProjectV1**: Denne API kan bruges til at oprette et projekt. Projekt- og standardprojektet-bucket oprettes med det samme.
 - **msdyn_CreateTeamMemberV1**: Denne API kan bruges til at oprette et projektteammedlem. Teammedlemsposten oprettes med det samme.
 - **msdyn_CreateOperationSetV1**: Denne API kan bruges til at planlægge flere forespørgsler, der skal udføres i en transaktion.
-- **msdyn_PSSCreateV1**: Denne API kan bruges til at oprette et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter oprettelseshandlingen.
-- **msdyn_PSSUpdateV1**: Denne API kan bruges til at opdatere et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter opdateringshandlingen.
-- **msdyn_PSSDeleteV1**: Denne API kan bruges til at slette et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter slettehandlingen.
+- **msdyn_PssCreateV1**: Denne API kan bruges til at oprette et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter oprettelseshandlingen.
+- **msdyn_PssUpdateV1**: Denne API kan bruges til at opdatere et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter opdateringshandlingen.
+- **msdyn_PssDeleteV1**: Denne API kan bruges til at slette et objekt. Objektet kan være et hvilket som helst af de projektplanlægningsobjekter, der understøtter slettehandlingen.
 - **msdyn_ExecuteOperationSetV1**: Denne API bruges til at udføre alle handlinger i det givne operationssæt.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Brug af projektplanlægnings-API'er med handlingssæt
