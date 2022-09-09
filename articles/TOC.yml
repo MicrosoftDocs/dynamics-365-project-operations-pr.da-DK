@@ -166,13 +166,15 @@
                   href: sales/import-estimate-quote-line.md
                 - name: Fakturaplaner for projektbaserede tilbudslinjer
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopier projekttilbud
+            - name: Kopiere projekttilbud
               href: sales/lose-quote.md
-            - name: Luk projekttilbud
+            - name: Aktivere og revidere et projekttilbud
+              href: sales/activation-and-revision.md
+            - name: Lukke projekttilbud
               href: sales/win-quote.md
-        - name: Administrer projektkontrakter
+        - name: Administrere projektkontrakter
           items:
-            - name: Administrer oversigt over projektkontrakter
+            - name: Administrere oversigt over projektkontrakter
               href: pro/sales/manage-contracts-sales.md
             - name: 'Begreber, der er unikke for projektbaserede kontrakter'
               href: sales/contracts-key-concepts.md
@@ -196,9 +198,11 @@
                   href: sales/create-estimate-contract-line.md
                 - name: Importér estimater fra et projekt til en projektbaseret kontraktlinje
                   href: sales/import-estimate-project-contract-line.md
-                - name: Opret fakturaplaner på projektbaserede kontraktlinjer
+                - name: Oprette fakturaplaner på projektbaserede kontraktlinjer
                   href: sales/invoice-schedules-contract-line.md
-            - name: Bekræft en projektkontrakt
+            - name: Kopiere projektbaserede kontrakter
+              href: sales/copy-project-based-contracts-sales.md
+            - name: Bekræfte en projektkontrakt
               href: pro/sales/confirm-contract-sales.md
             - name: Forskud og forskudshonorarer
               items:
@@ -226,15 +230,15 @@
           items:
             - name: Standardprislister
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Tilsidesæt projektsalgsprislister
+            - name: Tilsidesætte projektsalgsprislister
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Fastsæt kostpriser for estimater og faktiske tal
+            - name: Fastsætte kostpriser for estimater og faktiske tal
               href: pricing-costing/cost-price-resolution.md
-            - name: Fastsæt salgspriser for estimater og faktiske tal
+            - name: Fastsætte salgspriser for estimater og faktiske tal
               href: pricing-costing/sales-price-resolution.md
-            - name: Kopiér prislister
+            - name: Kopiere prislister
               href: pricing-costing/copy-price-lists.md
-            - name: Deaktivér prislister
+            - name: Deaktivere prislister
               href: pricing-costing/deactivatepricelists.md
         - name: Dimensioner for prisfastsættelse
           items:
@@ -760,15 +764,17 @@
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Estimer en projektbaseret tilbudslinje
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Importér estimat fra et projekt
+                - name: Importere estimat fra et projekt
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Administrer faktureringsplaner
+                - name: Administrere faktureringsplaner
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopier projektbaserede tilbud
+            - name: Kopiere projektbaserede tilbud
               href: sales/lose-quote.md
-            - name: Luk projektbaserede tilbud
+            - name: Aktivere og revidere et projekttilbud
+              href: sales/activation-and-revision.md
+            - name: Lukke projektbaserede tilbud
               href: pro/sales/win-quote-sales.md
-        - name: Administrer projektbaserede kontrakter
+        - name: Administrere projektbaserede kontrakter
           items:
             - name: Oversigt over projektbaserede kontrakter
               href: pro/sales/manage-contracts-sales.md
@@ -806,7 +812,7 @@
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Kopier projektkontrakter
               href: pro/sales/copy-project-contracts-sales.md
-            - name: Bekræft en projektkontrakt
+            - name: Bekræfte en projektkontrakt
               href: pro/sales/confirm-contract-sales.md
             - name: Forskud og forskudshonorarer
               items:
@@ -836,13 +842,13 @@
           items:
             - name: Standardprislister
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Tilsidesæt projektsalgsprislister
+            - name: Tilsidesætte projektsalgsprislister
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Fastsæt kostpriser på projektestimater og faktiske
+            - name: Fastsætte kostpriser på projektestimater og faktiske
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Fastsæt salgspriser for projektestimater og faktiske
+            - name: Fastsætte salgspriser for projektestimater og faktiske
               href: pro/pricing-costing/sales-price-resolution-sales.md
-            - name: Kopiér prislister
+            - name: Kopiere prislister
               href: pricing-costing/copy-price-lists.md
             - name: Deaktivér projektprislister
               href: pricing-costing/deactivatepricelists.md
