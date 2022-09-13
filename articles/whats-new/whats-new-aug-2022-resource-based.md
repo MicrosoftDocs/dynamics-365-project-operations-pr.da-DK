@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348001"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403849"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder august 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -38,6 +38,11 @@ Hvis du støder på problemer, når du starter tilknytningen, skal du følge ins
 | Funktionsområde | Referencenummer | Kvalitetsopdatering |
 | --- | --- | --- |
 | Styring af salgsmuligheder | 2762089 | Fejlhåndtering under lukning af kontrakten som tabt, hvis automatisk lagring er deaktiveret i organisationen.|
+|Projektplanlægning og -sporing | 2767841 | Telemetri opdaterer scenarier for projektobjektet Opret eller Opdater.|
+|Fakturering og prisfastsættelse | 2771072 | Håndtering af null-referenceundtagelser, når tilbud bliver vundet.|
+|Fakturering og prisfastsættelse | 2844181 |Fejl under hentning af et korrelations-id og blokering af fakturaoprettelse.|
+|Fakturering og prisfastsættelse | 2852836 | Der mangler interne faktiske værdier for interne udgifter, der er oprettet og godkendt i CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Oversigt over projektstyring og regnskab i Finance
 

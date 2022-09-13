@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922307"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409983"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Anvend demonstrationskonfiguration og konfigurationsdata for Project Operations - lille 
 
@@ -21,7 +21,7 @@ _**Lille udrulning - aftale til proformafakturering_
 
 ## <a name="prerequisites"></a>Forudsætninger
 
-Før du går i gang med konfigurationen, skal du have et Common Data Service-miljø (CDS), der er klargjort til Dynamics 365 Project Operations.
+Før du går i gang med konfigurationen, skal du have et Dataverse-miljø, der er klargjort til Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Vejledninger

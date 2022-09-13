@@ -1,45 +1,85 @@
 ---
-title: Fastsæt kostpriser på projektestimater og faktiske
-description: Denne artikel indeholder oplysninger om, hvordan kostpriser i projektestimater og faktiske værdier løses.
+title: Fastsætte omkostningssatser for projektestimater og faktiske værdier
+description: Denne artikel indeholder oplysninger om, hvordan omkostningssatser til projektestimater og faktiske værdier fastlægges.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917523"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410142"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Fastsæt kostpriser på projektestimater og faktiske 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Fastsætte omkostningssatser for projektestimater og faktiske værdier
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-For at kunne fastsætte kostpriser og kostprislisten til estimater og faktiske oplysninger bruger systemet oplysningerne i felterne **Dato**, **Valuta** og **Kontraktenhed** i det relaterede projekt. Når kostprislisten er fastsat, fastsætter programmet omkostningssatsen.
+For at kunne fastsætte kostprislister og omkostningssatser i estimater og faktiske oplysninger bruger systemet oplysningerne i felterne **Dato**, **Valuta** og **Kontraktenhed** i det relaterede projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Fastsættelse af omkostningssatser for faktiske og estimerede linjer for tid
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Fastsættelse af omkostningssatser i estimater og faktiske oplysninger for tid
 
-Estimatlinjer for tid refererer til tilbuds- og kontraktlinjeoplysninger om tid- og ressourcetildelinger i et projekt.
+Estimatkontekst for **Tid** refererer til:
 
-Når en kostprisliste er løst, sammenholdes felterne **Rolle** og **Ressourceenhed** på estimatlinjen for Tid med rolleprislinjerne i prislisten. Denne sammenligning forudsætter, at du bruger standarddimensionerne for prisfastsættelse af lønomkostninger. Hvis du har konfigureret systemet til at matche felter i stedet for eller som supplement til **Rolle** og **Ressourceenhed**, bruges der en anden kombination til at hente en tilsvarende rolleprislinje. Hvis programmet finder en rolleprislinje, der har en omkostningssats for kombinationen **Rolle** og **Ressourceenhed**, vil den være standardomkostningssatsen. Hvis programmet ikke kan matche værdierne for **Rolle** og **Ressourceenhed**, hentes det rolleprislinjer med en tilsvarende rolle, men der vises ikke null-værdier for **Ressourceenheden**. Når det har en tilsvarende rolleprispost, vil omkostningssatsen som standard stamme fra den pågældende post. 
+- Tilbudslinjedetaljer for **Tid**.
+- Kontraktlinjedetaljer for **Tid**.
+- Ressourcetildelinger på et projekt.
+
+Faktisk kontekst for **Tid** refererer til:
+
+- Indtastnings- og rettelseskladdelinjer for **Tid**.
+- Kladdelinjer, der oprettes, når der sendes en tidspost.
+
+Når en kostprisliste er fastsat, fuldfører systemet følgende trin for at angive standarden for omkostningssatsen.
+
+1. Systemet matcher kombinationen af felterne **Rolle** og **Ressourceenhed** i estimatet eller den faktiske kontekst for **Tid** med rolleprislinjerne på prislisten. Denne sammenligning forudsætter, at du bruger standarddimensionerne for prisfastsættelse af lønomkostninger. Hvis du har konfigureret systemet til at matche felter i stedet for eller som supplement til **Rolle** og **Ressourceenhed**, bruges der en anden kombination til at hente en tilsvarende rolleprislinje.
+1. Hvis systemet finder en rolleprislinje, der har en omkostningssats for kombinationen **Rolle** og **Ressourceenhed**, bruges denne omkostningssats som standardomkostningssatsen.
+1. Hvis systemet ikke kan matche feltværdierne for **Rolle** og **Ressourceenhed**, hentes det rolleprislinjer med tilsvarende værdier for feltet **Rolle**, men der vises null-værdier for feltet **Ressourceenhed**. Når systemet finder en tilsvarende rolleprispost, anvendes omkostningssatsen fra den pågældende post som standardomkostningssats.
 
 > [!NOTE]
-> Hvis du konfigurerer en anden prioritering af **Rolle** og **Ressourceenhed**, eller hvis du har andre dimensioner med en højere prioritet, ændres denne funktionsmåde tilsvarende. Systemet henter rolleprisposter med værdier, der svarer til hver af prisfastsættelsesdimensionsværdierne i prioriteret rækkefølge med rækker, der har null-værdier for de pågældende dimensioner, der kommer sidst.
+> Hvis du konfigurerer en anden prioritering af **Rolle** og **Ressourceenhed**, eller hvis du har andre dimensioner med en højere prioritet, ændres denne funktionsmåde tilsvarende. I systemet hentes rolleprisposter, der har værdier, som svarer til de enkelte prissætningsdimensionsværdier i prioritetsrækkefølge. Rækker med null-værdier for disse dimensioner kommer sidst.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Fastsættelse af omkostningssatser for faktiske og estimerede linjer for udgifter
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Fastsætte omkostningssatser for faktiske og estimerede linjer for udgifter
 
-Estimatlinjer for udgifter refererer til tilbuds- og kontraktlinjeoplysninger om udgifter og udgiftsestimatlinjer i et projekt.
+Estimatkontekst for **Udgift** refererer til:
 
-Når en kostprisliste er løst, bruger systemet en kombination af felterne **Kategori** og **Enhed** på udgiftsestimatlinjen til at sammenligne med linjerne **Kategoripris** i den løste prisliste. Hvis systemet finder en kategorisprislinje, der har en omkostningssats for feltkombinationen **Kategori** og **Enhed**, konverteres omkostningssatsen til standarden. Hvis systemet ikke kan sammenholde værdierne for **Kategori** og **Enhed**, eller hvis det kan finde en tilsvarende kategoriprislinje, men prisfastsættelsesmetoden ikke er **Pris pr. enhed**, vil omkostningssatsen som standard være nul (0).
+- Tilbudslinjedetaljer for **Udgift**.
+- Kontraktlinjedetaljer for **Udgift**.
+- Udgiftsestimater på et projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Fastsættelse af kostpriser på faktiske og anslåede linjer for materialer
+Faktisk kontekst for **Udgift** refererer til:
 
-Estimatlinjer for materialer henviser til tilbuds- og kontraktlinjedetaljerne for materiale og materialeestimatlinjerne på et projekt.
+- Indtastnings- og rettelseskladdelinjer for **Udgift**.
+- Kladdelinjer, der oprettes, når der sendes en udgiftspost.
 
-Når en kostprisliste er fastsat, bruger systemet en kombination af felterne **Produkt** og **Enhed** på estimatlinjen til et materialeestimat, der skal afstemmes mod linjerne **Prislisteelementer** i den fastsatte prisliste. Hvis systemet finder en produktprislinje, der har en kostsats for kombinationsfeltet **Produkt** og **Enhed**, anvendes kostsatsen som standard. Hvis systemet ikke kan matche værdierne **Produkt** og **Enhed**, eller hvis det er muligt at finde en tilsvarende prislisteelementlinje, men prisfastsættelsesmetoden er baseret på standardomkostninger eller aktuelle omkostninger, og ingen af dem er defineret for produktet, angives enhedsomkostningen som standard til nul.
+Når en kostprisliste er fastsat, fuldfører systemet følgende trin for at angive standarden for omkostningssatsen.
 
+1. Systemet matcher kombinationen af felterne **Kategori** og **Enhed** i estimatet eller den faktiske kontekst for **Udgift** med linjerne med kategoripris på prislisten.
+1. Hvis systemet finder en kategorisprislinje, der har en omkostningssats for kombinationen af **Kategori** og **Enhed**, bruges denne omkostningssats som standarden.
+1. Hvis systemet ikke kan matche værdierne af **Kategori** og **Enhed**, angives prisen som standard til **0** (nul).
+1. Hvis systemet kan finde en matchende kategoriprislinje i estimatkonteksten, men prissætningsmetoden ikke er **Pris pr. enhed**, vil omkostningssatsen som standard være **0** (nul).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Fastsætte kostpriser på faktiske og estimerede linjer for materialer
+
+Estimatkontekst for **Materiale** refererer til:
+
+- Tilbudslinjedetaljer for **Materiale**.
+- Kontraktlinjedetaljer for **Materiale**.
+- Materialeestimater på et projekt.
+
+Faktisk kontekst for **Materiale** refererer til:
+
+- Indtastnings- og rettelseskladdelinjer for **Materiale**.
+- Kladdelinjer, der oprettes, når der sendes en materialeforbrugslog.
+
+Når en kostprisliste er fastsat, fuldfører systemet følgende trin for at angive standarden for omkostningssatsen.
+
+1. Systemet matcher kombinationen af felterne **Produkt** og **Enhed** i estimatet eller den faktiske kontekst for **Materiale** med varelinjerne på prislisten.
+1. Hvis systemet finder en prislinjevare, der har en omkostningssats for kombinationen af **Produkt** og **Enhed**, bruges denne omkostningssats som standarden.
+1. Hvis systemet ikke kan matche værdierne for **Produkt** og **Enhed**, angives enhedsomkostningen som standard til **0** (nul).
+1. Hvis systemet kan finde en matchende prislisteelementlinje i estimatet eller den faktiske kontekst, men prissætningsmetoden ikke er **Valutabeløb**, vil enhedsomkostningen som standard være **0** (nul). Dette forekommer, fordi Project Operations kun understøtter prissætningsmetoden **Valutabeløb** for materiale, der bruges på et projekt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

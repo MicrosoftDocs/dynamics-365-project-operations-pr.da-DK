@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183884"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403944"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder juli 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -45,6 +45,12 @@ Hvis du støder på problemer, når du starter tilknytningen, skal du følge ins
 | Fakturering og prisfastsættelse | 2675880 | Forebyg, at et projekt knyttes til en kontraktlinje, der ikke er arbejdsbaseret. |
 | Fakturering og prisfastsættelse | 2664396 | Hvis en tilbudsprisliste gemmes uden et tilbud, skal der være en fejl, som oplyser, at tilbuddet ikke må være tomt. |
 | Fakturering og prisfastsættelse | 2184019 | Fanen **Opgavebaseret fakturering** skal ikke vises for projekter, der ikke har nogen bagvedliggende kontrakt eller tilbud. |
+| Tid og udgift | 2754459 | Når tilbagevendende planlægning af cloudflow er inaktiv, skal du vise banner og undgå asynkron behandling. |
+| Fakturering og prisfastsættelse | 2724391 | Der opstod en forkert undtagelse, når regel for opdeling af fakturering for projektkontrakt mangler en kundeværdi. |
+| Fakturering og prisfastsættelse | 2708638 | Posten blev ikke fundet under søgning ved hjælp af gittersøgning i materialeforbrug og materialegodkendelser.|
+| Fakturering og prisfastsættelse | 2686977 | Undgå validering af fakturalinje under oprettelse af faktura. |
+| Fakturering og prisfastsættelse | 2683032 | Kopiering af roller og kategorier, der kan opkræves, skaleres ikke til mere end 5000 poster.|
+| Fakturering og prisfastsættelse | 2673363 | Omkostningsforbrug i % af projekt beskadiges, når der både findes estimater af indsats og udgifter og faktiske værdier for et projekt. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Oversigt over projektstyring og regnskab i Finance
 
