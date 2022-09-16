@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Tilsidesætte projektsalgsprislister
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konfigurer gældende pristilsidesættelser for dato for bestemte priser på en prisliste
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Fastsætte kostpriser for estimater og faktiske tal
               href: pricing-costing/cost-price-resolution.md
             - name: Fastsætte salgspriser for estimater og faktiske tal
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Bestil varer og tjenester til projekter ved hjælp af projektkøbsordrer
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Leverandørfakturaer for underleverandører i Dataverse
+          items:
+            - name: Opret leverandørfakturaer
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Kontrol af leverandørfakturaer med godkendte faktiske værdier
+              href: pro/subcontracting/VI-Verification.md
+            - name: Bekræft projektleverandørfakturaer
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Leverandørtilbageholdelse
           items:
             - name: Oversigt over tilbageholdelse af leverandører
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Tilsidesætte projektsalgsprislister
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konfigurer gældende pristilsidesættelser for dato for bestemte priser på en prisliste
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Fastsætte kostpriser på projektestimater og faktiske
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Fastsætte salgspriser for projektestimater og faktiske
