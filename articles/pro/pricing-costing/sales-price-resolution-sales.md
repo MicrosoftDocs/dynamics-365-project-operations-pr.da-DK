@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410111"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475177"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Fastsætte salgspriser for projektestimater og faktiske værdier
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Når salgspriserne på estimater og faktiske værdier bestemmes i Microsoft Dynamics 365 Project Operations, bruger systemet først datoen og valutaen i den indgående estimatkontekst eller faktiske kontekst til at fastlægge salgsprislisten. Specifikt i den faktiske kontekst bruges feltet **Transaktionsdato** til at bestemme, hvilken prisliste der skal anvendes. Når salgsprislisten er blevet fastlagt, fastsætter systemet salgs- eller faktureringssatsen.
+Når salgspriserne på estimater og faktiske værdier bestemmes i Microsoft Dynamics 365 Project Operations, bruger systemet først datoen og valutaen i den indgående estimatkontekst eller faktiske kontekst til at fastlægge salgsprislisten. Specifikt i den faktiske kontekst bruges feltet **Transaktionsdato** til at bestemme, hvilken prisliste der skal anvendes. Værdien af **Transaktionsdato** for det indgående estimat eller den faktiske værdi sammenlignes med værdierne af **Faktisk startdato (tidszoneuafhængig)** og **Faktisk slutdato (tidszoneuafhængig)** på prislisten. Når salgsprislisten er blevet fastlagt, fastsætter systemet salgs- eller faktureringssatsen.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Fastsætte salgssatser for faktiske og estimerede linjer for tid
 

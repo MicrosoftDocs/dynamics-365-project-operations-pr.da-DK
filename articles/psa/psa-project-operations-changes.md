@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925343"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459919"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Funktionsændringer fra Project Service Automation til Project Operations
 
 Opgraderingen fra Dynamics 365 Project Service Automation til Dynamics 365 Project Operations lille leveres i tre faser. Denne artikel indeholder oplysninger om de store ændringer, som du kan forvente at se, når opgraderingen er fuldført.
 
-| Levering af opgradering | Fase 1 <br>(Januar 2022) | Fase 2 <br>(April-bølgen 2022) | Fase 3  |
+| Levering af opgradering | Fase 1 <br>(Januar 2022) | Fase 2 <br>(November 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Ingen afhængighed af arbejdsopgavehierarkiet (WBS) til projekter. | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
 | WBS er inkluderet i de grænser for Project Operations, der understøttes i øjeblikket. | &nbsp; | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |

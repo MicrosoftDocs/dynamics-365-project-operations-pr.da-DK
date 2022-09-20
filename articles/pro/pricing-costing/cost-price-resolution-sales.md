@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410142"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475224"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Fastsætte omkostningssatser for projektestimater og faktiske værdier
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-For at kunne fastsætte kostprislister og omkostningssatser i estimater og faktiske oplysninger bruger systemet oplysningerne i felterne **Dato**, **Valuta** og **Kontraktenhed** i det relaterede projekt.
+Når omkostningssatserne på estimater og faktiske værdier bestemmes i Microsoft Dynamics 365 Project Operations, bruger systemet først datoen og valutaen i den indgående estimatkontekst eller faktiske kontekst til at fastlægge kostprislisten. Specifikt i den faktiske kontekst bruges feltet **Transaktionsdato** til at bestemme, hvilken prisliste der skal anvendes. Værdien af **Transaktionsdato** for det indgående estimat eller den faktiske værdi sammenlignes med værdierne af **Faktisk startdato (tidszoneuafhængig)** og **Faktisk slutdato (tidszoneuafhængig)** på prislisten. Når kostprislisten er fastsat, fastsætter systemet omkostningssatsen. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Fastsættelse af omkostningssatser i estimater og faktiske oplysninger for tid
 
