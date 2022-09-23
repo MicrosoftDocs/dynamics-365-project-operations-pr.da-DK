@@ -508,9 +508,11 @@
           href: approvals/cancelapproval.md
         - name: Tilbagekald tidligere godkendte poster
           href: approvals/recall-cancel.md
+        - name: Sikkerhed og godkendelser
+          href: approvals/approvals-security.md
         - name: Bemærkninger til udvikler
           items:
-            - name: Bemærkninger til udvikler vedrørende godkendelser
+            - name: Bemærkninger til udvikler vedrørende Approvals
               href: approvals/dev-notes-approvals.md
     - name: Faktiske værdier
       items:
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Konfigurere leverandørtilbageholdelse
               href: procurement/set-up-vendor-retention.md
+            - name: Betal ved betaling
+              href: procurement/Pay-when-paid.md
     - name: Fakturering
       items:
         - name: Oversigt over faktureringsprocessen
@@ -1102,9 +1106,11 @@
           href: approvals/cancelapproval.md
         - name: Tilbagekald tidligere godkendte poster
           href: approvals/recall-cancel.md
+        - name: Sikkerhed og godkendelser
+          href: approvals/approvals-security.md
         - name: Bemærkninger til udvikler
           items:
-            - name: Bemærkninger til udvikler vedrørende godkendelser
+            - name: Bemærkninger til udvikler vedrørende Approvals
               href: approvals/dev-notes-approvals.md
     - name: Faktiske værdier
       items:
