@@ -2,20 +2,20 @@
 title: Bemanding af et projekt med kontraktmedarbejdere og kapacitet, der er omfattet af en underentreprise
 description: I denne artikel forklares det, hvordan projektkrav kan bemandes ved hjælp af kontraktmedarbejdere eller kapacitet, der er omfattet af en underentreprise, i Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261247"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522428"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Bemanding af et projekt med kontraktmedarbejdere og kapacitet, der er omfattet af en underentreprise
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 Generiske projektteammedlemmer kan bemandes med medarbejdere eller kontraktmedarbejdere. Når du bemander et projekt med kontraktmedarbejdere, kan du begrænse medarbejderindstillingerne til bestemte kontraktmedarbejdere, der er tildelt en underentrepriselinje. 
 

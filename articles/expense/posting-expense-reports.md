@@ -1,8 +1,8 @@
 ---
 title: Bogfør udgiftsrapporter
 description: I denne artikel forklares det, hvordan du kan bogføre udgiftsrapporter.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934497"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524862"
 ---
 # <a name="post-expense-reports"></a>Bogfør udgiftsrapporter
 
@@ -30,5 +30,15 @@ Hvis du vil bogføre en udgiftsrapport, skal du på siden **Godkend udgiftsrappo
 
 Du kan også bogføre alle udgiftsrapporter på listen på én gang. Vælg alle udgiftsrapporter, og vælg derefter **Bogfør**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Aktivere funktionen Mulighed for at bogføre udgifter i leverandørens valuta for kontantbetalingsmetoden
+
+Funktionen **Mulighed for at bogføre udgifter i leverandørens valuta for kontantbetalingsmetoden** gør det muligt at bogføre udgiftsrapporter i en leverandørvaluta for kontantbetalingsmetoden.
+
+Når du sender kontante udgifter, bogføres udgiftsrapporter i regnskabsvalutaen. På grund af beløbskonvertering mellem transaktionsvalutaen, regnskabsvalutaen og leverandørvalutaen betales der et forkert beløb til leverandører, hvis transaktionsdatoen for udgifterne og den faktiske betalingsdato har forskellige valutakurser.
+
+Denne funktion sikrer, at kreditorsaldoen registreres i leverandørvalutaen, når udgiftsrapporten bogføres.
+
+1. Gå til **Arbejdspladser** \> **Funktionsstyring**.
+2. På listen skal du søge efter og vælge **Mulighed for at bogføre udgifter i leverandørens valuta for kontantbetalingsmetoden** og derefter vælge **Aktivér nu**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

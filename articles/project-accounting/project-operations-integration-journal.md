@@ -2,16 +2,16 @@
 title: Kladde til integration i Project Operations
 description: Denne artikel indeholder oplysninger om, hvordan du arbejder med integrationskladden i Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106268"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541070"
 ---
 # <a name="integration-journal-in-project-operations"></a>Kladde til integration i Project Operations
 
@@ -65,6 +65,12 @@ Bogføring kan udføres interaktivt eller i en batch. Bemærk, at alle kladder, 
 > [!NOTE]
 > Hvis du vil bruge denne funktion, skal du aktivere funktionen **Overførelse af alle linjer med bogføringsføringsfejl til en ny integrationskladde i Project Operations** i arbejdsområdet **Funktionsstyring**.
 
-Under bogføring til integrationskladden til Project Operations validerer systemet alle linjer i kladden. Systemet bogfører alle linjer, der ikke indeholder fejl, og opretter en ny kladde for alle linjer med bogføringsfejl. Hvis du vil gennemgå kladderne med bogføringsfejl, skal du gå til **Projektstyring og regnskab** > **Kladder** > **Integrationskladde til Project Operations** og filtrere kladderne ved hjælp af feltet **Oprindelig kladde**.
+Denne funktion hjælper med at forbedre oplevelsen af Project Operations-integrationskladden. Når funktionen er aktiveret, forhindrer timingproblemer med dobbeltskrivning og problemer med konfigurationen ikke længere bogføring af gyldige kladder. Under bogføring til integrationskladden til Project Operations validerer systemet alle linjer i kladden. Alle linjer, der ikke indeholder fejl, bogføres, og der oprettes en ny kladde for alle linjer, der indeholder bogføringsfejl.
+
+Hvis du vil gennemgå de kladder, der indeholder fejllinjer i bogføringen, skal du gå **Projektstyring og regnskab** \> **Kladder** \> **Project Operations** og filtrere listen over kladder ved hjælp af feltet **Oprindelig kladde**. I følgende illustration vises et eksempel, hvor kladderne på siden **Project Operations-integrationskladde** er blevet filtreret på denne måde.
+
+![Oprindelig kladde, der vises på siden Project Operations-integrationskladde.](./media/transferLines-originalJournal.png)
+
+Hvis der konfigureres et periodisk batchjob til bogførings af integrationskladden, gøres der forsøg på at bogføre igen, og kladderne bogføres, hvis timingproblemet er løst. Eventuelle resterende kladder skal undersøges manuelt ved at gennemgå loggene og foretage nødvendige handlinger.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

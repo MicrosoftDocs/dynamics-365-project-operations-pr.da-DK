@@ -2,20 +2,20 @@
 title: Underentrepriselinjer for tid
 description: I denne artikel forklares det, hvordan du registrerer underleverandørlinjer for tid og registrerer køb af tid fra leverandører.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261975"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522225"
 ---
 # <a name="subcontract-lines-for-time"></a>Underentrepriselinjer for tid
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 En underentreprise i Dynamics 365 Project Operations kan have en underentrepriselinje for tid. Underleverandørlinjer for tid gør det muligt for en projektleder at købe leverandørressourcetid for at besætte projektopgaver og ressourcekrav med medarbejdere.
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029202"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527980"
 ---
 # <a name="expense-management-integration"></a>Integration af udgiftsstyring
 
@@ -34,7 +34,7 @@ Udgiftskategorier i programmer til finans og drift er virksomhedsspecifikke elle
 
 ## <a name="expense-reports"></a>Udgiftsrapporter
 
-Udgiftsrapporter oprettes og godkendes i programmer til finans og drift. Du kan finde flere oplysninger i [Opret og behandl udgiftsrapporter i Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Når udgiftsrapporten er godkendt af projektlederen, bogføres den i hovedbogen. I Project Operations bogføres projektrelaterede udgiftsrapportlinjer ved hjælp af særlige bogføringsregler:
+Udgiftsrapporter oprettes og godkendes i programmer til finans og drift. Du kan finde flere oplysninger i [Opret og behandl udgiftsrapporter i Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Når udgiftsrapporten er godkendt af projektlederen, bogføres den i hovedbogen. I Project Operations bogføres projektrelaterede udgiftsrapportlinjer ved hjælp af særlige bogføringsregler:
 
   - Projektrelaterede omkostninger (herunder moms, der ikke kan inddrives) bogføres ikke straks til projektomkostningskontoen i hovedbogen, men bogføres i stedet for på udgiftsintegrationskontoen. Denne konto er konfigureret på fanen **Projektstyring og regnskab** > **Opsætning** > **Projektstyrings- og regnskabsparametre**, **Project Operations på Dynamics 365 Customer Engagement**.
   - Dobbeltskrivning synkroniseres med Dataverse ved hjælp af tabeltilknytningen **Integrationsobjekt for eksport af projektudgifter i Project Operations (msdyn\_udgifter)**.

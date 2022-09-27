@@ -2,20 +2,20 @@
 title: Omkostningsestimering af ressourcetildelinger, som er omfattet af en underentreprise
 description: Denne artikel forklarer, hvordan Microsoft Dynamics 365 Project Operations beregner omkostningsestimering af ressourcetildelinger, som er omfattet af en underentreprise.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262052"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522647"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Omkostningsestimering af ressourcetildelinger, som er omfattet af en underentreprise
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 Omkostningerne for opgavetildelinger for projektteammedlemmer, der tilhører underleverandøren, beregnes hjælp af den **Indkøbsprisliste**, der er knyttet til underentreprisen på den relaterede teammedlemspost. Dette er forskelligt fra den måde, som omkostningerne til medarbejderressourcetildelinger beregnes på, hvor omkostningerne ved opgavetildelinger af medarbejderressourcer beregnes ved hjælp af den **Omkostningsprisliste**, der er knyttet til den kontraherende enhed i projektet. 
 

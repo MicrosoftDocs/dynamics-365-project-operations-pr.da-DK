@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918075"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524909"
 ---
 # <a name="approval-sets"></a>Godkendelsessæt
 
@@ -45,14 +45,9 @@ Hvis du vælger **Prøv igen**, tilføjes levetidstallet for godkendelsessættet
 ## <a name="configure-approval-sets"></a>Konfigurer godkendelsessæt
 
 ### <a name="enable-the-approval-sets-feature"></a>Aktiver funktionen for godkendelsessæt
-Før du aktiverer funktionen Godkendelsessæt, skal du kontrollere, at der ikke er nogen godkendelser, der behandles i øjeblikket.
+Før du aktiverer funktionen Godkendelsessæt, skal du kontrollere, at der ikke er nogen godkendelser, der behandles i øjeblikket. Når denne funktion er deaktiveret, kan den ikke deaktiveres.
 
 - Gå til siden **Projektparametre**, og vælg **Funktionskontrol** > **Aktiver moderne godkendelser**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Deaktiver funktionen for godkendelsessæt
-Før du deaktiverer funktionen Godkendelsessæt, skal du kontrollere, at der ikke er nogen godkendelser, der behandles i øjeblikket.
-
-- Gå til siden **Projektparametre**, og vælg **Funktionskontrol** > **Deaktiver moderne godkendelser**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Konfiguration af den asynkrone tærskelværdi 
 Når der oprettes godkendelsessæt, flyttes behandlingen til baggrunden, når det valgte antal poster til godkendelse overskrider den angivne tærskelværdi. Brug feltet **Asynkron tærskelværdi** til at konfigurere, hvornår godkendelsesbehandling bør køres synkront eller asynkront. Vælg en af følgende værdier:

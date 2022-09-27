@@ -2,20 +2,20 @@
 title: Underentrepriselinjeressourcer
 description: I denne artikel forklares det, hvordan du kan angive de specifikke ressourcer, der er leveret af leverandøren til en bestemt underleverandørlinje for tid.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261457"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522365"
 ---
 # <a name="subcontract-line-resources"></a>Underentrepriselinjeressourcer
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
 I Dynamics 365 Project Operations kan en leverandør angive ressourcer, der skal bruges til at levere den ressourcekapacitet, der købes på underentrepriselinjen for tid.
 
