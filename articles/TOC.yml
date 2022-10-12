@@ -58,14 +58,16 @@
               href: environment/resource-dual-write-expense.md
             - name: Integration af leverandørfaktura
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Afinstaller Dynamics 365 Project Operations
+        - name: Fjerne Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Nyheder
       items:
-        - name: August 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: September 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arkiv
           items:
+            - name: August 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juli 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juni 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
@@ -110,7 +112,7 @@
       items:
         - name: Oversigt over salgsproces for projekt
           href: sales/sales-overview.md
-        - name: Konfiguration
+        - name: Opsætning
           items:
             - name: Produkter
               href: sales/sales-products.md
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Nyheder
       items:
-        - name: Nyheder i august 2022 – lille udrulning
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Nyheder i september 2022 – lille udrulning
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arkiv
           items:
+            - name: Nyheder i august 2022 – lille udrulning
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Nyheder i juli 2022 – lille udrulning
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Nyheder i juni 2022 – lille udrulning
@@ -718,7 +722,7 @@
       items:
         - name: Oversigt over salgsproces for projekt
           href: sales/sales-overview.md
-        - name: Konfiguration
+        - name: Opsætning
           items:
             - name: Produkter
               href: sales/sales-products.md
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Nyheder
       items:
-        - name: Nyheder juli 2022 - Project Operations for lagerbaserede/produktionsbaserede scenarier
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Nyheder september 2022 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arkiv
           items:
+            - name: Nyheder juli 2022 - Project Operations for lagerbaserede/produktionsbaserede scenarier
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Nyheder juni 2022 - Project Operations for lagerbaserede/produktionsbaserede scenarier
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Nyheder oktober 2021 - Project Operations for lagerbaserede/produktionsbaserede scenarier
@@ -1434,8 +1440,12 @@
       href: psa/overview.md
     - name: Nyheder
       items:
-        - name: Plan for opdateringsudgivelse til Project Service 3.x
+        - name: Opdatere udgivelsesplan for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheder eller ændringer i den 47. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Nyheder eller ændringer i den 45. opdateringsudgivelse, v3'
+          href: psa/whats-new-ur-45.md
         - name: 'Nyheder eller ændringer i den 44. opdateringsudgivelse, v3'
           href: psa/whats-new-ur-44.md
         - name: 'Nyheder eller ændringer i den 43. opdateringsudgivelse, v3'
