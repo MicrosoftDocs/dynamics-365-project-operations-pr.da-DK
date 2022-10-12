@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409928"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622003"
 ---
 # <a name="project-operations-updates"></a>Opdateringer til Project Operations
 
@@ -47,24 +47,24 @@ Opdateringer til Project Operations på Dataverse-miljø er tilgængelige hver m
 | Station | Land/område | Aktuelt versionsnummer | Automatiske opdateringer til Lite-udrulning | Automatiske opdateringer til ressource-/ikke-lagerbaseret udrulning | Næste versionsnummer | Næste version er almindeligt tilgængelig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Første frigivelse         |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD                 | 09. september 2022      |
+|   &nbsp;  | Første frigivelse         |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD                 | 07. oktober 2022      |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sydamerika         |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Canada                |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Indien                 |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Frankrig                |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Sydafrika          |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Schweiz           |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD                 | 09. september 2022       |
+|   &nbsp;  | Sydamerika         |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD                 | 14. oktober 2022       |
+|   &nbsp;  | Canada                |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD                 | 14. oktober 2022       |
+|   &nbsp;  | Indien                 |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD                 | 14. oktober 2022       |
+|   &nbsp;  | Frankrig                |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD                 | 14. oktober 2022       |
+|   &nbsp;  | Sydafrika          |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD                 | 14. oktober 2022       |
+|   &nbsp;  | Schweiz           |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD                 | 14. oktober 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.45.0.53      | Afsluttet      | Afsluttet       | TBD                 | 09. september 2022       |
-|   &nbsp;  | Asien og Stillehavsområdet          |  4.45.0.53      | Afsluttet      | Afsluttet       | TBD                 | 09. september 2022       |
-|   &nbsp;  | Storbritannien         |  4.45.0.53      | Afsluttet      | Afsluttet       | TBD                 | 09. september 2022       |
-|   &nbsp;  | Oceanien               |  4.45.0.53      | Afsluttet      | Afsluttet       | TBD                 | 09. september 2022       |
-|   &nbsp;  | De Forenede Arabiske Emirater  |  4.45.0.53      | Afsluttet      | Afsluttet       | TBD                 | 09. september 2022       |
+|   &nbsp;  | Japan                 |  4.46.0.60      | Afsluttet      | Afsluttet       | TBD                 | 21. oktober 2022       |
+|   &nbsp;  | Asien og Stillehavsområdet          |  4.46.0.60      | Afsluttet      | Afsluttet       | TBD                 | 21. oktober 2022       |
+|   &nbsp;  | Storbritannien         |  4.46.0.60      | Afsluttet      | Afsluttet       | TBD                 | 21. oktober 2022       |
+|   &nbsp;  | Oceanien               |  4.46.0.60      | Afsluttet      | Afsluttet       | TBD                 | 21. oktober 2022       |
+|   &nbsp;  | De Forenede Arabiske Emirater  |  4.46.0.60      | Afsluttet      | Afsluttet       | TBD                 | 21. oktober 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD           | 16. september 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD           | 28. oktober 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.45.0.53      | Afsluttet           | Afsluttet            | TBD           | 16. september 2022       |
+|   &nbsp;  | Nordamerika         |  4.46.0.60      | Afsluttet           | Afsluttet            | TBD           | 04. november 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Frigivelsesplan for Projektstyring og regnskab i miljøet for programmer til finans og drift
 
