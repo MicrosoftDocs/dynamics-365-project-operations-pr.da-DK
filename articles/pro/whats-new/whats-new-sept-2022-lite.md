@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621225"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634845"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Nyheder i september 2022 – Project Operations lille udrulning
 
@@ -30,6 +30,7 @@ Denne artikel gælder for følgende komponenter og versioner af Microsoft Dynami
 | Fakturering og prisfastsættelse | **Standardpris for tidszoneagnostik**<br>Project Operations har introduceret begrebet "tidszoneagnostik" på alle faktiske projektdatoer. Et nyt felt, **Transaktionsdato**, er nu tilgængeligt på kladdelinjer og faktiske poster og bruges til at gemme den dato, hvor transaktionen fandt sted, men uden at konvertere denne dato til Coordinated Universal Time. Denne dato bruges til downstreamprocesser, f.eks. standardpriser og oprettelse af fakturaer. | <p>[Fastsætte omkostningssatser for projektbaserede estimater og faktiske værdier](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Fastsætte salgspriser for projektbaserede estimater og faktiske værdier](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Fakturering og prisfastsættelse | **Gældende pristilsidesættelser for dato i Project Operations**<br>Gældende pristilsidesættelser for dato giver mulighed for at tilsidesætte eller ændre bestemte priser på prislisten. | [Gældende pristilsidesættelser for dato](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Tid og udgift | **Global godkender**<br>Denne funktion aktiverer uafhængig softwareleverandør og central godkendelse, uanset projekt- eller teammedlemmets status i projektet. | [Sikkerhed og godkendelser](/dynamics365/project-operations/approvals/approvals-security) |
+|Projektplanlægning og -sporing|**Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter** </br> </br>API'en til konturredigering af ressourcetildelinger gør det muligt for udviklere at angive en opgavetildelingsindsats via programmering på tværs af alle understøttede datointervaller for planlægning af en mere detaljeret tidsfasedelt indsats.|[Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Kvalitetsopdateringer
 

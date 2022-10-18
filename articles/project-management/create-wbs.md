@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932059"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655181"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opret et arbejdsopgavehierarki (WBS)
 
@@ -63,7 +63,7 @@ For at tilføje en indrykket opgave eller forfremme en opgave skal du fuldføre 
 
 ### <a name="move-tasks-up-and-down"></a>Flyt opgaver op og ned
 
-Opgaver kan flyttes til et hvilket som helst niveau i arbejdsopgavehierarki på to måder:
+Opgaver kan flyttes til et hvilket som helst niveau i arbejdsopgavehierarkiet på to måder:
 
 - Markér endnu en opgave, og træk den til den ønskede placering.
 - Markér en eller flere opgaver, højreklik, og vælg **Klip**, vælg destinationscelle i planen, og højreklik derefter, og vælg **Sæt ind**.
@@ -113,7 +113,19 @@ Du kan bruge planlægningen i Project Operations til at oprette foregående rela
 
 Opgavetilstanden påvirker ikke de opdateringer, der er foretaget af start- og slutdatoerne for foregående/afhængige opgaver.
 
-## <a name="accessibility-and-keyboard-shortcuts"></a>Hjælp til handicappede og tastaturgenveje
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Om varighedens, ressourcekalendernes og projektkalendernes indflydelse på opgaver
+En opgaves varighed defineres som antallet af arbejdstimer mellem starttidspunktet på startdatoen og sluttidspunktet på opgavens slutdato.   I Project for the Web defineres varigheden af måleenhederne på følgende måde:
+
+| **Måling af varighed** | **Antal**|
+|----------------------------------------------------|----------------------|
+| Timer pr. dag | 8 |
+| Timer pr. uge |  40 |
+| Dage pr. måned |  20 |
+
+Ikke-tildelte opgaver planlægges ved hjælp af projektets kalender. Efter den første ressourcetildeling opdateres planlægningen af en opgave dog, så den overholder ressourcens kalender. Efterfølgende ændringer af en opgave, der har en tildeling, styres af [planlægningstilstanden](scheduling-modes.md) i projektet. Hvis du vil vide mere om kalenderes indflydelse på opgaver, kan du se [Ressourcekalendere i Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) og [Starttider for opgaver og dine projekter!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
+
+## <a name="accessibility-and-keyboard-shortcuts"></a>Tilgængelighed og tastaturgenveje
 
 Gitteret **Planlægning** er fuldt tilgængeligt og kan bruges sammen med skærmlæsere, f.eks. Oplæser, JAWS eller NVDA. Du kan flytte gennem gitterområdet ved hjælp af piletasterne (som i Microsoft Excel), du kan bruge tabulatortasten til at gennemblade de interaktive brugergrænsefladeelementer, og du kan bruge pil ned-tasten, tasten ENTER eller mellemrumstasten til at åbne og aktivere rullemenuerne.
 

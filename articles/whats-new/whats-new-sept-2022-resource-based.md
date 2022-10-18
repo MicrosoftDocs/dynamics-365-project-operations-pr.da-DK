@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621220"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634798"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheder september 2022 - Project Operations for ressource-/ikke-lagerbaserede scenarier
 
@@ -35,6 +35,7 @@ Denne artikel gælder for følgende komponenter og versioner af Microsoft Dynami
 | Udgiftsstyring | **Mulighed for at bogføre udgifter i leverandørvaluta**<br>Denne funktion gør det muligt at bogføre udgiftsrapporter i leverandørens valuta for kontantbetalingsmetoden. | [Mulighed for at bogføre udgifter i leverandørvaluta](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Projektindkøb | **Betal ved betaling for betalinger til leverandører**<br>Ved hjælp af denne funktion kan funktionen Betal ved betaling (PWP) bruges sammen med ikke-lagerbaserede Project Operations-miljøer. Det gør det muligt at blokere/bevare kreditorbetalinger på basis af vilkår for tilbageholdelse, indtil betaling modtages fra kunden. | [Betal ved betaling for betalinger til leverandører](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Projektindkøb | **Indkøbsrekvisitioner for projekt**<br>Denne funktion giver brugere mulighed for at oprette projektrelaterede købsordrer i juridiske enheder, hvor integration af Project Operations i Dynamics 365 Customer Engagement er aktiveret. Projektindkøbsordrer kan bruges til at registrere indkøb af ikke-lagermateriale i forhold til projektet af indkøbsafdelingen. Projektindkøbsordrer synkroniseres ikke med Dataverse. Men du kan bruge et virtuelt objekt til at få vist projektindkøbsordrelinjer i Dataverse for at få oplysninger om projektlederen. Projektrelaterede omkostninger til leverandørfakturaer er integreret i objektet Projektets faktiske værdier i Dataverse. Projektomkostninger registreres i projektets hovedbog ved hjælp af integrationskladden til Project Operations. | |
+|Projektplanlægning og -sporing|**Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter** </br> </br>API'en til konturredigering af ressourcetildelinger gør det muligt for udviklere at angive en opgavetildelingsindsats via programmering på tværs af alle understøttede datointervaller for planlægning af en mere detaljeret tidsfasedelt indsats.|[Brug projektplanlægnings-API'er til at udføre handlinger med planlægningsobjekter](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Opdateringer af Project Operations med dobbeltskrivning-tilknytninger
 
