@@ -3,7 +3,7 @@ title: Opgradering fra Project Service Automation til Project Operations
 description: Denne artikel indeholder en oversigt over processen for opgradering fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,24 +16,24 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446028"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686968"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Opgradering fra Project Service Automation til Project Operations
 
-Det glæder os at kunne annoncere den første af tre faser i opgraderingen fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations. Denne artikel giver et overblik over de kunder, der indleder denne spændende rejse. Fremtidige artikler vil omfatte overvejelser fra udviklere og oplysninger om funktionsforbedringer. De hjælper dig ikke kun med at forberede dig til opgraderingen til Project Operations, men de forklarer også, hvad du kan forvente, når du har opgraderet.
+Det glæder os at kunne annoncere den anden af tre faser i opgraderingen fra Microsoft Dynamics 365 Project Service Automation til Microsoft Dynamics 365 Project Operations. Denne artikel giver et overblik over de kunder, der indleder denne spændende rejse. 
 
 Leveringsprogrammet til opgraderingen opdeles i tre faser.
 
 | Levering af opgradering | Fase 1 (januar 2022) | Fase 2 (november 2022) | Fase 3 (april-bølge 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Ingen afhængighed af arbejdsopgavehierarkiets (WBS) for projekter | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
-| WBS inden for de grænser for Project Operations, der understøttes i øjeblikket | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
-| WBS uden for de grænser for Project Operations, der understøttes i øjeblikket, herunder understøttelse af Project Desktop Client | | | :heavy_kontrol_mærke: |
+| En WBS inden for de grænser for Project Operations, der understøttes i øjeblikket | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
+| En WBS uden for de grænser for Project Operations, der understøttes i øjeblikket, herunder understøttelse af Project Desktop Client | | | :heavy_kontrol_mærke: |
 
 ## <a name="upgrade-process-features"></a>Opgradering af procesfunktioner 
 
@@ -46,7 +46,7 @@ Som en del af opgraderingsprocessen har vi tilføjet opgraderingslogfiler til ov
 | WBS valideres i forhold til de kendte grænser for Project Desktop Client. | |  | :heavy_kontrol_mærke: |
 | Ressourcer og projektkalendere, der kan reserveres, evalueres i forhold til almindelige undtagelser fra inkompatibel kalenderregel. | | :heavy_kontrol_mærke: | :heavy_kontrol_mærke: |
 
-I fase 2 får kunder, der opgraderer til Project Operations, opgraderet deres eksisterende projekter til en skrivebeskyttet oplevelse i forbindelse med projektplanlægning. I denne skrivebeskyttede oplevelse er den fulde WBS synlig i sporingsgitteret. Hvis du vil redigere WBS'en, kan projektledere vælge **Konverter** på hovedsiden for **Projekter**. En baggrundsproces opdaterer derefter projektet, så det understøtter den nye projektplanlægningsoplevelse fra Project for the Web. Denne fase er hensigtsmæssig for kunder, der har projekter, som falder ind under [de kendte grænser for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+I fase 2 får kunder, der opgraderer til Project Operations, opgraderet deres eksisterende projekter til en skrivebeskyttet oplevelse i forbindelse med projektplanlægning. I denne skrivebeskyttede oplevelse er den fulde WBS synlig i sporingsgitteret. Hvis du vil redigere WBS'en, kan projektledere vælge [**Konverter**](/PSA-Upgrade-Project-Conversion.md) på hovedsiden for Projekter. En baggrundsproces opdaterer derefter projektet, så det understøtter den nye projektplanlægningsoplevelse fra Project for the Web. Denne fase er hensigtsmæssig for kunder, der har projekter, som falder ind under [de kendte grænser for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 I fase 3 tilføjes understøttelse af Project Desktop Client til stationære computere til fordel for kunder, der fortsat vil redigere deres projekter fra programmet. Men hvis eksisterende projekter konverteres til det nye Project for the Web-oplevelsen, deaktiveres adgangen til tilføjelsesprogrammet for hvert konverteret projekt.
 
@@ -55,15 +55,22 @@ I fase 3 tilføjes understøttelse af Project Desktop Client til stationære com
 En kunde skal opfylde følgende kriterier for at være berettiget til fase 1-opgraderingen:
 
 - Destinationsmiljøet må ikke indeholde poster i objektet **msdyn_projecttask**.
-- Gyldige Project Operations-licenser skal tildeles til alle kundens aktive brugere. 
-- Kunden skal validere opgraderingsprocessen i mindst ét ikke-produktionsmiljø, som har et repræsentativt datasæt, der stemmer overens med produktionsdata.
-- Destinationsmiljøet skal opdateres til Project Service Automation opdateringsudgivelse 41(3.10.62.162) eller nyere.
+- Gyldige Project Operations-licenser skal tildeles til alle aktive brugere. 
+- Du skal validere opgraderingsprocessen i mindst ét ikke-produktionsmiljø, som indeholder et repræsentativt datasæt, der stemmer overens med produktionsdata.
+- Destinationsmiljøet skal opdateres til Project Service Automation opdateringsudgivelse 37 (V3.10.58.120) eller nyere.
 
-Forudsætningerne for fase 2 og fase 3 opdateres efterhånden, som datoen for generel tilgængelighed nærmer sig.
+En kunde skal opfylde følgende kriterier for at være berettiget til fase 2-opgraderingen:
+
+- Gyldige Project Operations-licenser skal tildeles til alle aktive brugere. 
+- Du skal validere opgraderingsprocessen i mindst ét ikke-produktionsmiljø, som indeholder et repræsentativt datasæt, der stemmer overens med produktionsdata.
+- Destinationsmiljøet skal opdateres til Project Service Automation opdateringsudgivelse 37 (V3.10.58.120) eller nyere.
+- Miljøer, der indeholder opgaver (msdyn_projecttask), understøttes kun, hvis det samlede antal opgaver pr. projekt er 500 eller mindre.
+
+Forudsætningerne for fase 3 opdateres efterhånden, som datoen for generel tilgængelighed nærmer sig.
 
 ## <a name="licensing"></a>Licensering
 
-Hvis du har aktive licenser til Project Service Automation, kan du installere og bruge Project Operations, som omfatter alle funktionerne i Project Service Automation og meget mere. På denne måde kan du teste funktionerne i Project Operations, mens du fortsætter med at bruge Project Service Automation i produktionen. Når dine licenser til Project Service Automation udløber, skal du overgå til Project Operations. Når du planlægger overgangen, skal du tage højde for, at licensen til Project Operations ikke inkluderer en licens til Project Service Automation.
+Hvis du har aktive licenser til Project Service Automation, kan du installere og bruge Project Operations, som omfatter alle funktionerne i Project Service Automation og meget mere. Du kan teste funktionerne i Project Operations i et separat miljø, mens du fortsætter med at bruge Project Service Automation i produktionen. Når dine licenser til Project Service Automation udløber, skal du overgå til Project Operations. Når du planlægger overgangen, skal du tage højde for, at licensen til Project Operations ikke inkluderer en licens til Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Test og refaktorering af tilpasninger
 
@@ -87,14 +94,23 @@ Når du har opdateret tilpasningerne for at importere Project Operations rent, s
 
     Når opgraderingen er fuldført, bør miljøet vise, at Project Operations er installeret, og at Project Service Automation ikke er installeret.
 
-    > [!NOTE]
-    > Opgraderingen kan tage flere timer, afhængigt af mængden af data i miljøet. Det kerneteam, der administrerer opgraderingen, skal planlægge og køre opgraderingen uden for arbejdstiden. I visse tilfælde, hvis datamængden er stor, skal opgraderingen køres i løbet af weekenderne. Beslutningen om planlægning skal være baseret på testresultaterne i lavere miljøer.
+    Opgraderingen kan tage flere timer, afhængigt af mængden af data i miljøet. Det kerneteam, der administrerer opgraderingen, skal planlægge og køre opgraderingen uden for arbejdstiden. I visse tilfælde, hvis datamængden er stor, skal opgraderingen køres i løbet af weekenderne. Beslutningen om planlægning skal være baseret på testresultaterne i lavere miljøer.
 
 3. Opgrader brugerdefinerede løsninger efter behov. Du skal nu udrulle eventuelle ændringer, som du har foretaget af tilpasningerne i afsnittet [Test og refaktorering af tilpasninger](#testing-and-refactoring-customizations) i denne artikel.
 4. Gå til **Indstillinger** \> **Løsninger**, og vælg at afinstallere løsningen **Udfasede komponenter til Project Operations**.
 
     Denne løsning er en midlertidig løsning, som indeholder den eksisterende datamodel og komponenter, der findes under opgraderingen. Ved at fjerne denne løsning fjerner du alle de felter og komponenter, der ikke længere bruges. På denne måde kan du forenkle brugergrænsefladen og gøre integration og udvidelse nemmere.
     
+### <a name="upgrade-to-project-operations-lite"></a>Opgrader til Project Operations Lite
+
+I følgende trin beskrives opgraderingsprocessen og den tilknyttede fejllogføring:
+
+1. **Kontrol af PSA-version:** Hvis du vil installere Project Operations, skal du have V3.10.58.120 eller nyere.
+1. **Forudvalidering:** Når en administrator starter en opgradering, kører systemet en forudvalideringshandling for hvert enkelt objekt, der er kerne i project operations-løsningen. I dette trin kontrolleres, at alle objekters referencer er gyldige, og det sikrer, at data, der er relateret til WBS, er inden for de publicerede grænser for Project for the Web.
+1. **Opgradering af metadata:** Efter en vellykket forudvalidering starter systemet ændringer af skemaet og opretter en frabedt komponentløsning. Du kan fjerne denne frabedte løsning, når du har fuldført alle nødvendige tilpasninger igen. Dette trin er en del af opgraderingsprocessen, som kan tage op til fire timer.
+1. **Dataopgradering:** Når alle påkrævede skemaændringer er fuldført i opgraderingstrinnet til metadata, overføres dataene til det nye skema, og eventuel påkrævet standardindstilling og genberegning foretages.
+1. **Opdatering af projektplanprogrammet:** Efter en vellykket dataopgradering er fanen **Planlæg** på hovedsiden navnmærket **Opgaver**. Når en bruger vælger denne fane efter opgraderingen, dirigeres brugeren til at navigere til sporingsgitteret for at få vist en skrivebeskyttet version af WBS. Hvis de vil redigere WBS, skal de starte [konverteringsprocessen for planen](/PSA-Upgrade-Project-Conversion.md). Alle projekter uden en eksisterende WBS kan bruge den nye planlægningsoplevelse direkte uden konvertering.
+ 
 ### <a name="validate-common-scenarios"></a>Valider almindelige scenarier
 
 Når du validerer specifikke tilpasninger, anbefales det, at du også gennemgår de forretningsprocesser, der understøttes på tværs af programmerne. Disse forretningsprocesser omfatter, men er ikke begrænset til, oprettelse af salgsobjekter, f.eks. tilbud og kontrakter, og oprettelse af projekter, der omfatter WBS'er og godkendelse af faktiske værdier.
@@ -107,7 +123,7 @@ Dette afsnit indeholder en oversigt over de store forskelle, som du kan forvente
 
 Projektplanlægningsfunktionerne i Project Operations er ikke længere afhængig af en kombinationslogik på klientsiden og en serverlogik. Project Operations bruger i stedet Project for the Web som planlægningsprogram. Denne ændring i planlægningsfunktionerne gør det muligt at få adskillige nye funktioner, f.eks. visninger af bestyrelse og Gantt, ressourcebaseret planlægning, [kontrollistepunkter for opgaver](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) og projektplanlægningstilstande. De nye planlægningsfunktioner understøttes også af et omfattende sæt nye [programmeringsgrænseflader (API'er)](../project-management/schedule-api-preview.md). Disse API'er med til at sikre, at ingen programmeringshandling til oprettelse, opdatering eller sletning af et objekt i WBS beskadiger de beregnede felter i tidsplanen.
 
-## <a name="billing-and-pricing"></a>Fakturering og prisfastsættelse
+### <a name="billing-and-pricing"></a>Fakturering og prisfastsættelse
 
 Som en del af det fortsatte arbejde med Project Operations findes der flere nye funktioner inden for fakturering og fastsættelse. Her er nogle eksempler:
 
@@ -116,6 +132,10 @@ Som en del af det fortsatte arbejde med Project Operations findes der flere nye 
 - [Forskudskontrakter og kontrakter baseret på forskudshonorar](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Kontraktstatus, som ikke må overskrides, og valideringer](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Opgavebaseret fakturering
+
+### <a name="resource-management"></a>Ressourcestyring
+
+Project Operations yder valgfri support til Universal Resource Scheduling (URS)-tavlen og planlægningsassistenten. Denne nye oplevelse bliver obligatorisk i april 2023-runden.
 
 ## <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 
@@ -136,5 +156,4 @@ Der findes to muligheder for at installere Project Operations, før opgraderings
 - Klargør et nyt miljø.
 - Udrul Project Operations separat i alle salgsorganisationer, hvor Project Service Automation ikke findes.
 
-> [!NOTE]
-> Hvis Project Service Automation installeres i en organisation, men ikke bruges, kan programmet afinstalleres. Når du har fjernet Project Service Automation fuldstændigt, kan Project Operations installeres på den samme organisation.
+Hvis Project Service Automation installeres i en organisation, men ikke bruges, kan programmet afinstalleres. Når du har fjernet Project Service Automation fuldstændigt, kan Project Operations installeres på den samme organisation.
