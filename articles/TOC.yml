@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Hvordan kan jeg tilpasse forretningsprocesforløbet Projektfaser?
               href: psa/FAQ-customize-bpf.md
-            - name: Overvejelser i forbindelse opgraderinger i relation til arbejdsopgavehierarkiet
-              href: psa/upgrade-considerations-tasks.md
         - name: Hvidbøger
           href: psa/white-papers.md
         - name: Administratorvejledning
