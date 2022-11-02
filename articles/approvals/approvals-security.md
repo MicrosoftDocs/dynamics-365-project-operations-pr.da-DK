@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525356"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709390"
 ---
 # <a name="security-and-approvals"></a>Sikkerhed og godkendelser
 
@@ -33,6 +33,6 @@ Hvis du vil godkende poster, der ikke er projektposter, skal du være afsenderen
 > [!NOTE]
 > Funktionen [Godkendelsessæt](approval-sets.md) skal aktiveres, før du kan bruge funktionen Projektgodkenderadministrator.
 
-Sikkerhedsrollen **Projektgodkenderadministrator** giver brugere mulighed for at tilsidesætte politikker, så de kan godkende poster på tværs af alle projekter. Tildeling af denne rolle tilsidesætter den valideringslogik, der kræver teammedlemskab, og som er markeret som godkender. Du skal have adgang til de relevante tilknyttede objekter, f.eks. **Projekt**. Denne adgang kan tildeles af en person, der har rollen **Projektleder**.
+Sikkerhedsrollen **Projektgodkenderadministrator** giver brugere mulighed for at tilsidesætte politikker, så de kan godkende poster på tværs af alle projekter. Tildeling af denne rolle tilsidesætter den valideringslogik, der kræver teammedlemskab, og som er markeret som godkender. Du skal have adgang til de relevante relaterede tabeller, f.eks. **Projekt**, via de sikkerhedsroller, der er tildelt til dig.
 
 SYSTEM-brugerkonteksten tilsidesætter validering på samme måde som sikkerhedsrollen Projektgodkenderadministrator.
