@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Planlægningstilstande
           href: project-management/scheduling-modes.md
+        - name: Ekstern planlægning
+          href: project-management/external-scheduling.md
         - name: Opdater et projekt
           href: project-management/update-project.md
         - name: Kopiér et projekt
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Planlægningstilstande
           hreF: project-management/scheduling-modes.md
+        - name: Ekstern planlægning
+          href: project-management/external-scheduling.md
         - name: Opdater et projekt
           href: project-management/update-project.md
         - name: Kopiér et projekt
