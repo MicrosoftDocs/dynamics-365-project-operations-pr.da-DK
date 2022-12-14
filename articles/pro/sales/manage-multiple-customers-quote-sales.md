@@ -1,19 +1,19 @@
 ---
-title: Administrer flere kunder i projekttilbud - lille
+title: Administrer flere kunder i projekttilbud
 description: Denne artikel indeholder oplysninger om, hvordan du arbejder på tilbud med flere kunder, som skal finansiere projektet. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 337619e8d8081cdebd73f9336fa9fa99885a0ab2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8c42b51c48b7327247eb604d1bbc4f15a2bf6998
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921065"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824257"
 ---
-# <a name="manage-multiple-customers-on-project-quotes---lite"></a>Administrer flere kunder i projekttilbud - lille
+# <a name="manage-multiple-customers-on-project-quotes"></a>Administrer flere kunder i projekttilbud
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 

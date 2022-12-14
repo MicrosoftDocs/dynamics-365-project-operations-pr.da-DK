@@ -1,23 +1,23 @@
 ---
-title: Tilknyt projekter og opgaver til en projektbaseret kontraktlinje - lille
+title: Tilknyt projekter og opgaver til en projektkontraktlinje
 description: Denne artikel indeholder oplysninger om, hvordan du tilføjer og fjerner projekter og opgaver på en kontraktlinje.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932519"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825051"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Tilknyt projekter og opgaver til en projektbaseret kontraktlinje 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Tilknyt projekter og opgaver til en projektkontraktlinje 
 
 _**Gælder for:** Lille udrulning - aftale om proformafakturering, Project Operations for ressource/ikke-lagerbaserede scenarier_
 
-På projektbaserede kontraktlinjer kan du knytte bestemte opgaver i et projekt til kontraktlinjen.
+På projektkontraktlinjer kan du knytte bestemte opgaver i et projekt til kontraktlinjen.
 
 Når du knytter bestemte opgaver til en kontraktlinje, gælder faktureringsmetoden, faktureringsmuligheder, grænser, der ikke må overskrides, og de kunder, der er defineret på kontraktlinjen, kun for bestemte opgaver.
 
@@ -25,7 +25,7 @@ Hvis du har et scenario, hvor en fase i et projekt, f.eks. prototypefasen, er fa
 
 Alle andre faser i dit projekts arbejdsopgavehierarki (WBS) kan knyttes til tids- og materialebaserede kontraktlinjer.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Knyt opgaver til projektbaserede kontraktlinjer
+## <a name="associate-tasks-to-project-contract-lines"></a>Knyt opgaver til projektkontraktlinjer
 
 Opgaver kan knyttes til kontraktlinjer under fanen **Fakturerbare opgaver** på siden **Kontraktlinjer** eller fra fanen **Opgavefakturering** på siden **Projekt**.
 

@@ -1,23 +1,23 @@
 ---
-title: Administrer flere kunder i et projekttilbud
+title: Administrere flere kunder i et projektbaseret tilbud
 description: Denne artikel indeholder oplysninger om, hvordan du arbejder på tilbud, der omfatter flere kunder, som skal finansiere projektet.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928195"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825141"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Administrer flere kunder i et projekttilbud
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Administrere flere kunder i et projektbaseret tilbud
 
-_**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
+_**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
-Projekttilbud understøtter det scenario, hvor forslaget omfatter flere kunder, som skal finansiere handlen. Fanen **Oversigt** for tilbuddet indeholder feltet **Potentiel kunde**, som identificerer den primære kunde for handlen. Du kan oprette andre kunder i forbindelse med handlen under fanen **Kunder** i projekttilbuddet.
+Projektbaserede tilbud understøtter det scenarie, hvor forslaget omfatter flere kunder, som skal finansiere handlen. Fanen **Oversigt** for tilbuddet indeholder feltet **Potentiel kunde**, som identificerer den primære kunde for handlen. Du kan oprette andre kunder i forbindelse med handlen under fanen **Kunder** i projekttilbuddet.
 
 Alle tilbudskunder på fanen **Kunder** i projekttilbuddet er som standard tilbudslinjekunder på alle **nye** projektbaserede tilbudslinjer, der er oprettet for tilbuddet. Eventuelle eksisterende projektbaserede tilbudslinjer arver ikke nye tilbudskundeposter, der er oprettet efter dem.
 

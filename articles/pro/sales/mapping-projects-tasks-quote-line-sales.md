@@ -1,23 +1,23 @@
 ---
-title: Tilknyt projekter og opgaver til en projektbaseret tilbudslinje
-description: Denne artikel indeholder oplysninger om, hvordan du knytter projekter og opgaver til en projektbaseret opgavelinje.
+title: Tilknytte projekter og opgaver til projekttilbudslinjer
+description: Denne artikel indeholder oplysninger om, hvordan du knytter projekter og opgaver til projekttilbudslinjer.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917155"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824254"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Tilknyt projekter og opgaver til en projektbaseret tilbudslinje
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Tilknytte projekter og opgaver til projekttilbudslinjer
 
 _**Gælder for:** Project Operations for scenarier baseret på ressource/ikke-lager, lille udrulning - aftale til håndtering af proformafakturering_
 
-På projektbaserede tilbudslinjer kan du tilknytte de specifikke opgaver for et projekt, der allerede er knyttet til en tilbudslinje.
+På projekttilbudslinjer kan du tilknytte de specifikke opgaver for et projekt, der allerede er knyttet til en tilbudslinje.
 
 Når du knytter opgaver til en tilbudslinje, finder følgende elementer, du har defineret på tilbudslinjen, kun anvendelse for de pågældende opgaver:
 

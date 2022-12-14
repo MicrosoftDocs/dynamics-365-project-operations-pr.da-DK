@@ -1,21 +1,21 @@
 ---
-title: Estimering af en projektbaseret tilbudslinje
-description: Denne artikel indeholder oplysninger om, hvordan du opretter et estimat på projektbaseret tilbudslinje.
+title: Estimér en projekttilbudslinje
+description: Denne artikel indeholder oplysninger om, hvordan du opretter et estimat på projekttilbudslinje.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914349"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825980"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimering af en projektbaseret tilbudslinje
+# <a name="estimate-a-project-quote-line"></a>Estimér en projekttilbudslinje
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Lille udrulning - aftale om proformafakturering, Project Operations for ressource/ikke-lagerbaserede scenarier_
 
 En projektbaseret tilbudslinje indeholder oplysninger, der kan hjælpe dig med at vurdere omkostningerne og den potentielle omsætning for det arbejde, der er involveret i at levere tilbudslinjen.
 
@@ -24,7 +24,7 @@ Hvis du vil estimere en projektbaseret tilbudslinje på den projektbaserede tilb
 - Manuel oprettelse af estimatet direkte på tilbudslinjen ved hjælp af oplysninger om tilbudslinje. 
 - Oprettelse af et projekt og en projektplan og efterfølgende tilknytning af projektet og opgaverne i projektet til tilbudslinjen. Den proces, der skal bruges til at importere estimaterne på projektplanen til tilbudslinjen på baggrund af de oplysninger, som du har angivet, aktiveres.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Opret estimater direkte på en projektbaseret tilbudslinje
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Opret estimater direkte på en projekttilbudslinje
 
 Hvis du vil oprette et estimat på en projektbaseret tilbudslinje, skal du vælge fanen **Tilbudslinjedetaljer**. Det linjeelement, du opretter under denne fane, opsummerer den citerede værdi for tilbudslinjen. 
 
@@ -68,8 +68,7 @@ Valuta i tilbudslinjedetaljer for omkostninger er som standard hentet fra den pr
 
 Rentabilitetsberegninger konverterer beløb i tilbudslinjedetaljer for omkostninger og salg til grundvalutaen for omkostninger og salg for miljøet for at rapportere den samlede anslåede margen for tilbuddet.
 
-> [!BEMÆRK
-> > Fejl i valutaafrunding og ændrede margener kan opstå på grund af manglende angivelse af ikrafttrædelsesdatoen for en valutakurs. Du kan kun bruge disse beregninger på projektkontrakter, da disse er estimater og ikke er et egentligt krav for indberetninger eller andre indberetninger, der kræver en højere afrundingspræcision og større indsigt i valutakurser.
+> [!BEMÆRK! Fejl i valutaafrunding og ændrede margener kan opstå på grund af manglende angivelse af ikrafttrædelsesdatoen for en valutakurs. Du kan kun bruge disse beregninger på projektkontrakter, da disse er estimater og ikke er et egentligt krav for indberetninger eller andre indberetninger, der kræver en højere afrundingspræcision og større indsigt i valutakurser.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

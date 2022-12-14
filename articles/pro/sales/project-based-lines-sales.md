@@ -1,29 +1,29 @@
 ---
-title: Projektbaserede salgsmulighedslinjer - lille
+title: Projektsalgsmulighedslinjer
 description: Denne artikel indeholder oplysninger om projektbaserede salgsmulighedslinjer. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914257"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824948"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Projektbaserede salgsmulighedslinjer - lille
+# <a name="project-opportunity-lines"></a>Projektsalgsmulighedslinjer 
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
-Projektbaserede salgsmulighedslinjer er kun tilgængelige i projektbaserede salgsmuligheder. Projektbaserede salgsmulighedsposter har feltværdien **Type** angivet til **Arbejdsbaseret**.
+Projektsalgsmulighedslinjer er kun tilgængelige i projektbaserede salgsmuligheder. Projektbaserede salgsmulighedsposter har feltværdien **Type** angivet til **Arbejdsbaseret**.
 
-Projektbaserede salgsmulighedslinjer er de linjeelementer, der skal leveres til kunden ved hjælp af et projekt. Et projekt kan dog ikke bindes til en projektbaseret salgsmulighedslinje. Projekter kan knyttes til linjeelementer fra fasen **Tilbud** og fremefter, da salgsmuligheden typisk er i et tidligt stadium i en handels livscyklus. Beslutningen om, hvor mange projekter der skal bruges til at levere arbejdet til kunden, er en beslutning, der senere træffes i salgsfasen. Du kan bruge salgsmulighedsfasen til at identificere de diskrete leveringskomponenter for kunden. De beslutninger, der omgiver det faktiske antal projekter, der bruges til at levere disse komponenter, kan udskydes, indtil der er flere oplysninger tilgængelige om selve arbejdet.
+Projektsalgsmulighedslinjer er de linjeelementer, der skal leveres til kunden ved hjælp af et projekt. Et projekt kan dog ikke bindes til en projektbaseret salgsmulighedslinje. Projekter kan knyttes til linjeelementer fra fasen **Tilbud** og fremefter, da salgsmuligheden typisk er i et tidligt stadium i en handels livscyklus. Beslutningen om, hvor mange projekter der skal bruges til at levere arbejdet til kunden, er en beslutning, der senere træffes i salgsfasen. Du kan bruge salgsmulighedsfasen til at identificere de diskrete leveringskomponenter for kunden. De beslutninger, der omgiver det faktiske antal projekter, der bruges til at levere disse komponenter, kan udskydes, indtil der er flere oplysninger tilgængelige om selve arbejdet.
 
-Nedenfor vises felterne på en projektbaseret salgsmulighedslinje:
+Nedenfor vises felterne på en projektsalgsmulighedslinje:
 
-| **Felt** | **Placering** | **Beskrivelse** | **Downstream-virkning** |
+| **Felt** | **Location** | **Beskrivelse** | **Downstream-virkning** |
 | --- | --- | --- | --- |
 | Produkttype | Fanen Generelt (skjult) | Du kan vælge en af følgende indstillinger under:</br>- Projektbaseret tjeneste (kun tilgængelig, når Dynamics 365 Project Operations er installeret)</br>- Produkt (kun tilgængelig, når Project Operations og Dynamics 365 Sales er installeret) | Værdien i dette felt er angivet til **Projektbaseret service**, når du opretter en projektbaserede salgsmulighedslinje fra gitteret for projektbaserede linjer i salgsmuligheden. <br> Hvis du ændrer eller tilsidesætter denne værdi, aktiveres projektfunktionen ikke i dine projektbaserede linjeelementer. |
 | Salgsmulighed | Fanen Generelt | Dette felt er skrivebeskyttet og refererer til de overordnede salgsmulighedsposter, som linjeelementet tilhører. | Dette felt har ingen downstream-virkning. |

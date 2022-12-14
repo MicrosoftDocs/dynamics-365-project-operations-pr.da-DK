@@ -1,31 +1,29 @@
 ---
-title: Administrer kundeemner
+title: Administrere projektbaserede kundeemner
 description: Denne artikel indeholder oplysninger om at administrere projektbaserede kundeemner.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920191"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825792"
 ---
-# <a name="manage-leads"></a>Administrer kundeemner
+# <a name="manage-project-based-leads"></a>Administrere projektbaserede kundeemner
 
 _**Finder anvendelse for:** Project Operations for ressource-/ikke-lagerbaserede scenarier_
 
 Projektbaserede kundeemner kan administreres og kvalificeres i Project Operations. Processen med kundeemnestyring omfatter oprettelse af arbejdsbaserede kundeemner og kvalificering af kundeemnerne. 
 
-## <a name="project-sales-leads"></a>Projektbaserede kundeemner
-
 I sektionen **Salg** i venstre navigationsrude skal du åbne listesiden **Kundeemner** for at få vist en liste over alle kundeemneposter i systemet. Listen over de viste kundeemner er arbejdsbaserede og andre typer af kundeemner, der kan oprettes, hvis du også har programmerne Dynamics 365 Sales eller Dynamics 365 Field Service.
 
 Du kan oprette en filtreret visning, hvis du kun vil se projektbaserede kundeemner, når du opretter et filter for værdien **Type**. Du kan f.eks. vælge kun at få vist arbejdsbaserede kundeemner.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Opret et nyt kundeemne for en projektbaseret handel
+## <a name="create-a-new-project-based-lead"></a>Opret et nyt projektbaseret kundeemne 
 
 Når der kvalificeres et projektbaseret kundeemne, oprettes der en salgsmulighed og et firma. En projektbaseret salgsmulighed er udgangspunktet for forfølgelsen af salgsaktiviteter i salgsmulighedsfasen. Projektbaserede salgsmuligheder har særlige egenskaber, der er nødvendige for at sælge projektarbejde. Disse funktioner omfatter:
 

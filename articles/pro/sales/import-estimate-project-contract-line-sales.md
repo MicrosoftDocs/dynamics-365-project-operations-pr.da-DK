@@ -1,21 +1,21 @@
 ---
-title: Importer et estimat til en projektbaseret kontraktlinje - lille
+title: Importer estimater fra et projekt til en projektkontraktlinje
 description: Denne artikel indeholder oplysninger om import af finansielle estimater fra et projekt til en kontraktlinje.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924193"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824667"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importer et estimat til en projektbaseret kontraktlinje - lille
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Importer estimater fra et projekt til en projektkontraktlinje
 
-_**Gælder for:** Lille udrulning - aftale til proformafakturering_
+_**Gælder for:** Lille udrulning – aftale til håndtering af proformafakturering, Project Operations for scenarier baseret på ressource/ikke-lager_ _
 
 I Dynamics 365 Project Operations kan du importere estimater fra et projekt til en projektbaseret kontraktlinje.
 

@@ -1,5 +1,5 @@
 ---
-title: Luk et tilbud - lille
+title: Lukke projekttilbud
 description: Denne artikel indeholder oplysninger om at lukke et tilbud i Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916925"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826168"
 ---
-# <a name="close-a-quote---lite"></a>Luk et tilbud - lille
+# <a name="close-project-quotes"></a>Lukke projekttilbud
 
 _**Gælder for:** Lille udrulning - aftale til proformafakturering_
 
@@ -30,7 +30,7 @@ Hvis tilbuddet er knyttet til en salgsmulighed, lukkes eventuelle andre projektt
 
 Hvis der er faktiske oplysninger om tid på et projekt, mens der stadig er tilknyttet et kladdetilbud, registreres kun omkostningerne ved tid eller udgifter. Når et tilbud er lukket som vundet, vil programmet omstrukturere omkostningerne ved at tilbageføre de gamle faktiske omkostninger og oprette nye faktiske omkostninger. Programmet behandler de faktiske omkostninger baseret på faktureringsmetoden for den tilknyttede projektkontraktlinje. Hvis de faktiske omkostninger refererer til en tids- og materialekontraktlinje, oprettes der tilsvarende ikke-fakturerede faktiske salgsværdier for, hvornår tilbuddet lukkes, og projektkontrakten oprettes. Hvis de faktiske omkostninger refererer til en fastpriskontraktlinje, stopper programmet med at genbehandle de faktiske omkostninger, der er baseret på de opdelte faktureringsregler for projektkontraktkunderne.
 
-## <a name="closing-a-quote-as-lost"></a>Lukning af et tilbud som tabt:
+## <a name="closing-a-quote-as-lost"></a>Lukke et tilbud som tabt
 
 Når du lukker et projekttilbud som Tabt, angives status til Lukket, og statusårsagen er Tabt. Hvis du lukker tilbuddet, bliver projekttilbuddet skrivebeskyttet. Da et lukket tilbud ikke kan genåbnes, før du lukker et tilbud, vil en bekræftelsesdialogboks bekræfte ændringerne.
 
