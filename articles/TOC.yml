@@ -846,7 +846,7 @@
               items:
                 - name: Forskudskontrakter og kontrakter baseret på forskudshonorar
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurere en planlægning for forskudshonorarer Konfigurere en planlægning for forskudshonorarer
+                - name: Konfigurere en planlægning for forskudshonorarer
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Oprette et ad hoc-forskud på en projektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfigurer automatisering af projektfaktura
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Opgradere
+    - name: Opgrader
       items:
         - name: Overvejelser om opgradering i forbindelse med moderne godkendelser
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -1552,9 +1552,9 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Nyheder eller ændringer i Project Service Automation v3
           href: psa/whats-new-changed-v3.md
-    - name: Opgradere Project Service Automation (appversion Project Operations lille 4.x)
+    - name: Opgrader Project Service Automation (appversion Project Operations lille 4.x)
       items:
-        - name: Opgradere fra Project Service Automation til Project Operations
+        - name: Opgrader fra Project Service Automation til Project Operations
           href: psa/upgrade-project-operations-non-stocked.md
         - name: Funktionsændringer fra Project Service Automation til Project Operations
           href: psa/psa-project-operations-changes.md
@@ -1574,7 +1574,7 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Rapporteringsvejledning
           href: psa/implementation-guides/reporting-guide.md
-    - name: Opgradere fra Project Service Automation til Project Operations – lille
+    - name: Opgrader fra Project Service Automation til Project Operations – lille
       href: psa/upgrade-project-operations-non-stocked.md
     - name: Funktionsændringer fra Project Service Automation til Project Operations
       href: psa/psa-project-operations-changes.md
